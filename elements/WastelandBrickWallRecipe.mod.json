@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "wasteland_blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WastelandBrick"
+      },
+      {
+        "value": "CUSTOM:WastelandBrick"
+      },
+      {
+        "value": "CUSTOM:WastelandBrick"
+      },
+      {
+        "value": "CUSTOM:WastelandBrick"
+      },
+      {
+        "value": "CUSTOM:WastelandBrick"
+      },
+      {
+        "value": "CUSTOM:WastelandBrick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WastelandBrickWall"
+    },
+    "name": "wasteland_brick_wall_recipe",
+    "namespace": "mod"
+  }
+}

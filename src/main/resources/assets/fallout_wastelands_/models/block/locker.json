@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/locker",
+  "textures": {
+    "all": "fallout_wastelands_:block/locker",
+    "particle": "fallout_wastelands_:block/oldmetalblock",
+    "1": "fallout_wastelands_:block/locker"
+  },
+  "render_type": "solid"
+}

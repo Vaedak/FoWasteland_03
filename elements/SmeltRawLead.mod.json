@@ -1,0 +1,22 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.5,
+    "cookingTime": 120,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawLead"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:LeadIngot"
+    },
+    "name": "smelt_raw_lead",
+    "namespace": "mod"
+  }
+}

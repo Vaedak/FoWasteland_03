@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left_open",
+  "textures": {
+    "particle": "fallout_wastelands_:block/bosdoordownfixed3",
+    "bottom": "fallout_wastelands_:block/bosdoordownfixed3",
+    "top": "fallout_wastelands_:block/bosdoorupfixed3"
+  },
+  "render_type": "solid"
+}

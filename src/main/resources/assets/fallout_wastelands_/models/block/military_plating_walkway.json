@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/militmetalplating",
+    "up": "fallout_wastelands_:block/militaryplategrated",
+    "north": "fallout_wastelands_:block/militmetalplating",
+    "east": "fallout_wastelands_:block/militmetalplating",
+    "south": "fallout_wastelands_:block/militmetalplating",
+    "west": "fallout_wastelands_:block/militmetalplating",
+    "particle": "fallout_wastelands_:block/militmetalplating"
+  },
+  "render_type": "solid"
+}

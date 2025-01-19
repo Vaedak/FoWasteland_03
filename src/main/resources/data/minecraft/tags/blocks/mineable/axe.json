@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fallout_wastelands_:charred_molder_fence",
+    "fallout_wastelands_:charred_molder_slab",
+    "fallout_wastelands_:charred_molder_stairs",
+    "fallout_wastelands_:charred_molder_wood_plank",
+    "fallout_wastelands_:reinforced_planks",
+    "fallout_wastelands_:barricadeplanks",
+    "fallout_wastelands_:strippedmolderwoodlog",
+    "fallout_wastelands_:molder_wood_wood",
+    "fallout_wastelands_:molder_wood_planks",
+    "fallout_wastelands_:molder_wood_trapdoor",
+    "fallout_wastelands_:molder_wood_door",
+    "fallout_wastelands_:molder_wood_log"
+  ]
+}

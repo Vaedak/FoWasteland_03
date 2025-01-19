@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "fallout_wastelands_:block/wastelandbrick",
+    "bottom": "fallout_wastelands_:block/wastelandbrick",
+    "top": "fallout_wastelands_:block/wastelandbrick",
+    "side": "fallout_wastelands_:block/wastelandbrick"
+  },
+  "render_type": "solid"
+}

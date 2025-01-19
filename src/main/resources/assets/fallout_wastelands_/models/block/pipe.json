@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/pipes",
+  "textures": {
+    "all": "fallout_wastelands_:block/rust",
+    "particle": "fallout_wastelands_:block/rust",
+    "0": "fallout_wastelands_:block/pipe"
+  },
+  "render_type": "cutout"
+}

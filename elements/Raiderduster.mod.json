@@ -1,0 +1,76 @@
+{
+  "_fv": 69,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "raiderdusterhelmet",
+    "enableBody": true,
+    "textureBody": "raiderduesterchest",
+    "enableLeggings": true,
+    "textureLeggings": "raiderdusterlegs",
+    "enableBoots": true,
+    "textureBoots": "raiderdusterboots",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelandcombat"
+      }
+    ],
+    "armorTextureFile": "raiderdusterlo_",
+    "helmetName": "Raider Duster Hood",
+    "bodyName": "Raider Duster Chestpads",
+    "leggingsName": "Raider Duster Loincloth",
+    "bootsName": "Raider Duster Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Modeldusterraiderarmor",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Modeldusterraiderarmor",
+    "bodyModelPart": "body",
+    "armsModelPartL": "leftarm",
+    "armsModelPartR": "rightarm",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Modeldusterraiderarmor",
+    "bootsModelPartL": "leftleg",
+    "bootsModelPartR": "rightleg",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 7,
+    "damageValueHelmet": 1,
+    "damageValueBody": 4,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 2,
+    "enchantability": 3,
+    "toughness": 0.1,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

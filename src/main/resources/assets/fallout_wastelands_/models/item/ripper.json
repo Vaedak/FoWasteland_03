@@ -1,0 +1,7 @@
+{
+  "parent": "fallout_wastelands_:custom/ripper",
+  "textures": {
+    "1": "fallout_wastelands_:block/ripperanimated",
+    "particle": "fallout_wastelands_:item/reaper"
+  }
+}

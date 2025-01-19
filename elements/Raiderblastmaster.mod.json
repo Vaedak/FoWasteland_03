@@ -1,0 +1,76 @@
+{
+  "_fv": 69,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "raiderblastmasterhelmet",
+    "enableBody": true,
+    "textureBody": "raiderblastmasterchest",
+    "enableLeggings": true,
+    "textureLeggings": "raiderblastmasterleggings",
+    "enableBoots": true,
+    "textureBoots": "raiderblastmastersandals",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelandcombat"
+      }
+    ],
+    "armorTextureFile": "raiderblastmaster_",
+    "helmetName": "Raider Blastmaster Helmet",
+    "bodyName": "Raider Blastmaster Chestplate",
+    "leggingsName": "Raider Blastmaster Loincloth",
+    "bootsName": "Raider Blastmaster Sandals",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Modelblastmasterraiderarmor",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Modelblastmasterraiderarmor",
+    "bodyModelPart": "body",
+    "armsModelPartL": "leftarm",
+    "armsModelPartR": "rightarm",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Modelblastmasterraiderarmor",
+    "leggingsModelPartL": "leftleg",
+    "leggingsModelPartR": "rightleg",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Modelblastmasterraiderarmor",
+    "bootsModelPartL": "leftleg",
+    "bootsModelPartR": "rightleg",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 16,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 0,
+    "toughness": 0.1,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

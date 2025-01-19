@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "fallout_wastelands_:block/industrialredplain",
+    "bottom": "fallout_wastelands_:block/industrialredplain",
+    "top": "fallout_wastelands_:block/industrialredplain",
+    "side": "fallout_wastelands_:block/industrialredplain"
+  },
+  "render_type": "solid"
+}

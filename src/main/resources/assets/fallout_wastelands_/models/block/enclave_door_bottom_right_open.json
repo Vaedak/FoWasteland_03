@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right_open",
+  "textures": {
+    "particle": "fallout_wastelands_:block/enclavedoorblock2",
+    "bottom": "fallout_wastelands_:block/enclavedoorblock2",
+    "top": "fallout_wastelands_:block/enclavedoorblock"
+  },
+  "render_type": "solid"
+}

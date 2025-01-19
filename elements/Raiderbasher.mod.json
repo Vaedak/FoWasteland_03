@@ -1,0 +1,76 @@
+{
+  "_fv": 69,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "raiderbasherhelmet",
+    "enableBody": true,
+    "textureBody": "raiderbasherchestplate",
+    "enableLeggings": true,
+    "textureLeggings": "raiderbasherpants",
+    "enableBoots": true,
+    "textureBoots": "raiderbasherboots",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelandcombat"
+      }
+    ],
+    "armorTextureFile": "raiderbasher_",
+    "helmetName": "Raider Basher Helmet",
+    "bodyName": "Raider Basher Chestplate",
+    "leggingsName": "Raider Basher Pants",
+    "bootsName": "Raider Basher Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Modelbasherraiderarmor",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Modelbasherraiderarmor",
+    "bodyModelPart": "body",
+    "armsModelPartL": "leftarm",
+    "armsModelPartR": "rightarm",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Modelbasherraiderarmor2",
+    "leggingsModelPartL": "rightleg",
+    "leggingsModelPartR": "rightleg",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Modelbasherraiderarmor",
+    "bootsModelPartL": "leftleg",
+    "bootsModelPartR": "rightleg",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 16,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 1,
+    "enchantability": 0,
+    "toughness": 0.2,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

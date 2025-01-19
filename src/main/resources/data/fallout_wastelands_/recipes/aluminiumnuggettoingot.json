@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:aluminiumnugget"
+    },
+    {
+      "item": "fallout_wastelands_:aluminiumnugget"
+    },
+    {
+      "item": "fallout_wastelands_:aluminiumnugget"
+    },
+    {
+      "item": "fallout_wastelands_:aluminiumnugget"
+    },
+    {
+      "item": "fallout_wastelands_:aluminiumnugget"
+    },
+    {
+      "item": "fallout_wastelands_:aluminiumnugget"
+    },
+    {
+      "item": "fallout_wastelands_:aluminiumnugget"
+    },
+    {
+      "item": "fallout_wastelands_:aluminiumnugget"
+    },
+    {
+      "item": "fallout_wastelands_:aluminiumnugget"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:aluminum_ingot",
+    "count": 1
+  }
+}

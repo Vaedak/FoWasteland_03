@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/deadlog",
+    "up": "fallout_wastelands_:block/deadlog",
+    "north": "fallout_wastelands_:block/deadlog",
+    "east": "fallout_wastelands_:block/deadlog",
+    "south": "fallout_wastelands_:block/deadlog",
+    "west": "fallout_wastelands_:block/deadlog",
+    "particle": "fallout_wastelands_:block/deadlog"
+  },
+  "render_type": "solid"
+}

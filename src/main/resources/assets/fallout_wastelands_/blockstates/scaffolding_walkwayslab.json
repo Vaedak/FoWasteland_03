@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fallout_wastelands_:block/scaffolding_walkwayslab"
+    },
+    "type=top": {
+      "model": "fallout_wastelands_:block/scaffolding_walkwayslab_top"
+    },
+    "type=double": {
+      "model": "fallout_wastelands_:block/scaffolding_walkwayslab_full"
+    }
+  }
+}

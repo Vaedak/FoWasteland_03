@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:lead_nugget"
+    },
+    {
+      "item": "fallout_wastelands_:lead_nugget"
+    },
+    {
+      "item": "fallout_wastelands_:lead_nugget"
+    },
+    {
+      "item": "fallout_wastelands_:lead_nugget"
+    },
+    {
+      "item": "fallout_wastelands_:lead_nugget"
+    },
+    {
+      "item": "fallout_wastelands_:lead_nugget"
+    },
+    {
+      "item": "fallout_wastelands_:lead_nugget"
+    },
+    {
+      "item": "fallout_wastelands_:lead_nugget"
+    },
+    {
+      "item": "fallout_wastelands_:lead_nugget"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:lead_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:steelnugget",
+    "count": 9
+  }
+}

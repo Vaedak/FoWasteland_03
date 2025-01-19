@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fallout_wastelands_:block/linedcconcrete",
+    "particle": "fallout_wastelands_:block/linedcconcrete"
+  },
+  "render_type": "solid"
+}

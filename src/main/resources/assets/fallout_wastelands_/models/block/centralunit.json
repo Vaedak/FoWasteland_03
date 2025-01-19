@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/centralunito",
+    "up": "fallout_wastelands_:block/centralunito",
+    "north": "fallout_wastelands_:block/animatedcentralunit",
+    "east": "fallout_wastelands_:block/centralunito",
+    "south": "fallout_wastelands_:block/centralunito",
+    "west": "fallout_wastelands_:block/centralunito",
+    "particle": "fallout_wastelands_:block/centralunito"
+  },
+  "render_type": "solid"
+}

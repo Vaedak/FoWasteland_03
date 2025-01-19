@@ -1,0 +1,7 @@
+{
+  "parent": "fallout_wastelands_:custom/pip_boy",
+  "textures": {
+    "0": "fallout_wastelands_:block/pipboyttf",
+    "particle": "fallout_wastelands_:item/portaligniter"
+  }
+}

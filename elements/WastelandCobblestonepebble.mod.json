@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "wasteland_blocks",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Wastelandpebble"
+      },
+      {
+        "value": "CUSTOM:Wastelandpebble"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Wastelandpebble"
+      },
+      {
+        "value": "CUSTOM:Wastelandpebble"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WastelandCobblestone"
+    },
+    "name": "wasteland_cobblestonepebble",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/trash_bin_modele",
+  "textures": {
+    "all": "fallout_wastelands_:block/moltensteel",
+    "particle": "fallout_wastelands_:block/oldmetalblock",
+    "0": "fallout_wastelands_:block/trashbin"
+  },
+  "render_type": "cutout"
+}

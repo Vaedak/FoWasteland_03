@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SCROLL",
+    "keyBindingName": "Stop Reload",
+    "keyBindingCategoryKey": "fallout_wastelands",
+    "onKeyPressed": {
+      "name": "StopReloadOnKeyPressed"
+    }
+  }
+}

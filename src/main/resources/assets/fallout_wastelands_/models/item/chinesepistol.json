@@ -1,0 +1,7 @@
+{
+  "parent": "fallout_wastelands_:custom/chinesepistol",
+  "textures": {
+    "0": "fallout_wastelands_:block/chinesepistol_b",
+    "particle": "fallout_wastelands_:item/chinesepistol_b"
+  }
+}

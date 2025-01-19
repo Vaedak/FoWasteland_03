@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 30,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wasteland_cobblestone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:granite"
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wasteland_cobblestone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:diorite"
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wasteland_cobblestone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wasteland_cobblestone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "fallout_wastelands_:wasteland_dirt"
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wasteland_cobblestone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "fallout_wastelands_:wastelandgrassblock",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wasteland_cobblestone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "fallout_wastelands_:wastelandgravel"
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wasteland_cobblestone"
+        }
+      }
+    ]
+  }
+}

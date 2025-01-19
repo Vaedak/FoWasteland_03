@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fallout_wastelands_:block/exposed_rust_block"
+    }
+  }
+}

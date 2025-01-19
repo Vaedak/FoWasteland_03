@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/undergroundbricks",
+    "up": "fallout_wastelands_:block/undergroundbricks",
+    "north": "fallout_wastelands_:block/undergroundbricks",
+    "east": "fallout_wastelands_:block/undergroundbricks",
+    "south": "fallout_wastelands_:block/undergroundbricks",
+    "west": "fallout_wastelands_:block/undergroundbricks",
+    "particle": "fallout_wastelands_:block/undergroundbricks"
+  },
+  "render_type": "solid"
+}

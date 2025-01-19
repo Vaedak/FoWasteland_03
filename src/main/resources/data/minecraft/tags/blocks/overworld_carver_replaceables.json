@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fallout_wastelands_:wastelandgrassblock",
+    "fallout_wastelands_:wasteland_dirt",
+    "fallout_wastelands_:wasteland_stone"
+  ]
+}

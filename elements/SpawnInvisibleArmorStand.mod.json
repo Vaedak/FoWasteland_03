@@ -1,0 +1,7 @@
+{
+  "_fv": 69,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"execute_command\"><comment h=\"80\" pinned=\"false\" w=\"160\">when executing command in name of entity/target, there can be issues to do permission level, this should fix that issue</comment><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">summon minecraft:armor_stand ~ ~ ~ {Invisible:1b}</field></block></value><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value></block></next></block></xml>"
+  }
+}

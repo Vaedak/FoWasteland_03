@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:steel_block",
+    "count": 1
+  }
+}

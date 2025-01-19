@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fallout_wastelands_:blocks/bos_steel_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:bos_steel_block"
+        }
+      ]
+    }
+  ]
+}

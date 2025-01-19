@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/bossteelblock",
+    "up": "fallout_wastelands_:block/bossteelblock",
+    "north": "fallout_wastelands_:block/bossteelblock",
+    "east": "fallout_wastelands_:block/bossteelblock",
+    "south": "fallout_wastelands_:block/bossteelblock",
+    "west": "fallout_wastelands_:block/bossteelblock",
+    "particle": "fallout_wastelands_:block/bossteelblock"
+  },
+  "render_type": "solid"
+}

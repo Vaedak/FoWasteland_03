@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "fallout_wastelands_:bos_metal_stairs",
+    "fallout_wastelands_:enclave_bunker_stairs",
+    "fallout_wastelands_:military_metal_stair",
+    "fallout_wastelands_:charred_molder_stairs",
+    "fallout_wastelands_:oxidized_metal_stair",
+    "fallout_wastelands_:bos_steel_stair",
+    "fallout_wastelands_:industrial_alloy_stair",
+    "fallout_wastelands_:scaffolding_walkway_stairs",
+    "fallout_wastelands_:worn_metal_stairs",
+    "fallout_wastelands_:wastelandtilesstairs",
+    "fallout_wastelands_:sheetmetalstairs",
+    "fallout_wastelands_:rustysheetmetalstairs",
+    "fallout_wastelands_:hardconcretestairs",
+    "fallout_wastelands_:wasteland_brick_stairs",
+    "fallout_wastelands_:cracked_wasteland_concrete_stairs",
+    "fallout_wastelands_:molder_wood_stairs",
+    "fallout_wastelands_:stair_wasteland_cobblestone",
+    "fallout_wastelands_:wasteland_concrete_stairs"
+  ]
+}

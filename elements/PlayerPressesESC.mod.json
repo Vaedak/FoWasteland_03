@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "ESCAPE",
+    "keyBindingName": "Player Closes Inventory",
+    "keyBindingCategoryKey": "fallout_wastelands",
+    "onKeyPressed": {
+      "name": "TurnOffFramecheck"
+    }
+  }
+}

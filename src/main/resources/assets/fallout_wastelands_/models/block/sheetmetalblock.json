@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fallout_wastelands_:block/tole_3",
+    "particle": "fallout_wastelands_:block/tole_3"
+  },
+  "render_type": "solid"
+}

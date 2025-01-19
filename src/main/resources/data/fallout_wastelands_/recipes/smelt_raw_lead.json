@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 2.5,
+  "cookingtime": 120,
+  "ingredient": {
+    "item": "fallout_wastelands_:raw_lead"
+  },
+  "result": "fallout_wastelands_:lead_ingot"
+}

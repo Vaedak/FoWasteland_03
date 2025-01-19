@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fallout_wastelands_:block/wire_fence"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/militmetalplating",
+    "up": "fallout_wastelands_:block/militmetalplating",
+    "north": "fallout_wastelands_:block/greenmetalplatingwindow",
+    "east": "fallout_wastelands_:block/greenmetalplatingwindow",
+    "south": "fallout_wastelands_:block/greenmetalplatingwindow",
+    "west": "fallout_wastelands_:block/greenmetalplatingwindow",
+    "particle": "fallout_wastelands_:block/militmetalplating"
+  },
+  "render_type": "translucent"
+}

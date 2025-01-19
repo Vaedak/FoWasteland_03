@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "fallout_wastelands_:wasteland_dryland",
+  "spawners": {
+    "type": "fallout_wastelands_:cannibal_00",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

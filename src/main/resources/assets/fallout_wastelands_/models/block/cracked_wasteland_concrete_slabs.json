@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "fallout_wastelands_:block/cracked_concrete",
+    "bottom": "fallout_wastelands_:block/cracked_concrete",
+    "top": "fallout_wastelands_:block/cracked_concrete",
+    "side": "fallout_wastelands_:block/cracked_concrete"
+  },
+  "render_type": "solid"
+}

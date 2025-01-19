@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/mixer",
+  "textures": {
+    "all": "fallout_wastelands_:block/enclavemetalplating1",
+    "particle": "fallout_wastelands_:block/enclavemetalplating1",
+    "0": "fallout_wastelands_:block/mixer"
+  },
+  "render_type": "solid"
+}

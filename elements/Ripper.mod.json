@@ -1,0 +1,66 @@
+{
+  "_fv": 69,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "reaper",
+    "customModelName": "ripper:default",
+    "customProperties": {},
+    "states": [],
+    "name": "Ripper",
+    "rarity": "UNCOMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelandcombat"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 12,
+    "useDuration": 100000,
+    "toolType": 2.7,
+    "damageCount": 1500,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 8.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "RipperStartSawing"
+    },
+    "onEntityHitWith": {
+      "name": "RipperLivingEntityIsHitWithTool"
+    },
+    "onItemInInventoryTick": {
+      "name": "RipperStopSawingNotInHand"
+    },
+    "onItemInUseTick": {
+      "name": "RipperSawAttack"
+    },
+    "onStoppedUsing": {
+      "name": "RipperStopSawing"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectileDisableAmmoCheck": false,
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "bow"
+  }
+}

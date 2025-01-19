@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right",
+  "textures": {
+    "particle": "fallout_wastelands_:block/depotdoordown",
+    "bottom": "fallout_wastelands_:block/depotdoordown",
+    "top": "fallout_wastelands_:block/depotdooroup"
+  },
+  "render_type": "cutout_mipped"
+}

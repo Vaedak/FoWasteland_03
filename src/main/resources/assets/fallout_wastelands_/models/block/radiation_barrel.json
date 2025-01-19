@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/radiationbarrel",
+  "textures": {
+    "all": "fallout_wastelands_:block/radiationbarrel",
+    "particle": "fallout_wastelands_:block/radiationbarrel",
+    "1": "fallout_wastelands_:block/radiationbarrel"
+  },
+  "render_type": "cutout"
+}

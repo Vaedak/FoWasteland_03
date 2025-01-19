@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Molder_WoodLog"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Molder_WoodLog"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Molder_WoodWood"
+    },
+    "name": "molder_wood_wood_recipe",
+    "namespace": "mod"
+  }
+}

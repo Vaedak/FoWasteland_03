@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "fallout_wastelands_:block/wastelandcharredgrass2",
+    "particle": "fallout_wastelands_:block/wastelandcharredgrass2"
+  },
+  "render_type": "cutout"
+}

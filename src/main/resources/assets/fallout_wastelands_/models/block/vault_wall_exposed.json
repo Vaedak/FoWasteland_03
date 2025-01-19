@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/vaultwallwired",
+    "up": "fallout_wastelands_:block/vaultwallwired",
+    "north": "fallout_wastelands_:block/vaultwallwired",
+    "east": "fallout_wastelands_:block/vaultwallwired",
+    "south": "fallout_wastelands_:block/vaultwallwired",
+    "west": "fallout_wastelands_:block/vaultwallwired",
+    "particle": "fallout_wastelands_:block/vaultwallwired"
+  },
+  "render_type": "solid"
+}

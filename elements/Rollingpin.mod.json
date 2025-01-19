@@ -1,0 +1,36 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "rollingpin",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Rolling Pin",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelandcombat"
+      }
+    ],
+    "efficiency": 2.0,
+    "attackSpeed": 0.8,
+    "enchantability": 0,
+    "damageVsEntity": 0.5,
+    "usageCount": 70,
+    "repairItems": [
+      {
+        "value": "Blocks.PLANKS"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

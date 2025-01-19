@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:tin_block"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:tiningot",
+    "count": 9
+  }
+}

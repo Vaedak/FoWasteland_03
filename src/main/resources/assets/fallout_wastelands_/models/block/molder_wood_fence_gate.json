@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "particle": "fallout_wastelands_:block/wastelandplanks",
+    "texture": "fallout_wastelands_:block/wastelandplanks"
+  },
+  "render_type": "solid"
+}

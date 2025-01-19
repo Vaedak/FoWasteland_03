@@ -1,0 +1,82 @@
+{
+  "pistol32firing": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:wpn_pistol32_fire_2d",
+        "stream": false
+      }
+    ]
+  },
+  "ripper": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:ripperhit",
+        "stream": false
+      }
+    ]
+  },
+  "ninemmshot": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:9mmshoot",
+        "stream": false
+      }
+    ]
+  },
+  "revolverreloading": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:revolver_reloading",
+        "stream": false
+      }
+    ]
+  },
+  "laserrifleshot": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:lasershoot_done",
+        "stream": false
+      }
+    ]
+  },
+  "pistolreloading": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:pistol_reloading",
+        "stream": false
+      }
+    ]
+  },
+  "minigunfire": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:minigun",
+        "stream": false
+      }
+    ]
+  },
+  "tenmmshot": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:10mmshoot",
+        "stream": false
+      }
+    ]
+  },
+  "lmgreloading": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:lmg_reload",
+        "stream": false
+      }
+    ]
+  },
+  "nailpistolshot": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:nailgunshot",
+        "stream": false
+      }
+    ]
+  }
+}

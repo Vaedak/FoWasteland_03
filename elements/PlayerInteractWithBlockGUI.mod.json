@@ -1,0 +1,7 @@
+{
+  "_fv": 69,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"395\" y=\"184\"><field name=\"trigger\">player_right_click_block</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"block_is_tagged_in\"><value name=\"a\"><block type=\"blockstate_from_deps\"/></value><value name=\"b\"><block type=\"text\"><field name=\"TEXT\">fallout_wastelands_:blocks_with_gui</field></block></value></block></value><statement name=\"DO0\"><block type=\"entity_nbt_logic_set\"><comment h=\"80\" pinned=\"false\" w=\"160\">if the player opens a menu with a gui they will press E which inverts the inventory keybind, so this helps prevent this issue but does not solve it</comment><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"tagName\"><block type=\"text\"><field name=\"TEXT\">inventoryOpen</field></block></value><value name=\"tagValue\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value></block></statement></block></next></block></xml>"
+  }
+}

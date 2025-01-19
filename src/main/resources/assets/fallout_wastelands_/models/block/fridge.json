@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/fridge",
+  "textures": {
+    "all": "fallout_wastelands_:block/aluminum_block",
+    "particle": "fallout_wastelands_:block/aluminum_block",
+    "1": "fallout_wastelands_:block/fridge"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "_fv": 69,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"item_nbt_logic_set\"><comment h=\"80\" pinned=\"false\" w=\"160\">when making the assault rifle food, the \"start using\" and \"stop using\" procedures function, this enables full auto to start when player uses the gun then stop when the player stops. super high eating time prevents player from eating their gun : )</comment><value name=\"tagName\"><block type=\"text\"><field name=\"TEXT\">autoFire</field></block></value><value name=\"item\"><block type=\"itemstack_to_mcitem\"/></value><value name=\"tagValue\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_locker_storage",
+          "image": "buttonplaceholdertexture.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "OpenBASEInventory"
+          },
+          "x": 113,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_inventory",
+          "text": {
+            "fixedValue": "Inventory"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "Note: it may be better instead of using text boxes to instead"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 421,
+          "y": 146
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_d",
+          "text": {
+            "fixedValue": " use an image with the texts and use button images"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 410,
+          "y": 158
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_done",
+          "text": {
+            "fixedValue": "Done"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 58,
+          "y": 221
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonplaceholdertexture",
+          "image": "buttonplaceholdertexture.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ExitMenuUI"
+          },
+          "x": 43,
+          "y": 218
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Name",
+          "name": "NameInput",
+          "width": 120,
+          "height": 20,
+          "x": 172,
+          "y": 3
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_done1",
+          "text": {
+            "fixedValue": "Done"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 295,
+          "y": 8
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonplaceholdertexture1",
+          "image": "buttonplaceholdertexture.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "SetBASEName"
+          },
+          "x": 316,
+          "y": 5
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_done2",
+          "text": {
+            "fixedValue": "Done"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 412,
+          "y": 129
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_caps",
+          "text": {
+            "fixedValue": "Caps"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 417,
+          "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_input_caps",
+          "text": {
+            "fixedValue": "Input Caps"
+          },
+          "color": {
+            "value": -3368704,
+            "falpha": 0.0
+          },
+          "x": 416,
+          "y": 114
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonplaceholdertexture2",
+          "image": "buttonplaceholdertexture.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "InputCapsBASEUI"
+          },
+          "x": 39,
+          "y": 105
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_caps_expense",
+          "text": {
+            "fixedValue": "Caps Expense"
+          },
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "x": 394,
+          "y": 92
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_varlocalvar",
+          "text": {
+            "fixedValue": "DisplaysInputName",
+            "name": "DisplayBaseNameStored"
+          },
+          "color": {
+            "value": -16724992,
+            "falpha": 0.0
+          },
+          "x": 51,
+          "y": 11
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_base_menu_ui_while_this_gui",
+          "text": {
+            "fixedValue": "capsStored",
+            "name": "DisplayCapsStored"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 398,
+          "y": 80
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 200,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 55,
+          "y": 58
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 201,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 54,
+          "y": 135
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "base_main_menu.png",
+          "use1Xscale": false,
+          "x": 42,
+          "y": 0
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "particle": "fallout_wastelands_:block/steelbars",
+    "edge": "fallout_wastelands_:block/steelbars",
+    "pane": "fallout_wastelands_:block/steelbars"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/medicalstash",
+  "textures": {
+    "all": "fallout_wastelands_:block/plaster",
+    "particle": "fallout_wastelands_:block/plaster",
+    "0": "fallout_wastelands_:block/medibox"
+  },
+  "render_type": "solid"
+}

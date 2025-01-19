@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/lead_block",
+    "up": "fallout_wastelands_:block/lead_block",
+    "north": "fallout_wastelands_:block/lead_block",
+    "east": "fallout_wastelands_:block/lead_block",
+    "south": "fallout_wastelands_:block/lead_block",
+    "west": "fallout_wastelands_:block/lead_block",
+    "particle": "fallout_wastelands_:block/lead_block"
+  },
+  "render_type": "solid"
+}

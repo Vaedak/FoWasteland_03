@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fallout_wastelands_:blocks/wall_wasteland_cobblestone",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:wall_wasteland_cobblestone"
+        }
+      ]
+    }
+  ]
+}

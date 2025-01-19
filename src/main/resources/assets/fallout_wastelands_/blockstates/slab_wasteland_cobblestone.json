@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fallout_wastelands_:block/slab_wasteland_cobblestone"
+    },
+    "type=top": {
+      "model": "fallout_wastelands_:block/slab_wasteland_cobblestone_top"
+    },
+    "type=double": {
+      "model": "fallout_wastelands_:block/slab_wasteland_cobblestone_full"
+    }
+  }
+}

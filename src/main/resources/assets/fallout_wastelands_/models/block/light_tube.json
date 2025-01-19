@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/lighttube",
+  "textures": {
+    "all": "fallout_wastelands_:block/brokenglass",
+    "particle": "fallout_wastelands_:block/brokenglass",
+    "1": "fallout_wastelands_:block/lighttube"
+  },
+  "render_type": "solid"
+}

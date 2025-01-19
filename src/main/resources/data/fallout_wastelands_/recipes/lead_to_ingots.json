@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:lead_block"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:lead_ingot",
+    "count": 9
+  }
+}

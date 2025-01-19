@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 3.4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "fallout_wastelands_:raw_uranium"
+  },
+  "result": "fallout_wastelands_:uranium_ingot"
+}

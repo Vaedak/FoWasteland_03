@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/terminal",
+  "textures": {
+    "all": "fallout_wastelands_:block/bossteelblock",
+    "particle": "fallout_wastelands_:block/bossteelblock",
+    "1": "fallout_wastelands_:block/terminal"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fallout_wastelands_:block/bunker_block_light"
+    },
+    "facing=east": {
+      "model": "fallout_wastelands_:block/bunker_block_light",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fallout_wastelands_:block/bunker_block_light",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fallout_wastelands_:block/bunker_block_light",
+      "y": 270
+    }
+  }
+}

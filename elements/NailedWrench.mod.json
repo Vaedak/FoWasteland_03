@@ -1,0 +1,41 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "wrenchwithanail",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Wrench",
+    "specialInformation": {
+      "fixedValue": [
+        "Some nails cannot harm ... can they ?"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelandcombat"
+      }
+    ],
+    "efficiency": 2.0,
+    "attackSpeed": 0.6,
+    "enchantability": 0,
+    "damageVsEntity": 4.5,
+    "usageCount": 90,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": "CUSTOM:Nail"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

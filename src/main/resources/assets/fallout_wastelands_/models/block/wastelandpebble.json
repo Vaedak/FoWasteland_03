@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/wastelandpebbles",
+  "textures": {
+    "all": "fallout_wastelands_:block/pebbles",
+    "particle": "fallout_wastelands_:block/wastelandgravel",
+    "0": "fallout_wastelands_:block/pebbles"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.5,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawAluminum"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:AluminumIngot"
+    },
+    "name": "smelt_aluminum_ore",
+    "namespace": "mod"
+  }
+}

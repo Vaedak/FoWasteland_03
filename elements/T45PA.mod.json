@@ -1,0 +1,76 @@
+{
+  "_fv": 69,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "powerarmor_helmet",
+    "enableBody": true,
+    "textureBody": "powerarmorchestpiece",
+    "enableLeggings": true,
+    "textureLeggings": "powerarmorlegs",
+    "enableBoots": true,
+    "textureBoots": "powerarmorboots",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelandcombat"
+      }
+    ],
+    "armorTextureFile": "combatmk1b_",
+    "helmetName": "T45 Helmet",
+    "bodyName": "T45 Chestplate",
+    "leggingsName": "T45 Leggings",
+    "bootsName": "T45 Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "ModelBighorn",
+    "helmetModelPart": "left_back_leg",
+    "helmetModelTexture": "bighorn_texture.png",
+    "bodyModelName": "ModelBighorn",
+    "bodyModelPart": "left_back_leg",
+    "armsModelPartL": "left_back_leg",
+    "armsModelPartR": "left_back_leg",
+    "bodyModelTexture": "bighorn_texture.png",
+    "leggingsModelName": "Modelblastmasterraiderarmor",
+    "leggingsModelPartL": "head",
+    "leggingsModelPartR": "head",
+    "leggingsModelTexture": "bighorn_texture.png",
+    "bootsModelName": "ModelBighorn",
+    "bootsModelPartL": "left_back_leg",
+    "bootsModelPartR": "left_back_leg",
+    "bootsModelTexture": "bighorn_texture.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 40,
+    "damageValueHelmet": 6,
+    "damageValueBody": 8,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 4,
+    "enchantability": 10,
+    "toughness": 4.0,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

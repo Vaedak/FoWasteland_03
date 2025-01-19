@@ -1,0 +1,7 @@
+{
+  "parent": "fallout_wastelands_:custom/32pistol",
+  "textures": {
+    "0": "fallout_wastelands_:block/32pistol",
+    "particle": "fallout_wastelands_:item/32pistol"
+  }
+}

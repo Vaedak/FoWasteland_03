@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:steelnugget"
+    },
+    {
+      "item": "fallout_wastelands_:steelnugget"
+    },
+    {
+      "item": "fallout_wastelands_:steelnugget"
+    },
+    {
+      "item": "fallout_wastelands_:steelnugget"
+    },
+    {
+      "item": "fallout_wastelands_:steelnugget"
+    },
+    {
+      "item": "fallout_wastelands_:steelnugget"
+    },
+    {
+      "item": "fallout_wastelands_:steelnugget"
+    },
+    {
+      "item": "fallout_wastelands_:steelnugget"
+    },
+    {
+      "item": "fallout_wastelands_:steelnugget"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:steel_ingot",
+    "count": 1
+  }
+}

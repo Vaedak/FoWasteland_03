@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Wasteland Items",
+    "icon": {
+      "value": "CUSTOM:Jerrican"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fallout_wastelands_:blocks/enclave_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:enclave_door",
+          "conditions": [
+            {
+              "block": "fallout_wastelands_:enclave_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

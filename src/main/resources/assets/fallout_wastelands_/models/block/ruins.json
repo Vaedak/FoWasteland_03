@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fallout_wastelands_:block/iwrusted",
+    "particle": "fallout_wastelands_:block/iwrusted"
+  },
+  "render_type": "solid"
+}

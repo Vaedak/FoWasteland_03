@@ -1,0 +1,7 @@
+{
+  "_fv": 69,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"116\" y=\"64\"><field name=\"trigger\">player_right_click_block</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"compare_mcitems_oredictionary\"><value name=\"a\"><block type=\"entity_iteminhand\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"b\"><block type=\"text\"><field name=\"TEXT\">fallout_wastelands_:gun</field></block></value></block></value><statement name=\"DO0\"><block type=\"entity_nbt_num_set\"><comment h=\"80\" pinned=\"false\" w=\"160\">when the player opens a door or chest they swing their hand causing a gun in their hand to shoot, this procedure detects this and sets a short cooldown on the gun to avoid shooting, There is another procedure doing this too in this same folder for dropping items</comment><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"tagName\"><block type=\"text\"><field name=\"TEXT\">cooldown</field></block></value><value name=\"tagValue\"><block type=\"math_number\"><field name=\"NUM\">5</field></block></value></block></statement></block></next></block></xml>"
+  }
+}

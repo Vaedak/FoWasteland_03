@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "particle": "fallout_wastelands_:block/rottenwoodplate",
+    "texture": "fallout_wastelands_:block/rottenwoodplate"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Wasteland Blocks",
+    "icon": {
+      "value": "CUSTOM:WastelandStone"
+    },
+    "showSearch": false
+  }
+}

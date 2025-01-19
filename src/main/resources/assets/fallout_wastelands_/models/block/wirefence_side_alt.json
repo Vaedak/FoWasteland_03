@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "particle": "fallout_wastelands_:block/wire_fence",
+    "edge": "fallout_wastelands_:block/wire_fence",
+    "pane": "fallout_wastelands_:block/wire_fence"
+  },
+  "render_type": "cutout_mipped"
+}

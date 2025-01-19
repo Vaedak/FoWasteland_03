@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "fallout_wastelands_:wasteland_plains",
+  "features": "fallout_wastelands_:wasteland_dirt",
+  "step": "underground_ores"
+}

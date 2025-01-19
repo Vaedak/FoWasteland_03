@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/ammoboxm",
+  "textures": {
+    "all": "fallout_wastelands_:block/uranium_block",
+    "particle": "fallout_wastelands_:block/uranium_block",
+    "0": "fallout_wastelands_:block/ammobox"
+  },
+  "render_type": "cutout"
+}

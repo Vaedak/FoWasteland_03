@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/metalshelf",
+  "textures": {
+    "all": "fallout_wastelands_:block/filing_cabinets",
+    "particle": "fallout_wastelands_:block/oldmetalblock",
+    "0": "fallout_wastelands_:block/metalshelf"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/walkwaysidedown",
+    "up": "fallout_wastelands_:block/walkwaytop",
+    "north": "fallout_wastelands_:block/walkwaysidetwo",
+    "east": "fallout_wastelands_:block/walkwaysideone",
+    "south": "fallout_wastelands_:block/walkwaysidetwo",
+    "west": "fallout_wastelands_:block/walkwaysideone",
+    "particle": "fallout_wastelands_:block/walkwaysidedown"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/plaster",
+    "up": "fallout_wastelands_:block/plaster",
+    "north": "fallout_wastelands_:block/plaster",
+    "east": "fallout_wastelands_:block/plaster",
+    "south": "fallout_wastelands_:block/plaster",
+    "west": "fallout_wastelands_:block/plaster",
+    "particle": "fallout_wastelands_:block/plaster"
+  },
+  "render_type": "solid"
+}

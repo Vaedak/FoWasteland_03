@@ -1,0 +1,36 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "tireiron",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Tire Iron",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelandcombat"
+      }
+    ],
+    "efficiency": 6.5,
+    "attackSpeed": 0.8,
+    "enchantability": 0,
+    "damageVsEntity": 5.5,
+    "usageCount": 70,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LeadIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/metalchair",
+  "textures": {
+    "all": "fallout_wastelands_:block/moltentin",
+    "particle": "fallout_wastelands_:block/moltentin",
+    "0": "fallout_wastelands_:block/metalchair"
+  },
+  "render_type": "cutout"
+}

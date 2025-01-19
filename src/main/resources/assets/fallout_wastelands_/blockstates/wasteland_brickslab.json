@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fallout_wastelands_:block/wasteland_brickslab"
+    },
+    "type=top": {
+      "model": "fallout_wastelands_:block/wasteland_brickslab_top"
+    },
+    "type=double": {
+      "model": "fallout_wastelands_:block/wasteland_brickslab_full"
+    }
+  }
+}

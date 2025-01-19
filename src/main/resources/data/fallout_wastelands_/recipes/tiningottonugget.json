@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:tiningot"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:tinnugget",
+    "count": 9
+  }
+}

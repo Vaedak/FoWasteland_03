@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fallout_wastelands_:block/concretetile",
+    "particle": "fallout_wastelands_:block/concretetile"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "fallout_wastelands_:block/bossteelblock",
+    "bottom": "fallout_wastelands_:block/bossteelblock",
+    "top": "fallout_wastelands_:block/bossteelblock",
+    "side": "fallout_wastelands_:block/bossteelblock"
+  },
+  "render_type": "solid"
+}

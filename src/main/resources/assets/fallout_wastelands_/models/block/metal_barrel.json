@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/barrel",
+  "textures": {
+    "all": "fallout_wastelands_:block/metalbarrel",
+    "particle": "fallout_wastelands_:block/metalbarrel",
+    "1": "fallout_wastelands_:block/metalbarrel"
+  },
+  "render_type": "cutout"
+}

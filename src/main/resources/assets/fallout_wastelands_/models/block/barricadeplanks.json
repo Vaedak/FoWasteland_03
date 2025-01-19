@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fallout_wastelands_:block/spacedplanks",
+    "particle": "fallout_wastelands_:block/spacedplanks"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,125 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:fallout_wastelands_:pa_boots"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 240,
+          "y": 97
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:fallout_wastelands_:pa_leggings"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 240,
+          "y": 76
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:fallout_wastelands_:pa_chestplate"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 240,
+          "y": 56
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "TAG:fallout_wastelands_:pa_helmet"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 240,
+          "y": 37
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "HelperProcedureGetFrameEntity"
+          },
+          "scale": 30,
+          "rotationX": 0,
+          "followMouseMovement": false,
+          "x": 161,
+          "y": 84
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pickup",
+          "text": "Pickup",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PickupFrame"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 284,
+          "y": 96
+        }
+      }
+    ],
+    "onTick": {
+      "name": "PowerArmorFrameGUIWhileThisGUIIsOpenTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "chinesepistol_b"
+      },
+      "name": "default"
+    }
+  }
+}

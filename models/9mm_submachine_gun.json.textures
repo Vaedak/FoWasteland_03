@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "9mm_submachine_gun_texture"
+      },
+      "name": "default"
+    }
+  }
+}

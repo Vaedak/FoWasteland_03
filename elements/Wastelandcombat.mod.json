@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Wastelands Combat",
+    "icon": {
+      "value": "CUSTOM:Raiderblastmaster.helmet"
+    },
+    "showSearch": false
+  }
+}

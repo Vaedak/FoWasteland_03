@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/television",
+  "textures": {
+    "all": "fallout_wastelands_:block/concreteblock",
+    "particle": "fallout_wastelands_:block/concreteblock",
+    "0": "fallout_wastelands_:block/television_texture"
+  },
+  "render_type": "cutout"
+}

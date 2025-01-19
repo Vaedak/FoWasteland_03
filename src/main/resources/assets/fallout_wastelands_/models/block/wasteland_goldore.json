@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fallout_wastelands_:block/wastelandgoldore",
+    "particle": "fallout_wastelands_:block/wastelandgoldore"
+  },
+  "render_type": "solid"
+}

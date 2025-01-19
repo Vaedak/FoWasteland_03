@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fallout_wastelands_:molder_wood_fence",
+    "fallout_wastelands_:molder_wood_fence_gate",
+    "fallout_wastelands_:wirefence",
+    "fallout_wastelands_:charred_molder_fence"
+  ]
+}

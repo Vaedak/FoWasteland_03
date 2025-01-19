@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:wasteland_stone"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:wastelandbricks",
+    "count": 4
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fallout_wastelands_:block/the_glow_dirt",
+    "particle": "fallout_wastelands_:block/the_glow_dirt"
+  },
+  "render_type": "solid"
+}

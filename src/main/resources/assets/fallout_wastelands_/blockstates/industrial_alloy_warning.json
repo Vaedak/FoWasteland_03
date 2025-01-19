@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fallout_wastelands_:block/industrial_alloy_warning"
+    },
+    "facing=east": {
+      "model": "fallout_wastelands_:block/industrial_alloy_warning",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fallout_wastelands_:block/industrial_alloy_warning",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fallout_wastelands_:block/industrial_alloy_warning",
+      "y": 270
+    }
+  }
+}

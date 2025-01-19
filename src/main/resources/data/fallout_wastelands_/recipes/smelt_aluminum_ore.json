@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 2.5,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "fallout_wastelands_:raw_aluminum"
+  },
+  "result": "fallout_wastelands_:aluminum_ingot"
+}

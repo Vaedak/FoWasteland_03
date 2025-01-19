@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Molder_WoodStairs"
+    },
+    "name": "molder_wood_stairs_recipe",
+    "namespace": "mod"
+  }
+}

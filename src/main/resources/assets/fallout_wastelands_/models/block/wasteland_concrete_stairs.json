@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "fallout_wastelands_:block/vconcrete",
+    "bottom": "fallout_wastelands_:block/vconcrete",
+    "top": "fallout_wastelands_:block/vconcrete",
+    "side": "fallout_wastelands_:block/vconcrete"
+  },
+  "render_type": "solid"
+}

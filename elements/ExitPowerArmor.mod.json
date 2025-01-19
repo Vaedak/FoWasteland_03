@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "X",
+    "keyBindingName": "Exit Power Armor",
+    "keyBindingCategoryKey": "fallout_wastelands_",
+    "onKeyPressed": {
+      "name": "ExitPowerArmorKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "fallout_wastelands_:block/militmetalplating",
+    "bottom": "fallout_wastelands_:block/militmetalplating",
+    "top": "fallout_wastelands_:block/militaryplategrated",
+    "side": "fallout_wastelands_:block/militaryplatehazard"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/ceilinglight",
+  "textures": {
+    "all": "fallout_wastelands_:block/cellinglight",
+    "particle": "fallout_wastelands_:block/cellinglight",
+    "0": "fallout_wastelands_:block/cellinglight"
+  },
+  "render_type": "solid"
+}

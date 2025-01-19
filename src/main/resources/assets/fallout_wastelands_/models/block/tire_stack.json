@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/tirestack",
+  "textures": {
+    "all": "fallout_wastelands_:block/tirestack",
+    "particle": "fallout_wastelands_:block/tirestack",
+    "0": "fallout_wastelands_:block/tirestack"
+  },
+  "render_type": "cutout"
+}

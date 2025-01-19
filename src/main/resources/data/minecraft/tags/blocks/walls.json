@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "fallout_wastelands_:wasteland_concrete_wall",
+    "fallout_wastelands_:wall_wasteland_cobblestone",
+    "fallout_wastelands_:cracked_wasteland_concrete_wall",
+    "fallout_wastelands_:wasteland_brick_wall",
+    "fallout_wastelands_:barricadesheetmetalblock",
+    "fallout_wastelands_:double_scaffold_wall",
+    "fallout_wastelands_:oxidized_metal_wall",
+    "fallout_wastelands_:rusted_sheet_metal_wall",
+    "fallout_wastelands_:military_metal_plate_wall"
+  ]
+}

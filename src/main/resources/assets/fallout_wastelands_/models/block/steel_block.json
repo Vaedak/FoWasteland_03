@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/steelblock",
+    "up": "fallout_wastelands_:block/steelblock",
+    "north": "fallout_wastelands_:block/steelblock",
+    "east": "fallout_wastelands_:block/steelblock",
+    "south": "fallout_wastelands_:block/steelblock",
+    "west": "fallout_wastelands_:block/steelblock",
+    "particle": "fallout_wastelands_:block/steelblock"
+  },
+  "render_type": "solid"
+}

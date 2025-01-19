@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/wastelandglass1",
+    "up": "fallout_wastelands_:block/wastelandglass1",
+    "north": "fallout_wastelands_:block/wastelandglass1",
+    "east": "fallout_wastelands_:block/wastelandglass1",
+    "south": "fallout_wastelands_:block/wastelandglass1",
+    "west": "fallout_wastelands_:block/wastelandglass1",
+    "particle": "fallout_wastelands_:block/wastelandglass1"
+  },
+  "render_type": "translucent"
+}

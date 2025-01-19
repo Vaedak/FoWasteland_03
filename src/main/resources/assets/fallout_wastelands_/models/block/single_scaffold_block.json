@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/scaffoldtop",
+    "up": "fallout_wastelands_:block/scaffoldtop",
+    "north": "fallout_wastelands_:block/singlescaffold",
+    "east": "fallout_wastelands_:block/singlescaffold",
+    "south": "fallout_wastelands_:block/singlescaffold",
+    "west": "fallout_wastelands_:block/singlescaffold",
+    "particle": "fallout_wastelands_:block/scaffoldtop"
+  },
+  "render_type": "translucent"
+}

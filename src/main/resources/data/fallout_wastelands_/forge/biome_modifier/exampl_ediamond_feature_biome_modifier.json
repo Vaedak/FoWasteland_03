@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "fallout_wastelands_:exampl_ediamond_feature",
+  "step": "surface_structures"
+}

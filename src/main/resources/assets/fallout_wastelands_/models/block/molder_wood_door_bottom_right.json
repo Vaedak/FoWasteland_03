@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right",
+  "textures": {
+    "particle": "fallout_wastelands_:block/rottenwooddoorbottom",
+    "bottom": "fallout_wastelands_:block/rottenwooddoorbottom",
+    "top": "fallout_wastelands_:block/rottenwooddoortop"
+  },
+  "render_type": "solid"
+}

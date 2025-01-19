@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/vaultwall",
+    "up": "fallout_wastelands_:block/vaultwall",
+    "north": "fallout_wastelands_:block/vaultwall",
+    "east": "fallout_wastelands_:block/vaultwall",
+    "south": "fallout_wastelands_:block/vaultwall",
+    "west": "fallout_wastelands_:block/vaultwall",
+    "particle": "fallout_wastelands_:block/vaultwall"
+  },
+  "render_type": "solid"
+}

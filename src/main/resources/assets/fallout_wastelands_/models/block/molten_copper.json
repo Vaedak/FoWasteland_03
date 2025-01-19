@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fallout_wastelands_:block/moltencopper",
+    "particle": "fallout_wastelands_:block/moltencopper"
+  },
+  "render_type": "solid"
+}

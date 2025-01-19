@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "fallout_wastelands_:block/militmetalplating",
+    "particle": "fallout_wastelands_:block/militmetalplating"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/barbed_wire_top-export",
+    "up": "fallout_wastelands_:block/barbed_wire_top-export",
+    "north": "fallout_wastelands_:block/barber_wire_front",
+    "east": "fallout_wastelands_:block/barbed_wire_side",
+    "south": "fallout_wastelands_:block/barber_wire_front",
+    "west": "fallout_wastelands_:block/barbed_wire_side",
+    "particle": "fallout_wastelands_:block/barbed_wire_top-export"
+  },
+  "render_type": "translucent"
+}

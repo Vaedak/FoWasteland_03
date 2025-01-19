@@ -1,0 +1,25 @@
+{
+  "_fv": 69,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "despawnArmorStand",
+    "icon": "invisibleeffect.png",
+    "color": {
+      "value": -25856,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onActiveTick": {
+      "name": "CheckIfRiding"
+    },
+    "onExpired": {
+      "name": "CheckIfRiding"
+    }
+  }
+}

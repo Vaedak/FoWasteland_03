@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/floorblock",
+  "textures": {
+    "all": "fallout_wastelands_:block/plaster",
+    "particle": "fallout_wastelands_:block/plaster",
+    "0": "fallout_wastelands_:block/oldpapers"
+  },
+  "render_type": "cutout"
+}

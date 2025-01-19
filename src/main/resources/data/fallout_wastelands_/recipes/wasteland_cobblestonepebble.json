@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wasteland_blocks",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:wastelandpebble"
+    },
+    {
+      "item": "fallout_wastelands_:wastelandpebble"
+    },
+    {
+      "item": "fallout_wastelands_:wastelandpebble"
+    },
+    {
+      "item": "fallout_wastelands_:wastelandpebble"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:wasteland_cobblestone",
+    "count": 1
+  }
+}

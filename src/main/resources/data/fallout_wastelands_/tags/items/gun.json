@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "fallout_wastelands_:revolver_32",
+    "fallout_wastelands_:ninemmpistol",
+    "fallout_wastelands_:tenmmpistol",
+    "fallout_wastelands_:tenmmhomemadeassaultrifle",
+    "fallout_wastelands_:laserrifle",
+    "fallout_wastelands_:plasmarifle",
+    "fallout_wastelands_:nailgun",
+    "fallout_wastelands_:chinesepistol",
+    "fallout_wastelands_:fivemmminigun"
+  ]
+}

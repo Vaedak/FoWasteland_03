@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/industrialredplain",
+    "up": "fallout_wastelands_:block/industrialredvent",
+    "north": "fallout_wastelands_:block/industrialred",
+    "east": "fallout_wastelands_:block/industrialred",
+    "south": "fallout_wastelands_:block/industrialred",
+    "west": "fallout_wastelands_:block/industrialred",
+    "particle": "fallout_wastelands_:block/industrialredplain"
+  },
+  "render_type": "solid"
+}

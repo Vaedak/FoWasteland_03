@@ -1,0 +1,7 @@
+{
+  "parent": "fallout_wastelands_:custom/9mm",
+  "textures": {
+    "2": "fallout_wastelands_:block/9mm",
+    "particle": "fallout_wastelands_:item/9mm"
+  }
+}

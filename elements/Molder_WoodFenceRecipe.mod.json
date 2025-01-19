@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_fence",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Molder_WoodFence"
+    },
+    "name": "molder_wood_fence_recipe",
+    "namespace": "mod"
+  }
+}

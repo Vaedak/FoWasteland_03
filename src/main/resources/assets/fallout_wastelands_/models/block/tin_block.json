@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/tinblock",
+    "up": "fallout_wastelands_:block/tinblock",
+    "north": "fallout_wastelands_:block/tinblock",
+    "east": "fallout_wastelands_:block/tinblock",
+    "south": "fallout_wastelands_:block/tinblock",
+    "west": "fallout_wastelands_:block/tinblock",
+    "particle": "fallout_wastelands_:block/tinblock"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/oldmetalblock",
+    "up": "fallout_wastelands_:block/jigsawblockarrow",
+    "north": "fallout_wastelands_:block/oldmetalblock",
+    "east": "fallout_wastelands_:block/oldmetalblock",
+    "south": "fallout_wastelands_:block/oldmetalblock",
+    "west": "fallout_wastelands_:block/oldmetalblock",
+    "particle": "fallout_wastelands_:block/oldmetalblock"
+  },
+  "render_type": "solid"
+}

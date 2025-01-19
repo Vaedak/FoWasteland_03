@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:molder_wood_planks"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:molder_wood_trapdoor",
+    "count": 2
+  }
+}

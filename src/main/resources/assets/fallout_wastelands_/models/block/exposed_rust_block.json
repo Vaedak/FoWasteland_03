@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fallout_wastelands_:block/rustblock",
+    "particle": "fallout_wastelands_:block/rustblock"
+  },
+  "render_type": "solid"
+}

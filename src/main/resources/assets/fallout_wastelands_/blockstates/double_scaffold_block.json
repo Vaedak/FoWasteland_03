@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "fallout_wastelands_:block/double_scaffold_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "fallout_wastelands_:block/double_scaffold_block"
+    },
+    "axis=z": {
+      "model": "fallout_wastelands_:block/double_scaffold_block",
+      "x": 90
+    }
+  }
+}

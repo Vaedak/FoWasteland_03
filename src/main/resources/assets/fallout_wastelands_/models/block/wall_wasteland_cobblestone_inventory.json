@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "fallout_wastelands_:block/wastelandrock",
+    "particle": "fallout_wastelands_:block/wastelandrock"
+  },
+  "render_type": "solid"
+}

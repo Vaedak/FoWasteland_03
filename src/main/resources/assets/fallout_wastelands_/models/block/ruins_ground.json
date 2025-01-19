@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/ruinplatingtop",
+    "up": "fallout_wastelands_:block/ruinplatingtop",
+    "north": "fallout_wastelands_:block/ruinplatinside",
+    "east": "fallout_wastelands_:block/ruinplatinside",
+    "south": "fallout_wastelands_:block/ruinplatinside",
+    "west": "fallout_wastelands_:block/ruinplatinside",
+    "particle": "fallout_wastelands_:block/ruinplatingtop"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:uranium_ingot"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:uranium_nugget",
+    "count": 9
+  }
+}

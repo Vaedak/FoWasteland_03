@@ -1,0 +1,7 @@
+{
+  "parent": "fallout_wastelands_:custom/lasergun",
+  "textures": {
+    "0": "fallout_wastelands_:block/lr",
+    "particle": "fallout_wastelands_:item/lr"
+  }
+}

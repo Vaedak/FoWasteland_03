@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fallout_wastelands_:block/filing_cabinet"
+    },
+    "facing=east": {
+      "model": "fallout_wastelands_:block/filing_cabinet",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fallout_wastelands_:block/filing_cabinet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fallout_wastelands_:block/filing_cabinet",
+      "y": 270
+    }
+  }
+}

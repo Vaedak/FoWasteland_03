@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/strippeddeadlogtop",
+    "up": "fallout_wastelands_:block/strippeddeadlogtop",
+    "north": "fallout_wastelands_:block/strippeddeadlog",
+    "east": "fallout_wastelands_:block/strippeddeadlog",
+    "south": "fallout_wastelands_:block/strippeddeadlog",
+    "west": "fallout_wastelands_:block/strippeddeadlog",
+    "particle": "fallout_wastelands_:block/strippeddeadlogtop"
+  },
+  "render_type": "solid"
+}

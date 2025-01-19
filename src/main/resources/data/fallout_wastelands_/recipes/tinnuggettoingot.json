@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:tinnugget"
+    },
+    {
+      "item": "fallout_wastelands_:tinnugget"
+    },
+    {
+      "item": "fallout_wastelands_:tinnugget"
+    },
+    {
+      "item": "fallout_wastelands_:tinnugget"
+    },
+    {
+      "item": "fallout_wastelands_:tinnugget"
+    },
+    {
+      "item": "fallout_wastelands_:tinnugget"
+    },
+    {
+      "item": "fallout_wastelands_:tinnugget"
+    },
+    {
+      "item": "fallout_wastelands_:tinnugget"
+    },
+    {
+      "item": "fallout_wastelands_:tinnugget"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:tiningot",
+    "count": 1
+  }
+}
