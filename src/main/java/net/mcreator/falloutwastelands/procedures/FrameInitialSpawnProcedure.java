@@ -10,7 +10,6 @@ import net.minecraft.world.entity.decoration.ArmorStand;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.Component;
 
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
 
@@ -28,8 +27,6 @@ public class FrameInitialSpawnProcedure {
 			for (Entity entityiterator : _entfound) {
 				if (entityiterator instanceof ArmorStand) {
 					if (entity.getX() == entityiterator.getX() && entity.getY() == entityiterator.getY() && entity.getZ() == entityiterator.getZ()) {
-						if (!world.isClientSide() && world.getServer() != null)
-							world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("found frame"), false);
 						entityiterator.startRiding(entity);
 						if (entity.isVehicle()) {
 							if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {

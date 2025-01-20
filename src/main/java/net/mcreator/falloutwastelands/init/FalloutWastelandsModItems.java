@@ -49,6 +49,7 @@ import net.mcreator.falloutwastelands.item.PsychoItem;
 import net.mcreator.falloutwastelands.item.PowerArmorFrameArmorItem;
 import net.mcreator.falloutwastelands.item.PlasmarifleItem;
 import net.mcreator.falloutwastelands.item.PipboyItem;
+import net.mcreator.falloutwastelands.item.PAFrameItemItem;
 import net.mcreator.falloutwastelands.item.NukaColaQuantumItem;
 import net.mcreator.falloutwastelands.item.NukaColaItem;
 import net.mcreator.falloutwastelands.item.NinemmpistolItem;
@@ -372,6 +373,8 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> URANIUM_NUGGET = REGISTRY.register("uranium_nugget", () -> new UraniumNuggetItem());
 	public static final RegistryObject<Item> BASE_GUN_ITEM = REGISTRY.register("base_gun_item", () -> new BaseGunItemItem());
 	public static final RegistryObject<Item> RIPPER_PROJECTILE = REGISTRY.register("ripper_projectile", () -> new RipperProjectileItem());
+	public static final RegistryObject<Item> PA_FRAME_ITEM = REGISTRY.register("pa_frame_item", () -> new PAFrameItemItem());
+	public static final RegistryObject<Item> PA_DISPLAY_ENTITY_SPAWN_EGG = REGISTRY.register("pa_display_entity_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.PA_DISPLAY_ENTITY, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

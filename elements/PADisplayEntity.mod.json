@@ -2,9 +2,9 @@
   "_fv": 69,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Power Armor Frame",
+    "mobName": "PA Display Entity",
     "mobLabel": "",
-    "mobModelName": "Villager",
+    "mobModelName": "Biped",
     "mobModelTexture": "invisible.png",
     "transparentModelCondition": {
       "fixedValue": false
@@ -13,7 +13,7 @@
       "fixedValue": false
     },
     "solidBoundingBox": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "visualScale": {
       "fixedValue": 1.0
@@ -22,17 +22,17 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
-    "modelWidth": 0.7999999999999999,
-    "modelHeight": 2.0,
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
     "modelShadowSize": 0.5,
-    "mountedYOffset": -1.6,
+    "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -5000297,
+      "value": -1,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -2828339,
+      "value": -1,
       "falpha": 0.0
     },
     "creativeTabs": [],
@@ -62,41 +62,41 @@
     "attackStrength": 3,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.2,
+    "movementSpeed": 0.3,
     "stepHeight": 0.6,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 20,
+    "health": 10,
     "xpAmount": 0,
-    "waterMob": true,
+    "waterMob": false,
     "breatheUnderwater": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "pushedByFluids": {
       "fixedValue": true
     },
     "flyingMob": false,
-    "guiBoundTo": "PowerArmorFrameGUI",
-    "inventorySize": 4,
-    "inventoryStackSize": 1,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": true,
-    "immuneToArrows": true,
-    "immuneToFallDamage": true,
-    "immuneToCactus": true,
-    "immuneToDrowning": true,
-    "immuneToLightning": true,
-    "immuneToPotions": true,
-    "immuneToPlayer": true,
-    "immuneToExplosion": true,
-    "immuneToTrident": true,
-    "immuneToAnvil": true,
-    "immuneToWither": true,
-    "immuneToDragonBreath": true,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
     "mobDrop": {
       "value": ""
     },
@@ -116,16 +116,7 @@
       "value": ""
     },
     "entityDataEntries": [],
-    "onRightClickedOn": {
-      "name": "PowerArmorFrameRightClicked"
-    },
-    "onMobTickUpdate": {
-      "name": "PowerArmorFrameTickUpdate"
-    },
-    "onInitialSpawn": {
-      "name": "FrameInitialSpawn"
-    },
-    "hasAI": true,
+    "hasAI": false,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"></block></xml>",
     "breedable": false,

@@ -52,7 +52,7 @@ public class PlayerOpensInventoryMessage {
 			return;
 		if (type == 0) {
 
-			PlayerPressEProcedure.execute(world, entity);
+			PlayerPressEProcedure.execute(entity);
 		}
 	}
 

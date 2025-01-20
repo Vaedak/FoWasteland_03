@@ -13,6 +13,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.falloutwastelands.network.FalloutWastelandsModVariables;
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
 import net.mcreator.falloutwastelands.entity.PowerArmorFrameEntity;
 
 import java.util.function.Supplier;
@@ -63,6 +64,12 @@ public class PickupFrameProcedure {
 				entityToSpawn.setUnlimitedLifetime();
 				_level.addFreshEntity(entityToSpawn);
 			}
+		}
+		if (world instanceof ServerLevel _level) {
+			ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(FalloutWastelandsModItems.PA_FRAME_ITEM.get()));
+			entityToSpawn.setPickUpDelay(5);
+			entityToSpawn.setUnlimitedLifetime();
+			_level.addFreshEntity(entityToSpawn);
 		}
 		{
 			final Vec3 _center = new Vec3(((entity.getCapability(FalloutWastelandsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new FalloutWastelandsModVariables.PlayerVariables())).paFrameXcord),

@@ -66,11 +66,11 @@ public class FalloutWastelandsModVariables {
 			event.getOriginal().revive();
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-			clone.paFrameXcord = original.paFrameXcord;
-			clone.paFrameYcord = original.paFrameYcord;
-			clone.paFrameZcord = original.paFrameZcord;
-			clone.inPowerArmor = original.inPowerArmor;
 			if (!event.isWasDeath()) {
+				clone.paFrameXcord = original.paFrameXcord;
+				clone.paFrameYcord = original.paFrameYcord;
+				clone.paFrameZcord = original.paFrameZcord;
+				clone.inPowerArmor = original.inPowerArmor;
 			}
 		}
 	}

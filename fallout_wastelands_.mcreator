@@ -7329,6 +7329,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -7367,10 +7383,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -7535,6 +7547,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -8066,31 +8094,178 @@
         ]
       },
       "path": "~/Weapons/Guns/GunProcedures"
+    },
+    {
+      "name": "RighclickiteminPA",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "righclickitemin_pa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/RighclickiteminPAProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Armors/PowerArmor"
+    },
+    {
+      "name": "PAFrameItemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pa_frame_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PAFrameItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Armors/PowerArmor"
+    },
+    {
+      "name": "PAFrameItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pa_frame_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/PAFrameItemItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/pa_frame_item.json"
+        ]
+      },
+      "path": "~/Armors/PowerArmor"
+    },
+    {
+      "name": "PlayerDiesInPA",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_dies_in_pa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PlayerDiesInPAProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Armors/PowerArmor"
+    },
+    {
+      "name": "PADisplayEntity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pa_display_entity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/pa_display_entity_spawn_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/entity/PADisplayEntityEntity.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/PADisplayEntityRenderer.java"
+        ]
+      },
+      "path": "~/Armors/PowerArmor"
+    },
+    {
+      "name": "CraftPAFrame",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_pa_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/craft_pa_frame.json"
+        ]
+      },
+      "path": "~/Armors/PowerArmor"
     }
   ],
   "variable_elements": [
     {
       "name": "paFrameXcord",
       "type": "number",
-      "scope": "player_persistent",
+      "scope": "player_lifetime",
       "value": "0"
     },
     {
       "name": "paFrameYcord",
       "type": "number",
-      "scope": "player_persistent",
+      "scope": "player_lifetime",
       "value": "0"
     },
     {
       "name": "paFrameZcord",
       "type": "number",
-      "scope": "player_persistent",
+      "scope": "player_lifetime",
       "value": "0"
     },
     {
       "name": "inPowerArmor",
       "type": "logic",
-      "scope": "player_persistent",
+      "scope": "player_lifetime",
       "value": "false"
     }
   ],
@@ -8727,6 +8902,7 @@
       "block.fallout_wastelands_.barricadeplanks": "Barricade Planks",
       "item.fallout_wastelands_.industrialhammer": "Sledgehammer",
       "subtitles.lmgreloading": "",
+      "item.fallout_wastelands_.pa_display_entity_spawn_egg": "PA Display Entity Spawn Egg",
       "block.fallout_wastelands_.filing_cabinet": "Filing Cabinet",
       "block.fallout_wastelands_.stair_wasteland_cobblestone": "Wasteland Cobblestone Stairs",
       "gui.fallout_wastelands_.base_menu_ui.label_caps": "Caps",
@@ -8809,6 +8985,7 @@
       "item.fallout_wastelands_.raiderduster_helmet": "Raider Duster Hood",
       "item.fallout_wastelands_.ninemmammo": "9mm Ammo",
       "block.fallout_wastelands_.bos_steel_slabs": "Bos Metal Slab",
+      "entity.fallout_wastelands_.pa_display_entity": "PA Display Entity",
       "block.fallout_wastelands_.bos_steel_block": "Bos Metal Plating",
       "item.fallout_wastelands_.raw_aluminum": "Raw Aluminum",
       "item.fallout_wastelands_.power_armor_frame_armor_boots": "Power Armor Frame",
@@ -8844,6 +9021,7 @@
       "block.fallout_wastelands_.wastelandtiles": "Wasteland Tiles",
       "item.fallout_wastelands_.nail": "Nail",
       "block.fallout_wastelands_.wasteland_brickslab": "Wasteland Brick Slab",
+      "item.fallout_wastelands_.pa_frame_item": "Power Armor Frame",
       "item.fallout_wastelands_.fivemm_ammo": "5mm Ammo",
       "block.fallout_wastelands_.terminal": "Terminal",
       "gui.fallout_wastelands_.base_menu_ui.label_done1": "Done",
@@ -9102,10 +9280,6 @@
       {
         "name": "Armors",
         "children": [
-          {
-            "name": "AddingNewPAIMPORTANT",
-            "children": []
-          },
           {
             "name": "PowerArmor",
             "children": []

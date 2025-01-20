@@ -306,6 +306,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.STEELNUGGET.get());
 				tabData.accept(FalloutWastelandsModItems.TINNUGGET.get());
 				tabData.accept(FalloutWastelandsModItems.URANIUM_NUGGET.get());
+				tabData.accept(FalloutWastelandsModItems.PA_FRAME_ITEM.get());
 			})
 
 					.build());
@@ -315,7 +316,6 @@ public class FalloutWastelandsModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(FalloutWastelandsModItems.CANNIBAL_00_SPAWN_EGG.get());
-			tabData.accept(FalloutWastelandsModItems.POWER_ARMOR_FRAME_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

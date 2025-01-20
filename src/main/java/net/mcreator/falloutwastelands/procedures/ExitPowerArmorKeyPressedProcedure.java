@@ -14,7 +14,6 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.falloutwastelands.network.FalloutWastelandsModVariables;
@@ -65,8 +64,6 @@ public class ExitPowerArmorKeyPressedProcedure {
 						_entity.yHeadRotO = _entity.getYRot();
 					}
 				}
-				if (!world.isClientSide() && world.getServer() != null)
-					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("spawnedframe"), false);
 				{
 					final int _slotid = 3;
 					final ItemStack _setstack = (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).copy();

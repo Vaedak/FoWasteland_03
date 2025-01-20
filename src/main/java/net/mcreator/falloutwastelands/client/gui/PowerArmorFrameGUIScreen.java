@@ -35,7 +35,7 @@ public class PowerArmorFrameGUIScreen extends AbstractContainerScreen<PowerArmor
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 176;
-		this.imageHeight = 166;
+		this.imageHeight = 182;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("fallout_wastelands_:textures/screens/power_armor_frame_gui.png");
@@ -45,7 +45,7 @@ public class PowerArmorFrameGUIScreen extends AbstractContainerScreen<PowerArmor
 		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		if (HelperProcedureGetFrameEntityProcedure.execute(world, entity) instanceof LivingEntity livingEntity) {
-			InventoryScreen.renderEntityInInventoryFollowsAngle(guiGraphics, this.leftPos + 45, this.topPos + 67, 30, 0f, 0, livingEntity);
+			InventoryScreen.renderEntityInInventoryFollowsAngle(guiGraphics, this.leftPos + 53, this.topPos + 66, 30, 0f, 0, livingEntity);
 		}
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
@@ -80,7 +80,7 @@ public class PowerArmorFrameGUIScreen extends AbstractContainerScreen<PowerArmor
 				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new PowerArmorFrameGUIButtonMessage(0, x, y, z));
 				PowerArmorFrameGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 158, this.topPos + 59, 56, 20).build();
+		}).bounds(this.leftPos + 24, this.topPos + 69, 56, 20).build();
 		guistate.put("button:button_pickup", button_pickup);
 		this.addRenderableWidget(button_pickup);
 	}

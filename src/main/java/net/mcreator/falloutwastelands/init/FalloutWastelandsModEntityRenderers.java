@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.falloutwastelands.client.renderer.PowerArmorFrameRenderer;
+import net.mcreator.falloutwastelands.client.renderer.PADisplayEntityRenderer;
 import net.mcreator.falloutwastelands.client.renderer.LaserBeamRenderer;
 import net.mcreator.falloutwastelands.client.renderer.Cannibal00Renderer;
 
@@ -25,5 +26,6 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.RIPPER_PROJECTILE_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.LASER_BEAM.get(), LaserBeamRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.PLASMA_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.PA_DISPLAY_ENTITY.get(), PADisplayEntityRenderer::new);
 	}
 }

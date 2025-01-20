@@ -84,7 +84,7 @@ public class PowerArmorFrameGUIMenu extends AbstractContainerMenu implements Sup
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 115, 61) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 121, 70) {
 			private final int slot = 0;
 
 			@Override
@@ -92,7 +92,7 @@ public class PowerArmorFrameGUIMenu extends AbstractContainerMenu implements Sup
 				return stack.is(ItemTags.create(new ResourceLocation("fallout_wastelands_:pa_boots")));
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 115, 40) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 121, 50) {
 			private final int slot = 1;
 
 			@Override
@@ -100,7 +100,7 @@ public class PowerArmorFrameGUIMenu extends AbstractContainerMenu implements Sup
 				return stack.is(ItemTags.create(new ResourceLocation("fallout_wastelands_:pa_leggings")));
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 115, 20) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 121, 30) {
 			private final int slot = 2;
 
 			@Override
@@ -108,7 +108,7 @@ public class PowerArmorFrameGUIMenu extends AbstractContainerMenu implements Sup
 				return stack.is(ItemTags.create(new ResourceLocation("fallout_wastelands_:pa_chestplate")));
 			}
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 115, 1) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 121, 10) {
 			private final int slot = 3;
 
 			@Override
@@ -118,9 +118,9 @@ public class PowerArmorFrameGUIMenu extends AbstractContainerMenu implements Sup
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 8 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 8 + 142));
 	}
 
 	@Override

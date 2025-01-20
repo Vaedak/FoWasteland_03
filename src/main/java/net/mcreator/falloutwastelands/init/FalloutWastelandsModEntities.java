@@ -19,6 +19,7 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.falloutwastelands.entity.RipperProjectileProjectileEntity;
 import net.mcreator.falloutwastelands.entity.PowerArmorFrameEntity;
 import net.mcreator.falloutwastelands.entity.PlasmaProjectileEntity;
+import net.mcreator.falloutwastelands.entity.PADisplayEntityEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.Cannibal00Entity;
 import net.mcreator.falloutwastelands.entity.BaseGunItemProjectileEntity;
@@ -42,6 +43,10 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<LaserBeamEntity>of(LaserBeamEntity::new, MobCategory.MISC).setCustomClientFactory(LaserBeamEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<PlasmaProjectileEntity>> PLASMA_PROJECTILE = register("plasma_projectile", EntityType.Builder.<PlasmaProjectileEntity>of(PlasmaProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(PlasmaProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<PADisplayEntityEntity>> PA_DISPLAY_ENTITY = register("pa_display_entity",
+			EntityType.Builder.<PADisplayEntityEntity>of(PADisplayEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PADisplayEntityEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -52,6 +57,7 @@ public class FalloutWastelandsModEntities {
 		event.enqueueWork(() -> {
 			Cannibal00Entity.init();
 			PowerArmorFrameEntity.init();
+			PADisplayEntityEntity.init();
 		});
 	}
 
@@ -59,5 +65,6 @@ public class FalloutWastelandsModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(CANNIBAL_00.get(), Cannibal00Entity.createAttributes().build());
 		event.put(POWER_ARMOR_FRAME.get(), PowerArmorFrameEntity.createAttributes().build());
+		event.put(PA_DISPLAY_ENTITY.get(), PADisplayEntityEntity.createAttributes().build());
 	}
 }
