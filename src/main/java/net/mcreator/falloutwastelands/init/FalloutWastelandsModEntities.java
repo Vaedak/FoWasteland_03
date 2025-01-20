@@ -18,6 +18,8 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.falloutwastelands.entity.RipperProjectileProjectileEntity;
 import net.mcreator.falloutwastelands.entity.PowerArmorFrameEntity;
+import net.mcreator.falloutwastelands.entity.PlasmaProjectileEntity;
+import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.Cannibal00Entity;
 import net.mcreator.falloutwastelands.entity.BaseGunItemProjectileEntity;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
@@ -36,6 +38,10 @@ public class FalloutWastelandsModEntities {
 	public static final RegistryObject<EntityType<RipperProjectileProjectileEntity>> RIPPER_PROJECTILE_PROJECTILE = register("ripper_projectile_projectile",
 			EntityType.Builder.<RipperProjectileProjectileEntity>of(RipperProjectileProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(RipperProjectileProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<LaserBeamEntity>> LASER_BEAM = register("laser_beam",
+			EntityType.Builder.<LaserBeamEntity>of(LaserBeamEntity::new, MobCategory.MISC).setCustomClientFactory(LaserBeamEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<PlasmaProjectileEntity>> PLASMA_PROJECTILE = register("plasma_projectile", EntityType.Builder.<PlasmaProjectileEntity>of(PlasmaProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(PlasmaProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

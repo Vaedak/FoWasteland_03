@@ -1772,7 +1772,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/item/revolver_32.json"
         ]
       },
-      "path": "~/Weapons/Revolver32"
+      "path": "~/Weapons/Guns/Revolver32"
     },
     {
       "name": "Strippedmolderwoodlog",
@@ -1932,7 +1932,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "Wastelandbrickitem",
@@ -1981,7 +1981,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "IMPORTANTReloadGunProcedure",
@@ -2016,7 +2016,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "TestWeapon",
@@ -2059,7 +2059,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "CanUseRangedItem",
@@ -2099,7 +2099,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "WhileProjectileFlyingTick",
@@ -2134,7 +2134,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "GunInHandTick",
@@ -2157,7 +2157,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "SteelPole",
@@ -2495,7 +2495,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/item/ninemmpistol.json"
         ]
       },
-      "path": "~/Weapons/9mmPistol"
+      "path": "~/Weapons/Guns/9mmPistol"
     },
     {
       "name": "Neutronade",
@@ -3896,7 +3896,7 @@
           "src/main/java/net/mcreator/falloutwastelands/item/TenmmpistolItem.java"
         ]
       },
-      "path": "~/Weapons/10mmPistol"
+      "path": "~/Weapons/Guns/10mmPistol"
     },
     {
       "name": "Tenmmammo",
@@ -3938,7 +3938,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/item/tenmmhomemadeassaultrifle.json"
         ]
       },
-      "path": "~/Weapons/10mmHomemade"
+      "path": "~/Weapons/Guns/10mmHomemade"
     },
     {
       "name": "FivemmAmmo",
@@ -3965,7 +3965,7 @@
           "src/main/java/net/mcreator/falloutwastelands/network/StopReloadMessage.java"
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "RevolverReload",
@@ -4000,7 +4000,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Revolver32"
+      "path": "~/Weapons/Guns/Revolver32"
     },
     {
       "name": "ShootRevolver",
@@ -4039,7 +4039,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Revolver32"
+      "path": "~/Weapons/Guns/Revolver32"
     },
     {
       "name": "Shoot9mmPistol",
@@ -4078,7 +4078,7 @@
           }
         ]
       },
-      "path": "~/Weapons/9mmPistol"
+      "path": "~/Weapons/Guns/9mmPistol"
     },
     {
       "name": "NineMMReload",
@@ -4113,7 +4113,7 @@
           }
         ]
       },
-      "path": "~/Weapons/9mmPistol"
+      "path": "~/Weapons/Guns/9mmPistol"
     },
     {
       "name": "Shoot10mmHommade",
@@ -4152,7 +4152,7 @@
           }
         ]
       },
-      "path": "~/Weapons/10mmHomemade"
+      "path": "~/Weapons/Guns/10mmHomemade"
     },
     {
       "name": "GunProjectileHitsEntity",
@@ -4171,7 +4171,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "StopReloadOnKeyPressed",
@@ -4190,7 +4190,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "Reload10mmPistol",
@@ -4225,7 +4225,7 @@
           }
         ]
       },
-      "path": "~/Weapons/10mmPistol"
+      "path": "~/Weapons/Guns/10mmPistol"
     },
     {
       "name": "Shoot10mmPistol",
@@ -4264,7 +4264,7 @@
           }
         ]
       },
-      "path": "~/Weapons/10mmPistol"
+      "path": "~/Weapons/Guns/10mmPistol"
     },
     {
       "name": "Reload10mmHomemade",
@@ -4299,7 +4299,7 @@
           }
         ]
       },
-      "path": "~/Weapons/10mmHomemade"
+      "path": "~/Weapons/Guns/10mmHomemade"
     },
     {
       "name": "FullAutoStartUsing",
@@ -4318,7 +4318,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "TurnOffFullAuto",
@@ -4357,7 +4357,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "FullAutoStopUsing",
@@ -4376,7 +4376,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "Wrench",
@@ -4404,7 +4404,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/item/laserrifle.json"
         ]
       },
-      "path": "~/Weapons/LaserRifle"
+      "path": "~/Weapons/Guns/LaserRifle"
     },
     {
       "name": "Corn",
@@ -4460,7 +4460,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/item/plasmarifle.json"
         ]
       },
-      "path": "~/Weapons/PlasmaRifle"
+      "path": "~/Weapons/Guns/PlasmaRifle"
     },
     {
       "name": "Nailgun",
@@ -4474,7 +4474,7 @@
           "src/main/java/net/mcreator/falloutwastelands/item/NailgunItem.java"
         ]
       },
-      "path": "~/Weapons/NailGun"
+      "path": "~/Weapons/Guns/NailGun"
     },
     {
       "name": "Rollingpin",
@@ -4502,7 +4502,7 @@
           "src/main/java/net/mcreator/falloutwastelands/item/ChinesepistolItem.java"
         ]
       },
-      "path": "~/Weapons/ChinesePistol"
+      "path": "~/Weapons/Guns/ChinesePistol"
     },
     {
       "name": "Hachet",
@@ -4593,7 +4593,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Ripper"
+      "path": "~/Weapons/Guns/Ripper"
     },
     {
       "name": "EnergyCell",
@@ -4635,7 +4635,7 @@
           "src/main/java/net/mcreator/falloutwastelands/item/FivemmminigunItem.java"
         ]
       },
-      "path": "~/Weapons/5mmMinigun"
+      "path": "~/Weapons/Guns/5mmMinigun"
     },
     {
       "name": "LaserRifleShoot",
@@ -4674,7 +4674,7 @@
           }
         ]
       },
-      "path": "~/Weapons/LaserRifle"
+      "path": "~/Weapons/Guns/LaserRifle"
     },
     {
       "name": "LaserRifleReload",
@@ -4709,7 +4709,7 @@
           }
         ]
       },
-      "path": "~/Weapons/LaserRifle"
+      "path": "~/Weapons/Guns/LaserRifle"
     },
     {
       "name": "PlasmaRifleShoot",
@@ -4748,7 +4748,7 @@
           }
         ]
       },
-      "path": "~/Weapons/PlasmaRifle"
+      "path": "~/Weapons/Guns/PlasmaRifle"
     },
     {
       "name": "PlasmaRifleReload",
@@ -4783,7 +4783,7 @@
           }
         ]
       },
-      "path": "~/Weapons/PlasmaRifle"
+      "path": "~/Weapons/Guns/PlasmaRifle"
     },
     {
       "name": "NailGunReload",
@@ -4818,7 +4818,7 @@
           }
         ]
       },
-      "path": "~/Weapons/NailGun"
+      "path": "~/Weapons/Guns/NailGun"
     },
     {
       "name": "NailGunShoot",
@@ -4857,7 +4857,7 @@
           }
         ]
       },
-      "path": "~/Weapons/NailGun"
+      "path": "~/Weapons/Guns/NailGun"
     },
     {
       "name": "ChinesePistolShoot",
@@ -4896,7 +4896,7 @@
           }
         ]
       },
-      "path": "~/Weapons/ChinesePistol"
+      "path": "~/Weapons/Guns/ChinesePistol"
     },
     {
       "name": "ChinesePistolReload",
@@ -4931,7 +4931,7 @@
           }
         ]
       },
-      "path": "~/Weapons/ChinesePistol"
+      "path": "~/Weapons/Guns/ChinesePistol"
     },
     {
       "name": "FivemmReload",
@@ -4966,7 +4966,7 @@
           }
         ]
       },
-      "path": "~/Weapons/5mmMinigun"
+      "path": "~/Weapons/Guns/5mmMinigun"
     },
     {
       "name": "FivemmShoot",
@@ -5005,7 +5005,7 @@
           }
         ]
       },
-      "path": "~/Weapons/5mmMinigun"
+      "path": "~/Weapons/Guns/5mmMinigun"
     },
     {
       "name": "LeftClickFireHomemade10mm",
@@ -5024,7 +5024,7 @@
           }
         ]
       },
-      "path": "~/Weapons/10mmHomemade"
+      "path": "~/Weapons/Guns/10mmHomemade"
     },
     {
       "name": "DeleteAtShortRange",
@@ -5043,7 +5043,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Ripper"
+      "path": "~/Weapons/Guns/Ripper"
     },
     {
       "name": "DespawnRipperProjectile",
@@ -5070,7 +5070,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Ripper"
+      "path": "~/Weapons/Guns/Ripper"
     },
     {
       "name": "RipperStartSawing",
@@ -5089,7 +5089,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Ripper"
+      "path": "~/Weapons/Guns/Ripper"
     },
     {
       "name": "RipperStopSawing",
@@ -5108,7 +5108,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Ripper"
+      "path": "~/Weapons/Guns/Ripper"
     },
     {
       "name": "RipperStopSawingNotInHand",
@@ -5127,7 +5127,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Ripper"
+      "path": "~/Weapons/Guns/Ripper"
     },
     {
       "name": "RipperSawAttack",
@@ -5162,7 +5162,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Ripper"
+      "path": "~/Weapons/Guns/Ripper"
     },
     {
       "name": "Ripper",
@@ -5176,7 +5176,7 @@
           "src/main/java/net/mcreator/falloutwastelands/item/RipperItem.java"
         ]
       },
-      "path": "~/Weapons/Ripper"
+      "path": "~/Weapons/Guns/Ripper"
     },
     {
       "name": "DontShootOnDropItem",
@@ -5199,7 +5199,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "DontShootOnRightClickMob",
@@ -5218,7 +5218,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "DontShootOnRightClickBlock",
@@ -5237,7 +5237,7 @@
           }
         ]
       },
-      "path": "~/Procedures/GunProcedures"
+      "path": "~/Weapons/Guns/GunProcedures"
     },
     {
       "name": "EXAMPLEdiamondFeature",
@@ -7555,7 +7555,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/item/t_45_pa_chestplate.json"
         ]
       },
-      "path": "~/Armors/AddingNewPAIMPORTANT"
+      "path": "~/Armors"
     },
     {
       "name": "Aluminiumingottonugget",
@@ -7768,7 +7768,7 @@
           "src/main/java/net/mcreator/falloutwastelands/entity/BaseGunItemProjectileEntity.java"
         ]
       },
-      "path": "~/Weapons"
+      "path": "~/Weapons/Guns"
     },
     {
       "name": "BaseGunItem",
@@ -7782,7 +7782,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/item/base_gun_item.json"
         ]
       },
-      "path": "~/Weapons"
+      "path": "~/Weapons/Guns"
     },
     {
       "name": "RipperProjectileProjectile",
@@ -7795,7 +7795,7 @@
           "src/main/java/net/mcreator/falloutwastelands/entity/RipperProjectileProjectileEntity.java"
         ]
       },
-      "path": "~/Weapons/Ripper"
+      "path": "~/Weapons/Guns/Ripper"
     },
     {
       "name": "RipperProjectile",
@@ -7809,7 +7809,263 @@
           "src/main/java/net/mcreator/falloutwastelands/item/RipperProjectileItem.java"
         ]
       },
-      "path": "~/Weapons/Ripper"
+      "path": "~/Weapons/Guns/Ripper"
+    },
+    {
+      "name": "LaserBeam",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_beam",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/entity/LaserBeamEntity.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/LaserBeamRenderer.java"
+        ]
+      },
+      "path": "~/Weapons/Guns/LaserRifle"
+    },
+    {
+      "name": "PlasmaProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasma_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/entity/PlasmaProjectileEntity.java"
+        ]
+      },
+      "path": "~/Weapons/Guns/PlasmaRifle"
+    },
+    {
+      "name": "PlasmaParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasma_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/particle/PlasmaParticleParticle.java",
+          "src/main/resources/assets/fallout_wastelands_/particles/plasma_particle.json"
+        ]
+      },
+      "path": "~/Weapons/Guns/PlasmaRifle"
+    },
+    {
+      "name": "BulletFallClock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_fall_clock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BulletFallClockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Weapons/Guns/GunProcedures"
+    },
+    {
+      "name": "PlasmaProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasma_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PlasmaProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Weapons/Guns/GunProcedures"
+    },
+    {
+      "name": "PlasmaProjectileProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasma_projectile_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PlasmaProjectileProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Weapons/Guns/GunProcedures"
+    },
+    {
+      "name": "PlasmaProjectileProjectileHitsEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasma_projectile_projectile_hits_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PlasmaProjectileProjectileHitsEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Weapons/Guns/GunProcedures"
+    },
+    {
+      "name": "PlasmaParticleSplash",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasma_particle_splash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/particle/PlasmaParticleSplashParticle.java",
+          "src/main/resources/assets/fallout_wastelands_/particles/plasma_particle_splash.json"
+        ]
+      },
+      "path": "~/Weapons/Guns/PlasmaRifle"
+    },
+    {
+      "name": "LaserBeamProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_beam_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/LaserBeamProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Weapons/Guns/GunProcedures"
+    },
+    {
+      "name": "LaserBeamHitsEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_beam_hits_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/LaserBeamHitsEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Weapons/Guns/GunProcedures"
+    },
+    {
+      "name": "LaserBeamHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_beam_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/LaserBeamHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Weapons/Guns/GunProcedures"
     }
   ],
   "variable_elements": [
@@ -7924,15 +8180,15 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -8746,12 +9002,7 @@
       },
       {
         "name": "Procedures",
-        "children": [
-          {
-            "name": "GunProcedures",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "name": "Blocks",
@@ -8778,44 +9029,53 @@
         "name": "Weapons",
         "children": [
           {
-            "name": "Revolver32",
-            "children": []
-          },
-          {
-            "name": "ChinesePistol",
-            "children": []
-          },
-          {
-            "name": "LaserRifle",
-            "children": []
-          },
-          {
-            "name": "NailGun",
-            "children": []
-          },
-          {
-            "name": "Ripper",
-            "children": []
-          },
-          {
-            "name": "10mmPistol",
-            "children": []
-          },
-          {
-            "name": "PlasmaRifle",
-            "children": []
-          },
-          {
-            "name": "5mmMinigun",
-            "children": []
-          },
-          {
-            "name": "9mmPistol",
-            "children": []
-          },
-          {
-            "name": "10mmHomemade",
-            "children": []
+            "name": "Guns",
+            "children": [
+              {
+                "name": "Revolver32",
+                "children": []
+              },
+              {
+                "name": "ChinesePistol",
+                "children": []
+              },
+              {
+                "name": "LaserRifle",
+                "children": []
+              },
+              {
+                "name": "NailGun",
+                "children": []
+              },
+              {
+                "name": "Ripper",
+                "children": []
+              },
+              {
+                "name": "10mmPistol",
+                "children": []
+              },
+              {
+                "name": "PlasmaRifle",
+                "children": []
+              },
+              {
+                "name": "5mmMinigun",
+                "children": []
+              },
+              {
+                "name": "9mmPistol",
+                "children": []
+              },
+              {
+                "name": "10mmHomemade",
+                "children": []
+              },
+              {
+                "name": "GunProcedures",
+                "children": []
+              }
+            ]
           }
         ]
       },

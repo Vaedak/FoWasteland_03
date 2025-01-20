@@ -17,7 +17,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModEntities;
-import net.mcreator.falloutwastelands.entity.BaseGunItemProjectileEntity;
+import net.mcreator.falloutwastelands.entity.PlasmaProjectileEntity;
 
 public class PlasmaRifleShootProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
@@ -33,7 +33,7 @@ public class PlasmaRifleShootProcedure {
 						if (!projectileLevel.isClientSide()) {
 							Projectile _entityToSpawn = new Object() {
 								public Projectile getArrow(Level level, Entity shooter, float damage, int knockback, byte piercing) {
-									AbstractArrow entityToSpawn = new BaseGunItemProjectileEntity(FalloutWastelandsModEntities.BASE_GUN_ITEM_PROJECTILE.get(), level);
+									AbstractArrow entityToSpawn = new PlasmaProjectileEntity(FalloutWastelandsModEntities.PLASMA_PROJECTILE.get(), level);
 									entityToSpawn.setOwner(shooter);
 									entityToSpawn.setBaseDamage(damage);
 									entityToSpawn.setKnockback(knockback);
@@ -41,9 +41,9 @@ public class PlasmaRifleShootProcedure {
 									entityToSpawn.setPierceLevel(piercing);
 									return entityToSpawn;
 								}
-							}.getArrow(projectileLevel, entity, 4, 0, (byte) 2);
+							}.getArrow(projectileLevel, entity, 4, 0, (byte) 1);
 							_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
-							_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 8, (float) 0.04);
+							_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, (float) 2.4, (float) 0.04);
 							projectileLevel.addFreshEntity(_entityToSpawn);
 						}
 					}
@@ -62,8 +62,8 @@ public class PlasmaRifleShootProcedure {
 						}
 					}
 					if (entity instanceof Player _player)
-						_player.getCooldowns().addCooldown(itemstack.getItem(), 2);
-					entity.getPersistentData().putDouble("cooldown", 6);
+						_player.getCooldowns().addCooldown(itemstack.getItem(), 15);
+					entity.getPersistentData().putDouble("cooldown", 15);
 				} else {
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
@@ -72,7 +72,7 @@ public class PlasmaRifleShootProcedure {
 							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.metal_pressure_plate.click_off")), SoundSource.NEUTRAL, 1, 1, false);
 						}
 					}
-					entity.getPersistentData().putDouble("cooldown", 6);
+					entity.getPersistentData().putDouble("cooldown", 2);
 					if (entity instanceof Player _player)
 						_player.getCooldowns().addCooldown(itemstack.getItem(), 2);
 				}

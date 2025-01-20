@@ -1,0 +1,30 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:IndustrialAlloyPlain"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:laserrifleshot"
+    },
+    "igniteFire": true,
+    "power": 0.1,
+    "damage": 5.0,
+    "knockback": 0,
+    "entityModel": "Modellaserriflebeam",
+    "customModelTexture": "laserriflebeam.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "LaserBeamHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "LaserBeamHitsEntity"
+    },
+    "onFlyingTick": {
+      "name": "LaserBeamProjectileFlyingTick"
+    }
+  }
+}

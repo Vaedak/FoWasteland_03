@@ -17,7 +17,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModEntities;
-import net.mcreator.falloutwastelands.entity.BaseGunItemProjectileEntity;
+import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 
 public class LaserRifleShootProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
@@ -33,7 +33,7 @@ public class LaserRifleShootProcedure {
 						if (!projectileLevel.isClientSide()) {
 							Projectile _entityToSpawn = new Object() {
 								public Projectile getArrow(Level level, Entity shooter, float damage, int knockback, byte piercing) {
-									AbstractArrow entityToSpawn = new BaseGunItemProjectileEntity(FalloutWastelandsModEntities.BASE_GUN_ITEM_PROJECTILE.get(), level);
+									AbstractArrow entityToSpawn = new LaserBeamEntity(FalloutWastelandsModEntities.LASER_BEAM.get(), level);
 									entityToSpawn.setOwner(shooter);
 									entityToSpawn.setBaseDamage(damage);
 									entityToSpawn.setKnockback(knockback);
@@ -43,7 +43,7 @@ public class LaserRifleShootProcedure {
 								}
 							}.getArrow(projectileLevel, entity, 2, 0, (byte) 2);
 							_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
-							_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 10, 0);
+							_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, (float) 3.5, (float) 0.5);
 							projectileLevel.addFreshEntity(_entityToSpawn);
 						}
 					}

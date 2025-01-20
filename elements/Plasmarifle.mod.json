@@ -8,7 +8,7 @@
     "customProperties": {},
     "states": [],
     "name": "Plasma Rifle",
-    "rarity": "COMMON",
+    "rarity": "RARE",
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandcombat"
@@ -31,6 +31,9 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -43,6 +46,9 @@
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:BaseGunItemProjectile"
+    },
     "projectileDisableAmmoCheck": false,
     "isFood": false,
     "nutritionalValue": 0,

@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.falloutwastelands.client.model.Modellaserriflebeam;
 import net.mcreator.falloutwastelands.client.model.Modeldusterraiderarmor;
 import net.mcreator.falloutwastelands.client.model.Modelblastmasterraiderarmor;
 import net.mcreator.falloutwastelands.client.model.Modelbasherraiderarmor2;
@@ -20,6 +21,7 @@ public class FalloutWastelandsModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelblastmasterraiderarmor.LAYER_LOCATION, Modelblastmasterraiderarmor::createBodyLayer);
+		event.registerLayerDefinition(Modellaserriflebeam.LAYER_LOCATION, Modellaserriflebeam::createBodyLayer);
 		event.registerLayerDefinition(Modelbasherraiderarmor2.LAYER_LOCATION, Modelbasherraiderarmor2::createBodyLayer);
 		event.registerLayerDefinition(Modelbasherraiderarmor.LAYER_LOCATION, Modelbasherraiderarmor::createBodyLayer);
 		event.registerLayerDefinition(ModelBighorn.LAYER_LOCATION, ModelBighorn::createBodyLayer);

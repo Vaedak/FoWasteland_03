@@ -14,7 +14,7 @@ import net.mcreator.falloutwastelands.procedures.GunInHandTickProcedure;
 
 public class PlasmarifleItem extends Item {
 	public PlasmarifleItem() {
-		super(new Item.Properties().durability(16).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(16).rarity(Rarity.RARE));
 	}
 
 	@Override
