@@ -17,11 +17,14 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.falloutwastelands.entity.RipperProjectileProjectileEntity;
+import net.mcreator.falloutwastelands.entity.RaiderscavangerEntity;
+import net.mcreator.falloutwastelands.entity.RaiderDustwalkerEntity;
 import net.mcreator.falloutwastelands.entity.PowerArmorFrameEntity;
 import net.mcreator.falloutwastelands.entity.PlasmaProjectileEntity;
 import net.mcreator.falloutwastelands.entity.PADisplayEntityEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.Cannibal00Entity;
+import net.mcreator.falloutwastelands.entity.BlastmasterRaiderEntity;
 import net.mcreator.falloutwastelands.entity.BaseGunItemProjectileEntity;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
@@ -47,6 +50,18 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<PADisplayEntityEntity>of(PADisplayEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PADisplayEntityEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<RaiderDustwalkerEntity>> RAIDER_DUSTWALKER = register("raider_dustwalker",
+			EntityType.Builder.<RaiderDustwalkerEntity>of(RaiderDustwalkerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(80).setUpdateInterval(3).setCustomClientFactory(RaiderDustwalkerEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BlastmasterRaiderEntity>> BLASTMASTER_RAIDER = register("blastmaster_raider",
+			EntityType.Builder.<BlastmasterRaiderEntity>of(BlastmasterRaiderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(80).setUpdateInterval(3).setCustomClientFactory(BlastmasterRaiderEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<RaiderscavangerEntity>> RAIDERSCAVANGER = register("raiderscavanger",
+			EntityType.Builder.<RaiderscavangerEntity>of(RaiderscavangerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(80).setUpdateInterval(3).setCustomClientFactory(RaiderscavangerEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -58,6 +73,9 @@ public class FalloutWastelandsModEntities {
 			Cannibal00Entity.init();
 			PowerArmorFrameEntity.init();
 			PADisplayEntityEntity.init();
+			RaiderDustwalkerEntity.init();
+			BlastmasterRaiderEntity.init();
+			RaiderscavangerEntity.init();
 		});
 	}
 
@@ -66,5 +84,8 @@ public class FalloutWastelandsModEntities {
 		event.put(CANNIBAL_00.get(), Cannibal00Entity.createAttributes().build());
 		event.put(POWER_ARMOR_FRAME.get(), PowerArmorFrameEntity.createAttributes().build());
 		event.put(PA_DISPLAY_ENTITY.get(), PADisplayEntityEntity.createAttributes().build());
+		event.put(RAIDER_DUSTWALKER.get(), RaiderDustwalkerEntity.createAttributes().build());
+		event.put(BLASTMASTER_RAIDER.get(), BlastmasterRaiderEntity.createAttributes().build());
+		event.put(RAIDERSCAVANGER.get(), RaiderscavangerEntity.createAttributes().build());
 	}
 }

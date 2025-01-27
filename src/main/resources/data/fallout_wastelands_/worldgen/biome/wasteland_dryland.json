@@ -3,6 +3,12 @@
   "temperature": 1.5,
   "downfall": 0.5,
   "effects": {
+    "music": {
+      "sound": "fallout_wastelands_:wasteland_wind",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
     "foliage_color": -9413056,
     "grass_color": -6186906,
     "sky_color": -1974640,

@@ -78,5 +78,21 @@
         "stream": false
       }
     ]
+  },
+  "wasteland_wind": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:wasteland_wind_pt_01_1",
+        "stream": true
+      }
+    ]
+  },
+  "the_glow": {
+    "sounds": [
+      {
+        "name": "fallout_wastelands_:unnatural_glow",
+        "stream": true
+      }
+    ]
   }
 }
