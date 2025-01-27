@@ -314,6 +314,9 @@ public class FalloutWastelandsModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 
 			tabData.accept(FalloutWastelandsModItems.CANNIBAL_00_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.RAIDER_DUSTWALKER_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.BLASTMASTER_RAIDER_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.RAIDERSCAVANGER_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
