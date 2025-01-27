@@ -158,7 +158,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.URANIUM_ORE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTE_SAND.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.TIN_ORE.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.JIGSAW_BLOCK.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BOS_STEEL_STAIR.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.STEEL_BARS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.PLASTER.get().asItem());
@@ -263,7 +262,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.T_45_PA_CHESTPLATE.get());
 				tabData.accept(FalloutWastelandsModItems.T_45_PA_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.T_45_PA_BOOTS.get());
-				tabData.accept(FalloutWastelandsModItems.BASE_GUN_ITEM.get());
 			})
 
 					.build());

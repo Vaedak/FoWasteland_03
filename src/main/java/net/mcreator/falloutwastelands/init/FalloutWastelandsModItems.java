@@ -305,7 +305,6 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> WASTE_SAND = block(FalloutWastelandsModBlocks.WASTE_SAND);
 	public static final RegistryObject<Item> TIN_ORE = block(FalloutWastelandsModBlocks.TIN_ORE);
 	public static final RegistryObject<Item> RAW_TIN = REGISTRY.register("raw_tin", () -> new RawTinItem());
-	public static final RegistryObject<Item> JIGSAW_BLOCK = block(FalloutWastelandsModBlocks.JIGSAW_BLOCK);
 	public static final RegistryObject<Item> BOS_STEEL_STAIR = block(FalloutWastelandsModBlocks.BOS_STEEL_STAIR);
 	public static final RegistryObject<Item> STEEL_BARS = block(FalloutWastelandsModBlocks.STEEL_BARS);
 	public static final RegistryObject<Item> PLASTER = block(FalloutWastelandsModBlocks.PLASTER);

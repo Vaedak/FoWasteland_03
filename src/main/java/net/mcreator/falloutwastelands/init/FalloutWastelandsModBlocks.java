@@ -142,7 +142,6 @@ import net.mcreator.falloutwastelands.block.LightTubeBlock;
 import net.mcreator.falloutwastelands.block.LeadOreBlock;
 import net.mcreator.falloutwastelands.block.LeadBlockBlock;
 import net.mcreator.falloutwastelands.block.LandmineBlock;
-import net.mcreator.falloutwastelands.block.JigsawBlockBlock;
 import net.mcreator.falloutwastelands.block.IndustrialWalkwayBlock;
 import net.mcreator.falloutwastelands.block.IndustrialSupportBlock;
 import net.mcreator.falloutwastelands.block.IndustrialPlatingBlock;
@@ -342,7 +341,6 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> URANIUM_ORE = REGISTRY.register("uranium_ore", () -> new UraniumOreBlock());
 	public static final RegistryObject<Block> WASTE_SAND = REGISTRY.register("waste_sand", () -> new WasteSandBlock());
 	public static final RegistryObject<Block> TIN_ORE = REGISTRY.register("tin_ore", () -> new TinOreBlock());
-	public static final RegistryObject<Block> JIGSAW_BLOCK = REGISTRY.register("jigsaw_block", () -> new JigsawBlockBlock());
 	public static final RegistryObject<Block> BOS_STEEL_STAIR = REGISTRY.register("bos_steel_stair", () -> new BosSteelStairBlock());
 	public static final RegistryObject<Block> STEEL_BARS = REGISTRY.register("steel_bars", () -> new SteelBarsBlock());
 	public static final RegistryObject<Block> PLASTER = REGISTRY.register("plaster", () -> new PlasterBlock());

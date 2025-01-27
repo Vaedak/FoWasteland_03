@@ -4593,7 +4593,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Guns/Ripper"
+      "path": "~/Weapons/Ripper"
     },
     {
       "name": "EnergyCell",
@@ -5043,7 +5043,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Guns/Ripper"
+      "path": "~/Weapons/Ripper"
     },
     {
       "name": "DespawnRipperProjectile",
@@ -5070,7 +5070,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Guns/Ripper"
+      "path": "~/Weapons/Ripper"
     },
     {
       "name": "RipperStartSawing",
@@ -5089,7 +5089,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Guns/Ripper"
+      "path": "~/Weapons/Ripper"
     },
     {
       "name": "RipperStopSawing",
@@ -5108,7 +5108,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Guns/Ripper"
+      "path": "~/Weapons/Ripper"
     },
     {
       "name": "RipperStopSawingNotInHand",
@@ -5127,7 +5127,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Guns/Ripper"
+      "path": "~/Weapons/Ripper"
     },
     {
       "name": "RipperSawAttack",
@@ -5162,7 +5162,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Guns/Ripper"
+      "path": "~/Weapons/Ripper"
     },
     {
       "name": "Ripper",
@@ -5176,7 +5176,7 @@
           "src/main/java/net/mcreator/falloutwastelands/item/RipperItem.java"
         ]
       },
-      "path": "~/Weapons/Guns/Ripper"
+      "path": "~/Weapons/Ripper"
     },
     {
       "name": "DontShootOnDropItem",
@@ -6044,54 +6044,6 @@
         ]
       },
       "path": "~/Items"
-    },
-    {
-      "name": "JigsawBlockBlockAdded",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jigsaw_block_block_added",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/procedures/JigsawBlockBlockAddedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/jigsaw"
-    },
-    {
-      "name": "JigsawBlock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jigsaw_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/block/JigsawBlockBlock.java",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/jigsaw_block.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/jigsaw_block.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/jigsaw_block.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/jigsaw_block.json"
-        ]
-      },
-      "path": "~/jigsaw"
     },
     {
       "name": "BosSteelStair",
@@ -7823,7 +7775,7 @@
           "src/main/java/net/mcreator/falloutwastelands/entity/RipperProjectileProjectileEntity.java"
         ]
       },
-      "path": "~/Weapons/Guns/Ripper"
+      "path": "~/Weapons/Ripper"
     },
     {
       "name": "RipperProjectile",
@@ -7837,7 +7789,7 @@
           "src/main/java/net/mcreator/falloutwastelands/item/RipperProjectileItem.java"
         ]
       },
-      "path": "~/Weapons/Guns/Ripper"
+      "path": "~/Weapons/Ripper"
     },
     {
       "name": "LaserBeam",
@@ -8241,6 +8193,22 @@
         ]
       },
       "path": "~/Armors/PowerArmor"
+    },
+    {
+      "name": "F",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure/f.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/f.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/f_pool.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/f.json"
+        ]
+      },
+      "path": "~/jigsaw"
     }
   ],
   "variable_elements": [
@@ -8355,15 +8323,15 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs"
+    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
-    ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -8864,8 +8832,8 @@
       "block.fallout_wastelands_.gore": "Gore",
       "block.fallout_wastelands_.mixer": "Mixer",
       "block.fallout_wastelands_.plaster": "Plaster",
-      "item.fallout_wastelands_.wrench": "Wrench",
       "block.fallout_wastelands_.wastelandshortburntgrass": "Wasteland Short Burnt Grass",
+      "item.fallout_wastelands_.wrench": "Wrench",
       "block.fallout_wastelands_.wasteland_goldore": "Wasteland Gold Ore",
       "block.fallout_wastelands_.uranium_ore": "Uranium Ore",
       "block.fallout_wastelands_.vault_wall": "Vault Wall",
@@ -9116,7 +9084,6 @@
       "block.fallout_wastelands_.light_tube": "Light Tube",
       "block.fallout_wastelands_.wasteland_brick_wall": "Wasteland Stone",
       "item.fallout_wastelands_.nuka_cola": "Nuka Cola",
-      "block.fallout_wastelands_.jigsaw_block": "Jigsaw Block",
       "gui.fallout_wastelands_.base_inventory.label_inventory": "Inventory",
       "block.fallout_wastelands_.industrial_alloy_warning": "Industrial Alloy (warning)",
       "block.fallout_wastelands_.black_tiles": "Black Tile",
@@ -9226,10 +9193,6 @@
                 "children": []
               },
               {
-                "name": "Ripper",
-                "children": []
-              },
-              {
                 "name": "10mmPistol",
                 "children": []
               },
@@ -9254,6 +9217,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Ripper",
+            "children": []
           }
         ]
       },
