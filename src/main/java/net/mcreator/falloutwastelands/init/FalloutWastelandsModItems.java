@@ -374,9 +374,6 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> RIPPER_PROJECTILE = REGISTRY.register("ripper_projectile", () -> new RipperProjectileItem());
 	public static final RegistryObject<Item> PA_FRAME_ITEM = REGISTRY.register("pa_frame_item", () -> new PAFrameItemItem());
 	public static final RegistryObject<Item> PA_DISPLAY_ENTITY_SPAWN_EGG = REGISTRY.register("pa_display_entity_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.PA_DISPLAY_ENTITY, -1, -1, new Item.Properties()));
-	public static final RegistryObject<Item> RAIDER_DUSTWALKER_SPAWN_EGG = REGISTRY.register("raider_dustwalker_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.RAIDER_DUSTWALKER, -8423335, -9939410, new Item.Properties()));
-	public static final RegistryObject<Item> BLASTMASTER_RAIDER_SPAWN_EGG = REGISTRY.register("blastmaster_raider_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.BLASTMASTER_RAIDER, -8423335, -9939410, new Item.Properties()));
-	public static final RegistryObject<Item> RAIDERSCAVANGER_SPAWN_EGG = REGISTRY.register("raiderscavanger_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.RAIDERSCAVANGER, -8423335, -9939410, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
