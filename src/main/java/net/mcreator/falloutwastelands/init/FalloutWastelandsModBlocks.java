@@ -98,6 +98,7 @@ import net.mcreator.falloutwastelands.block.RuinsGroundBlock;
 import net.mcreator.falloutwastelands.block.RuinsBlock;
 import net.mcreator.falloutwastelands.block.RuinsBaseBlock;
 import net.mcreator.falloutwastelands.block.RoofMetalBlock;
+import net.mcreator.falloutwastelands.block.RockydirtBlock;
 import net.mcreator.falloutwastelands.block.ReinforcedPlanksBlock;
 import net.mcreator.falloutwastelands.block.RadiationBarrelBlock;
 import net.mcreator.falloutwastelands.block.PlasterBlock;
@@ -394,6 +395,7 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> METAL_SHELF = REGISTRY.register("metal_shelf", () -> new MetalShelfBlock());
 	public static final RegistryObject<Block> BOS_METAL_STAIRS = REGISTRY.register("bos_metal_stairs", () -> new BosMetalStairsBlock());
 	public static final RegistryObject<Block> WASTELANDDRYDIRT = REGISTRY.register("wastelanddrydirt", () -> new WastelanddrydirtBlock());
+	public static final RegistryObject<Block> ROCKYDIRT = REGISTRY.register("rockydirt", () -> new RockydirtBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -210,6 +210,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.METAL_SHELF.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BOS_METAL_STAIRS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDDRYDIRT.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ROCKYDIRT.get().asItem());
 			})
 
 					.build());

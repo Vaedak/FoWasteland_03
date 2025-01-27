@@ -8274,6 +8274,26 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "Rockydirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rockydirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/rockydirt_biome_modifier.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/rockydirt.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/rockydirt.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/rockydirt.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/rockydirt.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/rockydirt.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/RockydirtBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/rockydirt.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -8404,15 +8424,15 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -8847,6 +8867,7 @@
       "CUSTOM:MilitaryMetalPlateWall"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Rockydirt",
       "~CUSTOM:Wastelanddrydirt",
       "~CUSTOM:WasteSand",
       "~CUSTOM:Supermutantgore",
@@ -9031,6 +9052,7 @@
       "item.fallout_wastelands_.power_armor_frame_spawn_egg": "Power Armor Frame Spawn Egg",
       "item.fallout_wastelands_.cloth": "Cloth",
       "item.fallout_wastelands_.ripper_projectile": "Ripper Projectile",
+      "block.fallout_wastelands_.rockydirt": "Wasteland Rocky Dirt",
       "item.fallout_wastelands_.base_gun_item": "Base Gun Item",
       "item.fallout_wastelands_.steel_ingot": "Steel Ingot",
       "item.fallout_wastelands_.raiderblastmaster_chestplate": "Raider Blastmaster Chestplate",

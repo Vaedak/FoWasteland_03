@@ -2,12 +2,12 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "wastelanddrydirt3",
-    "textureTop": "wastelanddrydirt3",
-    "textureLeft": "wastelanddrydirt3",
-    "textureFront": "wastelanddrydirt3",
-    "textureRight": "wastelanddrydirt3",
-    "textureBack": "wastelanddrydirt3",
+    "texture": "rockydirt",
+    "textureTop": "rockydirt",
+    "textureLeft": "rockydirt",
+    "textureFront": "rockydirt",
+    "textureRight": "rockydirt",
+    "textureBack": "rockydirt",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Wasteland Dirt",
+    "name": "Wasteland Rocky Dirt",
     "specialInformation": {
       "fixedValue": []
     },
@@ -131,7 +131,7 @@
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 1,
-    "frequencyOnChunk": 64,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 128
   }
