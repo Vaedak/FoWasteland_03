@@ -1,30 +1,15 @@
 
 package net.mcreator.falloutwastelands.item;
 
-import net.minecraftforge.client.extensions.common.IClientItemExtensions;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.client.model.geom.ModelPart;
-import net.minecraft.client.model.HumanoidModel;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.falloutwastelands.client.model.Modelblastmasterraiderarmor;
-import net.mcreator.falloutwastelands.client.model.ModelBighorn;
-
-import java.util.function.Consumer;
-import java.util.Map;
-import java.util.Collections;
 
 public abstract class T45PAItem extends ArmorItem {
 	public T45PAItem(ArmorItem.Type type, Item.Properties properties) {
@@ -77,26 +62,8 @@ public abstract class T45PAItem extends ArmorItem {
 		}
 
 		@Override
-		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
-			consumer.accept(new IClientItemExtensions() {
-				@Override
-				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("head", new ModelBighorn(Minecraft.getInstance().getEntityModels().bakeLayer(ModelBighorn.LAYER_LOCATION)).left_back_leg, "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
-					armorModel.crouching = living.isShiftKeyDown();
-					armorModel.riding = defaultModel.riding;
-					armorModel.young = living.isBaby();
-					return armorModel;
-				}
-			});
-		}
-
-		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/entities/bighorn_texture.png";
+			return "fallout_wastelands_:textures/models/armor/pa1_layer_1.png";
 		}
 	}
 
@@ -106,26 +73,8 @@ public abstract class T45PAItem extends ArmorItem {
 		}
 
 		@Override
-		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
-			consumer.accept(new IClientItemExtensions() {
-				@Override
-				@OnlyIn(Dist.CLIENT)
-				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new ModelBighorn(Minecraft.getInstance().getEntityModels().bakeLayer(ModelBighorn.LAYER_LOCATION)).left_back_leg, "left_arm",
-							new ModelBighorn(Minecraft.getInstance().getEntityModels().bakeLayer(ModelBighorn.LAYER_LOCATION)).left_back_leg, "right_arm",
-							new ModelBighorn(Minecraft.getInstance().getEntityModels().bakeLayer(ModelBighorn.LAYER_LOCATION)).left_back_leg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
-					armorModel.crouching = living.isShiftKeyDown();
-					armorModel.riding = defaultModel.riding;
-					armorModel.young = living.isBaby();
-					return armorModel;
-				}
-			});
-		}
-
-		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/entities/bighorn_texture.png";
+			return "fallout_wastelands_:textures/models/armor/pa1_layer_1.png";
 		}
 	}
 
@@ -135,27 +84,8 @@ public abstract class T45PAItem extends ArmorItem {
 		}
 
 		@Override
-		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
-			consumer.accept(new IClientItemExtensions() {
-				@Override
-				@OnlyIn(Dist.CLIENT)
-				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("left_leg", new Modelblastmasterraiderarmor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelblastmasterraiderarmor.LAYER_LOCATION)).head, "right_leg",
-									new Modelblastmasterraiderarmor(Minecraft.getInstance().getEntityModels().bakeLayer(Modelblastmasterraiderarmor.LAYER_LOCATION)).head, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
-									"left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
-					armorModel.crouching = living.isShiftKeyDown();
-					armorModel.riding = defaultModel.riding;
-					armorModel.young = living.isBaby();
-					return armorModel;
-				}
-			});
-		}
-
-		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/entities/bighorn_texture.png";
+			return "fallout_wastelands_:textures/models/armor/pa1_layer_2.png";
 		}
 	}
 
@@ -165,27 +95,8 @@ public abstract class T45PAItem extends ArmorItem {
 		}
 
 		@Override
-		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
-			consumer.accept(new IClientItemExtensions() {
-				@Override
-				@OnlyIn(Dist.CLIENT)
-				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("left_leg", new ModelBighorn(Minecraft.getInstance().getEntityModels().bakeLayer(ModelBighorn.LAYER_LOCATION)).left_back_leg, "right_leg",
-									new ModelBighorn(Minecraft.getInstance().getEntityModels().bakeLayer(ModelBighorn.LAYER_LOCATION)).left_back_leg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
-									"left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
-					armorModel.crouching = living.isShiftKeyDown();
-					armorModel.riding = defaultModel.riding;
-					armorModel.young = living.isBaby();
-					return armorModel;
-				}
-			});
-		}
-
-		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/entities/bighorn_texture.png";
+			return "fallout_wastelands_:textures/models/armor/pa1_layer_1.png";
 		}
 	}
 }

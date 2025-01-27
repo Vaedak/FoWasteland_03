@@ -15,7 +15,7 @@
         "value": "CUSTOM:Wastelandcombat"
       }
     ],
-    "armorTextureFile": "combatmk1b_",
+    "armorTextureFile": "pa1",
     "helmetName": "T45 Helmet",
     "bodyName": "T45 Chestplate",
     "leggingsName": "T45 Leggings",
@@ -32,22 +32,22 @@
     "bootsSpecialInformation": {
       "fixedValue": []
     },
-    "helmetModelName": "ModelBighorn",
-    "helmetModelPart": "left_back_leg",
-    "helmetModelTexture": "bighorn_texture.png",
-    "bodyModelName": "ModelBighorn",
-    "bodyModelPart": "left_back_leg",
-    "armsModelPartL": "left_back_leg",
-    "armsModelPartR": "left_back_leg",
-    "bodyModelTexture": "bighorn_texture.png",
-    "leggingsModelName": "Modelblastmasterraiderarmor",
-    "leggingsModelPartL": "head",
-    "leggingsModelPartR": "head",
-    "leggingsModelTexture": "bighorn_texture.png",
-    "bootsModelName": "ModelBighorn",
-    "bootsModelPartL": "left_back_leg",
-    "bootsModelPartR": "left_back_leg",
-    "bootsModelTexture": "bighorn_texture.png",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
     "helmetItemRenderType": 0,
     "helmetItemCustomModelName": "Normal",
     "bodyItemRenderType": 0,
@@ -60,6 +60,30 @@
     "bodyImmuneToFire": true,
     "leggingsImmuneToFire": true,
     "bootsImmuneToFire": true,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 40,
     "damageValueHelmet": 6,
     "damageValueBody": 8,
