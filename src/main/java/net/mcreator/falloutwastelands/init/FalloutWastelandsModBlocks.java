@@ -34,6 +34,7 @@ import net.mcreator.falloutwastelands.block.WastelandgravelBlock;
 import net.mcreator.falloutwastelands.block.WastelandgrassbushBlock;
 import net.mcreator.falloutwastelands.block.WastelandgrassblockBlock;
 import net.mcreator.falloutwastelands.block.WastelandemeraldoreBlock;
+import net.mcreator.falloutwastelands.block.WastelanddrydirtBlock;
 import net.mcreator.falloutwastelands.block.WastelanddiamondoreBlock;
 import net.mcreator.falloutwastelands.block.WastelandcopperoreBlock;
 import net.mcreator.falloutwastelands.block.WastelandcoaloreBlock;
@@ -392,6 +393,7 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> ENCLAVE_BUNKER_STAIRS = REGISTRY.register("enclave_bunker_stairs", () -> new EnclaveBunkerStairsBlock());
 	public static final RegistryObject<Block> METAL_SHELF = REGISTRY.register("metal_shelf", () -> new MetalShelfBlock());
 	public static final RegistryObject<Block> BOS_METAL_STAIRS = REGISTRY.register("bos_metal_stairs", () -> new BosMetalStairsBlock());
+	public static final RegistryObject<Block> WASTELANDDRYDIRT = REGISTRY.register("wastelanddrydirt", () -> new WastelanddrydirtBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

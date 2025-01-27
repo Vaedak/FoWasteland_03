@@ -2,12 +2,12 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "wastesandfix",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
+    "texture": "wastelanddrydirt",
+    "textureTop": "wastelanddrydirt",
+    "textureLeft": "wastelanddrydirt",
+    "textureFront": "wastelanddrydirt",
+    "textureRight": "wastelanddrydirt",
+    "textureBack": "wastelanddrydirt",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -40,7 +40,7 @@
     },
     "hardness": 1.0,
     "resistance": 0.5,
-    "hasGravity": true,
+    "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
       {
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "SAND"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -84,7 +84,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SAND"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -123,27 +123,19 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": true,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:WastelandPlains"
+      }
+    ],
     "blocksToReplace": [
-      {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      },
       {
         "value": "CUSTOM:Wastelandgrassblock"
       }
     ],
-    "generationShape": "TRIANGLE",
-    "frequencyPerChunks": 24,
-    "frequencyOnChunk": 32,
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 64,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 128
   }

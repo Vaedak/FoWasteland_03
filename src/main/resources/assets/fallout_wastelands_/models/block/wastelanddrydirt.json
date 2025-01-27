@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/wastelanddrydirt",
+    "up": "fallout_wastelands_:block/wastelanddrydirt",
+    "north": "fallout_wastelands_:block/wastelanddrydirt",
+    "east": "fallout_wastelands_:block/wastelanddrydirt",
+    "south": "fallout_wastelands_:block/wastelanddrydirt",
+    "west": "fallout_wastelands_:block/wastelanddrydirt",
+    "particle": "fallout_wastelands_:block/wastelanddrydirt"
+  },
+  "render_type": "solid"
+}

@@ -377,6 +377,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> RAIDER_DUSTWALKER_SPAWN_EGG = REGISTRY.register("raider_dustwalker_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.RAIDER_DUSTWALKER, -8423335, -9939410, new Item.Properties()));
 	public static final RegistryObject<Item> BLASTMASTER_RAIDER_SPAWN_EGG = REGISTRY.register("blastmaster_raider_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.BLASTMASTER_RAIDER, -8423335, -9939410, new Item.Properties()));
 	public static final RegistryObject<Item> RAIDERSCAVANGER_SPAWN_EGG = REGISTRY.register("raiderscavanger_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.RAIDERSCAVANGER, -8423335, -9939410, new Item.Properties()));
+	public static final RegistryObject<Item> WASTELANDDRYDIRT = block(FalloutWastelandsModBlocks.WASTELANDDRYDIRT);
 
 	// Start of user code block custom items
 	// End of user code block custom items
