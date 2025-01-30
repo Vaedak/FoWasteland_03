@@ -264,6 +264,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.T_45_PA_CHESTPLATE.get());
 				tabData.accept(FalloutWastelandsModItems.T_45_PA_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.T_45_PA_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.FUSION_CORE.get());
 			})
 
 					.build());
@@ -307,6 +308,15 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.TINNUGGET.get());
 				tabData.accept(FalloutWastelandsModItems.URANIUM_NUGGET.get());
 				tabData.accept(FalloutWastelandsModItems.PA_FRAME_ITEM.get());
+				tabData.accept(FalloutWastelandsModItems.BRAHIM_MEAT.get());
+				tabData.accept(FalloutWastelandsModItems.FERTILIZER.get());
+				tabData.accept(FalloutWastelandsModItems.DENTED_CAN.get());
+				tabData.accept(FalloutWastelandsModItems.COFFEPOT.get());
+				tabData.accept(FalloutWastelandsModItems.CIGARETTEPACK.get());
+				tabData.accept(FalloutWastelandsModItems.MOTHERBOARD.get());
+				tabData.accept(FalloutWastelandsModItems.INDUSTRIALHULL.get());
+				tabData.accept(FalloutWastelandsModItems.BROTHERHOOD_HULL.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVE_HULL.get());
 			})
 
 					.build());
