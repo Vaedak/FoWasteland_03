@@ -3,6 +3,6 @@
   "biomes": {
     "type": "forge:any"
   },
-  "features": "fallout_wastelands_:waste_sand",
+  "features": "fallout_wastelands_:rockydirt",
   "step": "underground_ores"
 }

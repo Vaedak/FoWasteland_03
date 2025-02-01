@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/rockydirt",
+    "up": "fallout_wastelands_:block/rockydirt",
+    "north": "fallout_wastelands_:block/rockydirt",
+    "east": "fallout_wastelands_:block/rockydirt",
+    "south": "fallout_wastelands_:block/rockydirt",
+    "west": "fallout_wastelands_:block/rockydirt",
+    "particle": "fallout_wastelands_:block/rockydirt"
+  },
+  "render_type": "solid"
+}
