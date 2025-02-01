@@ -25,4 +25,6 @@ public class FalloutWastelandsModSounds {
 	public static final RegistryObject<SoundEvent> TENMMSHOT = REGISTRY.register("tenmmshot", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("fallout_wastelands_", "tenmmshot")));
 	public static final RegistryObject<SoundEvent> LMGRELOADING = REGISTRY.register("lmgreloading", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("fallout_wastelands_", "lmgreloading")));
 	public static final RegistryObject<SoundEvent> NAILPISTOLSHOT = REGISTRY.register("nailpistolshot", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("fallout_wastelands_", "nailpistolshot")));
+	public static final RegistryObject<SoundEvent> WASTELAND_WIND = REGISTRY.register("wasteland_wind", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("fallout_wastelands_", "wasteland_wind")));
+	public static final RegistryObject<SoundEvent> THE_GLOW = REGISTRY.register("the_glow", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("fallout_wastelands_", "the_glow")));
 }
