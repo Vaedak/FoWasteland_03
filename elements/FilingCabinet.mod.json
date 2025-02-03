@@ -24,12 +24,12 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -4.0,
+        "mx": -12.0,
         "my": 0.0,
-        "mz": 6.0,
-        "Mx": 20.0,
+        "mz": 5.0,
+        "Mx": 12.0,
         "My": 31.0,
-        "Mz": 16.0,
+        "Mz": 15.0,
         "subtract": false
       }
     ],
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

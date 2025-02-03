@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:worn_metal_pillar",
     "fallout_wastelands_:metal_shelf",
     "fallout_wastelands_:ammo_box",
     "fallout_wastelands_:trash_bin",

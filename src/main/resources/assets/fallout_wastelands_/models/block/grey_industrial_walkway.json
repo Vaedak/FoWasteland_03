@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/greypplain",
+    "up": "fallout_wastelands_:block/greyvent",
+    "north": "fallout_wastelands_:block/greyrivet",
+    "east": "fallout_wastelands_:block/greyrivet",
+    "south": "fallout_wastelands_:block/greyrivet",
+    "west": "fallout_wastelands_:block/greyrivet",
+    "particle": "fallout_wastelands_:block/greypplain"
+  },
+  "render_type": "solid"
+}

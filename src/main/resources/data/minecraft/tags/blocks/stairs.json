@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:wasteland_bricks_stairs",
+    "fallout_wastelands_:grey_industrial_alloy_stair",
+    "fallout_wastelands_:industrial_walkwaystairs",
+    "fallout_wastelands_:grey_industrial_walkway_stairs",
     "fallout_wastelands_:bos_metal_stairs",
     "fallout_wastelands_:enclave_bunker_stairs",
     "fallout_wastelands_:military_metal_stair",

@@ -211,6 +211,20 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.BOS_METAL_STAIRS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDDRYDIRT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.ROCKYDIRT.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_ALLOY.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_ALLOYPLATE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_ALLOWMIDRIVET.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_ALLOYBOTTOMRIVET.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_WALKWAY.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_WALKWAYSLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_WALKWAY_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_WALKWAYSTAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_WALKWAY_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_ALLOY_STAIR.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_ALLOY_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BRICKS_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BRICKS_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WORN_METAL_PILLAR.get().asItem());
 			})
 
 					.build());
@@ -311,12 +325,30 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.BRAHIM_MEAT.get());
 				tabData.accept(FalloutWastelandsModItems.FERTILIZER.get());
 				tabData.accept(FalloutWastelandsModItems.DENTED_CAN.get());
+				tabData.accept(FalloutWastelandsModItems.MUTLEMON.get());
+				tabData.accept(FalloutWastelandsModItems.COFFEE.get());
 				tabData.accept(FalloutWastelandsModItems.COFFEPOT.get());
 				tabData.accept(FalloutWastelandsModItems.CIGARETTEPACK.get());
 				tabData.accept(FalloutWastelandsModItems.MOTHERBOARD.get());
 				tabData.accept(FalloutWastelandsModItems.INDUSTRIALHULL.get());
 				tabData.accept(FalloutWastelandsModItems.BROTHERHOOD_HULL.get());
 				tabData.accept(FalloutWastelandsModItems.ENCLAVE_HULL.get());
+				tabData.accept(FalloutWastelandsModItems.SMALLCALIBERCASING.get());
+				tabData.accept(FalloutWastelandsModItems.HEAVYCALIBERCASING.get());
+				tabData.accept(FalloutWastelandsModItems.HUNTING_CASING.get());
+				tabData.accept(FalloutWastelandsModItems.CANNED_BEEF.get());
+				tabData.accept(FalloutWastelandsModItems.SUGAR_BOMBS.get());
+				tabData.accept(FalloutWastelandsModItems.INSTAMASH.get());
+				tabData.accept(FalloutWastelandsModItems.CRAM.get());
+				tabData.accept(FalloutWastelandsModItems.IGUANA_ON_STICK.get());
+				tabData.accept(FalloutWastelandsModItems.CHICAGO_OMELETTE.get());
+				tabData.accept(FalloutWastelandsModItems.GECKO_COOCKED_EGG.get());
+				tabData.accept(FalloutWastelandsModItems.GECKO_EGG.get());
+				tabData.accept(FalloutWastelandsModItems.HUMAN_BRAIN.get());
+				tabData.accept(FalloutWastelandsModItems.BLOAT_FLY_MEAT.get());
+				tabData.accept(FalloutWastelandsModItems.MUG.get());
+				tabData.accept(FalloutWastelandsModItems.ADVANCED_MOTHERBOARD.get());
+				tabData.accept(FalloutWastelandsModItems.ACID.get());
 			})
 
 					.build());

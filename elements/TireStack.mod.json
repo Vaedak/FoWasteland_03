@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "CUTOUT",
     "disableOffset": false,
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "CLAY"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

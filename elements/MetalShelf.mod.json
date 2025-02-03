@@ -58,6 +58,42 @@
         "My": 32.0,
         "Mz": 30.0,
         "subtract": false
+      },
+      {
+        "mx": 3.1,
+        "my": 4.0,
+        "mz": 2.1,
+        "Mx": 12.9,
+        "My": 4.25,
+        "Mz": 29.9,
+        "subtract": false
+      },
+      {
+        "mx": 3.1,
+        "my": 12.0,
+        "mz": 2.1,
+        "Mx": 12.9,
+        "My": 12.25,
+        "Mz": 29.9,
+        "subtract": false
+      },
+      {
+        "mx": 3.1,
+        "my": 20.0,
+        "mz": 2.1,
+        "Mx": 12.9,
+        "My": 20.25,
+        "Mz": 29.9,
+        "subtract": false
+      },
+      {
+        "mx": 3.1,
+        "my": 28.0,
+        "mz": 2.1,
+        "Mx": 12.9,
+        "My": 28.25,
+        "Mz": 29.9,
+        "subtract": false
       }
     ],
     "customProperties": [],
@@ -86,7 +122,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

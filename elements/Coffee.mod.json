@@ -9,7 +9,11 @@
     "states": [],
     "name": "Coffee",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelanditems"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,

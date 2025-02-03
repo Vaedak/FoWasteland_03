@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fallout_wastelands_:block/grey_industrial_alloy_slab"
+    },
+    "type=top": {
+      "model": "fallout_wastelands_:block/grey_industrial_alloy_slab_top"
+    },
+    "type=double": {
+      "model": "fallout_wastelands_:block/grey_industrial_alloy_slab_full"
+    }
+  }
+}

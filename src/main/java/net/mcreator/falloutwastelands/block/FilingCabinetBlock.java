@@ -78,10 +78,10 @@ public class FilingCabinetBlock extends Block implements SimpleWaterloggedBlock,
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-4, 0, 0, 20, 31, 10);
-			case NORTH -> box(-4, 0, 6, 20, 31, 16);
-			case EAST -> box(0, 0, -4, 10, 31, 20);
-			case WEST -> box(6, 0, -4, 16, 31, 20);
+			default -> box(4, 0, 1, 28, 31, 11);
+			case NORTH -> box(-12, 0, 5, 12, 31, 15);
+			case EAST -> box(1, 0, -12, 11, 31, 12);
+			case WEST -> box(5, 0, 4, 15, 31, 28);
 		};
 	}
 

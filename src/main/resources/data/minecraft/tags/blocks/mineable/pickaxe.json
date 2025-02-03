@@ -1,6 +1,18 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:worn_metal_pillar",
+    "fallout_wastelands_:grey_industrial_alloy_slab",
+    "fallout_wastelands_:grey_industrial_alloy_stair",
+    "fallout_wastelands_:grey_industrial_walkway_slab",
+    "fallout_wastelands_:industrial_walkwaystairs",
+    "fallout_wastelands_:grey_industrial_walkway_stairs",
+    "fallout_wastelands_:grey_industrial_walkwayslab",
+    "fallout_wastelands_:grey_industrial_walkway",
+    "fallout_wastelands_:grey_industrial_alloybottomrivet",
+    "fallout_wastelands_:grey_industrial_allowmidrivet",
+    "fallout_wastelands_:grey_industrial_alloyplate",
+    "fallout_wastelands_:grey_industrial_alloy",
     "fallout_wastelands_:bos_metal_stairs",
     "fallout_wastelands_:metal_shelf",
     "fallout_wastelands_:enclave_bunker_stairs",

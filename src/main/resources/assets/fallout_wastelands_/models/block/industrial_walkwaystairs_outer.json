@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "fallout_wastelands_:block/industrialredplain",
+    "bottom": "fallout_wastelands_:block/industrialredplain",
+    "top": "fallout_wastelands_:block/industrialredvent",
+    "side": "fallout_wastelands_:block/industrialred"
+  },
+  "render_type": "solid"
+}

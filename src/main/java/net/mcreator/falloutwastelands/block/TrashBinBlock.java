@@ -78,10 +78,10 @@ public class TrashBinBlock extends Block implements SimpleWaterloggedBlock, Enti
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(1, 12, 0, 31, 19, 15), box(0.5, 15, -2, 31.5, 17, 15));
-			case NORTH -> Shapes.or(box(-15, 12, 1, 15, 19, 16), box(-15.5, 15, 1, 15.5, 17, 18));
-			case EAST -> Shapes.or(box(0, 12, -15, 15, 19, 15), box(-2, 15, -15.5, 15, 17, 15.5));
-			case WEST -> Shapes.or(box(1, 12, 1, 16, 19, 31), box(1, 15, 0.5, 18, 17, 31.5));
+			default -> Shapes.or(box(1, 0, 0, 31, 12, 15), box(1, 12, 0, 31, 19, 15), box(0.5, 15, -2, 31.5, 17, 15));
+			case NORTH -> Shapes.or(box(-15, 0, 1, 15, 12, 16), box(-15, 12, 1, 15, 19, 16), box(-15.5, 15, 1, 15.5, 17, 18));
+			case EAST -> Shapes.or(box(0, 0, -15, 15, 12, 15), box(0, 12, -15, 15, 19, 15), box(-2, 15, -15.5, 15, 17, 15.5));
+			case WEST -> Shapes.or(box(1, 0, 1, 16, 12, 31), box(1, 12, 1, 16, 19, 31), box(1, 15, 0.5, 18, 17, 31.5));
 		};
 	}
 

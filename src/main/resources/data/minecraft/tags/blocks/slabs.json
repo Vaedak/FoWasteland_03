@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:wasteland_bricks_slab",
+    "fallout_wastelands_:grey_industrial_alloy_slab",
+    "fallout_wastelands_:grey_industrial_walkway_slab",
+    "fallout_wastelands_:grey_industrial_walkwayslab",
     "fallout_wastelands_:charred_molder_slab",
     "fallout_wastelands_:military_plating_slab",
     "fallout_wastelands_:bos_steel_slabs",
