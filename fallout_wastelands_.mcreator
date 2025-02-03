@@ -9196,15 +9196,15 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
