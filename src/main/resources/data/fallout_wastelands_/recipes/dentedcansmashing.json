@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:wrench"
+    },
+    {
+      "item": "fallout_wastelands_:dented_can"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:aluminiumnugget",
+    "count": 3
+  }
+}

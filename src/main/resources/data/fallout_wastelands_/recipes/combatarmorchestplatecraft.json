@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bab",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:industrialhull"
+    },
+    "b": {
+      "item": "fallout_wastelands_:cloth"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:combatarmor_chestplate",
+    "count": 1
+  }
+}

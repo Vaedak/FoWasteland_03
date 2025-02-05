@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:cloth"
+    },
+    "b": {
+      "item": "fallout_wastelands_:industrialhull"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:combatarmor_leggings",
+    "count": 1
+  }
+}

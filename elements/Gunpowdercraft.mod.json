@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Acid"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "CUSTOM:Cloth"
+      },
+      {
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Fertilizer"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.GUNPOWDER"
+    },
+    "name": "gunpowdercraft",
+    "namespace": "mod"
+  }
+}

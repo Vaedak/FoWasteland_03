@@ -22,6 +22,9 @@
     "enchantability": 0,
     "damageVsEntity": 2.5,
     "usageCount": 90,
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "CUSTOM:LeadIngot"
@@ -30,7 +33,7 @@
     "immuneToFire": false,
     "blockDropsTier": "STONE",
     "blocksAffected": [],
-    "stayInGridWhenCrafting": false,
+    "stayInGridWhenCrafting": true,
     "damageOnCrafting": false
   }
 }

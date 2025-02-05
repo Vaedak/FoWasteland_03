@@ -37,4 +37,19 @@ public class WrenchItem extends SwordItem {
 			}
 		}, 3, -3.3f, new Item.Properties());
 	}
+
+	@Override
+	public boolean hasCraftingRemainingItem(ItemStack stack) {
+		return true;
+	}
+
+	@Override
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
+		return new ItemStack(this);
+	}
+
+	@Override
+	public boolean isRepairable(ItemStack itemstack) {
+		return false;
+	}
 }

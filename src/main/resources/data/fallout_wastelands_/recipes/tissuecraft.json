@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:cloth",
+    "count": 9
+  }
+}

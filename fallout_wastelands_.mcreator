@@ -9066,6 +9066,234 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "Beer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/BeerItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/beer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "BeerPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beer_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BeerPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Rollingpincraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rollingpincraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/rollingpincraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Motherboardcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motherboardcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/motherboardcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Coppercablecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppercablecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/coppercablecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Tissuecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tissuecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/tissuecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Tissuetowoolcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tissuetowoolcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/tissuetowoolcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandbrickcooking",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandbrickcooking",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandbrickcooking.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MeltedCopperingot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melted_copperingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/melted_copperingot.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MeltedTiningot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melted_tiningot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/melted_tiningot.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MeltedAluminiumingot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melted_aluminiumingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/melted_aluminiumingot.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Gunpowdercraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunpowdercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/gunpowdercraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Combatarmorhelmetcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combatarmorhelmetcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/combatarmorhelmetcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Combatarmorchestplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combatarmorchestplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/combatarmorchestplatecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Combatarmorpants",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combatarmorpants",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/combatarmorpants.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Combatarmorbootscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combatarmorbootscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/combatarmorbootscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Dentedcansmashing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dentedcansmashing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/dentedcansmashing.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -9196,15 +9424,15 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -9910,6 +10138,7 @@
       "key.fallout_wastelands_.stop_reload": "Stop Reload",
       "item.fallout_wastelands_.nailed_wrench": "Wrench",
       "block.fallout_wastelands_.charred_molder_fence": "Charred Molder Fence",
+      "item.fallout_wastelands_.beer": "Beer",
       "item.fallout_wastelands_.antiradsuit_boots": "Anti-Rad Suit Boots",
       "gui.fallout_wastelands_.locker_storage.label_locker": "Locker",
       "block.fallout_wastelands_.wastelandlapisore": "Wasteland Lapis Ore",

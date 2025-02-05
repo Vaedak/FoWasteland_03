@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:copperwires"
+    },
+    "b": {
+      "item": "fallout_wastelands_:tinnugget"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "d": {
+      "item": "fallout_wastelands_:aluminiumnugget"
+    },
+    "e": {
+      "item": "fallout_wastelands_:scrapmetal"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:motherboard",
+    "count": 1
+  }
+}

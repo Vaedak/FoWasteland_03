@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:acid"
+    },
+    "b": {
+      "item": "minecraft:charcoal"
+    },
+    "c": {
+      "item": "fallout_wastelands_:cloth"
+    },
+    "d": {
+      "item": "fallout_wastelands_:fertilizer"
+    }
+  },
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 6
+  }
+}

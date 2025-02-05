@@ -103,6 +103,7 @@ import net.mcreator.falloutwastelands.item.BrotherhoodHullItem;
 import net.mcreator.falloutwastelands.item.BrahimMeatItem;
 import net.mcreator.falloutwastelands.item.BottleCapItem;
 import net.mcreator.falloutwastelands.item.BloatFlyMeatItem;
+import net.mcreator.falloutwastelands.item.BeerItem;
 import net.mcreator.falloutwastelands.item.BaseGunItemItem;
 import net.mcreator.falloutwastelands.item.BASENameItemItem;
 import net.mcreator.falloutwastelands.item.BASECapBundleItem;
@@ -449,6 +450,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> WASTELAND_BRICKS_SLAB = block(FalloutWastelandsModBlocks.WASTELAND_BRICKS_SLAB);
 	public static final RegistryObject<Item> WASTELAND_BRICKS_STAIRS = block(FalloutWastelandsModBlocks.WASTELAND_BRICKS_STAIRS);
 	public static final RegistryObject<Item> WORN_METAL_PILLAR = block(FalloutWastelandsModBlocks.WORN_METAL_PILLAR);
+	public static final RegistryObject<Item> BEER = REGISTRY.register("beer", () -> new BeerItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

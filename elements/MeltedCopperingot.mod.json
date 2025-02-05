@@ -1,0 +1,22 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 300,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:MoltenCopper"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.COPPER_INGOT"
+    },
+    "name": "melted_copperingot",
+    "namespace": "mod"
+  }
+}
