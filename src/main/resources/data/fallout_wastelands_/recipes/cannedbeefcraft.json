@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:dented_can"
+    },
+    "b": {
+      "item": "fallout_wastelands_:brahim_meat"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:canned_beef",
+    "count": 8
+  }
+}

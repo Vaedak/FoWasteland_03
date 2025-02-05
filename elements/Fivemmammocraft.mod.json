@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 7,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Smallcalibercasing"
+      },
+      {
+        "value": "CUSTOM:Smallcalibercasing"
+      },
+      {
+        "value": "CUSTOM:Smallcalibercasing"
+      },
+      {
+        "value": "CUSTOM:Smallcalibercasing"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "CUSTOM:Smallcalibercasing"
+      },
+      {
+        "value": "CUSTOM:Smallcalibercasing"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:Smallcalibercasing"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FivemmAmmo"
+    },
+    "name": "fivemmammocraft",
+    "namespace": "mod"
+  }
+}

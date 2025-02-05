@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "cac"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:smallcalibercasing"
+    },
+    "b": {
+      "item": "minecraft:gunpowder"
+    },
+    "c": {
+      "item": "fallout_wastelands_:steelnugget"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:tenmmammo",
+    "count": 4
+  }
+}

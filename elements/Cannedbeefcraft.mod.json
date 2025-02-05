@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DentedCan"
+      },
+      {
+        "value": "CUSTOM:DentedCan"
+      },
+      {
+        "value": "CUSTOM:DentedCan"
+      },
+      {
+        "value": "CUSTOM:DentedCan"
+      },
+      {
+        "value": "CUSTOM:BrahimMeat"
+      },
+      {
+        "value": "CUSTOM:DentedCan"
+      },
+      {
+        "value": "CUSTOM:DentedCan"
+      },
+      {
+        "value": "CUSTOM:DentedCan"
+      },
+      {
+        "value": "CUSTOM:DentedCan"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CannedBeef"
+    },
+    "name": "cannedbeefcraft",
+    "namespace": "mod"
+  }
+}

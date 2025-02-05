@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:fusion_core"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:energy_cell",
+    "count": 16
+  }
+}
