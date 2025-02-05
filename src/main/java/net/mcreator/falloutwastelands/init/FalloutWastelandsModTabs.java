@@ -349,7 +349,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.MUG.get());
 				tabData.accept(FalloutWastelandsModItems.ADVANCED_MOTHERBOARD.get());
 				tabData.accept(FalloutWastelandsModItems.ACID.get());
-				tabData.accept(FalloutWastelandsModItems.BEER.get());
 			})
 
 					.build());
