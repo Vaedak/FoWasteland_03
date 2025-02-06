@@ -11684,6 +11684,23 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Brahmin",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brahmin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/entity/model/BrahminModel.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/BrahminEntity.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BrahminRenderer.java",
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/brahmin_biome_modifier.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/brahmin_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entity"
     }
   ],
   "variable_elements": [
@@ -12419,6 +12436,7 @@
       "block.fallout_wastelands_.military_plating_walkway": "Military Plating Walkway",
       "block.fallout_wastelands_.slab_wasteland_cobblestone": "Wasteland Cobblestone Slab",
       "block.fallout_wastelands_.wirefence": "Wire Fence",
+      "item.fallout_wastelands_.brahmin_spawn_egg": "Brahmin Spawn Egg",
       "block.fallout_wastelands_.bos_metal_plating_lighted": "Bos Lighted Plating",
       "block.fallout_wastelands_.red_painted_planks": "Red Painted Planks",
       "block.fallout_wastelands_.wasteland_broken_glass": "Broken Glass",
@@ -12746,6 +12764,7 @@
       "gui.fallout_wastelands_.base_menu_ui.label_d": " use an image with the texts and use button images",
       "item.fallout_wastelands_.raiderblastmaster_boots": "Raider Blastmaster Sandals",
       "block.fallout_wastelands_.grey_industrial_alloy_slab": "Industrial Alloy Slab",
+      "entity.fallout_wastelands_.brahmin": "Brahmin",
       "item.fallout_wastelands_.wastelands": "Wastelands Portal Igniter",
       "item.fallout_wastelands_.acid": "Acid",
       "block.fallout_wastelands_.landmine": "Landmine",
@@ -12884,6 +12903,10 @@
       },
       {
         "name": "Plants",
+        "children": []
+      },
+      {
+        "name": "Entity",
         "children": []
       }
     ]

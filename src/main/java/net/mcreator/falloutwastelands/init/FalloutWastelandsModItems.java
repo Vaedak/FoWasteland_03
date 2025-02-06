@@ -479,6 +479,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> RED_PAINTED_PLANKS = block(FalloutWastelandsModBlocks.RED_PAINTED_PLANKS);
 	public static final RegistryObject<Item> YUKAPLANT = doubleBlock(FalloutWastelandsModBlocks.YUKAPLANT);
 	public static final RegistryObject<Item> MIRELURKMEAT = REGISTRY.register("mirelurkmeat", () -> new MirelurkmeatItem());
+	public static final RegistryObject<Item> BRAHMIN_SPAWN_EGG = REGISTRY.register("brahmin_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.BRAHMIN, -10205395, -7046050, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
