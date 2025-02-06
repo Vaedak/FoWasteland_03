@@ -1,10 +1,10 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "particle": "fallout_wastelands_:block/bitumenfixed2",
-    "bottom": "fallout_wastelands_:block/bitumenfixed2",
-    "top": "fallout_wastelands_:block/bitumenfixed2",
-    "side": "fallout_wastelands_:block/bitumenfixed2"
+    "particle": "fallout_wastelands_:block/asphalt",
+    "bottom": "fallout_wastelands_:block/asphalt",
+    "top": "fallout_wastelands_:block/asphalt",
+    "side": "fallout_wastelands_:block/asphalt"
   },
   "render_type": "solid"
 }

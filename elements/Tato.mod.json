@@ -31,12 +31,21 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedOnBlock": {
+      "name": "TatoRightclickedOnBlock"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:BaseGunItemProjectile"
+    },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 3,

@@ -24,6 +24,7 @@ import net.mcreator.falloutwastelands.entity.PlasmaProjectileEntity;
 import net.mcreator.falloutwastelands.entity.PADisplayEntityEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.Cannibal00Entity;
+import net.mcreator.falloutwastelands.entity.BrahminEntity;
 import net.mcreator.falloutwastelands.entity.BlastmasterRaiderEntity;
 import net.mcreator.falloutwastelands.entity.BaseGunItemProjectileEntity;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
@@ -62,6 +63,10 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<RaiderscavangerEntity>of(RaiderscavangerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(80).setUpdateInterval(3).setCustomClientFactory(RaiderscavangerEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BrahminEntity>> BRAHMIN = register("brahmin",
+			EntityType.Builder.<BrahminEntity>of(BrahminEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BrahminEntity::new)
+
+					.sized(0.6f, 1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -76,6 +81,7 @@ public class FalloutWastelandsModEntities {
 			RaiderDustwalkerEntity.init();
 			BlastmasterRaiderEntity.init();
 			RaiderscavangerEntity.init();
+			BrahminEntity.init();
 		});
 	}
 
@@ -87,5 +93,6 @@ public class FalloutWastelandsModEntities {
 		event.put(RAIDER_DUSTWALKER.get(), RaiderDustwalkerEntity.createAttributes().build());
 		event.put(BLASTMASTER_RAIDER.get(), BlastmasterRaiderEntity.createAttributes().build());
 		event.put(RAIDERSCAVANGER.get(), RaiderscavangerEntity.createAttributes().build());
+		event.put(BRAHMIN.get(), BrahminEntity.createAttributes().build());
 	}
 }

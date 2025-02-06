@@ -13,7 +13,7 @@
     "plantType": "double",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
-    "growapableSpawnType": "Plains",
+    "growapableSpawnType": "Desert",
     "growapableMaxHeight": 3,
     "customBoundingBox": false,
     "disableOffset": false,
@@ -80,7 +80,14 @@
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [],
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:WastelandDirt"
+      },
+      {
+        "value": "CUSTOM:TheGlowDirt"
+      }
+    ],
     "isBonemealable": false,
     "frequencyOnChunks": 5,
     "generateFeature": true,

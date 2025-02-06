@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:wasteland_road_white_slab",
+    "fallout_wastelands_:wasteland_road_white",
+    "fallout_wastelands_:wasteland_road_yellow_slab",
+    "fallout_wastelands_:wasteland_road_yellow",
     "fallout_wastelands_:industrial_alloy_vent",
     "fallout_wastelands_:industrial_alloy_structureslab",
     "fallout_wastelands_:industrial_alloystructure",

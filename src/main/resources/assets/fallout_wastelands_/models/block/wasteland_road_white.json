@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fallout_wastelands_:block/whiteasphalt",
+    "particle": "fallout_wastelands_:block/whiteasphalt"
+  },
+  "render_type": "solid"
+}

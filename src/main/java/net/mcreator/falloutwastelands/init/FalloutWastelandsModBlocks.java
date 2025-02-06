@@ -45,6 +45,10 @@ import net.mcreator.falloutwastelands.block.WastelandcoaloreBlock;
 import net.mcreator.falloutwastelands.block.WastelandburntgrassBlock;
 import net.mcreator.falloutwastelands.block.WastelandbricksBlock;
 import net.mcreator.falloutwastelands.block.WastelandStoneBlock;
+import net.mcreator.falloutwastelands.block.WastelandRoadYellowSlabBlock;
+import net.mcreator.falloutwastelands.block.WastelandRoadYellowBlock;
+import net.mcreator.falloutwastelands.block.WastelandRoadWhiteSlabBlock;
+import net.mcreator.falloutwastelands.block.WastelandRoadWhiteBlock;
 import net.mcreator.falloutwastelands.block.WastelandRoadSlabBlock;
 import net.mcreator.falloutwastelands.block.WastelandRoadBlockBlock;
 import net.mcreator.falloutwastelands.block.WastelandGoldoreBlock;
@@ -82,6 +86,11 @@ import net.mcreator.falloutwastelands.block.TinBlockBlock;
 import net.mcreator.falloutwastelands.block.TheGlowDirtBlock;
 import net.mcreator.falloutwastelands.block.TerminalBlock;
 import net.mcreator.falloutwastelands.block.TelevisionBlock;
+import net.mcreator.falloutwastelands.block.Tatoplant4Block;
+import net.mcreator.falloutwastelands.block.Tatoplant3Block;
+import net.mcreator.falloutwastelands.block.Tatoplant2Block;
+import net.mcreator.falloutwastelands.block.Tatoplant1Block;
+import net.mcreator.falloutwastelands.block.Tatoplant0Block;
 import net.mcreator.falloutwastelands.block.SupermutantgoreBlock;
 import net.mcreator.falloutwastelands.block.SubwaybricksBlock;
 import net.mcreator.falloutwastelands.block.StrippedmolderwoodlogBlock;
@@ -444,6 +453,15 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> INDUSTRIAL_ALLOY_VENT = REGISTRY.register("industrial_alloy_vent", () -> new IndustrialAlloyVentBlock());
 	public static final RegistryObject<Block> RED_PAINTED_PLANKS = REGISTRY.register("red_painted_planks", () -> new RedPaintedPlanksBlock());
 	public static final RegistryObject<Block> YUKAPLANT = REGISTRY.register("yukaplant", () -> new YukaplantBlock());
+	public static final RegistryObject<Block> WASTELAND_ROAD_YELLOW = REGISTRY.register("wasteland_road_yellow", () -> new WastelandRoadYellowBlock());
+	public static final RegistryObject<Block> TATOPLANT_0 = REGISTRY.register("tatoplant_0", () -> new Tatoplant0Block());
+	public static final RegistryObject<Block> TATOPLANT_2 = REGISTRY.register("tatoplant_2", () -> new Tatoplant2Block());
+	public static final RegistryObject<Block> TATOPLANT_1 = REGISTRY.register("tatoplant_1", () -> new Tatoplant1Block());
+	public static final RegistryObject<Block> WASTELAND_ROAD_YELLOW_SLAB = REGISTRY.register("wasteland_road_yellow_slab", () -> new WastelandRoadYellowSlabBlock());
+	public static final RegistryObject<Block> TATOPLANT_4 = REGISTRY.register("tatoplant_4", () -> new Tatoplant4Block());
+	public static final RegistryObject<Block> TATOPLANT_3 = REGISTRY.register("tatoplant_3", () -> new Tatoplant3Block());
+	public static final RegistryObject<Block> WASTELAND_ROAD_WHITE = REGISTRY.register("wasteland_road_white", () -> new WastelandRoadWhiteBlock());
+	public static final RegistryObject<Block> WASTELAND_ROAD_WHITE_SLAB = REGISTRY.register("wasteland_road_white_slab", () -> new WastelandRoadWhiteSlabBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

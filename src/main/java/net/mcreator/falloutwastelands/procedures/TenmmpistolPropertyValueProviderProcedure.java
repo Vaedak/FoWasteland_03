@@ -1,6 +1,6 @@
 package net.mcreator.falloutwastelands.procedures;
 
-import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.eventbus.api.Event;
 
 public class TenmmpistolPropertyValueProviderProcedure {
 	public static double execute(ItemStack itemstack) {

@@ -1,0 +1,108 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.brahmin",
+				"texture_width": 64,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "brahmin",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body_r1",
+					"parent": "brahmin",
+					"pivot": [0, 19, 2],
+					"rotation": [90.00021, 0, 0]
+				},
+				{
+					"name": "lefthead_r1",
+					"parent": "brahmin",
+					"pivot": [4, 20.3333, -6.3333],
+					"rotation": [0, -30.00007, 0]
+				},
+				{
+					"name": "armleft",
+					"parent": "brahmin",
+					"pivot": [4, 12, -6],
+					"cubes": [
+						{"origin": [2, 0, -7], "size": [4, 12, 4], "uv": [0, 16], "mirror": true}
+					]
+				},
+				{
+					"name": "armright",
+					"parent": "brahmin",
+					"pivot": [-4, 12, -6],
+					"cubes": [
+						{"origin": [-6, 0, -7], "size": [4, 12, 4], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "legleft",
+					"parent": "brahmin",
+					"pivot": [4, 12, 7],
+					"cubes": [
+						{"origin": [2, 0, 5], "size": [4, 12, 4], "uv": [0, 16], "mirror": true}
+					]
+				},
+				{
+					"name": "legright",
+					"parent": "brahmin",
+					"pivot": [-4, 12, 7],
+					"cubes": [
+						{"origin": [-6, 0, 5], "size": [4, 12, 4], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "lefthead",
+					"parent": "brahmin",
+					"pivot": [4, 20.3333, -6.3333],
+					"rotation": [0, -30.00007, 0],
+					"cubes": [
+						{"origin": [0, 16, -12], "size": [8, 8, 6], "uv": [0, 0], "mirror": true},
+						{"origin": [8, 22, -10], "size": [1, 3, 1], "uv": [22, 0], "mirror": true},
+						{"origin": [-1, 22, -10], "size": [1, 3, 1], "uv": [22, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "brahmin",
+					"pivot": [0, 20, -2]
+				},
+				{
+					"name": "lefhead_r1",
+					"parent": "head",
+					"pivot": [-4, 20.3333, -6.3333],
+					"rotation": [0, 30.00007, 0]
+				},
+				{
+					"name": "lefhead",
+					"parent": "head",
+					"pivot": [-4, 20.3333, -6.3333],
+					"rotation": [0, 30.00007, 0],
+					"cubes": [
+						{"origin": [-8, 16, -12], "size": [8, 8, 6], "uv": [0, 0]},
+						{"origin": [-9, 22, -10], "size": [1, 3, 1], "uv": [22, 0]},
+						{"origin": [0, 22, -10], "size": [1, 3, 1], "uv": [22, 0]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "brahmin",
+					"pivot": [0, 19, 2],
+					"rotation": [90.00021, 0, 0],
+					"cubes": [
+						{"origin": [-6, 11, -5], "size": [12, 18, 10], "uv": [18, 4]},
+						{"origin": [-2, 11, -6], "size": [4, 6, 1], "uv": [52, 0]}
+					]
+				}
+			]
+		}
+	]
+}

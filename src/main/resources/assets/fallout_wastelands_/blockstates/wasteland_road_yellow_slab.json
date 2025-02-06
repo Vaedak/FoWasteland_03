@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fallout_wastelands_:block/wasteland_road_yellow_slab"
+    },
+    "type=top": {
+      "model": "fallout_wastelands_:block/wasteland_road_yellow_slab_top"
+    },
+    "type=double": {
+      "model": "fallout_wastelands_:block/wasteland_road_yellow_slab_full"
+    }
+  }
+}
