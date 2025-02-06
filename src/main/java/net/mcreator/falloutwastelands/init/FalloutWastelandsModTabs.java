@@ -235,6 +235,10 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_VENT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.RED_PAINTED_PLANKS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.YUKAPLANT.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ROAD_YELLOW.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ROAD_YELLOW_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ROAD_WHITE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ROAD_WHITE_SLAB.get().asItem());
 			})
 
 					.build());
@@ -369,6 +373,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.ABRAXO_CLEANER.get());
 				tabData.accept(FalloutWastelandsModItems.STEEL_COMPOSITE.get());
 				tabData.accept(FalloutWastelandsModItems.MIRELURKMEAT.get());
+				tabData.accept(FalloutWastelandsModItems.NOODLES.get());
 			})
 
 					.build());

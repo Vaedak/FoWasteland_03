@@ -11701,6 +11701,263 @@
         ]
       },
       "path": "~/Entity"
+    },
+    {
+      "name": "Tatoplant0",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatoplant_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_0.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_0_bottom.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_0.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_0.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_0.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant0Block.java"
+        ]
+      },
+      "path": "~/Plants"
+    },
+    {
+      "name": "Tatoplant1",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatoplant_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_1.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_1_bottom.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_1.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_1.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_1.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant1Block.java"
+        ]
+      },
+      "path": "~/Plants"
+    },
+    {
+      "name": "Tatoplant2",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatoplant_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_2.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_2.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_2.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_2_bottom.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_2.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant2Block.java"
+        ]
+      },
+      "path": "~/Plants"
+    },
+    {
+      "name": "Tatoplant3",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatoplant_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_3.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant3Block.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_3.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_3_bottom.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_3.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_3.json"
+        ]
+      },
+      "path": "~/Plants"
+    },
+    {
+      "name": "Tatoplant4",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatoplant_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_4.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant4Block.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_4.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_4.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_4_bottom.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_4.json"
+        ]
+      },
+      "path": "~/Plants"
+    },
+    {
+      "name": "Tatoplant0OnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatoplant_0_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/Tatoplant0OnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Plants"
+    },
+    {
+      "name": "TatoRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tato_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/TatoRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "WastelandRoadYellow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasteland_road_yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_yellow.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_road_yellow.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/WastelandRoadYellowBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_yellow.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/wasteland_road_yellow.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WastelandRoadYellowSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasteland_road_yellow_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/wasteland_road_yellow_slab.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_yellow_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_yellow_slab_top.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_road_yellow_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_yellow_slab_full.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/WastelandRoadYellowSlabBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_yellow_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WastelandRoadWhite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasteland_road_white",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_white.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_road_white.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/wasteland_road_white.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/WastelandRoadWhiteBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_white.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WastelandRoadWhiteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasteland_road_white_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/WastelandRoadWhiteSlabBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_road_white_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_white_slab_top.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_white_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/wasteland_road_white_slab.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_white_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_white_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Noodles",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noodles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/NoodlesItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/noodles.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "NoodlesPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noodles_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/NoodlesPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -11867,6 +12124,8 @@
       "CUSTOM:MolderWoodTrapdoor"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:WastelandRoadWhiteSlab",
+      "~CUSTOM:WastelandRoadYellowSlab",
       "~CUSTOM:IndustrialAlloyStructureslab",
       "~CUSTOM:MilitaryPlatingWalkwaySlab",
       "~CUSTOM:BoSMetalPlatingSlab",
@@ -12119,6 +12378,10 @@
       "CUSTOM:WastelandCobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:WastelandRoadWhiteSlab",
+      "~CUSTOM:WastelandRoadWhite",
+      "~CUSTOM:WastelandRoadYellowSlab",
+      "~CUSTOM:WastelandRoadYellow",
       "~CUSTOM:IndustrialAlloyVent",
       "~CUSTOM:IndustrialAlloyStructureslab",
       "~CUSTOM:IndustrialAlloystructure",
@@ -12417,9 +12680,10 @@
       "block.fallout_wastelands_.enclave_bunker_block": "Enclave Bunker Block",
       "block.fallout_wastelands_.vault_floor": "Vault Floor",
       "block.fallout_wastelands_.aluminum_block": "Aluminum Block",
-      "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
       "item.fallout_wastelands_.mug": "Mug",
+      "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
       "block.fallout_wastelands_.steel_bars": "Steel Bars",
+      "block.fallout_wastelands_.wasteland_road_white_slab": "White Wasteland Asphalt Slab",
       "item.fallout_wastelands_.raiderbasher_helmet": "Raider Basher Helmet",
       "subtitles.wasteland_wind": "",
       "item_group.fallout_wastelands_.wastelanditems": "Wasteland Items",
@@ -12509,9 +12773,16 @@
       "item.fallout_wastelands_.power_armor_frame_armor_chestplate": "Power Armor Frame",
       "block.fallout_wastelands_.tin_block": "Tin Block",
       "item.fallout_wastelands_.pipboy": "Pip-Boy 2500",
+      "block.fallout_wastelands_.wasteland_road_yellow_slab": "Yellow Wasteland Asphalt Slab",
       "block.fallout_wastelands_.wasteland_concrete_slab": "Concrete Slab",
       "block.fallout_wastelands_.charred_molder_wood_plank": "Charred Molder Planks",
+      "block.fallout_wastelands_.tatoplant_3": "Tato Plant",
       "block.fallout_wastelands_.medical_box": "Medical Stash",
+      "block.fallout_wastelands_.tatoplant_2": "Tato Plant",
+      "block.fallout_wastelands_.tatoplant_4": "Tato Plant",
+      "block.fallout_wastelands_.wasteland_road_white": "White Wasteland Asphalt",
+      "block.fallout_wastelands_.tatoplant_1": "Tato Plant",
+      "block.fallout_wastelands_.tatoplant_0": "Tato Plant",
       "item.fallout_wastelands_.uranium_ingot": "Uranium Ingot",
       "item_group.fallout_wastelands_.wastelandcombat": "Wastelands Combat",
       "block.fallout_wastelands_.molder_wood_pressure_plate": "Molder Pressure Plate",
@@ -12545,9 +12816,9 @@
       "gui.fallout_wastelands_.base_menu_ui.label_done": "Done",
       "block.fallout_wastelands_.molder_wood_fence_gate": "Molder Fence Gate",
       "block.fallout_wastelands_.locker": "Locker",
-      "block.fallout_wastelands_.wasteland_bricks_slab": "Wasteland Bricks Slab",
-      "block.fallout_wastelands_.radiation_barrel": "Radiation Barrel",
       "block.fallout_wastelands_.charred_molder_slab": "Charred Molder Slab",
+      "block.fallout_wastelands_.radiation_barrel": "Radiation Barrel",
+      "block.fallout_wastelands_.wasteland_bricks_slab": "Wasteland Bricks Slab",
       "block.fallout_wastelands_.wastelanddrydirt": "Wasteland Dirt",
       "item.fallout_wastelands_.scrapmetal": "Scrap Metal",
       "item.fallout_wastelands_.aluminum_ingot": "Aluminium Ingot",
@@ -12580,6 +12851,7 @@
       "block.fallout_wastelands_.industrial_alloy_structureslab": "Industrial Alloy Structure Slab",
       "block.fallout_wastelands_.steel_block": "Steel Block",
       "item.fallout_wastelands_.psycho": "Psycho",
+      "block.fallout_wastelands_.wasteland_road_yellow": "Yellow Wasteland Asphalt",
       "block.fallout_wastelands_.wasteland_bricks_stairs": "Wasteland Bricks Stairs",
       "block.fallout_wastelands_.gore": "Gore",
       "block.fallout_wastelands_.mixer": "Mixer",
@@ -12773,6 +13045,7 @@
       "item.fallout_wastelands_.cram": "Cram",
       "block.fallout_wastelands_.wasteland_stone": "Wasteland Stone",
       "block.fallout_wastelands_.wasteland_rooty_dirt": "Wasteland Rooty Dirt",
+      "item.fallout_wastelands_.noodles": "Noodle",
       "block.fallout_wastelands_.wastelandemeraldore": "Wasteland Emerald Ore",
       "item.fallout_wastelands_.motor": "Motor",
       "item.fallout_wastelands_.cigarettepack": "Cigarette Pack"

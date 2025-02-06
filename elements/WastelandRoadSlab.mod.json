@@ -2,10 +2,10 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "bitumenfixed2",
-    "textureTop": "bitumenfixed2",
+    "texture": "asphalt",
+    "textureTop": "asphalt",
     "textureLeft": "wastelandstonedde",
-    "textureFront": "bitumenfixed2",
+    "textureFront": "asphalt",
     "textureRight": "wastelandstonedde",
     "textureBack": "wastelandstonedde",
     "renderType": 11,

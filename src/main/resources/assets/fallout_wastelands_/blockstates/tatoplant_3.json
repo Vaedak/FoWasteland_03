@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "fallout_wastelands_:block/tatoplant_3"
+    },
+    "half=lower": {
+      "model": "fallout_wastelands_:block/tatoplant_3_bottom"
+    }
+  }
+}

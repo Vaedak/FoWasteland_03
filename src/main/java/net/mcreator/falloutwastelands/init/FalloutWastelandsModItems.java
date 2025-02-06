@@ -57,6 +57,7 @@ import net.mcreator.falloutwastelands.item.PipboyItem;
 import net.mcreator.falloutwastelands.item.PAFrameItemItem;
 import net.mcreator.falloutwastelands.item.NukaColaQuantumItem;
 import net.mcreator.falloutwastelands.item.NukaColaItem;
+import net.mcreator.falloutwastelands.item.NoodlesItem;
 import net.mcreator.falloutwastelands.item.NinemmpistolItem;
 import net.mcreator.falloutwastelands.item.NinemmammoItem;
 import net.mcreator.falloutwastelands.item.NeutronadeItem;
@@ -480,6 +481,16 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> YUKAPLANT = doubleBlock(FalloutWastelandsModBlocks.YUKAPLANT);
 	public static final RegistryObject<Item> MIRELURKMEAT = REGISTRY.register("mirelurkmeat", () -> new MirelurkmeatItem());
 	public static final RegistryObject<Item> BRAHMIN_SPAWN_EGG = REGISTRY.register("brahmin_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.BRAHMIN, -10205395, -7046050, new Item.Properties()));
+	public static final RegistryObject<Item> TATOPLANT_0 = doubleBlock(FalloutWastelandsModBlocks.TATOPLANT_0);
+	public static final RegistryObject<Item> TATOPLANT_1 = doubleBlock(FalloutWastelandsModBlocks.TATOPLANT_1);
+	public static final RegistryObject<Item> TATOPLANT_2 = doubleBlock(FalloutWastelandsModBlocks.TATOPLANT_2);
+	public static final RegistryObject<Item> TATOPLANT_3 = doubleBlock(FalloutWastelandsModBlocks.TATOPLANT_3);
+	public static final RegistryObject<Item> TATOPLANT_4 = doubleBlock(FalloutWastelandsModBlocks.TATOPLANT_4);
+	public static final RegistryObject<Item> WASTELAND_ROAD_YELLOW = block(FalloutWastelandsModBlocks.WASTELAND_ROAD_YELLOW);
+	public static final RegistryObject<Item> WASTELAND_ROAD_YELLOW_SLAB = block(FalloutWastelandsModBlocks.WASTELAND_ROAD_YELLOW_SLAB);
+	public static final RegistryObject<Item> WASTELAND_ROAD_WHITE = block(FalloutWastelandsModBlocks.WASTELAND_ROAD_WHITE);
+	public static final RegistryObject<Item> WASTELAND_ROAD_WHITE_SLAB = block(FalloutWastelandsModBlocks.WASTELAND_ROAD_WHITE_SLAB);
+	public static final RegistryObject<Item> NOODLES = REGISTRY.register("noodles", () -> new NoodlesItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

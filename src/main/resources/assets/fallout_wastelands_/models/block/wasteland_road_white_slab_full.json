@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "fallout_wastelands_:block/wastelandgrasstopoverlay",
+    "bottom": "fallout_wastelands_:block/wastelandgrasstopoverlay",
+    "top": "fallout_wastelands_:block/wastelandgrasstopoverlay",
+    "side": "fallout_wastelands_:block/wastelandgrasstopoverlay"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "fallout_wastelands_:block/stage4_up",
+    "particle": "fallout_wastelands_:block/stage4_up"
+  },
+  "render_type": "cutout"
+}
