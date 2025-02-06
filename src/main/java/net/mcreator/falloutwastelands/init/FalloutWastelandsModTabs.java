@@ -257,7 +257,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.COMBATARMOR_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.COMBATARMOR_BOOTS.get());
 				tabData.accept(FalloutWastelandsModItems.REVOLVER_32.get());
-				tabData.accept(FalloutWastelandsModItems.TEST_WEAPON.get());
 				tabData.accept(FalloutWastelandsModItems.NINEMMPISTOL.get());
 				tabData.accept(FalloutWastelandsModItems.ANTIRADSUIT_HELMET.get());
 				tabData.accept(FalloutWastelandsModItems.ANTIRADSUIT_CHESTPLATE.get());

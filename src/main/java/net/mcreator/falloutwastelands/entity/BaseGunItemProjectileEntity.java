@@ -29,7 +29,7 @@ import net.mcreator.falloutwastelands.init.FalloutWastelandsModEntities;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
 public class BaseGunItemProjectileEntity extends AbstractArrow implements ItemSupplier {
-	public static final ItemStack PROJECTILE_ITEM = new ItemStack(Blocks.SUSPICIOUS_GRAVEL);
+	public static final ItemStack PROJECTILE_ITEM = new ItemStack(Blocks.AIR);
 
 	public BaseGunItemProjectileEntity(PlayMessages.SpawnEntity packet, Level world) {
 		super(FalloutWastelandsModEntities.BASE_GUN_ITEM_PROJECTILE.get(), world);

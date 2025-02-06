@@ -1,7 +1,15 @@
 {
-  "parent": "fallout_wastelands_:custom/tenmm",
+  "parent": "fallout_wastelands_:custom/tenmm_noshoot",
   "textures": {
     "0": "fallout_wastelands_:block/10mm_2",
     "particle": "fallout_wastelands_:item/10mm_2"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "fallout_wastelands_:tenmmpistol_playershootsgun": 1
+      },
+      "model": "fallout_wastelands_:item/tenmmpistol_0"
+    }
+  ]
 }

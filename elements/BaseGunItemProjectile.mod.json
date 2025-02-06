@@ -3,7 +3,7 @@
   "_type": "projectile",
   "definition": {
     "projectileItem": {
-      "value": "Blocks.SUSPICIOUS_GRAVEL"
+      "value": "Blocks.AIR"
     },
     "showParticles": false,
     "actionSound": {
@@ -13,8 +13,8 @@
     "power": 0.1,
     "damage": 5.0,
     "knockback": 0,
-    "entityModel": "Default",
-    "customModelTexture": "",
+    "entityModel": "Modelgunshot",
+    "customModelTexture": "gunshot.png",
     "modelWidth": 0.5,
     "modelHeight": 0.5,
     "onHitsBlock": {
