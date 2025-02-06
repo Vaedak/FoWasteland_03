@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "c ",
+    "d "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:tato"
+    },
+    "b": {
+      "item": "minecraft:bone_meal"
+    },
+    "c": {
+      "item": "minecraft:potion"
+    },
+    "d": {
+      "item": "fallout_wastelands_:dented_can"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:fertilizer",
+    "count": 2
+  }
+}

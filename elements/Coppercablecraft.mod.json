@@ -15,10 +15,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Cloth"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Plasticsheet"
       },
       {
         "value": ""
@@ -27,13 +24,16 @@
         "value": "Items.COPPER_INGOT"
       },
       {
-        "value": ""
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Cloth"
+        "value": "CUSTOM:Plasticsheet"
       },
       {
         "value": ""

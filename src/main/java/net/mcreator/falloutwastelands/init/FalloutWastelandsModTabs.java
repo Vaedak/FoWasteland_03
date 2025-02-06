@@ -227,6 +227,14 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.WORN_METAL_PILLAR.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_METAL_PLATING_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MILITARYPLATINGSTAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MILITARY_PLATING_WALKWAY_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WORN_METAL_DECORATION.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WORN_METAL_DECORATIONSTAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOYSTRUCTURE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_STRUCTURESLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_VENT.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.RED_PAINTED_PLANKS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.YUKAPLANT.get().asItem());
 			})
 
 					.build());
@@ -358,6 +366,9 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.PLASTICSHEET.get());
 				tabData.accept(FalloutWastelandsModItems.ADVANCED_MOTOR.get());
 				tabData.accept(FalloutWastelandsModItems.BEER.get());
+				tabData.accept(FalloutWastelandsModItems.ABRAXO_CLEANER.get());
+				tabData.accept(FalloutWastelandsModItems.STEEL_COMPOSITE.get());
+				tabData.accept(FalloutWastelandsModItems.MIRELURKMEAT.get());
 			})
 
 					.build());

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "fallout_wastelands_:block/yukaplant"
+    },
+    "half=lower": {
+      "model": "fallout_wastelands_:block/yukaplant_bottom"
+    }
+  }
+}

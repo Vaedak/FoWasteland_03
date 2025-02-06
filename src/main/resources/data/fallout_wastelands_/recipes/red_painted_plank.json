@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:molder_wood_planks"
+    },
+    "b": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:red_painted_planks",
+    "count": 8
+  }
+}

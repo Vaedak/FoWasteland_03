@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:abraxo_cleaner"
+    },
+    "b": {
+      "item": "minecraft:potion"
+    },
+    "c": {
+      "item": "fallout_wastelands_:cloth"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:acid",
+    "count": 2
+  }
+}

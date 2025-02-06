@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:industrial_alloy_plain"
+    },
+    "b": {
+      "item": "fallout_wastelands_:wirefence"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:industrial_alloy_vent",
+    "count": 2
+  }
+}

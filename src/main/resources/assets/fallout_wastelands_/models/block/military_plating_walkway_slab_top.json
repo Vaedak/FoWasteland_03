@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "fallout_wastelands_:block/militmetalplating",
+    "bottom": "fallout_wastelands_:block/militmetalplating",
+    "top": "fallout_wastelands_:block/militaryplategrated",
+    "side": "fallout_wastelands_:block/militmetalplating"
+  },
+  "render_type": "solid"
+}

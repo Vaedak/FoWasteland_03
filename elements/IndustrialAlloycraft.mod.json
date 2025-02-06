@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:WastelandStone"
+        "value": "CUSTOM:WastelandConcrete"
       },
       {
         "value": "CUSTOM:AluminumIngot"
       },
       {
-        "value": "CUSTOM:WastelandStone"
+        "value": "CUSTOM:WastelandConcrete"
       },
       {
         "value": "CUSTOM:Industrialhull"
@@ -30,13 +30,13 @@
         "value": "CUSTOM:Industrialhull"
       },
       {
-        "value": "CUSTOM:WastelandStone"
+        "value": "CUSTOM:WastelandConcrete"
       },
       {
         "value": "CUSTOM:AluminumIngot"
       },
       {
-        "value": "CUSTOM:WastelandStone"
+        "value": "CUSTOM:WastelandConcrete"
       }
     ],
     "recipeReturnStack": {

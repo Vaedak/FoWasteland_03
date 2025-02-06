@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IndustrialAlloyPlain"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IndustrialAlloyPlain"
+      },
+      {
+        "value": "CUSTOM:Wirefence"
+      },
+      {
+        "value": "CUSTOM:IndustrialAlloyPlain"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IndustrialAlloyPlain"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IndustrialAlloyVent"
+    },
+    "name": "red_industrial_ventcraft",
+    "namespace": "mod"
+  }
+}

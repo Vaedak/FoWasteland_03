@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "a",
-    "b",
-    "a"
+    " a ",
+    "bbb",
+    " a "
   ],
   "key": {
     "a": {
-      "item": "fallout_wastelands_:cloth"
+      "item": "fallout_wastelands_:plasticsheet"
     },
     "b": {
       "item": "minecraft:copper_ingot"

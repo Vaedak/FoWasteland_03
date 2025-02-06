@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MilitaryMetalPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MilitaryMetalPlate"
+      },
+      {
+        "value": "CUSTOM:MilitaryMetalHazard"
+      },
+      {
+        "value": "CUSTOM:MilitaryMetalPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MilitaryMetalPlate"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MilitaryMetalRadiation"
+    },
+    "name": "militaryplatinghazardradiocraft",
+    "namespace": "mod"
+  }
+}

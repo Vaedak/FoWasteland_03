@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:industrial_alloy_vent",
+    "fallout_wastelands_:industrial_alloy_structureslab",
+    "fallout_wastelands_:industrial_alloystructure",
+    "fallout_wastelands_:worn_metal_decorationstairs",
+    "fallout_wastelands_:worn_metal_decoration",
+    "fallout_wastelands_:military_plating_walkway_slab",
     "fallout_wastelands_:militaryplatingstairs",
     "fallout_wastelands_:bo_s_metal_plating_slab",
     "fallout_wastelands_:worn_metal_pillar",

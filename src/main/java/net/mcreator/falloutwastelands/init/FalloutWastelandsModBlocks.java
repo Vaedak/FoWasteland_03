@@ -14,9 +14,12 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.falloutwastelands.block.YukaplantBlock;
 import net.mcreator.falloutwastelands.block.WornMetalStairsBlock;
 import net.mcreator.falloutwastelands.block.WornMetalSlabBlock;
 import net.mcreator.falloutwastelands.block.WornMetalPillarBlock;
+import net.mcreator.falloutwastelands.block.WornMetalDecorationstairsBlock;
+import net.mcreator.falloutwastelands.block.WornMetalDecorationBlock;
 import net.mcreator.falloutwastelands.block.WornMetalBlock;
 import net.mcreator.falloutwastelands.block.WoodedconcreteBlock;
 import net.mcreator.falloutwastelands.block.WirefenceBlock;
@@ -103,6 +106,7 @@ import net.mcreator.falloutwastelands.block.RuinsBaseBlock;
 import net.mcreator.falloutwastelands.block.RoofMetalBlock;
 import net.mcreator.falloutwastelands.block.RockydirtBlock;
 import net.mcreator.falloutwastelands.block.ReinforcedPlanksBlock;
+import net.mcreator.falloutwastelands.block.RedPaintedPlanksBlock;
 import net.mcreator.falloutwastelands.block.RadiationBarrelBlock;
 import net.mcreator.falloutwastelands.block.PlasterBlock;
 import net.mcreator.falloutwastelands.block.PipeBlock;
@@ -127,6 +131,7 @@ import net.mcreator.falloutwastelands.block.MolderWoodTrapdoorBlock;
 import net.mcreator.falloutwastelands.block.MolderWoodDoorBlock;
 import net.mcreator.falloutwastelands.block.MixerBlock;
 import net.mcreator.falloutwastelands.block.MilitaryplatingstairsBlock;
+import net.mcreator.falloutwastelands.block.MilitaryPlatingWalkwaySlabBlock;
 import net.mcreator.falloutwastelands.block.MilitaryPlatingWalkwayBlock;
 import net.mcreator.falloutwastelands.block.MilitaryPlatingSlabBlock;
 import net.mcreator.falloutwastelands.block.MilitaryMetalwindowBlock;
@@ -154,7 +159,10 @@ import net.mcreator.falloutwastelands.block.IndustrialWalkwayBlock;
 import net.mcreator.falloutwastelands.block.IndustrialSupportBlock;
 import net.mcreator.falloutwastelands.block.IndustrialPlatingBlock;
 import net.mcreator.falloutwastelands.block.IndustrialDoorBlock;
+import net.mcreator.falloutwastelands.block.IndustrialAlloystructureBlock;
 import net.mcreator.falloutwastelands.block.IndustrialAlloyWarningBlock;
+import net.mcreator.falloutwastelands.block.IndustrialAlloyVentBlock;
+import net.mcreator.falloutwastelands.block.IndustrialAlloyStructureslabBlock;
 import net.mcreator.falloutwastelands.block.IndustrialAlloyStairBlock;
 import net.mcreator.falloutwastelands.block.IndustrialAlloySlabBlock;
 import net.mcreator.falloutwastelands.block.IndustrialAlloyPlainBlock;
@@ -428,6 +436,14 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> WORN_METAL_PILLAR = REGISTRY.register("worn_metal_pillar", () -> new WornMetalPillarBlock());
 	public static final RegistryObject<Block> BO_S_METAL_PLATING_SLAB = REGISTRY.register("bo_s_metal_plating_slab", () -> new BoSMetalPlatingSlabBlock());
 	public static final RegistryObject<Block> MILITARYPLATINGSTAIRS = REGISTRY.register("militaryplatingstairs", () -> new MilitaryplatingstairsBlock());
+	public static final RegistryObject<Block> MILITARY_PLATING_WALKWAY_SLAB = REGISTRY.register("military_plating_walkway_slab", () -> new MilitaryPlatingWalkwaySlabBlock());
+	public static final RegistryObject<Block> WORN_METAL_DECORATION = REGISTRY.register("worn_metal_decoration", () -> new WornMetalDecorationBlock());
+	public static final RegistryObject<Block> WORN_METAL_DECORATIONSTAIRS = REGISTRY.register("worn_metal_decorationstairs", () -> new WornMetalDecorationstairsBlock());
+	public static final RegistryObject<Block> INDUSTRIAL_ALLOYSTRUCTURE = REGISTRY.register("industrial_alloystructure", () -> new IndustrialAlloystructureBlock());
+	public static final RegistryObject<Block> INDUSTRIAL_ALLOY_STRUCTURESLAB = REGISTRY.register("industrial_alloy_structureslab", () -> new IndustrialAlloyStructureslabBlock());
+	public static final RegistryObject<Block> INDUSTRIAL_ALLOY_VENT = REGISTRY.register("industrial_alloy_vent", () -> new IndustrialAlloyVentBlock());
+	public static final RegistryObject<Block> RED_PAINTED_PLANKS = REGISTRY.register("red_painted_planks", () -> new RedPaintedPlanksBlock());
+	public static final RegistryObject<Block> YUKAPLANT = REGISTRY.register("yukaplant", () -> new YukaplantBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

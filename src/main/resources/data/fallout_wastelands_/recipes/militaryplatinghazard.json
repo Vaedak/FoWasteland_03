@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:military_metal_plate"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:military_metal_hazard",
+    "count": 2
+  }
+}

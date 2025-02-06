@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:military_metal_plate"
+    },
+    "b": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:military_metalwindow",
+    "count": 4
+  }
+}

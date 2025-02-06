@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/industrialredplain",
+    "up": "fallout_wastelands_:block/industrialredplain",
+    "north": "fallout_wastelands_:block/liftarm",
+    "east": "fallout_wastelands_:block/liftarm",
+    "south": "fallout_wastelands_:block/liftarm",
+    "west": "fallout_wastelands_:block/liftarm",
+    "particle": "fallout_wastelands_:block/industrialredplain"
+  },
+  "render_type": "solid"
+}

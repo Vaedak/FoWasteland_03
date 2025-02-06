@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MilitaryMetalPlate"
+      },
+      {
+        "value": "CUSTOM:MilitaryMetalPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MilitaryMetalPlate"
+      },
+      {
+        "value": "CUSTOM:MilitaryMetalPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MilitaryMetalPlate"
+      },
+      {
+        "value": "CUSTOM:MilitaryMetalPlate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MilitaryMetalDoor"
+    },
+    "name": "militaryplatingdoorcraft",
+    "namespace": "mod"
+  }
+}

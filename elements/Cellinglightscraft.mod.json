@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tiningot"
+      },
+      {
+        "value": "CUSTOM:Tiningot"
+      },
+      {
+        "value": "CUSTOM:Tiningot"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "CUSTOM:Copperwires"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CeilingLight"
+    },
+    "name": "cellinglightscraft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:scaffolding_walkways_block"
+    },
+    "b": {
+      "item": "fallout_wastelands_:military_metal_plate"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:military_plating_walkway_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "fallout_wastelands_:blocks/yukaplant",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "conditions": [
+            {
+              "block": "fallout_wastelands_:yukaplant",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

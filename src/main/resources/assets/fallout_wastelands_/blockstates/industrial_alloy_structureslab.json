@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fallout_wastelands_:block/industrial_alloy_structureslab"
+    },
+    "type=top": {
+      "model": "fallout_wastelands_:block/industrial_alloy_structureslab_top"
+    },
+    "type=double": {
+      "model": "fallout_wastelands_:block/industrial_alloy_structureslab_full"
+    }
+  }
+}

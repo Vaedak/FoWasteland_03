@@ -34,6 +34,7 @@ import net.mcreator.falloutwastelands.item.SugarBombsItem;
 import net.mcreator.falloutwastelands.item.StimpackItem;
 import net.mcreator.falloutwastelands.item.SteelnuggetItem;
 import net.mcreator.falloutwastelands.item.SteelIngotItem;
+import net.mcreator.falloutwastelands.item.SteelCompositeItem;
 import net.mcreator.falloutwastelands.item.SmallcalibercasingItem;
 import net.mcreator.falloutwastelands.item.ScrapmetalItem;
 import net.mcreator.falloutwastelands.item.RollingpinItem;
@@ -67,6 +68,7 @@ import net.mcreator.falloutwastelands.item.MutlemonItem;
 import net.mcreator.falloutwastelands.item.MugItem;
 import net.mcreator.falloutwastelands.item.MotorItem;
 import net.mcreator.falloutwastelands.item.MotherboardItem;
+import net.mcreator.falloutwastelands.item.MirelurkmeatItem;
 import net.mcreator.falloutwastelands.item.MilitaryHullItem;
 import net.mcreator.falloutwastelands.item.MetalstickItem;
 import net.mcreator.falloutwastelands.item.LeadNuggetItem;
@@ -120,6 +122,7 @@ import net.mcreator.falloutwastelands.item.AluminiumnuggetItem;
 import net.mcreator.falloutwastelands.item.AdvancedMotorItem;
 import net.mcreator.falloutwastelands.item.AdvancedMotherboardItem;
 import net.mcreator.falloutwastelands.item.AcidItem;
+import net.mcreator.falloutwastelands.item.AbraxoCleanerItem;
 import net.mcreator.falloutwastelands.block.display.BASEcoreDisplayItem;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
@@ -465,6 +468,17 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> BEER = REGISTRY.register("beer", () -> new BeerItem());
 	public static final RegistryObject<Item> BO_S_METAL_PLATING_SLAB = block(FalloutWastelandsModBlocks.BO_S_METAL_PLATING_SLAB);
 	public static final RegistryObject<Item> MILITARYPLATINGSTAIRS = block(FalloutWastelandsModBlocks.MILITARYPLATINGSTAIRS);
+	public static final RegistryObject<Item> MILITARY_PLATING_WALKWAY_SLAB = block(FalloutWastelandsModBlocks.MILITARY_PLATING_WALKWAY_SLAB);
+	public static final RegistryObject<Item> ABRAXO_CLEANER = REGISTRY.register("abraxo_cleaner", () -> new AbraxoCleanerItem());
+	public static final RegistryObject<Item> STEEL_COMPOSITE = REGISTRY.register("steel_composite", () -> new SteelCompositeItem());
+	public static final RegistryObject<Item> WORN_METAL_DECORATION = block(FalloutWastelandsModBlocks.WORN_METAL_DECORATION);
+	public static final RegistryObject<Item> WORN_METAL_DECORATIONSTAIRS = block(FalloutWastelandsModBlocks.WORN_METAL_DECORATIONSTAIRS);
+	public static final RegistryObject<Item> INDUSTRIAL_ALLOYSTRUCTURE = block(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOYSTRUCTURE);
+	public static final RegistryObject<Item> INDUSTRIAL_ALLOY_STRUCTURESLAB = block(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_STRUCTURESLAB);
+	public static final RegistryObject<Item> INDUSTRIAL_ALLOY_VENT = block(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_VENT);
+	public static final RegistryObject<Item> RED_PAINTED_PLANKS = block(FalloutWastelandsModBlocks.RED_PAINTED_PLANKS);
+	public static final RegistryObject<Item> YUKAPLANT = doubleBlock(FalloutWastelandsModBlocks.YUKAPLANT);
+	public static final RegistryObject<Item> MIRELURKMEAT = REGISTRY.register("mirelurkmeat", () -> new MirelurkmeatItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:tiningot"
+    },
+    "b": {
+      "item": "minecraft:glass_pane"
+    },
+    "c": {
+      "item": "fallout_wastelands_:copperwires"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:ceiling_light",
+    "count": 8
+  }
+}
