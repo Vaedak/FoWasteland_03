@@ -2,10 +2,10 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "wastelandgrasstopoverlay",
-    "textureTop": "wastelandgrasstopoverlay",
+    "texture": "whiteasphalt",
+    "textureTop": "whiteasphalt",
     "textureLeft": "wastelandstonedde",
-    "textureFront": "wastelandgrasstopoverlay",
+    "textureFront": "whiteasphalt",
     "textureRight": "wastelandstonedde",
     "textureBack": "wastelandstonedde",
     "renderType": 11,

@@ -1,10 +1,10 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "particle": "fallout_wastelands_:block/wastelandgrasstop",
-    "bottom": "fallout_wastelands_:block/wastelandgrasstop",
-    "top": "fallout_wastelands_:block/wastelandgrasstop",
-    "side": "fallout_wastelands_:block/wastelandgrasstop"
+    "particle": "fallout_wastelands_:block/yellowasphalt",
+    "bottom": "fallout_wastelands_:block/yellowasphalt",
+    "top": "fallout_wastelands_:block/yellowasphalt",
+    "side": "fallout_wastelands_:block/yellowasphalt"
   },
   "render_type": "solid"
 }

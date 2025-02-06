@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fallout_wastelands_:block/wastelandgrasstop",
-    "particle": "fallout_wastelands_:block/wastelandgrasstop"
+    "all": "fallout_wastelands_:block/yellowasphalt",
+    "particle": "fallout_wastelands_:block/yellowasphalt"
   },
   "render_type": "solid"
 }
