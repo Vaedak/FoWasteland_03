@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "cde",
+    " df"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:plasticsheet"
+    },
+    "b": {
+      "item": "fallout_wastelands_:scrapmetal"
+    },
+    "c": {
+      "item": "fallout_wastelands_:uranium_nugget"
+    },
+    "d": {
+      "item": "fallout_wastelands_:enclave_hull"
+    },
+    "e": {
+      "item": "fallout_wastelands_:advanced_motherboard"
+    },
+    "f": {
+      "item": "fallout_wastelands_:metalstick"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:plasmarifle",
+    "count": 1
+  }
+}

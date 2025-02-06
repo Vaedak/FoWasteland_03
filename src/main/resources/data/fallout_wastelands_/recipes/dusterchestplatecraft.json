@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:lead_nugget"
+    },
+    "b": {
+      "item": "fallout_wastelands_:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:raiderduster_chestplate",
+    "count": 1
+  }
+}

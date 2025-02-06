@@ -354,6 +354,8 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.METALSTICK.get());
 				tabData.accept(FalloutWastelandsModItems.MILITARY_HULL.get());
 				tabData.accept(FalloutWastelandsModItems.PLASTICSHEET.get());
+				tabData.accept(FalloutWastelandsModItems.ADVANCED_MOTOR.get());
+				tabData.accept(FalloutWastelandsModItems.BEER.get());
 			})
 
 					.build());

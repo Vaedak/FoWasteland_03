@@ -2,26 +2,29 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a ",
-    "bcb",
-    " d "
+    "abc",
+    "bdc",
+    " e "
   ],
   "key": {
     "a": {
-      "item": "fallout_wastelands_:acid"
-    },
-    "b": {
       "item": "minecraft:charcoal"
     },
+    "b": {
+      "item": "fallout_wastelands_:fertilizer"
+    },
     "c": {
-      "item": "fallout_wastelands_:cloth"
+      "item": "fallout_wastelands_:acid"
     },
     "d": {
-      "item": "fallout_wastelands_:fertilizer"
+      "item": "fallout_wastelands_:cloth"
+    },
+    "e": {
+      "item": "fallout_wastelands_:dented_can"
     }
   },
   "result": {
     "item": "minecraft:gunpowder",
-    "count": 6
+    "count": 8
   }
 }

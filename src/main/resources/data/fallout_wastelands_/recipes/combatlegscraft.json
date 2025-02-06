@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:military_hull"
+    },
+    "b": {
+      "item": "fallout_wastelands_:plasticsheet"
+    },
+    "c": {
+      "item": "fallout_wastelands_:cloth"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:combatarmor_leggings",
+    "count": 1
+  }
+}

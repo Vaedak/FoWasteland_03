@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:energy_cell"
+    },
+    "b": {
+      "item": "fallout_wastelands_:motherboard"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "d": {
+      "item": "fallout_wastelands_:advanced_motor"
+    },
+    "e": {
+      "item": "fallout_wastelands_:industrialhull"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:advanced_motor",
+    "count": 1
+  }
+}

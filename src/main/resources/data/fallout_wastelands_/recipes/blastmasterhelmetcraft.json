@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "fallout_wastelands_:industrialhull"
+    },
+    "c": {
+      "item": "fallout_wastelands_:cloth"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:raiderblastmaster_helmet",
+    "count": 1
+  }
+}

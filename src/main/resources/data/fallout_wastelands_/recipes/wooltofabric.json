@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:wool"
+    },
+    "b": {
+      "item": "minecraft:shears"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:cloth",
+    "count": 9
+  }
+}

@@ -12,22 +12,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "CUSTOM:Steelnugget"
       },
       {
         "value": "CUSTOM:SteelIngot"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "CUSTOM:Steelnugget"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
         "value": "Items.STICK"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
         "value": ""

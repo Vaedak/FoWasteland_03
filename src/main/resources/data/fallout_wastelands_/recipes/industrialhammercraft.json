@@ -2,15 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aaa",
     "aba",
-    " b "
+    " c ",
+    " c "
   ],
   "key": {
     "a": {
-      "item": "fallout_wastelands_:steel_ingot"
+      "item": "fallout_wastelands_:steelnugget"
     },
     "b": {
+      "item": "fallout_wastelands_:steel_ingot"
+    },
+    "c": {
       "item": "minecraft:stick"
     }
   },

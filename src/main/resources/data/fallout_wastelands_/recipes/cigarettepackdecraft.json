@@ -4,10 +4,13 @@
   "ingredients": [
     {
       "item": "fallout_wastelands_:cigarettepack"
+    },
+    {
+      "item": "minecraft:shears"
     }
   ],
   "result": {
     "item": "minecraft:paper",
-    "count": 2
+    "count": 1
   }
 }

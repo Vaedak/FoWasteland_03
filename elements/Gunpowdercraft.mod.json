@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 6,
+    "recipeRetstackSize": 8,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,7 +12,19 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.COAL#1"
+      },
+      {
+        "value": "CUSTOM:Fertilizer"
+      },
+      {
+        "value": "CUSTOM:Acid"
+      },
+      {
+        "value": "CUSTOM:Fertilizer"
+      },
+      {
+        "value": "CUSTOM:Cloth"
       },
       {
         "value": "CUSTOM:Acid"
@@ -21,19 +33,7 @@
         "value": ""
       },
       {
-        "value": "Items.COAL#1"
-      },
-      {
-        "value": "CUSTOM:Cloth"
-      },
-      {
-        "value": "Items.COAL#1"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Fertilizer"
+        "value": "CUSTOM:DentedCan"
       },
       {
         "value": ""

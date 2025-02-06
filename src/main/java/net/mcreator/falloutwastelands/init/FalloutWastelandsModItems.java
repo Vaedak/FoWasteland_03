@@ -108,6 +108,7 @@ import net.mcreator.falloutwastelands.item.BrotherhoodHullItem;
 import net.mcreator.falloutwastelands.item.BrahimMeatItem;
 import net.mcreator.falloutwastelands.item.BottleCapItem;
 import net.mcreator.falloutwastelands.item.BloatFlyMeatItem;
+import net.mcreator.falloutwastelands.item.BeerItem;
 import net.mcreator.falloutwastelands.item.BaseGunItemItem;
 import net.mcreator.falloutwastelands.item.BASENameItemItem;
 import net.mcreator.falloutwastelands.item.BASECapBundleItem;
@@ -116,6 +117,7 @@ import net.mcreator.falloutwastelands.item.AntiradsuitItem;
 import net.mcreator.falloutwastelands.item.AntiradclothingItem;
 import net.mcreator.falloutwastelands.item.AluminumIngotItem;
 import net.mcreator.falloutwastelands.item.AluminiumnuggetItem;
+import net.mcreator.falloutwastelands.item.AdvancedMotorItem;
 import net.mcreator.falloutwastelands.item.AdvancedMotherboardItem;
 import net.mcreator.falloutwastelands.item.AcidItem;
 import net.mcreator.falloutwastelands.block.display.BASEcoreDisplayItem;
@@ -459,6 +461,8 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> METALSTICK = REGISTRY.register("metalstick", () -> new MetalstickItem());
 	public static final RegistryObject<Item> MILITARY_HULL = REGISTRY.register("military_hull", () -> new MilitaryHullItem());
 	public static final RegistryObject<Item> PLASTICSHEET = REGISTRY.register("plasticsheet", () -> new PlasticsheetItem());
+	public static final RegistryObject<Item> ADVANCED_MOTOR = REGISTRY.register("advanced_motor", () -> new AdvancedMotorItem());
+	public static final RegistryObject<Item> BEER = REGISTRY.register("beer", () -> new BeerItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

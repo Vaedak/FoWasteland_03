@@ -3,7 +3,8 @@
   "category": "misc",
   "pattern": [
     "aa",
-    "ab"
+    "ab",
+    " b"
   ],
   "key": {
     "a": {

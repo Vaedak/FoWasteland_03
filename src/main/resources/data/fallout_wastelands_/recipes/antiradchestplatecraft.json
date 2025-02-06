@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:antiradclothing"
+    },
+    "b": {
+      "item": "fallout_wastelands_:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:antiradsuit_chestplate",
+    "count": 1
+  }
+}
