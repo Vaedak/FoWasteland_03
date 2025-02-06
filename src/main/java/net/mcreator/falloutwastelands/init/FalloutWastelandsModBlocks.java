@@ -126,6 +126,7 @@ import net.mcreator.falloutwastelands.block.Molder_WoodButtonBlock;
 import net.mcreator.falloutwastelands.block.MolderWoodTrapdoorBlock;
 import net.mcreator.falloutwastelands.block.MolderWoodDoorBlock;
 import net.mcreator.falloutwastelands.block.MixerBlock;
+import net.mcreator.falloutwastelands.block.MilitaryplatingstairsBlock;
 import net.mcreator.falloutwastelands.block.MilitaryPlatingWalkwayBlock;
 import net.mcreator.falloutwastelands.block.MilitaryPlatingSlabBlock;
 import net.mcreator.falloutwastelands.block.MilitaryMetalwindowBlock;
@@ -208,6 +209,7 @@ import net.mcreator.falloutwastelands.block.BosMetalStairsBlock;
 import net.mcreator.falloutwastelands.block.BosMetalPlatingLightedBlock;
 import net.mcreator.falloutwastelands.block.BosMetalPlatingBlock;
 import net.mcreator.falloutwastelands.block.BosDoorBlock;
+import net.mcreator.falloutwastelands.block.BoSMetalPlatingSlabBlock;
 import net.mcreator.falloutwastelands.block.BlastedGlassPaneBlock;
 import net.mcreator.falloutwastelands.block.BlastedGlassBlock;
 import net.mcreator.falloutwastelands.block.BlackTilesBlock;
@@ -424,6 +426,8 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> WASTELAND_BRICKS_SLAB = REGISTRY.register("wasteland_bricks_slab", () -> new WastelandBricksSlabBlock());
 	public static final RegistryObject<Block> WASTELAND_BRICKS_STAIRS = REGISTRY.register("wasteland_bricks_stairs", () -> new WastelandBricksStairsBlock());
 	public static final RegistryObject<Block> WORN_METAL_PILLAR = REGISTRY.register("worn_metal_pillar", () -> new WornMetalPillarBlock());
+	public static final RegistryObject<Block> BO_S_METAL_PLATING_SLAB = REGISTRY.register("bo_s_metal_plating_slab", () -> new BoSMetalPlatingSlabBlock());
+	public static final RegistryObject<Block> MILITARYPLATINGSTAIRS = REGISTRY.register("militaryplatingstairs", () -> new MilitaryplatingstairsBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:nail"
+    },
+    "b": {
+      "item": "fallout_wastelands_:molder_wood_planks"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:reinforced_planks",
+    "count": 2
+  }
+}

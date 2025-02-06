@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GreyIndustrialAlloyplate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GreyIndustrialAlloyplate"
+      },
+      {
+        "value": "CUSTOM:GreyIndustrialAlloyplate"
+      },
+      {
+        "value": "CUSTOM:GreyIndustrialAlloyplate"
+      },
+      {
+        "value": "CUSTOM:GreyIndustrialAlloyplate"
+      },
+      {
+        "value": "CUSTOM:GreyIndustrialAlloyplate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GreyIndustrialAlloyStair"
+    },
+    "name": "grey_industrial_alloy_stairscraft_2",
+    "namespace": "mod"
+  }
+}

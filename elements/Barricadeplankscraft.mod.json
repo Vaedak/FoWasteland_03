@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      },
+      {
+        "value": "CUSTOM:Molder_WoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Barricadeplanks"
+    },
+    "name": "barricadeplankscraft",
+    "namespace": "mod"
+  }
+}

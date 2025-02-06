@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:wasteland_concrete"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:wasteland_concrete_wall",
+    "count": 6
+  }
+}

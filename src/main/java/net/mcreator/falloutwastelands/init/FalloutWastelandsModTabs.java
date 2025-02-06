@@ -225,6 +225,8 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BRICKS_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BRICKS_STAIRS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WORN_METAL_PILLAR.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BO_S_METAL_PLATING_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MILITARYPLATINGSTAIRS.get().asItem());
 			})
 
 					.build());

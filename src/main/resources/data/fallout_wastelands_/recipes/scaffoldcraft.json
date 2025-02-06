@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "b b",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:industrialhull"
+    },
+    "b": {
+      "item": "fallout_wastelands_:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:double_scaffold_block",
+    "count": 16
+  }
+}

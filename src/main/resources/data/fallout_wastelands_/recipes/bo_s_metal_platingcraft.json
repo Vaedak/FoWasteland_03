@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:military_metal_plate"
+    },
+    "b": {
+      "item": "fallout_wastelands_:brotherhood_hull"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:bos_metal_plating",
+    "count": 4
+  }
+}

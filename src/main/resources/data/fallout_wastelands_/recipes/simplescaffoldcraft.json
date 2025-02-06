@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:double_scaffold_block"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:single_scaffold_block",
+    "count": 1
+  }
+}

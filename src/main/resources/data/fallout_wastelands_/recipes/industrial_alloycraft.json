@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:wasteland_stone"
+    },
+    "b": {
+      "item": "fallout_wastelands_:aluminum_ingot"
+    },
+    "c": {
+      "item": "fallout_wastelands_:industrialhull"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:industrial_alloy_plain",
+    "count": 16
+  }
+}

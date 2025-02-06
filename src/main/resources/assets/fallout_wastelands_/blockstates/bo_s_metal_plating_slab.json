@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fallout_wastelands_:block/bo_s_metal_plating_slab"
+    },
+    "type=top": {
+      "model": "fallout_wastelands_:block/bo_s_metal_plating_slab_top"
+    },
+    "type=double": {
+      "model": "fallout_wastelands_:block/bo_s_metal_plating_slab_full"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:military_hull"
+    },
+    "b": {
+      "item": "fallout_wastelands_:sheetmetalblock"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:military_metal_plate",
+    "count": 12
+  }
+}

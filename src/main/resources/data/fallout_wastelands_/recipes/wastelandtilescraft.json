@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:wastelandbricks"
+    },
+    "b": {
+      "item": "fallout_wastelands_:asbestos"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:wastelandtiles",
+    "count": 4
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IndustrialAlloyPlain"
+      },
+      {
+        "value": "CUSTOM:IndustrialAlloyPlain"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IndustrialAlloyPlain"
+      },
+      {
+        "value": "CUSTOM:IndustrialAlloyPlain"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IndustrialAlloyPlain"
+      },
+      {
+        "value": "CUSTOM:IndustrialAlloyPlain"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IndustrialDoor"
+    },
+    "name": "industrial_alloydoorcraft",
+    "namespace": "mod"
+  }
+}

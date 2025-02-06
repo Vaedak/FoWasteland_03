@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:militaryplatingstairs",
     "fallout_wastelands_:wasteland_bricks_stairs",
     "fallout_wastelands_:grey_industrial_alloy_stair",
     "fallout_wastelands_:industrial_walkwaystairs",

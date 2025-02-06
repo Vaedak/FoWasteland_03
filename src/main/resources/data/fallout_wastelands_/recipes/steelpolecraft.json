@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:lead_ingot"
+    },
+    "b": {
+      "item": "fallout_wastelands_:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:steel_pole",
+    "count": 8
+  }
+}

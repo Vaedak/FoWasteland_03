@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "fallout_wastelands_:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:cage",
+    "count": 4
+  }
+}

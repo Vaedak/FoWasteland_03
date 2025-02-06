@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " b ",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:nail"
+    },
+    "b": {
+      "item": "fallout_wastelands_:grey_industrial_alloyplate"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:grey_industrial_allowmidrivet",
+    "count": 3
+  }
+}

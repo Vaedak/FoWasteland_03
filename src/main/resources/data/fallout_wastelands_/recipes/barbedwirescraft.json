@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:metalstick"
+    },
+    "b": {
+      "item": "fallout_wastelands_:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:barbed_wires",
+    "count": 4
+  }
+}

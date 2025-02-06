@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Nail"
+      },
+      {
+        "value": "CUSTOM:Nail"
+      },
+      {
+        "value": "CUSTOM:Nail"
+      },
+      {
+        "value": "CUSTOM:GreyIndustrialAlloyplate"
+      },
+      {
+        "value": "CUSTOM:GreyIndustrialAlloyplate"
+      },
+      {
+        "value": "CUSTOM:GreyIndustrialAlloyplate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GreyIndustrialAlloybottomrivet"
+    },
+    "name": "grey_industrialalloybottomcraft",
+    "namespace": "mod"
+  }
+}

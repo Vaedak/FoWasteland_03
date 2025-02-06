@@ -1095,7 +1095,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/item/raiderduster_boots.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Armors"
     },
     {
       "name": "Wastelandironore",
@@ -9989,6 +9989,1214 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Crushingwheels",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushingwheels",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/crushingwheels.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandstonetoconcrete",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandstonetoconcrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandstonetoconcrete.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandhardstonetohardconcrete",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandhardstonetohardconcrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandhardstonetohardconcrete.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandconcretestairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandconcretestairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandconcretestairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandconcretestairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandconcretestairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandconcretestairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandconcreteslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandconcreteslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandconcreteslabcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandconcretewallscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandconcretewallscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandconcretewallscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Concretetilecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concretetilecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/concretetilecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandbrickstairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandbrickstairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandbrickstairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandbrickstairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandbrickstairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandbrickstairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandbrickslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandbrickslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandbrickslabcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandcobbleslab",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandcobbleslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandcobbleslab.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandcobblestonestairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandcobblestonestairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandcobblestonestairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandcobblestonestairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandcobblestonestairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandcobblestonestairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Landminecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "landminecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/landminecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandbrickwallcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandbrickwallcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandbrickwallcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wornmetalcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wornmetalcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wornmetalcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wornmetalstairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wornmetalstairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wornmetalstairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wornmetalstairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wornmetalstairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wornmetalstairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wornmetalslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wornmetalslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wornmetalslabcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wornmetalwallcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wornmetalwallcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wornmetalwallcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Hangardoorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hangardoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/hangardoorcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wirefancecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wirefancecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wirefancecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandbrickscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandbrickscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandbrickscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Subwaybrickscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subwaybrickscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/subwaybrickscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandstonebrickstairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandstonebrickstairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandstonebrickstairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandstonebrickstairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandstonebrickstairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandstonebrickstairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WastelandStonebrickslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasteland_stonebrickslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wasteland_stonebrickslabcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Scaffoldcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scaffoldcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/scaffoldcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Scaffoldwall",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scaffoldwall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/scaffoldwall.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Cagecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cagecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/cagecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Scaffoldwalkwaycraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scaffoldwalkwaycraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/scaffoldwalkwaycraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Scaffoldwalkwayslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scaffoldwalkwayslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/scaffoldwalkwayslabcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Scaffoldwalkwaystairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scaffoldwalkwaystairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/scaffoldwalkwaystairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Scaffoldwalkwaystairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scaffoldwalkwaystairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/scaffoldwalkwaystairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Simplescaffoldcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simplescaffoldcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/simplescaffoldcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Doublescaffoldcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doublescaffoldcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/doublescaffoldcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Steelpolecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelpolecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/steelpolecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Roofmetalcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roofmetalcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/roofmetalcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Sheetmetalblockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheetmetalblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/sheetmetalblockcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Rustycheetmetalcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustycheetmetalcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/rustycheetmetalcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Sheetmetalstairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheetmetalstairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/sheetmetalstairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Sheetmetalstairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheetmetalstairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/sheetmetalstairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Sheetmetalwallcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheetmetalwallcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/sheetmetalwallcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Rustysheetmetalstairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustysheetmetalstairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/rustysheetmetalstairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Rustysheetmetalstairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustysheetmetalstairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/rustysheetmetalstairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Rustysheetmetalwallcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rustysheetmetalwallcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/rustysheetmetalwallcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Barricadeplankscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barricadeplankscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/barricadeplankscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Reinforcedplankscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcedplankscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/reinforcedplankscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandtilescraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandtilescraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandtilescraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandtilesstairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandtilesstairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandtilesstairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandtilesstairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandtilesstairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandtilesstairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandtilesslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandtilesslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandtilesslabcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandventconcretecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandventconcretecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandventconcretecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandhardconcretestairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandhardconcretestairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandhardconcretestairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandhardconcretestairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandhardconcretestairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandhardconcretestairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Barbedwirescraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barbedwirescraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/barbedwirescraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BoSMetalPlatingcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_s_metal_platingcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/bo_s_metal_platingcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BoSmetalplatingstairs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_smetalplatingstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/bo_smetalplatingstairs.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BoSmetalplatingstairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_smetalplatingstairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/bo_smetalplatingstairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BoSMetalPlatingSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_s_metal_plating_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_metal_plating_slab_top.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/bo_s_metal_plating_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/bo_s_metal_plating_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/bo_s_metal_plating_slab.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/BoSMetalPlatingSlabBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_metal_plating_slab_full.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_metal_plating_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BoSmetalplatingslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_smetalplatingslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/bo_smetalplatingslabcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndustrialAlloycraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_alloycraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrial_alloycraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Industrialalloytopcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrialalloytopcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrialalloytopcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndustrialAlloyrivetcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_alloyrivetcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrial_alloyrivetcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Industrialalloybottomcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrialalloybottomcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrialalloybottomcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndustrialAlloyHazardcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_alloy_hazardcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrial_alloy_hazardcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndustrialAlloySlabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_alloy_slabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrial_alloy_slabcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndustrialAlloystairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_alloystairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrial_alloystairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndustrialAlloyStairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_alloy_stairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrial_alloy_stairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndustrialAlloydoorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_alloydoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrial_alloydoorcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndustrialWalkwaycraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_walkwaycraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrial_walkwaycraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndustrialWalkwaystairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_walkwaystairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrial_walkwaystairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndustrialWalkwaystairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_walkwaystairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrial_walkwaystairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyIndustrialalloycraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_industrialalloycraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/grey_industrialalloycraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyIndustrialalloytopcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_industrialalloytopcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/grey_industrialalloytopcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyIndustrialAlloyrivetcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_industrial_alloyrivetcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/grey_industrial_alloyrivetcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyIndustrialalloybottomcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_industrialalloybottomcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/grey_industrialalloybottomcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyIndustrialAlloyslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_industrial_alloyslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/grey_industrial_alloyslabcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyIndustrialAlloyStairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_industrial_alloy_stairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/grey_industrial_alloy_stairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyIndustrialAlloyStairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_industrial_alloy_stairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/grey_industrial_alloy_stairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyIndustrialWalkwaycraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_industrial_walkwaycraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/grey_industrial_walkwaycraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyIndustrialWalkwayStairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_industrial_walkway_stairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/grey_industrial_walkway_stairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyIndustrialwalkwaystairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_industrialwalkwaystairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/grey_industrialwalkwaystairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Industrialalloywalkwayslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrialalloywalkwayslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrialalloywalkwayslabcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GreyIndustrialwalkwayslabcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_industrialwalkwayslabcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/grey_industrialwalkwayslabcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Industrialplatingcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrialplatingcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrialplatingcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Industrialplatinsupport",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrialplatinsupport",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrialplatinsupport.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Militaryplatingcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "militaryplatingcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/militaryplatingcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Militaryplatingstairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "militaryplatingstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/militaryplatingstairs.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/MilitaryplatingstairsBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/militaryplatingstairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/militaryplatingstairs_inner.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/militaryplatingstairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/militaryplatingstairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/militaryplatingstairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Militaryplatinstairscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "militaryplatinstairscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/militaryplatinstairscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Militaryplatingstairscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "militaryplatingstairscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/militaryplatingstairscraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -10155,6 +11363,7 @@
       "CUSTOM:MolderWoodTrapdoor"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:BoSMetalPlatingSlab",
       "~CUSTOM:WastelandBricksSlab",
       "~CUSTOM:GreyIndustrialAlloySlab",
       "~CUSTOM:GreyIndustrialWalkwaySlab",
@@ -10178,6 +11387,7 @@
       "CUSTOM:T45PA.body"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Militaryplatingstairs",
       "~CUSTOM:WornMetalPillar",
       "~CUSTOM:MetalShelf",
       "~CUSTOM:AmmoBox",
@@ -10244,6 +11454,7 @@
       "~CUSTOM:Hachet"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Militaryplatingstairs",
       "~CUSTOM:WastelandBricksStairs",
       "~CUSTOM:GreyIndustrialAlloyStair",
       "~CUSTOM:IndustrialWalkwaystairs",
@@ -10313,6 +11524,7 @@
       "Blocks.STONECUTTER"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:BoSMetalPlatingSlab",
       "~CUSTOM:GreyIndustrialAlloySlab",
       "~CUSTOM:GreyIndustrialAlloyStair",
       "~CUSTOM:GreyIndustrialWalkwaySlab",
@@ -10394,6 +11606,8 @@
       "CUSTOM:WastelandCobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Militaryplatingstairs",
+      "~CUSTOM:BoSMetalPlatingSlab",
       "~CUSTOM:WornMetalPillar",
       "~CUSTOM:GreyIndustrialAlloySlab",
       "~CUSTOM:GreyIndustrialAlloyStair",
@@ -10868,6 +12082,7 @@
       "entity.fallout_wastelands_.cannibal_00": "Cannibal",
       "block.fallout_wastelands_.barricadeplanks": "Barricade Planks",
       "subtitles.lmgreloading": "",
+      "block.fallout_wastelands_.militaryplatingstairs": "Military Plated Stairs",
       "block.fallout_wastelands_.filing_cabinet": "Filing Cabinet",
       "block.fallout_wastelands_.stair_wasteland_cobblestone": "Wasteland Cobblestone Stairs",
       "gui.fallout_wastelands_.base_menu_ui.label_caps": "Caps",
@@ -10948,6 +12163,7 @@
       "key.fallout_wastelands_.exit_power_armor": "Exit Power Armor",
       "item.fallout_wastelands_.radiactive_waste": "Radioactive Waste",
       "key.fallout_wastelands_.switch_game_mode_utility": "Switch Game Mode Utility",
+      "block.fallout_wastelands_.bo_s_metal_plating_slab": "BoS Metal Plating Slab",
       "gui.fallout_wastelands_.base_menu_ui.label_input_caps": "Input Caps",
       "item.fallout_wastelands_.taloncombatarmor_chestplate": "Talon Combat Armor Chestplate",
       "subtitles.tenmmshot": "",

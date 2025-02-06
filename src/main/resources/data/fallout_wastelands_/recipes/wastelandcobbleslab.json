@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:wasteland_cobblestone"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:slab_wasteland_cobblestone",
+    "count": 6
+  }
+}

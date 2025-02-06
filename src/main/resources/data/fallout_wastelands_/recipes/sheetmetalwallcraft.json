@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:sheetmetalblock"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:barricadesheetmetalblock",
+    "count": 6
+  }
+}

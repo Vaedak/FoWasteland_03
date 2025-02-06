@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:industrialhull"
+    },
+    "b": {
+      "item": "fallout_wastelands_:aluminum_ingot"
+    },
+    "c": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:landmine",
+    "count": 4
+  }
+}

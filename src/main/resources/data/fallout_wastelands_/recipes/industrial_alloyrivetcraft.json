@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " b ",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:nail"
+    },
+    "b": {
+      "item": "fallout_wastelands_:industrial_alloy_plain"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:industrial_allow_mid_rivet",
+    "count": 3
+  }
+}

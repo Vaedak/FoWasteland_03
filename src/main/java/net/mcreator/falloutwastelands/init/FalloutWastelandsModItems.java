@@ -463,6 +463,8 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> PLASTICSHEET = REGISTRY.register("plasticsheet", () -> new PlasticsheetItem());
 	public static final RegistryObject<Item> ADVANCED_MOTOR = REGISTRY.register("advanced_motor", () -> new AdvancedMotorItem());
 	public static final RegistryObject<Item> BEER = REGISTRY.register("beer", () -> new BeerItem());
+	public static final RegistryObject<Item> BO_S_METAL_PLATING_SLAB = block(FalloutWastelandsModBlocks.BO_S_METAL_PLATING_SLAB);
+	public static final RegistryObject<Item> MILITARYPLATINGSTAIRS = block(FalloutWastelandsModBlocks.MILITARYPLATINGSTAIRS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:industrial_alloy_plain"
+    },
+    "b": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:industrial_alloy_warning",
+    "count": 1
+  }
+}

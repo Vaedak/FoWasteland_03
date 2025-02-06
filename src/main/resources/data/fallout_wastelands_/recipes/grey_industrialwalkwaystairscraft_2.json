@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " aa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:grey_industrial_walkway"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:grey_industrial_walkway_stairs",
+    "count": 4
+  }
+}

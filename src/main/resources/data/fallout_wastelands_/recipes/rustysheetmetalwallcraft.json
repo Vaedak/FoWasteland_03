@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:rusty_sheetmetalblock"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:rusted_sheet_metal_wall",
+    "count": 6
+  }
+}
