@@ -3,25 +3,19 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Aluminiumnugget"
+        "value": "CUSTOM:Metalstick"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:EnergyCell"
-      },
-      {
-        "value": "CUSTOM:Plasticsheet"
+        "value": "CUSTOM:EnclaveHull"
       },
       {
         "value": "CUSTOM:EnergyCell"
@@ -30,19 +24,25 @@
         "value": "CUSTOM:Plasticsheet"
       },
       {
-        "value": "CUSTOM:Copperwires"
+        "value": "CUSTOM:Motherboard"
+      },
+      {
+        "value": "CUSTOM:Plasticsheet"
       },
       {
         "value": "CUSTOM:Copperwires"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
       },
       {
         "value": "CUSTOM:Copperwires"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Motherboard"
+      "value": "CUSTOM:AdvancedMotherboard"
     },
-    "name": "motherboardcraft",
+    "name": "advancedmotherboardcraft",
     "namespace": "mod"
   }
 }

@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:Metalstick"
+      },
+      {
+        "value": "CUSTOM:BrotherhoodHull"
+      },
+      {
+        "value": "CUSTOM:Scrapmetal"
+      },
+      {
+        "value": "CUSTOM:Metalstick"
+      },
+      {
+        "value": "CUSTOM:BrotherhoodHull"
+      },
+      {
+        "value": "CUSTOM:Motor"
+      },
+      {
+        "value": "CUSTOM:Metalstick"
+      },
+      {
+        "value": "CUSTOM:BrotherhoodHull"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Fivemmminigun"
+    },
+    "name": "miniguncraft",
+    "namespace": "mod"
+  }
+}

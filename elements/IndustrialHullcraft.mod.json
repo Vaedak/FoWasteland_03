@@ -9,40 +9,40 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Aluminiumnugget"
+        "value": "CUSTOM:Nail"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Tiningot"
       },
       {
-        "value": "CUSTOM:EnergyCell"
+        "value": "CUSTOM:Nail"
       },
       {
-        "value": "CUSTOM:Plasticsheet"
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": "CUSTOM:EnergyCell"
+        "value": "CUSTOM:SteelIngot"
       },
       {
-        "value": "CUSTOM:Plasticsheet"
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": "CUSTOM:Copperwires"
+        "value": "CUSTOM:Nail"
       },
       {
-        "value": "CUSTOM:Copperwires"
+        "value": "CUSTOM:Tiningot"
       },
       {
-        "value": "CUSTOM:Copperwires"
+        "value": "CUSTOM:Nail"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Motherboard"
+      "value": "CUSTOM:Industrialhull"
     },
-    "name": "motherboardcraft",
+    "name": "industrial_hullcraft",
     "namespace": "mod"
   }
 }

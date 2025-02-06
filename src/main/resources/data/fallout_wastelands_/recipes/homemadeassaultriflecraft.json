@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:scrapmetal"
+    },
+    "b": {
+      "item": "fallout_wastelands_:steel_ingot"
+    },
+    "c": {
+      "item": "fallout_wastelands_:industrialhull"
+    },
+    "d": {
+      "item": "minecraft:stick"
+    },
+    "e": {
+      "item": "fallout_wastelands_:dented_can"
+    },
+    "f": {
+      "item": "fallout_wastelands_:copperwires"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:tenmmhomemadeassaultrifle",
+    "count": 1
+  }
+}

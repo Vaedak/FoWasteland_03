@@ -3,46 +3,46 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Aluminiumnugget"
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:Steelnugget"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:Scrapmetal"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:EnergyCell"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Plasticsheet"
-      },
-      {
-        "value": "CUSTOM:EnergyCell"
-      },
-      {
-        "value": "CUSTOM:Plasticsheet"
-      },
-      {
-        "value": "CUSTOM:Copperwires"
-      },
-      {
-        "value": "CUSTOM:Copperwires"
-      },
-      {
-        "value": "CUSTOM:Copperwires"
+        "value": "CUSTOM:Aluminiumnugget"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Motherboard"
+      "value": "CUSTOM:Ninemmpistol"
     },
-    "name": "motherboardcraft",
+    "name": "ninemmpistolcraft",
     "namespace": "mod"
   }
 }

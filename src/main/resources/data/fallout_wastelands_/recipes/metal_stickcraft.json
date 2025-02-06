@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:metalstick",
+    "count": 4
+  }
+}

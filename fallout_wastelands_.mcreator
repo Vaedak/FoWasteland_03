@@ -9341,6 +9341,178 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Metalstick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalstick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/metalstick.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/MetalstickItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MilitaryHull",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "military_hull",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/MilitaryHullItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/military_hull.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MetalStickcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_stickcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/metal_stickcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IndustrialHullcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_hullcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/industrial_hullcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MilitaryHullcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "military_hullcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/military_hullcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AdvancedMilitaryHullcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_military_hullcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/advanced_military_hullcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Tenmmpistolcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenmmpistolcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/tenmmpistolcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Ninemmpistolcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninemmpistolcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/ninemmpistolcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Miniguncraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miniguncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/miniguncraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Homemadeassaultriflecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "homemadeassaultriflecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/homemadeassaultriflecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Plasticsheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasticsheet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/PlasticsheetItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/plasticsheet.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Motherboardcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motherboardcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/motherboardcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Advancedmotherboardcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancedmotherboardcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/advancedmotherboardcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -9471,15 +9643,15 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -10093,6 +10265,7 @@
       "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
       "item.fallout_wastelands_.mug": "Mug",
       "item.fallout_wastelands_.industrialhull": "Industrial Hull",
+      "item.fallout_wastelands_.plasticsheet": "Plastic Sheet",
       "block.fallout_wastelands_.rust_block": "Rust Block",
       "item.fallout_wastelands_.t_45_pa_leggings": "T45 Leggings",
       "item.fallout_wastelands_.tato": "Tato",
@@ -10178,6 +10351,7 @@
       "block.fallout_wastelands_.wasteland_concrete_wall": "Concrete Wall",
       "block.fallout_wastelands_.cracked_wasteland_concrete_slabs": "Cracked Concrete Slab",
       "block.fallout_wastelands_.wasteland_concrete_stairs": "Concrete Stairs",
+      "item.fallout_wastelands_.military_hull": "Military Hull",
       "item.fallout_wastelands_.raiderduster_boots": "Raider Duster Boots",
       "item.fallout_wastelands_.fusion_core": "Fusion Core",
       "block.fallout_wastelands_.military_metal_door": "Military Metal Door",
@@ -10302,6 +10476,7 @@
       "block.fallout_wastelands_.grey_industrial_walkwayslab": "Industrial Alloy Slab",
       "block.fallout_wastelands_.enclave_door": "Enclave Door",
       "block.fallout_wastelands_.grey_industrial_walkway": "Industrial Alloy",
+      "item.fallout_wastelands_.metalstick": "Metal Stick",
       "block.fallout_wastelands_.hangardoor": "Hanger Door",
       "block.fallout_wastelands_.grey_industrial_alloybottomrivet": "Industrial Alloy (bottom rivet)",
       "block.fallout_wastelands_.bos_metal_plating": "Bos Metal Plating",

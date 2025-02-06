@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:nail"
+    },
+    "b": {
+      "item": "fallout_wastelands_:lead_ingot"
+    },
+    "c": {
+      "item": "fallout_wastelands_:steelnugget"
+    },
+    "d": {
+      "item": "fallout_wastelands_:industrialhull"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:military_hull",
+    "count": 2
+  }
+}

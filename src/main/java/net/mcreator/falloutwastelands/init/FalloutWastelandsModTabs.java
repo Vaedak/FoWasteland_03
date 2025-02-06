@@ -351,6 +351,9 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.ACID.get());
 				tabData.accept(FalloutWastelandsModItems.RADIACTIVE_WASTE.get());
 				tabData.accept(FalloutWastelandsModItems.MOTOR.get());
+				tabData.accept(FalloutWastelandsModItems.METALSTICK.get());
+				tabData.accept(FalloutWastelandsModItems.MILITARY_HULL.get());
+				tabData.accept(FalloutWastelandsModItems.PLASTICSHEET.get());
 			})
 
 					.build());

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fgf"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:metalstick"
+    },
+    "b": {
+      "item": "fallout_wastelands_:enclave_hull"
+    },
+    "c": {
+      "item": "fallout_wastelands_:energy_cell"
+    },
+    "d": {
+      "item": "fallout_wastelands_:plasticsheet"
+    },
+    "e": {
+      "item": "fallout_wastelands_:motherboard"
+    },
+    "f": {
+      "item": "fallout_wastelands_:copperwires"
+    },
+    "g": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:advanced_motherboard",
+    "count": 1
+  }
+}

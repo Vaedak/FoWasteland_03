@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dbc",
+    "ebc"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:steel_ingot"
+    },
+    "b": {
+      "item": "fallout_wastelands_:metalstick"
+    },
+    "c": {
+      "item": "fallout_wastelands_:brotherhood_hull"
+    },
+    "d": {
+      "item": "fallout_wastelands_:scrapmetal"
+    },
+    "e": {
+      "item": "fallout_wastelands_:motor"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:fivemmminigun",
+    "count": 1
+  }
+}

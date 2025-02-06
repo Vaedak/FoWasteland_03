@@ -3,46 +3,46 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Aluminiumnugget"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:EnergyCell"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Plasticsheet"
+        "value": "CUSTOM:Scrapmetal"
       },
       {
-        "value": "CUSTOM:EnergyCell"
+        "value": "CUSTOM:SteelIngot"
       },
       {
-        "value": "CUSTOM:Plasticsheet"
+        "value": "CUSTOM:Industrialhull"
       },
       {
-        "value": "CUSTOM:Copperwires"
+        "value": "Items.STICK"
       },
       {
-        "value": "CUSTOM:Copperwires"
+        "value": "CUSTOM:DentedCan"
       },
       {
         "value": "CUSTOM:Copperwires"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Motherboard"
+      "value": "CUSTOM:Tenmmhomemadeassaultrifle"
     },
-    "name": "motherboardcraft",
+    "name": "homemadeassaultriflecraft",
     "namespace": "mod"
   }
 }

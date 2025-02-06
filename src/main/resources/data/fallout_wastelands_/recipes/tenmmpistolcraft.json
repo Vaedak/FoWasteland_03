@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "ccd",
+    "  e"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:industrialhull"
+    },
+    "b": {
+      "item": "fallout_wastelands_:steelnugget"
+    },
+    "c": {
+      "item": "fallout_wastelands_:steel_ingot"
+    },
+    "d": {
+      "item": "fallout_wastelands_:scrapmetal"
+    },
+    "e": {
+      "item": "fallout_wastelands_:aluminiumnugget"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:tenmmpistol",
+    "count": 1
+  }
+}
