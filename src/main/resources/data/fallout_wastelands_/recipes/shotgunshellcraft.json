@@ -3,18 +3,22 @@
   "category": "misc",
   "pattern": [
     "a",
-    "b"
+    "b",
+    "c"
   ],
   "key": {
     "a": {
       "item": "fallout_wastelands_:wrench"
     },
     "b": {
+      "item": "minecraft:paper"
+    },
+    "c": {
       "item": "minecraft:copper_ingot"
     }
   },
   "result": {
-    "item": "fallout_wastelands_:smallcalibercasing",
-    "count": 8
+    "item": "fallout_wastelands_:hunting_casing",
+    "count": 4
   }
 }

@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "fallout_wastelands_:tiningot"
+      "item": "fallout_wastelands_:wrench"
     },
     "b": {
-      "item": "fallout_wastelands_:tinnugget"
+      "item": "minecraft:copper_ingot"
     }
   },
   "result": {
-    "item": "fallout_wastelands_:nail",
+    "item": "fallout_wastelands_:heavycalibercasing",
     "count": 8
   }
 }

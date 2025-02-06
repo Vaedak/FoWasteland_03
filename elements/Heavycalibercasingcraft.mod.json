@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": "CUSTOM:Wrench"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": ""
       },
       {
-        "value": "Items.GUNPOWDER"
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FivemmAmmo"
+      "value": "CUSTOM:Heavycalibercasing"
     },
-    "name": "fivemmammocraft",
+    "name": "heavycalibercasingcraft",
     "namespace": "mod"
   }
 }

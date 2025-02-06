@@ -47,6 +47,7 @@ import net.mcreator.falloutwastelands.item.RawAluminumItem;
 import net.mcreator.falloutwastelands.item.RaiderdusterItem;
 import net.mcreator.falloutwastelands.item.RaiderblastmasterItem;
 import net.mcreator.falloutwastelands.item.RaiderbasherItem;
+import net.mcreator.falloutwastelands.item.RadiactiveWasteItem;
 import net.mcreator.falloutwastelands.item.PsychoItem;
 import net.mcreator.falloutwastelands.item.PowerArmorFrameArmorItem;
 import net.mcreator.falloutwastelands.item.PlasmarifleItem;
@@ -63,6 +64,7 @@ import net.mcreator.falloutwastelands.item.NailedWrenchItem;
 import net.mcreator.falloutwastelands.item.NailItem;
 import net.mcreator.falloutwastelands.item.MutlemonItem;
 import net.mcreator.falloutwastelands.item.MugItem;
+import net.mcreator.falloutwastelands.item.MotorItem;
 import net.mcreator.falloutwastelands.item.MotherboardItem;
 import net.mcreator.falloutwastelands.item.LeadNuggetItem;
 import net.mcreator.falloutwastelands.item.LeadIngotItem;
@@ -449,6 +451,8 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> WASTELAND_BRICKS_SLAB = block(FalloutWastelandsModBlocks.WASTELAND_BRICKS_SLAB);
 	public static final RegistryObject<Item> WASTELAND_BRICKS_STAIRS = block(FalloutWastelandsModBlocks.WASTELAND_BRICKS_STAIRS);
 	public static final RegistryObject<Item> WORN_METAL_PILLAR = block(FalloutWastelandsModBlocks.WORN_METAL_PILLAR);
+	public static final RegistryObject<Item> RADIACTIVE_WASTE = REGISTRY.register("radiactive_waste", () -> new RadiactiveWasteItem());
+	public static final RegistryObject<Item> MOTOR = REGISTRY.register("motor", () -> new MotorItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

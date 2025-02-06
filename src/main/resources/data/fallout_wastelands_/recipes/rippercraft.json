@@ -2,26 +2,26 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "ab",
-    "cb",
-    "d "
+    "aba",
+    "aca",
+    " d "
   ],
   "key": {
     "a": {
-      "item": "fallout_wastelands_:steel_ingot"
-    },
-    "b": {
       "item": "fallout_wastelands_:steelnugget"
     },
+    "b": {
+      "item": "fallout_wastelands_:industrialhull"
+    },
     "c": {
-      "item": "fallout_wastelands_:tire_iron"
+      "item": "fallout_wastelands_:motor"
     },
     "d": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "fallout_wastelands_:wrench",
+    "item": "fallout_wastelands_:ripper",
     "count": 1
   }
 }

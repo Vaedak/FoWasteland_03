@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Industrialhull"
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": "CUSTOM:Industrialhull"
       },
       {
         "value": "CUSTOM:SteelIngot"
       },
       {
-        "value": "CUSTOM:Steelnugget"
+        "value": "CUSTOM:SteelIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:SteelIngot"
       },
       {
-        "value": "CUSTOM:TireIron"
+        "value": "CUSTOM:Industrialhull"
       },
       {
-        "value": "CUSTOM:Steelnugget"
+        "value": "Blocks.PISTON"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Industrialhull"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Wrench"
+      "value": "CUSTOM:Motor"
     },
-    "name": "wrenchcraft",
+    "name": "motorcraft",
     "namespace": "mod"
   }
 }

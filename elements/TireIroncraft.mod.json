@@ -15,34 +15,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "CUSTOM:Steelnugget"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:TireIron"
-      },
-      {
-        "value": "CUSTOM:Steelnugget"
+        "value": "Items.IRON_NUGGET"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_NUGGET"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Wrench"
+      "value": "CUSTOM:TireIron"
     },
-    "name": "wrenchcraft",
+    "name": "tire_ironcraft",
     "namespace": "mod"
   }
 }

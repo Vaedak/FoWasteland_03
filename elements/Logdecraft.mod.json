@@ -3,13 +3,13 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
@@ -18,13 +18,13 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:IndustrialAlloyStair"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Molder_WoodLog"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:IndustrialSupport"
+      "value": "CUSTOM:Molder_WoodPlanks"
     },
-    "name": "test",
+    "name": "logdecraft",
     "namespace": "mod"
   }
 }

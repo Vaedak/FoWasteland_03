@@ -4,7 +4,7 @@
   "pattern": [
     "aba",
     "aca",
-    "aca"
+    "aba"
   ],
   "key": {
     "a": {
@@ -18,7 +18,7 @@
     }
   },
   "result": {
-    "item": "fallout_wastelands_:ninemmammo",
+    "item": "fallout_wastelands_:thirtytwoammo",
     "count": 6
   }
 }

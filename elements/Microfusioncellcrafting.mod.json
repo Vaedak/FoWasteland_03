@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": "CUSTOM:AluminumIngot"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": "CUSTOM:AluminumIngot"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": "CUSTOM:AluminumIngot"
       },
       {
-        "value": "Items.GUNPOWDER"
+        "value": "CUSTOM:Motherboard"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": "CUSTOM:AluminumIngot"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": "CUSTOM:Copperwires"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FivemmAmmo"
+      "value": "CUSTOM:EnergyCell"
     },
-    "name": "fivemmammocraft",
+    "name": "microfusioncellcrafting",
     "namespace": "mod"
   }
 }

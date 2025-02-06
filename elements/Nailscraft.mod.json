@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 16,
+    "recipeRetstackSize": 8,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -15,7 +15,7 @@
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:Tiningot"
       },
       {
         "value": ""
@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Aluminiumnugget"
+        "value": "CUSTOM:Tinnugget"
       },
       {
         "value": ""
@@ -33,7 +33,7 @@
         "value": ""
       },
       {
-        "value": "Items.IRON_NUGGET"
+        "value": "CUSTOM:Tinnugget"
       },
       {
         "value": ""

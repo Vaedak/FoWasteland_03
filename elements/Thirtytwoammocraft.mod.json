@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 8,
+    "recipeRetstackSize": 6,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -15,7 +15,7 @@
         "value": "CUSTOM:Smallcalibercasing"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": "Items.IRON_NUGGET"
       },
       {
         "value": "CUSTOM:Smallcalibercasing"
@@ -33,16 +33,16 @@
         "value": "CUSTOM:Smallcalibercasing"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
+        "value": "Items.IRON_NUGGET"
       },
       {
         "value": "CUSTOM:Smallcalibercasing"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FivemmAmmo"
+      "value": "CUSTOM:Thirtytwoammo"
     },
-    "name": "fivemmammocraft",
+    "name": "thirtytwoammocraft",
     "namespace": "mod"
   }
 }

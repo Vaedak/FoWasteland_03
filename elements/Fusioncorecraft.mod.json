@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:EnergyCell"
+      },
+      {
+        "value": "CUSTOM:RadiactiveWaste"
+      },
+      {
+        "value": "CUSTOM:EnergyCell"
       },
       {
         "value": "CUSTOM:SteelIngot"
       },
       {
-        "value": "CUSTOM:Steelnugget"
+        "value": "CUSTOM:RadiactiveWaste"
       },
       {
-        "value": ""
+        "value": "CUSTOM:SteelIngot"
       },
       {
-        "value": "CUSTOM:TireIron"
+        "value": "CUSTOM:Industrialhull"
       },
       {
-        "value": "CUSTOM:Steelnugget"
+        "value": "CUSTOM:Motherboard"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Industrialhull"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Wrench"
+      "value": "CUSTOM:FusionCore"
     },
-    "name": "wrenchcraft",
+    "name": "fusioncorecraft",
     "namespace": "mod"
   }
 }

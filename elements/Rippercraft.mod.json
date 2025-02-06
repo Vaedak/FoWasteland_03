@@ -12,19 +12,19 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Steelnugget"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "CUSTOM:Industrialhull"
       },
       {
         "value": "CUSTOM:Steelnugget"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Steelnugget"
       },
       {
-        "value": "CUSTOM:TireIron"
+        "value": "CUSTOM:Motor"
       },
       {
         "value": "CUSTOM:Steelnugget"
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Wrench"
+      "value": "CUSTOM:Ripper"
     },
-    "name": "wrenchcraft",
+    "name": "rippercraft",
     "namespace": "mod"
   }
 }

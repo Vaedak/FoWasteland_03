@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 6,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -15,6 +15,9 @@
         "value": "CUSTOM:Smallcalibercasing"
       },
       {
+        "value": "Items.IRON_INGOT"
+      },
+      {
         "value": "CUSTOM:Smallcalibercasing"
       },
       {
@@ -24,23 +27,20 @@
         "value": "Items.GUNPOWDER"
       },
       {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": "CUSTOM:Steelnugget"
+        "value": "CUSTOM:Smallcalibercasing"
       },
       {
         "value": "CUSTOM:Smallcalibercasing"
       },
       {
-        "value": "CUSTOM:Steelnugget"
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "CUSTOM:Smallcalibercasing"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tenmmammo"
+      "value": "CUSTOM:Ninemmammo"
     },
     "name": "tenmmammocraft",
     "namespace": "mod"

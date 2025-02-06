@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:energy_cell"
+    },
+    "b": {
+      "item": "fallout_wastelands_:radiactive_waste"
+    },
+    "c": {
+      "item": "fallout_wastelands_:steel_ingot"
+    },
+    "d": {
+      "item": "fallout_wastelands_:industrialhull"
+    },
+    "e": {
+      "item": "fallout_wastelands_:motherboard"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:fusion_core",
+    "count": 2
+  }
+}

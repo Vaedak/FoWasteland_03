@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 6,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -15,28 +15,28 @@
         "value": "CUSTOM:Smallcalibercasing"
       },
       {
-        "value": "CUSTOM:Smallcalibercasing"
-      },
-      {
-        "value": "CUSTOM:Smallcalibercasing"
-      },
-      {
         "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:Smallcalibercasing"
+      },
+      {
+        "value": "CUSTOM:Smallcalibercasing"
       },
       {
         "value": "Items.GUNPOWDER"
       },
       {
-        "value": "Items.IRON_NUGGET"
-      },
-      {
-        "value": "Items.IRON_NUGGET"
+        "value": "CUSTOM:Smallcalibercasing"
       },
       {
         "value": "CUSTOM:Smallcalibercasing"
       },
       {
-        "value": "Items.IRON_NUGGET"
+        "value": "Items.GUNPOWDER"
+      },
+      {
+        "value": "CUSTOM:Smallcalibercasing"
       }
     ],
     "recipeReturnStack": {

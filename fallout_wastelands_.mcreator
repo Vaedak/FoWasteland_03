@@ -9068,14 +9068,276 @@
       "path": "~/Blocks"
     },
     {
-      "name": "Test",
+      "name": "Wastelandbrickcooking",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test",
+      "registry_name": "wastelandbrickcooking",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/recipes/test.json"
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandbrickcooking.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Logdecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logdecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/logdecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Molderlogdecraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molderlogdecraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/molderlogdecraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Molderlogdecraft3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molderlogdecraft_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/molderlogdecraft_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Heavycalibercasingcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavycalibercasingcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/heavycalibercasingcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Smallcalibercasingcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallcalibercasingcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/smallcalibercasingcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Shotgunshellcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgunshellcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/shotgunshellcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Fivemmammocraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fivemmammocraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/fivemmammocraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Thirtytwoammocraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thirtytwoammocraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/thirtytwoammocraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Ninemmammocraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninemmammocraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/ninemmammocraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Tenmmammocraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenmmammocraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/tenmmammocraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Microfusioncellcrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microfusioncellcrafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/microfusioncellcrafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RadiactiveWaste",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiactive_waste",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/radiactive_waste.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/RadiactiveWasteItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Fusioncorecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusioncorecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/fusioncorecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Nailscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nailscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/nailscraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Motor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/motor.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/MotorItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Motorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/motorcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wrenchcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrenchcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wrenchcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TireIroncraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tire_ironcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/tire_ironcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TireIroncraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tire_ironcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/tire_ironcraft_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Rippercraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rippercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/rippercraft.json"
         ]
       },
       "path": "~/Recipes"
@@ -9957,6 +10219,7 @@
       "block.fallout_wastelands_.industrial_alloy_slab": "Industrial Alloy Slab",
       "block.fallout_wastelands_.vault_pillar": "Vault Pillar",
       "key.fallout_wastelands_.exit_power_armor": "Exit Power Armor",
+      "item.fallout_wastelands_.radiactive_waste": "Radioactive Waste",
       "block.fallout_wastelands_.wasteland_cracked_brick": "Wasteland Cracked Bricks",
       "key.fallout_wastelands_.switch_game_mode_utility": "Switch Game Mode Utility",
       "block.fallout_wastelands_.industrial_alloy": "Industrial Alloy (upper rivet)",
@@ -10100,6 +10363,7 @@
       "block.fallout_wastelands_.wasteland_rooty_dirt": "Wasteland Rooty Dirt",
       "block.fallout_wastelands_.wastelandemeraldore": "Wasteland Emerald Ore",
       "item.fallout_wastelands_.tenmmammo": "10mm Ammo",
+      "item.fallout_wastelands_.motor": "Motor",
       "item.fallout_wastelands_.cigarettepack": "Cigarette Pack",
       "item.fallout_wastelands_.stimpack": "Stimpack",
       "item.fallout_wastelands_.base_cap_bundle": "Cap Bundle",

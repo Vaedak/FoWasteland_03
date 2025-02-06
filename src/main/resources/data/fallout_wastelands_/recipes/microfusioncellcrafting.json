@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:aluminum_ingot"
+    },
+    "b": {
+      "item": "minecraft:copper_ingot"
+    },
+    "c": {
+      "item": "fallout_wastelands_:motherboard"
+    },
+    "d": {
+      "item": "fallout_wastelands_:copperwires"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:energy_cell",
+    "count": 8
+  }
+}
