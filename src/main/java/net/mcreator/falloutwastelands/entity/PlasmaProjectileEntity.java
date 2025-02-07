@@ -72,7 +72,7 @@ public class PlasmaProjectileEntity extends AbstractArrow implements ItemSupplie
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		PlasmaProjectileProjectileHitsEntityProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entityHitResult.getEntity(), this, this.getOwner());
+		PlasmaProjectileProjectileHitsEntityProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override
