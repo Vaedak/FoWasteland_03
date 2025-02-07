@@ -89,7 +89,7 @@
       }
     ],
     "isBonemealable": false,
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 10,
     "generateFeature": true,
     "restrictionBiomes": [
       {
