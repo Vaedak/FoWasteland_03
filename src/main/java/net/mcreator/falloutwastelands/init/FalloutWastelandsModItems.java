@@ -7,20 +7,13 @@ package net.mcreator.falloutwastelands.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.common.ForgeSpawnEggItem;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.item.ItemProperties;
 
-import net.mcreator.falloutwastelands.procedures.TenmmpistolPropertyValueProviderProcedure;
 import net.mcreator.falloutwastelands.item.WrenchItem;
 import net.mcreator.falloutwastelands.item.WastelandsItem;
 import net.mcreator.falloutwastelands.item.WastelandbrickitemItem;
@@ -133,7 +126,6 @@ import net.mcreator.falloutwastelands.item.AbraxoCleanerItem;
 import net.mcreator.falloutwastelands.block.display.BASEcoreDisplayItem;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class FalloutWastelandsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FalloutWastelandsMod.MODID);
 	public static final RegistryObject<Item> WASTELAND_DIRT = block(FalloutWastelandsModBlocks.WASTELAND_DIRT);
@@ -506,13 +498,5 @@ public class FalloutWastelandsModItems {
 
 	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
-	}
-
-	@SubscribeEvent
-	public static void clientLoad(FMLClientSetupEvent event) {
-		event.enqueueWork(() -> {
-			ItemProperties.register(TENMMPISTOL.get(), new ResourceLocation("fallout_wastelands_:tenmmpistol_playershootsgun"),
-					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) TenmmpistolPropertyValueProviderProcedure.execute(itemStackToRender));
-		});
 	}
 }

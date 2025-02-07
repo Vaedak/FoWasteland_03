@@ -1,15 +1,7 @@
 {
-  "parent": "fallout_wastelands_:custom/tenmm_noshoot",
+  "parent": "fallout_wastelands_:custom/10mm_pistol",
   "textures": {
-    "0": "fallout_wastelands_:block/10mm_2",
-    "particle": "fallout_wastelands_:item/10mm_2"
-  },
-  "overrides": [
-    {
-      "predicate": {
-        "fallout_wastelands_:tenmmpistol_playershootsgun": 1
-      },
-      "model": "fallout_wastelands_:item/tenmmpistol_0"
-    }
-  ]
+    "0": "fallout_wastelands_:block/10mm",
+    "particle": "fallout_wastelands_:item/32pistol"
+  }
 }

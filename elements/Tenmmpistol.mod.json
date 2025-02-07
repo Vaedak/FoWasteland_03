@@ -3,31 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "10mm_2",
-    "customModelName": "tenmm_noshoot:default",
-    "customProperties": {
-      "playershootsgun": {
-        "name": "TenmmpistolPropertyValueProvider"
-      }
-    },
-    "states": [
-      {
-        "renderType": 1,
-        "texture": "10mm_shoot",
-        "customModelName": "tenmm_shoot:default",
-        "stateMap": [
-          {
-            "property": {
-              "min": -1.7976931348623157E308,
-              "max": 1.7976931348623157E308,
-              "name": "CUSTOM:playershootsgun",
-              "type": "number"
-            },
-            "value": 1.0
-          }
-        ]
-      }
-    ],
+    "texture": "32pistol",
+    "customModelName": "10mm_pistol:default",
+    "customProperties": {},
+    "states": [],
     "name": "10mm Pistol",
     "rarity": "COMMON",
     "creativeTabs": [

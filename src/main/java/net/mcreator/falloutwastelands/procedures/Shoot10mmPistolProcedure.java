@@ -18,7 +18,6 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModEntities;
 import net.mcreator.falloutwastelands.entity.BaseGunItemProjectileEntity;
-import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
 public class Shoot10mmPistolProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
@@ -28,10 +27,6 @@ public class Shoot10mmPistolProcedure {
 			DontShootOnDropItemProcedure.execute(world, entity);
 			if (entity.getPersistentData().getDouble("cooldown") == 0) {
 				if (itemstack.getDamageValue() < itemstack.getMaxDamage() - 1 == true && entity.getPersistentData().getBoolean("ReloadGun") == false) {
-					itemstack.getOrCreateTag().putDouble("gunUsed", 1);
-					FalloutWastelandsMod.queueServerWork(1, () -> {
-						itemstack.getOrCreateTag().putDouble("gunUsed", 0);
-					});
 					{
 						Entity _shootFrom = entity;
 						Level projectileLevel = _shootFrom.level();

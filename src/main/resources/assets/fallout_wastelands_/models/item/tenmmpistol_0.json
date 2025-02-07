@@ -1,7 +1,0 @@
-{
-  "parent": "fallout_wastelands_:custom/tenmm_shoot",
-  "textures": {
-    "0": "fallout_wastelands_:block/10mm_shoot",
-    "particle": "fallout_wastelands_:item/10mm_shoot"
-  }
-}

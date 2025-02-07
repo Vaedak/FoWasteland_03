@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "10mm_2"
+        "0": "10mm"
       },
       "name": "default"
     }
