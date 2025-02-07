@@ -8,8 +8,6 @@ import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.item.ItemStack;
 
-import net.mcreator.falloutwastelands.item.TestWeaponItem;
-
 @Mod.EventBusSubscriber
 public class ItemAnimationFactory {
 	@SubscribeEvent

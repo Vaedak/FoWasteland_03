@@ -1,6 +1,0 @@
-{
-  "parent": "fallout_wastelands_:displaysettings/brf.item",
-  "textures": {
-    "layer0": "fallout_wastelands_:item/texture"
-  }
-}

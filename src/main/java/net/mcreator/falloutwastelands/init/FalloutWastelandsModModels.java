@@ -10,6 +10,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.falloutwastelands.client.model.Modellaserriflebeam;
+import net.mcreator.falloutwastelands.client.model.Modelgunshot;
 import net.mcreator.falloutwastelands.client.model.Modeldusterraiderarmor;
 import net.mcreator.falloutwastelands.client.model.Modelbrahmin;
 import net.mcreator.falloutwastelands.client.model.Modelblastmasterraiderarmor;
@@ -22,6 +23,7 @@ public class FalloutWastelandsModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelblastmasterraiderarmor.LAYER_LOCATION, Modelblastmasterraiderarmor::createBodyLayer);
+		event.registerLayerDefinition(Modelgunshot.LAYER_LOCATION, Modelgunshot::createBodyLayer);
 		event.registerLayerDefinition(Modellaserriflebeam.LAYER_LOCATION, Modellaserriflebeam::createBodyLayer);
 		event.registerLayerDefinition(Modelbasherraiderarmor2.LAYER_LOCATION, Modelbasherraiderarmor2::createBodyLayer);
 		event.registerLayerDefinition(Modelbrahmin.LAYER_LOCATION, Modelbrahmin::createBodyLayer);

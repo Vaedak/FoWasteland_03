@@ -23,7 +23,6 @@ import net.mcreator.falloutwastelands.item.TireIronItem;
 import net.mcreator.falloutwastelands.item.TinnuggetItem;
 import net.mcreator.falloutwastelands.item.TiningotItem;
 import net.mcreator.falloutwastelands.item.ThirtytwoammoItem;
-import net.mcreator.falloutwastelands.item.TestWeaponItem;
 import net.mcreator.falloutwastelands.item.TenmmpistolItem;
 import net.mcreator.falloutwastelands.item.TenmmhomemadeassaultrifleItem;
 import net.mcreator.falloutwastelands.item.TenmmammoItem;
