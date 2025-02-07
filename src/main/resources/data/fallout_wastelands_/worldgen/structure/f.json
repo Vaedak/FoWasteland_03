@@ -9,10 +9,10 @@
   "start_height": {
     "type": "minecraft:uniform",
     "min_inclusive": {
-      "absolute": 127
+      "absolute": 256
     },
     "max_inclusive": {
-      "absolute": 129
+      "absolute": 257
     }
   },
   "biomes": [

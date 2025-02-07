@@ -3,7 +3,7 @@
   "biomes": "fallout_wastelands_:wasteland_plains",
   "spawners": {
     "type": "fallout_wastelands_:brahmin",
-    "weight": 15,
+    "weight": 60,
     "minCount": 2,
     "maxCount": 5
   }
