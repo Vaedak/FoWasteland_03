@@ -7729,6 +7729,7 @@
       "registry_name": "base_gun_item_projectile",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BaseGunItemProjectileRenderer.java",
           "src/main/java/net/mcreator/falloutwastelands/entity/BaseGunItemProjectileEntity.java"
         ]
       },
@@ -8209,9 +8210,9 @@
       "registry_name": "blastmaster_raider",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BlastmasterRaiderRenderer.java",
           "src/main/java/net/mcreator/falloutwastelands/entity/BlastmasterRaiderEntity.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/blastmaster_raider_spawn_egg.json",
-          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BlastmasterRaiderRenderer.java"
+          "src/main/resources/assets/fallout_wastelands_/models/item/blastmaster_raider_spawn_egg.json"
         ]
       },
       "path": "~/Mobs"
@@ -11950,6 +11951,38 @@
         ]
       },
       "path": "~/Weapons"
+    },
+    {
+      "name": "BrahminNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brahmin_natural_entity_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BrahminNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
