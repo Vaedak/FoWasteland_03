@@ -93,7 +93,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.BLASTED_GLASS_PANE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BURNISHED_GLASS_PANE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDTILES.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.BAS_ECORE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MILITARY_METAL_PLATE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MILITARY_METAL_DOOR.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MILITARY_METALWINDOW.get().asItem());
