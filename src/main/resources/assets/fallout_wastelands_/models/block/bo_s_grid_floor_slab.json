@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "fallout_wastelands_:block/bosgridfloor",
+    "bottom": "fallout_wastelands_:block/bosgridfloor",
+    "top": "fallout_wastelands_:block/bosgridfloor",
+    "side": "fallout_wastelands_:block/bosgridfloor"
+  },
+  "render_type": "solid"
+}

@@ -1,10 +1,10 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "particle": "fallout_wastelands_:block/bosmetalplating",
-    "bottom": "fallout_wastelands_:block/bosmetalplating",
-    "top": "fallout_wastelands_:block/bosmetalplatingtop",
-    "side": "fallout_wastelands_:block/bosmetalplatingside"
+    "particle": "fallout_wastelands_:block/bosmetalwall",
+    "bottom": "fallout_wastelands_:block/bosmetalwall",
+    "top": "fallout_wastelands_:block/bosmetalwall",
+    "side": "fallout_wastelands_:block/boswallpipe1"
   },
   "render_type": "solid"
 }

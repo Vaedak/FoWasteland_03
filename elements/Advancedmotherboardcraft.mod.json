@@ -12,7 +12,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Metalstick"
+        "value": "CUSTOM:VaccumTube"
       },
       {
         "value": "CUSTOM:EnclaveHull"

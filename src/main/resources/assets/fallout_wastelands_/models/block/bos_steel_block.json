@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "fallout_wastelands_:block/bossteelblock",
-    "up": "fallout_wastelands_:block/bossteelblock",
-    "north": "fallout_wastelands_:block/bossteelblock",
-    "east": "fallout_wastelands_:block/bossteelblock",
-    "south": "fallout_wastelands_:block/bossteelblock",
-    "west": "fallout_wastelands_:block/bossteelblock",
-    "particle": "fallout_wastelands_:block/bossteelblock"
+    "down": "fallout_wastelands_:block/bossteelwalltopnew",
+    "up": "fallout_wastelands_:block/bossteelwalltopnew",
+    "north": "fallout_wastelands_:block/bossteelwalltopnew",
+    "east": "fallout_wastelands_:block/bossteelwalltopnew",
+    "south": "fallout_wastelands_:block/bossteelwalltopnew",
+    "west": "fallout_wastelands_:block/bossteelwalltopnew",
+    "particle": "fallout_wastelands_:block/bossteelwalltopnew"
   },
   "render_type": "solid"
 }

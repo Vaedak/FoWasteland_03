@@ -223,10 +223,22 @@ import net.mcreator.falloutwastelands.block.BosSteelStairBlock;
 import net.mcreator.falloutwastelands.block.BosSteelSlabsBlock;
 import net.mcreator.falloutwastelands.block.BosSteelBlockBlock;
 import net.mcreator.falloutwastelands.block.BosMetalStairsBlock;
+import net.mcreator.falloutwastelands.block.BosMetalRoofStairsBlock;
+import net.mcreator.falloutwastelands.block.BosMetalPlatingconnectedBlock;
 import net.mcreator.falloutwastelands.block.BosMetalPlatingLightedBlock;
 import net.mcreator.falloutwastelands.block.BosMetalPlatingBlock;
 import net.mcreator.falloutwastelands.block.BosDoorBlock;
+import net.mcreator.falloutwastelands.block.BosDoor2Block;
+import net.mcreator.falloutwastelands.block.BoSTileBlock;
+import net.mcreator.falloutwastelands.block.BoSSteelWallBlock;
+import net.mcreator.falloutwastelands.block.BoSMetalRoofBlock;
 import net.mcreator.falloutwastelands.block.BoSMetalPlatingSlabBlock;
+import net.mcreator.falloutwastelands.block.BoSGridFloorStairsBlock;
+import net.mcreator.falloutwastelands.block.BoSGridFloorSlabBlock;
+import net.mcreator.falloutwastelands.block.BoSGridFloorBlock;
+import net.mcreator.falloutwastelands.block.BoSDataFrontTopBlock;
+import net.mcreator.falloutwastelands.block.BoSDataFrontMiddleBlock;
+import net.mcreator.falloutwastelands.block.BoSDataFrontBottomBlock;
 import net.mcreator.falloutwastelands.block.BlastedGlassPaneBlock;
 import net.mcreator.falloutwastelands.block.BlastedGlassBlock;
 import net.mcreator.falloutwastelands.block.BlackTilesBlock;
@@ -462,6 +474,18 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> TATOPLANT_3 = REGISTRY.register("tatoplant_3", () -> new Tatoplant3Block());
 	public static final RegistryObject<Block> WASTELAND_ROAD_WHITE = REGISTRY.register("wasteland_road_white", () -> new WastelandRoadWhiteBlock());
 	public static final RegistryObject<Block> WASTELAND_ROAD_WHITE_SLAB = REGISTRY.register("wasteland_road_white_slab", () -> new WastelandRoadWhiteSlabBlock());
+	public static final RegistryObject<Block> BOS_METAL_PLATINGCONNECTED = REGISTRY.register("bos_metal_platingconnected", () -> new BosMetalPlatingconnectedBlock());
+	public static final RegistryObject<Block> BO_S_DATA_FRONT_MIDDLE = REGISTRY.register("bo_s_data_front_middle", () -> new BoSDataFrontMiddleBlock());
+	public static final RegistryObject<Block> BO_S_STEEL_WALL = REGISTRY.register("bo_s_steel_wall", () -> new BoSSteelWallBlock());
+	public static final RegistryObject<Block> BO_S_DATA_FRONT_TOP = REGISTRY.register("bo_s_data_front_top", () -> new BoSDataFrontTopBlock());
+	public static final RegistryObject<Block> BO_S_GRID_FLOOR = REGISTRY.register("bo_s_grid_floor", () -> new BoSGridFloorBlock());
+	public static final RegistryObject<Block> BOS_METAL_ROOF_STAIRS = REGISTRY.register("bos_metal_roof_stairs", () -> new BosMetalRoofStairsBlock());
+	public static final RegistryObject<Block> BO_S_TILE = REGISTRY.register("bo_s_tile", () -> new BoSTileBlock());
+	public static final RegistryObject<Block> BO_S_GRID_FLOOR_SLAB = REGISTRY.register("bo_s_grid_floor_slab", () -> new BoSGridFloorSlabBlock());
+	public static final RegistryObject<Block> BOS_DOOR_2 = REGISTRY.register("bos_door_2", () -> new BosDoor2Block());
+	public static final RegistryObject<Block> BO_S_GRID_FLOOR_STAIRS = REGISTRY.register("bo_s_grid_floor_stairs", () -> new BoSGridFloorStairsBlock());
+	public static final RegistryObject<Block> BO_S_METAL_ROOF = REGISTRY.register("bo_s_metal_roof", () -> new BoSMetalRoofBlock());
+	public static final RegistryObject<Block> BO_S_DATA_FRONT_BOTTOM = REGISTRY.register("bo_s_data_front_bottom", () -> new BoSDataFrontBottomBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

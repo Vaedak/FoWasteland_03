@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass_pane"
+    },
+    "b": {
+      "item": "fallout_wastelands_:copperwires"
+    },
+    "c": {
+      "item": "fallout_wastelands_:tiningot"
+    },
+    "d": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:vaccum_tube",
+    "count": 2
+  }
+}

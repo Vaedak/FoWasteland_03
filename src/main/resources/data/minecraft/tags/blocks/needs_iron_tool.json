@@ -1,6 +1,18 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:bo_s_data_front_bottom",
+    "fallout_wastelands_:bo_s_metal_roof",
+    "fallout_wastelands_:bo_s_grid_floor_stairs",
+    "fallout_wastelands_:bos_door_2",
+    "fallout_wastelands_:bo_s_grid_floor_slab",
+    "fallout_wastelands_:bo_s_tile",
+    "fallout_wastelands_:bos_metal_roof_stairs",
+    "fallout_wastelands_:bo_s_grid_floor",
+    "fallout_wastelands_:bo_s_data_front_top",
+    "fallout_wastelands_:bo_s_steel_wall",
+    "fallout_wastelands_:bo_s_data_front_middle",
+    "fallout_wastelands_:bos_metal_platingconnected",
     "fallout_wastelands_:industrial_alloy_vent",
     "fallout_wastelands_:industrial_alloy_structureslab",
     "fallout_wastelands_:industrial_alloystructure",

@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "fallout_wastelands_:block/bosrightdoorbottomf01",
+    "bottom": "fallout_wastelands_:block/bosrightdoorbottomf01",
+    "top": "fallout_wastelands_:block/bosrightdoortopf01"
+  },
+  "render_type": "solid"
+}

@@ -1,9 +1,6 @@
 package net.mcreator.falloutwastelands.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.falloutwastelands.init.FalloutWastelandsModBlocks;
+import net.minecraftforge.eventbus.api.Event;
 
 public class BrahminNaturalEntitySpawningConditionProcedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z) {

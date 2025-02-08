@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "fallout_wastelands_:block/bosmetalwall",
+    "bottom": "fallout_wastelands_:block/bosmetalwall",
+    "top": "fallout_wastelands_:block/bosmetalwall",
+    "side": "fallout_wastelands_:block/bosroof"
+  },
+  "render_type": "solid"
+}

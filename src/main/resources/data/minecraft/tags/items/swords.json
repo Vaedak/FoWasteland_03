@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:baseball_club",
+    "fallout_wastelands_:machete",
+    "fallout_wastelands_:cattle_rod",
+    "fallout_wastelands_:baseball_bat",
     "fallout_wastelands_:tire_iron",
     "fallout_wastelands_:rollingpin",
     "fallout_wastelands_:nailed_wrench",

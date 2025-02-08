@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:wirefence"
+    },
+    "b": {
+      "item": "fallout_wastelands_:bos_metal_plating"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:deleted_mod_element",
+    "count": 4
+  }
+}
