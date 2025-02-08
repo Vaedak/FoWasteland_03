@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "beer",
+    "texture": "gammagulpbeer",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Beer",
+    "name": "Gamma Gulp Beer",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -49,12 +49,12 @@
     "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": -2,
-    "saturation": 1.5,
+    "saturation": 2.5,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
     "isAlwaysEdible": true,
-    "animation": "eat"
+    "animation": "drink"
   }
 }

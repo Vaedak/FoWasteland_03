@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "beer",
+    "texture": "whiskey",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Beer",
+    "name": "Whiskey",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -48,13 +48,13 @@
     },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
-    "nutritionalValue": -2,
+    "nutritionalValue": -4,
     "saturation": 1.5,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
     "isAlwaysEdible": true,
-    "animation": "eat"
+    "animation": "drink"
   }
 }

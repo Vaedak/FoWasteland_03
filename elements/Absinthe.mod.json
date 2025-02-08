@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "beer",
+    "texture": "absinthe",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Beer",
+    "name": "Absinthe",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -48,13 +48,13 @@
     },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
-    "nutritionalValue": -2,
-    "saturation": 1.5,
+    "nutritionalValue": -6,
+    "saturation": 6.0,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
     "isAlwaysEdible": true,
-    "animation": "eat"
+    "animation": "drink"
   }
 }
