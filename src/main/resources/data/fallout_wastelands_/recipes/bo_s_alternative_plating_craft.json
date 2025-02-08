@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:bos_metal_plating"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:bos_metal_platingconnected",
+    "count": 1
+  }
+}

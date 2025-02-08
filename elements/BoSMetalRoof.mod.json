@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "bosmetalwall",
+    "texture": "bosroof",
     "textureTop": "bosmetalwall",
     "textureLeft": "bosroof",
     "textureFront": "bosroof",

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/bosfacedatatop",
+    "up": "fallout_wastelands_:block/bosdatatop",
+    "north": "fallout_wastelands_:block/bosfacedatatop",
+    "east": "fallout_wastelands_:block/bosdataleftlower",
+    "south": "fallout_wastelands_:block/bosdatamulti",
+    "west": "fallout_wastelands_:block/bosdatarightlower",
+    "particle": "fallout_wastelands_:block/bosfacedatatop"
+  },
+  "render_type": "solid"
+}

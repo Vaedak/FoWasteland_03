@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:bos_metal_plating"
+    },
+    "b": {
+      "item": "fallout_wastelands_:bo_s_metal_plating_slab"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:bo_s_metal_roof",
+    "count": 4
+  }
+}

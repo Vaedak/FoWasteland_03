@@ -236,6 +236,9 @@ import net.mcreator.falloutwastelands.block.BoSMetalPlatingSlabBlock;
 import net.mcreator.falloutwastelands.block.BoSGridFloorStairsBlock;
 import net.mcreator.falloutwastelands.block.BoSGridFloorSlabBlock;
 import net.mcreator.falloutwastelands.block.BoSGridFloorBlock;
+import net.mcreator.falloutwastelands.block.BoSDataFrontTopBlock;
+import net.mcreator.falloutwastelands.block.BoSDataFrontMiddleBlock;
+import net.mcreator.falloutwastelands.block.BoSDataFrontBottomBlock;
 import net.mcreator.falloutwastelands.block.BlastedGlassPaneBlock;
 import net.mcreator.falloutwastelands.block.BlastedGlassBlock;
 import net.mcreator.falloutwastelands.block.BlackTilesBlock;
@@ -480,6 +483,9 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> BO_S_STEEL_WALL = REGISTRY.register("bo_s_steel_wall", () -> new BoSSteelWallBlock());
 	public static final RegistryObject<Block> BO_S_TILE = REGISTRY.register("bo_s_tile", () -> new BoSTileBlock());
 	public static final RegistryObject<Block> BOS_METAL_PLATINGCONNECTED = REGISTRY.register("bos_metal_platingconnected", () -> new BosMetalPlatingconnectedBlock());
+	public static final RegistryObject<Block> BO_S_DATA_FRONT_BOTTOM = REGISTRY.register("bo_s_data_front_bottom", () -> new BoSDataFrontBottomBlock());
+	public static final RegistryObject<Block> BO_S_DATA_FRONT_MIDDLE = REGISTRY.register("bo_s_data_front_middle", () -> new BoSDataFrontMiddleBlock());
+	public static final RegistryObject<Block> BO_S_DATA_FRONT_TOP = REGISTRY.register("bo_s_data_front_top", () -> new BoSDataFrontTopBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

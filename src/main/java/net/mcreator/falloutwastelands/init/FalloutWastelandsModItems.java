@@ -18,6 +18,7 @@ import net.mcreator.falloutwastelands.item.WrenchItem;
 import net.mcreator.falloutwastelands.item.WastelandsItem;
 import net.mcreator.falloutwastelands.item.WastelandbrickitemItem;
 import net.mcreator.falloutwastelands.item.VaultHullItem;
+import net.mcreator.falloutwastelands.item.VaccumTubeItem;
 import net.mcreator.falloutwastelands.item.UraniumNuggetItem;
 import net.mcreator.falloutwastelands.item.UraniumIngotItem;
 import net.mcreator.falloutwastelands.item.TireIronItem;
@@ -74,6 +75,7 @@ import net.mcreator.falloutwastelands.item.MotherboardItem;
 import net.mcreator.falloutwastelands.item.MirelurkmeatItem;
 import net.mcreator.falloutwastelands.item.MilitaryHullItem;
 import net.mcreator.falloutwastelands.item.MetalstickItem;
+import net.mcreator.falloutwastelands.item.MacheteItem;
 import net.mcreator.falloutwastelands.item.LeadNuggetItem;
 import net.mcreator.falloutwastelands.item.LeadIngotItem;
 import net.mcreator.falloutwastelands.item.LaserrifleItem;
@@ -108,12 +110,15 @@ import net.mcreator.falloutwastelands.item.ClothItem;
 import net.mcreator.falloutwastelands.item.CigarettepackItem;
 import net.mcreator.falloutwastelands.item.ChinesepistolItem;
 import net.mcreator.falloutwastelands.item.ChicagoOmeletteItem;
+import net.mcreator.falloutwastelands.item.CattleRodItem;
 import net.mcreator.falloutwastelands.item.CannedBeefItem;
 import net.mcreator.falloutwastelands.item.BrotherhoodHullItem;
 import net.mcreator.falloutwastelands.item.BrahimMeatItem;
 import net.mcreator.falloutwastelands.item.BottleCapItem;
 import net.mcreator.falloutwastelands.item.BloatFlyMeatItem;
 import net.mcreator.falloutwastelands.item.BeerItem;
+import net.mcreator.falloutwastelands.item.BaseballClubItem;
+import net.mcreator.falloutwastelands.item.BaseballBatItem;
 import net.mcreator.falloutwastelands.item.BaseGunItemItem;
 import net.mcreator.falloutwastelands.item.BASENameItemItem;
 import net.mcreator.falloutwastelands.item.BASECapBundleItem;
@@ -510,6 +515,14 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> BO_S_STEEL_WALL = block(FalloutWastelandsModBlocks.BO_S_STEEL_WALL);
 	public static final RegistryObject<Item> BO_S_TILE = block(FalloutWastelandsModBlocks.BO_S_TILE);
 	public static final RegistryObject<Item> BOS_METAL_PLATINGCONNECTED = block(FalloutWastelandsModBlocks.BOS_METAL_PLATINGCONNECTED);
+	public static final RegistryObject<Item> VACCUM_TUBE = REGISTRY.register("vaccum_tube", () -> new VaccumTubeItem());
+	public static final RegistryObject<Item> MACHETE = REGISTRY.register("machete", () -> new MacheteItem());
+	public static final RegistryObject<Item> CATTLE_ROD = REGISTRY.register("cattle_rod", () -> new CattleRodItem());
+	public static final RegistryObject<Item> BASEBALL_BAT = REGISTRY.register("baseball_bat", () -> new BaseballBatItem());
+	public static final RegistryObject<Item> BO_S_DATA_FRONT_BOTTOM = block(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_BOTTOM);
+	public static final RegistryObject<Item> BO_S_DATA_FRONT_MIDDLE = block(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_MIDDLE);
+	public static final RegistryObject<Item> BO_S_DATA_FRONT_TOP = block(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_TOP);
+	public static final RegistryObject<Item> BASEBALL_CLUB = REGISTRY.register("baseball_club", () -> new BaseballClubItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

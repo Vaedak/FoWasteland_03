@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:bos_steel_block"
+    },
+    "b": {
+      "item": "fallout_wastelands_:bos_steel_slabs"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:bo_s_steel_wall",
+    "count": 4
+  }
+}

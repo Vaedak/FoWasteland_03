@@ -248,6 +248,9 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_STEEL_WALL.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_TILE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BOS_METAL_PLATINGCONNECTED.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_BOTTOM.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_MIDDLE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_TOP.get().asItem());
 			})
 
 					.build());
@@ -309,6 +312,10 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.T_51B_PA_CHESTPLATE.get());
 				tabData.accept(FalloutWastelandsModItems.T_51B_PA_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.T_51B_PA_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.MACHETE.get());
+				tabData.accept(FalloutWastelandsModItems.CATTLE_ROD.get());
+				tabData.accept(FalloutWastelandsModItems.BASEBALL_BAT.get());
+				tabData.accept(FalloutWastelandsModItems.BASEBALL_CLUB.get());
 			})
 
 					.build());
@@ -391,6 +398,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.MIRELURKMEAT.get());
 				tabData.accept(FalloutWastelandsModItems.NOODLES.get());
 				tabData.accept(FalloutWastelandsModItems.VAULT_HULL.get());
+				tabData.accept(FalloutWastelandsModItems.VACCUM_TUBE.get());
 			})
 
 					.build());

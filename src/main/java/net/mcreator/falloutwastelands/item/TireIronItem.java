@@ -13,7 +13,7 @@ public class TireIronItem extends SwordItem {
 	public TireIronItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 70;
+				return 40;
 			}
 
 			public float getSpeed() {

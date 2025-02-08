@@ -89,7 +89,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:Beer"
+      "value": "CUSTOM:BrahimMeat"
     },
     "livingSound": {
       "value": "entity.cow.ambient"

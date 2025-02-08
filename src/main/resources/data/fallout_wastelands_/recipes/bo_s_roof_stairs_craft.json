@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:bo_s_metal_roof"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:bos_metal_roof_stairs",
+    "count": 4
+  }
+}

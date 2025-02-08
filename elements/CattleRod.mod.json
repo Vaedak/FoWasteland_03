@@ -1,0 +1,45 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "cattleprod",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Cattle Prod",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelandcombat"
+      }
+    ],
+    "efficiency": 6.5,
+    "attackSpeed": 0.8,
+    "enchantability": 0,
+    "damageVsEntity": 2.0,
+    "usageCount": 30,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:Copperwires"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "CattleRodLivingEntityIsHitWithTool"
+    }
+  }
+}
