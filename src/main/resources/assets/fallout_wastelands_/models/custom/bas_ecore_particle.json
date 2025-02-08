@@ -1,5 +1,6 @@
+
 {
-  "parent": "fallout_wastelands_:displaysettings/brf.item",
+  "parent": "fallout_wastelands_:displaysettings/model.animation",
   "textures": {
     "particle": "fallout_wastelands_:block/walkwaytop"
   }
