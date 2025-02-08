@@ -530,13 +530,13 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> BO_S_DATA_FRONT_MIDDLE = block(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_MIDDLE);
 	public static final RegistryObject<Item> BO_S_DATA_FRONT_TOP = block(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_TOP);
 	public static final RegistryObject<Item> BASEBALL_CLUB = REGISTRY.register("baseball_club", () -> new BaseballClubItem());
+	public static final RegistryObject<Item> WINE = REGISTRY.register("wine", () -> new WineItem());
 	public static final RegistryObject<Item> GAMMA_GULP_BEER = REGISTRY.register("gamma_gulp_beer", () -> new GammaGulpBeerItem());
 	public static final RegistryObject<Item> SCOTCH = REGISTRY.register("scotch", () -> new ScotchItem());
-	public static final RegistryObject<Item> WINE = REGISTRY.register("wine", () -> new WineItem());
-	public static final RegistryObject<Item> ROENTGEN_RUM = REGISTRY.register("roentgen_rum", () -> new RoentgenRumItem());
-	public static final RegistryObject<Item> VODKA = REGISTRY.register("vodka", () -> new VodkaItem());
 	public static final RegistryObject<Item> WHISKEY = REGISTRY.register("whiskey", () -> new WhiskeyItem());
+	public static final RegistryObject<Item> ROENTGEN_RUM = REGISTRY.register("roentgen_rum", () -> new RoentgenRumItem());
 	public static final RegistryObject<Item> ABSINTHE = REGISTRY.register("absinthe", () -> new AbsintheItem());
+	public static final RegistryObject<Item> VODKA = REGISTRY.register("vodka", () -> new VodkaItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

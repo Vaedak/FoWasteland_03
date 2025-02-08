@@ -75,7 +75,7 @@ public class BlastmasterRaiderEntity extends Monster implements RangedAttackMob 
 		this.targetSelector.addGoal(8, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(9, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(10, new FloatGoal(this));
-		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 10, 17f) {
+		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 35, 17f) {
 			@Override
 			public boolean canContinueToUse() {
 				return this.canUse();

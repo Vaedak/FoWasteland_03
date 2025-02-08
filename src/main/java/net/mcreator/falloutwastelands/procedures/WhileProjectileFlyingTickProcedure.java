@@ -2,10 +2,11 @@ package net.mcreator.falloutwastelands.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.core.particles.ParticleTypes;
+
+import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
 public class WhileProjectileFlyingTickProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity immediatesourceentity) {
+	public static void execute(LevelAccessor world, Entity immediatesourceentity) {
 		if (immediatesourceentity == null)
 			return;
 		if (immediatesourceentity.getPersistentData().getBoolean("enableGravity") == false) {
@@ -13,13 +14,8 @@ public class WhileProjectileFlyingTickProcedure {
 		} else {
 			immediatesourceentity.setNoGravity(false);
 		}
-		if (200 > immediatesourceentity.getPersistentData().getDouble("enableGravityCounter")) {
-			immediatesourceentity.getPersistentData().putDouble("enableGravityCounter", (immediatesourceentity.getPersistentData().getDouble("enableGravityCounter") + 1));
-		} else {
+		FalloutWastelandsMod.queueServerWork(80, () -> {
 			immediatesourceentity.getPersistentData().putBoolean("enableGravity", true);
-		}
-		if (immediatesourceentity.getPersistentData().getDouble("enableGravityCounter") <= 1) {
-			world.addParticle(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, y, z, 0, 0.07, 0);
-		}
+		});
 	}
 }

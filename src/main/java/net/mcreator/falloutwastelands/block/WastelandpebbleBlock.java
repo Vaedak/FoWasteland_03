@@ -3,6 +3,9 @@ package net.mcreator.falloutwastelands.block;
 
 import net.minecraftforge.common.PlantType;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
@@ -20,6 +23,12 @@ public class WastelandpebbleBlock extends FlowerBlock {
 	public WastelandpebbleBlock() {
 		super(() -> MobEffects.MOVEMENT_SPEED, 100,
 				BlockBehaviour.Properties.of().mapColor(MapColor.STONE).sound(SoundType.DEEPSLATE).instabreak().noCollission().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		Vec3 offset = state.getOffset(world, pos);
+		return box(0, 0, 0, 16, 1, 16).move(offset.x, offset.y, offset.z);
 	}
 
 	@Override

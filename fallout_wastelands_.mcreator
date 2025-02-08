@@ -12447,6 +12447,20 @@
       "path": "~/Items"
     },
     {
+      "name": "Wine",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/wine.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/WineItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
       "name": "GammaGulpBeer",
       "type": "item",
       "compiles": true,
@@ -12475,15 +12489,28 @@
       "path": "~/Items"
     },
     {
-      "name": "Wine",
+      "name": "Foodtier1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foodtier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/chests/foodtier_1.json"
+        ]
+      },
+      "path": "~/loottable"
+    },
+    {
+      "name": "Whiskey",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wine",
+      "registry_name": "whiskey",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/wine.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/WineItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/WhiskeyItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/whiskey.json"
         ]
       },
       "path": "~/Items"
@@ -12503,34 +12530,6 @@
       "path": "~/Items"
     },
     {
-      "name": "Vodka",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vodka",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/vodka.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/VodkaItem.java"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "Whiskey",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "whiskey",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/WhiskeyItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/whiskey.json"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
       "name": "Absinthe",
       "type": "item",
       "compiles": true,
@@ -12545,17 +12544,50 @@
       "path": "~/Items"
     },
     {
-      "name": "Foodtier1",
-      "type": "loottable",
+      "name": "Vodka",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "foodtier_1",
+      "registry_name": "vodka",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/loot_tables/chests/foodtier_1.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/vodka.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/VodkaItem.java"
         ]
       },
-      "path": "~/loottable"
+      "path": "~/Items"
+    },
+    {
+      "name": "BrahminNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brahmin_natural_entity_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BrahminNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [

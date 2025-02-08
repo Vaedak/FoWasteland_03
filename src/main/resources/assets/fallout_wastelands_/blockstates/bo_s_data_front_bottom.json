@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "fallout_wastelands_:block/bo_s_data_front_bottom"
+    },
+    "facing=east": {
+      "model": "fallout_wastelands_:block/bo_s_data_front_bottom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fallout_wastelands_:block/bo_s_data_front_bottom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fallout_wastelands_:block/bo_s_data_front_bottom",
+      "y": 270
     }
   }
 }

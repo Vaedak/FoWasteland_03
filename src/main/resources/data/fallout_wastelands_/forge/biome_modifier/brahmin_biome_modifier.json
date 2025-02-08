@@ -1,6 +1,8 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "fallout_wastelands_:wasteland_plains",
+  "biomes": {
+    "type": "forge:any"
+  },
   "spawners": {
     "type": "fallout_wastelands_:brahmin",
     "weight": 60,

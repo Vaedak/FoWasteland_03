@@ -160,15 +160,14 @@
     ],
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
+    "spawningCondition": {
+      "name": "BrahminNaturalEntitySpawningCondition"
+    },
     "spawningProbability": 60,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 5,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:WastelandPlains"
-      }
-    ],
+    "restrictionBiomes": [],
     "spawnInDungeons": false
   }
 }

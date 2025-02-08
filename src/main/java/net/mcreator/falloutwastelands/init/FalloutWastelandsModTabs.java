@@ -399,13 +399,13 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.NOODLES.get());
 				tabData.accept(FalloutWastelandsModItems.VAULT_HULL.get());
 				tabData.accept(FalloutWastelandsModItems.VACCUM_TUBE.get());
+				tabData.accept(FalloutWastelandsModItems.WINE.get());
 				tabData.accept(FalloutWastelandsModItems.GAMMA_GULP_BEER.get());
 				tabData.accept(FalloutWastelandsModItems.SCOTCH.get());
-				tabData.accept(FalloutWastelandsModItems.WINE.get());
-				tabData.accept(FalloutWastelandsModItems.ROENTGEN_RUM.get());
-				tabData.accept(FalloutWastelandsModItems.VODKA.get());
 				tabData.accept(FalloutWastelandsModItems.WHISKEY.get());
+				tabData.accept(FalloutWastelandsModItems.ROENTGEN_RUM.get());
 				tabData.accept(FalloutWastelandsModItems.ABSINTHE.get());
+				tabData.accept(FalloutWastelandsModItems.VODKA.get());
 			})
 
 					.build());

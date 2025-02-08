@@ -131,7 +131,7 @@
       "value": ""
     },
     "rangedItemType": "BaseGunItemProjectile",
-    "rangedAttackInterval": 10,
+    "rangedAttackInterval": 35,
     "rangedAttackRadius": 17.0,
     "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
