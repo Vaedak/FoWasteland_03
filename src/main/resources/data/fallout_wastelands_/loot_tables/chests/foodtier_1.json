@@ -199,7 +199,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:deleted_mod_element",
+          "name": "fallout_wastelands_:roentgen_rum",
           "weight": 4,
           "functions": [
             {
@@ -213,7 +213,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:deleted_mod_element",
+          "name": "fallout_wastelands_:vodka",
           "weight": 2,
           "functions": [
             {
@@ -227,7 +227,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:deleted_mod_element",
+          "name": "fallout_wastelands_:whiskey",
           "weight": 2,
           "functions": [
             {
@@ -241,7 +241,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:deleted_mod_element",
+          "name": "fallout_wastelands_:absinthe",
           "weight": 1,
           "functions": [
             {

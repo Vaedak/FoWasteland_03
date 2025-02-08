@@ -3,23 +3,23 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "powerarmor_helmet",
+    "textureHelmet": "enclaveofficeruniformcap",
     "enableBody": true,
-    "textureBody": "powerarmorchestpiece",
+    "textureBody": "enclaveofficercoat",
     "enableLeggings": true,
-    "textureLeggings": "powerarmorlegs",
+    "textureLeggings": "enclaveofficerleggings",
     "enableBoots": true,
-    "textureBoots": "powerarmorboots",
+    "textureBoots": "enclaveofficeruniformboots",
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandcombat"
       }
     ],
-    "armorTextureFile": "pa1",
-    "helmetName": "T45 Helmet",
-    "bodyName": "T45 Chestplate",
-    "leggingsName": "T45 Leggings",
-    "bootsName": "T45 Boots",
+    "armorTextureFile": "enclaveofficeruniform",
+    "helmetName": "Enclave Cap",
+    "bodyName": "Enclave Vest",
+    "leggingsName": "Enclave Pants",
+    "bootsName": "Enclave Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -32,19 +32,19 @@
     "bootsSpecialInformation": {
       "fixedValue": []
     },
-    "helmetModelName": "Modeltfourtyfive",
+    "helmetModelName": "Modelenclaveofficeruniform",
     "helmetModelPart": "head",
     "helmetModelTexture": "From armor",
-    "bodyModelName": "Modeltfourtyfive",
-    "bodyModelPart": "body",
+    "bodyModelName": "Modelenclaveofficeruniform",
+    "bodyModelPart": "enclaveofficer",
     "armsModelPartL": "leftarm",
     "armsModelPartR": "rightarm",
     "bodyModelTexture": "From armor",
-    "leggingsModelName": "Modeltfourtyfive",
-    "leggingsModelPartL": "leftleg",
-    "leggingsModelPartR": "rightleg",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
     "leggingsModelTexture": "From armor",
-    "bootsModelName": "Modeltfourtyfive",
+    "bootsModelName": "Modelenclaveofficeruniform",
     "bootsModelPartL": "leftleg",
     "bootsModelPartR": "rightleg",
     "bootsModelTexture": "From armor",
@@ -56,10 +56,10 @@
     "leggingsItemCustomModelName": "Normal",
     "bootsItemRenderType": 0,
     "bootsItemCustomModelName": "Normal",
-    "helmetImmuneToFire": true,
-    "bodyImmuneToFire": true,
-    "leggingsImmuneToFire": true,
-    "bootsImmuneToFire": true,
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
     "helmetGlowCondition": {
       "fixedValue": false
     },
@@ -84,16 +84,16 @@
     "bootsPiglinNeutral": {
       "fixedValue": false
     },
-    "maxDamage": 40,
-    "damageValueHelmet": 6,
-    "damageValueBody": 8,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 4,
-    "enchantability": 10,
-    "toughness": 4.0,
-    "knockbackResistance": 0.2,
+    "maxDamage": 15,
+    "damageValueHelmet": 0,
+    "damageValueBody": 3,
+    "damageValueLeggings": 2,
+    "damageValueBoots": 1,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
     "equipSound": {
-      "value": ""
+      "value": "block.moss_carpet.hit"
     },
     "repairItems": []
   }

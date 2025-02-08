@@ -102,6 +102,7 @@ import net.mcreator.falloutwastelands.item.FivemmminigunItem;
 import net.mcreator.falloutwastelands.item.FivemmAmmoItem;
 import net.mcreator.falloutwastelands.item.FertilizerItem;
 import net.mcreator.falloutwastelands.item.EnergyCellItem;
+import net.mcreator.falloutwastelands.item.EnclaveofficierSuitItem;
 import net.mcreator.falloutwastelands.item.EnclaveHullItem;
 import net.mcreator.falloutwastelands.item.EmptyNukaColaBottleItem;
 import net.mcreator.falloutwastelands.item.EmptyNeutronadeBottleItem;
@@ -537,6 +538,10 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> ROENTGEN_RUM = REGISTRY.register("roentgen_rum", () -> new RoentgenRumItem());
 	public static final RegistryObject<Item> ABSINTHE = REGISTRY.register("absinthe", () -> new AbsintheItem());
 	public static final RegistryObject<Item> VODKA = REGISTRY.register("vodka", () -> new VodkaItem());
+	public static final RegistryObject<Item> ENCLAVEOFFICIER_SUIT_HELMET = REGISTRY.register("enclaveofficier_suit_helmet", () -> new EnclaveofficierSuitItem.Helmet());
+	public static final RegistryObject<Item> ENCLAVEOFFICIER_SUIT_CHESTPLATE = REGISTRY.register("enclaveofficier_suit_chestplate", () -> new EnclaveofficierSuitItem.Chestplate());
+	public static final RegistryObject<Item> ENCLAVEOFFICIER_SUIT_LEGGINGS = REGISTRY.register("enclaveofficier_suit_leggings", () -> new EnclaveofficierSuitItem.Leggings());
+	public static final RegistryObject<Item> ENCLAVEOFFICIER_SUIT_BOOTS = REGISTRY.register("enclaveofficier_suit_boots", () -> new EnclaveofficierSuitItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

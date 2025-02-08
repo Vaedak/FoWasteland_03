@@ -316,6 +316,10 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.CATTLE_ROD.get());
 				tabData.accept(FalloutWastelandsModItems.BASEBALL_BAT.get());
 				tabData.accept(FalloutWastelandsModItems.BASEBALL_CLUB.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVEOFFICIER_SUIT_HELMET.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVEOFFICIER_SUIT_CHESTPLATE.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVEOFFICIER_SUIT_LEGGINGS.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVEOFFICIER_SUIT_BOOTS.get());
 			})
 
 					.build());
