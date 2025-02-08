@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "fallout_wastelands_:deleted_mod_element"
+      "item": "fallout_wastelands_:bo_s_metal_roof"
     }
   },
   "result": {
-    "item": "fallout_wastelands_:deleted_mod_element",
+    "item": "fallout_wastelands_:bos_metal_roof_stairs",
     "count": 4
   }
 }

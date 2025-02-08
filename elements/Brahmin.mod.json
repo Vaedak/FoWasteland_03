@@ -167,11 +167,7 @@
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 5,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:WastelandPlains"
-      }
-    ],
+    "restrictionBiomes": [],
     "spawnInDungeons": false
   }
 }

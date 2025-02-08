@@ -20,7 +20,7 @@ public class RipperSawAttackProcedure {
 			return;
 		if (entity.getPersistentData().getBoolean("RipperSaw") == true) {
 			if (entity.onGround() && entity.isInWater() == false) {
-				entity.push((Math.sin(Math.toRadians(entity.getYRot() + 180)) * 0.05), 0, (Math.cos(Math.toRadians(entity.getYRot())) * 0.05));
+				entity.push((Math.sin(Math.toRadians(entity.getYRot() + 180)) * 0.1), 0, (Math.cos(Math.toRadians(entity.getYRot())) * 0.1));
 			}
 			{
 				Entity _shootFrom = entity;

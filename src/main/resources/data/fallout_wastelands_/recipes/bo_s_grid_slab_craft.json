@@ -6,11 +6,11 @@
   ],
   "key": {
     "a": {
-      "item": "fallout_wastelands_:deleted_mod_element"
+      "item": "fallout_wastelands_:bo_s_grid_floor"
     }
   },
   "result": {
-    "item": "fallout_wastelands_:deleted_mod_element",
+    "item": "fallout_wastelands_:bo_s_grid_floor_slab",
     "count": 6
   }
 }

@@ -48,9 +48,9 @@ public class ChinesePistolShootProcedure {
 					}
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fallout_wastelands_:nailpistolshot")), SoundSource.NEUTRAL, (float) 0.5, 1);
+							_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fallout_wastelands_:ninemmshot")), SoundSource.NEUTRAL, (float) 0.5, 1);
 						} else {
-							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fallout_wastelands_:nailpistolshot")), SoundSource.NEUTRAL, (float) 0.5, 1, false);
+							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fallout_wastelands_:ninemmshot")), SoundSource.NEUTRAL, (float) 0.5, 1, false);
 						}
 					}
 					{
