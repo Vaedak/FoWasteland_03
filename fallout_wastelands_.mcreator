@@ -12586,9 +12586,6 @@
       "CUSTOM:PowerArmorFrameArmor.legs",
       "CUSTOM:T51bPA.legs"
     ],
-    "BLOCKS:minecraft:sand": [
-      "CUSTOM:WasteSand"
-    ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
       "CUSTOM:Ninemmpistol",
@@ -12600,6 +12597,10 @@
       "CUSTOM:Chinesepistol",
       "CUSTOM:Fivemmminigun"
     ],
+    "BLOCKS:minecraft:sand": [
+      "CUSTOM:WasteSand"
+    ],
+    "BIOMES:minecraft:is_ocean": [],
     "ITEMS:minecraft:wooden_stairs": [
       "CUSTOM:Molder_WoodStairs"
     ],
@@ -12608,6 +12609,7 @@
       "CUSTOM:PowerArmorFrameArmor.boots",
       "CUSTOM:T51bPA.boots"
     ],
+    "BLOCKS:minecraft:logs": [],
     "ITEMS:minecraft:logs": [
       "CUSTOM:Molder_WoodWood",
       "CUSTOM:Molder_WoodLog"
@@ -12709,6 +12711,7 @@
       "~CUSTOM:Wastelandcopperore",
       "~CUSTOM:Wastelandcoalore"
     ],
+    "BIOMES:minecraft:is_mountain": [],
     "ITEMS:minecraft:shears": [
       "CUSTOM:Ripper"
     ],
@@ -12874,6 +12877,7 @@
       "~CUSTOM:Industrialhammer",
       "~CUSTOM:Industrialshovel"
     ],
+    "BIOMES:minecraft:is_hill": [],
     "ITEMS:minecraft:wooden_pressure_plates": [
       "CUSTOM:Molder_WoodPressurePlate"
     ],
@@ -12886,6 +12890,8 @@
       "~CUSTOM:WastelandDirt",
       "~CUSTOM:WastelandStone"
     ],
+    "BIOMES:minecraft:is_overworld": [],
+    "BLOCKS:minecraft:dirt": [],
     "ITEMS:minecraft:stone_tool_materials": [
       "CUSTOM:WastelandCobblestone"
     ],
@@ -13127,6 +13133,7 @@
       "~CUSTOM:Wastelandgrassblock",
       "~CUSTOM:WastelandDirt"
     ],
+    "BIOMES:minecraft:is_forest": [],
     "ITEMS:minecraft:wooden_doors": [
       "CUSTOM:MolderWoodDoor",
       "CUSTOM:Hangardoor"
@@ -13152,6 +13159,9 @@
       "CUSTOM:BosSteelSlabs",
       "CUSTOM:MilitaryPlatingSlab",
       "CUSTOM:CharredMolderSlab"
+    ],
+    "BLOCKS:minecraft:animals_spawnable_on": [
+      "CUSTOM:Wastelandgrassblock"
     ],
     "ITEMS:minecraft:wooden_buttons": [
       "CUSTOM:Molder_WoodButton"
