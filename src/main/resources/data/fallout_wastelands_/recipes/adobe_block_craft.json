@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:waste_sand"
+    },
+    "b": {
+      "item": "fallout_wastelands_:wastelandgravel"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:adobe_block",
+    "count": 4
+  }
+}

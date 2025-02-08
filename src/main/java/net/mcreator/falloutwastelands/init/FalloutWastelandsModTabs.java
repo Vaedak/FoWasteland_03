@@ -93,7 +93,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.BLASTED_GLASS_PANE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BURNISHED_GLASS_PANE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDTILES.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.BAS_ECORE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MILITARY_METAL_PLATE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MILITARY_METAL_DOOR.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MILITARY_METALWINDOW.get().asItem());
@@ -251,6 +250,11 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_BOTTOM.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_MIDDLE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_TOP.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ADOBE_BLOCK.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ADOBE_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ADOBE_BLOCK_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ADOBE_BLOCK_WALL.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_SAND_STONE.get().asItem());
 			})
 
 					.build());

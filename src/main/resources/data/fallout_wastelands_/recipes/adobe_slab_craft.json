@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:adobe_block"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:adobe_block_slab",
+    "count": 6
+  }
+}

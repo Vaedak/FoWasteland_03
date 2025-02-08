@@ -542,6 +542,11 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> ENCLAVEOFFICIER_SUIT_CHESTPLATE = REGISTRY.register("enclaveofficier_suit_chestplate", () -> new EnclaveofficierSuitItem.Chestplate());
 	public static final RegistryObject<Item> ENCLAVEOFFICIER_SUIT_LEGGINGS = REGISTRY.register("enclaveofficier_suit_leggings", () -> new EnclaveofficierSuitItem.Leggings());
 	public static final RegistryObject<Item> ENCLAVEOFFICIER_SUIT_BOOTS = REGISTRY.register("enclaveofficier_suit_boots", () -> new EnclaveofficierSuitItem.Boots());
+	public static final RegistryObject<Item> ADOBE_BLOCK = block(FalloutWastelandsModBlocks.ADOBE_BLOCK);
+	public static final RegistryObject<Item> ADOBE_STAIRS = block(FalloutWastelandsModBlocks.ADOBE_STAIRS);
+	public static final RegistryObject<Item> ADOBE_BLOCK_SLAB = block(FalloutWastelandsModBlocks.ADOBE_BLOCK_SLAB);
+	public static final RegistryObject<Item> ADOBE_BLOCK_WALL = block(FalloutWastelandsModBlocks.ADOBE_BLOCK_WALL);
+	public static final RegistryObject<Item> WASTELAND_SAND_STONE = block(FalloutWastelandsModBlocks.WASTELAND_SAND_STONE);
 
 	// Start of user code block custom items
 	// End of user code block custom items
