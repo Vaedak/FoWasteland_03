@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "fallout_wastelands_:block/bosmetalplating",
-    "up": "fallout_wastelands_:block/bosmetalplatingtoplight",
-    "north": "fallout_wastelands_:block/bosmetalplatingtop",
-    "east": "fallout_wastelands_:block/bosmetalplatingtop",
-    "south": "fallout_wastelands_:block/bosmetalplatingtop",
-    "west": "fallout_wastelands_:block/bosmetalplatingtop",
-    "particle": "fallout_wastelands_:block/bosmetalplating"
+    "down": "fallout_wastelands_:block/bosmetalwall",
+    "up": "fallout_wastelands_:block/bosmetalwall",
+    "north": "fallout_wastelands_:block/boswallpipelight",
+    "east": "fallout_wastelands_:block/boswallpipelight",
+    "south": "fallout_wastelands_:block/boswallpipelight",
+    "west": "fallout_wastelands_:block/boswallpipelight",
+    "particle": "fallout_wastelands_:block/bosmetalwall"
   },
   "render_type": "solid"
 }

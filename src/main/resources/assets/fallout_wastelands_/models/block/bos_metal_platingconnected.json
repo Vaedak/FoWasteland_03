@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/bosmetalwall",
+    "up": "fallout_wastelands_:block/bosmetalwall",
+    "north": "fallout_wastelands_:block/boswallpipe2",
+    "east": "fallout_wastelands_:block/boswallpipe2",
+    "south": "fallout_wastelands_:block/boswallpipe2",
+    "west": "fallout_wastelands_:block/boswallpipe2",
+    "particle": "fallout_wastelands_:block/bosmetalwall"
+  },
+  "render_type": "solid"
+}

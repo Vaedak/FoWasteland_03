@@ -7729,6 +7729,7 @@
       "registry_name": "base_gun_item_projectile",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BaseGunItemProjectileRenderer.java",
           "src/main/java/net/mcreator/falloutwastelands/entity/BaseGunItemProjectileEntity.java"
         ]
       },
@@ -11634,15 +11635,15 @@
       "registry_name": "yukaplant",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/block/yukaplant.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/yukaplant.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/YukaplantBlock.java",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/yukaplant.json",
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/yukaplant_biome_modifier.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/yukaplant.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/yukaplant_bottom.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/YukaplantBlock.java",
           "src/main/resources/assets/fallout_wastelands_/blockstates/yukaplant.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/yukaplant.json"
+          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/yukaplant.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/yukaplant.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/yukaplant.json",
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/yukaplant_biome_modifier.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/yukaplant.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/yukaplant.json"
         ]
       },
       "path": "~/Plants"
@@ -11669,11 +11670,11 @@
       "registry_name": "wasteland_road_yellow",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_road_yellow.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_yellow.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_road_yellow.json",
           "src/main/java/net/mcreator/falloutwastelands/block/WastelandRoadYellowBlock.java",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/wasteland_road_yellow.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_yellow.json"
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_yellow.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/wasteland_road_yellow.json"
         ]
       },
       "path": "~/Blocks"
@@ -11687,11 +11688,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_0.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant0Block.java",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_0.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_0_bottom.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_0.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_0.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_0.json"
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_0.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant0Block.java"
         ]
       },
       "path": "~/Plants"
@@ -11704,12 +11705,12 @@
       "registry_name": "tatoplant_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant2Block.java",
-          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_2.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_2_bottom.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_2.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_2.json",
           "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_2.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_2.json"
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_2_bottom.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_2.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant2Block.java"
         ]
       },
       "path": "~/Plants"
@@ -11722,12 +11723,12 @@
       "registry_name": "tatoplant_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_1.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_1.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_1_bottom.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant1Block.java",
           "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_1.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_1.json"
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_1_bottom.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_1.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_1.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_1.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant1Block.java"
         ]
       },
       "path": "~/Plants"
@@ -11771,13 +11772,13 @@
       "registry_name": "wasteland_road_yellow_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/block/WastelandRoadYellowSlabBlock.java",
-          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_yellow_slab_top.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_yellow_slab.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_yellow_slab.json",
           "src/main/resources/assets/fallout_wastelands_/blockstates/wasteland_road_yellow_slab.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_yellow_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_yellow_slab_top.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_road_yellow_slab.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_yellow_slab_full.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_road_yellow_slab.json"
+          "src/main/java/net/mcreator/falloutwastelands/block/WastelandRoadYellowSlabBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_yellow_slab.json"
         ]
       },
       "path": "~/Blocks"
@@ -11791,10 +11792,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/entity/model/BrahminModel.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/brahmin_spawn_egg.json",
-          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BrahminRenderer.java",
           "src/main/java/net/mcreator/falloutwastelands/entity/BrahminEntity.java",
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/brahmin_biome_modifier.json"
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BrahminRenderer.java",
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/brahmin_biome_modifier.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/brahmin_spawn_egg.json"
         ]
       },
       "path": "~/Entity"
@@ -11808,10 +11809,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_4.json",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_4.json",
           "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant4Block.java",
-          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_4_bottom.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_4.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_4.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_4_bottom.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_4.json"
         ]
       },
@@ -11825,12 +11826,12 @@
       "registry_name": "tatoplant_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_3.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_3.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_3.json",
           "src/main/java/net/mcreator/falloutwastelands/block/Tatoplant3Block.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/tatoplant_3.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/tatoplant_3_bottom.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_3.json"
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/tatoplant_3.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/tatoplant_3.json"
         ]
       },
       "path": "~/Plants"
@@ -11894,10 +11895,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_white.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/WastelandRoadWhiteBlock.java",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_white.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_road_white.json",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/wasteland_road_white.json"
+          "src/main/resources/assets/fallout_wastelands_/blockstates/wasteland_road_white.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/WastelandRoadWhiteBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_white.json"
         ]
       },
       "path": "~/Blocks"
@@ -11910,13 +11911,13 @@
       "registry_name": "wasteland_road_white_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_road_white_slab.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_white_slab_full.json",
           "src/main/java/net/mcreator/falloutwastelands/block/WastelandRoadWhiteSlabBlock.java",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_white_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_road_white_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_white_slab_top.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_white_slab.json",
           "src/main/resources/assets/fallout_wastelands_/blockstates/wasteland_road_white_slab.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_white_slab_top.json"
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_road_white_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_road_white_slab_full.json"
         ]
       },
       "path": "~/Blocks"
@@ -11936,20 +11937,218 @@
       "path": "~/Items"
     },
     {
-      "name": "TestWeapon",
-      "type": "animateditem",
+      "name": "RoadLeather",
+      "type": "armor",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test_weapon",
+      "registry_name": "road_leather",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/model/TestWeaponItemModel.java",
-          "src/main/java/net/mcreator/falloutwastelands/item/renderer/TestWeaponItemRenderer.java",
-          "src/main/java/net/mcreator/falloutwastelands/item/TestWeaponItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/test_weapon.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/road_leather_helmet.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/road_leather_boots.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/RoadLeatherItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/road_leather_leggings.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/road_leather_chestplate.json"
         ]
       },
-      "path": "~/Weapons"
+      "path": "~/Armors"
+    },
+    {
+      "name": "T51bPA",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_51b_pa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/T51bPAItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/t_51b_pa_leggings.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/t_51b_pa_boots.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/t_51b_pa_chestplate.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/t_51b_pa_helmet.json"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "BosDoor2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bos_door_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/bos_door_2.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/BosDoor2Block.java",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/bos_door_2.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_door_2_top_left_open.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_door_2_top_left.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/bos_door_2.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_door_2_top_right.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_door_2_top_right_open.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_door_2_bottom_right_open.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_door_2_bottom_left.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_door_2_bottom_right.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_door_2_bottom_left_open.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VaultHull",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_hull",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/VaultHullItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_hull.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "BoSGridFloor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_s_grid_floor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/bo_s_grid_floor.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/BoSGridFloorBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_grid_floor.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/bo_s_grid_floor.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/bo_s_grid_floor.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BoSGridFloorStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_s_grid_floor_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_grid_floor_stairs_outer.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_grid_floor_stairs.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/BoSGridFloorStairsBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/bo_s_grid_floor_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_grid_floor_stairs_inner.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/bo_s_grid_floor_stairs.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/bo_s_grid_floor_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BoSGridFloorSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_s_grid_floor_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/bo_s_grid_floor_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/bo_s_grid_floor_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_grid_floor_slab_full.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/BoSGridFloorSlabBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/bo_s_grid_floor_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_grid_floor_slab_top.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_grid_floor_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BoSMetalRoof",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_s_metal_roof",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/BoSMetalRoofBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/bo_s_metal_roof.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_metal_roof.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/bo_s_metal_roof.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/bo_s_metal_roof.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BosMetalRoofStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bos_metal_roof_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/bos_metal_roof_stairs.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/BosMetalRoofStairsBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_metal_roof_stairs_inner.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/bos_metal_roof_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/bos_metal_roof_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_metal_roof_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_metal_roof_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BoSSteelWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_s_steel_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/bo_s_steel_wall.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/bo_s_steel_wall.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/BoSSteelWallBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_steel_wall.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/bo_s_steel_wall.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BoSTile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_s_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/bo_s_tile.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bo_s_tile.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/bo_s_tile.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/BoSTileBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/bo_s_tile.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BosMetalPlatingconnected",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bos_metal_platingconnected",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/bos_metal_platingconnected.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/bos_metal_platingconnected.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/bos_metal_platingconnected.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/BosMetalPlatingconnectedBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/bos_metal_platingconnected.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -12080,15 +12279,16 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -12106,7 +12306,8 @@
     ],
     "ITEMS:mod:pa_boots": [
       "CUSTOM:T45PA.boots",
-      "CUSTOM:PowerArmorFrameArmor.boots"
+      "CUSTOM:PowerArmorFrameArmor.boots",
+      "CUSTOM:T51bPA.boots"
     ],
     "ITEMS:minecraft:logs": [
       "CUSTOM:Molder_WoodWood",
@@ -12116,6 +12317,7 @@
       "CUSTOM:MolderWoodTrapdoor"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:BoSGridFloorSlab",
       "~CUSTOM:WastelandRoadWhiteSlab",
       "~CUSTOM:WastelandRoadYellowSlab",
       "~CUSTOM:IndustrialAlloyStructureslab",
@@ -12141,7 +12343,8 @@
       "~CUSTOM:SlabWastelandCobblestone"
     ],
     "ITEMS:mod:pa_chestplate": [
-      "CUSTOM:T45PA.body"
+      "CUSTOM:T45PA.body",
+      "CUSTOM:T51bPA.body"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:WornMetalDecorationstairs",
@@ -12214,6 +12417,8 @@
       "~CUSTOM:Hachet"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:BosMetalRoofStairs",
+      "~CUSTOM:BoSGridFloorStairs",
       "~CUSTOM:WornMetalDecorationstairs",
       "~CUSTOM:Militaryplatingstairs",
       "~CUSTOM:WastelandBricksStairs",
@@ -12285,6 +12490,15 @@
       "Blocks.STONECUTTER"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:BosMetalPlatingconnected",
+      "~CUSTOM:BoSTile",
+      "~CUSTOM:BoSSteelWall",
+      "~CUSTOM:BosMetalRoofStairs",
+      "~CUSTOM:BoSMetalRoof",
+      "~CUSTOM:BoSGridFloorSlab",
+      "~CUSTOM:BoSGridFloorStairs",
+      "~CUSTOM:BoSGridFloor",
+      "~CUSTOM:BosDoor2",
       "~CUSTOM:IndustrialAlloyVent",
       "~CUSTOM:IndustrialAlloyStructureslab",
       "~CUSTOM:IndustrialAlloystructure",
@@ -12370,6 +12584,15 @@
       "CUSTOM:WastelandCobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BosMetalPlatingconnected",
+      "~CUSTOM:BoSTile",
+      "~CUSTOM:BoSSteelWall",
+      "~CUSTOM:BosMetalRoofStairs",
+      "~CUSTOM:BoSMetalRoof",
+      "~CUSTOM:BoSGridFloorSlab",
+      "~CUSTOM:BoSGridFloorStairs",
+      "~CUSTOM:BoSGridFloor",
+      "~CUSTOM:BosDoor2",
       "~CUSTOM:WastelandRoadWhiteSlab",
       "~CUSTOM:WastelandRoadWhite",
       "~CUSTOM:WastelandRoadYellowSlab",
@@ -12625,13 +12848,15 @@
       "CUSTOM:Molder_WoodButton"
     ],
     "ITEMS:mod:pa_helmet": [
-      "CUSTOM:T45PA.helmet"
+      "CUSTOM:T45PA.helmet",
+      "CUSTOM:T51bPA.helmet"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.fallout_wastelands_.tenmmpistol": "10mm Pistol",
+      "block.fallout_wastelands_.bo_s_tile": "Bos Tile",
       "block.fallout_wastelands_.linedconcrete": "Concrete",
       "item.fallout_wastelands_.brahim_meat": "Brahim Meat",
       "block.fallout_wastelands_.metal_shelf": "Metal Shelf",
@@ -12643,8 +12868,8 @@
       "block.fallout_wastelands_.tire_stack": "Tire Stack",
       "gui.fallout_wastelands_.base_menu_ui.label_inventory": "Inventory",
       "entity.fallout_wastelands_.raiderscavanger": "Raider Scavanger",
-      "item.fallout_wastelands_.wrench": "Wrench",
       "block.fallout_wastelands_.wastelandshortburntgrass": "Wasteland Short Burnt Grass",
+      "item.fallout_wastelands_.wrench": "Wrench",
       "block.fallout_wastelands_.wasteland_goldore": "Wasteland Gold Ore",
       "item.fallout_wastelands_.laserrifle": "Laser Rifle",
       "item.fallout_wastelands_.dented_can": "Dented Can",
@@ -12663,17 +12888,18 @@
       "item.fallout_wastelands_.industrialhammer": "Sledgehammer",
       "item.fallout_wastelands_.pa_display_entity_spawn_egg": "PA Display Entity Spawn Egg",
       "gui.fallout_wastelands_.base_menu_ui.label_varlocalvar": "DisplaysInputName",
+      "block.fallout_wastelands_.bos_metal_roof_stairs": "Bos Metal Roof Stairs",
       "block.fallout_wastelands_.worn_metal_pillar": "Worn Metal Pillar",
       "item.fallout_wastelands_.gecko_coocked_egg": "Gecko Coocked Egg",
       "item.fallout_wastelands_.wastelandbrickitem": "Wasteland Brick",
-      "block.fallout_wastelands_.molder_wood_log": "Molder Wood Log",
       "item.fallout_wastelands_.corn": "Corn",
+      "block.fallout_wastelands_.molder_wood_log": "Molder Wood Log",
       "biome.fallout_wastelands_.wasteland_dryland": "Wasteland Dryland",
       "block.fallout_wastelands_.enclave_bunker_block": "Enclave Bunker Block",
-      "block.fallout_wastelands_.aluminum_block": "Aluminum Block",
       "block.fallout_wastelands_.vault_floor": "Vault Floor",
-      "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
+      "block.fallout_wastelands_.aluminum_block": "Aluminum Block",
       "item.fallout_wastelands_.mug": "Mug",
+      "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
       "block.fallout_wastelands_.steel_bars": "Steel Bars",
       "block.fallout_wastelands_.wasteland_road_white_slab": "White Wasteland Asphalt Slab",
       "item.fallout_wastelands_.raiderbasher_helmet": "Raider Basher Helmet",
@@ -12685,15 +12911,17 @@
       "block.fallout_wastelands_.industrial_plating": "Industrial Plating",
       "block.fallout_wastelands_.horizontallinedconcrete": "Concrete",
       "item.fallout_wastelands_.test_weapon": "Test Weapon",
-      "block.fallout_wastelands_.hardconcrete": "Hard Concrete Block",
       "item.fallout_wastelands_.gecko_egg": "Gecko Egg",
+      "block.fallout_wastelands_.hardconcrete": "Hard Concrete Block",
       "item.fallout_wastelands_.raiderblastmaster_helmet": "Raider Blastmaster Helmet",
       "item.fallout_wastelands_.blastmaster_raider_spawn_egg": "Raider Blastmaster Spawn Egg",
+      "item.fallout_wastelands_.road_leather_boots": "Road Leather Boots",
       "block.fallout_wastelands_.military_plating_walkway": "Military Plating Walkway",
       "block.fallout_wastelands_.slab_wasteland_cobblestone": "Wasteland Cobblestone Slab",
       "block.fallout_wastelands_.wirefence": "Wire Fence",
       "item.fallout_wastelands_.brahmin_spawn_egg": "Brahmin Spawn Egg",
       "block.fallout_wastelands_.bos_metal_plating_lighted": "Bos Lighted Plating",
+      "block.fallout_wastelands_.bo_s_grid_floor_stairs": "Bos Grid Floor Stairs",
       "block.fallout_wastelands_.red_painted_planks": "Red Painted Planks",
       "block.fallout_wastelands_.wasteland_broken_glass": "Broken Glass",
       "block.fallout_wastelands_.ammo_box": "Ammo Box",
@@ -12702,8 +12930,10 @@
       "item.fallout_wastelands_.tire_iron": "Tire Iron",
       "item.fallout_wastelands_.human_brain": "Human Brain",
       "block.fallout_wastelands_.industrial_alloy_plain": "Industrial Alloy",
+      "block.fallout_wastelands_.bo_s_grid_floor": "Bos Grid Floor",
       "block.fallout_wastelands_.fridge": "Fridge",
       "block.fallout_wastelands_.industrial_walkwaystairs": "Industrial Alloy Stairs",
+      "item.fallout_wastelands_.t_51b_pa_helmet": "T51b Helmet",
       "item.fallout_wastelands_.cloth": "Cloth",
       "item.fallout_wastelands_.ripper_projectile": "Ripper Projectile",
       "item.fallout_wastelands_.base_gun_item": "Base Gun Item",
@@ -12715,8 +12945,8 @@
       "subtitles.nailpistolshot": "",
       "block.fallout_wastelands_.vault_wall_curved": "Curved Vault Wall",
       "block.fallout_wastelands_.bos_steel_slabs": "Bos Metal Slab",
-      "item.fallout_wastelands_.raw_aluminum": "Raw Aluminum",
       "block.fallout_wastelands_.bos_steel_block": "Bos Metal Plating",
+      "item.fallout_wastelands_.raw_aluminum": "Raw Aluminum",
       "item.fallout_wastelands_.energy_cell": "Microfusion Cell",
       "item.fallout_wastelands_.power_armor_frame_armor_helmet": "Power Armor Frame",
       "gui.fallout_wastelands_.base_menu_ui.NameInput": "Name",
@@ -12728,15 +12958,16 @@
       "block.fallout_wastelands_.charred_molder_fence": "Charred Molder Fence",
       "item.fallout_wastelands_.antiradsuit_boots": "Anti-Rad Suit Boots",
       "gui.fallout_wastelands_.locker_storage.label_locker": "Locker",
+      "item.fallout_wastelands_.vault_hull": "Vault Hull",
       "block.fallout_wastelands_.wastelandtilesslab": "Wasteland Tiles",
       "block.fallout_wastelands_.tin_ore": "Tin Ore",
       "block.fallout_wastelands_.grey_industrial_alloy_stair": "Grey Industrial Alloy Stair",
       "block.fallout_wastelands_.molder_wood_planks": "Molder Wood Planks",
       "block.fallout_wastelands_.wastelandgrassbush": "Wasteland Bush",
       "block.fallout_wastelands_.television": "Television",
-      "block.fallout_wastelands_.roof_metal": "Roof Sheet Metal Block",
-      "item.fallout_wastelands_.nail": "Nail",
       "block.fallout_wastelands_.grey_industrial_allowmidrivet": "Industrial Alloy (mid rivet)",
+      "item.fallout_wastelands_.nail": "Nail",
+      "block.fallout_wastelands_.roof_metal": "Roof Sheet Metal Block",
       "block.fallout_wastelands_.wasteland_brickslab": "Wasteland Brick Slab",
       "item.fallout_wastelands_.motherboard": "Motherboard",
       "item.fallout_wastelands_.fivemm_ammo": "5mm Ammo",
@@ -12767,6 +12998,7 @@
       "item.fallout_wastelands_.pipboy": "Pip-Boy 2500",
       "block.fallout_wastelands_.wasteland_road_yellow_slab": "Yellow Wasteland Asphalt Slab",
       "block.fallout_wastelands_.wasteland_concrete_slab": "Concrete Slab",
+      "item.fallout_wastelands_.road_leather_chestplate": "Road Leather Chestplate",
       "block.fallout_wastelands_.charred_molder_wood_plank": "Charred Molder Planks",
       "block.fallout_wastelands_.tatoplant_3": "Tato Plant",
       "block.fallout_wastelands_.medical_box": "Medical Stash",
@@ -12774,8 +13006,8 @@
       "block.fallout_wastelands_.tatoplant_4": "Tato Plant",
       "block.fallout_wastelands_.wasteland_road_white": "White Wasteland Asphalt",
       "block.fallout_wastelands_.tatoplant_1": "Tato Plant",
-      "item.fallout_wastelands_.uranium_ingot": "Uranium Ingot",
       "block.fallout_wastelands_.tatoplant_0": "Tato Plant",
+      "item.fallout_wastelands_.uranium_ingot": "Uranium Ingot",
       "item_group.fallout_wastelands_.wastelandcombat": "Wastelands Combat",
       "block.fallout_wastelands_.molder_wood_pressure_plate": "Molder Pressure Plate",
       "item.fallout_wastelands_.ninemmpistol": "9mm Pistol",
@@ -12848,9 +13080,11 @@
       "block.fallout_wastelands_.gore": "Gore",
       "block.fallout_wastelands_.mixer": "Mixer",
       "block.fallout_wastelands_.plaster": "Plaster",
+      "block.fallout_wastelands_.bo_s_metal_roof": "Bos Metal Roof",
       "item.fallout_wastelands_.raider_dustwalker_spawn_egg": "Raider Dustwalker Spawn Egg",
       "block.fallout_wastelands_.uranium_ore": "Uranium Ore",
       "block.fallout_wastelands_.vault_wall": "Vault Wall",
+      "block.fallout_wastelands_.bo_s_grid_floor_slab": "Bos Grid Floor Slab",
       "subtitles.pistol32firing": "",
       "block.fallout_wastelands_.rusted_sheet_metal_wall": "Rusted Sheet Metal Wall",
       "subtitles.the_glow": "",
@@ -12871,6 +13105,7 @@
       "block.fallout_wastelands_.worn_metal_decoration": "Worn Metal Decoration",
       "item.fallout_wastelands_.abraxo_cleaner": "Abraxo Cleaner",
       "block.fallout_wastelands_.wastelanddiamondore": "Wasteland Diamond Ore",
+      "item.fallout_wastelands_.t_51b_pa_boots": "T51b Boots",
       "item.fallout_wastelands_.combatarmor_chestplate": "Combat Armor Chestplate",
       "entity.fallout_wastelands_.cannibal_00": "Cannibal",
       "block.fallout_wastelands_.barricadeplanks": "Barricade Planks",
@@ -12896,6 +13131,7 @@
       "block.fallout_wastelands_.rust_block": "Rust Block",
       "item.fallout_wastelands_.t_45_pa_leggings": "T45 Leggings",
       "item.fallout_wastelands_.tato": "Tato",
+      "block.fallout_wastelands_.bos_door_2": "Bos Door",
       "block.fallout_wastelands_.molder_wood_trapdoor": "Molder TrapDoor",
       "block.fallout_wastelands_.wastelandgravel": "Wasteland Gravel",
       "block.fallout_wastelands_.yukaplant": "Yuka Tree",
@@ -12923,6 +13159,7 @@
       "item.fallout_wastelands_.nuka_cola_quantum": "Nuka Cola Quantum",
       "item.fallout_wastelands_.raw_tin": "Raw Tin",
       "item.fallout_wastelands_.power_armor_frame_spawn_egg": "Power Armor Frame Spawn Egg",
+      "item.fallout_wastelands_.t_51b_pa_leggings": "T51b Leggings",
       "block.fallout_wastelands_.rockydirt": "Wasteland Rocky Dirt",
       "item.fallout_wastelands_.raiderblastmaster_chestplate": "Raider Blastmaster Chestplate",
       "block.fallout_wastelands_.military_metal_hazard": "Military Plating (hazard)",
@@ -12978,6 +13215,7 @@
       "item.fallout_wastelands_.smallcalibercasing": "Small Caliber Casing",
       "item.fallout_wastelands_.fivemmminigun": "5mm Minigun",
       "block.fallout_wastelands_.industrial_allow_mid_rivet": "Industrial Alloy (mid rivet)",
+      "item.fallout_wastelands_.t_51b_pa_chestplate": "T51b Chestplate",
       "block.fallout_wastelands_.molten_steel": "Melted Steel Block",
       "block.fallout_wastelands_.blasted_glass_pane": "Blasted Glass Pane",
       "gui.fallout_wastelands_.base_inventory.label_note_to_make_the_white_ui_disap": "Note: to make the white ui disappear you must set it",
@@ -13002,12 +13240,14 @@
       "item.fallout_wastelands_.combatarmor_leggings": "Combat Armor Leggings",
       "item.fallout_wastelands_.raiderblastmaster_leggings": "Raider Blastmaster Loincloth",
       "block.fallout_wastelands_.exposed_rust_block": "Exposed Rust Block",
+      "item.fallout_wastelands_.road_leather_leggings": "Road Leather Pants",
       "block.fallout_wastelands_.grey_industrial_alloybottomrivet": "Industrial Alloy (bottom rivet)",
       "block.fallout_wastelands_.bos_metal_plating": "Bos Metal Plating",
       "item.fallout_wastelands_.hachet": "Hachet",
       "block.fallout_wastelands_.light_tube": "Light Tube",
       "block.fallout_wastelands_.wasteland_brick_wall": "Wasteland Stone",
       "item.fallout_wastelands_.nuka_cola": "Nuka Cola",
+      "item.fallout_wastelands_.road_leather_helmet": "Sunglasses",
       "gui.fallout_wastelands_.base_inventory.label_inventory": "Inventory",
       "block.fallout_wastelands_.concrete_tile": "Concrete Tile",
       "block.fallout_wastelands_.bos_door": "Bos Door",
@@ -13025,6 +13265,7 @@
       "block.fallout_wastelands_.ruins_base": "Rusted Vault Ruins Block (base)",
       "block.fallout_wastelands_.melted_iron_block": "Melted Iron Block",
       "block.fallout_wastelands_.sheetmetalstairs": "Sheet Metal Stairs",
+      "block.fallout_wastelands_.bo_s_steel_wall": "Bos Steel Wall",
       "gui.fallout_wastelands_.base_menu_ui.label_d": " use an image with the texts and use button images",
       "item.fallout_wastelands_.raiderblastmaster_boots": "Raider Blastmaster Sandals",
       "block.fallout_wastelands_.grey_industrial_alloy_slab": "Industrial Alloy Slab",
@@ -13040,7 +13281,8 @@
       "item.fallout_wastelands_.noodles": "Noodle",
       "block.fallout_wastelands_.wastelandemeraldore": "Wasteland Emerald Ore",
       "item.fallout_wastelands_.motor": "Motor",
-      "item.fallout_wastelands_.cigarettepack": "Cigarette Pack"
+      "item.fallout_wastelands_.cigarettepack": "Cigarette Pack",
+      "block.fallout_wastelands_.bos_metal_platingconnected": "Bos Metal Plating"
     }
   },
   "foldersRoot": {

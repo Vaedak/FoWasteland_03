@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/bosgridfloor",
+    "up": "fallout_wastelands_:block/bosgridfloor",
+    "north": "fallout_wastelands_:block/bosgridfloor",
+    "east": "fallout_wastelands_:block/bosgridfloor",
+    "south": "fallout_wastelands_:block/bosgridfloor",
+    "west": "fallout_wastelands_:block/bosgridfloor",
+    "particle": "fallout_wastelands_:block/bosgridfloor"
+  },
+  "render_type": "solid"
+}

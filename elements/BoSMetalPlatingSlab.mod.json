@@ -2,10 +2,10 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "bosmetalplating",
-    "textureTop": "bosmetalplatingtop",
+    "texture": "bosmetalwall",
+    "textureTop": "bosmetalwall",
     "textureLeft": "bosmetalplatingside",
-    "textureFront": "bosmetalplatingside",
+    "textureFront": "boswallpipe1",
     "textureRight": "bosmetalplatingside",
     "textureBack": "bosmetalplatingside",
     "renderType": 11,

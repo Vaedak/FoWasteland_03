@@ -2,12 +2,12 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "bosmetalplating",
-    "textureTop": "bosmetalplatingtop",
-    "textureLeft": "bosmetalplatingside",
-    "textureFront": "bosmetalplatingside",
-    "textureRight": "bosmetalplatingside",
-    "textureBack": "bosmetalplatingside",
+    "texture": "bosmetalwall",
+    "textureTop": "bosmetalwall",
+    "textureLeft": "boswallpipe1",
+    "textureFront": "boswallpipe1",
+    "textureRight": "boswallpipe1",
+    "textureBack": "boswallpipe1",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

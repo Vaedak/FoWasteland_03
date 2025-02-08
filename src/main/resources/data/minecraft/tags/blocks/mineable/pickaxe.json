@@ -1,6 +1,15 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:bos_metal_platingconnected",
+    "fallout_wastelands_:bo_s_tile",
+    "fallout_wastelands_:bo_s_steel_wall",
+    "fallout_wastelands_:bos_metal_roof_stairs",
+    "fallout_wastelands_:bo_s_metal_roof",
+    "fallout_wastelands_:bo_s_grid_floor_slab",
+    "fallout_wastelands_:bo_s_grid_floor_stairs",
+    "fallout_wastelands_:bo_s_grid_floor",
+    "fallout_wastelands_:bos_door_2",
     "fallout_wastelands_:wasteland_road_white_slab",
     "fallout_wastelands_:wasteland_road_white",
     "fallout_wastelands_:wasteland_road_yellow_slab",

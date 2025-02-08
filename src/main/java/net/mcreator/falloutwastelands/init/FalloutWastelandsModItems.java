@@ -17,6 +17,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.falloutwastelands.item.WrenchItem;
 import net.mcreator.falloutwastelands.item.WastelandsItem;
 import net.mcreator.falloutwastelands.item.WastelandbrickitemItem;
+import net.mcreator.falloutwastelands.item.VaultHullItem;
 import net.mcreator.falloutwastelands.item.UraniumNuggetItem;
 import net.mcreator.falloutwastelands.item.UraniumIngotItem;
 import net.mcreator.falloutwastelands.item.TireIronItem;
@@ -28,6 +29,7 @@ import net.mcreator.falloutwastelands.item.TenmmhomemadeassaultrifleItem;
 import net.mcreator.falloutwastelands.item.TenmmammoItem;
 import net.mcreator.falloutwastelands.item.TatoItem;
 import net.mcreator.falloutwastelands.item.TaloncombatarmorItem;
+import net.mcreator.falloutwastelands.item.T51bPAItem;
 import net.mcreator.falloutwastelands.item.T45PAItem;
 import net.mcreator.falloutwastelands.item.SugarBombsItem;
 import net.mcreator.falloutwastelands.item.StimpackItem;
@@ -37,6 +39,7 @@ import net.mcreator.falloutwastelands.item.SteelCompositeItem;
 import net.mcreator.falloutwastelands.item.SmallcalibercasingItem;
 import net.mcreator.falloutwastelands.item.ScrapmetalItem;
 import net.mcreator.falloutwastelands.item.RollingpinItem;
+import net.mcreator.falloutwastelands.item.RoadLeatherItem;
 import net.mcreator.falloutwastelands.item.RipperProjectileItem;
 import net.mcreator.falloutwastelands.item.RipperItem;
 import net.mcreator.falloutwastelands.item.Revolver32Item;
@@ -489,6 +492,24 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> WASTELAND_ROAD_WHITE = block(FalloutWastelandsModBlocks.WASTELAND_ROAD_WHITE);
 	public static final RegistryObject<Item> WASTELAND_ROAD_WHITE_SLAB = block(FalloutWastelandsModBlocks.WASTELAND_ROAD_WHITE_SLAB);
 	public static final RegistryObject<Item> NOODLES = REGISTRY.register("noodles", () -> new NoodlesItem());
+	public static final RegistryObject<Item> ROAD_LEATHER_HELMET = REGISTRY.register("road_leather_helmet", () -> new RoadLeatherItem.Helmet());
+	public static final RegistryObject<Item> ROAD_LEATHER_CHESTPLATE = REGISTRY.register("road_leather_chestplate", () -> new RoadLeatherItem.Chestplate());
+	public static final RegistryObject<Item> ROAD_LEATHER_LEGGINGS = REGISTRY.register("road_leather_leggings", () -> new RoadLeatherItem.Leggings());
+	public static final RegistryObject<Item> ROAD_LEATHER_BOOTS = REGISTRY.register("road_leather_boots", () -> new RoadLeatherItem.Boots());
+	public static final RegistryObject<Item> T_51B_PA_HELMET = REGISTRY.register("t_51b_pa_helmet", () -> new T51bPAItem.Helmet());
+	public static final RegistryObject<Item> T_51B_PA_CHESTPLATE = REGISTRY.register("t_51b_pa_chestplate", () -> new T51bPAItem.Chestplate());
+	public static final RegistryObject<Item> T_51B_PA_LEGGINGS = REGISTRY.register("t_51b_pa_leggings", () -> new T51bPAItem.Leggings());
+	public static final RegistryObject<Item> T_51B_PA_BOOTS = REGISTRY.register("t_51b_pa_boots", () -> new T51bPAItem.Boots());
+	public static final RegistryObject<Item> BOS_DOOR_2 = doubleBlock(FalloutWastelandsModBlocks.BOS_DOOR_2);
+	public static final RegistryObject<Item> VAULT_HULL = REGISTRY.register("vault_hull", () -> new VaultHullItem());
+	public static final RegistryObject<Item> BO_S_GRID_FLOOR = block(FalloutWastelandsModBlocks.BO_S_GRID_FLOOR);
+	public static final RegistryObject<Item> BO_S_GRID_FLOOR_STAIRS = block(FalloutWastelandsModBlocks.BO_S_GRID_FLOOR_STAIRS);
+	public static final RegistryObject<Item> BO_S_GRID_FLOOR_SLAB = block(FalloutWastelandsModBlocks.BO_S_GRID_FLOOR_SLAB);
+	public static final RegistryObject<Item> BO_S_METAL_ROOF = block(FalloutWastelandsModBlocks.BO_S_METAL_ROOF);
+	public static final RegistryObject<Item> BOS_METAL_ROOF_STAIRS = block(FalloutWastelandsModBlocks.BOS_METAL_ROOF_STAIRS);
+	public static final RegistryObject<Item> BO_S_STEEL_WALL = block(FalloutWastelandsModBlocks.BO_S_STEEL_WALL);
+	public static final RegistryObject<Item> BO_S_TILE = block(FalloutWastelandsModBlocks.BO_S_TILE);
+	public static final RegistryObject<Item> BOS_METAL_PLATINGCONNECTED = block(FalloutWastelandsModBlocks.BOS_METAL_PLATINGCONNECTED);
 
 	// Start of user code block custom items
 	// End of user code block custom items
