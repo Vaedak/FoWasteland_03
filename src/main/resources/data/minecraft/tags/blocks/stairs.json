@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "fallout_wastelands_:bos_metal_roof_stairs",
     "fallout_wastelands_:bo_s_grid_floor_stairs",
+    "fallout_wastelands_:bos_metal_roof_stairs",
     "fallout_wastelands_:worn_metal_decorationstairs",
     "fallout_wastelands_:militaryplatingstairs",
     "fallout_wastelands_:wasteland_bricks_stairs",
