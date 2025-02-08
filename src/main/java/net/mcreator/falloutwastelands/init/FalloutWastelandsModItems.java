@@ -15,8 +15,11 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.falloutwastelands.item.WrenchItem;
+import net.mcreator.falloutwastelands.item.WineItem;
+import net.mcreator.falloutwastelands.item.WhiskeyItem;
 import net.mcreator.falloutwastelands.item.WastelandsItem;
 import net.mcreator.falloutwastelands.item.WastelandbrickitemItem;
+import net.mcreator.falloutwastelands.item.VodkaItem;
 import net.mcreator.falloutwastelands.item.VaultHullItem;
 import net.mcreator.falloutwastelands.item.VaccumTubeItem;
 import net.mcreator.falloutwastelands.item.UraniumNuggetItem;
@@ -39,7 +42,9 @@ import net.mcreator.falloutwastelands.item.SteelIngotItem;
 import net.mcreator.falloutwastelands.item.SteelCompositeItem;
 import net.mcreator.falloutwastelands.item.SmallcalibercasingItem;
 import net.mcreator.falloutwastelands.item.ScrapmetalItem;
+import net.mcreator.falloutwastelands.item.ScotchItem;
 import net.mcreator.falloutwastelands.item.RollingpinItem;
+import net.mcreator.falloutwastelands.item.RoentgenRumItem;
 import net.mcreator.falloutwastelands.item.RoadLeatherItem;
 import net.mcreator.falloutwastelands.item.RipperProjectileItem;
 import net.mcreator.falloutwastelands.item.RipperItem;
@@ -91,6 +96,7 @@ import net.mcreator.falloutwastelands.item.HeavycalibercasingItem;
 import net.mcreator.falloutwastelands.item.HachetItem;
 import net.mcreator.falloutwastelands.item.GeckoEggItem;
 import net.mcreator.falloutwastelands.item.GeckoCoockedEggItem;
+import net.mcreator.falloutwastelands.item.GammaGulpBeerItem;
 import net.mcreator.falloutwastelands.item.FusionCoreItem;
 import net.mcreator.falloutwastelands.item.FivemmminigunItem;
 import net.mcreator.falloutwastelands.item.FivemmAmmoItem;
@@ -130,6 +136,7 @@ import net.mcreator.falloutwastelands.item.AluminiumnuggetItem;
 import net.mcreator.falloutwastelands.item.AdvancedMotorItem;
 import net.mcreator.falloutwastelands.item.AdvancedMotherboardItem;
 import net.mcreator.falloutwastelands.item.AcidItem;
+import net.mcreator.falloutwastelands.item.AbsintheItem;
 import net.mcreator.falloutwastelands.item.AbraxoCleanerItem;
 import net.mcreator.falloutwastelands.block.display.BASEcoreDisplayItem;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
@@ -523,6 +530,13 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> BO_S_DATA_FRONT_MIDDLE = block(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_MIDDLE);
 	public static final RegistryObject<Item> BO_S_DATA_FRONT_TOP = block(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_TOP);
 	public static final RegistryObject<Item> BASEBALL_CLUB = REGISTRY.register("baseball_club", () -> new BaseballClubItem());
+	public static final RegistryObject<Item> GAMMA_GULP_BEER = REGISTRY.register("gamma_gulp_beer", () -> new GammaGulpBeerItem());
+	public static final RegistryObject<Item> SCOTCH = REGISTRY.register("scotch", () -> new ScotchItem());
+	public static final RegistryObject<Item> WINE = REGISTRY.register("wine", () -> new WineItem());
+	public static final RegistryObject<Item> ROENTGEN_RUM = REGISTRY.register("roentgen_rum", () -> new RoentgenRumItem());
+	public static final RegistryObject<Item> VODKA = REGISTRY.register("vodka", () -> new VodkaItem());
+	public static final RegistryObject<Item> WHISKEY = REGISTRY.register("whiskey", () -> new WhiskeyItem());
+	public static final RegistryObject<Item> ABSINTHE = REGISTRY.register("absinthe", () -> new AbsintheItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -12445,6 +12445,117 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "GammaGulpBeer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamma_gulp_beer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/GammaGulpBeerItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/gamma_gulp_beer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Scotch",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scotch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/ScotchItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/scotch.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Wine",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/wine.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/WineItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "RoentgenRum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roentgen_rum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/RoentgenRumItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/roentgen_rum.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Vodka",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vodka",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/vodka.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/VodkaItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Whiskey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whiskey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/WhiskeyItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/whiskey.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Absinthe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absinthe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/absinthe.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/AbsintheItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Foodtier1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foodtier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/chests/foodtier_1.json"
+        ]
+      },
+      "path": "~/loottable"
     }
   ],
   "variable_elements": [
@@ -12575,16 +12686,16 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs"
+    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
-    ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -13175,8 +13286,8 @@
   "language_map": {
     "en_us": {
       "item.fallout_wastelands_.tenmmpistol": "10mm Pistol",
-      "block.fallout_wastelands_.bo_s_tile": "Bos Tile",
       "block.fallout_wastelands_.linedconcrete": "Concrete",
+      "block.fallout_wastelands_.bo_s_tile": "Bos Tile",
       "item.fallout_wastelands_.brahim_meat": "Brahim Meat",
       "block.fallout_wastelands_.metal_shelf": "Metal Shelf",
       "subtitles.ninemmshot": "",
@@ -13187,8 +13298,8 @@
       "block.fallout_wastelands_.tire_stack": "Tire Stack",
       "gui.fallout_wastelands_.base_menu_ui.label_inventory": "Inventory",
       "entity.fallout_wastelands_.raiderscavanger": "Raider Scavanger",
-      "block.fallout_wastelands_.wastelandshortburntgrass": "Wasteland Short Burnt Grass",
       "item.fallout_wastelands_.wrench": "Wrench",
+      "block.fallout_wastelands_.wastelandshortburntgrass": "Wasteland Short Burnt Grass",
       "block.fallout_wastelands_.wasteland_goldore": "Wasteland Gold Ore",
       "item.fallout_wastelands_.laserrifle": "Laser Rifle",
       "item.fallout_wastelands_.dented_can": "Dented Can",
@@ -13201,8 +13312,10 @@
       "item.fallout_wastelands_.empty_nuka_cola_bottle": "Empty Nuka Cola Bottle",
       "item.fallout_wastelands_.cattle_rod": "Cattle Prod",
       "item.fallout_wastelands_.jerrican": "Jerrican",
+      "item.fallout_wastelands_.roentgen_rum": "Roentgen Rum",
       "item.fallout_wastelands_.raw_lead": "Raw Lead",
       "block.fallout_wastelands_.wastelandburntgrass": "Wasteland Burnt Grass",
+      "item.fallout_wastelands_.vodka": "Vodka",
       "item.fallout_wastelands_.cannibal_00_spawn_egg": "Cannibal Spawn Egg",
       "block.fallout_wastelands_.single_scaffold_block": "Scaffold Block",
       "item.fallout_wastelands_.industrialhammer": "Sledgehammer",
@@ -13212,14 +13325,14 @@
       "block.fallout_wastelands_.worn_metal_pillar": "Worn Metal Pillar",
       "item.fallout_wastelands_.gecko_coocked_egg": "Gecko Coocked Egg",
       "item.fallout_wastelands_.wastelandbrickitem": "Wasteland Brick",
-      "item.fallout_wastelands_.corn": "Corn",
       "block.fallout_wastelands_.molder_wood_log": "Molder Wood Log",
+      "item.fallout_wastelands_.corn": "Corn",
       "biome.fallout_wastelands_.wasteland_dryland": "Wasteland Dryland",
       "block.fallout_wastelands_.enclave_bunker_block": "Enclave Bunker Block",
-      "block.fallout_wastelands_.vault_floor": "Vault Floor",
       "block.fallout_wastelands_.aluminum_block": "Aluminum Block",
-      "item.fallout_wastelands_.mug": "Mug",
+      "block.fallout_wastelands_.vault_floor": "Vault Floor",
       "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
+      "item.fallout_wastelands_.mug": "Mug",
       "block.fallout_wastelands_.steel_bars": "Steel Bars",
       "block.fallout_wastelands_.wasteland_road_white_slab": "White Wasteland Asphalt Slab",
       "item.fallout_wastelands_.raiderbasher_helmet": "Raider Basher Helmet",
@@ -13231,12 +13344,13 @@
       "block.fallout_wastelands_.industrial_plating": "Industrial Plating",
       "block.fallout_wastelands_.horizontallinedconcrete": "Concrete",
       "item.fallout_wastelands_.test_weapon": "Test Weapon",
-      "item.fallout_wastelands_.gecko_egg": "Gecko Egg",
       "block.fallout_wastelands_.hardconcrete": "Hard Concrete Block",
+      "item.fallout_wastelands_.gecko_egg": "Gecko Egg",
       "item.fallout_wastelands_.raiderblastmaster_helmet": "Raider Blastmaster Helmet",
       "item.fallout_wastelands_.blastmaster_raider_spawn_egg": "Raider Blastmaster Spawn Egg",
       "item.fallout_wastelands_.road_leather_boots": "Road Leather Boots",
       "block.fallout_wastelands_.military_plating_walkway": "Military Plating Walkway",
+      "item.fallout_wastelands_.gamma_gulp_beer": "Gamma Gulp Beer",
       "block.fallout_wastelands_.slab_wasteland_cobblestone": "Wasteland Cobblestone Slab",
       "block.fallout_wastelands_.wirefence": "Wire Fence",
       "item.fallout_wastelands_.brahmin_spawn_egg": "Brahmin Spawn Egg",
@@ -13265,9 +13379,10 @@
       "subtitles.nailpistolshot": "",
       "block.fallout_wastelands_.vault_wall_curved": "Curved Vault Wall",
       "block.fallout_wastelands_.bos_steel_slabs": "Bos Metal Slab",
-      "block.fallout_wastelands_.bos_steel_block": "Bos Metal Plating",
       "item.fallout_wastelands_.raw_aluminum": "Raw Aluminum",
+      "block.fallout_wastelands_.bos_steel_block": "Bos Metal Plating",
       "item.fallout_wastelands_.energy_cell": "Microfusion Cell",
+      "item.fallout_wastelands_.whiskey": "Whiskey",
       "item.fallout_wastelands_.power_armor_frame_armor_helmet": "Power Armor Frame",
       "gui.fallout_wastelands_.base_menu_ui.NameInput": "Name",
       "block.fallout_wastelands_.industrial_support": "Industrial Support",
@@ -13285,9 +13400,10 @@
       "block.fallout_wastelands_.molder_wood_planks": "Molder Wood Planks",
       "block.fallout_wastelands_.wastelandgrassbush": "Wasteland Bush",
       "block.fallout_wastelands_.television": "Television",
-      "block.fallout_wastelands_.grey_industrial_allowmidrivet": "Industrial Alloy (mid rivet)",
-      "item.fallout_wastelands_.nail": "Nail",
       "block.fallout_wastelands_.roof_metal": "Roof Sheet Metal Block",
+      "item.fallout_wastelands_.nail": "Nail",
+      "block.fallout_wastelands_.grey_industrial_allowmidrivet": "Industrial Alloy (mid rivet)",
+      "item.fallout_wastelands_.scotch": "Scotch",
       "block.fallout_wastelands_.wasteland_brickslab": "Wasteland Brick Slab",
       "item.fallout_wastelands_.motherboard": "Motherboard",
       "item.fallout_wastelands_.fivemm_ammo": "5mm Ammo",
@@ -13321,15 +13437,15 @@
       "block.fallout_wastelands_.wasteland_concrete_slab": "Concrete Slab",
       "item.fallout_wastelands_.road_leather_chestplate": "Road Leather Chestplate",
       "block.fallout_wastelands_.charred_molder_wood_plank": "Charred Molder Planks",
-      "item.fallout_wastelands_.baseball_bat": "Baseball Bat",
       "block.fallout_wastelands_.tatoplant_3": "Tato Plant",
+      "item.fallout_wastelands_.baseball_bat": "Baseball Bat",
       "block.fallout_wastelands_.medical_box": "Medical Stash",
       "block.fallout_wastelands_.tatoplant_2": "Tato Plant",
       "block.fallout_wastelands_.tatoplant_4": "Tato Plant",
       "block.fallout_wastelands_.wasteland_road_white": "White Wasteland Asphalt",
       "block.fallout_wastelands_.tatoplant_1": "Tato Plant",
-      "block.fallout_wastelands_.tatoplant_0": "Tato Plant",
       "item.fallout_wastelands_.uranium_ingot": "Uranium Ingot",
+      "block.fallout_wastelands_.tatoplant_0": "Tato Plant",
       "item_group.fallout_wastelands_.wastelandcombat": "Wastelands Combat",
       "block.fallout_wastelands_.molder_wood_pressure_plate": "Molder Pressure Plate",
       "item.fallout_wastelands_.ninemmpistol": "9mm Pistol",
@@ -13390,6 +13506,7 @@
       "item.fallout_wastelands_.antiradsuit_leggings": "Anti-Rad Suit Leggings",
       "item.fallout_wastelands_.advanced_motor": "Advanced Motor",
       "block.fallout_wastelands_.cracked_wasteland_concrete_wall": "Cracked Concrete Slab",
+      "item.fallout_wastelands_.absinthe": "Absinthe",
       "item.fallout_wastelands_.neutronade_cap": "Bottle Cap",
       "item.fallout_wastelands_.canned_beef": "Canned Pork",
       "item.fallout_wastelands_.taloncombatarmor_leggings": "Talon Combat Armor Leggings",
@@ -13523,6 +13640,7 @@
       "item.fallout_wastelands_.radiactive_waste": "Radioactive Waste",
       "key.fallout_wastelands_.switch_game_mode_utility": "Switch Game Mode Utility",
       "block.fallout_wastelands_.bo_s_metal_plating_slab": "BoS Metal Plating Slab",
+      "item.fallout_wastelands_.wine": "Wine",
       "gui.fallout_wastelands_.base_menu_ui.label_input_caps": "Input Caps",
       "item.fallout_wastelands_.taloncombatarmor_chestplate": "Talon Combat Armor Chestplate",
       "subtitles.tenmmshot": "",

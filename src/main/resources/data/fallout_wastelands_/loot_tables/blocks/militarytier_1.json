@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_chestplate",
+          "name": "fallout_wastelands_:smallcalibercasing",
           "weight": 1,
           "functions": [
             {
@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_helmet",
+          "name": "fallout_wastelands_:heavycalibercasing",
           "weight": 1,
           "functions": [
             {
@@ -37,7 +37,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_leggings",
+          "name": "fallout_wastelands_:hunting_casing",
           "weight": 1,
           "functions": [
             {
@@ -51,7 +51,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_boots",
+          "name": "fallout_wastelands_:energy_cell",
           "weight": 2,
           "functions": [
             {

@@ -14,7 +14,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Combatarmor.body"
+              "value": "CUSTOM:Smallcalibercasing"
             },
             "weight": 1,
             "minCount": 0,
@@ -28,7 +28,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Combatarmor.helmet"
+              "value": "CUSTOM:Heavycalibercasing"
             },
             "weight": 1,
             "minCount": 1,
@@ -42,7 +42,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Combatarmor.legs"
+              "value": "CUSTOM:HuntingCasing"
             },
             "weight": 1,
             "minCount": 1,
@@ -56,7 +56,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Combatarmor.boots"
+              "value": "CUSTOM:EnergyCell"
             },
             "weight": 2,
             "minCount": 1,
