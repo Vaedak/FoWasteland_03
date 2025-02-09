@@ -2,24 +2,24 @@
   "_fv": 69,
   "_type": "armor",
   "definition": {
-    "enableHelmet": true,
-    "textureHelmet": "sunglasses",
+    "enableHelmet": false,
+    "textureHelmet": "lobotomitemask",
     "enableBody": true,
-    "textureBody": "roadleathertorso",
+    "textureBody": "robcojacket",
     "enableLeggings": true,
-    "textureLeggings": "roadleatherpants",
+    "textureLeggings": "robcopants",
     "enableBoots": true,
-    "textureBoots": "roadleatherboots",
+    "textureBoots": "robcoshoes",
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandcombat"
       }
     ],
-    "armorTextureFile": "road_leathers01",
-    "helmetName": "Sunglasses",
-    "bodyName": "Road Leather Chestplate",
-    "leggingsName": "Road Leather Pants",
-    "bootsName": "Road Leather Boots",
+    "armorTextureFile": "robcorepairman",
+    "helmetName": "Lobotomite Helmet",
+    "bodyName": "Lobotomite Jacket",
+    "leggingsName": "Lobotomite Pants",
+    "bootsName": "Lobotomite Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -32,21 +32,21 @@
     "bootsSpecialInformation": {
       "fixedValue": []
     },
-    "helmetModelName": "Modelroadleather02",
+    "helmetModelName": "ModelLobotomite",
     "helmetModelPart": "Head",
     "helmetModelTexture": "From armor",
-    "bodyModelName": "Modelroadleather02",
+    "bodyModelName": "ModelLobotomite",
     "bodyModelPart": "Body",
-    "armsModelPartL": "LeftArm",
-    "armsModelPartR": "RightArm",
+    "armsModelPartL": "Left_Arm",
+    "armsModelPartR": "Right_Arm",
     "bodyModelTexture": "From armor",
-    "leggingsModelName": "Default",
-    "leggingsModelPartL": "Leggings L",
-    "leggingsModelPartR": "Leggings R",
+    "leggingsModelName": "ModelLobotomite",
+    "leggingsModelPartL": "Left_Leg",
+    "leggingsModelPartR": "Right_Leg",
     "leggingsModelTexture": "From armor",
-    "bootsModelName": "Modelroadleather02",
-    "bootsModelPartL": "LeftLeg",
-    "bootsModelPartR": "RightLeg",
+    "bootsModelName": "ModelLobotomite",
+    "bootsModelPartL": "Left_Leg",
+    "bootsModelPartR": "Right_Leg",
     "bootsModelTexture": "From armor",
     "helmetItemRenderType": 0,
     "helmetItemCustomModelName": "Normal",
@@ -84,10 +84,10 @@
     "bootsPiglinNeutral": {
       "fixedValue": false
     },
-    "maxDamage": 8,
+    "maxDamage": 4,
     "damageValueHelmet": 0,
-    "damageValueBody": 3,
-    "damageValueLeggings": 2,
+    "damageValueBody": 1,
+    "damageValueLeggings": 1,
     "damageValueBoots": 1,
     "enchantability": 9,
     "toughness": 0.0,
@@ -97,7 +97,7 @@
     },
     "repairItems": [
       {
-        "value": "Items.LEATHER"
+        "value": "CUSTOM:Cloth"
       }
     ]
   }

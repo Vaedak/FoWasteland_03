@@ -16,6 +16,7 @@ import net.mcreator.falloutwastelands.client.renderer.RaiderDustwalkerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.PowerArmorFrameRenderer;
 import net.mcreator.falloutwastelands.client.renderer.PADisplayEntityRenderer;
 import net.mcreator.falloutwastelands.client.renderer.LaserBeamRenderer;
+import net.mcreator.falloutwastelands.client.renderer.GeckoRenderer;
 import net.mcreator.falloutwastelands.client.renderer.Cannibal00Renderer;
 import net.mcreator.falloutwastelands.client.renderer.BrahminRenderer;
 import net.mcreator.falloutwastelands.client.renderer.BlastmasterRaiderRenderer;
@@ -36,5 +37,6 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.BLASTMASTER_RAIDER.get(), BlastmasterRaiderRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.RAIDERSCAVANGER.get(), RaiderscavangerRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.BRAHMIN.get(), BrahminRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.GECKO.get(), GeckoRenderer::new);
 	}
 }

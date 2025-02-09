@@ -47,6 +47,7 @@ import net.mcreator.falloutwastelands.item.ScrapmetalItem;
 import net.mcreator.falloutwastelands.item.ScotchItem;
 import net.mcreator.falloutwastelands.item.RollingpinItem;
 import net.mcreator.falloutwastelands.item.RoentgenRumItem;
+import net.mcreator.falloutwastelands.item.RobcoRepairmanItem;
 import net.mcreator.falloutwastelands.item.RoadLeatherItem;
 import net.mcreator.falloutwastelands.item.RipperProjectileItem;
 import net.mcreator.falloutwastelands.item.RipperItem;
@@ -84,6 +85,7 @@ import net.mcreator.falloutwastelands.item.MirelurkmeatItem;
 import net.mcreator.falloutwastelands.item.MilitaryHullItem;
 import net.mcreator.falloutwastelands.item.MetalstickItem;
 import net.mcreator.falloutwastelands.item.MacheteItem;
+import net.mcreator.falloutwastelands.item.LobotomiteSuitItem;
 import net.mcreator.falloutwastelands.item.LeadNuggetItem;
 import net.mcreator.falloutwastelands.item.LeadIngotItem;
 import net.mcreator.falloutwastelands.item.LaserrifleItem;
@@ -564,6 +566,14 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> DEATHCLAWHAND = REGISTRY.register("deathclawhand", () -> new DeathclawhandItem());
 	public static final RegistryObject<Item> WONDERGLUE = REGISTRY.register("wonderglue", () -> new WonderglueItem());
 	public static final RegistryObject<Item> FISSION_BATTERY = REGISTRY.register("fission_battery", () -> new FissionBatteryItem());
+	public static final RegistryObject<Item> LOBOTOMITE_SUIT_HELMET = REGISTRY.register("lobotomite_suit_helmet", () -> new LobotomiteSuitItem.Helmet());
+	public static final RegistryObject<Item> LOBOTOMITE_SUIT_CHESTPLATE = REGISTRY.register("lobotomite_suit_chestplate", () -> new LobotomiteSuitItem.Chestplate());
+	public static final RegistryObject<Item> LOBOTOMITE_SUIT_LEGGINGS = REGISTRY.register("lobotomite_suit_leggings", () -> new LobotomiteSuitItem.Leggings());
+	public static final RegistryObject<Item> LOBOTOMITE_SUIT_BOOTS = REGISTRY.register("lobotomite_suit_boots", () -> new LobotomiteSuitItem.Boots());
+	public static final RegistryObject<Item> GECKO_SPAWN_EGG = REGISTRY.register("gecko_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.GECKO, -14988467, -9728619, new Item.Properties()));
+	public static final RegistryObject<Item> ROBCO_REPAIRMAN_CHESTPLATE = REGISTRY.register("robco_repairman_chestplate", () -> new RobcoRepairmanItem.Chestplate());
+	public static final RegistryObject<Item> ROBCO_REPAIRMAN_LEGGINGS = REGISTRY.register("robco_repairman_leggings", () -> new RobcoRepairmanItem.Leggings());
+	public static final RegistryObject<Item> ROBCO_REPAIRMAN_BOOTS = REGISTRY.register("robco_repairman_boots", () -> new RobcoRepairmanItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

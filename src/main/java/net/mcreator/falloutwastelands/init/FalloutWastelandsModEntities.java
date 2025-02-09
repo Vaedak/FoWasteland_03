@@ -23,6 +23,7 @@ import net.mcreator.falloutwastelands.entity.PowerArmorFrameEntity;
 import net.mcreator.falloutwastelands.entity.PlasmaProjectileEntity;
 import net.mcreator.falloutwastelands.entity.PADisplayEntityEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
+import net.mcreator.falloutwastelands.entity.GeckoEntity;
 import net.mcreator.falloutwastelands.entity.Cannibal00Entity;
 import net.mcreator.falloutwastelands.entity.BrahminEntity;
 import net.mcreator.falloutwastelands.entity.BlastmasterRaiderEntity;
@@ -67,6 +68,10 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<BrahminEntity>of(BrahminEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BrahminEntity::new)
 
 					.sized(0.6f, 1f));
+	public static final RegistryObject<EntityType<GeckoEntity>> GECKO = register("gecko",
+			EntityType.Builder.<GeckoEntity>of(GeckoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GeckoEntity::new)
+
+					.sized(0.6f, 1.2f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -82,6 +87,7 @@ public class FalloutWastelandsModEntities {
 			BlastmasterRaiderEntity.init();
 			RaiderscavangerEntity.init();
 			BrahminEntity.init();
+			GeckoEntity.init();
 		});
 	}
 
@@ -94,5 +100,6 @@ public class FalloutWastelandsModEntities {
 		event.put(BLASTMASTER_RAIDER.get(), BlastmasterRaiderEntity.createAttributes().build());
 		event.put(RAIDERSCAVANGER.get(), RaiderscavangerEntity.createAttributes().build());
 		event.put(BRAHMIN.get(), BrahminEntity.createAttributes().build());
+		event.put(GECKO.get(), GeckoEntity.createAttributes().build());
 	}
 }

@@ -22,6 +22,7 @@ import net.mcreator.falloutwastelands.client.model.Modelblastmasterraiderarmor;
 import net.mcreator.falloutwastelands.client.model.Modelbasherraiderarmor2;
 import net.mcreator.falloutwastelands.client.model.Modelbasherraiderarmor;
 import net.mcreator.falloutwastelands.client.model.ModelT51b;
+import net.mcreator.falloutwastelands.client.model.ModelLobotomite;
 import net.mcreator.falloutwastelands.client.model.ModelBighorn;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -30,6 +31,7 @@ public class FalloutWastelandsModModels {
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelblastmasterraiderarmor.LAYER_LOCATION, Modelblastmasterraiderarmor::createBodyLayer);
 		event.registerLayerDefinition(Modelraiderwarmongerarmor.LAYER_LOCATION, Modelraiderwarmongerarmor::createBodyLayer);
+		event.registerLayerDefinition(ModelLobotomite.LAYER_LOCATION, ModelLobotomite::createBodyLayer);
 		event.registerLayerDefinition(Modelt51b01f.LAYER_LOCATION, Modelt51b01f::createBodyLayer);
 		event.registerLayerDefinition(Modelbrahmin.LAYER_LOCATION, Modelbrahmin::createBodyLayer);
 		event.registerLayerDefinition(ModelBighorn.LAYER_LOCATION, ModelBighorn::createBodyLayer);

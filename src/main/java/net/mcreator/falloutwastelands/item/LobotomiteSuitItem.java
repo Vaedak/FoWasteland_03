@@ -1,7 +1,6 @@
 
 package net.mcreator.falloutwastelands.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -14,29 +13,30 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.falloutwastelands.client.model.Modelenclaveofficeruniform;
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
+import net.mcreator.falloutwastelands.client.model.ModelLobotomite;
 
 import java.util.function.Consumer;
 import java.util.Map;
 import java.util.Collections;
 
-public abstract class EnclaveofficierSuitItem extends ArmorItem {
-	public EnclaveofficierSuitItem(ArmorItem.Type type, Item.Properties properties) {
+public abstract class LobotomiteSuitItem extends ArmorItem {
+	public LobotomiteSuitItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 5;
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 10;
 			}
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{1, 2, 3, 0}[type.getSlot().getIndex()];
+				return new int[]{2, 2, 2, 3}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -46,17 +46,17 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.moss_carpet.hit"));
+				return SoundEvents.EMPTY;
 			}
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.CLOTH.get()));
 			}
 
 			@Override
 			public String getName() {
-				return "enclaveofficier_suit";
+				return "lobotomite_suit";
 			}
 
 			@Override
@@ -71,7 +71,7 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 		}, type, properties);
 	}
 
-	public static class Helmet extends EnclaveofficierSuitItem {
+	public static class Helmet extends LobotomiteSuitItem {
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
@@ -82,8 +82,8 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 				@Override
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("head", new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).head, "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
-									"body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
+							Map.of("head", new ModelLobotomite(Minecraft.getInstance().getEntityModels().bakeLayer(ModelLobotomite.LAYER_LOCATION)).Head, "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
@@ -96,11 +96,11 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/models/armor/enclaveofficeruniform_layer_1.png";
+			return "fallout_wastelands_:textures/models/armor/lobotomite_layer_1.png";
 		}
 	}
 
-	public static class Chestplate extends EnclaveofficierSuitItem {
+	public static class Chestplate extends LobotomiteSuitItem {
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
@@ -111,12 +111,10 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 				@Override
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("body", new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).torso, "left_arm",
-									new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).leftarm, "right_arm",
-									new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).rightarm, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
-									"hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new ModelLobotomite(Minecraft.getInstance().getEntityModels().bakeLayer(ModelLobotomite.LAYER_LOCATION)).Body, "left_arm",
+							new ModelLobotomite(Minecraft.getInstance().getEntityModels().bakeLayer(ModelLobotomite.LAYER_LOCATION)).Left_Arm, "right_arm",
+							new ModelLobotomite(Minecraft.getInstance().getEntityModels().bakeLayer(ModelLobotomite.LAYER_LOCATION)).Right_Arm, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
 					armorModel.young = living.isBaby();
@@ -127,11 +125,11 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/models/armor/enclaveofficeruniform_layer_1.png";
+			return "fallout_wastelands_:textures/models/armor/lobotomite_layer_1.png";
 		}
 	}
 
-	public static class Leggings extends EnclaveofficierSuitItem {
+	public static class Leggings extends LobotomiteSuitItem {
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
@@ -143,10 +141,10 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("left_leg", new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).leftleg, "right_leg",
-									new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).rightleg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
-									"hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+							Map.of("left_leg", new ModelLobotomite(Minecraft.getInstance().getEntityModels().bakeLayer(ModelLobotomite.LAYER_LOCATION)).Left_Leg, "right_leg",
+									new ModelLobotomite(Minecraft.getInstance().getEntityModels().bakeLayer(ModelLobotomite.LAYER_LOCATION)).Right_Leg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
+									"left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
 					armorModel.young = living.isBaby();
@@ -157,11 +155,11 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/models/armor/enclaveofficeruniform_layer_2.png";
+			return "fallout_wastelands_:textures/models/armor/lobotomite_layer_2.png";
 		}
 	}
 
-	public static class Boots extends EnclaveofficierSuitItem {
+	public static class Boots extends LobotomiteSuitItem {
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
@@ -173,10 +171,10 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("left_leg", new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).leftleg, "right_leg",
-									new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).rightleg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
-									"hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+							Map.of("left_leg", new ModelLobotomite(Minecraft.getInstance().getEntityModels().bakeLayer(ModelLobotomite.LAYER_LOCATION)).Left_Leg, "right_leg",
+									new ModelLobotomite(Minecraft.getInstance().getEntityModels().bakeLayer(ModelLobotomite.LAYER_LOCATION)).Right_Leg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
+									"left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
 					armorModel.young = living.isBaby();
@@ -187,7 +185,7 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/models/armor/enclaveofficeruniform_layer_1.png";
+			return "fallout_wastelands_:textures/models/armor/lobotomite_layer_1.png";
 		}
 	}
 }

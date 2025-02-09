@@ -17,8 +17,12 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.animal.Animal;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.ai.goal.TemptGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.PanicGoal;
@@ -26,6 +30,7 @@ import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.TamableAnimal;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.MobType;
@@ -35,6 +40,8 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -52,7 +59,7 @@ import net.mcreator.falloutwastelands.init.FalloutWastelandsModEntities;
 
 import java.util.List;
 
-public class BrahminEntity extends Animal implements GeoEntity {
+public class BrahminEntity extends TamableAnimal implements GeoEntity {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(BrahminEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(BrahminEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(BrahminEntity.class, EntityDataSerializers.STRING);
@@ -97,11 +104,12 @@ public class BrahminEntity extends Animal implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.5));
-		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(3, new FloatGoal(this));
-		this.goalSelector.addGoal(4, new LeapAtTargetGoal(this, (float) 0.5));
-		this.goalSelector.addGoal(5, new PanicGoal(this, 1));
+		this.goalSelector.addGoal(1, new TemptGoal(this, 0.5, Ingredient.of(FalloutWastelandsModItems.CORN.get()), false));
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.5));
+		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(4, new FloatGoal(this));
+		this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, (float) 0.5));
+		this.goalSelector.addGoal(6, new PanicGoal(this, 1));
 	}
 
 	@Override
@@ -145,6 +153,49 @@ public class BrahminEntity extends Animal implements GeoEntity {
 		super.readAdditionalSaveData(compound);
 		if (compound.contains("Texture"))
 			this.setTexture(compound.getString("Texture"));
+	}
+
+	@Override
+	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
+		ItemStack itemstack = sourceentity.getItemInHand(hand);
+		InteractionResult retval = InteractionResult.sidedSuccess(this.level().isClientSide());
+		Item item = itemstack.getItem();
+		if (itemstack.getItem() instanceof SpawnEggItem) {
+			retval = super.mobInteract(sourceentity, hand);
+		} else if (this.level().isClientSide()) {
+			retval = (this.isTame() && this.isOwnedBy(sourceentity) || this.isFood(itemstack)) ? InteractionResult.sidedSuccess(this.level().isClientSide()) : InteractionResult.PASS;
+		} else {
+			if (this.isTame()) {
+				if (this.isOwnedBy(sourceentity)) {
+					if (item.isEdible() && this.isFood(itemstack) && this.getHealth() < this.getMaxHealth()) {
+						this.usePlayerItem(sourceentity, hand, itemstack);
+						this.heal((float) item.getFoodProperties().getNutrition());
+						retval = InteractionResult.sidedSuccess(this.level().isClientSide());
+					} else if (this.isFood(itemstack) && this.getHealth() < this.getMaxHealth()) {
+						this.usePlayerItem(sourceentity, hand, itemstack);
+						this.heal(4);
+						retval = InteractionResult.sidedSuccess(this.level().isClientSide());
+					} else {
+						retval = super.mobInteract(sourceentity, hand);
+					}
+				}
+			} else if (this.isFood(itemstack)) {
+				this.usePlayerItem(sourceentity, hand, itemstack);
+				if (this.random.nextInt(3) == 0 && !net.minecraftforge.event.ForgeEventFactory.onAnimalTame(this, sourceentity)) {
+					this.tame(sourceentity);
+					this.level().broadcastEntityEvent(this, (byte) 7);
+				} else {
+					this.level().broadcastEntityEvent(this, (byte) 6);
+				}
+				this.setPersistenceRequired();
+				retval = InteractionResult.sidedSuccess(this.level().isClientSide());
+			} else {
+				retval = super.mobInteract(sourceentity, hand);
+				if (retval == InteractionResult.SUCCESS || retval == InteractionResult.CONSUME)
+					this.setPersistenceRequired();
+			}
+		}
+		return retval;
 	}
 
 	@Override
