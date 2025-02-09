@@ -2,6 +2,6 @@
   "parent": "fallout_wastelands_:custom/stripfedmg",
   "textures": {
     "0": "fallout_wastelands_:block/sfmg",
-    "particle": "fallout_wastelands_:item/sfmg"
+    "particle": "fallout_wastelands_:item/butcher"
   }
 }

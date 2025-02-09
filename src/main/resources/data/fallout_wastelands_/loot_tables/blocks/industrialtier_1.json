@@ -3,14 +3,56 @@
   "pools": [
     {
       "rolls": {
-        "min": 0,
-        "max": 9
+        "min": 1,
+        "max": 10
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:smallcalibercasing",
+          "name": "fallout_wastelands_:asbestos",
           "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:tire_iron",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:scrapmetal",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:copperwires",
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
@@ -23,22 +65,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:heavycalibercasing",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "fallout_wastelands_:hunting_casing",
-          "weight": 3,
+          "name": "fallout_wastelands_:nail",
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -48,10 +76,46 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:plasticsheet",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:ripper",
+          "name": "fallout_wastelands_:cloth",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:abraxo_cleaner",
           "weight": 1,
           "functions": [
             {
@@ -62,67 +126,17 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 1
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_helmet",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_chestplate",
-          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "weight": 4,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_leggings",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_boots",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
+                "min": 0,
+                "max": 4
               }
             }
           ]
@@ -130,5 +144,5 @@
       ]
     }
   ],
-  "random_sequence": "fallout_wastelands_:blocks/militarytier_1"
+  "random_sequence": "fallout_wastelands_:blocks/industrialtier_1"
 }

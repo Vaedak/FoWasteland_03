@@ -12763,6 +12763,45 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Industrialtier1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrialtier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/industrialtier_1.json"
+        ]
+      },
+      "path": "~/loottable"
+    },
+    {
+      "name": "Medicaltier1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medicaltier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/medicaltier_1.json"
+        ]
+      },
+      "path": "~/loottable"
+    },
+    {
+      "name": "Ammotier1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammotier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/ammotier_1.json"
+        ]
+      },
+      "path": "~/loottable"
     }
   ],
   "variable_elements": [

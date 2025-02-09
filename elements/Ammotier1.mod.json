@@ -6,7 +6,7 @@
     "pools": [
       {
         "minrolls": 0,
-        "maxrolls": 9,
+        "maxrolls": 14,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -14,21 +14,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Smallcalibercasing"
-            },
-            "weight": 4,
-            "minCount": 0,
-            "maxCount": 5,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:Heavycalibercasing"
+              "value": "CUSTOM:EnergyCell"
             },
             "weight": 2,
             "minCount": 0,
@@ -42,9 +28,23 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:HuntingCasing"
+              "value": "CUSTOM:Tenmmammo"
             },
-            "weight": 3,
+            "weight": 4,
+            "minCount": 0,
+            "maxCount": 5,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Ninemmammo"
+            },
+            "weight": 6,
             "minCount": 0,
             "maxCount": 6,
             "minEnchantmentLevel": 0,
@@ -56,7 +56,35 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Ripper"
+              "value": "CUSTOM:FivemmAmmo"
+            },
+            "weight": 3,
+            "minCount": 0,
+            "maxCount": 8,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Thirtytwoammo"
+            },
+            "weight": 5,
+            "minCount": 0,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:FusionCore"
             },
             "weight": 1,
             "minCount": 0,
@@ -68,74 +96,9 @@
             "silkTouchMode": 0
           }
         ]
-      },
-      {
-        "minrolls": 0,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:Combatarmor.helmet"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:Combatarmor.body"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:Combatarmor.legs"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:Combatarmor.boots"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          }
-        ]
       }
     ],
-    "name": "blocks/militarytier_1",
+    "name": "blocks/ammotier_1",
     "namespace": "mod"
   }
 }

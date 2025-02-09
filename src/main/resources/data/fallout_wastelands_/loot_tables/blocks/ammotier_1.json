@@ -4,26 +4,12 @@
     {
       "rolls": {
         "min": 0,
-        "max": 9
+        "max": 14
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:smallcalibercasing",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "fallout_wastelands_:heavycalibercasing",
+          "name": "fallout_wastelands_:energy_cell",
           "weight": 2,
           "functions": [
             {
@@ -37,8 +23,22 @@
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:hunting_casing",
-          "weight": 3,
+          "name": "fallout_wastelands_:tenmmammo",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:ninemmammo",
+          "weight": 6,
           "functions": [
             {
               "function": "set_count",
@@ -51,7 +51,35 @@
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:ripper",
+          "name": "fallout_wastelands_:fivemm_ammo",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:thirtytwoammo",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:fusion_core",
           "weight": 1,
           "functions": [
             {
@@ -64,71 +92,7 @@
           ]
         }
       ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 1
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_helmet",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_chestplate",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_leggings",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "fallout_wastelands_:combatarmor_boots",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        }
-      ]
     }
   ],
-  "random_sequence": "fallout_wastelands_:blocks/militarytier_1"
+  "random_sequence": "fallout_wastelands_:blocks/ammotier_1"
 }
