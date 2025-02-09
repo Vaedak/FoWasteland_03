@@ -15,7 +15,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
-import net.mcreator.falloutwastelands.network.SwitchGameModeUtilityMessage;
 import net.mcreator.falloutwastelands.network.StopReloadMessage;
 import net.mcreator.falloutwastelands.network.PlayerPressesESCMessage;
 import net.mcreator.falloutwastelands.network.PlayerOpensInventoryMessage;
@@ -25,19 +24,6 @@ import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class FalloutWastelandsModKeyMappings {
-	public static final KeyMapping SWITCH_GAME_MODE_UTILITY = new KeyMapping("key.fallout_wastelands_.switch_game_mode_utility", GLFW.GLFW_KEY_C, "key.categories.misc") {
-		private boolean isDownOld = false;
-
-		@Override
-		public void setDown(boolean isDown) {
-			super.setDown(isDown);
-			if (isDownOld != isDown && isDown) {
-				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new SwitchGameModeUtilityMessage(0, 0));
-				SwitchGameModeUtilityMessage.pressAction(Minecraft.getInstance().player, 0, 0);
-			}
-			isDownOld = isDown;
-		}
-	};
 	public static final KeyMapping GUN_RELOAD_KEYBIND = new KeyMapping("key.fallout_wastelands_.gun_reload_keybind", GLFW.GLFW_KEY_R, "key.categories.misc") {
 		private boolean isDownOld = false;
 
@@ -106,7 +92,6 @@ public class FalloutWastelandsModKeyMappings {
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
-		event.register(SWITCH_GAME_MODE_UTILITY);
 		event.register(GUN_RELOAD_KEYBIND);
 		event.register(STOP_RELOAD);
 		event.register(EXIT_POWER_ARMOR);
@@ -119,7 +104,6 @@ public class FalloutWastelandsModKeyMappings {
 		@SubscribeEvent
 		public static void onClientTick(TickEvent.ClientTickEvent event) {
 			if (Minecraft.getInstance().screen == null) {
-				SWITCH_GAME_MODE_UTILITY.consumeClick();
 				GUN_RELOAD_KEYBIND.consumeClick();
 				STOP_RELOAD.consumeClick();
 				EXIT_POWER_ARMOR.consumeClick();

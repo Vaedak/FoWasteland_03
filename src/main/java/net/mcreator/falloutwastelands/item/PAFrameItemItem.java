@@ -23,7 +23,7 @@ public class PAFrameItemItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("Required For Power Armor (Place On Ground)"));
+		list.add(Component.literal("Required For Power Armor (Place On Ground) -Uses Fusion Core for power"));
 	}
 
 	@Override

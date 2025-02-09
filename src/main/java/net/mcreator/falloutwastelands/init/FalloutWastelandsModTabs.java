@@ -238,18 +238,18 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ROAD_YELLOW_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ROAD_WHITE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ROAD_WHITE_SLAB.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.BOS_METAL_PLATINGCONNECTED.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_MIDDLE.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.BO_S_STEEL_WALL.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_TOP.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.BO_S_GRID_FLOOR.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.BOS_METAL_ROOF_STAIRS.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.BO_S_TILE.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.BO_S_GRID_FLOOR_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BOS_DOOR_2.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BO_S_GRID_FLOOR.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_GRID_FLOOR_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BO_S_GRID_FLOOR_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_METAL_ROOF.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BOS_METAL_ROOF_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BO_S_STEEL_WALL.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BO_S_TILE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BOS_METAL_PLATINGCONNECTED.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_BOTTOM.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_MIDDLE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_TOP.get().asItem());
 			})
 
 					.build());
@@ -303,18 +303,18 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.T_45_PA_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.T_45_PA_BOOTS.get());
 				tabData.accept(FalloutWastelandsModItems.FUSION_CORE.get());
-				tabData.accept(FalloutWastelandsModItems.BASEBALL_BAT.get());
-				tabData.accept(FalloutWastelandsModItems.CATTLE_ROD.get());
 				tabData.accept(FalloutWastelandsModItems.ROAD_LEATHER_HELMET.get());
 				tabData.accept(FalloutWastelandsModItems.ROAD_LEATHER_CHESTPLATE.get());
 				tabData.accept(FalloutWastelandsModItems.ROAD_LEATHER_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.ROAD_LEATHER_BOOTS.get());
-				tabData.accept(FalloutWastelandsModItems.MACHETE.get());
-				tabData.accept(FalloutWastelandsModItems.BASEBALL_CLUB.get());
 				tabData.accept(FalloutWastelandsModItems.T_51B_PA_HELMET.get());
 				tabData.accept(FalloutWastelandsModItems.T_51B_PA_CHESTPLATE.get());
 				tabData.accept(FalloutWastelandsModItems.T_51B_PA_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.T_51B_PA_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.MACHETE.get());
+				tabData.accept(FalloutWastelandsModItems.CATTLE_ROD.get());
+				tabData.accept(FalloutWastelandsModItems.BASEBALL_BAT.get());
+				tabData.accept(FalloutWastelandsModItems.BASEBALL_CLUB.get());
 			})
 
 					.build());
@@ -396,8 +396,15 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.STEEL_COMPOSITE.get());
 				tabData.accept(FalloutWastelandsModItems.MIRELURKMEAT.get());
 				tabData.accept(FalloutWastelandsModItems.NOODLES.get());
-				tabData.accept(FalloutWastelandsModItems.VACCUM_TUBE.get());
 				tabData.accept(FalloutWastelandsModItems.VAULT_HULL.get());
+				tabData.accept(FalloutWastelandsModItems.VACCUM_TUBE.get());
+				tabData.accept(FalloutWastelandsModItems.WINE.get());
+				tabData.accept(FalloutWastelandsModItems.GAMMA_GULP_BEER.get());
+				tabData.accept(FalloutWastelandsModItems.SCOTCH.get());
+				tabData.accept(FalloutWastelandsModItems.WHISKEY.get());
+				tabData.accept(FalloutWastelandsModItems.ROENTGEN_RUM.get());
+				tabData.accept(FalloutWastelandsModItems.ABSINTHE.get());
+				tabData.accept(FalloutWastelandsModItems.VODKA.get());
 			})
 
 					.build());

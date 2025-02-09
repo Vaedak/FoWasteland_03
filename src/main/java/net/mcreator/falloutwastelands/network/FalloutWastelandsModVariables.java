@@ -71,6 +71,7 @@ public class FalloutWastelandsModVariables {
 				clone.paFrameYcord = original.paFrameYcord;
 				clone.paFrameZcord = original.paFrameZcord;
 				clone.inPowerArmor = original.inPowerArmor;
+				clone.fusionCorePower = original.fusionCorePower;
 			}
 		}
 	}
@@ -110,6 +111,7 @@ public class FalloutWastelandsModVariables {
 		public double paFrameYcord = 0;
 		public double paFrameZcord = 0;
 		public boolean inPowerArmor = false;
+		public double fusionCorePower = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -122,6 +124,7 @@ public class FalloutWastelandsModVariables {
 			nbt.putDouble("paFrameYcord", paFrameYcord);
 			nbt.putDouble("paFrameZcord", paFrameZcord);
 			nbt.putBoolean("inPowerArmor", inPowerArmor);
+			nbt.putDouble("fusionCorePower", fusionCorePower);
 			return nbt;
 		}
 
@@ -131,6 +134,7 @@ public class FalloutWastelandsModVariables {
 			paFrameYcord = nbt.getDouble("paFrameYcord");
 			paFrameZcord = nbt.getDouble("paFrameZcord");
 			inPowerArmor = nbt.getBoolean("inPowerArmor");
+			fusionCorePower = nbt.getDouble("fusionCorePower");
 		}
 	}
 
@@ -159,6 +163,7 @@ public class FalloutWastelandsModVariables {
 					variables.paFrameYcord = message.data.paFrameYcord;
 					variables.paFrameZcord = message.data.paFrameZcord;
 					variables.inPowerArmor = message.data.inPowerArmor;
+					variables.fusionCorePower = message.data.fusionCorePower;
 				}
 			});
 			context.setPacketHandled(true);

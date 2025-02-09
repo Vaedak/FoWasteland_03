@@ -36,21 +36,26 @@ public class PlayerInPowerArmorProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		double distance = 0;
 		if ((entity.getCapability(FalloutWastelandsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new FalloutWastelandsModVariables.PlayerVariables())).inPowerArmor == true) {
+			if ((entity.getCapability(FalloutWastelandsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new FalloutWastelandsModVariables.PlayerVariables())).fusionCorePower > 1) {
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 10, 1, false, false));
+				if (entity instanceof Player _player)
+					_player.getFoodData().setSaturation((float) ((entity instanceof Player _plr ? _plr.getFoodData().getSaturationLevel() : 0) + 0.001));
+			} else {
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 10, 2, false, false));
+			}
+			if (entity.getPersistentData().getBoolean("inventoryOpen") == true) {
+				ReplacepaFramesProcedure.execute(world, x, y, z, entity);
+			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 25, 255, false, false));
-			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 10, 1, false, false));
-			if (entity instanceof Player _player)
-				_player.getFoodData().setSaturation((float) ((entity instanceof Player _plr ? _plr.getFoodData().getSaturationLevel() : 0) + 1));
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("fallout_wastelands_:pa_frame"))) == false) {
 				if (entity.isInWater()) {
 					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 25, 1, false, false));
-				}
-				if (entity.isOnFire()) {
-					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-						_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 10, 1, false, false));
 				}
 				if (entity instanceof LivingEntity _livEnt10 && _livEnt10.hasEffect(MobEffects.POISON)) {
 					if (entity instanceof LivingEntity _entity)
@@ -60,9 +65,6 @@ public class PlayerInPowerArmorProcedure {
 					if (entity instanceof LivingEntity _entity)
 						_entity.removeEffect(MobEffects.BLINDNESS);
 				}
-			}
-			if (entity.getPersistentData().getBoolean("inventoryOpen") == true) {
-				ReplacepaFramesProcedure.execute(world, x, y, z, entity);
 			}
 		} else {
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("fallout_wastelands_:pa_helmet"))) == true

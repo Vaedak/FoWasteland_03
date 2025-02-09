@@ -8,17 +8,17 @@
     "customProperties": {},
     "states": [],
     "name": "Fusion Core",
-    "rarity": "COMMON",
+    "rarity": "RARE",
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandcombat"
       }
     ],
-    "stackSize": 64,
-    "enchantability": 0,
+    "stackSize": 1,
+    "enchantability": 10,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 0,
+    "damageCount": 101,
     "recipeRemainder": {
       "value": ""
     },
@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Required for Power Armor"
+      ]
     },
     "glowCondition": {
       "fixedValue": false
@@ -37,6 +39,12 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "FusionCoreItemInInventoryTick"
+    },
+    "onDroppedByPlayer": {
+      "name": "FusionCoreItemIsDroppedByPlayer"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
