@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "fallout_wastelands_:deleted_mod_element"
+      "item": "fallout_wastelands_:adobe_block"
     }
   },
   "result": {
-    "item": "fallout_wastelands_:deleted_mod_element",
+    "item": "fallout_wastelands_:adobe_block_wall",
     "count": 6
   }
 }

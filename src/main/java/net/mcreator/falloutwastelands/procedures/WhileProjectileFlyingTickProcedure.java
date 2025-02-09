@@ -1,6 +1,9 @@
 package net.mcreator.falloutwastelands.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
 public class WhileProjectileFlyingTickProcedure {
 	public static void execute(LevelAccessor world, Entity immediatesourceentity) {
