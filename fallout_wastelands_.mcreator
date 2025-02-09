@@ -190,19 +190,6 @@
       "path": "~/Blocks/MolderWoodSet"
     },
     {
-      "name": "SwitchGameModeUtility",
-      "type": "keybind",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "switch_game_mode_utility",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/network/SwitchGameModeUtilityMessage.java"
-        ]
-      },
-      "path": "~/Others"
-    },
-    {
       "name": "Utsol",
       "type": "block",
       "compiles": true,
@@ -278,25 +265,6 @@
         ]
       },
       "path": "~/Blocks/MolderWoodSet"
-    },
-    {
-      "name": "SwitchGameModeUtilityOnKeyPressed",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "switch_game_mode_utility_on_key_pressed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/procedures/SwitchGameModeUtilityOnKeyPressedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Others"
     },
     {
       "name": "MolderWoodDoor",
@@ -12985,7 +12953,7 @@
           }
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Blocks"
     },
     {
       "name": "Deathclawhand",
@@ -13060,6 +13028,22 @@
       "path": "~/Armors"
     },
     {
+      "name": "RobcoRepairman",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robco_repairman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/robco_repairman_leggings.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/robco_repairman_chestplate.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/robco_repairman_boots.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/RobcoRepairmanItem.java"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
       "name": "Gecko",
       "type": "animatedentity",
       "compiles": true,
@@ -13077,20 +13061,193 @@
       "path": "~/Mobs"
     },
     {
-      "name": "RobcoRepairman",
-      "type": "armor",
+      "name": "FusionCoreItemInInventoryTick",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "robco_repairman",
+      "registry_name": "fusion_core_item_in_inventory_tick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/robco_repairman_leggings.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/robco_repairman_chestplate.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/robco_repairman_boots.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/RobcoRepairmanItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/procedures/FusionCoreItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
-      "path": "~/Armors"
+      "path": "~/Items"
+    },
+    {
+      "name": "FusionCoreItemIsDroppedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_core_item_is_dropped_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/FusionCoreItemIsDroppedByPlayerProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/PowerArmor"
+    },
+    {
+      "name": "PaVisorDisplayDark",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pa_visor_display_dark",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PaVisorDisplayDarkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PowerArmor"
+    },
+    {
+      "name": "PAVisor",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pa_visor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/screens/PAVisorOverlay.java"
+        ]
+      },
+      "path": "~/PowerArmor"
+    },
+    {
+      "name": "PlayerPicksUpCore",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_picks_up_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PlayerPicksUpCoreProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/PowerArmor"
+    },
+    {
+      "name": "PAVisorDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pa_visor_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PAVisorDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PowerArmor"
+    },
+    {
+      "name": "PAVisorDark",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pa_visor_dark",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/screens/PAVisorDarkOverlay.java"
+        ]
+      },
+      "path": "~/PowerArmor"
+    },
+    {
+      "name": "PreventDamage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prevent_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PreventDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/PowerArmor"
     }
   ],
   "variable_elements": [
@@ -13117,6 +13274,12 @@
       "type": "logic",
       "scope": "player_lifetime",
       "value": "false"
+    },
+    {
+      "name": "fusionCorePower",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -13854,7 +14017,6 @@
       "item.fallout_wastelands_.empty_nuka_cola_bottle": "Empty Nuka Cola Bottle",
       "item.fallout_wastelands_.cattle_rod": "Cattle Prod",
       "item.fallout_wastelands_.jerrican": "Jerrican",
-      "item.fallout_wastelands_.lobotomite_suit_leggings": "Lobotomite Pants",
       "item.fallout_wastelands_.roentgen_rum": "Roentgen Rum",
       "item.fallout_wastelands_.raw_lead": "Raw Lead",
       "item.fallout_wastelands_.enclaveofficier_suit_helmet": "Enclave Cap",
@@ -14001,7 +14163,7 @@
       "item.fallout_wastelands_.ninemmpistol": "9mm Pistol",
       "block.fallout_wastelands_.strippedmolderwoodlog": "Stripped Molder Wood Log",
       "block.fallout_wastelands_.steel_pole": "Steel Pole ",
-      "item.fallout_wastelands_.fission_battery": "Fission Battery",
+      "item.fallout_wastelands_.fission_battery": "Fission Batterie",
       "block.fallout_wastelands_.trash_bin": "Trash Bin",
       "item.fallout_wastelands_.bloat_fly_meat": "Bloatfly Meat",
       "block.fallout_wastelands_.molder_wood_fence": "Molder Fence",
@@ -14083,7 +14245,6 @@
       "block.fallout_wastelands_.rusted_sheet_metal_wall": "Rusted Sheet Metal Wall",
       "subtitles.the_glow": "",
       "effect.fallout_wastelands_.delete_armor_stand_if_not_riding": "despawnArmorStand",
-      "item.fallout_wastelands_.robco_repairman_boots": "Lobotomite Boots",
       "gui.fallout_wastelands_.base_inventory.label_a": " to 0 every time the gui is saved",
       "block.fallout_wastelands_.ceiling_light": "Ceiling Light",
       "block.fallout_wastelands_.burnished_glass_pane": "Burnished Glass Pane",
@@ -14108,7 +14269,6 @@
       "block.fallout_wastelands_.militaryplatingstairs": "Military Plated Stairs",
       "block.fallout_wastelands_.filing_cabinet": "Filing Cabinet",
       "block.fallout_wastelands_.stair_wasteland_cobblestone": "Wasteland Cobblestone Stairs",
-      "entity.fallout_wastelands_.gecko": "Gecko",
       "gui.fallout_wastelands_.base_menu_ui.label_caps": "Caps",
       "block.fallout_wastelands_.enclave_bunker_block_logo": "Enclave Bunker Emblem",
       "item.fallout_wastelands_.tinnugget": "Uranium Nugget",
@@ -14125,7 +14285,6 @@
       "item.fallout_wastelands_.antiradsuit_helmet": "Anti-Rad Suit Helmet",
       "block.fallout_wastelands_.waste_sand": "Wasteland Dirt",
       "item.fallout_wastelands_.industrialhull": "Industrial Hull",
-      "item.fallout_wastelands_.robco_repairman_chestplate": "Lobotomite Jacket",
       "item.fallout_wastelands_.plasticsheet": "Plastic Sheet",
       "block.fallout_wastelands_.rust_block": "Rust Block",
       "item.fallout_wastelands_.t_45_pa_leggings": "T45 Leggings",
@@ -14144,7 +14303,6 @@
       "item.fallout_wastelands_.deathclaw_gauntlet": "Deathclaw Gauntlet",
       "item.fallout_wastelands_.mirelurkmeat": "Mirelurk Meat",
       "block.fallout_wastelands_.molder_wood_wood": "Molder Log Wood",
-      "item.fallout_wastelands_.lobotomite_suit_chestplate": "Lobotomite Jacket",
       "block.fallout_wastelands_.wastelandredstoneore": "Wasteland Redstone Ore",
       "block.fallout_wastelands_.rustysheetmetalstairs": "Rusted Sheet MetalStairs",
       "subtitles.ripper": "",
@@ -14194,14 +14352,12 @@
       "item.fallout_wastelands_.pa_frame_item": "Power Armor Frame",
       "block.fallout_wastelands_.terminal": "Terminal",
       "block.fallout_wastelands_.wasteland_road_block": "Wasteland Asphalt",
-      "item.fallout_wastelands_.lobotomite_suit_boots": "Lobotomite Boots",
       "gui.fallout_wastelands_.base_menu_ui.label_empty": "Note: it may be better instead of using text boxes to instead",
       "block.fallout_wastelands_.charred_molder_stairs": "Charred Molder Stairs",
       "block.fallout_wastelands_.worn_metal": "Worn Metal Block",
       "block.fallout_wastelands_.vault_pillar": "Vault Pillar",
       "key.fallout_wastelands_.exit_power_armor": "Exit Power Armor",
       "item.fallout_wastelands_.radiactive_waste": "Radioactive Waste",
-      "key.fallout_wastelands_.switch_game_mode_utility": "Switch Game Mode Utility",
       "block.fallout_wastelands_.bo_s_metal_plating_slab": "BoS Metal Plating Slab",
       "item.fallout_wastelands_.wine": "Wine",
       "gui.fallout_wastelands_.base_menu_ui.label_input_caps": "Input Caps",
@@ -14250,18 +14406,15 @@
       "item.fallout_wastelands_.raiderblastmaster_leggings": "Raider Blastmaster Loincloth",
       "block.fallout_wastelands_.exposed_rust_block": "Exposed Rust Block",
       "item.fallout_wastelands_.road_leather_leggings": "Road Leather Pants",
-      "item.fallout_wastelands_.robco_repairman_leggings": "Lobotomite Pants",
       "item.fallout_wastelands_.varmint_rifle": "Varmint Rifle",
       "block.fallout_wastelands_.grey_industrial_alloybottomrivet": "Industrial Alloy (bottom rivet)",
       "block.fallout_wastelands_.bos_metal_plating": "Bos Metal Plating",
-      "item.fallout_wastelands_.lobotomite_suit_helmet": "Lobotomite Helmet",
       "item.fallout_wastelands_.hachet": "Hachet",
       "block.fallout_wastelands_.light_tube": "Light Tube",
       "block.fallout_wastelands_.wasteland_brick_wall": "Wasteland Stone",
       "item.fallout_wastelands_.nuka_cola": "Nuka Cola",
       "item.fallout_wastelands_.road_leather_helmet": "Sunglasses",
       "gui.fallout_wastelands_.base_inventory.label_inventory": "Inventory",
-      "item.fallout_wastelands_.gecko_spawn_egg": "Gecko Spawn Egg",
       "block.fallout_wastelands_.concrete_tile": "Concrete Tile",
       "block.fallout_wastelands_.bos_door": "Bos Door Left",
       "block.fallout_wastelands_.wastelandgrassblock": "Wasteland Grass Block",
@@ -14374,6 +14527,10 @@
                 "children": []
               },
               {
+                "name": "VarmintRifle",
+                "children": []
+              },
+              {
                 "name": "LaserRifle",
                 "children": []
               },
@@ -14387,10 +14544,6 @@
               },
               {
                 "name": "5mmMinigun",
-                "children": []
-              },
-              {
-                "name": "VarmintRifle",
                 "children": []
               }
             ]
@@ -14414,6 +14567,10 @@
         "children": []
       },
       {
+        "name": "PowerArmor",
+        "children": []
+      },
+      {
         "name": "Recipes",
         "children": []
       },
@@ -14423,12 +14580,7 @@
       },
       {
         "name": "Armors",
-        "children": [
-          {
-            "name": "PowerArmor",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "name": "Mobs",

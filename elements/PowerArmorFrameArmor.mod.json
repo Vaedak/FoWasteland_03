@@ -10,6 +10,18 @@
     "textureLeggings": "blankitem",
     "enableBoots": true,
     "textureBoots": "blankitem",
+    "onHelmetTick": {
+      "name": "PreventDamage"
+    },
+    "onBodyTick": {
+      "name": "PreventDamage"
+    },
+    "onLeggingsTick": {
+      "name": "PreventDamage"
+    },
+    "onBootsTick": {
+      "name": "PreventDamage"
+    },
     "creativeTabs": [],
     "armorTextureFile": "paframe__",
     "helmetName": "Power Armor Frame",
@@ -56,6 +68,30 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 25,
     "damageValueHelmet": 2,
     "damageValueBody": 6,

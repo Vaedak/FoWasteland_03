@@ -30,7 +30,7 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Required For Power Armor (Place On Ground)"
+        "Required For Power Armor (Place On Ground) -Uses Fusion Core for power"
       ]
     },
     "glowCondition": {
