@@ -255,6 +255,8 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.ADOBE_BLOCK_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.ADOBE_BLOCK_WALL.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_SAND_STONE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LIGHTBULB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LIGHTBULBON.get().asItem());
 			})
 
 					.build());
@@ -324,6 +326,12 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.ENCLAVEOFFICIER_SUIT_CHESTPLATE.get());
 				tabData.accept(FalloutWastelandsModItems.ENCLAVEOFFICIER_SUIT_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.ENCLAVEOFFICIER_SUIT_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.RAIDER_WARMONGER_HELMET.get());
+				tabData.accept(FalloutWastelandsModItems.RAIDER_WARMONGER_CHESTPLATE.get());
+				tabData.accept(FalloutWastelandsModItems.RAIDER_WARMONGER_LEGGINGS.get());
+				tabData.accept(FalloutWastelandsModItems.RAIDER_WARMONGER_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.VARMINT_RIFLE.get());
+				tabData.accept(FalloutWastelandsModItems.DEATHCLAW_GAUNTLET.get());
 			})
 
 					.build());
@@ -414,6 +422,9 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.ROENTGEN_RUM.get());
 				tabData.accept(FalloutWastelandsModItems.ABSINTHE.get());
 				tabData.accept(FalloutWastelandsModItems.VODKA.get());
+				tabData.accept(FalloutWastelandsModItems.DEATHCLAWHAND.get());
+				tabData.accept(FalloutWastelandsModItems.WONDERGLUE.get());
+				tabData.accept(FalloutWastelandsModItems.FISSION_BATTERY.get());
 			})
 
 					.build());

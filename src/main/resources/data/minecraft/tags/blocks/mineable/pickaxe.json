@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:lightbulbon",
+    "fallout_wastelands_:lightbulb",
     "fallout_wastelands_:wasteland_sand_stone",
     "fallout_wastelands_:adobe_block_wall",
     "fallout_wastelands_:adobe_block_slab",

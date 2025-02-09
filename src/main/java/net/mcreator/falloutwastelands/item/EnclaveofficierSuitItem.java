@@ -112,7 +112,7 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("body", new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).enclaveofficer, "left_arm",
+							Map.of("body", new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).torso, "left_arm",
 									new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).leftarm, "right_arm",
 									new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).rightarm, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
 									"hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
@@ -134,6 +134,25 @@ public abstract class EnclaveofficierSuitItem extends ArmorItem {
 	public static class Leggings extends EnclaveofficierSuitItem {
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
+		}
+
+		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
+				@Override
+				@OnlyIn(Dist.CLIENT)
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
+							Map.of("left_leg", new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).leftleg, "right_leg",
+									new Modelenclaveofficeruniform(Minecraft.getInstance().getEntityModels().bakeLayer(Modelenclaveofficeruniform.LAYER_LOCATION)).rightleg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
+									"hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
 		}
 
 		@Override

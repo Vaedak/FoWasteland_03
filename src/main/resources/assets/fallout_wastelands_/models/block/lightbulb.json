@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/lightbulb",
+  "textures": {
+    "all": "fallout_wastelands_:block/lightbulboff",
+    "particle": "fallout_wastelands_:block/lightbulboff",
+    "0": "fallout_wastelands_:block/lightbulboff"
+  },
+  "render_type": "translucent"
+}

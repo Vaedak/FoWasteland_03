@@ -159,6 +159,8 @@ import net.mcreator.falloutwastelands.block.MeltedIronBlockBlock;
 import net.mcreator.falloutwastelands.block.MedicalBoxBlock;
 import net.mcreator.falloutwastelands.block.LockerBlock;
 import net.mcreator.falloutwastelands.block.LinedconcreteBlock;
+import net.mcreator.falloutwastelands.block.LightbulbonBlock;
+import net.mcreator.falloutwastelands.block.LightbulbBlock;
 import net.mcreator.falloutwastelands.block.LightTubeBlock;
 import net.mcreator.falloutwastelands.block.LeadOreBlock;
 import net.mcreator.falloutwastelands.block.LeadBlockBlock;
@@ -496,6 +498,8 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> ADOBE_BLOCK_SLAB = REGISTRY.register("adobe_block_slab", () -> new AdobeBlockSlabBlock());
 	public static final RegistryObject<Block> ADOBE_BLOCK_WALL = REGISTRY.register("adobe_block_wall", () -> new AdobeBlockWallBlock());
 	public static final RegistryObject<Block> WASTELAND_SAND_STONE = REGISTRY.register("wasteland_sand_stone", () -> new WastelandSandStoneBlock());
+	public static final RegistryObject<Block> LIGHTBULB = REGISTRY.register("lightbulb", () -> new LightbulbBlock());
+	public static final RegistryObject<Block> LIGHTBULBON = REGISTRY.register("lightbulbon", () -> new LightbulbonBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

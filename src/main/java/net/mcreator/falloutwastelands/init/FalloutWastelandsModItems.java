@@ -15,12 +15,14 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.falloutwastelands.item.WrenchItem;
+import net.mcreator.falloutwastelands.item.WonderglueItem;
 import net.mcreator.falloutwastelands.item.WineItem;
 import net.mcreator.falloutwastelands.item.WhiskeyItem;
 import net.mcreator.falloutwastelands.item.WastelandsItem;
 import net.mcreator.falloutwastelands.item.WastelandbrickitemItem;
 import net.mcreator.falloutwastelands.item.VodkaItem;
 import net.mcreator.falloutwastelands.item.VaultHullItem;
+import net.mcreator.falloutwastelands.item.VarmintRifleItem;
 import net.mcreator.falloutwastelands.item.VaccumTubeItem;
 import net.mcreator.falloutwastelands.item.UraniumNuggetItem;
 import net.mcreator.falloutwastelands.item.UraniumIngotItem;
@@ -56,6 +58,7 @@ import net.mcreator.falloutwastelands.item.RawAluminumItem;
 import net.mcreator.falloutwastelands.item.RaiderdusterItem;
 import net.mcreator.falloutwastelands.item.RaiderblastmasterItem;
 import net.mcreator.falloutwastelands.item.RaiderbasherItem;
+import net.mcreator.falloutwastelands.item.RaiderWarmongerItem;
 import net.mcreator.falloutwastelands.item.RadiactiveWasteItem;
 import net.mcreator.falloutwastelands.item.PsychoItem;
 import net.mcreator.falloutwastelands.item.PowerArmorFrameArmorItem;
@@ -100,6 +103,7 @@ import net.mcreator.falloutwastelands.item.GammaGulpBeerItem;
 import net.mcreator.falloutwastelands.item.FusionCoreItem;
 import net.mcreator.falloutwastelands.item.FivemmminigunItem;
 import net.mcreator.falloutwastelands.item.FivemmAmmoItem;
+import net.mcreator.falloutwastelands.item.FissionBatteryItem;
 import net.mcreator.falloutwastelands.item.FertilizerItem;
 import net.mcreator.falloutwastelands.item.EnergyCellItem;
 import net.mcreator.falloutwastelands.item.EnclaveofficierSuitItem;
@@ -107,6 +111,8 @@ import net.mcreator.falloutwastelands.item.EnclaveHullItem;
 import net.mcreator.falloutwastelands.item.EmptyNukaColaBottleItem;
 import net.mcreator.falloutwastelands.item.EmptyNeutronadeBottleItem;
 import net.mcreator.falloutwastelands.item.DentedCanItem;
+import net.mcreator.falloutwastelands.item.DeathclawhandItem;
+import net.mcreator.falloutwastelands.item.DeathclawGauntletItem;
 import net.mcreator.falloutwastelands.item.CramItem;
 import net.mcreator.falloutwastelands.item.CornItem;
 import net.mcreator.falloutwastelands.item.CopperwiresItem;
@@ -547,6 +553,17 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> ADOBE_BLOCK_SLAB = block(FalloutWastelandsModBlocks.ADOBE_BLOCK_SLAB);
 	public static final RegistryObject<Item> ADOBE_BLOCK_WALL = block(FalloutWastelandsModBlocks.ADOBE_BLOCK_WALL);
 	public static final RegistryObject<Item> WASTELAND_SAND_STONE = block(FalloutWastelandsModBlocks.WASTELAND_SAND_STONE);
+	public static final RegistryObject<Item> RAIDER_WARMONGER_HELMET = REGISTRY.register("raider_warmonger_helmet", () -> new RaiderWarmongerItem.Helmet());
+	public static final RegistryObject<Item> RAIDER_WARMONGER_CHESTPLATE = REGISTRY.register("raider_warmonger_chestplate", () -> new RaiderWarmongerItem.Chestplate());
+	public static final RegistryObject<Item> RAIDER_WARMONGER_LEGGINGS = REGISTRY.register("raider_warmonger_leggings", () -> new RaiderWarmongerItem.Leggings());
+	public static final RegistryObject<Item> RAIDER_WARMONGER_BOOTS = REGISTRY.register("raider_warmonger_boots", () -> new RaiderWarmongerItem.Boots());
+	public static final RegistryObject<Item> VARMINT_RIFLE = REGISTRY.register("varmint_rifle", () -> new VarmintRifleItem());
+	public static final RegistryObject<Item> DEATHCLAW_GAUNTLET = REGISTRY.register("deathclaw_gauntlet", () -> new DeathclawGauntletItem());
+	public static final RegistryObject<Item> LIGHTBULB = block(FalloutWastelandsModBlocks.LIGHTBULB);
+	public static final RegistryObject<Item> LIGHTBULBON = block(FalloutWastelandsModBlocks.LIGHTBULBON);
+	public static final RegistryObject<Item> DEATHCLAWHAND = REGISTRY.register("deathclawhand", () -> new DeathclawhandItem());
+	public static final RegistryObject<Item> WONDERGLUE = REGISTRY.register("wonderglue", () -> new WonderglueItem());
+	public static final RegistryObject<Item> FISSION_BATTERY = REGISTRY.register("fission_battery", () -> new FissionBatteryItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.falloutwastelands.client.model.Modeltfourtyfive;
 import net.mcreator.falloutwastelands.client.model.Modelt51b01f;
 import net.mcreator.falloutwastelands.client.model.Modelroadleather02;
+import net.mcreator.falloutwastelands.client.model.Modelraiderwarmongerarmor;
 import net.mcreator.falloutwastelands.client.model.Modellaserriflebeam;
 import net.mcreator.falloutwastelands.client.model.Modelgunshot;
 import net.mcreator.falloutwastelands.client.model.Modelenclaveofficeruniform;
@@ -28,6 +29,7 @@ public class FalloutWastelandsModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelblastmasterraiderarmor.LAYER_LOCATION, Modelblastmasterraiderarmor::createBodyLayer);
+		event.registerLayerDefinition(Modelraiderwarmongerarmor.LAYER_LOCATION, Modelraiderwarmongerarmor::createBodyLayer);
 		event.registerLayerDefinition(Modelt51b01f.LAYER_LOCATION, Modelt51b01f::createBodyLayer);
 		event.registerLayerDefinition(Modelbrahmin.LAYER_LOCATION, Modelbrahmin::createBodyLayer);
 		event.registerLayerDefinition(ModelBighorn.LAYER_LOCATION, ModelBighorn::createBodyLayer);

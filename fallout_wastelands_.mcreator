@@ -12802,6 +12802,245 @@
         ]
       },
       "path": "~/loottable"
+    },
+    {
+      "name": "RaiderWarmonger",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raider_warmonger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/raider_warmonger_leggings.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/raider_warmonger_chestplate.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/RaiderWarmongerItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/raider_warmonger_helmet.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/raider_warmonger_boots.json"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "VarmintRifle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "varmint_rifle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/varmint_rifle.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/VarmintRifleItem.java"
+        ]
+      },
+      "path": "~/Weapons/Guns/VarmintRifle"
+    },
+    {
+      "name": "VarmintRifleReload",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "varmint_rifle_reload",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/VarmintRifleReloadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Weapons/Guns/VarmintRifle"
+    },
+    {
+      "name": "ShootVarmintRifle",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shoot_varmint_rifle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/ShootVarmintRifleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Weapons/Guns/VarmintRifle"
+    },
+    {
+      "name": "DeathclawGauntlet",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathclaw_gauntlet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/DeathclawGauntletItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/deathclaw_gauntlet.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Lightbulb",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbulb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/lightbulb.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/LightbulbBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/lightbulb.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/lightbulb.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/lightbulb.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Lightbulbon",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbulbon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/lightbulbon.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/lightbulbon.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/lightbulbon.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/lightbulbon.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/LightbulbonBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LightbulbonOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbulbon_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/LightbulbonOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Deathclawhand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathclawhand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/deathclawhand.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/DeathclawhandItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Wonderglue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wonderglue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/wonderglue.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/WonderglueItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FissionBattery",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fission_battery",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/FissionBatteryItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/fission_battery.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FissionBatteriecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fission_batteriecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/fission_batteriecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -12932,16 +13171,19 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs"
+    ],
+    "BLOCKS:minecraft:sand": [
+      "CUSTOM:WasteSand"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -12953,9 +13195,6 @@
       "CUSTOM:Nailgun",
       "CUSTOM:Chinesepistol",
       "CUSTOM:Fivemmminigun"
-    ],
-    "BLOCKS:minecraft:sand": [
-      "CUSTOM:WasteSand"
     ],
     "ITEMS:minecraft:wooden_stairs": [
       "CUSTOM:Molder_WoodStairs"
@@ -13103,6 +13342,7 @@
       "~CUSTOM:WastelandConcreteStairs"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:DeathclawGauntlet",
       "~CUSTOM:BaseballClub",
       "~CUSTOM:BaseballBat",
       "~CUSTOM:CattleRod",
@@ -13249,6 +13489,8 @@
       "CUSTOM:WastelandCobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Lightbulbon",
+      "~CUSTOM:Lightbulb",
       "~CUSTOM:WastelandSandStone",
       "~CUSTOM:AdobeBlockWall",
       "~CUSTOM:AdobeBlockSlab",
@@ -13533,14 +13775,15 @@
   "language_map": {
     "en_us": {
       "item.fallout_wastelands_.tenmmpistol": "10mm Pistol",
-      "block.fallout_wastelands_.bo_s_tile": "Bos Tile",
       "block.fallout_wastelands_.linedconcrete": "Concrete",
+      "block.fallout_wastelands_.bo_s_tile": "Bos Tile",
       "item.fallout_wastelands_.brahim_meat": "Brahim Meat",
       "block.fallout_wastelands_.metal_shelf": "Metal Shelf",
       "subtitles.ninemmshot": "",
       "key.fallout_wastelands_.player_presses_esc": "Player Closes Inventory",
       "item.fallout_wastelands_.copperwires": "Copper Wires",
       "block.fallout_wastelands_.double_scaffold_block": "Double Scaffold Block",
+      "item.fallout_wastelands_.deathclawhand": "Deathclaw Hand",
       "block.fallout_wastelands_.wasteland_brick": "Wasteland Bricks",
       "block.fallout_wastelands_.tire_stack": "Tire Stack",
       "gui.fallout_wastelands_.base_menu_ui.label_inventory": "Inventory",
@@ -13563,9 +13806,9 @@
       "item.fallout_wastelands_.jerrican": "Jerrican",
       "item.fallout_wastelands_.roentgen_rum": "Roentgen Rum",
       "item.fallout_wastelands_.raw_lead": "Raw Lead",
-      "item.fallout_wastelands_.vodka": "Vodka",
-      "block.fallout_wastelands_.wastelandburntgrass": "Wasteland Burnt Grass",
       "item.fallout_wastelands_.enclaveofficier_suit_helmet": "Enclave Cap",
+      "block.fallout_wastelands_.wastelandburntgrass": "Wasteland Burnt Grass",
+      "item.fallout_wastelands_.vodka": "Vodka",
       "item.fallout_wastelands_.enclaveofficier_suit_boots": "Enclave Boots",
       "item.fallout_wastelands_.cannibal_00_spawn_egg": "Cannibal Spawn Egg",
       "block.fallout_wastelands_.single_scaffold_block": "Scaffold Block",
@@ -13580,10 +13823,10 @@
       "block.fallout_wastelands_.molder_wood_log": "Molder Wood Log",
       "biome.fallout_wastelands_.wasteland_dryland": "Wasteland Dryland",
       "block.fallout_wastelands_.enclave_bunker_block": "Enclave Bunker Block",
-      "block.fallout_wastelands_.vault_floor": "Vault Floor",
       "block.fallout_wastelands_.aluminum_block": "Aluminum Block",
-      "item.fallout_wastelands_.mug": "Mug",
+      "block.fallout_wastelands_.vault_floor": "Vault Floor",
       "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
+      "item.fallout_wastelands_.mug": "Mug",
       "block.fallout_wastelands_.steel_bars": "Steel Bars",
       "block.fallout_wastelands_.wasteland_road_white_slab": "White Wasteland Asphalt Slab",
       "item.fallout_wastelands_.raiderbasher_helmet": "Raider Basher Helmet",
@@ -13595,8 +13838,8 @@
       "block.fallout_wastelands_.industrial_plating": "Industrial Plating",
       "block.fallout_wastelands_.horizontallinedconcrete": "Concrete",
       "item.fallout_wastelands_.test_weapon": "Test Weapon",
-      "item.fallout_wastelands_.gecko_egg": "Gecko Egg",
       "block.fallout_wastelands_.hardconcrete": "Hard Concrete Block",
+      "item.fallout_wastelands_.gecko_egg": "Gecko Egg",
       "item.fallout_wastelands_.raiderblastmaster_helmet": "Raider Blastmaster Helmet",
       "item.fallout_wastelands_.blastmaster_raider_spawn_egg": "Raider Blastmaster Spawn Egg",
       "block.fallout_wastelands_.adobe_stairs": "Adobe Block Stairs",
@@ -13604,8 +13847,8 @@
       "block.fallout_wastelands_.military_plating_walkway": "Military Plating Walkway",
       "item.fallout_wastelands_.gamma_gulp_beer": "Gamma Gulp Beer",
       "block.fallout_wastelands_.slab_wasteland_cobblestone": "Wasteland Cobblestone Slab",
-      "block.fallout_wastelands_.wirefence": "Wire Fence",
       "item.fallout_wastelands_.brahmin_spawn_egg": "Brahmin Spawn Egg",
+      "block.fallout_wastelands_.wirefence": "Wire Fence",
       "block.fallout_wastelands_.bos_metal_plating_lighted": "Bos Lighted Plating",
       "block.fallout_wastelands_.bo_s_grid_floor_stairs": "Bos Grid Floor Stairs",
       "block.fallout_wastelands_.red_painted_planks": "Red Painted Planks",
@@ -13633,13 +13876,14 @@
       "subtitles.nailpistolshot": "",
       "block.fallout_wastelands_.vault_wall_curved": "Curved Vault Wall",
       "block.fallout_wastelands_.bos_steel_slabs": "Bos Metal Slab",
-      "block.fallout_wastelands_.bos_steel_block": "Bos Metal Plating",
       "item.fallout_wastelands_.raw_aluminum": "Raw Aluminum",
+      "block.fallout_wastelands_.bos_steel_block": "Bos Metal Plating",
+      "item.fallout_wastelands_.raider_warmonger_helmet": "Raider Warmonger Mask",
       "item.fallout_wastelands_.energy_cell": "Microfusion Cell",
       "item.fallout_wastelands_.whiskey": "Whiskey",
       "item.fallout_wastelands_.power_armor_frame_armor_helmet": "Power Armor Frame",
-      "gui.fallout_wastelands_.base_menu_ui.NameInput": "Name",
       "block.fallout_wastelands_.industrial_support": "Industrial Support",
+      "gui.fallout_wastelands_.base_menu_ui.NameInput": "Name",
       "block.fallout_wastelands_.wasteland_concrete_stairs": "Concrete Stairs",
       "item.fallout_wastelands_.military_hull": "Military Hull",
       "block.fallout_wastelands_.military_metal_door": "Military Metal Door",
@@ -13654,9 +13898,9 @@
       "block.fallout_wastelands_.molder_wood_planks": "Molder Wood Planks",
       "block.fallout_wastelands_.wastelandgrassbush": "Wasteland Bush",
       "block.fallout_wastelands_.television": "Television",
-      "block.fallout_wastelands_.grey_industrial_allowmidrivet": "Industrial Alloy (mid rivet)",
-      "item.fallout_wastelands_.nail": "Nail",
       "block.fallout_wastelands_.roof_metal": "Roof Sheet Metal Block",
+      "item.fallout_wastelands_.nail": "Nail",
+      "block.fallout_wastelands_.grey_industrial_allowmidrivet": "Industrial Alloy (mid rivet)",
       "item.fallout_wastelands_.scotch": "Scotch",
       "block.fallout_wastelands_.wasteland_brickslab": "Wasteland Brick Slab",
       "item.fallout_wastelands_.motherboard": "Motherboard",
@@ -13664,6 +13908,7 @@
       "gui.fallout_wastelands_.base_menu_ui.label_done1": "Done",
       "gui.fallout_wastelands_.base_menu_ui.label_done2": "Done",
       "block.fallout_wastelands_.industrial_alloy_stair": "Industrial Alloy Stair",
+      "item.fallout_wastelands_.wonderglue": "Wonderglue",
       "item.fallout_wastelands_.tiningot": "Tin Ingot",
       "block.fallout_wastelands_.industrial_alloy_slab": "Industrial Alloy Slab",
       "block.fallout_wastelands_.wasteland_cracked_brick": "Wasteland Cracked Bricks",
@@ -13671,7 +13916,7 @@
       "block.fallout_wastelands_.grey_industrial_alloy": "Industrial Alloy (upper rivet)",
       "block.fallout_wastelands_.wastelandironore": "Wasteland Iron Ore",
       "block.fallout_wastelands_.military_plating_walkway_slab": "Military Plating Walkway Slab",
-      "block.fallout_wastelands_.blasted_glass": "Blasted Glass Block",
+      "block.fallout_wastelands_.blasted_glass": "Blasted Windows",
       "block.fallout_wastelands_.oxidized_metal_stair": "Oxidized Metal Stair",
       "item.fallout_wastelands_.taloncombatarmor_helmet": "Talon Combat Armor Helmet",
       "item.fallout_wastelands_.sugar_bombs": "Sugar Bombs",
@@ -13705,6 +13950,7 @@
       "item.fallout_wastelands_.ninemmpistol": "9mm Pistol",
       "block.fallout_wastelands_.strippedmolderwoodlog": "Stripped Molder Wood Log",
       "block.fallout_wastelands_.steel_pole": "Steel Pole ",
+      "item.fallout_wastelands_.fission_battery": "Fission Batterie",
       "block.fallout_wastelands_.trash_bin": "Trash Bin",
       "item.fallout_wastelands_.bloat_fly_meat": "Bloatfly Meat",
       "block.fallout_wastelands_.molder_wood_fence": "Molder Fence",
@@ -13740,6 +13986,7 @@
       "item.fallout_wastelands_.scrapmetal": "Scrap Metal",
       "item.fallout_wastelands_.aluminum_ingot": "Aluminium Ingot",
       "item.fallout_wastelands_.fertilizer": "Fertilizer",
+      "item.fallout_wastelands_.raider_warmonger_leggings": "Raider Warmonger Pants",
       "key.fallout_wastelands_.gun_reload_keybind": "Fallout Wastelands: Gun Reload",
       "block.fallout_wastelands_.wastelandtilesstairs": "Wasteland Tiles",
       "block.fallout_wastelands_.wastelandpebble": "Wasteland Pebbles",
@@ -13771,6 +14018,7 @@
       "block.fallout_wastelands_.steel_block": "Steel Block",
       "item.fallout_wastelands_.psycho": "Psycho",
       "block.fallout_wastelands_.wasteland_road_yellow": "Yellow Wasteland Asphalt",
+      "item.fallout_wastelands_.raider_warmonger_chestplate": "Raider Warmonger Chestplate",
       "block.fallout_wastelands_.wasteland_bricks_stairs": "Wasteland Bricks Stairs",
       "block.fallout_wastelands_.gore": "Gore",
       "block.fallout_wastelands_.mixer": "Mixer",
@@ -13817,6 +14065,7 @@
       "item.fallout_wastelands_.advanced_motherboard": "Advanced Motherboard",
       "item.fallout_wastelands_.ripper": "Ripper",
       "item.fallout_wastelands_.antiradclothing": "Anti-rad Clothing",
+      "block.fallout_wastelands_.lightbulbon": "Lightbulb",
       "item.fallout_wastelands_.asbestos": "Asbestos",
       "item.fallout_wastelands_.vaccum_tube": "Vaccum Tube",
       "block.fallout_wastelands_.wasteland_brick_stairs": "Wasteland Brick Stairs",
@@ -13838,6 +14087,7 @@
       "block.fallout_wastelands_.industrial_alloy_vent": "Industrial Alloy Vent",
       "item.fallout_wastelands_.instamash": "Insta-mash",
       "block.fallout_wastelands_.bo_s_data_front_top": "BoS Data Block",
+      "item.fallout_wastelands_.deathclaw_gauntlet": "Deathclaw Gauntlet",
       "item.fallout_wastelands_.mirelurkmeat": "Mirelurk Meat",
       "block.fallout_wastelands_.molder_wood_wood": "Molder Log Wood",
       "block.fallout_wastelands_.wastelandredstoneore": "Wasteland Redstone Ore",
@@ -13869,6 +14119,7 @@
       "item.fallout_wastelands_.coffepot": "Coffe Pot",
       "block.fallout_wastelands_.scaffolding_walkway_stairs": "Scaffolding Walkway Stairs",
       "item.fallout_wastelands_.power_armor_frame_armor_leggings": "Power Armor Frame",
+      "block.fallout_wastelands_.lightbulb": "Lightbulb",
       "block.fallout_wastelands_.grey_tiles": "Grey Tile",
       "block.fallout_wastelands_.adobe_block": "Adobe Block",
       "block.fallout_wastelands_.wasteland_concrete_wall": "Concrete Wall",
@@ -13929,6 +14180,7 @@
       "block.fallout_wastelands_.metal_chair": "Metal Chair",
       "block.fallout_wastelands_.sheetmetalblock": "Sheet Metal Block",
       "block.fallout_wastelands_.industrial_walkway": "Industrial Alloy",
+      "item.fallout_wastelands_.raider_warmonger_boots": "Raider Warmonger Shoes",
       "block.fallout_wastelands_.wastelandhardstone": "Wasteland Hard Stone",
       "item.fallout_wastelands_.chicago_omelette": "Chicago Omelette",
       "block.fallout_wastelands_.lead_ore": "Lead Ore",
@@ -13942,6 +14194,7 @@
       "item.fallout_wastelands_.raiderblastmaster_leggings": "Raider Blastmaster Loincloth",
       "block.fallout_wastelands_.exposed_rust_block": "Exposed Rust Block",
       "item.fallout_wastelands_.road_leather_leggings": "Road Leather Pants",
+      "item.fallout_wastelands_.varmint_rifle": "Varmint Rifle",
       "block.fallout_wastelands_.grey_industrial_alloybottomrivet": "Industrial Alloy (bottom rivet)",
       "block.fallout_wastelands_.bos_metal_plating": "Bos Metal Plating",
       "item.fallout_wastelands_.hachet": "Hachet",
@@ -14012,7 +14265,12 @@
       },
       {
         "name": "Tags",
-        "children": []
+        "children": [
+          {
+            "name": "Structures",
+            "children": []
+          }
+        ]
       },
       {
         "name": "B.A.S.E",
@@ -14071,6 +14329,10 @@
               {
                 "name": "5mmMinigun",
                 "children": []
+              },
+              {
+                "name": "VarmintRifle",
+                "children": []
               }
             ]
           }
@@ -14098,10 +14360,6 @@
       },
       {
         "name": "loottable",
-        "children": []
-      },
-      {
-        "name": "Structures",
         "children": []
       },
       {
