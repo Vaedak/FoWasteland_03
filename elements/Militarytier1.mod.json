@@ -6,7 +6,7 @@
     "pools": [
       {
         "minrolls": 0,
-        "maxrolls": 1,
+        "maxrolls": 9,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -16,9 +16,9 @@
             "item": {
               "value": "CUSTOM:Smallcalibercasing"
             },
-            "weight": 1,
+            "weight": 4,
             "minCount": 0,
-            "maxCount": 1,
+            "maxCount": 5,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -30,9 +30,9 @@
             "item": {
               "value": "CUSTOM:Heavycalibercasing"
             },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
+            "weight": 2,
+            "minCount": 0,
+            "maxCount": 4,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -44,9 +44,9 @@
             "item": {
               "value": "CUSTOM:HuntingCasing"
             },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
+            "weight": 3,
+            "minCount": 0,
+            "maxCount": 6,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -56,10 +56,10 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:EnergyCell"
+              "value": "CUSTOM:Ripper"
             },
-            "weight": 2,
-            "minCount": 1,
+            "weight": 1,
+            "minCount": 0,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
@@ -70,16 +70,16 @@
         ]
       },
       {
-        "minrolls": 1,
-        "maxrolls": 5,
-        "minbonusrolls": 0,
-        "maxbonusrolls": 2,
-        "hasbonusrolls": true,
+        "minrolls": 0,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
         "entries": [
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Tenmmammo"
+              "value": "CUSTOM:Combatarmor.helmet"
             },
             "weight": 1,
             "minCount": 1,
@@ -93,21 +93,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Ninemmammo"
-            },
-            "weight": 3,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:FivemmAmmo"
+              "value": "CUSTOM:Combatarmor.body"
             },
             "weight": 1,
             "minCount": 1,
@@ -121,7 +107,21 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Thirtytwoammo"
+              "value": "CUSTOM:Combatarmor.legs"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Combatarmor.boots"
             },
             "weight": 1,
             "minCount": 1,

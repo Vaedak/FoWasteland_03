@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WasteSand"
+      },
+      {
+        "value": "CUSTOM:Wastelandgravel"
+      },
+      {
+        "value": "CUSTOM:WasteSand"
+      },
+      {
+        "value": "CUSTOM:Wastelandgravel"
+      },
+      {
+        "value": "CUSTOM:WasteSand"
+      },
+      {
+        "value": "CUSTOM:Wastelandgravel"
+      },
+      {
+        "value": "CUSTOM:WasteSand"
+      },
+      {
+        "value": "CUSTOM:Wastelandgravel"
+      },
+      {
+        "value": "CUSTOM:WasteSand"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AdobeBlock"
+    },
+    "name": "adobe_block_craft",
+    "namespace": "mod"
+  }
+}

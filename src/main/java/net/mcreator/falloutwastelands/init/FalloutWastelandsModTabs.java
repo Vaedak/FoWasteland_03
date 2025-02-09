@@ -250,6 +250,12 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_BOTTOM.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_MIDDLE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BO_S_DATA_FRONT_TOP.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ADOBE_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ADOBE_BLOCK_WALL.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_SAND_STONE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ADOBE_BLOCK_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LIGHTBULB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ADOBE_BLOCK.get().asItem());
 			})
 
 					.build());
@@ -315,6 +321,16 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.CATTLE_ROD.get());
 				tabData.accept(FalloutWastelandsModItems.BASEBALL_BAT.get());
 				tabData.accept(FalloutWastelandsModItems.BASEBALL_CLUB.get());
+				tabData.accept(FalloutWastelandsModItems.VARMINT_RIFLE.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVEOFFICIER_SUIT_HELMET.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVEOFFICIER_SUIT_CHESTPLATE.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVEOFFICIER_SUIT_LEGGINGS.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVEOFFICIER_SUIT_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.RAIDER_WARMONGER_HELMET.get());
+				tabData.accept(FalloutWastelandsModItems.RAIDER_WARMONGER_CHESTPLATE.get());
+				tabData.accept(FalloutWastelandsModItems.RAIDER_WARMONGER_LEGGINGS.get());
+				tabData.accept(FalloutWastelandsModItems.RAIDER_WARMONGER_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.DEATHCLAW_GAUNTLET.get());
 			})
 
 					.build());
@@ -405,6 +421,9 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.ROENTGEN_RUM.get());
 				tabData.accept(FalloutWastelandsModItems.ABSINTHE.get());
 				tabData.accept(FalloutWastelandsModItems.VODKA.get());
+				tabData.accept(FalloutWastelandsModItems.FISSION_BATTERY.get());
+				tabData.accept(FalloutWastelandsModItems.WONDERGLUE.get());
+				tabData.accept(FalloutWastelandsModItems.DEATHCLAWHAND.get());
 			})
 
 					.build());

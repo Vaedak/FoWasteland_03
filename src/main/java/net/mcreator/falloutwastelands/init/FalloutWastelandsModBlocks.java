@@ -45,6 +45,7 @@ import net.mcreator.falloutwastelands.block.WastelandcoaloreBlock;
 import net.mcreator.falloutwastelands.block.WastelandburntgrassBlock;
 import net.mcreator.falloutwastelands.block.WastelandbricksBlock;
 import net.mcreator.falloutwastelands.block.WastelandStoneBlock;
+import net.mcreator.falloutwastelands.block.WastelandSandStoneBlock;
 import net.mcreator.falloutwastelands.block.WastelandRoadYellowSlabBlock;
 import net.mcreator.falloutwastelands.block.WastelandRoadYellowBlock;
 import net.mcreator.falloutwastelands.block.WastelandRoadWhiteSlabBlock;
@@ -158,6 +159,8 @@ import net.mcreator.falloutwastelands.block.MeltedIronBlockBlock;
 import net.mcreator.falloutwastelands.block.MedicalBoxBlock;
 import net.mcreator.falloutwastelands.block.LockerBlock;
 import net.mcreator.falloutwastelands.block.LinedconcreteBlock;
+import net.mcreator.falloutwastelands.block.LightbulbonBlock;
+import net.mcreator.falloutwastelands.block.LightbulbBlock;
 import net.mcreator.falloutwastelands.block.LightTubeBlock;
 import net.mcreator.falloutwastelands.block.LeadOreBlock;
 import net.mcreator.falloutwastelands.block.LeadBlockBlock;
@@ -248,6 +251,10 @@ import net.mcreator.falloutwastelands.block.BarbedWiresBlock;
 import net.mcreator.falloutwastelands.block.BASEcoreBlock;
 import net.mcreator.falloutwastelands.block.AmmoBoxBlock;
 import net.mcreator.falloutwastelands.block.AluminumBlockBlock;
+import net.mcreator.falloutwastelands.block.AdobeStairsBlock;
+import net.mcreator.falloutwastelands.block.AdobeBlockWallBlock;
+import net.mcreator.falloutwastelands.block.AdobeBlockSlabBlock;
+import net.mcreator.falloutwastelands.block.AdobeBlockBlock;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
 public class FalloutWastelandsModBlocks {
@@ -486,6 +493,13 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> BO_S_DATA_FRONT_BOTTOM = REGISTRY.register("bo_s_data_front_bottom", () -> new BoSDataFrontBottomBlock());
 	public static final RegistryObject<Block> BO_S_DATA_FRONT_MIDDLE = REGISTRY.register("bo_s_data_front_middle", () -> new BoSDataFrontMiddleBlock());
 	public static final RegistryObject<Block> BO_S_DATA_FRONT_TOP = REGISTRY.register("bo_s_data_front_top", () -> new BoSDataFrontTopBlock());
+	public static final RegistryObject<Block> ADOBE_STAIRS = REGISTRY.register("adobe_stairs", () -> new AdobeStairsBlock());
+	public static final RegistryObject<Block> ADOBE_BLOCK_WALL = REGISTRY.register("adobe_block_wall", () -> new AdobeBlockWallBlock());
+	public static final RegistryObject<Block> WASTELAND_SAND_STONE = REGISTRY.register("wasteland_sand_stone", () -> new WastelandSandStoneBlock());
+	public static final RegistryObject<Block> ADOBE_BLOCK_SLAB = REGISTRY.register("adobe_block_slab", () -> new AdobeBlockSlabBlock());
+	public static final RegistryObject<Block> LIGHTBULBON = REGISTRY.register("lightbulbon", () -> new LightbulbonBlock());
+	public static final RegistryObject<Block> LIGHTBULB = REGISTRY.register("lightbulb", () -> new LightbulbBlock());
+	public static final RegistryObject<Block> ADOBE_BLOCK = REGISTRY.register("adobe_block", () -> new AdobeBlockBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

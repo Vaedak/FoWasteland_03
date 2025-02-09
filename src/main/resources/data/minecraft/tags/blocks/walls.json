@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:adobe_block_wall",
     "fallout_wastelands_:worn_metal_pillar",
     "fallout_wastelands_:wasteland_concrete_wall",
     "fallout_wastelands_:wall_wasteland_cobblestone",

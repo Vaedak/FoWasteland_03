@@ -1,0 +1,7 @@
+{
+  "parent": "fallout_wastelands_:custom/varmintrifle",
+  "textures": {
+    "0": "fallout_wastelands_:block/varmintrifle",
+    "particle": "fallout_wastelands_:item/varmintrifle"
+  }
+}

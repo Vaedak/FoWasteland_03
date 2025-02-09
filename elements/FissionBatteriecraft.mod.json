@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Copperwires"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Steelnugget"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "CUSTOM:Steelnugget"
+      },
+      {
+        "value": "CUSTOM:Steelnugget"
+      },
+      {
+        "value": "CUSTOM:Tiningot"
+      },
+      {
+        "value": "CUSTOM:Steelnugget"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FissionBattery"
+    },
+    "name": "fission_batteriecraft",
+    "namespace": "mod"
+  }
+}

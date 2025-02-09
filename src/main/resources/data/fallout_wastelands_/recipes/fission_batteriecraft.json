@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:copperwires"
+    },
+    "b": {
+      "item": "fallout_wastelands_:steelnugget"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "d": {
+      "item": "fallout_wastelands_:tiningot"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:deleted_mod_element",
+    "count": 2
+  }
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:adobe_block_slab",
     "fallout_wastelands_:bo_s_grid_floor_slab",
     "fallout_wastelands_:wasteland_road_white_slab",
     "fallout_wastelands_:wasteland_road_yellow_slab",

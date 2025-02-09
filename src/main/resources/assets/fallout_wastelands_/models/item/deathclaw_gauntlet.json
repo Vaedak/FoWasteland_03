@@ -1,0 +1,7 @@
+{
+  "parent": "fallout_wastelands_:custom/deathclawgauntlet",
+  "textures": {
+    "0": "fallout_wastelands_:block/deathclawgauntlet",
+    "particle": "fallout_wastelands_:item/deathclawgauntlet"
+  }
+}
