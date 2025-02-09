@@ -1,6 +1,10 @@
 package net.mcreator.falloutwastelands.entity.model;
 
-import software.bernie.geckolib.core.animation.AnimationState;
+import software.bernie.geckolib.model.GeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.falloutwastelands.entity.GeckoEntity;
 
 public class GeckoModel extends GeoModel<GeckoEntity> {
 	@Override

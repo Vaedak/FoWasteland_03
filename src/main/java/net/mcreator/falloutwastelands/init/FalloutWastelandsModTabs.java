@@ -338,6 +338,13 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.ROBCO_REPAIRMAN_CHESTPLATE.get());
 				tabData.accept(FalloutWastelandsModItems.ROBCO_REPAIRMAN_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.ROBCO_REPAIRMAN_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.HANDYMAN_SUIT_HELMET.get());
+				tabData.accept(FalloutWastelandsModItems.HANDYMAN_SUIT_CHESTPLATE.get());
+				tabData.accept(FalloutWastelandsModItems.HANDYMAN_SUIT_LEGGINGS.get());
+				tabData.accept(FalloutWastelandsModItems.HANDYMAN_SUIT_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.ARMY_REPAIRMAN_SUIT_CHESTPLATE.get());
+				tabData.accept(FalloutWastelandsModItems.ARMY_REPAIRMAN_SUIT_LEGGINGS.get());
+				tabData.accept(FalloutWastelandsModItems.ARMY_REPAIRMAN_SUIT_BOOTS.get());
 			})
 
 					.build());
@@ -445,6 +452,7 @@ public class FalloutWastelandsModTabs {
 			tabData.accept(FalloutWastelandsModItems.RAIDERSCAVANGER_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.BRAHMIN_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.GECKO_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.LOBOTOMITE_WALKER_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

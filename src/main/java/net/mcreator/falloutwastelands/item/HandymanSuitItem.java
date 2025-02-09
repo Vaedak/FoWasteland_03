@@ -26,8 +26,8 @@ import java.util.function.Consumer;
 import java.util.Map;
 import java.util.Collections;
 
-public abstract class RobcoRepairmanItem extends ArmorItem {
-	public RobcoRepairmanItem(ArmorItem.Type type, Item.Properties properties) {
+public abstract class HandymanSuitItem extends ArmorItem {
+	public HandymanSuitItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
@@ -36,7 +36,7 @@ public abstract class RobcoRepairmanItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{1, 1, 1, 0}[type.getSlot().getIndex()];
+				return new int[]{1, 1, 1, 1}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -56,7 +56,7 @@ public abstract class RobcoRepairmanItem extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "robco_repairman";
+				return "handyman_suit";
 			}
 
 			@Override
@@ -71,7 +71,36 @@ public abstract class RobcoRepairmanItem extends ArmorItem {
 		}, type, properties);
 	}
 
-	public static class Chestplate extends RobcoRepairmanItem {
+	public static class Helmet extends HandymanSuitItem {
+		public Helmet() {
+			super(ArmorItem.Type.HELMET, new Item.Properties());
+		}
+
+		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
+				@Override
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
+							Map.of("head", new ModelLobotomite(Minecraft.getInstance().getEntityModels().bakeLayer(ModelLobotomite.LAYER_LOCATION)).Head, "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
+		}
+
+		@Override
+		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+			return "fallout_wastelands_:textures/models/armor/handyman_layer_1.png";
+		}
+	}
+
+	public static class Chestplate extends HandymanSuitItem {
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
@@ -96,11 +125,11 @@ public abstract class RobcoRepairmanItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/models/armor/robcorepairman_layer_1.png";
+			return "fallout_wastelands_:textures/models/armor/handyman_layer_1.png";
 		}
 	}
 
-	public static class Leggings extends RobcoRepairmanItem {
+	public static class Leggings extends HandymanSuitItem {
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
@@ -126,11 +155,11 @@ public abstract class RobcoRepairmanItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/models/armor/robcorepairman_layer_2.png";
+			return "fallout_wastelands_:textures/models/armor/handyman_layer_2.png";
 		}
 	}
 
-	public static class Boots extends RobcoRepairmanItem {
+	public static class Boots extends HandymanSuitItem {
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
@@ -156,7 +185,7 @@ public abstract class RobcoRepairmanItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/models/armor/robcorepairman_layer_1.png";
+			return "fallout_wastelands_:textures/models/armor/handyman_layer_1.png";
 		}
 	}
 }

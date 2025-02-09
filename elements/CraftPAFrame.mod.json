@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "CUSTOM:MilitaryHull"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "CUSTOM:MilitaryHull"
       },
       {
         "value": "CUSTOM:SteelBlock"
       },
       {
-        "value": "Blocks.REDSTONE_BLOCK"
+        "value": "CUSTOM:AdvancedMotor"
       },
       {
         "value": "CUSTOM:SteelBlock"
       },
       {
-        "value": "Blocks.PISTON"
+        "value": "CUSTOM:Motor"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Copperwires"
       },
       {
-        "value": "Blocks.PISTON"
+        "value": "CUSTOM:Motor"
       }
     ],
     "recipeReturnStack": {

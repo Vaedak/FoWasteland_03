@@ -2489,7 +2489,6 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/client/renderer/Cannibal00Renderer.java",
           "src/main/java/net/mcreator/falloutwastelands/entity/Cannibal00Entity.java",
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/cannibal_00_biome_modifier.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/cannibal_00_spawn_egg.json"
         ]
       },
@@ -6901,8 +6900,7 @@
           "src/main/java/net/mcreator/falloutwastelands/entity/PowerArmorFrameEntity.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_spawn_egg.json"
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PowerArmorFrameGUI",
@@ -6916,8 +6914,7 @@
           "src/main/java/net/mcreator/falloutwastelands/network/PowerArmorFrameGUIButtonMessage.java",
           "src/main/java/net/mcreator/falloutwastelands/world/inventory/PowerArmorFrameGUIMenu.java"
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PowerArmorFrameRightClicked",
@@ -6955,8 +6952,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PowerArmorFrameTickUpdate",
@@ -6990,8 +6986,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "FrameInitialSpawn",
@@ -7025,8 +7020,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "HelperProcedureGetFrameEntity",
@@ -7049,8 +7043,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PickupFrame",
@@ -7084,8 +7077,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "CheckIfRiding",
@@ -7103,8 +7095,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "DeleteArmorStandIfNotRiding",
@@ -7116,8 +7107,7 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/potion/DeleteArmorStandIfNotRidingMobEffect.java"
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "ExitPowerArmorKeyPressed",
@@ -7151,8 +7141,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "ExitPowerArmor",
@@ -7164,8 +7153,7 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/network/ExitPowerArmorMessage.java"
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PowerArmorFrameArmor",
@@ -7181,8 +7169,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_armor_boots.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_armor_chestplate.json"
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PowerArmorFrameGUIWhileThisGUIIsOpenTick",
@@ -7204,8 +7191,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PlayerInPowerArmor",
@@ -7239,8 +7225,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "FrameDroppedDelete",
@@ -7258,8 +7243,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PlayerPressE",
@@ -7277,8 +7261,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PlayerOpensInventory",
@@ -7290,8 +7273,7 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/network/PlayerOpensInventoryMessage.java"
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PlayerPressesESC",
@@ -7303,8 +7285,7 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/network/PlayerPressesESCMessage.java"
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "TurnOffFramecheck",
@@ -7322,8 +7303,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "FramePickedUp",
@@ -7345,8 +7325,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PlayerInteractWithBlockGUI",
@@ -7368,8 +7347,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PlayerInteractWIthEntity",
@@ -7391,8 +7369,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "SpawnInvisibleArmorStand",
@@ -7422,8 +7399,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "ReplacepaFrames",
@@ -7457,8 +7433,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "T45PA",
@@ -8012,8 +7987,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PAFrameItemRightclicked",
@@ -8047,8 +8021,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PAFrameItem",
@@ -8061,8 +8034,7 @@
           "src/main/java/net/mcreator/falloutwastelands/item/PAFrameItemItem.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/pa_frame_item.json"
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PlayerDiesInPA",
@@ -8096,8 +8068,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "PADisplayEntity",
@@ -8111,8 +8082,7 @@
           "src/main/java/net/mcreator/falloutwastelands/client/renderer/PADisplayEntityRenderer.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/pa_display_entity_spawn_egg.json"
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "CraftPAFrame",
@@ -8124,8 +8094,7 @@
         "files": [
           "src/main/resources/data/fallout_wastelands_/recipes/craft_pa_frame.json"
         ]
-      },
-      "path": "~/Armors/PowerArmor"
+      }
     },
     {
       "name": "F",
@@ -13109,7 +13078,12 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/procedures/FusionCoreItemIsDroppedByPlayerProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/PowerArmor"
     },
@@ -13173,6 +13147,10 @@
           "src/main/java/net/mcreator/falloutwastelands/procedures/PlayerPicksUpCoreProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "itemstack",
             "type": "itemstack"
@@ -13248,6 +13226,55 @@
         ]
       },
       "path": "~/PowerArmor"
+    },
+    {
+      "name": "HandymanSuit",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handyman_suit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/handyman_suit_chestplate.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/handyman_suit_boots.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/handyman_suit_helmet.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/handyman_suit_leggings.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/HandymanSuitItem.java"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "ArmyRepairmanSuit",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "army_repairman_suit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/army_repairman_suit_leggings.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/army_repairman_suit_chestplate.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/army_repairman_suit_boots.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/ArmyRepairmanSuitItem.java"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "LobotomiteWalker",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lobotomite_walker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/LobotomiteWalkerRenderer.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/LobotomiteWalkerEntity.java",
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/lobotomite_walker_biome_modifier.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/lobotomite_walker_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -13384,19 +13411,16 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "BLOCKS:minecraft:replaceable": [
-      "~CUSTOM:Wastelandpebble",
-      "~CUSTOM:Wastelandshortburntgrass",
-      "~CUSTOM:Wastelandburntgrass",
-      "~CUSTOM:Wastelandgrassbush"
-    ],
     "ITEMS:mod:pa_leggings": [
       "CUSTOM:T45PA.legs",
       "CUSTOM:PowerArmorFrameArmor.legs",
       "CUSTOM:T51bPA.legs"
     ],
-    "BLOCKS:minecraft:sand": [
-      "CUSTOM:WasteSand"
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Wastelandpebble",
+      "~CUSTOM:Wastelandshortburntgrass",
+      "~CUSTOM:Wastelandburntgrass",
+      "~CUSTOM:Wastelandgrassbush"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -13408,6 +13432,9 @@
       "CUSTOM:Nailgun",
       "CUSTOM:Chinesepistol",
       "CUSTOM:Fivemmminigun"
+    ],
+    "BLOCKS:minecraft:sand": [
+      "CUSTOM:WasteSand"
     ],
     "ITEMS:minecraft:wooden_stairs": [
       "CUSTOM:Molder_WoodStairs"
@@ -13988,13 +14015,14 @@
   "language_map": {
     "en_us": {
       "item.fallout_wastelands_.tenmmpistol": "10mm Pistol",
-      "block.fallout_wastelands_.linedconcrete": "Concrete",
       "block.fallout_wastelands_.bo_s_tile": "Bos Tile",
+      "block.fallout_wastelands_.linedconcrete": "Concrete",
       "item.fallout_wastelands_.brahim_meat": "Brahim Meat",
       "block.fallout_wastelands_.metal_shelf": "Metal Shelf",
       "subtitles.ninemmshot": "",
       "key.fallout_wastelands_.player_presses_esc": "Player Closes Inventory",
       "item.fallout_wastelands_.copperwires": "Copper Wires",
+      "entity.fallout_wastelands_.lobotomite_walker": "Lobotomite Walker",
       "block.fallout_wastelands_.double_scaffold_block": "Double Scaffold Block",
       "item.fallout_wastelands_.deathclawhand": "Deathclaw Hand",
       "block.fallout_wastelands_.wasteland_brick": "Wasteland Bricks",
@@ -14017,15 +14045,18 @@
       "item.fallout_wastelands_.empty_nuka_cola_bottle": "Empty Nuka Cola Bottle",
       "item.fallout_wastelands_.cattle_rod": "Cattle Prod",
       "item.fallout_wastelands_.jerrican": "Jerrican",
+      "item.fallout_wastelands_.lobotomite_suit_leggings": "Lobotomite Pants",
       "item.fallout_wastelands_.roentgen_rum": "Roentgen Rum",
       "item.fallout_wastelands_.raw_lead": "Raw Lead",
-      "item.fallout_wastelands_.enclaveofficier_suit_helmet": "Enclave Cap",
-      "block.fallout_wastelands_.wastelandburntgrass": "Wasteland Burnt Grass",
       "item.fallout_wastelands_.vodka": "Vodka",
+      "block.fallout_wastelands_.wastelandburntgrass": "Wasteland Burnt Grass",
+      "item.fallout_wastelands_.enclaveofficier_suit_helmet": "Enclave Cap",
       "item.fallout_wastelands_.enclaveofficier_suit_boots": "Enclave Boots",
       "item.fallout_wastelands_.cannibal_00_spawn_egg": "Cannibal Spawn Egg",
       "block.fallout_wastelands_.single_scaffold_block": "Scaffold Block",
+      "item.fallout_wastelands_.army_repairman_suit_chestplate": "Army Repairman Jacket",
       "item.fallout_wastelands_.industrialhammer": "Sledgehammer",
+      "item.fallout_wastelands_.handyman_suit_chestplate": "Handyman Jacket",
       "item.fallout_wastelands_.pa_display_entity_spawn_egg": "PA Display Entity Spawn Egg",
       "gui.fallout_wastelands_.base_menu_ui.label_varlocalvar": "DisplaysInputName",
       "block.fallout_wastelands_.bos_metal_roof_stairs": "Bos Metal Roof Stairs",
@@ -14036,10 +14067,10 @@
       "block.fallout_wastelands_.molder_wood_log": "Molder Wood Log",
       "biome.fallout_wastelands_.wasteland_dryland": "Wasteland Dryland",
       "block.fallout_wastelands_.enclave_bunker_block": "Enclave Bunker Block",
-      "block.fallout_wastelands_.aluminum_block": "Aluminum Block",
       "block.fallout_wastelands_.vault_floor": "Vault Floor",
-      "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
+      "block.fallout_wastelands_.aluminum_block": "Aluminum Block",
       "item.fallout_wastelands_.mug": "Mug",
+      "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
       "block.fallout_wastelands_.steel_bars": "Steel Bars",
       "block.fallout_wastelands_.wasteland_road_white_slab": "White Wasteland Asphalt Slab",
       "item.fallout_wastelands_.raiderbasher_helmet": "Raider Basher Helmet",
@@ -14051,8 +14082,8 @@
       "block.fallout_wastelands_.industrial_plating": "Industrial Plating",
       "block.fallout_wastelands_.horizontallinedconcrete": "Concrete",
       "item.fallout_wastelands_.test_weapon": "Test Weapon",
-      "block.fallout_wastelands_.hardconcrete": "Hard Concrete Block",
       "item.fallout_wastelands_.gecko_egg": "Gecko Egg",
+      "block.fallout_wastelands_.hardconcrete": "Hard Concrete Block",
       "item.fallout_wastelands_.raiderblastmaster_helmet": "Raider Blastmaster Helmet",
       "item.fallout_wastelands_.blastmaster_raider_spawn_egg": "Raider Blastmaster Spawn Egg",
       "block.fallout_wastelands_.adobe_stairs": "Adobe Block Stairs",
@@ -14060,8 +14091,8 @@
       "block.fallout_wastelands_.military_plating_walkway": "Military Plating Walkway",
       "item.fallout_wastelands_.gamma_gulp_beer": "Gamma Gulp Beer",
       "block.fallout_wastelands_.slab_wasteland_cobblestone": "Wasteland Cobblestone Slab",
-      "item.fallout_wastelands_.brahmin_spawn_egg": "Brahmin Spawn Egg",
       "block.fallout_wastelands_.wirefence": "Wire Fence",
+      "item.fallout_wastelands_.brahmin_spawn_egg": "Brahmin Spawn Egg",
       "block.fallout_wastelands_.bos_metal_plating_lighted": "Bos Lighted Plating",
       "block.fallout_wastelands_.bo_s_grid_floor_stairs": "Bos Grid Floor Stairs",
       "block.fallout_wastelands_.red_painted_planks": "Red Painted Planks",
@@ -14069,6 +14100,7 @@
       "block.fallout_wastelands_.ammo_box": "Ammo Box",
       "block.fallout_wastelands_.bos_steel_stair": "Bos Metal Stairs",
       "block.fallout_wastelands_.vault_vent": "Vault Vent",
+      "item.fallout_wastelands_.army_repairman_suit_boots": "Army Repairman Boots",
       "item.fallout_wastelands_.tire_iron": "Tire Iron",
       "item.fallout_wastelands_.human_brain": "Human Brain",
       "block.fallout_wastelands_.industrial_alloy_plain": "Industrial Alloy",
@@ -14089,20 +14121,21 @@
       "subtitles.nailpistolshot": "",
       "block.fallout_wastelands_.vault_wall_curved": "Curved Vault Wall",
       "block.fallout_wastelands_.bos_steel_slabs": "Bos Metal Slab",
-      "item.fallout_wastelands_.raw_aluminum": "Raw Aluminum",
       "block.fallout_wastelands_.bos_steel_block": "Bos Metal Plating",
+      "item.fallout_wastelands_.raw_aluminum": "Raw Aluminum",
       "item.fallout_wastelands_.raider_warmonger_helmet": "Raider Warmonger Mask",
       "item.fallout_wastelands_.energy_cell": "Microfusion Cell",
       "item.fallout_wastelands_.whiskey": "Whiskey",
       "item.fallout_wastelands_.power_armor_frame_armor_helmet": "Power Armor Frame",
-      "block.fallout_wastelands_.industrial_support": "Industrial Support",
       "gui.fallout_wastelands_.base_menu_ui.NameInput": "Name",
+      "block.fallout_wastelands_.industrial_support": "Industrial Support",
       "block.fallout_wastelands_.wasteland_concrete_stairs": "Concrete Stairs",
       "item.fallout_wastelands_.military_hull": "Military Hull",
       "block.fallout_wastelands_.military_metal_door": "Military Metal Door",
       "key.fallout_wastelands_.stop_reload": "Stop Reload",
       "block.fallout_wastelands_.charred_molder_fence": "Charred Molder Fence",
       "item.fallout_wastelands_.antiradsuit_boots": "Anti-Rad Suit Boots",
+      "item.fallout_wastelands_.lobotomite_walker_spawn_egg": "Lobotomite Walker Spawn Egg",
       "gui.fallout_wastelands_.locker_storage.label_locker": "Locker",
       "item.fallout_wastelands_.vault_hull": "Vault Hull",
       "block.fallout_wastelands_.wastelandtilesslab": "Wasteland Tiles",
@@ -14111,9 +14144,9 @@
       "block.fallout_wastelands_.molder_wood_planks": "Molder Wood Planks",
       "block.fallout_wastelands_.wastelandgrassbush": "Wasteland Bush",
       "block.fallout_wastelands_.television": "Television",
-      "block.fallout_wastelands_.roof_metal": "Roof Sheet Metal Block",
-      "item.fallout_wastelands_.nail": "Nail",
       "block.fallout_wastelands_.grey_industrial_allowmidrivet": "Industrial Alloy (mid rivet)",
+      "item.fallout_wastelands_.nail": "Nail",
+      "block.fallout_wastelands_.roof_metal": "Roof Sheet Metal Block",
       "item.fallout_wastelands_.scotch": "Scotch",
       "block.fallout_wastelands_.wasteland_brickslab": "Wasteland Brick Slab",
       "item.fallout_wastelands_.motherboard": "Motherboard",
@@ -14149,6 +14182,7 @@
       "block.fallout_wastelands_.wasteland_concrete_slab": "Concrete Slab",
       "item.fallout_wastelands_.road_leather_chestplate": "Road Leather Chestplate",
       "block.fallout_wastelands_.charred_molder_wood_plank": "Charred Molder Planks",
+      "item.fallout_wastelands_.handyman_suit_helmet": "Red Bandana",
       "block.fallout_wastelands_.tatoplant_3": "Tato Plant",
       "item.fallout_wastelands_.baseball_bat": "Baseball Bat",
       "block.fallout_wastelands_.medical_box": "Medical Stash",
@@ -14163,7 +14197,7 @@
       "item.fallout_wastelands_.ninemmpistol": "9mm Pistol",
       "block.fallout_wastelands_.strippedmolderwoodlog": "Stripped Molder Wood Log",
       "block.fallout_wastelands_.steel_pole": "Steel Pole ",
-      "item.fallout_wastelands_.fission_battery": "Fission Batterie",
+      "item.fallout_wastelands_.fission_battery": "Fission Battery",
       "block.fallout_wastelands_.trash_bin": "Trash Bin",
       "item.fallout_wastelands_.bloat_fly_meat": "Bloatfly Meat",
       "block.fallout_wastelands_.molder_wood_fence": "Molder Fence",
@@ -14245,7 +14279,9 @@
       "block.fallout_wastelands_.rusted_sheet_metal_wall": "Rusted Sheet Metal Wall",
       "subtitles.the_glow": "",
       "effect.fallout_wastelands_.delete_armor_stand_if_not_riding": "despawnArmorStand",
+      "item.fallout_wastelands_.robco_repairman_boots": "Robco Boots",
       "gui.fallout_wastelands_.base_inventory.label_a": " to 0 every time the gui is saved",
+      "item.fallout_wastelands_.handyman_suit_boots": "Handyman Boots",
       "block.fallout_wastelands_.ceiling_light": "Ceiling Light",
       "block.fallout_wastelands_.burnished_glass_pane": "Burnished Glass Pane",
       "item.fallout_wastelands_.t_45_pa_chestplate": "T45 Chestplate",
@@ -14269,6 +14305,7 @@
       "block.fallout_wastelands_.militaryplatingstairs": "Military Plated Stairs",
       "block.fallout_wastelands_.filing_cabinet": "Filing Cabinet",
       "block.fallout_wastelands_.stair_wasteland_cobblestone": "Wasteland Cobblestone Stairs",
+      "entity.fallout_wastelands_.gecko": "Gecko",
       "gui.fallout_wastelands_.base_menu_ui.label_caps": "Caps",
       "block.fallout_wastelands_.enclave_bunker_block_logo": "Enclave Bunker Emblem",
       "item.fallout_wastelands_.tinnugget": "Uranium Nugget",
@@ -14285,6 +14322,7 @@
       "item.fallout_wastelands_.antiradsuit_helmet": "Anti-Rad Suit Helmet",
       "block.fallout_wastelands_.waste_sand": "Wasteland Dirt",
       "item.fallout_wastelands_.industrialhull": "Industrial Hull",
+      "item.fallout_wastelands_.robco_repairman_chestplate": "Robco Jacket",
       "item.fallout_wastelands_.plasticsheet": "Plastic Sheet",
       "block.fallout_wastelands_.rust_block": "Rust Block",
       "item.fallout_wastelands_.t_45_pa_leggings": "T45 Leggings",
@@ -14303,6 +14341,7 @@
       "item.fallout_wastelands_.deathclaw_gauntlet": "Deathclaw Gauntlet",
       "item.fallout_wastelands_.mirelurkmeat": "Mirelurk Meat",
       "block.fallout_wastelands_.molder_wood_wood": "Molder Log Wood",
+      "item.fallout_wastelands_.lobotomite_suit_chestplate": "Lobotomite Jacket",
       "block.fallout_wastelands_.wastelandredstoneore": "Wasteland Redstone Ore",
       "block.fallout_wastelands_.rustysheetmetalstairs": "Rusted Sheet MetalStairs",
       "subtitles.ripper": "",
@@ -14352,6 +14391,7 @@
       "item.fallout_wastelands_.pa_frame_item": "Power Armor Frame",
       "block.fallout_wastelands_.terminal": "Terminal",
       "block.fallout_wastelands_.wasteland_road_block": "Wasteland Asphalt",
+      "item.fallout_wastelands_.lobotomite_suit_boots": "Lobotomite Boots",
       "gui.fallout_wastelands_.base_menu_ui.label_empty": "Note: it may be better instead of using text boxes to instead",
       "block.fallout_wastelands_.charred_molder_stairs": "Charred Molder Stairs",
       "block.fallout_wastelands_.worn_metal": "Worn Metal Block",
@@ -14369,6 +14409,7 @@
       "block.fallout_wastelands_.wasteland_concrete": "Concrete",
       "block.fallout_wastelands_.cage": "Cage Block",
       "block.fallout_wastelands_.vault_reinforced_pillar": "Reinforced Vault Pillar",
+      "item.fallout_wastelands_.handyman_suit_leggings": "Handyman Pants",
       "block.fallout_wastelands_.worn_metal_stairs": "Worn Metal Stairs",
       "block.fallout_wastelands_.molder_wood_slab": "Molder Wood Slab",
       "block.fallout_wastelands_.molder_wood_button": "Molder Button",
@@ -14380,6 +14421,7 @@
       "item.fallout_wastelands_.fivemmminigun": "5mm Minigun",
       "block.fallout_wastelands_.industrial_allow_mid_rivet": "Industrial Alloy (mid rivet)",
       "item.fallout_wastelands_.t_51b_pa_chestplate": "T51b Chestplate",
+      "item.fallout_wastelands_.army_repairman_suit_leggings": "Army Repairman Pants",
       "block.fallout_wastelands_.molten_steel": "Melted Steel Block",
       "block.fallout_wastelands_.blasted_glass_pane": "Blasted Glass Pane",
       "gui.fallout_wastelands_.base_inventory.label_note_to_make_the_white_ui_disap": "Note: to make the white ui disappear you must set it",
@@ -14406,15 +14448,18 @@
       "item.fallout_wastelands_.raiderblastmaster_leggings": "Raider Blastmaster Loincloth",
       "block.fallout_wastelands_.exposed_rust_block": "Exposed Rust Block",
       "item.fallout_wastelands_.road_leather_leggings": "Road Leather Pants",
+      "item.fallout_wastelands_.robco_repairman_leggings": "Robco Pants",
       "item.fallout_wastelands_.varmint_rifle": "Varmint Rifle",
       "block.fallout_wastelands_.grey_industrial_alloybottomrivet": "Industrial Alloy (bottom rivet)",
       "block.fallout_wastelands_.bos_metal_plating": "Bos Metal Plating",
+      "item.fallout_wastelands_.lobotomite_suit_helmet": "Lobotomite Helmet",
       "item.fallout_wastelands_.hachet": "Hachet",
       "block.fallout_wastelands_.light_tube": "Light Tube",
       "block.fallout_wastelands_.wasteland_brick_wall": "Wasteland Stone",
       "item.fallout_wastelands_.nuka_cola": "Nuka Cola",
       "item.fallout_wastelands_.road_leather_helmet": "Sunglasses",
       "gui.fallout_wastelands_.base_inventory.label_inventory": "Inventory",
+      "item.fallout_wastelands_.gecko_spawn_egg": "Gecko Spawn Egg",
       "block.fallout_wastelands_.concrete_tile": "Concrete Tile",
       "block.fallout_wastelands_.bos_door": "Bos Door Left",
       "block.fallout_wastelands_.wastelandgrassblock": "Wasteland Grass Block",

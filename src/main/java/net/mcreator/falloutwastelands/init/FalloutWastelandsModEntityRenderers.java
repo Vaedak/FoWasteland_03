@@ -15,6 +15,7 @@ import net.mcreator.falloutwastelands.client.renderer.RaiderscavangerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.RaiderDustwalkerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.PowerArmorFrameRenderer;
 import net.mcreator.falloutwastelands.client.renderer.PADisplayEntityRenderer;
+import net.mcreator.falloutwastelands.client.renderer.LobotomiteWalkerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.LaserBeamRenderer;
 import net.mcreator.falloutwastelands.client.renderer.GeckoRenderer;
 import net.mcreator.falloutwastelands.client.renderer.Cannibal00Renderer;
@@ -38,5 +39,6 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.RAIDERSCAVANGER.get(), RaiderscavangerRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.BRAHMIN.get(), BrahminRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.GECKO.get(), GeckoRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.LOBOTOMITE_WALKER.get(), LobotomiteWalkerRenderer::new);
 	}
 }

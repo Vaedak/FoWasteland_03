@@ -1,6 +1,6 @@
 package net.mcreator.falloutwastelands.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.item.ItemStack;
 
 public class PreventDamageProcedure {
 	public static void execute(ItemStack itemstack) {

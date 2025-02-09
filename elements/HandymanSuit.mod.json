@@ -2,24 +2,24 @@
   "_fv": 69,
   "_type": "armor",
   "definition": {
-    "enableHelmet": false,
-    "textureHelmet": "lobotomitemask",
+    "enableHelmet": true,
+    "textureHelmet": "redbandana",
     "enableBody": true,
-    "textureBody": "robcojacket",
+    "textureBody": "handymanjacket",
     "enableLeggings": true,
-    "textureLeggings": "robcopants",
+    "textureLeggings": "handymanpants",
     "enableBoots": true,
-    "textureBoots": "robcoshoes",
+    "textureBoots": "handymanshoes",
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandcombat"
       }
     ],
-    "armorTextureFile": "robcorepairman",
-    "helmetName": "Lobotomite Helmet",
-    "bodyName": "Robco Jacket",
-    "leggingsName": "Robco Pants",
-    "bootsName": "Robco Boots",
+    "armorTextureFile": "handyman",
+    "helmetName": "Red Bandana",
+    "bodyName": "Handyman Jacket",
+    "leggingsName": "Handyman Pants",
+    "bootsName": "Handyman Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -85,7 +85,7 @@
       "fixedValue": false
     },
     "maxDamage": 4,
-    "damageValueHelmet": 0,
+    "damageValueHelmet": 1,
     "damageValueBody": 1,
     "damageValueLeggings": 1,
     "damageValueBoots": 1,

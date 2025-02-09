@@ -5,21 +5,21 @@
     "enableHelmet": false,
     "textureHelmet": "lobotomitemask",
     "enableBody": true,
-    "textureBody": "robcojacket",
+    "textureBody": "armyrepairmanjacket",
     "enableLeggings": true,
-    "textureLeggings": "robcopants",
+    "textureLeggings": "armyrepairmanpants",
     "enableBoots": true,
-    "textureBoots": "robcoshoes",
+    "textureBoots": "armyrepairmanshoes",
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandcombat"
       }
     ],
-    "armorTextureFile": "robcorepairman",
+    "armorTextureFile": "armyrepairman",
     "helmetName": "Lobotomite Helmet",
-    "bodyName": "Robco Jacket",
-    "leggingsName": "Robco Pants",
-    "bootsName": "Robco Boots",
+    "bodyName": "Army Repairman Jacket",
+    "leggingsName": "Army Repairman Pants",
+    "bootsName": "Army Repairman Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },

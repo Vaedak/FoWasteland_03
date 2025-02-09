@@ -22,6 +22,7 @@ import net.mcreator.falloutwastelands.entity.RaiderDustwalkerEntity;
 import net.mcreator.falloutwastelands.entity.PowerArmorFrameEntity;
 import net.mcreator.falloutwastelands.entity.PlasmaProjectileEntity;
 import net.mcreator.falloutwastelands.entity.PADisplayEntityEntity;
+import net.mcreator.falloutwastelands.entity.LobotomiteWalkerEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.GeckoEntity;
 import net.mcreator.falloutwastelands.entity.Cannibal00Entity;
@@ -72,6 +73,10 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<GeckoEntity>of(GeckoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GeckoEntity::new)
 
 					.sized(0.6f, 1.2f));
+	public static final RegistryObject<EntityType<LobotomiteWalkerEntity>> LOBOTOMITE_WALKER = register("lobotomite_walker",
+			EntityType.Builder.<LobotomiteWalkerEntity>of(LobotomiteWalkerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LobotomiteWalkerEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -88,6 +93,7 @@ public class FalloutWastelandsModEntities {
 			RaiderscavangerEntity.init();
 			BrahminEntity.init();
 			GeckoEntity.init();
+			LobotomiteWalkerEntity.init();
 		});
 	}
 
@@ -101,5 +107,6 @@ public class FalloutWastelandsModEntities {
 		event.put(RAIDERSCAVANGER.get(), RaiderscavangerEntity.createAttributes().build());
 		event.put(BRAHMIN.get(), BrahminEntity.createAttributes().build());
 		event.put(GECKO.get(), GeckoEntity.createAttributes().build());
+		event.put(LOBOTOMITE_WALKER.get(), LobotomiteWalkerEntity.createAttributes().build());
 	}
 }

@@ -26,8 +26,8 @@ import java.util.function.Consumer;
 import java.util.Map;
 import java.util.Collections;
 
-public abstract class RobcoRepairmanItem extends ArmorItem {
-	public RobcoRepairmanItem(ArmorItem.Type type, Item.Properties properties) {
+public abstract class ArmyRepairmanSuitItem extends ArmorItem {
+	public ArmyRepairmanSuitItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
@@ -56,7 +56,7 @@ public abstract class RobcoRepairmanItem extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "robco_repairman";
+				return "army_repairman_suit";
 			}
 
 			@Override
@@ -71,7 +71,7 @@ public abstract class RobcoRepairmanItem extends ArmorItem {
 		}, type, properties);
 	}
 
-	public static class Chestplate extends RobcoRepairmanItem {
+	public static class Chestplate extends ArmyRepairmanSuitItem {
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
@@ -96,11 +96,11 @@ public abstract class RobcoRepairmanItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/models/armor/robcorepairman_layer_1.png";
+			return "fallout_wastelands_:textures/models/armor/armyrepairman_layer_1.png";
 		}
 	}
 
-	public static class Leggings extends RobcoRepairmanItem {
+	public static class Leggings extends ArmyRepairmanSuitItem {
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
@@ -126,11 +126,11 @@ public abstract class RobcoRepairmanItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/models/armor/robcorepairman_layer_2.png";
+			return "fallout_wastelands_:textures/models/armor/armyrepairman_layer_2.png";
 		}
 	}
 
-	public static class Boots extends RobcoRepairmanItem {
+	public static class Boots extends ArmyRepairmanSuitItem {
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
@@ -156,7 +156,7 @@ public abstract class RobcoRepairmanItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fallout_wastelands_:textures/models/armor/robcorepairman_layer_1.png";
+			return "fallout_wastelands_:textures/models/armor/armyrepairman_layer_1.png";
 		}
 	}
 }

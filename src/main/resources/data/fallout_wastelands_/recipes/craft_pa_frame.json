@@ -4,20 +4,23 @@
   "pattern": [
     "a a",
     "bcb",
-    "d d"
+    "ded"
   ],
   "key": {
     "a": {
-      "item": "minecraft:gold_ingot"
+      "item": "fallout_wastelands_:military_hull"
     },
     "b": {
       "item": "fallout_wastelands_:steel_block"
     },
     "c": {
-      "item": "minecraft:redstone_block"
+      "item": "fallout_wastelands_:advanced_motor"
     },
     "d": {
-      "item": "minecraft:piston"
+      "item": "fallout_wastelands_:motor"
+    },
+    "e": {
+      "item": "fallout_wastelands_:copperwires"
     }
   },
   "result": {
