@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "lightbulbon:default",
-    "rotationMode": 4,
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -42,11 +42,7 @@
     "resistance": 1.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:Wastelandblockstab"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:Lightbulbon"

@@ -256,7 +256,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.ADOBE_BLOCK_WALL.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_SAND_STONE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.LIGHTBULB.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.LIGHTBULBON.get().asItem());
 			})
 
 					.build());

@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "fallout_wastelands_:custom/deathclawgauntlet",
   "textures": {
-    "layer0": "fallout_wastelands_:item/deathclawgauntlet"
+    "0": "fallout_wastelands_:block/deathclawgauntlet",
+    "particle": "fallout_wastelands_:item/deathclawgauntlet"
   }
 }

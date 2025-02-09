@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "lightbulb:default",
-    "rotationMode": 4,
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
