@@ -13275,6 +13275,53 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "EnclaveAntiradsuit",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_antiradsuit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_antiradsuit_helmet.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_antiradsuit_leggings.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_antiradsuit_chestplate.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/EnclaveAntiradsuitItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_antiradsuit_boots.json"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "VaultSuit",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_suit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/VaultSuitItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_suit_leggings.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_suit_boots.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_suit_chestplate.json"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "SecurityBaton",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "security_baton",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/security_baton.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/SecurityBatonItem.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -13582,6 +13629,7 @@
       "~CUSTOM:WastelandConcreteStairs"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:SecurityBaton",
       "~CUSTOM:DeathclawGauntlet",
       "~CUSTOM:BaseballClub",
       "~CUSTOM:BaseballBat",
@@ -14089,6 +14137,7 @@
       "block.fallout_wastelands_.adobe_stairs": "Adobe Block Stairs",
       "item.fallout_wastelands_.road_leather_boots": "Road Leather Boots",
       "block.fallout_wastelands_.military_plating_walkway": "Military Plating Walkway",
+      "item.fallout_wastelands_.vault_suit_leggings": "Vault Jumpsuit Pants",
       "item.fallout_wastelands_.gamma_gulp_beer": "Gamma Gulp Beer",
       "block.fallout_wastelands_.slab_wasteland_cobblestone": "Wasteland Cobblestone Slab",
       "block.fallout_wastelands_.wirefence": "Wire Fence",
@@ -14126,6 +14175,7 @@
       "item.fallout_wastelands_.raider_warmonger_helmet": "Raider Warmonger Mask",
       "item.fallout_wastelands_.energy_cell": "Microfusion Cell",
       "item.fallout_wastelands_.whiskey": "Whiskey",
+      "item.fallout_wastelands_.vault_suit_chestplate": "Vault Jumpsuit Chest",
       "item.fallout_wastelands_.power_armor_frame_armor_helmet": "Power Armor Frame",
       "gui.fallout_wastelands_.base_menu_ui.NameInput": "Name",
       "block.fallout_wastelands_.industrial_support": "Industrial Support",
@@ -14139,6 +14189,7 @@
       "gui.fallout_wastelands_.locker_storage.label_locker": "Locker",
       "item.fallout_wastelands_.vault_hull": "Vault Hull",
       "block.fallout_wastelands_.wastelandtilesslab": "Wasteland Tiles",
+      "item.fallout_wastelands_.enclave_antiradsuit_chestplate": "Enclave Scientist Anti-Rad Chest",
       "block.fallout_wastelands_.tin_ore": "Tin Ore",
       "block.fallout_wastelands_.grey_industrial_alloy_stair": "Grey Industrial Alloy Stair",
       "block.fallout_wastelands_.molder_wood_planks": "Molder Wood Planks",
@@ -14177,10 +14228,12 @@
       "item.fallout_wastelands_.power_armor_frame_armor_chestplate": "Power Armor Frame",
       "block.fallout_wastelands_.tin_block": "Tin Block",
       "item.fallout_wastelands_.pipboy": "Pip-Boy 2500",
+      "item.fallout_wastelands_.enclave_antiradsuit_helmet": "Enclave Scientist Anti-Rad Helmet",
       "block.fallout_wastelands_.wasteland_road_yellow_slab": "Yellow Wasteland Asphalt Slab",
       "item.fallout_wastelands_.machete": "Machete",
       "block.fallout_wastelands_.wasteland_concrete_slab": "Concrete Slab",
       "item.fallout_wastelands_.road_leather_chestplate": "Road Leather Chestplate",
+      "item.fallout_wastelands_.enclave_antiradsuit_leggings": "Enclave Scientist Anti-Rad Pants",
       "block.fallout_wastelands_.charred_molder_wood_plank": "Charred Molder Planks",
       "item.fallout_wastelands_.handyman_suit_helmet": "Red Bandana",
       "block.fallout_wastelands_.tatoplant_3": "Tato Plant",
@@ -14412,6 +14465,7 @@
       "item.fallout_wastelands_.handyman_suit_leggings": "Handyman Pants",
       "block.fallout_wastelands_.worn_metal_stairs": "Worn Metal Stairs",
       "block.fallout_wastelands_.molder_wood_slab": "Molder Wood Slab",
+      "item.fallout_wastelands_.enclave_antiradsuit_boots": "Enclave Scientist Anti-Rad Boots",
       "block.fallout_wastelands_.molder_wood_button": "Molder Button",
       "block.fallout_wastelands_.barbed_wires": "Barbed Wires",
       "item.fallout_wastelands_.revolver_32": "Revolver 32",
@@ -14481,8 +14535,10 @@
       "item.fallout_wastelands_.raiderblastmaster_boots": "Raider Blastmaster Sandals",
       "block.fallout_wastelands_.grey_industrial_alloy_slab": "Industrial Alloy Slab",
       "entity.fallout_wastelands_.brahmin": "Brahmin",
+      "item.fallout_wastelands_.security_baton": "Police Baton",
       "item.fallout_wastelands_.wastelands": "Wastelands Portal Igniter",
       "item.fallout_wastelands_.acid": "Acid",
+      "item.fallout_wastelands_.vault_suit_boots": "Vault Jumpsuit Boots",
       "block.fallout_wastelands_.landmine": "Landmine",
       "block.fallout_wastelands_.molten_copper": "Melted Copper Block",
       "block.fallout_wastelands_.floor_papers": "Plaster",

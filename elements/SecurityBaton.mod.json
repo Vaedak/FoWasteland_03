@@ -1,0 +1,39 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "police_baton",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Police Baton",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelandcombat"
+      }
+    ],
+    "efficiency": 6.5,
+    "attackSpeed": 3.9999999999999996,
+    "enchantability": 0,
+    "damageVsEntity": 1.0,
+    "usageCount": 80,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Plasticsheet"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

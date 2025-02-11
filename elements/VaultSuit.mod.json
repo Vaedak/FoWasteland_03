@@ -2,24 +2,24 @@
   "_fv": 69,
   "_type": "armor",
   "definition": {
-    "enableHelmet": true,
-    "textureHelmet": "hazmat_helmet",
+    "enableHelmet": false,
+    "textureHelmet": "lobotomitemask",
     "enableBody": true,
-    "textureBody": "hazmat_chestplate",
+    "textureBody": "jumpsuit_torso",
     "enableLeggings": true,
-    "textureLeggings": "hazmat_leggings",
+    "textureLeggings": "jumpsuit_leggings",
     "enableBoots": true,
-    "textureBoots": "hazmat_boots",
+    "textureBoots": "jumpsuit_boots",
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandcombat"
       }
     ],
-    "armorTextureFile": "rehazmat__b",
-    "helmetName": "Anti-Rad Suit Helmet",
-    "bodyName": "Anti-Rad Suit Chest",
-    "leggingsName": "Anti-Rad Suit Leggings",
-    "bootsName": "Anti-Rad Suit Boots",
+    "armorTextureFile": "vaultjump",
+    "helmetName": "Lobotomite Helmet",
+    "bodyName": "Vault Jumpsuit Chest",
+    "leggingsName": "Vault Jumpsuit Pants",
+    "bootsName": "Vault Jumpsuit Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -32,21 +32,21 @@
     "bootsSpecialInformation": {
       "fixedValue": []
     },
-    "helmetModelName": "Default",
-    "helmetModelPart": "Helmet",
+    "helmetModelName": "Modelvaultjumpsuit",
+    "helmetModelPart": "jumpsuit",
     "helmetModelTexture": "From armor",
-    "bodyModelName": "Default",
-    "bodyModelPart": "Body",
-    "armsModelPartL": "Arms L",
-    "armsModelPartR": "Arms R",
+    "bodyModelName": "Modelvaultjumpsuit",
+    "bodyModelPart": "body",
+    "armsModelPartL": "leftarm",
+    "armsModelPartR": "rightarm",
     "bodyModelTexture": "From armor",
-    "leggingsModelName": "Default",
-    "leggingsModelPartL": "Leggings L",
-    "leggingsModelPartR": "Leggings R",
+    "leggingsModelName": "Modelvaultjumpsuit",
+    "leggingsModelPartL": "leftleg",
+    "leggingsModelPartR": "rightleg",
     "leggingsModelTexture": "From armor",
-    "bootsModelName": "Default",
-    "bootsModelPartL": "Boots L",
-    "bootsModelPartR": "Boots R",
+    "bootsModelName": "Modelvaultjumpsuit",
+    "bootsModelPartL": "leftleg",
+    "bootsModelPartR": "rightleg",
     "bootsModelTexture": "From armor",
     "helmetItemRenderType": 0,
     "helmetItemCustomModelName": "Normal",
@@ -84,20 +84,20 @@
     "bootsPiglinNeutral": {
       "fixedValue": false
     },
-    "maxDamage": 4,
-    "damageValueHelmet": 2,
-    "damageValueBody": 2,
-    "damageValueLeggings": 2,
-    "damageValueBoots": 2,
-    "enchantability": 0,
-    "toughness": 0.1,
-    "knockbackResistance": 0.1,
+    "maxDamage": 2,
+    "damageValueHelmet": 0,
+    "damageValueBody": 1,
+    "damageValueLeggings": 1,
+    "damageValueBoots": 1,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
     "equipSound": {
-      "value": "block.cloth.place"
+      "value": "block.cloth.fall"
     },
     "repairItems": [
       {
-        "value": "CUSTOM:Antiradclothing"
+        "value": "CUSTOM:Cloth"
       }
     ]
   }

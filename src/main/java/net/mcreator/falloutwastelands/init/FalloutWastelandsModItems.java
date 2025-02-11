@@ -21,6 +21,7 @@ import net.mcreator.falloutwastelands.item.WhiskeyItem;
 import net.mcreator.falloutwastelands.item.WastelandsItem;
 import net.mcreator.falloutwastelands.item.WastelandbrickitemItem;
 import net.mcreator.falloutwastelands.item.VodkaItem;
+import net.mcreator.falloutwastelands.item.VaultSuitItem;
 import net.mcreator.falloutwastelands.item.VaultHullItem;
 import net.mcreator.falloutwastelands.item.VarmintRifleItem;
 import net.mcreator.falloutwastelands.item.VaccumTubeItem;
@@ -43,6 +44,7 @@ import net.mcreator.falloutwastelands.item.SteelnuggetItem;
 import net.mcreator.falloutwastelands.item.SteelIngotItem;
 import net.mcreator.falloutwastelands.item.SteelCompositeItem;
 import net.mcreator.falloutwastelands.item.SmallcalibercasingItem;
+import net.mcreator.falloutwastelands.item.SecurityBatonItem;
 import net.mcreator.falloutwastelands.item.ScrapmetalItem;
 import net.mcreator.falloutwastelands.item.ScotchItem;
 import net.mcreator.falloutwastelands.item.RollingpinItem;
@@ -111,6 +113,7 @@ import net.mcreator.falloutwastelands.item.FertilizerItem;
 import net.mcreator.falloutwastelands.item.EnergyCellItem;
 import net.mcreator.falloutwastelands.item.EnclaveofficierSuitItem;
 import net.mcreator.falloutwastelands.item.EnclaveHullItem;
+import net.mcreator.falloutwastelands.item.EnclaveAntiradsuitItem;
 import net.mcreator.falloutwastelands.item.EmptyNukaColaBottleItem;
 import net.mcreator.falloutwastelands.item.EmptyNeutronadeBottleItem;
 import net.mcreator.falloutwastelands.item.DentedCanItem;
@@ -584,6 +587,14 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> ARMY_REPAIRMAN_SUIT_LEGGINGS = REGISTRY.register("army_repairman_suit_leggings", () -> new ArmyRepairmanSuitItem.Leggings());
 	public static final RegistryObject<Item> ARMY_REPAIRMAN_SUIT_BOOTS = REGISTRY.register("army_repairman_suit_boots", () -> new ArmyRepairmanSuitItem.Boots());
 	public static final RegistryObject<Item> LOBOTOMITE_WALKER_SPAWN_EGG = REGISTRY.register("lobotomite_walker_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.LOBOTOMITE_WALKER, -11382217, -9939410, new Item.Properties()));
+	public static final RegistryObject<Item> ENCLAVE_ANTIRADSUIT_HELMET = REGISTRY.register("enclave_antiradsuit_helmet", () -> new EnclaveAntiradsuitItem.Helmet());
+	public static final RegistryObject<Item> ENCLAVE_ANTIRADSUIT_CHESTPLATE = REGISTRY.register("enclave_antiradsuit_chestplate", () -> new EnclaveAntiradsuitItem.Chestplate());
+	public static final RegistryObject<Item> ENCLAVE_ANTIRADSUIT_LEGGINGS = REGISTRY.register("enclave_antiradsuit_leggings", () -> new EnclaveAntiradsuitItem.Leggings());
+	public static final RegistryObject<Item> ENCLAVE_ANTIRADSUIT_BOOTS = REGISTRY.register("enclave_antiradsuit_boots", () -> new EnclaveAntiradsuitItem.Boots());
+	public static final RegistryObject<Item> VAULT_SUIT_CHESTPLATE = REGISTRY.register("vault_suit_chestplate", () -> new VaultSuitItem.Chestplate());
+	public static final RegistryObject<Item> VAULT_SUIT_LEGGINGS = REGISTRY.register("vault_suit_leggings", () -> new VaultSuitItem.Leggings());
+	public static final RegistryObject<Item> VAULT_SUIT_BOOTS = REGISTRY.register("vault_suit_boots", () -> new VaultSuitItem.Boots());
+	public static final RegistryObject<Item> SECURITY_BATON = REGISTRY.register("security_baton", () -> new SecurityBatonItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

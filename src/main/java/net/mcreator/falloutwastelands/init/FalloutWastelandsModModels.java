@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.falloutwastelands.client.model.Modelvaultjumpsuit;
 import net.mcreator.falloutwastelands.client.model.Modeltfourtyfive;
 import net.mcreator.falloutwastelands.client.model.Modelt51b01f;
 import net.mcreator.falloutwastelands.client.model.Modelroadleather02;
@@ -30,6 +31,7 @@ public class FalloutWastelandsModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelblastmasterraiderarmor.LAYER_LOCATION, Modelblastmasterraiderarmor::createBodyLayer);
+		event.registerLayerDefinition(Modelvaultjumpsuit.LAYER_LOCATION, Modelvaultjumpsuit::createBodyLayer);
 		event.registerLayerDefinition(Modelraiderwarmongerarmor.LAYER_LOCATION, Modelraiderwarmongerarmor::createBodyLayer);
 		event.registerLayerDefinition(ModelLobotomite.LAYER_LOCATION, ModelLobotomite::createBodyLayer);
 		event.registerLayerDefinition(Modelt51b01f.LAYER_LOCATION, Modelt51b01f::createBodyLayer);

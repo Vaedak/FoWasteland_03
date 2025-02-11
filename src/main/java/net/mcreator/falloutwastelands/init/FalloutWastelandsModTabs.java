@@ -345,6 +345,14 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.ARMY_REPAIRMAN_SUIT_CHESTPLATE.get());
 				tabData.accept(FalloutWastelandsModItems.ARMY_REPAIRMAN_SUIT_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.ARMY_REPAIRMAN_SUIT_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVE_ANTIRADSUIT_HELMET.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVE_ANTIRADSUIT_CHESTPLATE.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVE_ANTIRADSUIT_LEGGINGS.get());
+				tabData.accept(FalloutWastelandsModItems.ENCLAVE_ANTIRADSUIT_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.VAULT_SUIT_CHESTPLATE.get());
+				tabData.accept(FalloutWastelandsModItems.VAULT_SUIT_LEGGINGS.get());
+				tabData.accept(FalloutWastelandsModItems.VAULT_SUIT_BOOTS.get());
+				tabData.accept(FalloutWastelandsModItems.SECURITY_BATON.get());
 			})
 
 					.build());

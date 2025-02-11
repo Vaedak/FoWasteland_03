@@ -20,12 +20,12 @@ public abstract class AntiradsuitItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 12;
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 4;
 			}
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{2, 4, 4, 2}[type.getSlot().getIndex()];
+				return new int[]{2, 2, 2, 2}[type.getSlot().getIndex()];
 			}
 
 			@Override
