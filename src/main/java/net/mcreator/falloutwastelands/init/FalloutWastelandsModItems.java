@@ -22,6 +22,7 @@ import net.mcreator.falloutwastelands.item.WastelandsItem;
 import net.mcreator.falloutwastelands.item.WastelandbrickitemItem;
 import net.mcreator.falloutwastelands.item.VodkaItem;
 import net.mcreator.falloutwastelands.item.VaultSuitItem;
+import net.mcreator.falloutwastelands.item.VaultSecuritySuitItem;
 import net.mcreator.falloutwastelands.item.VaultHullItem;
 import net.mcreator.falloutwastelands.item.VarmintRifleItem;
 import net.mcreator.falloutwastelands.item.VaccumTubeItem;
@@ -38,6 +39,7 @@ import net.mcreator.falloutwastelands.item.TatoItem;
 import net.mcreator.falloutwastelands.item.TaloncombatarmorItem;
 import net.mcreator.falloutwastelands.item.T51bPAItem;
 import net.mcreator.falloutwastelands.item.T45PAItem;
+import net.mcreator.falloutwastelands.item.SuperSledgeItem;
 import net.mcreator.falloutwastelands.item.SugarBombsItem;
 import net.mcreator.falloutwastelands.item.StimpackItem;
 import net.mcreator.falloutwastelands.item.SteelnuggetItem;
@@ -65,6 +67,7 @@ import net.mcreator.falloutwastelands.item.RaiderWarmongerItem;
 import net.mcreator.falloutwastelands.item.RadiactiveWasteItem;
 import net.mcreator.falloutwastelands.item.PsychoItem;
 import net.mcreator.falloutwastelands.item.PowerArmorFrameArmorItem;
+import net.mcreator.falloutwastelands.item.PotatoCrispsItem;
 import net.mcreator.falloutwastelands.item.PlasticsheetItem;
 import net.mcreator.falloutwastelands.item.PlasmarifleItem;
 import net.mcreator.falloutwastelands.item.PipboyItem;
@@ -595,6 +598,24 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> VAULT_SUIT_LEGGINGS = REGISTRY.register("vault_suit_leggings", () -> new VaultSuitItem.Leggings());
 	public static final RegistryObject<Item> VAULT_SUIT_BOOTS = REGISTRY.register("vault_suit_boots", () -> new VaultSuitItem.Boots());
 	public static final RegistryObject<Item> SECURITY_BATON = REGISTRY.register("security_baton", () -> new SecurityBatonItem());
+	public static final RegistryObject<Item> SUPER_SLEDGE = REGISTRY.register("super_sledge", () -> new SuperSledgeItem());
+	public static final RegistryObject<Item> POTATO_CRISPS = REGISTRY.register("potato_crisps", () -> new PotatoCrispsItem());
+	public static final RegistryObject<Item> JOSHUA_LOG = block(FalloutWastelandsModBlocks.JOSHUA_LOG);
+	public static final RegistryObject<Item> JOSHUA_TREE_WOODPLANKS = block(FalloutWastelandsModBlocks.JOSHUA_TREE_WOODPLANKS);
+	public static final RegistryObject<Item> JOSHUEA_TREE_STAIRS = block(FalloutWastelandsModBlocks.JOSHUEA_TREE_STAIRS);
+	public static final RegistryObject<Item> JOSHUA_TREE_SLAB = block(FalloutWastelandsModBlocks.JOSHUA_TREE_SLAB);
+	public static final RegistryObject<Item> JOSHUA_TREE_DOOR = doubleBlock(FalloutWastelandsModBlocks.JOSHUA_TREE_DOOR);
+	public static final RegistryObject<Item> JOSHUA_TREE_DOORTRAP = block(FalloutWastelandsModBlocks.JOSHUA_TREE_DOORTRAP);
+	public static final RegistryObject<Item> STOPROADSIGN = block(FalloutWastelandsModBlocks.STOPROADSIGN);
+	public static final RegistryObject<Item> YIELROADSIGN = block(FalloutWastelandsModBlocks.YIELROADSIGN);
+	public static final RegistryObject<Item> SANDBAGS = block(FalloutWastelandsModBlocks.SANDBAGS);
+	public static final RegistryObject<Item> SANDBAGSTAIRS = block(FalloutWastelandsModBlocks.SANDBAGSTAIRS);
+	public static final RegistryObject<Item> SANDBAGS_SLAB = block(FalloutWastelandsModBlocks.SANDBAGS_SLAB);
+	public static final RegistryObject<Item> VAULT_SECURITY_SUIT_HELMET = REGISTRY.register("vault_security_suit_helmet", () -> new VaultSecuritySuitItem.Helmet());
+	public static final RegistryObject<Item> VAULT_SECURITY_SUIT_CHESTPLATE = REGISTRY.register("vault_security_suit_chestplate", () -> new VaultSecuritySuitItem.Chestplate());
+	public static final RegistryObject<Item> VAULT_SECURITY_SUIT_LEGGINGS = REGISTRY.register("vault_security_suit_leggings", () -> new VaultSecuritySuitItem.Leggings());
+	public static final RegistryObject<Item> VAULT_SECURITY_SUIT_BOOTS = REGISTRY.register("vault_security_suit_boots", () -> new VaultSecuritySuitItem.Boots());
+	public static final RegistryObject<Item> METAL_BOX = block(FalloutWastelandsModBlocks.METAL_BOX);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:yielroadsign",
+    "fallout_wastelands_:stoproadsign",
     "fallout_wastelands_:worn_metal_decorationstairs",
     "fallout_wastelands_:worn_metal_decoration",
     "fallout_wastelands_:military_plating_walkway_slab",

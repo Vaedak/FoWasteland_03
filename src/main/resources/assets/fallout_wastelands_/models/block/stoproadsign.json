@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/roadsignstop",
+  "textures": {
+    "all": "fallout_wastelands_:block/stoproadsign",
+    "particle": "fallout_wastelands_:block/stoproadsign",
+    "0": "fallout_wastelands_:block/stoproadsign"
+  },
+  "render_type": "cutout"
+}

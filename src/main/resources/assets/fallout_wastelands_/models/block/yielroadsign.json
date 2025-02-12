@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/roadsignyield",
+  "textures": {
+    "all": "fallout_wastelands_:block/yieldroadsign",
+    "particle": "fallout_wastelands_:block/yieldroadsign",
+    "0": "fallout_wastelands_:block/yieldroadsign"
+  },
+  "render_type": "cutout"
+}

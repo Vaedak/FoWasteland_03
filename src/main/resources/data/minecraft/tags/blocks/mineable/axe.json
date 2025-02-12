@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:joshua_tree_doortrap",
+    "fallout_wastelands_:joshua_tree_door",
+    "fallout_wastelands_:joshua_tree_slab",
+    "fallout_wastelands_:joshuea_tree_stairs",
+    "fallout_wastelands_:joshua_tree_woodplanks",
+    "fallout_wastelands_:joshua_log",
     "fallout_wastelands_:red_painted_planks",
     "fallout_wastelands_:charred_molder_fence",
     "fallout_wastelands_:charred_molder_slab",

@@ -1,0 +1,7 @@
+{
+  "parent": "fallout_wastelands_:custom/supersledge",
+  "textures": {
+    "0": "fallout_wastelands_:block/supersledge",
+    "particle": "fallout_wastelands_:item/super_sledge"
+  }
+}

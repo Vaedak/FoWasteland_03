@@ -168,7 +168,7 @@
     "unbreakable": false,
     "vanillaToolTier": "STONE",
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "LockerStorage",
     "openGUIOnRightClick": true,
     "inventorySize": 28,

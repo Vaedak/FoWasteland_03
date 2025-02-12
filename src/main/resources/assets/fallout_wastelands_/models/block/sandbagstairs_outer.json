@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "fallout_wastelands_:block/sandbagblock",
+    "bottom": "fallout_wastelands_:block/sandbagblock",
+    "top": "fallout_wastelands_:block/sandbagblock",
+    "side": "fallout_wastelands_:block/sandbagblock"
+  },
+  "render_type": "solid"
+}

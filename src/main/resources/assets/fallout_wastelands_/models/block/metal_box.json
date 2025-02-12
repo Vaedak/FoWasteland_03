@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/metalboxbottom",
+    "up": "fallout_wastelands_:block/metalboxtop",
+    "north": "fallout_wastelands_:block/metalboxfront",
+    "east": "fallout_wastelands_:block/metalboxsides",
+    "south": "fallout_wastelands_:block/metalboxsides",
+    "west": "fallout_wastelands_:block/metalboxsides",
+    "particle": "fallout_wastelands_:block/metalboxbottom"
+  },
+  "render_type": "translucent"
+}

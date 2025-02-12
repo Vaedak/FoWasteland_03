@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:sandbags_slab",
+    "fallout_wastelands_:sandbagstairs",
+    "fallout_wastelands_:sandbags",
     "fallout_wastelands_:rockydirt",
     "fallout_wastelands_:wastelanddrydirt",
     "fallout_wastelands_:waste_sand",

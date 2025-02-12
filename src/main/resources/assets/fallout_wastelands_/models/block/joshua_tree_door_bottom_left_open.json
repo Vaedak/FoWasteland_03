@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left_open",
+  "textures": {
+    "particle": "fallout_wastelands_:block/joshuadoorbottom",
+    "bottom": "fallout_wastelands_:block/joshuadoorbottom",
+    "top": "fallout_wastelands_:block/joshuadoortop"
+  },
+  "render_type": "cutout_mipped"
+}

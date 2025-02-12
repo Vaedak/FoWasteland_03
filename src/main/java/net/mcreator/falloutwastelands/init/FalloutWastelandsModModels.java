@@ -23,6 +23,7 @@ import net.mcreator.falloutwastelands.client.model.Modelblastmasterraiderarmor;
 import net.mcreator.falloutwastelands.client.model.Modelbasherraiderarmor2;
 import net.mcreator.falloutwastelands.client.model.Modelbasherraiderarmor;
 import net.mcreator.falloutwastelands.client.model.ModelT51b;
+import net.mcreator.falloutwastelands.client.model.ModelSecuriy_Suit;
 import net.mcreator.falloutwastelands.client.model.ModelLobotomite;
 import net.mcreator.falloutwastelands.client.model.ModelBighorn;
 
@@ -42,6 +43,7 @@ public class FalloutWastelandsModModels {
 		event.registerLayerDefinition(ModelT51b.LAYER_LOCATION, ModelT51b::createBodyLayer);
 		event.registerLayerDefinition(Modelgunshot.LAYER_LOCATION, Modelgunshot::createBodyLayer);
 		event.registerLayerDefinition(Modellaserriflebeam.LAYER_LOCATION, Modellaserriflebeam::createBodyLayer);
+		event.registerLayerDefinition(ModelSecuriy_Suit.LAYER_LOCATION, ModelSecuriy_Suit::createBodyLayer);
 		event.registerLayerDefinition(Modelbasherraiderarmor2.LAYER_LOCATION, Modelbasherraiderarmor2::createBodyLayer);
 		event.registerLayerDefinition(Modelbasherraiderarmor.LAYER_LOCATION, Modelbasherraiderarmor::createBodyLayer);
 		event.registerLayerDefinition(Modelroadleather02.LAYER_LOCATION, Modelroadleather02::createBodyLayer);

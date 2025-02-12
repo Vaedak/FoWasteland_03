@@ -256,6 +256,18 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.ADOBE_BLOCK_WALL.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_SAND_STONE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.LIGHTBULB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_LOG.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_TREE_WOODPLANKS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.JOSHUEA_TREE_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_TREE_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_TREE_DOOR.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_TREE_DOORTRAP.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.STOPROADSIGN.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.YIELROADSIGN.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.SANDBAGS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.SANDBAGSTAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.SANDBAGS_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.METAL_BOX.get().asItem());
 			})
 
 					.build());
@@ -353,6 +365,11 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.VAULT_SUIT_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.VAULT_SUIT_BOOTS.get());
 				tabData.accept(FalloutWastelandsModItems.SECURITY_BATON.get());
+				tabData.accept(FalloutWastelandsModItems.SUPER_SLEDGE.get());
+				tabData.accept(FalloutWastelandsModItems.VAULT_SECURITY_SUIT_HELMET.get());
+				tabData.accept(FalloutWastelandsModItems.VAULT_SECURITY_SUIT_CHESTPLATE.get());
+				tabData.accept(FalloutWastelandsModItems.VAULT_SECURITY_SUIT_LEGGINGS.get());
+				tabData.accept(FalloutWastelandsModItems.VAULT_SECURITY_SUIT_BOOTS.get());
 			})
 
 					.build());
@@ -446,6 +463,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.DEATHCLAWHAND.get());
 				tabData.accept(FalloutWastelandsModItems.WONDERGLUE.get());
 				tabData.accept(FalloutWastelandsModItems.FISSION_BATTERY.get());
+				tabData.accept(FalloutWastelandsModItems.POTATO_CRISPS.get());
 			})
 
 					.build());

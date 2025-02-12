@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/sandbagblock",
+    "up": "fallout_wastelands_:block/sandbagblock",
+    "north": "fallout_wastelands_:block/sandbagblock",
+    "east": "fallout_wastelands_:block/sandbagblock",
+    "south": "fallout_wastelands_:block/sandbagblock",
+    "west": "fallout_wastelands_:block/sandbagblock",
+    "particle": "fallout_wastelands_:block/sandbagblock"
+  },
+  "render_type": "solid"
+}

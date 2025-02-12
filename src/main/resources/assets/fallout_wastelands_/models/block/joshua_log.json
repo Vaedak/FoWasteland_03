@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/joshualogtop",
+    "up": "fallout_wastelands_:block/joshualogtop",
+    "north": "fallout_wastelands_:block/joshualogside",
+    "east": "fallout_wastelands_:block/joshualogside",
+    "south": "fallout_wastelands_:block/joshualogside",
+    "west": "fallout_wastelands_:block/joshualogside",
+    "particle": "fallout_wastelands_:block/joshualogtop"
+  },
+  "render_type": "solid"
+}
