@@ -119,6 +119,7 @@ import net.mcreator.falloutwastelands.item.EnclaveHullItem;
 import net.mcreator.falloutwastelands.item.EnclaveAntiradsuitItem;
 import net.mcreator.falloutwastelands.item.EmptyNukaColaBottleItem;
 import net.mcreator.falloutwastelands.item.EmptyNeutronadeBottleItem;
+import net.mcreator.falloutwastelands.item.DynamiteItemItem;
 import net.mcreator.falloutwastelands.item.DentedCanItem;
 import net.mcreator.falloutwastelands.item.DeathclawhandItem;
 import net.mcreator.falloutwastelands.item.DeathclawGauntletItem;
@@ -616,6 +617,8 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> VAULT_SECURITY_SUIT_LEGGINGS = REGISTRY.register("vault_security_suit_leggings", () -> new VaultSecuritySuitItem.Leggings());
 	public static final RegistryObject<Item> VAULT_SECURITY_SUIT_BOOTS = REGISTRY.register("vault_security_suit_boots", () -> new VaultSecuritySuitItem.Boots());
 	public static final RegistryObject<Item> METAL_BOX = block(FalloutWastelandsModBlocks.METAL_BOX);
+	public static final RegistryObject<Item> DYNAMITE_ENTITY_SPAWN_EGG = REGISTRY.register("dynamite_entity_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.DYNAMITE_ENTITY, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> DYNAMITE_ITEM = REGISTRY.register("dynamite_item", () -> new DynamiteItemItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

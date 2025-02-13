@@ -41,7 +41,7 @@
       "name": "GunInHandTick"
     },
     "onEntitySwing": {
-      "name": "Shoot9mmPistol"
+      "name": "ShootVarmintRifle"
     },
     "enableRanged": false,
     "shootConstantly": false,

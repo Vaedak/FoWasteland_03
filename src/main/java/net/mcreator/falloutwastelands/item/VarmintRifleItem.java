@@ -9,7 +9,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.falloutwastelands.procedures.Shoot9mmPistolProcedure;
+import net.mcreator.falloutwastelands.procedures.ShootVarmintRifleProcedure;
 import net.mcreator.falloutwastelands.procedures.GunInHandTickProcedure;
 
 public class VarmintRifleItem extends Item {
@@ -25,7 +25,7 @@ public class VarmintRifleItem extends Item {
 	@Override
 	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
 		boolean retval = super.onEntitySwing(itemstack, entity);
-		Shoot9mmPistolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
+		ShootVarmintRifleProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
 		return retval;
 	}
 

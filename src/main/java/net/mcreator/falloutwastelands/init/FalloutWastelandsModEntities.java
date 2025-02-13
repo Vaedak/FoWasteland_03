@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.falloutwastelands.entity.ShootNothingEntity;
 import net.mcreator.falloutwastelands.entity.RipperProjectileProjectileEntity;
 import net.mcreator.falloutwastelands.entity.RaiderscavangerEntity;
 import net.mcreator.falloutwastelands.entity.RaiderDustwalkerEntity;
@@ -25,6 +26,7 @@ import net.mcreator.falloutwastelands.entity.PADisplayEntityEntity;
 import net.mcreator.falloutwastelands.entity.LobotomiteWalkerEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.GeckoEntity;
+import net.mcreator.falloutwastelands.entity.DynamiteEntityEntity;
 import net.mcreator.falloutwastelands.entity.Cannibal00Entity;
 import net.mcreator.falloutwastelands.entity.BrahminEntity;
 import net.mcreator.falloutwastelands.entity.BlastmasterRaiderEntity;
@@ -68,7 +70,7 @@ public class FalloutWastelandsModEntities {
 	public static final RegistryObject<EntityType<BrahminEntity>> BRAHMIN = register("brahmin",
 			EntityType.Builder.<BrahminEntity>of(BrahminEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BrahminEntity::new)
 
-					.sized(0.6f, 1f));
+					.sized(0.8f, 1.5f));
 	public static final RegistryObject<EntityType<GeckoEntity>> GECKO = register("gecko",
 			EntityType.Builder.<GeckoEntity>of(GeckoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GeckoEntity::new)
 
@@ -77,6 +79,10 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<LobotomiteWalkerEntity>of(LobotomiteWalkerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LobotomiteWalkerEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<DynamiteEntityEntity>> DYNAMITE_ENTITY = register("dynamite_entity", EntityType.Builder.<DynamiteEntityEntity>of(DynamiteEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DynamiteEntityEntity::new).fireImmune().sized(0.3f, 0.3f));
+	public static final RegistryObject<EntityType<ShootNothingEntity>> SHOOT_NOTHING = register("shoot_nothing",
+			EntityType.Builder.<ShootNothingEntity>of(ShootNothingEntity::new, MobCategory.MISC).setCustomClientFactory(ShootNothingEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0f, 0f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -94,6 +100,7 @@ public class FalloutWastelandsModEntities {
 			BrahminEntity.init();
 			GeckoEntity.init();
 			LobotomiteWalkerEntity.init();
+			DynamiteEntityEntity.init();
 		});
 	}
 
@@ -108,5 +115,6 @@ public class FalloutWastelandsModEntities {
 		event.put(BRAHMIN.get(), BrahminEntity.createAttributes().build());
 		event.put(GECKO.get(), GeckoEntity.createAttributes().build());
 		event.put(LOBOTOMITE_WALKER.get(), LobotomiteWalkerEntity.createAttributes().build());
+		event.put(DYNAMITE_ENTITY.get(), DynamiteEntityEntity.createAttributes().build());
 	}
 }

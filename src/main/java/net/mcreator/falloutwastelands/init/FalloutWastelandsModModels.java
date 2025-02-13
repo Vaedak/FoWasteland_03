@@ -17,6 +17,7 @@ import net.mcreator.falloutwastelands.client.model.Modelraiderwarmongerarmor;
 import net.mcreator.falloutwastelands.client.model.Modellaserriflebeam;
 import net.mcreator.falloutwastelands.client.model.Modelgunshot;
 import net.mcreator.falloutwastelands.client.model.Modelenclaveofficeruniform;
+import net.mcreator.falloutwastelands.client.model.Modeldynamite;
 import net.mcreator.falloutwastelands.client.model.Modeldusterraiderarmor;
 import net.mcreator.falloutwastelands.client.model.Modelbrahmin;
 import net.mcreator.falloutwastelands.client.model.Modelblastmasterraiderarmor;
@@ -48,5 +49,6 @@ public class FalloutWastelandsModModels {
 		event.registerLayerDefinition(Modelbasherraiderarmor.LAYER_LOCATION, Modelbasherraiderarmor::createBodyLayer);
 		event.registerLayerDefinition(Modelroadleather02.LAYER_LOCATION, Modelroadleather02::createBodyLayer);
 		event.registerLayerDefinition(Modeldusterraiderarmor.LAYER_LOCATION, Modeldusterraiderarmor::createBodyLayer);
+		event.registerLayerDefinition(Modeldynamite.LAYER_LOCATION, Modeldynamite::createBodyLayer);
 	}
 }
