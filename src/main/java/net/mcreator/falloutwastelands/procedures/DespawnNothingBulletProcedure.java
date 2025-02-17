@@ -1,6 +1,6 @@
 package net.mcreator.falloutwastelands.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.Entity;
 
 public class DespawnNothingBulletProcedure {
 	public static void execute(Entity immediatesourceentity) {
