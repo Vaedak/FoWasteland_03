@@ -13,8 +13,10 @@ import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.falloutwastelands.client.gui.PowerArmorFrameGUIScreen;
 import net.mcreator.falloutwastelands.client.gui.LockerStorageScreen;
+import net.mcreator.falloutwastelands.client.gui.BoxScreen;
 import net.mcreator.falloutwastelands.client.gui.BASEMenuUIScreen;
 import net.mcreator.falloutwastelands.client.gui.BASEInventoryScreen;
+import net.mcreator.falloutwastelands.client.gui.AmmoBoxGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class FalloutWastelandsModScreens {
@@ -25,6 +27,8 @@ public class FalloutWastelandsModScreens {
 			MenuScreens.register(FalloutWastelandsModMenus.BASE_MENU_UI.get(), BASEMenuUIScreen::new);
 			MenuScreens.register(FalloutWastelandsModMenus.BASE_INVENTORY.get(), BASEInventoryScreen::new);
 			MenuScreens.register(FalloutWastelandsModMenus.POWER_ARMOR_FRAME_GUI.get(), PowerArmorFrameGUIScreen::new);
+			MenuScreens.register(FalloutWastelandsModMenus.BOX.get(), BoxScreen::new);
+			MenuScreens.register(FalloutWastelandsModMenus.AMMO_BOX_GUI.get(), AmmoBoxGUIScreen::new);
 		});
 	}
 }

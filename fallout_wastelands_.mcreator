@@ -13600,6 +13600,34 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "Box",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "box",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/BoxMenu.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/BoxScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "AmmoBoxGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammo_box_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/AmmoBoxGUIScreen.java",
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/AmmoBoxGUIMenu.java"
+        ]
+      },
+      "path": "~/GUI"
     }
   ],
   "variable_elements": [
@@ -14500,6 +14528,7 @@
       "block.fallout_wastelands_.roof_metal": "Roof Sheet Metal Block",
       "item.fallout_wastelands_.nail": "Nail",
       "block.fallout_wastelands_.grey_industrial_allowmidrivet": "Industrial Alloy (mid rivet)",
+      "gui.fallout_wastelands_.ammo_box_gui.label_locker": "Ammunition Box",
       "item.fallout_wastelands_.scotch": "Scotch",
       "block.fallout_wastelands_.wasteland_brickslab": "Wasteland Brick Slab",
       "item.fallout_wastelands_.motherboard": "Motherboard",
@@ -14799,6 +14828,7 @@
       "block.fallout_wastelands_.wastelandcopperore": "Wasteland Copper Ore",
       "block.fallout_wastelands_.molten_boxite": "Melted Boxite Block",
       "block.fallout_wastelands_.metal_chair": "Metal Chair",
+      "gui.fallout_wastelands_.box.label_locker": "Box",
       "block.fallout_wastelands_.sheetmetalblock": "Sheet Metal Block",
       "block.fallout_wastelands_.industrial_walkway": "Industrial Alloy",
       "item.fallout_wastelands_.raider_warmonger_boots": "Raider Warmonger Shoes",

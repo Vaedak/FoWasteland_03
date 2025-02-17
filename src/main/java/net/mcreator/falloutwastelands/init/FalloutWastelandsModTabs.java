@@ -22,7 +22,7 @@ import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 public class FalloutWastelandsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FalloutWastelandsMod.MODID);
 	public static final RegistryObject<CreativeModeTab> WASTELANDBLOCKSTAB = REGISTRY.register("wastelandblockstab",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fallout_wastelands_.wastelandblockstab")).icon(() -> new ItemStack(FalloutWastelandsModBlocks.WASTELAND_STONE.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fallout_wastelands_.wastelandblockstab")).icon(() -> new ItemStack(FalloutWastelandsModBlocks.CAGE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_DIRT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_STONE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDGRASSBLOCK.get().asItem());

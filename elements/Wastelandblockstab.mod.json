@@ -4,7 +4,7 @@
   "definition": {
     "name": "Wasteland Blocks",
     "icon": {
-      "value": "CUSTOM:WastelandStone"
+      "value": "CUSTOM:Cage"
     },
     "showSearch": false
   }
