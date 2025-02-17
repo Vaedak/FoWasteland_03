@@ -450,7 +450,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> RAIDERSCAVANGER_SPAWN_EGG = REGISTRY.register("raiderscavanger_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.RAIDERSCAVANGER, -8423335, -9939410, new Item.Properties()));
 	public static final RegistryObject<Item> WASTELANDDRYDIRT = block(FalloutWastelandsModBlocks.WASTELANDDRYDIRT);
 	public static final RegistryObject<Item> ROCKYDIRT = block(FalloutWastelandsModBlocks.ROCKYDIRT);
-	public static final RegistryObject<Item> BRAHIM_MEAT = REGISTRY.register("brahim_meat", () -> new BrahimMeatItem());
+	public static final RegistryObject<Item> BRAHMIN_MEAT = REGISTRY.register("brahmin_meat", () -> new BrahimMeatItem());
 	public static final RegistryObject<Item> FERTILIZER = REGISTRY.register("fertilizer", () -> new FertilizerItem());
 	public static final RegistryObject<Item> DENTED_CAN = REGISTRY.register("dented_can", () -> new DentedCanItem());
 	public static final RegistryObject<Item> MUTLEMON = REGISTRY.register("mutlemon", () -> new MutlemonItem());

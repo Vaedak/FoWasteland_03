@@ -415,7 +415,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.TINNUGGET.get());
 				tabData.accept(FalloutWastelandsModItems.URANIUM_NUGGET.get());
 				tabData.accept(FalloutWastelandsModItems.PA_FRAME_ITEM.get());
-				tabData.accept(FalloutWastelandsModItems.BRAHIM_MEAT.get());
+				tabData.accept(FalloutWastelandsModItems.BRAHMIN_MEAT.get());
 				tabData.accept(FalloutWastelandsModItems.FERTILIZER.get());
 				tabData.accept(FalloutWastelandsModItems.DENTED_CAN.get());
 				tabData.accept(FalloutWastelandsModItems.MUTLEMON.get());
