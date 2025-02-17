@@ -1,14 +1,14 @@
 package net.mcreator.falloutwastelands.client.gui;
 
-public class AmmoBoxGUIScreen extends AbstractContainerScreen<AmmoBoxGUIMenu> {
+public class MedicalboxGUIScreen extends AbstractContainerScreen<MedicalboxGUIMenu> {
 
-	private final static HashMap<String, Object> guistate = AmmoBoxGUIMenu.guistate;
+	private final static HashMap<String, Object> guistate = MedicalboxGUIMenu.guistate;
 
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public AmmoBoxGUIScreen(AmmoBoxGUIMenu container, Inventory inventory, Component text) {
+	public MedicalboxGUIScreen(MedicalboxGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -19,7 +19,7 @@ public class AmmoBoxGUIScreen extends AbstractContainerScreen<AmmoBoxGUIMenu> {
 		this.imageHeight = 197;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("fallout_wastelands_:textures/screens/ammo_box_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("fallout_wastelands_:textures/screens/medicalbox_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -54,7 +54,7 @@ public class AmmoBoxGUIScreen extends AbstractContainerScreen<AmmoBoxGUIMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.fallout_wastelands_.ammo_box_gui.label_locker"), 4, 5, -10066330, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.fallout_wastelands_.medicalbox_gui.label_locker"), 4, 5, -10066330, false);
 	}
 
 	@Override

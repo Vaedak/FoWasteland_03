@@ -3,7 +3,7 @@ package net.mcreator.falloutwastelands.world.inventory;
 
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
-public class BoxMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class MedicalboxGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
@@ -16,8 +16,8 @@ public class BoxMenu extends AbstractContainerMenu implements Supplier<Map<Integ
 	private Entity boundEntity = null;
 	private BlockEntity boundBlockEntity = null;
 
-	public BoxMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(FalloutWastelandsModMenus.BOX.get(), id);
+	public MedicalboxGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(FalloutWastelandsModMenus.MEDICALBOX_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(21);

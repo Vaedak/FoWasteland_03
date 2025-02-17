@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "fallout_wastelands_:wasteland_plains",
-  "features": "fallout_wastelands_:sandbags",
-  "step": "underground_ores"
-}

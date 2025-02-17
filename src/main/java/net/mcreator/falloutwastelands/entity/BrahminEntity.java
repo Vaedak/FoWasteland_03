@@ -119,7 +119,7 @@ public class BrahminEntity extends TamableAnimal implements GeoEntity {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(FalloutWastelandsModItems.BRAHIM_MEAT.get()));
+		this.spawnAtLocation(new ItemStack(FalloutWastelandsModItems.BRAHMIN_MEAT.get()));
 	}
 
 	@Override
