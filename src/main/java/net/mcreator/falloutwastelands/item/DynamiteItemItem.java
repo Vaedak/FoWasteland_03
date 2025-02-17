@@ -1,6 +1,21 @@
 
 package net.mcreator.falloutwastelands.item;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.server.level.ServerPlayer;
+
+import net.mcreator.falloutwastelands.procedures.DynamiteItemRightclickedProcedure;
+import net.mcreator.falloutwastelands.entity.ShootNothingEntity;
+
 public class DynamiteItemItem extends Item {
 	public DynamiteItemItem() {
 		super(new Item.Properties().durability(1).rarity(Rarity.COMMON));
