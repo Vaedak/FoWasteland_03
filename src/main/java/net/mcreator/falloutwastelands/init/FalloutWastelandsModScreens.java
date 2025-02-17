@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.falloutwastelands.client.gui.PowerArmorFrameGUIScreen;
+import net.mcreator.falloutwastelands.client.gui.MedicalboxGUIScreen;
 import net.mcreator.falloutwastelands.client.gui.LockerStorageScreen;
 import net.mcreator.falloutwastelands.client.gui.BoxScreen;
 import net.mcreator.falloutwastelands.client.gui.BASEMenuUIScreen;
@@ -29,6 +30,7 @@ public class FalloutWastelandsModScreens {
 			MenuScreens.register(FalloutWastelandsModMenus.POWER_ARMOR_FRAME_GUI.get(), PowerArmorFrameGUIScreen::new);
 			MenuScreens.register(FalloutWastelandsModMenus.BOX.get(), BoxScreen::new);
 			MenuScreens.register(FalloutWastelandsModMenus.AMMO_BOX_GUI.get(), AmmoBoxGUIScreen::new);
+			MenuScreens.register(FalloutWastelandsModMenus.MEDICALBOX_GUI.get(), MedicalboxGUIScreen::new);
 		});
 	}
 }

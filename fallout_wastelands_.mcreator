@@ -8204,11 +8204,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "brahim_meat",
+      "registry_name": "brahmin_meat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/BrahimMeatItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/brahim_meat.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/brahmin_meat.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/BrahimMeatItem.java"
         ]
       },
       "path": "~/Items"
@@ -12924,7 +12924,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Procedures"
     },
     {
       "name": "Deathclawhand",
@@ -13510,14 +13510,11 @@
       "registry_name": "sandbags",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/sandbags.json",
           "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/sandbags.json",
           "src/main/java/net/mcreator/falloutwastelands/block/SandbagsBlock.java",
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/sandbags_biome_modifier.json",
           "src/main/resources/assets/fallout_wastelands_/blockstates/sandbags.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/sandbags.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/sandbags.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/sandbags.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/sandbags.json"
         ]
       },
       "path": "~/Blocks"
@@ -13530,13 +13527,10 @@
       "registry_name": "sandbagstairs",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/sandbagstairs.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/sandbagstairs.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/sandbagstairs.json",
           "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/sandbagstairs.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/sandbagstairs.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/sandbagstairs_outer.json",
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/sandbagstairs_biome_modifier.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/sandbagstairs_inner.json",
           "src/main/resources/assets/fallout_wastelands_/blockstates/sandbagstairs.json",
           "src/main/java/net/mcreator/falloutwastelands/block/SandbagstairsBlock.java"
@@ -13552,15 +13546,12 @@
       "registry_name": "sandbags_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/sandbags_slab_biome_modifier.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/sandbags_slab.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/sandbags_slab.json",
           "src/main/resources/assets/fallout_wastelands_/blockstates/sandbags_slab.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/sandbags_slab_full.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/sandbags_slab.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/sandbags_slab_top.json",
           "src/main/java/net/mcreator/falloutwastelands/block/SandbagsSlabBlock.java",
-          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/sandbags_slab.json",
           "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/sandbags_slab.json"
         ]
       },
@@ -13798,6 +13789,20 @@
         ]
       },
       "path": "~/Weapons/Dynamite"
+    },
+    {
+      "name": "MedicalboxGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medicalbox_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/MedicalboxGUIScreen.java",
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/MedicalboxGUIMenu.java"
+        ]
+      },
+      "path": "~/GUI"
     }
   ],
   "variable_elements": [
@@ -13934,16 +13939,16 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs"
+    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
-    ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs"
     ],
     "BLOCKS:minecraft:sand": [
       "CUSTOM:WasteSand"
@@ -14559,7 +14564,6 @@
       "item.fallout_wastelands_.tenmmpistol": "10mm Pistol",
       "block.fallout_wastelands_.linedconcrete": "Concrete",
       "block.fallout_wastelands_.bo_s_tile": "Bos Tile",
-      "item.fallout_wastelands_.brahim_meat": "Brahim Meat",
       "block.fallout_wastelands_.metal_shelf": "Metal Shelf",
       "item.fallout_wastelands_.dynamite_item": "Dynamite",
       "subtitles.ninemmshot": "",
@@ -14749,6 +14753,7 @@
       "block.fallout_wastelands_.tatoplant_1": "Tato Plant",
       "item.fallout_wastelands_.uranium_ingot": "Uranium Ingot",
       "block.fallout_wastelands_.tatoplant_0": "Tato Plant",
+      "gui.fallout_wastelands_.medicalbox_gui.label_locker": "Medical Box",
       "item_group.fallout_wastelands_.wastelandcombat": "Wastelands Combat",
       "block.fallout_wastelands_.metal_box": "Metal Box",
       "block.fallout_wastelands_.molder_wood_pressure_plate": "Molder Pressure Plate",
@@ -14892,6 +14897,7 @@
       "item.fallout_wastelands_.t_45_pa_leggings": "T45 Leggings",
       "item.fallout_wastelands_.tato": "Tato",
       "block.fallout_wastelands_.bos_door_2": "Bos Door Right",
+      "item.fallout_wastelands_.brahmin_meat": "Brahmin Meat",
       "block.fallout_wastelands_.molder_wood_trapdoor": "Molder TrapDoor",
       "block.fallout_wastelands_.wastelandgravel": "Wasteland Gravel",
       "block.fallout_wastelands_.yukaplant": "Yuka Tree",

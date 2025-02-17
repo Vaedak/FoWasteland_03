@@ -9,12 +9,12 @@ import net.minecraft.world.level.block.Blocks;
 
 public class SandbagstairsBlock extends StairBlock {
 	public SandbagstairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().sound(SoundType.SAND).strength(1.5f, 2f));
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().sound(SoundType.SAND).strength(1.5f, 4f));
 	}
 
 	@Override
 	public float getExplosionResistance() {
-		return 2f;
+		return 4f;
 	}
 
 	@Override

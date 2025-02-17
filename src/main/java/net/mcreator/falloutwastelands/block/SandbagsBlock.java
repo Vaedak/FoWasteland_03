@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class SandbagsBlock extends Block {
 	public SandbagsBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.SAND).strength(1.5f, 2f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.SAND).strength(1.5f, 4f));
 	}
 
 	@Override
