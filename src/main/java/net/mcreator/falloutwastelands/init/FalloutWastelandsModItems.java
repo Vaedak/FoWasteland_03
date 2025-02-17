@@ -94,6 +94,7 @@ import net.mcreator.falloutwastelands.item.LobotomiteSuitItem;
 import net.mcreator.falloutwastelands.item.LeadNuggetItem;
 import net.mcreator.falloutwastelands.item.LeadIngotItem;
 import net.mcreator.falloutwastelands.item.LaserrifleItem;
+import net.mcreator.falloutwastelands.item.KnifeItem;
 import net.mcreator.falloutwastelands.item.JerricanItem;
 import net.mcreator.falloutwastelands.item.InstamashItem;
 import net.mcreator.falloutwastelands.item.IndustrialshovelItem;
@@ -619,6 +620,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> METAL_BOX = block(FalloutWastelandsModBlocks.METAL_BOX);
 	public static final RegistryObject<Item> DYNAMITE_ENTITY_SPAWN_EGG = REGISTRY.register("dynamite_entity_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.DYNAMITE_ENTITY, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> DYNAMITE_ITEM = REGISTRY.register("dynamite_item", () -> new DynamiteItemItem());
+	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

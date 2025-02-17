@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "dynamite",
+    "texture": "dynamite2",
     "customModelName": "Ranged item",
     "customProperties": {},
     "states": [],

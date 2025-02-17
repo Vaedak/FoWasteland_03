@@ -371,6 +371,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.VAULT_SECURITY_SUIT_LEGGINGS.get());
 				tabData.accept(FalloutWastelandsModItems.VAULT_SECURITY_SUIT_BOOTS.get());
 				tabData.accept(FalloutWastelandsModItems.DYNAMITE_ITEM.get());
+				tabData.accept(FalloutWastelandsModItems.KNIFE.get());
 			})
 
 					.build());
