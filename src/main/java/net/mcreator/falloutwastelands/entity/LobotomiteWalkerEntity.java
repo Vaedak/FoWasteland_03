@@ -75,7 +75,7 @@ public class LobotomiteWalkerEntity extends Monster {
 			}
 		});
 		this.goalSelector.addGoal(8, new RandomStrollGoal(this, 0.5));
-		this.targetSelector.addGoal(9, new HurtByTargetGoal(this));
+		this.targetSelector.addGoal(9, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(10, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(11, new FloatGoal(this));
 	}

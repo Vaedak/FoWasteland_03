@@ -61,6 +61,9 @@ public class IMPORTANTReloadGunProcedureProcedure {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FalloutWastelandsModItems.FIVEMMMINIGUN.get()) {
 					FivemmReloadProcedure.execute(world, x, y, z, entity);
 				}
+				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FalloutWastelandsModItems.VARMINT_RIFLE.get()) {
+					VarmintRifleReloadProcedure.execute(world, x, y, z, entity);
+				}
 			} else {
 				entity.getPersistentData().putBoolean("ReloadGun", false);
 				entity.getPersistentData().putDouble("timer", 0);

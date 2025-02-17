@@ -7,15 +7,17 @@
     "mobModelTexture": "gecko.png",
     "mobModelGlowTexture": "",
     "visualScale": {
-      "fixedValue": 1.4000000000000001
+      "fixedValue": 1.4000000000000001,
+      "name": "GeckoRandomScale"
     },
     "boundingBoxScale": {
-      "fixedValue": 1.0
+      "fixedValue": 1.0,
+      "name": "GeckoRandomScale"
     },
     "entityDataEntries": [],
     "modelWidth": 0.6,
     "modelHeight": 1.2,
-    "modelShadowSize": 0.5,
+    "modelShadowSize": 0.30000000000000004,
     "mountedYOffset": 0.0,
     "stepHeight": 0.6,
     "hasSpawnEgg": true,
