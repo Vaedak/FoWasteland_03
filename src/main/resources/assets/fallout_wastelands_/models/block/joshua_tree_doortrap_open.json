@@ -1,8 +1,8 @@
 {
   "parent": "block/template_orientable_trapdoor_open",
   "textures": {
-    "texture": "fallout_wastelands_:block/joshuatrapdoor",
-    "particle": "fallout_wastelands_:block/joshuatrapdoor"
+    "texture": "fallout_wastelands_:block/joshuawoodtrapdoor",
+    "particle": "fallout_wastelands_:block/joshuawoodtrapdoor"
   },
   "render_type": "cutout_mipped"
 }

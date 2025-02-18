@@ -3,10 +3,10 @@
   "_type": "block",
   "definition": {
     "texture": "bosfacedatatop",
-    "textureTop": "bosdatatop",
-    "textureLeft": "bosdataleftlower",
+    "textureTop": "topdata",
+    "textureLeft": "bosdatalefttop",
     "textureFront": "bosfacedatatop",
-    "textureRight": "bosdatarightlower",
+    "textureRight": "bosdatarighttop",
     "textureBack": "bosdatamulti",
     "renderType": 10,
     "customModelName": "Normal",
