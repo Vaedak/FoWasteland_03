@@ -3,15 +3,12 @@
   "category": "misc",
   "pattern": [
     " a ",
-    "aba",
+    "a a",
     " a "
   ],
   "key": {
     "a": {
       "item": "fallout_wastelands_:industrialhull"
-    },
-    "b": {
-      "item": "fallout_wastelands_:wasteland_concrete"
     }
   },
   "result": {

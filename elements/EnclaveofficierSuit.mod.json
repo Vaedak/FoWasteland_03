@@ -95,6 +95,10 @@
     "equipSound": {
       "value": "block.moss_carpet.hit"
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "Items.LEATHER"
+      }
+    ]
   }
 }

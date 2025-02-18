@@ -60,17 +60,48 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 20,
     "damageValueHelmet": 2,
     "damageValueBody": 6,
     "damageValueLeggings": 5,
     "damageValueBoots": 2,
-    "enchantability": 0,
+    "enchantability": 9,
     "toughness": 0.2,
     "knockbackResistance": 0.5,
     "equipSound": {
       "value": "item.armor.equip_leather"
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:MilitaryHull"
+      },
+      {
+        "value": "CUSTOM:Plasticsheet"
+      }
+    ]
   }
 }

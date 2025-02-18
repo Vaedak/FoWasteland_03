@@ -6,6 +6,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
@@ -19,6 +20,8 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModBlocks;
 import net.mcreator.falloutwastelands.client.model.Modelblastmasterraiderarmor;
 
 import java.util.function.Consumer;
@@ -40,7 +43,7 @@ public abstract class RaiderblastmasterItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 0;
+				return 12;
 			}
 
 			@Override
@@ -50,7 +53,7 @@ public abstract class RaiderblastmasterItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(FalloutWastelandsModBlocks.TIRE_STACK.get()), new ItemStack(Items.LEATHER), new ItemStack(FalloutWastelandsModItems.INDUSTRIALHULL.get()));
 			}
 
 			@Override

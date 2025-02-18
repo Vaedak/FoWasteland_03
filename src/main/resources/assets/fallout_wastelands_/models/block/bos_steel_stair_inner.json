@@ -1,10 +1,10 @@
 {
   "parent": "block/inner_stairs",
   "textures": {
-    "particle": "fallout_wastelands_:block/bossteelblock",
-    "bottom": "fallout_wastelands_:block/bossteelblock",
-    "top": "fallout_wastelands_:block/bossteelblock",
-    "side": "fallout_wastelands_:block/bossteelblock"
+    "particle": "fallout_wastelands_:block/bossteelwalltopnew",
+    "bottom": "fallout_wastelands_:block/bossteelwalltopnew",
+    "top": "fallout_wastelands_:block/bossteelwalltopnew",
+    "side": "fallout_wastelands_:block/bossteelwall"
   },
   "render_type": "solid"
 }

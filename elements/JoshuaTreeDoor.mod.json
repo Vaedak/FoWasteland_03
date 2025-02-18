@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "joshuadoor",
     "particleTexture": "",
     "blockBase": "Door",
     "tintType": "No tint",

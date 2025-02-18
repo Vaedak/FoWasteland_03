@@ -60,6 +60,30 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 7,
     "damageValueHelmet": 1,
     "damageValueBody": 4,
@@ -67,10 +91,17 @@
     "damageValueBoots": 2,
     "enchantability": 3,
     "toughness": 0.1,
-    "knockbackResistance": 0.1,
+    "knockbackResistance": 0.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Cloth"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      }
+    ]
   }
 }

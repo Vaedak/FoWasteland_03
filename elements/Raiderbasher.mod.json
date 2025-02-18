@@ -60,17 +60,54 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 16,
     "damageValueHelmet": 2,
     "damageValueBody": 5,
     "damageValueLeggings": 4,
     "damageValueBoots": 1,
-    "enchantability": 0,
+    "enchantability": 7,
     "toughness": 0.2,
-    "knockbackResistance": 0.1,
+    "knockbackResistance": 0.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Cage"
+      },
+      {
+        "value": "CUSTOM:TireIron"
+      },
+      {
+        "value": "CUSTOM:Pipe"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      }
+    ]
   }
 }

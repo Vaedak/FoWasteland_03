@@ -29,7 +29,7 @@ public class BaseballClubItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 0;
+				return 14;
 			}
 
 			public Ingredient getRepairIngredient() {

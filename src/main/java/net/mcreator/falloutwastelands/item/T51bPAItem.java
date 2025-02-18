@@ -42,7 +42,7 @@ public abstract class T51bPAItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 0;
+				return 15;
 			}
 
 			@Override
@@ -52,7 +52,7 @@ public abstract class T51bPAItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.BROTHERHOOD_HULL.get()));
+				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.BROTHERHOOD_HULL.get()), new ItemStack(FalloutWastelandsModItems.MILITARY_HULL.get()));
 			}
 
 			@Override

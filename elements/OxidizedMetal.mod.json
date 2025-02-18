@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Oxidized Metal",
+    "name": "Smeared Concrete",
     "specialInformation": {
       "fixedValue": []
     },
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

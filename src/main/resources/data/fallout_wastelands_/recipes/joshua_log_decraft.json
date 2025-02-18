@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:joshua_log"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:joshua_tree_woodplanks",
+    "count": 4
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "fallout_wastelands_:block/joshua_log_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "fallout_wastelands_:block/joshua_log_log"
+    },
+    "axis=z": {
+      "model": "fallout_wastelands_:block/joshua_log_log",
+      "x": 90
+    }
+  }
+}

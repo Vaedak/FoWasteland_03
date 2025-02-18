@@ -20,7 +20,7 @@ public class HachetItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3.5f;
+				return 4.5f;
 			}
 
 			public int getLevel() {
@@ -28,7 +28,7 @@ public class HachetItem extends AxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 0;
+				return 14;
 			}
 
 			public Ingredient getRepairIngredient() {

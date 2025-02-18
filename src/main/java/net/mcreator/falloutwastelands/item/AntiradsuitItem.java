@@ -30,7 +30,7 @@ public abstract class AntiradsuitItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 0;
+				return 9;
 			}
 
 			@Override

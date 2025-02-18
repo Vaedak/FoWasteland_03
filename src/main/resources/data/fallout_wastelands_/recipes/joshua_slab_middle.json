@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:joshua_tree_woodplanks"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:joshua_tree_slab",
+    "count": 6
+  }
+}

@@ -29,7 +29,7 @@ public class WrenchItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 0;
+				return 5;
 			}
 
 			public Ingredient getRepairIngredient() {

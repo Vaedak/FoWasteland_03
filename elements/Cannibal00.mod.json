@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Cannibal",
+    "mobName": "Cannibal Grunt",
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "cannibal_grunt.png",
@@ -32,7 +32,7 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -9939410,
+      "value": -8687268,
       "falpha": 0.0
     },
     "creativeTabs": [

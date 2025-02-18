@@ -4,9 +4,9 @@
     "down": "fallout_wastelands_:block/vaultwall",
     "up": "fallout_wastelands_:block/vaultwall",
     "north": "fallout_wastelands_:block/vaultreinforcedpillar",
-    "east": "fallout_wastelands_:block/vaultreinforcedpillar",
+    "east": "fallout_wastelands_:block/vaultpillarsmooth",
     "south": "fallout_wastelands_:block/vaultreinforcedpillar",
-    "west": "fallout_wastelands_:block/vaultreinforcedpillar",
+    "west": "fallout_wastelands_:block/vaultpillarsmooth",
     "particle": "fallout_wastelands_:block/vaultwall"
   },
   "render_type": "solid"

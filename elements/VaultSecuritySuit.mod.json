@@ -97,7 +97,7 @@
     },
     "repairItems": [
       {
-        "value": "CUSTOM:Industrialhull"
+        "value": "CUSTOM:VaultHull"
       }
     ]
   }

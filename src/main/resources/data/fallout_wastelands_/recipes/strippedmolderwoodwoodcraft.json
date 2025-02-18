@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:strippedmolderwoodlog"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:strippedmolderwoodwood",
+    "count": 3
+  }
+}

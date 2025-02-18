@@ -28,7 +28,7 @@ public class RollingpinItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 0;
+				return 25;
 			}
 
 			public Ingredient getRepairIngredient() {

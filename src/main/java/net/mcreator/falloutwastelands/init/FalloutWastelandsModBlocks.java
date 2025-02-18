@@ -95,6 +95,7 @@ import net.mcreator.falloutwastelands.block.Tatoplant1Block;
 import net.mcreator.falloutwastelands.block.Tatoplant0Block;
 import net.mcreator.falloutwastelands.block.SupermutantgoreBlock;
 import net.mcreator.falloutwastelands.block.SubwaybricksBlock;
+import net.mcreator.falloutwastelands.block.StrippedmolderwoodwoodBlock;
 import net.mcreator.falloutwastelands.block.StrippedmolderwoodlogBlock;
 import net.mcreator.falloutwastelands.block.StoproadsignBlock;
 import net.mcreator.falloutwastelands.block.SteelPoleBlock;
@@ -176,6 +177,7 @@ import net.mcreator.falloutwastelands.block.JoshuaTreeWoodplanksBlock;
 import net.mcreator.falloutwastelands.block.JoshuaTreeSlabBlock;
 import net.mcreator.falloutwastelands.block.JoshuaTreeDoortrapBlock;
 import net.mcreator.falloutwastelands.block.JoshuaTreeDoorBlock;
+import net.mcreator.falloutwastelands.block.JoshuaLogLogBlock;
 import net.mcreator.falloutwastelands.block.JoshuaLogBlock;
 import net.mcreator.falloutwastelands.block.IndustrialWalkwaystairsBlock;
 import net.mcreator.falloutwastelands.block.IndustrialWalkwayslabBlock;
@@ -524,6 +526,8 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> SANDBAGSTAIRS = REGISTRY.register("sandbagstairs", () -> new SandbagstairsBlock());
 	public static final RegistryObject<Block> SANDBAGS_SLAB = REGISTRY.register("sandbags_slab", () -> new SandbagsSlabBlock());
 	public static final RegistryObject<Block> METAL_BOX = REGISTRY.register("metal_box", () -> new MetalBoxBlock());
+	public static final RegistryObject<Block> JOSHUA_LOG_LOG = REGISTRY.register("joshua_log_log", () -> new JoshuaLogLogBlock());
+	public static final RegistryObject<Block> STRIPPEDMOLDERWOODWOOD = REGISTRY.register("strippedmolderwoodwood", () -> new StrippedmolderwoodwoodBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

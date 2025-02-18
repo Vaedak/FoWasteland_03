@@ -268,6 +268,8 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.SANDBAGSTAIRS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.SANDBAGS_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.METAL_BOX.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_LOG_LOG.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.STRIPPEDMOLDERWOODWOOD.get().asItem());
 			})
 
 					.build());

@@ -42,7 +42,7 @@ public abstract class VaultSuitItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 9;
+				return 25;
 			}
 
 			@Override

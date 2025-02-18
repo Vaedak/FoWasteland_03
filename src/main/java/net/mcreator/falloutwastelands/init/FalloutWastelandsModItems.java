@@ -269,7 +269,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> NEUTRONADE = REGISTRY.register("neutronade", () -> new NeutronadeItem());
 	public static final RegistryObject<Item> NEUTRONADE_CAP = REGISTRY.register("neutronade_cap", () -> new NeutronadeCapItem());
 	public static final RegistryObject<Item> EMPTY_NEUTRONADE_BOTTLE = REGISTRY.register("empty_neutronade_bottle", () -> new EmptyNeutronadeBottleItem());
-	public static final RegistryObject<Item> CANNIBAL_00_SPAWN_EGG = REGISTRY.register("cannibal_00_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.CANNIBAL_00, -11382217, -9939410, new Item.Properties()));
+	public static final RegistryObject<Item> CANNIBAL_00_SPAWN_EGG = REGISTRY.register("cannibal_00_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.CANNIBAL_00, -11382217, -8687268, new Item.Properties()));
 	public static final RegistryObject<Item> WASTELANDTILES = block(FalloutWastelandsModBlocks.WASTELANDTILES);
 	public static final RegistryObject<Item> BAS_ECORE = REGISTRY.register(FalloutWastelandsModBlocks.BAS_ECORE.getId().getPath(), () -> new BASEcoreDisplayItem(FalloutWastelandsModBlocks.BAS_ECORE.get(), new Item.Properties()));
 	public static final RegistryObject<Item> BASE_CAP_BUNDLE = REGISTRY.register("base_cap_bundle", () -> new BASECapBundleItem());
@@ -621,6 +621,8 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> DYNAMITE_ENTITY_SPAWN_EGG = REGISTRY.register("dynamite_entity_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.DYNAMITE_ENTITY, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> DYNAMITE_ITEM = REGISTRY.register("dynamite_item", () -> new DynamiteItemItem());
 	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
+	public static final RegistryObject<Item> JOSHUA_LOG_LOG = block(FalloutWastelandsModBlocks.JOSHUA_LOG_LOG);
+	public static final RegistryObject<Item> STRIPPEDMOLDERWOODWOOD = block(FalloutWastelandsModBlocks.STRIPPEDMOLDERWOODWOOD);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:joshua_log"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:joshua_log_log",
+    "count": 3
+  }
+}

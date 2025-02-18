@@ -34,7 +34,7 @@ public class NailedWrenchItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 0;
+				return 5;
 			}
 
 			public Ingredient getRepairIngredient() {

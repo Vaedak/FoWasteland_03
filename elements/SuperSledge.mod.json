@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Pickaxe",
     "renderType": 1,
     "blockingRenderType": 0,
     "texture": "super_sledge",
@@ -17,10 +17,10 @@
         "value": "CUSTOM:Wastelandcombat"
       }
     ],
-    "efficiency": 6.5,
+    "efficiency": 8.5,
     "attackSpeed": 0.8,
-    "enchantability": 0,
-    "damageVsEntity": 10.5,
+    "enchantability": 14,
+    "damageVsEntity": 12.5,
     "usageCount": 250,
     "glowCondition": {
       "fixedValue": false

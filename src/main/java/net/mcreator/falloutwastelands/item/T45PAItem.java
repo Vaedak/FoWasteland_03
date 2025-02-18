@@ -19,6 +19,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
 import net.mcreator.falloutwastelands.client.model.Modeltfourtyfive;
 
 import java.util.function.Consumer;
@@ -50,7 +51,7 @@ public abstract class T45PAItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.MILITARY_HULL.get()), new ItemStack(FalloutWastelandsModItems.BROTHERHOOD_HULL.get()), new ItemStack(FalloutWastelandsModItems.INDUSTRIALHULL.get()));
 			}
 
 			@Override

@@ -35,7 +35,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Oxidized Metal Wall",
+    "name": "Smeared Concrete Wall",
     "specialInformation": {
       "fixedValue": []
     },
@@ -60,7 +60,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

@@ -56,7 +56,7 @@
     "leggingsItemCustomModelName": "Normal",
     "bootsItemRenderType": 0,
     "bootsItemCustomModelName": "Normal",
-    "helmetImmuneToFire": false,
+    "helmetImmuneToFire": true,
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
@@ -89,7 +89,7 @@
     "damageValueBody": 1,
     "damageValueLeggings": 1,
     "damageValueBoots": 1,
-    "enchantability": 9,
+    "enchantability": 25,
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {

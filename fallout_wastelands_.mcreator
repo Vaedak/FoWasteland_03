@@ -13882,6 +13882,209 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "JoshuaStairs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/joshua_stairs.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "JoshuaStairsLeft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_stairs_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/joshua_stairs_left.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "JoshuaSlab",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/joshua_slab.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "JoshuaSlabMiddle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_slab_middle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/joshua_slab_middle.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "JoshuaSlapTop",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_slap_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/joshua_slap_top.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "JoshuaDoor",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/joshua_door.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "JoshuaDoorRight",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_door_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/joshua_door_right.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "JoshuaLogDecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_log_decraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/joshua_log_decraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "JoshuaLogLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_log_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/joshua_log_log.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/joshua_log_log.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/joshua_log_log.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/JoshuaLogLogBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/joshua_log_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "JoshuaLogLogCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_log_log_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/joshua_log_log_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "JoshuaLogLogDecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_log_log_decraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/joshua_log_log_decraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MolderWoodWoodDecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molder_wood_wood_decraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/molder_wood_wood_decraft.json"
+        ]
+      },
+      "path": "~/Blocks/MolderWoodSet"
+    },
+    {
+      "name": "Strippedmolderwoodwood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strippedmolderwoodwood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/strippedmolderwoodwood.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/strippedmolderwoodwood.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/StrippedmolderwoodwoodBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/strippedmolderwoodwood.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/strippedmolderwoodwood.json"
+        ]
+      },
+      "path": "~/Blocks/MolderWoodSet"
+    },
+    {
+      "name": "Strippedmolderwooddecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strippedmolderwooddecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/strippedmolderwooddecraft.json"
+        ]
+      },
+      "path": "~/Blocks/MolderWoodSet"
+    },
+    {
+      "name": "Strippedmolderwoodwoodcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strippedmolderwoodwoodcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/strippedmolderwoodwoodcraft.json"
+        ]
+      },
+      "path": "~/Blocks/MolderWoodSet"
     }
   ],
   "variable_elements": [
@@ -14196,7 +14399,6 @@
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Knife",
-      "~CUSTOM:SuperSledge",
       "~CUSTOM:SecurityBaton",
       "~CUSTOM:DeathclawGauntlet",
       "~CUSTOM:BaseballClub",
@@ -14326,6 +14528,7 @@
       "CUSTOM:Molder_WoodFenceGate"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SuperSledge",
       "~CUSTOM:Industrialhammer",
       "~CUSTOM:Industrialshovel"
     ],
@@ -14525,6 +14728,8 @@
       "~CUSTOM:WastelandStone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Strippedmolderwoodwood",
+      "~CUSTOM:JoshuaLogLog",
       "~CUSTOM:JoshuaTreeDoortrap",
       "~CUSTOM:JoshuaTreeDoor",
       "~CUSTOM:JoshuaTreeSlab",
@@ -14664,7 +14869,7 @@
       "item.fallout_wastelands_.laserrifle": "Laser Rifle",
       "item.fallout_wastelands_.dented_can": "Dented Can",
       "block.fallout_wastelands_.adobe_block_slab": "Adobe Block Slab",
-      "block.fallout_wastelands_.grey_industrial_walkway_slab": "Industrial Alloy Slab",
+      "block.fallout_wastelands_.grey_industrial_walkway_slab": "Industrial Plating Slab",
       "block.fallout_wastelands_.the_glow_dirt": "Glow Dirt",
       "item.fallout_wastelands_.antiradsuit_chestplate": "Anti-Rad Suit Chest",
       "block.fallout_wastelands_.joshuea_tree_stairs": "Joshhua Tree Planks Stairs",
@@ -14682,7 +14887,7 @@
       "block.fallout_wastelands_.wastelandburntgrass": "Wasteland Burnt Grass",
       "item.fallout_wastelands_.vodka": "Vodka",
       "item.fallout_wastelands_.enclaveofficier_suit_boots": "Enclave Boots",
-      "item.fallout_wastelands_.cannibal_00_spawn_egg": "Cannibal Spawn Egg",
+      "item.fallout_wastelands_.cannibal_00_spawn_egg": "Cannibal Grunt Spawn Egg",
       "block.fallout_wastelands_.single_scaffold_block": "Scaffold Block",
       "block.fallout_wastelands_.yielroadsign": "Yield Roadsign",
       "item.fallout_wastelands_.army_repairman_suit_chestplate": "Army Repairman Jacket",
@@ -14690,7 +14895,7 @@
       "item.fallout_wastelands_.industrialhammer": "Sledgehammer",
       "item.fallout_wastelands_.pa_display_entity_spawn_egg": "PA Display Entity Spawn Egg",
       "gui.fallout_wastelands_.base_menu_ui.label_varlocalvar": "DisplaysInputName",
-      "block.fallout_wastelands_.bos_metal_roof_stairs": "Bos Metal Roof Stairs",
+      "block.fallout_wastelands_.bos_metal_roof_stairs": "BoS Metal Roof Stairs",
       "block.fallout_wastelands_.worn_metal_pillar": "Worn Metal Pillar",
       "item.fallout_wastelands_.gecko_coocked_egg": "Boiled Gecko Egg",
       "item.fallout_wastelands_.wastelandbrickitem": "Wasteland Brick",
@@ -14728,7 +14933,7 @@
       "item.fallout_wastelands_.brahmin_spawn_egg": "Brahmin Spawn Egg",
       "block.fallout_wastelands_.wirefence": "Wire Fence",
       "block.fallout_wastelands_.bos_metal_plating_lighted": "Bos Lighted Plating",
-      "block.fallout_wastelands_.bo_s_grid_floor_stairs": "Bos Grid Floor Stairs",
+      "block.fallout_wastelands_.bo_s_grid_floor_stairs": "BSs Grid Floor Stairs",
       "block.fallout_wastelands_.red_painted_planks": "Red Painted Planks",
       "block.fallout_wastelands_.wasteland_broken_glass": "Broken Glass",
       "block.fallout_wastelands_.ammo_box": "Ammo Box",
@@ -14741,7 +14946,7 @@
       "block.fallout_wastelands_.bo_s_grid_floor": "Bos Grid Floor",
       "block.fallout_wastelands_.wasteland_sand_stone": "Wasteland Sandstone",
       "block.fallout_wastelands_.fridge": "Fridge",
-      "block.fallout_wastelands_.industrial_walkwaystairs": "Industrial Alloy Stairs",
+      "block.fallout_wastelands_.industrial_walkwaystairs": "Industrial Plating Stairs",
       "item.fallout_wastelands_.enclaveofficier_suit_leggings": "Enclave Pants",
       "item.fallout_wastelands_.t_51b_pa_helmet": "T51b Helmet",
       "item.fallout_wastelands_.cloth": "Cloth",
@@ -14751,7 +14956,7 @@
       "block.fallout_wastelands_.worn_metal_decorationstairs": "Worn Metal Decoration Stairs",
       "block.fallout_wastelands_.burnished_glass": "Burnished Glass Block",
       "item.fallout_wastelands_.hunting_casing": "Empty Shotgun Shell",
-      "block.fallout_wastelands_.grey_industrial_alloyplate": "Industrial Alloy",
+      "block.fallout_wastelands_.grey_industrial_alloyplate": "Industrial Plating",
       "subtitles.nailpistolshot": "",
       "block.fallout_wastelands_.vault_wall_curved": "Curved Vault Wall",
       "block.fallout_wastelands_.bos_steel_slabs": "Bos Metal Slab",
@@ -14776,14 +14981,14 @@
       "item.fallout_wastelands_.enclave_antiradsuit_chestplate": "Enclave Scientist Anti-Rad Chest",
       "block.fallout_wastelands_.wastelandtilesslab": "Wasteland Tiles",
       "block.fallout_wastelands_.tin_ore": "Tin Ore",
-      "block.fallout_wastelands_.grey_industrial_alloy_stair": "Grey Industrial Alloy Stair",
+      "block.fallout_wastelands_.grey_industrial_alloy_stair": "Industrial Plating Stairs",
       "block.fallout_wastelands_.molder_wood_planks": "Rotten Planks",
       "block.fallout_wastelands_.wastelandgrassbush": "Wasteland Bush",
-      "block.fallout_wastelands_.sandbags": "Sandbag",
+      "block.fallout_wastelands_.sandbags": "Sandbags",
       "block.fallout_wastelands_.television": "Television",
       "block.fallout_wastelands_.roof_metal": "Roof Sheet Metal Block",
       "item.fallout_wastelands_.nail": "Nail",
-      "block.fallout_wastelands_.grey_industrial_allowmidrivet": "Industrial Alloy (mid rivet)",
+      "block.fallout_wastelands_.grey_industrial_allowmidrivet": "Industrial Plating (mid rivet)",
       "gui.fallout_wastelands_.ammo_box_gui.label_locker": "Ammunition Box",
       "item.fallout_wastelands_.scotch": "Scotch",
       "block.fallout_wastelands_.wasteland_brickslab": "Wasteland Brick Slab",
@@ -14797,11 +15002,11 @@
       "block.fallout_wastelands_.industrial_alloy_slab": "Industrial Alloy Slab",
       "block.fallout_wastelands_.wasteland_cracked_brick": "Wasteland Cracked Bricks",
       "block.fallout_wastelands_.industrial_alloy": "Industrial Alloy (upper rivet)",
-      "block.fallout_wastelands_.grey_industrial_alloy": "Industrial Alloy (upper rivet)",
+      "block.fallout_wastelands_.grey_industrial_alloy": "Industrial Plating (upper rivet)",
       "block.fallout_wastelands_.wastelandironore": "Wasteland Iron Ore",
       "block.fallout_wastelands_.military_plating_walkway_slab": "Military Plating Walkway Slab",
       "block.fallout_wastelands_.blasted_glass": "Blasted Window",
-      "block.fallout_wastelands_.oxidized_metal_stair": "Oxidized Metal Stair",
+      "block.fallout_wastelands_.oxidized_metal_stair": "Smeared Stairs",
       "item.fallout_wastelands_.taloncombatarmor_helmet": "Talon Combat Armor Helmet",
       "item.fallout_wastelands_.sugar_bombs": "Sugar Bombs",
       "block.fallout_wastelands_.ruins_ground": "Exposed Vault Ruins Block",
@@ -14848,15 +15053,15 @@
       "item.fallout_wastelands_.bloat_fly_meat": "Bloatfly Meat",
       "block.fallout_wastelands_.molder_wood_fence": "Molder Fence",
       "item.fallout_wastelands_.raiderbasher_boots": "Raider Basher Boots",
-      "block.fallout_wastelands_.industrial_alloystructure": "Industrial Alloy Structure",
+      "block.fallout_wastelands_.industrial_alloystructure": "Industrial Plating Structure",
       "item.fallout_wastelands_.iguana_on_stick": "Brahmin Bits",
-      "block.fallout_wastelands_.molten_tin": "Melted Tin Block",
+      "block.fallout_wastelands_.molten_tin": "Molten Tin Block",
       "block.fallout_wastelands_.wasteland_road_slab": "Wasteland Asphalt Slab",
       "item.fallout_wastelands_.empty_neutronade_bottle": "Empty Nuka Cola Bottle",
       "block.fallout_wastelands_.bos_metal_stairs": "Bos Metal Stairs",
-      "block.fallout_wastelands_.grey_industrial_walkwayslab": "Industrial Alloy Slab",
+      "block.fallout_wastelands_.grey_industrial_walkwayslab": "Industrial Plating Slab",
       "block.fallout_wastelands_.enclave_door": "Enclave Door",
-      "block.fallout_wastelands_.grey_industrial_walkway": "Industrial Alloy",
+      "block.fallout_wastelands_.grey_industrial_walkway": "Industrial Plating",
       "item.fallout_wastelands_.metalstick": "Metal Stick",
       "block.fallout_wastelands_.hangardoor": "Hanger Door",
       "block.fallout_wastelands_.lead_block": "Aluminum Block",
@@ -14911,7 +15116,7 @@
       "item.fallout_wastelands_.combatarmor_boots": "Combat Armor Boots",
       "item.fallout_wastelands_.coffee": "Coffee",
       "block.fallout_wastelands_.double_scaffold_wall": "Double Scaffold Wall",
-      "block.fallout_wastelands_.industrial_alloy_structureslab": "Industrial Alloy Structure Slab",
+      "block.fallout_wastelands_.industrial_alloy_structureslab": "Industrial Plating Structure Slab",
       "block.fallout_wastelands_.steel_block": "Steel Block",
       "item.fallout_wastelands_.psycho": "Psycho",
       "block.fallout_wastelands_.wasteland_road_yellow": "Yellow Wasteland Asphalt",
@@ -14920,12 +15125,12 @@
       "block.fallout_wastelands_.gore": "Gore",
       "block.fallout_wastelands_.mixer": "Mixer",
       "block.fallout_wastelands_.plaster": "Plaster",
-      "block.fallout_wastelands_.bo_s_metal_roof": "Bos Metal Roof",
+      "block.fallout_wastelands_.bo_s_metal_roof": "BoS Metal Roof",
       "item.fallout_wastelands_.raider_dustwalker_spawn_egg": "Raider Dustwalker Spawn Egg",
       "block.fallout_wastelands_.stoproadsign": "Stop Roadsign",
       "block.fallout_wastelands_.uranium_ore": "Uranium Ore",
       "block.fallout_wastelands_.vault_wall": "Vault Wall",
-      "block.fallout_wastelands_.bo_s_grid_floor_slab": "Bos Grid Floor Slab",
+      "block.fallout_wastelands_.bo_s_grid_floor_slab": "BoS Grid Floor Slab",
       "subtitles.pistol32firing": "",
       "block.fallout_wastelands_.rusted_sheet_metal_wall": "Rusted Sheet Metal Wall",
       "subtitles.the_glow": "",
@@ -14950,7 +15155,7 @@
       "block.fallout_wastelands_.wastelanddiamondore": "Wasteland Diamond Ore",
       "item.fallout_wastelands_.t_51b_pa_boots": "T51b Boots",
       "item.fallout_wastelands_.combatarmor_chestplate": "Combat Armor Chestplate",
-      "entity.fallout_wastelands_.cannibal_00": "Cannibal",
+      "entity.fallout_wastelands_.cannibal_00": "Cannibal Grunt",
       "block.fallout_wastelands_.barricadeplanks": "Barricade Planks",
       "subtitles.lmgreloading": "",
       "block.fallout_wastelands_.militaryplatingstairs": "Military Plated Stairs",
@@ -14961,7 +15166,7 @@
       "block.fallout_wastelands_.enclave_bunker_block_logo": "Enclave Bunker Emblem",
       "item.fallout_wastelands_.tinnugget": "Uranium Nugget",
       "item.fallout_wastelands_.industrialshovel": "Spade",
-      "block.fallout_wastelands_.oxidized_metal": "Oxidized Metal",
+      "block.fallout_wastelands_.oxidized_metal": "Smeared Concrete",
       "block.fallout_wastelands_.military_metal_stair": "Military Plated Stair",
       "item.fallout_wastelands_.advanced_motherboard": "Advanced Motherboard",
       "item.fallout_wastelands_.ripper": "Ripper",
@@ -14987,7 +15192,7 @@
       "subtitles.revolverreloading": "",
       "item.fallout_wastelands_.uranium_nugget": "Uranium Nugget",
       "block.fallout_wastelands_.adobe_block_wall": "Adobe Block Wall",
-      "block.fallout_wastelands_.industrial_alloy_vent": "Industrial Alloy Vent",
+      "block.fallout_wastelands_.industrial_alloy_vent": "Industrial Plating Vent",
       "item.fallout_wastelands_.dynamite_entity_spawn_egg": "Dynamite Spawn Egg",
       "item.fallout_wastelands_.instamash": "Insta-mash",
       "block.fallout_wastelands_.bo_s_data_front_top": "BoS Data Block",
@@ -15040,9 +15245,10 @@
       "item.fallout_wastelands_.combatarmor_helmet": "Combat Armor Helmet",
       "block.fallout_wastelands_.worn_metal_slab": "Worn Metal Slab",
       "block.fallout_wastelands_.military_metal_plate_wall": "Military Plated Wall",
-      "block.fallout_wastelands_.grey_industrial_walkway_stairs": "Industrial Alloy Stairs",
+      "block.fallout_wastelands_.grey_industrial_walkway_stairs": "Industrial Plating Stairs",
       "item.fallout_wastelands_.steelnugget": "Steel Nugget",
       "block.fallout_wastelands_.wastelandtiles": "Wasteland Tiles",
+      "block.fallout_wastelands_.joshua_log_log": "Joshua Tree Log",
       "item.fallout_wastelands_.pa_frame_item": "Power Armor Frame",
       "block.fallout_wastelands_.terminal": "Terminal",
       "block.fallout_wastelands_.wasteland_road_block": "Wasteland Asphalt",
@@ -15078,7 +15284,7 @@
       "block.fallout_wastelands_.industrial_allow_mid_rivet": "Industrial Alloy (mid rivet)",
       "item.fallout_wastelands_.t_51b_pa_chestplate": "T51b Chestplate",
       "item.fallout_wastelands_.army_repairman_suit_leggings": "Army Repairman Pants",
-      "block.fallout_wastelands_.molten_steel": "Melted Steel Block",
+      "block.fallout_wastelands_.molten_steel": "Molten Steel Block",
       "block.fallout_wastelands_.blasted_glass_pane": "Blasted Glass Pane",
       "gui.fallout_wastelands_.base_inventory.label_note_to_make_the_white_ui_disap": "Note: to make the white ui disappear you must set it",
       "block.fallout_wastelands_.military_metalwindow": "Military Metal Window",
@@ -15087,7 +15293,7 @@
       "block.fallout_wastelands_.sandbags_slab": "Sandbag Slab",
       "block.fallout_wastelands_.industrial_alloy_bottom_rivet": "Industrial Alloy (bottom rivet)",
       "block.fallout_wastelands_.wastelandcopperore": "Wasteland Copper Ore",
-      "block.fallout_wastelands_.molten_boxite": "Melted Boxite Block",
+      "block.fallout_wastelands_.molten_boxite": "Molten Bauxite Block",
       "block.fallout_wastelands_.metal_chair": "Metal Chair",
       "gui.fallout_wastelands_.box.label_locker": "Box",
       "block.fallout_wastelands_.sheetmetalblock": "Sheet Metal Block",
@@ -15101,14 +15307,14 @@
       "item.fallout_wastelands_.thirtytwoammo": ".32 Rounds",
       "block.fallout_wastelands_.pipe": "Pipe",
       "block.fallout_wastelands_.hardconcretestairs": "Concrete Stairs",
-      "block.fallout_wastelands_.oxidized_metal_wall": "Oxidized Metal Wall",
+      "block.fallout_wastelands_.oxidized_metal_wall": "Smeared Concrete Wall",
       "item.fallout_wastelands_.combatarmor_leggings": "Combat Armor Leggings",
       "item.fallout_wastelands_.raiderblastmaster_leggings": "Raider Blastmaster Loincloth",
       "block.fallout_wastelands_.exposed_rust_block": "Exposed Rust Block",
       "item.fallout_wastelands_.road_leather_leggings": "Road Leather Pants",
       "item.fallout_wastelands_.robco_repairman_leggings": "Robco Pants",
       "item.fallout_wastelands_.varmint_rifle": "Varmint Rifle",
-      "block.fallout_wastelands_.grey_industrial_alloybottomrivet": "Industrial Alloy (bottom rivet)",
+      "block.fallout_wastelands_.grey_industrial_alloybottomrivet": "Industrial Plating (bottom rivet)",
       "block.fallout_wastelands_.bos_metal_plating": "Bos Metal Plating",
       "item.fallout_wastelands_.lobotomite_suit_helmet": "Lobotomite Helmet",
       "item.fallout_wastelands_.hachet": "Hachet",
@@ -15135,17 +15341,18 @@
       "block.fallout_wastelands_.ruins_base": "Rusted Vault Ruins Block (base)",
       "block.fallout_wastelands_.melted_iron_block": "Melted Iron Block",
       "block.fallout_wastelands_.sheetmetalstairs": "Sheet Metal Stairs",
-      "block.fallout_wastelands_.bo_s_steel_wall": "Bos Steel Wall",
+      "block.fallout_wastelands_.bo_s_steel_wall": "BoS Steel Wall",
       "gui.fallout_wastelands_.base_menu_ui.label_d": " use an image with the texts and use button images",
       "item.fallout_wastelands_.raiderblastmaster_boots": "Raider Blastmaster Sandals",
-      "block.fallout_wastelands_.grey_industrial_alloy_slab": "Industrial Alloy Slab",
+      "block.fallout_wastelands_.grey_industrial_alloy_slab": "Industrial Plating Slab",
       "entity.fallout_wastelands_.brahmin": "Brahmin",
       "item.fallout_wastelands_.security_baton": "Police Baton",
+      "block.fallout_wastelands_.strippedmolderwoodwood": "Rotten Log",
       "item.fallout_wastelands_.wastelands": "Wastelands Portal Igniter",
       "item.fallout_wastelands_.acid": "Acid",
       "item.fallout_wastelands_.vault_suit_boots": "Vault Jumpsuit Boots",
       "block.fallout_wastelands_.landmine": "Landmine",
-      "block.fallout_wastelands_.molten_copper": "Melted Copper Block",
+      "block.fallout_wastelands_.molten_copper": "Molten Copper Block",
       "block.fallout_wastelands_.floor_papers": "Plaster",
       "item.fallout_wastelands_.cram": "Cram",
       "block.fallout_wastelands_.wasteland_stone": "Wasteland Stone",

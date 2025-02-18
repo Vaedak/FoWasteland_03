@@ -52,7 +52,7 @@ public abstract class VaultSecuritySuitItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.INDUSTRIALHULL.get()));
+				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.VAULT_HULL.get()));
 			}
 
 			@Override

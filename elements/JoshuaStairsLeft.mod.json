@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:JoshuaTreeWoodplanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:JoshuaTreeWoodplanks"
+      },
+      {
+        "value": "CUSTOM:JoshuaTreeWoodplanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:JoshuaTreeWoodplanks"
+      },
+      {
+        "value": "CUSTOM:JoshuaTreeWoodplanks"
+      },
+      {
+        "value": "CUSTOM:JoshuaTreeWoodplanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:JoshueaTreeStairs"
+    },
+    "name": "joshua_stairs_left",
+    "namespace": "mod"
+  }
+}

@@ -89,7 +89,7 @@
     "damageValueBody": 9,
     "damageValueLeggings": 6,
     "damageValueBoots": 5,
-    "enchantability": 0,
+    "enchantability": 15,
     "toughness": 5.0,
     "knockbackResistance": 0.6,
     "equipSound": {
@@ -98,6 +98,9 @@
     "repairItems": [
       {
         "value": "CUSTOM:BrotherhoodHull"
+      },
+      {
+        "value": "CUSTOM:MilitaryHull"
       }
     ]
   }

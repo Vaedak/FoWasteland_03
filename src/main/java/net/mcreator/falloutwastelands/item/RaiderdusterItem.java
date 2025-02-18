@@ -19,6 +19,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
 import net.mcreator.falloutwastelands.client.model.Modeldusterraiderarmor;
 
 import java.util.function.Consumer;
@@ -50,7 +51,7 @@ public abstract class RaiderdusterItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.CLOTH.get()), new ItemStack(FalloutWastelandsModItems.LEAD_INGOT.get()));
 			}
 
 			@Override
@@ -65,7 +66,7 @@ public abstract class RaiderdusterItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.1f;
+				return 0f;
 			}
 		}, type, properties);
 	}

@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "fallout_wastelands_:block/vault_reinforced_pillar"
+    },
+    "facing=east": {
+      "model": "fallout_wastelands_:block/vault_reinforced_pillar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fallout_wastelands_:block/vault_reinforced_pillar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fallout_wastelands_:block/vault_reinforced_pillar",
+      "y": 270
     }
   }
 }

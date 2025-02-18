@@ -30,13 +30,13 @@
         "value": "CUSTOM:Industrialhull"
       },
       {
-        "value": "CUSTOM:Cloth"
+        "value": "Items.LEATHER"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Cloth"
+        "value": "Items.LEATHER"
       }
     ],
     "recipeReturnStack": {

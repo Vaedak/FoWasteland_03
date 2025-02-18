@@ -21,7 +21,7 @@ public class IndustrialhammerItem extends PickaxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 4.5f;
+				return 6f;
 			}
 
 			public int getLevel() {

@@ -13,6 +13,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
+
 public abstract class CombatarmorItem extends ArmorItem {
 	public CombatarmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
@@ -28,7 +30,7 @@ public abstract class CombatarmorItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 0;
+				return 9;
 			}
 
 			@Override
@@ -38,7 +40,7 @@ public abstract class CombatarmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.MILITARY_HULL.get()), new ItemStack(FalloutWastelandsModItems.PLASTICSHEET.get()));
 			}
 
 			@Override

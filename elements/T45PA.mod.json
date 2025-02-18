@@ -95,6 +95,16 @@
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:MilitaryHull"
+      },
+      {
+        "value": "CUSTOM:BrotherhoodHull"
+      },
+      {
+        "value": "CUSTOM:Industrialhull"
+      }
+    ]
   }
 }

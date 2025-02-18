@@ -28,7 +28,7 @@ public class BaseballBatItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 0;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

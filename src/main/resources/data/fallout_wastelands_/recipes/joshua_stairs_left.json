@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:joshua_tree_woodplanks"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:joshuea_tree_stairs",
+    "count": 4
+  }
+}

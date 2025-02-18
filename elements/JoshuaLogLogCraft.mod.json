@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:JoshuaLog"
+      },
+      {
+        "value": "CUSTOM:JoshuaLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:JoshuaLog"
+      },
+      {
+        "value": "CUSTOM:JoshuaLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:JoshuaLogLog"
+    },
+    "name": "joshua_log_log_craft",
+    "namespace": "mod"
+  }
+}
