@@ -44,7 +44,7 @@
       "value": "CUSTOM:BaseGunItemProjectile"
     },
     "projectileDisableAmmoCheck": false,
-    "isFood": false,
+    "isFood": true,
     "nutritionalValue": 4,
     "saturation": 0.4,
     "eatResultItem": {

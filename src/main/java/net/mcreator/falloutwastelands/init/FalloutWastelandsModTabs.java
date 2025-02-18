@@ -270,6 +270,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.METAL_BOX.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_LOG_LOG.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.STRIPPEDMOLDERWOODWOOD.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.OVEN.get().asItem());
 			})
 
 					.build());
@@ -309,11 +310,14 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.WRENCH.get());
 				tabData.accept(FalloutWastelandsModItems.LASERRIFLE.get());
 				tabData.accept(FalloutWastelandsModItems.NAILED_WRENCH.get());
+				tabData.accept(FalloutWastelandsModItems.INDUSTRIALSHOVEL.get());
 				tabData.accept(FalloutWastelandsModItems.PLASMARIFLE.get());
 				tabData.accept(FalloutWastelandsModItems.NAILGUN.get());
 				tabData.accept(FalloutWastelandsModItems.ROLLINGPIN.get());
 				tabData.accept(FalloutWastelandsModItems.CHINESEPISTOL.get());
+				tabData.accept(FalloutWastelandsModItems.HACHET.get());
 				tabData.accept(FalloutWastelandsModItems.THIRTYTWOAMMO.get());
+				tabData.accept(FalloutWastelandsModItems.INDUSTRIALHAMMER.get());
 				tabData.accept(FalloutWastelandsModItems.ENERGY_CELL.get());
 				tabData.accept(FalloutWastelandsModItems.TIRE_IRON.get());
 				tabData.accept(FalloutWastelandsModItems.FIVEMMMINIGUN.get());
@@ -403,10 +407,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.PSYCHO.get());
 				tabData.accept(FalloutWastelandsModItems.PIPBOY.get());
 				tabData.accept(FalloutWastelandsModItems.CORN.get());
-				tabData.accept(FalloutWastelandsModItems.INDUSTRIALSHOVEL.get());
-				tabData.accept(FalloutWastelandsModItems.HACHET.get());
 				tabData.accept(FalloutWastelandsModItems.NAIL.get());
-				tabData.accept(FalloutWastelandsModItems.INDUSTRIALHAMMER.get());
 				tabData.accept(FalloutWastelandsModItems.RAW_LEAD.get());
 				tabData.accept(FalloutWastelandsModItems.RAW_ALUMINUM.get());
 				tabData.accept(FalloutWastelandsModItems.RAW_URANIUM.get());
@@ -483,6 +484,7 @@ public class FalloutWastelandsModTabs {
 			tabData.accept(FalloutWastelandsModItems.BRAHMIN_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.GECKO_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.LOBOTOMITE_WALKER_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.CANNIBAL_01_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

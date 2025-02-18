@@ -27,6 +27,7 @@ import net.mcreator.falloutwastelands.entity.LobotomiteWalkerEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.GeckoEntity;
 import net.mcreator.falloutwastelands.entity.DynamiteEntityEntity;
+import net.mcreator.falloutwastelands.entity.Cannibal01Entity;
 import net.mcreator.falloutwastelands.entity.Cannibal00Entity;
 import net.mcreator.falloutwastelands.entity.BrahminEntity;
 import net.mcreator.falloutwastelands.entity.BlastmasterRaiderEntity;
@@ -83,6 +84,10 @@ public class FalloutWastelandsModEntities {
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DynamiteEntityEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<ShootNothingEntity>> SHOOT_NOTHING = register("shoot_nothing",
 			EntityType.Builder.<ShootNothingEntity>of(ShootNothingEntity::new, MobCategory.MISC).setCustomClientFactory(ShootNothingEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0f, 0f));
+	public static final RegistryObject<EntityType<Cannibal01Entity>> CANNIBAL_01 = register("cannibal_01",
+			EntityType.Builder.<Cannibal01Entity>of(Cannibal01Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Cannibal01Entity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -101,6 +106,7 @@ public class FalloutWastelandsModEntities {
 			GeckoEntity.init();
 			LobotomiteWalkerEntity.init();
 			DynamiteEntityEntity.init();
+			Cannibal01Entity.init();
 		});
 	}
 
@@ -116,5 +122,6 @@ public class FalloutWastelandsModEntities {
 		event.put(GECKO.get(), GeckoEntity.createAttributes().build());
 		event.put(LOBOTOMITE_WALKER.get(), LobotomiteWalkerEntity.createAttributes().build());
 		event.put(DYNAMITE_ENTITY.get(), DynamiteEntityEntity.createAttributes().build());
+		event.put(CANNIBAL_01.get(), Cannibal01Entity.createAttributes().build());
 	}
 }

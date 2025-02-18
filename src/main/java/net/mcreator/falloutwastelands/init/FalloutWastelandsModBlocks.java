@@ -130,6 +130,7 @@ import net.mcreator.falloutwastelands.block.OxidizedMetalWallBlock;
 import net.mcreator.falloutwastelands.block.OxidizedMetalStairBlock;
 import net.mcreator.falloutwastelands.block.OxidizedMetalSlabBlock;
 import net.mcreator.falloutwastelands.block.OxidizedMetalBlock;
+import net.mcreator.falloutwastelands.block.OvenBlock;
 import net.mcreator.falloutwastelands.block.MoltenTinBlock;
 import net.mcreator.falloutwastelands.block.MoltenSteelBlock;
 import net.mcreator.falloutwastelands.block.MoltenCopperBlock;
@@ -528,6 +529,7 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> METAL_BOX = REGISTRY.register("metal_box", () -> new MetalBoxBlock());
 	public static final RegistryObject<Block> JOSHUA_LOG_LOG = REGISTRY.register("joshua_log_log", () -> new JoshuaLogLogBlock());
 	public static final RegistryObject<Block> STRIPPEDMOLDERWOODWOOD = REGISTRY.register("strippedmolderwoodwood", () -> new StrippedmolderwoodwoodBlock());
+	public static final RegistryObject<Block> OVEN = REGISTRY.register("oven", () -> new OvenBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
