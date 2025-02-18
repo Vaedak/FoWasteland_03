@@ -22,6 +22,9 @@
     "enchantability": 0,
     "damageVsEntity": 5.5,
     "usageCount": 150,
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "Items.IRON_INGOT"

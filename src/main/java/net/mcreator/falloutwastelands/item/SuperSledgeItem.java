@@ -35,6 +35,6 @@ public class SuperSledgeItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.INDUSTRIALHULL.get()));
 			}
-		}, 3, -3.6f, new Item.Properties());
+		}, 3, -3.2f, new Item.Properties());
 	}
 }

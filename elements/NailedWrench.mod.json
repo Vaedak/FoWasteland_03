@@ -8,7 +8,7 @@
     "texture": "wrenchwithanail",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Wrench",
+    "name": "SpikedWrench",
     "specialInformation": {
       "fixedValue": [
         "Some nails cannot harm ... can they ?"
@@ -20,10 +20,13 @@
       }
     ],
     "efficiency": 2.0,
-    "attackSpeed": 0.6,
+    "attackSpeed": 1.3,
     "enchantability": 0,
     "damageVsEntity": 4.5,
     "usageCount": 90,
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "CUSTOM:LeadIngot"

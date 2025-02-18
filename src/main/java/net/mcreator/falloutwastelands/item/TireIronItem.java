@@ -35,6 +35,6 @@ public class TireIronItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.LEAD_INGOT.get()));
 			}
-		}, 3, -3.2f, new Item.Properties());
+		}, 3, -2.5f, new Item.Properties());
 	}
 }

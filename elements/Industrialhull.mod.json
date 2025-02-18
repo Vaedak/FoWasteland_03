@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "industrialplating",
+    "texture": "militaryplating",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Industrial Hull",
+    "name": "Industrial Plating",
     "rarity": "COMMON",
     "creativeTabs": [
       {

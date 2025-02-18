@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Iguana-On-Stick",
+    "name": "Brahmin Bits",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -48,7 +48,7 @@
     "nutritionalValue": 3,
     "saturation": 0.5,
     "eatResultItem": {
-      "value": ""
+      "value": "CUSTOM:Metalstick"
     },
     "isMeat": true,
     "isAlwaysEdible": false,

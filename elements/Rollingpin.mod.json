@@ -18,10 +18,13 @@
       }
     ],
     "efficiency": 2.0,
-    "attackSpeed": 0.8,
+    "attackSpeed": 2.5,
     "enchantability": 0,
     "damageVsEntity": 0.5,
     "usageCount": 70,
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "Blocks.PLANKS"

@@ -2,6 +2,7 @@
 package net.mcreator.falloutwastelands.item;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -13,6 +14,11 @@ import net.mcreator.falloutwastelands.procedures.BeerPlayerFinishesUsingItemProc
 public class BeerItem extends Item {
 	public BeerItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(-2).saturationMod(1.5f).alwaysEat().build()));
+	}
+
+	@Override
+	public UseAnim getUseAnimation(ItemStack itemstack) {
+		return UseAnim.DRINK;
 	}
 
 	@Override

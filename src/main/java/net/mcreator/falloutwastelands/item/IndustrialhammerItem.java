@@ -35,6 +35,6 @@ public class IndustrialhammerItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.STEEL_INGOT.get()));
 			}
-		}, 1, -2.8f, new Item.Properties());
+		}, 1, -3.2f, new Item.Properties());
 	}
 }

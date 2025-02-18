@@ -38,7 +38,7 @@ public class CattleRodItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.IRON_INGOT), new ItemStack(FalloutWastelandsModItems.COPPERWIRES.get()));
 			}
-		}, 3, -3.2f, new Item.Properties());
+		}, 3, -2.7f, new Item.Properties());
 	}
 
 	@Override

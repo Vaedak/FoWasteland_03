@@ -35,6 +35,6 @@ public class BaseballClubItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(FalloutWastelandsModItems.NAIL.get()));
 			}
-		}, 3, -3.2f, new Item.Properties());
+		}, 3, -2.5f, new Item.Properties());
 	}
 }

@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 0,
     "texture": "dynamite2",
-    "customModelName": "Ranged item",
+    "customModelName": "Tool",
     "customProperties": {},
     "states": [],
     "name": "Dynamite",

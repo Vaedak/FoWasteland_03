@@ -18,10 +18,13 @@
       }
     ],
     "efficiency": 7.0,
-    "attackSpeed": 1.2000000000000002,
+    "attackSpeed": 0.8,
     "enchantability": 0,
     "damageVsEntity": 6.5,
     "usageCount": 150,
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "CUSTOM:SteelIngot"
