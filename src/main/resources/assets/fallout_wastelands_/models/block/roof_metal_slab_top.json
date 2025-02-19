@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "fallout_wastelands_:block/roofblock",
+    "bottom": "fallout_wastelands_:block/roofblock",
+    "top": "fallout_wastelands_:block/roofblock",
+    "side": "fallout_wastelands_:block/roofblock"
+  },
+  "render_type": "solid"
+}

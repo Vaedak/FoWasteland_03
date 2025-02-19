@@ -119,6 +119,8 @@ import net.mcreator.falloutwastelands.block.RustBlockBlock;
 import net.mcreator.falloutwastelands.block.RuinsGroundBlock;
 import net.mcreator.falloutwastelands.block.RuinsBlock;
 import net.mcreator.falloutwastelands.block.RuinsBaseBlock;
+import net.mcreator.falloutwastelands.block.RoofMetalWallBlock;
+import net.mcreator.falloutwastelands.block.RoofMetalSlabBlock;
 import net.mcreator.falloutwastelands.block.RoofMetalBlock;
 import net.mcreator.falloutwastelands.block.RockydirtBlock;
 import net.mcreator.falloutwastelands.block.ReinforcedPlanksBlock;
@@ -180,6 +182,7 @@ import net.mcreator.falloutwastelands.block.JoshuaTreeDoortrapBlock;
 import net.mcreator.falloutwastelands.block.JoshuaTreeDoorBlock;
 import net.mcreator.falloutwastelands.block.JoshuaLogLogBlock;
 import net.mcreator.falloutwastelands.block.JoshuaLogBlock;
+import net.mcreator.falloutwastelands.block.JoshuaLeavesBlock;
 import net.mcreator.falloutwastelands.block.IndustrialWalkwaystairsBlock;
 import net.mcreator.falloutwastelands.block.IndustrialWalkwayslabBlock;
 import net.mcreator.falloutwastelands.block.IndustrialWalkwayBlock;
@@ -220,6 +223,8 @@ import net.mcreator.falloutwastelands.block.EnclaveBunkerStairsBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerFloorBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerBlockLogoBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerBlockBlock;
+import net.mcreator.falloutwastelands.block.DriedPlanksWallBlock;
+import net.mcreator.falloutwastelands.block.DriedPlanksBlock;
 import net.mcreator.falloutwastelands.block.DoubleScaffoldWallBlock;
 import net.mcreator.falloutwastelands.block.DoubleScaffoldBlockBlock;
 import net.mcreator.falloutwastelands.block.CrackedWastelandConcreteWallBlock;
@@ -530,6 +535,11 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> JOSHUA_LOG_LOG = REGISTRY.register("joshua_log_log", () -> new JoshuaLogLogBlock());
 	public static final RegistryObject<Block> STRIPPEDMOLDERWOODWOOD = REGISTRY.register("strippedmolderwoodwood", () -> new StrippedmolderwoodwoodBlock());
 	public static final RegistryObject<Block> OVEN = REGISTRY.register("oven", () -> new OvenBlock());
+	public static final RegistryObject<Block> JOSHUA_LEAVES = REGISTRY.register("joshua_leaves", () -> new JoshuaLeavesBlock());
+	public static final RegistryObject<Block> ROOF_METAL_WALL = REGISTRY.register("roof_metal_wall", () -> new RoofMetalWallBlock());
+	public static final RegistryObject<Block> ROOF_METAL_SLAB = REGISTRY.register("roof_metal_slab", () -> new RoofMetalSlabBlock());
+	public static final RegistryObject<Block> DRIED_PLANKS = REGISTRY.register("dried_planks", () -> new DriedPlanksBlock());
+	public static final RegistryObject<Block> DRIED_PLANKS_WALL = REGISTRY.register("dried_planks_wall", () -> new DriedPlanksWallBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

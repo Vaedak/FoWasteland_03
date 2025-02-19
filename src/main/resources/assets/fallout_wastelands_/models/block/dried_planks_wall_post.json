@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "particle": "fallout_wastelands_:block/deadplanks",
+    "edge": "fallout_wastelands_:block/deadplanks",
+    "pane": "fallout_wastelands_:block/deadplanks"
+  },
+  "render_type": "solid"
+}

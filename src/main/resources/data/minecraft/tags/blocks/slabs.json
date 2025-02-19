@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:roof_metal_slab",
     "fallout_wastelands_:sandbags_slab",
     "fallout_wastelands_:joshua_tree_slab",
     "fallout_wastelands_:adobe_block_slab",

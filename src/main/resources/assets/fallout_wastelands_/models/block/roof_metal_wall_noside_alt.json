@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_noside_alt",
+  "textures": {
+    "particle": "fallout_wastelands_:block/roofblock",
+    "pane": "fallout_wastelands_:block/roofblock"
+  },
+  "render_type": "solid"
+}

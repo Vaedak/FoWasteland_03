@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:roof_metal_slab",
+    "fallout_wastelands_:roof_metal_wall",
     "fallout_wastelands_:oven",
     "fallout_wastelands_:yielroadsign",
     "fallout_wastelands_:stoproadsign",

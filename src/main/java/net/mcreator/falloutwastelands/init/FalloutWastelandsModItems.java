@@ -625,6 +625,11 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> STRIPPEDMOLDERWOODWOOD = block(FalloutWastelandsModBlocks.STRIPPEDMOLDERWOODWOOD);
 	public static final RegistryObject<Item> OVEN = block(FalloutWastelandsModBlocks.OVEN);
 	public static final RegistryObject<Item> CANNIBAL_01_SPAWN_EGG = REGISTRY.register("cannibal_01_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.CANNIBAL_01, -13552077, -9606326, new Item.Properties()));
+	public static final RegistryObject<Item> JOSHUA_LEAVES = block(FalloutWastelandsModBlocks.JOSHUA_LEAVES);
+	public static final RegistryObject<Item> ROOF_METAL_WALL = block(FalloutWastelandsModBlocks.ROOF_METAL_WALL);
+	public static final RegistryObject<Item> ROOF_METAL_SLAB = block(FalloutWastelandsModBlocks.ROOF_METAL_SLAB);
+	public static final RegistryObject<Item> DRIED_PLANKS = block(FalloutWastelandsModBlocks.DRIED_PLANKS);
+	public static final RegistryObject<Item> DRIED_PLANKS_WALL = block(FalloutWastelandsModBlocks.DRIED_PLANKS_WALL);
 
 	// Start of user code block custom items
 	// End of user code block custom items

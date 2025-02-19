@@ -271,6 +271,11 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_LOG_LOG.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.STRIPPEDMOLDERWOODWOOD.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.OVEN.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_LEAVES.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ROOF_METAL_WALL.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ROOF_METAL_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.DRIED_PLANKS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.DRIED_PLANKS_WALL.get().asItem());
 			})
 
 					.build());

@@ -14117,6 +14117,101 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "JoshuaLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joshua_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/joshua_leaves.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/joshua_leaves.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/joshua_leaves.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/JoshuaLeavesBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/joshua_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RoofMetalWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roof_metal_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/roof_metal_wall_post.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/roof_metal_wall_noside_alt.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/roof_metal_wall.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/roof_metal_wall_side_alt.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/roof_metal_wall.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/roof_metal_wall_noside.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/roof_metal_wall_side.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/roof_metal_wall.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/RoofMetalWallBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RoofMetalSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roof_metal_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/roof_metal_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/roof_metal_slab.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/RoofMetalSlabBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/roof_metal_slab_top.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/roof_metal_slab_full.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/roof_metal_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/roof_metal_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DriedPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/dried_planks.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/dried_planks.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/DriedPlanksBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/dried_planks.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/dried_planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DriedPlanksWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_planks_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/dried_planks_wall.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/dried_planks_wall_side.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/dried_planks_wall_side_alt.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/dried_planks_wall_noside.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/dried_planks_wall.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/dried_planks_wall.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/dried_planks_wall_noside_alt.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/DriedPlanksWallBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/dried_planks_wall_post.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -14259,6 +14354,7 @@
       "CUSTOM:T51bPA.legs"
     ],
     "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:JoshuaLeaves",
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
@@ -14294,6 +14390,7 @@
       "CUSTOM:MolderWoodTrapdoor"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:RoofMetalSlab",
       "~CUSTOM:SandbagsSlab",
       "~CUSTOM:JoshuaTreeSlab",
       "~CUSTOM:AdobeBlockSlab",
@@ -14327,6 +14424,8 @@
       "CUSTOM:T51bPA.body"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:RoofMetalSlab",
+      "~CUSTOM:RoofMetalWall",
       "~CUSTOM:Yielroadsign",
       "~CUSTOM:Stoproadsign",
       "~CUSTOM:WornMetalDecorationstairs",
@@ -14580,6 +14679,8 @@
       "CUSTOM:WastelandCobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:RoofMetalSlab",
+      "~CUSTOM:RoofMetalWall",
       "~CUSTOM:Oven",
       "~CUSTOM:Yielroadsign",
       "~CUSTOM:Stoproadsign",
@@ -14761,6 +14862,8 @@
       "~CUSTOM:WastelandStone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:DriedPlanksWall",
+      "~CUSTOM:DriedPlanks",
       "~CUSTOM:Strippedmolderwoodwood",
       "~CUSTOM:JoshuaLogLog",
       "~CUSTOM:JoshuaTreeDoortrap",
@@ -15043,6 +15146,7 @@
       "item.fallout_wastelands_.taloncombatarmor_helmet": "Talon Combat Armor Helmet",
       "item.fallout_wastelands_.sugar_bombs": "Sugar Bombs",
       "block.fallout_wastelands_.ruins_ground": "Exposed Vault Ruins Block",
+      "block.fallout_wastelands_.roof_metal_wall": "Roof Sheet Metal Block",
       "block.fallout_wastelands_.wasteland_dirt": "Wasteland Dirt",
       "item.fallout_wastelands_.aluminiumnugget": "Aluminium Nugget",
       "block.fallout_wastelands_.cracked_wasteland_concrete": "Cracked Concrete",
@@ -15202,6 +15306,7 @@
       "item.fallout_wastelands_.tinnugget": "Uranium Nugget",
       "item.fallout_wastelands_.industrialshovel": "Spade",
       "block.fallout_wastelands_.oxidized_metal": "Smeared Concrete",
+      "block.fallout_wastelands_.joshua_leaves": "Joshua Leaves",
       "block.fallout_wastelands_.military_metal_stair": "Military Plated Stair",
       "item.fallout_wastelands_.advanced_motherboard": "Advanced Motherboard",
       "item.fallout_wastelands_.ripper": "Ripper",
@@ -15212,6 +15317,7 @@
       "block.fallout_wastelands_.wasteland_brick_stairs": "Wasteland Brick Stairs",
       "item.fallout_wastelands_.antiradsuit_helmet": "Anti-Rad Suit Helmet",
       "block.fallout_wastelands_.waste_sand": "Wasteland Dirt",
+      "block.fallout_wastelands_.dried_planks": "Joshhua Tree Planks",
       "item.fallout_wastelands_.industrialhull": "Industrial Plating",
       "item.fallout_wastelands_.robco_repairman_chestplate": "Robco Jacket",
       "item.fallout_wastelands_.plasticsheet": "Plastic Sheet",
@@ -15308,6 +15414,7 @@
       "block.fallout_wastelands_.vault_reinforced_pillar": "Reinforced Vault Pillar",
       "item.fallout_wastelands_.handyman_suit_leggings": "Handyman Pants",
       "block.fallout_wastelands_.worn_metal_stairs": "Worn Metal Stairs",
+      "block.fallout_wastelands_.dried_planks_wall": "Joshhua Tree Planks",
       "block.fallout_wastelands_.molder_wood_slab": "Molder Wood Slab",
       "item.fallout_wastelands_.enclave_antiradsuit_boots": "Enclave Scientist Anti-Rad Boots",
       "block.fallout_wastelands_.molder_wood_button": "Rotten Button",
@@ -15350,6 +15457,7 @@
       "item.fallout_wastelands_.road_leather_leggings": "Road Leather Pants",
       "item.fallout_wastelands_.robco_repairman_leggings": "Robco Pants",
       "item.fallout_wastelands_.varmint_rifle": "Varmint Rifle",
+      "block.fallout_wastelands_.roof_metal_slab": "Roof Sheet Metal Block",
       "block.fallout_wastelands_.grey_industrial_alloybottomrivet": "Industrial Plating (bottom rivet)",
       "block.fallout_wastelands_.bos_metal_plating": "Bos Metal Plating",
       "item.fallout_wastelands_.lobotomite_suit_helmet": "Lobotomite Helmet",

@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/joshua_leaves",
+  "textures": {
+    "all": "fallout_wastelands_:block/joshualeaves",
+    "particle": "fallout_wastelands_:block/joshualeaves",
+    "0": "fallout_wastelands_:block/joshualeaves"
+  },
+  "render_type": "cutout_mipped"
+}
