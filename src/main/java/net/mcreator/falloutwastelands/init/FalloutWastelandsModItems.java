@@ -630,6 +630,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> ROOF_METAL_SLAB = block(FalloutWastelandsModBlocks.ROOF_METAL_SLAB);
 	public static final RegistryObject<Item> DRIED_PLANKS = block(FalloutWastelandsModBlocks.DRIED_PLANKS);
 	public static final RegistryObject<Item> DRIED_PLANKS_WALL = block(FalloutWastelandsModBlocks.DRIED_PLANKS_WALL);
+	public static final RegistryObject<Item> SPIDERFLOATER_SPAWN_EGG = REGISTRY.register("spiderfloater_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.SPIDERFLOATER, -11127510, -5934277, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

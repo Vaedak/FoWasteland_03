@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.falloutwastelands.client.renderer.SpiderfloaterRenderer;
 import net.mcreator.falloutwastelands.client.renderer.RaiderscavangerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.RaiderDustwalkerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.PowerArmorFrameRenderer;
@@ -45,5 +46,6 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.DYNAMITE_ENTITY.get(), DynamiteEntityRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.SHOOT_NOTHING.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.CANNIBAL_01.get(), Cannibal01Renderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.SPIDERFLOATER.get(), SpiderfloaterRenderer::new);
 	}
 }
