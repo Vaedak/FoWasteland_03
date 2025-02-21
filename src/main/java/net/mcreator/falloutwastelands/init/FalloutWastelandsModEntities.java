@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.falloutwastelands.entity.SpiderfloaterEntity;
 import net.mcreator.falloutwastelands.entity.ShootNothingEntity;
 import net.mcreator.falloutwastelands.entity.RipperProjectileProjectileEntity;
 import net.mcreator.falloutwastelands.entity.RaiderscavangerEntity;
@@ -88,6 +89,10 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<Cannibal01Entity>of(Cannibal01Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Cannibal01Entity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SpiderfloaterEntity>> SPIDERFLOATER = register("spiderfloater",
+			EntityType.Builder.<SpiderfloaterEntity>of(SpiderfloaterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpiderfloaterEntity::new)
+
+					.sized(1.5f, 1.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -107,6 +112,7 @@ public class FalloutWastelandsModEntities {
 			LobotomiteWalkerEntity.init();
 			DynamiteEntityEntity.init();
 			Cannibal01Entity.init();
+			SpiderfloaterEntity.init();
 		});
 	}
 
@@ -123,5 +129,6 @@ public class FalloutWastelandsModEntities {
 		event.put(LOBOTOMITE_WALKER.get(), LobotomiteWalkerEntity.createAttributes().build());
 		event.put(DYNAMITE_ENTITY.get(), DynamiteEntityEntity.createAttributes().build());
 		event.put(CANNIBAL_01.get(), Cannibal01Entity.createAttributes().build());
+		event.put(SPIDERFLOATER.get(), SpiderfloaterEntity.createAttributes().build());
 	}
 }

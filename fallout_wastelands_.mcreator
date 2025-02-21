@@ -14212,6 +14212,22 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "Spiderfloater",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spiderfloater",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/entity/SpiderfloaterEntity.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/model/SpiderfloaterModel.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/spiderfloater_spawn_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/SpiderfloaterRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [

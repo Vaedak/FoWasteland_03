@@ -1,0 +1,266 @@
+
+package net.mcreator.falloutwastelands.entity;
+
+import net.minecraft.world.entity.ai.attributes.Attribute;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.nbt.Tag;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.SynchedEntityData;
+
+import javax.annotation.Nullable;
+
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.core.animation.AnimationState;
+
+public class SpiderfloaterEntity extends Monster implements GeoEntity {
+	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(SpiderfloaterEntity.class, EntityDataSerializers.BOOLEAN);
+	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(SpiderfloaterEntity.class, EntityDataSerializers.STRING);
+	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(SpiderfloaterEntity.class, EntityDataSerializers.STRING);
+
+	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
+	private boolean swinging;
+	private boolean lastloop;
+	private long lastSwing;
+	public String animationprocedure = "empty";
+
+	public SpiderfloaterEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(FalloutWastelandsModEntities.SPIDERFLOATER.get(), world);
+	}
+
+	public SpiderfloaterEntity(EntityType<SpiderfloaterEntity> type, Level world) {
+		super(type, world);
+		xpReward = 0;
+		setNoAi(false);
+		setMaxUpStep(0.6f);
+
+		this.moveControl = new FlyingMoveControl(this, 10, true);
+	}
+
+	@Override
+	protected void defineSynchedData() {
+		super.defineSynchedData();
+		this.entityData.define(SHOOT, false);
+		this.entityData.define(ANIMATION, "undefined");
+		this.entityData.define(TEXTURE, "needletooth");
+	}
+
+	public void setTexture(String texture) {
+		this.entityData.set(TEXTURE, texture);
+	}
+
+	public String getTexture() {
+		return this.entityData.get(TEXTURE);
+	}
+
+	@Override
+	public Packet<ClientGamePacketListener> getAddEntityPacket() {
+		return NetworkHooks.getEntitySpawningPacket(this);
+	}
+
+	@Override
+	protected PathNavigation createNavigation(Level world) {
+		return new FlyingPathNavigation(this, world);
+	}
+
+	@Override
+	protected void registerGoals() {
+		super.registerGoals();
+
+		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.4, 20) {
+
+			@Override
+			protected Vec3 getPosition() {
+				RandomSource random = SpiderfloaterEntity.this.getRandom();
+				double dir_x = SpiderfloaterEntity.this.getX() + ((random.nextFloat() * 2 - 1) * 16);
+				double dir_y = SpiderfloaterEntity.this.getY() + ((random.nextFloat() * 2 - 1) * 16);
+				double dir_z = SpiderfloaterEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
+				return new Vec3(dir_x, dir_y, dir_z);
+			}
+
+		});
+		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.3, true) {
+
+			@Override
+			protected double getAttackReachSqr(LivingEntity entity) {
+				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
+			}
+
+		});
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Cannibal00Entity.class, false, false));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Cannibal01Entity.class, false, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, BrahminEntity.class, false, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, BlastmasterRaiderEntity.class, false, false));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, GeckoEntity.class, false, false));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, LobotomiteWalkerEntity.class, false, false));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, Wolf.class, false, false));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, RaiderscavangerEntity.class, false, false));
+		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, RaiderDustwalkerEntity.class, false, false));
+		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, Animal.class, false, false));
+		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.targetSelector.addGoal(14, new HurtByTargetGoal(this).setAlertOthers());
+		this.goalSelector.addGoal(15, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(16, new FloatGoal(this));
+
+	}
+
+	@Override
+	public MobType getMobType() {
+		return MobType.ARTHROPOD;
+	}
+
+	@Override
+	public void playStepSound(BlockPos pos, BlockState blockIn) {
+		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.spider.ambient")), 0.15f, 1);
+	}
+
+	@Override
+	public SoundEvent getHurtSound(DamageSource ds) {
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
+	}
+
+	@Override
+	public SoundEvent getDeathSound() {
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+	}
+
+	@Override
+	public boolean causeFallDamage(float l, float d, DamageSource source) {
+
+		return false;
+	}
+
+	@Override
+	public void addAdditionalSaveData(CompoundTag compound) {
+		super.addAdditionalSaveData(compound);
+		compound.putString("Texture", this.getTexture());
+	}
+
+	@Override
+	public void readAdditionalSaveData(CompoundTag compound) {
+		super.readAdditionalSaveData(compound);
+		if (compound.contains("Texture"))
+			this.setTexture(compound.getString("Texture"));
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		this.refreshDimensions();
+	}
+
+	@Override
+	public EntityDimensions getDimensions(Pose p_33597_) {
+		return super.getDimensions(p_33597_).scale((float) 1);
+	}
+
+	@Override
+	protected void checkFallDamage(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
+	}
+
+	@Override
+	public void setNoGravity(boolean ignored) {
+		super.setNoGravity(true);
+	}
+
+	public void aiStep() {
+		super.aiStep();
+		this.setNoGravity(true);
+	}
+
+	public static void init() {
+
+	}
+
+	public static AttributeSupplier.Builder createAttributes() {
+		AttributeSupplier.Builder builder = Mob.createMobAttributes();
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
+		builder = builder.add(Attributes.MAX_HEALTH, 10);
+		builder = builder.add(Attributes.ARMOR, 0);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+
+		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
+
+		return builder;
+	}
+
+	private PlayState movementPredicate(AnimationState event) {
+		if (this.animationprocedure.equals("empty")) {
+			if (!this.onGround()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.needletoothfloater.Idle"));
+			}
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.needletoothfloater.Idle"));
+		}
+		return PlayState.STOP;
+	}
+
+	private PlayState attackingPredicate(AnimationState event) {
+		double d1 = this.getX() - this.xOld;
+		double d0 = this.getZ() - this.zOld;
+		float velocity = (float) Math.sqrt(d1 * d1 + d0 * d0);
+		if (getAttackAnim(event.getPartialTick()) > 0f && !this.swinging) {
+			this.swinging = true;
+			this.lastSwing = level().getGameTime();
+		}
+		if (this.swinging && this.lastSwing + 7L <= level().getGameTime()) {
+			this.swinging = false;
+		}
+		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+			event.getController().forceAnimationReset();
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.needletoothfloater.attack"));
+		}
+		return PlayState.CONTINUE;
+	}
+
+	String prevAnim = "empty";
+
+	private PlayState procedurePredicate(AnimationState event) {
+		if (!animationprocedure.equals("empty") && event.getController().getAnimationState() == AnimationController.State.STOPPED || (!this.animationprocedure.equals(prevAnim) && !this.animationprocedure.equals("empty"))) {
+			if (!this.animationprocedure.equals(prevAnim))
+				event.getController().forceAnimationReset();
+			event.getController().setAnimation(RawAnimation.begin().thenPlay(this.animationprocedure));
+			if (event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+				this.animationprocedure = "empty";
+				event.getController().forceAnimationReset();
+			}
+		} else if (animationprocedure.equals("empty")) {
+			prevAnim = "empty";
+			return PlayState.STOP;
+		}
+		prevAnim = this.animationprocedure;
+		return PlayState.CONTINUE;
+	}
+
+	@Override
+	protected void tickDeath() {
+		++this.deathTime;
+		if (this.deathTime == 20) {
+			this.remove(SpiderfloaterEntity.RemovalReason.KILLED);
+			this.dropExperience();
+
+		}
+	}
+
+	public String getSyncedAnimation() {
+		return this.entityData.get(ANIMATION);
+	}
+
+	public void setAnimation(String animation) {
+		this.entityData.set(ANIMATION, animation);
+	}
+
+	@Override
+	public void registerControllers(AnimatableManager.ControllerRegistrar data) {
+		data.add(new AnimationController<>(this, "movement", 4, this::movementPredicate));
+		data.add(new AnimationController<>(this, "attacking", 4, this::attackingPredicate));
+		data.add(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
+	}
+
+	@Override
+	public AnimatableInstanceCache getAnimatableInstanceCache() {
+		return this.cache;
+	}
+
+}
