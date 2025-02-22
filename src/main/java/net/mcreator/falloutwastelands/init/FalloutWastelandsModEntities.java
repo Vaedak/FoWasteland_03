@@ -28,6 +28,7 @@ import net.mcreator.falloutwastelands.entity.LobotomiteWalkerEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.GeckoEntity;
 import net.mcreator.falloutwastelands.entity.DynamiteEntityEntity;
+import net.mcreator.falloutwastelands.entity.Cannibal02Entity;
 import net.mcreator.falloutwastelands.entity.Cannibal01Entity;
 import net.mcreator.falloutwastelands.entity.Cannibal00Entity;
 import net.mcreator.falloutwastelands.entity.BrahminEntity;
@@ -93,6 +94,10 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<SpiderfloaterEntity>of(SpiderfloaterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpiderfloaterEntity::new)
 
 					.sized(1.5f, 1.5f));
+	public static final RegistryObject<EntityType<Cannibal02Entity>> CANNIBAL_02 = register("cannibal_02",
+			EntityType.Builder.<Cannibal02Entity>of(Cannibal02Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Cannibal02Entity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -113,6 +118,7 @@ public class FalloutWastelandsModEntities {
 			DynamiteEntityEntity.init();
 			Cannibal01Entity.init();
 			SpiderfloaterEntity.init();
+			Cannibal02Entity.init();
 		});
 	}
 
@@ -130,5 +136,6 @@ public class FalloutWastelandsModEntities {
 		event.put(DYNAMITE_ENTITY.get(), DynamiteEntityEntity.createAttributes().build());
 		event.put(CANNIBAL_01.get(), Cannibal01Entity.createAttributes().build());
 		event.put(SPIDERFLOATER.get(), SpiderfloaterEntity.createAttributes().build());
+		event.put(CANNIBAL_02.get(), Cannibal02Entity.createAttributes().build());
 	}
 }

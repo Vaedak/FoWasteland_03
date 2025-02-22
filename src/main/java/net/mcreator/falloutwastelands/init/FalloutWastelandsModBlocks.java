@@ -54,6 +54,7 @@ import net.mcreator.falloutwastelands.block.WastelandRoadWhiteBlock;
 import net.mcreator.falloutwastelands.block.WastelandRoadSlabBlock;
 import net.mcreator.falloutwastelands.block.WastelandRoadBlockBlock;
 import net.mcreator.falloutwastelands.block.WastelandGoldoreBlock;
+import net.mcreator.falloutwastelands.block.WastelandDriedGrassBlock;
 import net.mcreator.falloutwastelands.block.WastelandDirtBlock;
 import net.mcreator.falloutwastelands.block.WastelandCrackedBrickBlock;
 import net.mcreator.falloutwastelands.block.WastelandConcreteWallBlock;
@@ -540,6 +541,7 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> ROOF_METAL_SLAB = REGISTRY.register("roof_metal_slab", () -> new RoofMetalSlabBlock());
 	public static final RegistryObject<Block> DRIED_PLANKS = REGISTRY.register("dried_planks", () -> new DriedPlanksBlock());
 	public static final RegistryObject<Block> DRIED_PLANKS_WALL = REGISTRY.register("dried_planks_wall", () -> new DriedPlanksWallBlock());
+	public static final RegistryObject<Block> WASTELAND_DRIED_GRASS = REGISTRY.register("wasteland_dried_grass", () -> new WastelandDriedGrassBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

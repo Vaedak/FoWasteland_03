@@ -1,14 +1,20 @@
 {
   "has_precipitation": true,
   "temperature": 1.5,
-  "downfall": 0.5,
+  "downfall": 0.1,
   "effects": {
-    "foliage_color": -11714259,
-    "grass_color": -8028070,
-    "sky_color": -1511208,
-    "fog_color": -1511208,
-    "water_color": -13158365,
-    "water_fog_color": -15718631
+    "music": {
+      "sound": "fallout_wastelands_:wasteland_wind",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "foliage_color": -9413056,
+    "grass_color": -6186906,
+    "sky_color": -9473953,
+    "fog_color": -9473953,
+    "water_color": -12962780,
+    "water_fog_color": -13093599
   },
   "spawners": {
     "monster": [],
@@ -58,10 +64,8 @@
     [],
     [],
     [
-      "fallout_wastelands_:wasteland_plains_tree"
+      "fallout_wastelands_:wasteland_mountains_tree"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ]
 }

@@ -276,6 +276,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.ROOF_METAL_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.DRIED_PLANKS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.DRIED_PLANKS_WALL.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_DRIED_GRASS.get().asItem());
 			})
 
 					.build());
@@ -490,6 +491,7 @@ public class FalloutWastelandsModTabs {
 			tabData.accept(FalloutWastelandsModItems.GECKO_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.LOBOTOMITE_WALKER_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.CANNIBAL_01_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.CANNIBAL_02_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

@@ -14228,6 +14228,56 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "WastelandDriedGrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasteland_dried_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/wasteland_dried_grass.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/WastelandDriedGrassBlock.java",
+          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/wasteland_dried_grass.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/wasteland_dried_grass.json",
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/wasteland_dried_grass_biome_modifier.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/wasteland_dried_grass.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/wasteland_dried_grass.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/wasteland_dried_grass.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WastelandMountains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasteland_mountains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/biome/wasteland_mountains.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/wasteland_mountains_tree.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/wasteland_mountains_tree.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "Cannibal02",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannibal_02",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/Cannibal02Renderer.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/Cannibal02Entity.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/cannibal_02_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -14365,6 +14415,7 @@
       "CUSTOM:Ripper"
     ],
     "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:WastelandDriedGrass",
       "~CUSTOM:JoshuaLeaves",
       "~CUSTOM:Wastelandpebble",
       "~CUSTOM:Wastelandshortburntgrass",
@@ -14687,6 +14738,8 @@
       "CUSTOM:Molder_WoodLog"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Wastelandgravel",
+      "~CUSTOM:WastelandCobblestone",
       "~CUSTOM:Wastelandgrassblock",
       "~CUSTOM:WastelandDirt",
       "~CUSTOM:WastelandStone"
@@ -15045,6 +15098,7 @@
       "item.fallout_wastelands_.army_repairman_suit_chestplate": "Army Repairman Jacket",
       "item.fallout_wastelands_.industrialhammer": "Sledgehammer",
       "item.fallout_wastelands_.handyman_suit_chestplate": "Handyman Jacket",
+      "entity.fallout_wastelands_.spiderfloater": "Spiderfloater",
       "item.fallout_wastelands_.pa_display_entity_spawn_egg": "PA Display Entity Spawn Egg",
       "gui.fallout_wastelands_.base_menu_ui.label_varlocalvar": "DisplaysInputName",
       "block.fallout_wastelands_.bos_metal_roof_stairs": "BoS Metal Roof Stairs",
@@ -15057,13 +15111,15 @@
       "block.fallout_wastelands_.enclave_bunker_block": "Enclave Bunker Block",
       "block.fallout_wastelands_.vault_floor": "Vault Floor",
       "block.fallout_wastelands_.aluminum_block": "Aluminum Block",
-      "item.fallout_wastelands_.mug": "Mug",
       "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
+      "item.fallout_wastelands_.mug": "Mug",
+      "item.fallout_wastelands_.cannibal_02_spawn_egg": "Cannibal Trapper Spawn Egg",
+      "item.fallout_wastelands_.spiderfloater_spawn_egg": "Spiderfloater Spawn Egg",
       "block.fallout_wastelands_.steel_bars": "Steel Bars",
       "block.fallout_wastelands_.wasteland_road_white_slab": "White Wasteland Asphalt Slab",
       "item.fallout_wastelands_.raiderbasher_helmet": "Raider Basher Helmet",
       "subtitles.wasteland_wind": "",
-      "item_group.fallout_wastelands_.wastelanditems": "Wasteland Items",
+      "item_group.fallout_wastelands_.wastelanditems": "Wastelands Items",
       "block.fallout_wastelands_.subwaybricks": "Subway Bricks",
       "block.fallout_wastelands_.wastelandcoalore": "Wasteland Coal Ore",
       "entity.fallout_wastelands_.blastmaster_raider": "Raider Blastmaster",
@@ -15310,8 +15366,9 @@
       "item.fallout_wastelands_.t_51b_pa_boots": "T51b Boots",
       "item.fallout_wastelands_.combatarmor_chestplate": "Combat Armor Chestplate",
       "entity.fallout_wastelands_.cannibal_00": "Cannibal Grunt",
-      "entity.fallout_wastelands_.cannibal_01": "Cannibal Grunt",
+      "entity.fallout_wastelands_.cannibal_01": "Cannibal Tribal",
       "block.fallout_wastelands_.barricadeplanks": "Barricade Planks",
+      "entity.fallout_wastelands_.cannibal_02": "Cannibal Trapper",
       "subtitles.lmgreloading": "",
       "block.fallout_wastelands_.militaryplatingstairs": "Military Plated Stairs",
       "block.fallout_wastelands_.filing_cabinet": "Filing Cabinet",
@@ -15349,7 +15406,7 @@
       "subtitles.revolverreloading": "",
       "item.fallout_wastelands_.uranium_nugget": "Uranium Nugget",
       "block.fallout_wastelands_.adobe_block_wall": "Adobe Block Wall",
-      "item.fallout_wastelands_.cannibal_01_spawn_egg": "Cannibal Grunt Spawn Egg",
+      "item.fallout_wastelands_.cannibal_01_spawn_egg": "Cannibal Tribal Spawn Egg",
       "block.fallout_wastelands_.industrial_alloy_vent": "Industrial Plating Vent",
       "item.fallout_wastelands_.dynamite_entity_spawn_egg": "Dynamite Spawn Egg",
       "item.fallout_wastelands_.instamash": "Insta-mash",
@@ -15390,6 +15447,7 @@
       "block.fallout_wastelands_.scaffolding_walkway_stairs": "Scaffolding Walkway Stairs",
       "item.fallout_wastelands_.power_armor_frame_armor_leggings": "Power Armor Frame",
       "block.fallout_wastelands_.lightbulb": "Lightbulb",
+      "biome.fallout_wastelands_.wasteland_mountains": "Wasteland Mountains",
       "block.fallout_wastelands_.grey_tiles": "Grey Tile",
       "block.fallout_wastelands_.adobe_block": "Adobe Block",
       "block.fallout_wastelands_.wasteland_concrete_wall": "Concrete Wall",
@@ -15424,7 +15482,7 @@
       "subtitles.tenmmshot": "",
       "block.fallout_wastelands_.enclave_bunker_stairs": "Enclave Bunker Stairs",
       "block.fallout_wastelands_.industrial_door": "Industrial Alloy",
-      "item_group.fallout_wastelands_.wastelandblockstab": "Wasteland Blocks",
+      "item_group.fallout_wastelands_.wastelandblockstab": "Wastelands Blocks",
       "block.fallout_wastelands_.wasteland_concrete": "Concrete",
       "block.fallout_wastelands_.cage": "Cage Block",
       "block.fallout_wastelands_.vault_reinforced_pillar": "Reinforced Vault Pillar",
@@ -15479,6 +15537,7 @@
       "item.fallout_wastelands_.lobotomite_suit_helmet": "Lobotomite Helmet",
       "item.fallout_wastelands_.hachet": "Hachet",
       "block.fallout_wastelands_.light_tube": "Light Tube",
+      "block.fallout_wastelands_.wasteland_dried_grass": "Wasteland Dried Grass",
       "block.fallout_wastelands_.wasteland_brick_wall": "Wasteland Stone",
       "item.fallout_wastelands_.nuka_cola": "Nuka Cola",
       "item.fallout_wastelands_.road_leather_helmet": "Sunglasses",

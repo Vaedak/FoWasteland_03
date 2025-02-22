@@ -2,34 +2,34 @@
   "_fv": 69,
   "_type": "biome",
   "definition": {
-    "name": "Wasteland Plains",
+    "name": "Wasteland Mountains",
     "groundBlock": {
-      "value": "CUSTOM:Wastelandgrassblock"
+      "value": "CUSTOM:Wastelandgravel"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:WastelandDirt"
+      "value": "CUSTOM:WastelandCobblestone"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:WastelandDirt"
+      "value": "CUSTOM:Wastelandgravel"
     },
     "airColor": {
-      "value": -1511208,
+      "value": -9473953,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -8028070,
+      "value": -6186906,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -11714259,
+      "value": -9413056,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -13158365,
+      "value": -12962780,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -15718631,
+      "value": -13093599,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -39,7 +39,7 @@
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:wasteland_wind"
     },
     "moodSound": {
       "value": ""
@@ -50,51 +50,50 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "rainingPossibility": 0.5,
+    "rainingPossibility": 0.1,
     "temperature": 1.5,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -0.5002,
-      "max": 0.5999
-    },
-    "genHumidity": {
-      "min": -1.501,
+      "min": -1.0,
       "max": 1.0
     },
-    "genContinentalness": {
-      "min": -0.2999,
-      "max": 1.0003
-    },
-    "genErosion": {
-      "min": -0.5,
+    "genHumidity": {
+      "min": -1.0,
       "max": 0.5
     },
-    "genWeirdness": {
-      "min": -0.2,
-      "max": 0.2
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
     },
-    "treesPerChunk": 4,
-    "vanillaTreeType": "Big trees",
+    "genErosion": {
+      "min": -1.0,
+      "max": 0.0
+    },
+    "genWeirdness": {
+      "min": -0.5001,
+      "max": 1.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Savanna trees",
     "treeType": 1,
-    "minHeight": 7,
+    "minHeight": 13,
     "treeStem": {
-      "value": "CUSTOM:Molder_WoodWood"
+      "value": "CUSTOM:Molder_WoodLog"
     },
     "treeBranch": {
       "value": "CUSTOM:Molder_WoodWood"
     },
     "treeVines": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeFruits": {
-      "value": "Blocks.CAVE_AIR"
+      "value": ""
     },
     "defaultFeatures": [
       "Caves",
-      "Ores",
-      "FrozenTopLayer"
+      "Ores"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,

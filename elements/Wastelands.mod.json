@@ -8,6 +8,9 @@
       },
       {
         "value": "CUSTOM:WastelandPlains"
+      },
+      {
+        "value": "CUSTOM:WastelandMountains"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -18,7 +21,7 @@
       "value": "Blocks.WATER"
     },
     "airColor": {
-      "value": -9987464,
+      "value": -7825034,
       "falpha": 0.0
     },
     "canRespawnHere": true,

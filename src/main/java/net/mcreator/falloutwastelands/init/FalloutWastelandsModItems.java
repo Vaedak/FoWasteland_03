@@ -631,6 +631,8 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> DRIED_PLANKS = block(FalloutWastelandsModBlocks.DRIED_PLANKS);
 	public static final RegistryObject<Item> DRIED_PLANKS_WALL = block(FalloutWastelandsModBlocks.DRIED_PLANKS_WALL);
 	public static final RegistryObject<Item> SPIDERFLOATER_SPAWN_EGG = REGISTRY.register("spiderfloater_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.SPIDERFLOATER, -11127510, -5934277, new Item.Properties()));
+	public static final RegistryObject<Item> WASTELAND_DRIED_GRASS = block(FalloutWastelandsModBlocks.WASTELAND_DRIED_GRASS);
+	public static final RegistryObject<Item> CANNIBAL_02_SPAWN_EGG = REGISTRY.register("cannibal_02_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.CANNIBAL_02, -12500183, -7440039, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

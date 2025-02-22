@@ -31,17 +31,17 @@ import net.minecraft.network.protocol.Packet;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModEntities;
 
-public class Cannibal01Entity extends Monster {
-	public Cannibal01Entity(PlayMessages.SpawnEntity packet, Level world) {
-		this(FalloutWastelandsModEntities.CANNIBAL_01.get(), world);
+public class Cannibal02Entity extends Monster {
+	public Cannibal02Entity(PlayMessages.SpawnEntity packet, Level world) {
+		this(FalloutWastelandsModEntities.CANNIBAL_02.get(), world);
 	}
 
-	public Cannibal01Entity(EntityType<Cannibal01Entity> type, Level world) {
+	public Cannibal02Entity(EntityType<Cannibal02Entity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
 		xpReward = 1;
 		setNoAi(false);
-		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(FalloutWastelandsModItems.KNIFE.get()));
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(FalloutWastelandsModItems.HACHET.get()));
 	}
 
 	@Override

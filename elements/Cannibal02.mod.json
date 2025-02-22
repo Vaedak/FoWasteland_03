@@ -2,10 +2,10 @@
   "_fv": 69,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Cannibal Tribal",
+    "mobName": "Cannibal Trapper",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "cannibal_tribal.png",
+    "mobModelTexture": "cannibal_trapper.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -28,11 +28,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -13552077,
+      "value": -12500183,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -9606326,
+      "value": -7440039,
       "falpha": 0.0
     },
     "creativeTabs": [
@@ -44,7 +44,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": "CUSTOM:Knife"
+      "value": "CUSTOM:Hachet"
     },
     "equipmentOffHand": {
       "value": ""

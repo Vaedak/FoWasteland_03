@@ -21,7 +21,7 @@ public class WastelandsDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(DimensionSpecialEffects.OverworldEffects.CLOUD_LEVEL, true, DimensionSpecialEffects.SkyType.NORMAL, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(0.4039215686, 0.6039215686, 0.4705882353);
+					return new Vec3(0.5333333333, 0.6, 0.462745098);
 				}
 
 				@Override
