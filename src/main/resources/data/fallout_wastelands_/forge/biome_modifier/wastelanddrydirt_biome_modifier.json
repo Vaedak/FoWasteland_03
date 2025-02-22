@@ -1,8 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "fallout_wastelands_:wasteland_dryland",
   "features": "fallout_wastelands_:wastelanddrydirt",
   "step": "underground_ores"
 }

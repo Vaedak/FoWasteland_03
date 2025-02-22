@@ -130,18 +130,6 @@
     ],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      },
-      {
         "value": "CUSTOM:Wastelandgrassblock"
       },
       {
@@ -149,6 +137,12 @@
       },
       {
         "value": "TAG:tag/stone"
+      },
+      {
+        "value": "CUSTOM:WastelandDirt"
+      },
+      {
+        "value": "CUSTOM:Utsol"
       }
     ],
     "generationShape": "TRIANGLE",

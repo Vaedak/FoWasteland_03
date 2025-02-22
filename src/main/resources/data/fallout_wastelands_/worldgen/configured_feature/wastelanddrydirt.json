@@ -17,6 +17,39 @@
         "state": {
           "Name": "fallout_wastelands_:wastelanddrydirt"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "fallout_wastelands_:wasteland_dirt"
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wastelanddrydirt"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "fallout_wastelands_:wasteland_rooty_dirt"
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wastelanddrydirt"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "fallout_wastelands_:waste_sand"
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wastelanddrydirt"
+        }
       }
     ]
   }

@@ -44,6 +44,16 @@
       "radius": 2,
       "offset": 0
     },
-    "decorators": []
+    "decorators": [
+      {
+        "type": "fallout_wastelands_:wasteland_mountains_tree_fruit_decorator"
+      },
+      {
+        "type": "fallout_wastelands_:wasteland_mountains_tree_trunk_decorator"
+      },
+      {
+        "type": "fallout_wastelands_:wasteland_mountains_tree_leave_decorator"
+      }
+    ]
   }
 }

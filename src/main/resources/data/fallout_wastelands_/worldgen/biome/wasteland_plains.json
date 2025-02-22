@@ -4,7 +4,7 @@
   "downfall": 0.5,
   "effects": {
     "foliage_color": -11714259,
-    "grass_color": -8028070,
+    "grass_color": -5857668,
     "sky_color": -1511208,
     "fog_color": -1511208,
     "water_color": -13158365,
@@ -60,8 +60,6 @@
     [
       "fallout_wastelands_:wasteland_plains_tree"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ]
 }

@@ -17,7 +17,7 @@
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -8028070,
+      "value": -5857668,
       "falpha": 0.0
     },
     "foliageColor": {
@@ -76,7 +76,7 @@
       "max": 0.2
     },
     "treesPerChunk": 4,
-    "vanillaTreeType": "Big trees",
+    "vanillaTreeType": "Savanna trees",
     "treeType": 1,
     "minHeight": 7,
     "treeStem": {
@@ -92,9 +92,8 @@
       "value": "Blocks.CAVE_AIR"
     },
     "defaultFeatures": [
-      "Caves",
       "Ores",
-      "FrozenTopLayer"
+      "Caves"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,

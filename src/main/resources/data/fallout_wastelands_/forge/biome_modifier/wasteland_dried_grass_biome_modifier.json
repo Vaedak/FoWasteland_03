@@ -1,9 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": [
-    "fallout_wastelands_:wasteland_dryland",
-    "fallout_wastelands_:wasteland_plains"
-  ],
+  "biomes": "fallout_wastelands_:wasteland_dryland",
   "features": "fallout_wastelands_:wasteland_dried_grass",
   "step": "vegetal_decoration"
 }

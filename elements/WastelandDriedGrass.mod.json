@@ -97,9 +97,6 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:WastelandDryland"
-      },
-      {
-        "value": "CUSTOM:WastelandPlains"
       }
     ],
     "generationType": "Grass",

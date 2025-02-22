@@ -123,10 +123,23 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": true,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:WastelandDryland"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "CUSTOM:Wastelandgrassblock"
+      },
+      {
+        "value": "CUSTOM:WastelandDirt"
+      },
+      {
+        "value": "CUSTOM:Utsol"
+      },
+      {
+        "value": "CUSTOM:WasteSand"
       }
     ],
     "generationShape": "UNIFORM",

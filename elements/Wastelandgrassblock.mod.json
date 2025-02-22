@@ -125,13 +125,21 @@
     "onNeighbourBlockChanges": {
       "name": "WastelandGrassTurnToDirt"
     },
-    "generateFeature": false,
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:WastelandPlains"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Utsol"
+      }
+    ],
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 32,
+    "frequencyOnChunk": 32,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 100
   }
 }

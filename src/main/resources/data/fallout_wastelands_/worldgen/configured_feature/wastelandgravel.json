@@ -8,50 +8,6 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:stone"
-          }
-        },
-        "state": {
-          "Name": "fallout_wastelands_:wastelandgravel"
-        }
-      },
-      {
-        "target": {
-          "predicate_type": "blockstate_match",
-          "block_state": {
-            "Name": "minecraft:granite"
-          }
-        },
-        "state": {
-          "Name": "fallout_wastelands_:wastelandgravel"
-        }
-      },
-      {
-        "target": {
-          "predicate_type": "blockstate_match",
-          "block_state": {
-            "Name": "minecraft:diorite"
-          }
-        },
-        "state": {
-          "Name": "fallout_wastelands_:wastelandgravel"
-        }
-      },
-      {
-        "target": {
-          "predicate_type": "blockstate_match",
-          "block_state": {
-            "Name": "minecraft:andesite"
-          }
-        },
-        "state": {
-          "Name": "fallout_wastelands_:wastelandgravel"
-        }
-      },
-      {
-        "target": {
-          "predicate_type": "blockstate_match",
-          "block_state": {
             "Name": "fallout_wastelands_:wastelandgrassblock",
             "Properties": {
               "facing": "north"
@@ -77,6 +33,28 @@
         "target": {
           "predicate_type": "tag_match",
           "tag": "tag/stone"
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wastelandgravel"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "fallout_wastelands_:wasteland_dirt"
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wastelandgravel"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "fallout_wastelands_:wasteland_rooty_dirt"
+          }
         },
         "state": {
           "Name": "fallout_wastelands_:wastelandgravel"
