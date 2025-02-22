@@ -76,6 +76,11 @@ import net.mcreator.falloutwastelands.block.VaultWallExposedBlock;
 import net.mcreator.falloutwastelands.block.VaultWallCurvedBlock;
 import net.mcreator.falloutwastelands.block.VaultWallBlock;
 import net.mcreator.falloutwastelands.block.VaultVentBlock;
+import net.mcreator.falloutwastelands.block.VaultTile5Block;
+import net.mcreator.falloutwastelands.block.VaultTile4Block;
+import net.mcreator.falloutwastelands.block.VaultTile3Block;
+import net.mcreator.falloutwastelands.block.VaultTile2Block;
+import net.mcreator.falloutwastelands.block.VaultTile1Block;
 import net.mcreator.falloutwastelands.block.VaultReinforcedPillarBlock;
 import net.mcreator.falloutwastelands.block.VaultPillarBlock;
 import net.mcreator.falloutwastelands.block.VaultFloorBlock;
@@ -542,6 +547,11 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> DRIED_PLANKS = REGISTRY.register("dried_planks", () -> new DriedPlanksBlock());
 	public static final RegistryObject<Block> DRIED_PLANKS_WALL = REGISTRY.register("dried_planks_wall", () -> new DriedPlanksWallBlock());
 	public static final RegistryObject<Block> WASTELAND_DRIED_GRASS = REGISTRY.register("wasteland_dried_grass", () -> new WastelandDriedGrassBlock());
+	public static final RegistryObject<Block> VAULT_TILE_1 = REGISTRY.register("vault_tile_1", () -> new VaultTile1Block());
+	public static final RegistryObject<Block> VAULT_TILE_2 = REGISTRY.register("vault_tile_2", () -> new VaultTile2Block());
+	public static final RegistryObject<Block> VAULT_TILE_3 = REGISTRY.register("vault_tile_3", () -> new VaultTile3Block());
+	public static final RegistryObject<Block> VAULT_TILE_4 = REGISTRY.register("vault_tile_4", () -> new VaultTile4Block());
+	public static final RegistryObject<Block> VAULT_TILE_5 = REGISTRY.register("vault_tile_5", () -> new VaultTile5Block());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

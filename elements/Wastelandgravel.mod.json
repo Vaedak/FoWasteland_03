@@ -44,7 +44,7 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "CUSTOM:Wastelandblockstab"
+        "value": "CUSTOM:WastelandNaturals"
       }
     ],
     "destroyTool": "shovel",
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "EARTH"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

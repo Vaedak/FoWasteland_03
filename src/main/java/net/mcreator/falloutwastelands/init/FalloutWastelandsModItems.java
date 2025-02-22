@@ -633,6 +633,11 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> SPIDERFLOATER_SPAWN_EGG = REGISTRY.register("spiderfloater_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.SPIDERFLOATER, -11127510, -5934277, new Item.Properties()));
 	public static final RegistryObject<Item> WASTELAND_DRIED_GRASS = block(FalloutWastelandsModBlocks.WASTELAND_DRIED_GRASS);
 	public static final RegistryObject<Item> CANNIBAL_02_SPAWN_EGG = REGISTRY.register("cannibal_02_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.CANNIBAL_02, -12500183, -7440039, new Item.Properties()));
+	public static final RegistryObject<Item> VAULT_TILE_1 = block(FalloutWastelandsModBlocks.VAULT_TILE_1);
+	public static final RegistryObject<Item> VAULT_TILE_2 = block(FalloutWastelandsModBlocks.VAULT_TILE_2);
+	public static final RegistryObject<Item> VAULT_TILE_3 = block(FalloutWastelandsModBlocks.VAULT_TILE_3);
+	public static final RegistryObject<Item> VAULT_TILE_4 = block(FalloutWastelandsModBlocks.VAULT_TILE_4);
+	public static final RegistryObject<Item> VAULT_TILE_5 = block(FalloutWastelandsModBlocks.VAULT_TILE_5);
 
 	// Start of user code block custom items
 	// End of user code block custom items

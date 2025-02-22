@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:vault_tile_5",
+    "fallout_wastelands_:vault_tile_4",
+    "fallout_wastelands_:vault_tile_3",
+    "fallout_wastelands_:vault_tile_2",
+    "fallout_wastelands_:vault_tile_1",
     "fallout_wastelands_:bo_s_data_front_top",
     "fallout_wastelands_:bo_s_data_front_middle",
     "fallout_wastelands_:bo_s_data_front_bottom",

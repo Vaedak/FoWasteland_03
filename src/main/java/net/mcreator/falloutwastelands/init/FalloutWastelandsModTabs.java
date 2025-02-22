@@ -21,42 +21,22 @@ import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class FalloutWastelandsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FalloutWastelandsMod.MODID);
-	public static final RegistryObject<CreativeModeTab> WASTELANDBLOCKSTAB = REGISTRY.register("wastelandblockstab",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fallout_wastelands_.wastelandblockstab")).icon(() -> new ItemStack(FalloutWastelandsModBlocks.CAGE.get())).displayItems((parameters, tabData) -> {
+	public static final RegistryObject<CreativeModeTab> WASTELAND_NATURALS = REGISTRY.register("wasteland_naturals",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fallout_wastelands_.wasteland_naturals")).icon(() -> new ItemStack(FalloutWastelandsModBlocks.WASTELAND_DIRT.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_DIRT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_STONE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDGRASSBLOCK.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.CRACKED_WASTELAND_CONCRETE_WALL.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_BUTTON.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_CONCRETE_STAIRS.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_PRESSURE_PLATE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ROOTY_DIRT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_LOG.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.CRACKED_WASTELAND_CONCRETE.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_DOOR.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.THE_GLOW_DIRT.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_TRAPDOOR.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.SLAB_WASTELAND_COBBLESTONE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_COBBLESTONE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.STAIR_WASTELAND_COBBLESTONE.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_CONCRETE.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_STAIRS.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.CRACKED_WASTELAND_CONCRETE_STAIRS.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_PLANKS.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BRICK.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_FENCE.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_CONCRETE_WALL.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_WOOD.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.CRACKED_WASTELAND_CONCRETE_SLABS.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WALL_WASTELAND_COBBLESTONE.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_FENCE_GATE.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_CONCRETE_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDGRASSBUSH.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDBURNTGRASS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDSHORTBURNTGRASS.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BRICK_STAIRS.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BRICKSLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDPEBBLE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDGRAVEL.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDCOALORE.get().asItem());
@@ -67,6 +47,45 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDEMERALDORE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDLAPISORE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDREDSTONEORE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.STRIPPEDMOLDERWOODLOG.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ALUMINUM_ORE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LEAD_ORE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.URANIUM_ORE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTE_SAND.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.TIN_ORE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELANDDRYDIRT.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ROCKYDIRT.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.YUKAPLANT.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_LOG.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_LOG_LOG.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.STRIPPEDMOLDERWOODWOOD.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_LEAVES.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_DRIED_GRASS.get().asItem());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> WASTELANDBLOCKSTAB = REGISTRY.register("wastelandblockstab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fallout_wastelands_.wastelandblockstab")).icon(() -> new ItemStack(FalloutWastelandsModBlocks.CAGE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(FalloutWastelandsModBlocks.CRACKED_WASTELAND_CONCRETE_WALL.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_BUTTON.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_CONCRETE_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_PRESSURE_PLATE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.CRACKED_WASTELAND_CONCRETE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_DOOR.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_TRAPDOOR.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_CONCRETE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.CRACKED_WASTELAND_CONCRETE_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_PLANKS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BRICK.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_FENCE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_CONCRETE_WALL.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.CRACKED_WASTELAND_CONCRETE_SLABS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MOLDER_WOOD_FENCE_GATE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_CONCRETE_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BRICK_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BRICKSLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BROKEN_GLASS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.LANDMINE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_BRICK_WALL.get().asItem());
@@ -75,7 +94,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.HANGARDOOR.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_CRACKED_BRICK.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WIREFENCE.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.STRIPPEDMOLDERWOODLOG.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELANDBRICKS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.SUBWAYBRICKS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.DOUBLE_SCAFFOLD_BLOCK.get().asItem());
@@ -126,7 +144,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.MELTED_IRON_BLOCK.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.URANIUM_BLOCK.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BARBED_WIRES.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ALUMINUM_ORE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.ALUMINUM_BLOCK.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BOS_DOOR.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BOS_METAL_PLATING.get().asItem());
@@ -148,15 +165,11 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_BOTTOM_RIVET.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_WALKWAY.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.LEAD_BLOCK.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.LEAD_ORE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MOLTEN_BOXITE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MOLTEN_COPPER.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MOLTEN_STEEL.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MOLTEN_TIN.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.TIN_BLOCK.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.URANIUM_ORE.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.WASTE_SAND.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.TIN_ORE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BOS_STEEL_STAIR.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.STEEL_BARS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.PLASTER.get().asItem());
@@ -208,8 +221,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_STAIRS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.METAL_SHELF.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.BOS_METAL_STAIRS.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.WASTELANDDRYDIRT.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.ROCKYDIRT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_ALLOY.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_ALLOYPLATE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.GREY_INDUSTRIAL_ALLOWMIDRIVET.get().asItem());
@@ -233,7 +244,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_STRUCTURESLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_VENT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.RED_PAINTED_PLANKS.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.YUKAPLANT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ROAD_YELLOW.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ROAD_YELLOW_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_ROAD_WHITE.get().asItem());
@@ -256,7 +266,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.ADOBE_BLOCK_WALL.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_SAND_STONE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.LIGHTBULB.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_LOG.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_TREE_WOODPLANKS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.JOSHUEA_TREE_STAIRS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_TREE_SLAB.get().asItem());
@@ -268,15 +277,16 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.SANDBAGSTAIRS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.SANDBAGS_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.METAL_BOX.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_LOG_LOG.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.STRIPPEDMOLDERWOODWOOD.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.OVEN.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.JOSHUA_LEAVES.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.ROOF_METAL_WALL.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.ROOF_METAL_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.DRIED_PLANKS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.DRIED_PLANKS_WALL.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.WASTELAND_DRIED_GRASS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_1.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_2.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_3.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_4.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_5.get().asItem());
 			})
 
 					.build());

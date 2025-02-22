@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Wasteland Natural Blocks",
+    "icon": {
+      "value": "CUSTOM:WastelandDirt"
+    },
+    "showSearch": false
+  }
+}

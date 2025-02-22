@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:vault_tile_5",
+    "fallout_wastelands_:vault_tile_4",
+    "fallout_wastelands_:vault_tile_3",
+    "fallout_wastelands_:vault_tile_2",
+    "fallout_wastelands_:vault_tile_1",
     "fallout_wastelands_:roof_metal_slab",
     "fallout_wastelands_:roof_metal_wall",
     "fallout_wastelands_:oven",
