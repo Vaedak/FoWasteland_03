@@ -1,9 +1,6 @@
 {
   "replace": false,
   "values": [
-    "fallout_wastelands_:vault_catwalk",
-    "fallout_wastelands_:vault_tile_slab",
-    "fallout_wastelands_:vault_wall_slab",
     "fallout_wastelands_:roof_metal_slab",
     "fallout_wastelands_:sandbags_slab",
     "fallout_wastelands_:joshua_tree_slab",

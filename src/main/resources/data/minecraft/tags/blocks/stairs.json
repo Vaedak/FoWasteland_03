@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "fallout_wastelands_:vault_tile_stairs",
-    "fallout_wastelands_:vault_wall_stairs",
     "fallout_wastelands_:sandbagstairs",
     "fallout_wastelands_:joshuea_tree_stairs",
     "fallout_wastelands_:adobe_stairs",
