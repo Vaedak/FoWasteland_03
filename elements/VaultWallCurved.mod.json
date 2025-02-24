@@ -2,8 +2,8 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "vaultwall",
-    "textureTop": "vaultwall",
+    "texture": "vaultblock",
+    "textureTop": "vaultblock",
     "textureLeft": "vaultwallindent",
     "textureFront": "vaultwallindent",
     "textureRight": "vaultwallindent",

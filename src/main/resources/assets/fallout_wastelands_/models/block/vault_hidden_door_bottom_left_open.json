@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left_open",
+  "textures": {
+    "particle": "fallout_wastelands_:block/vaulttile53",
+    "bottom": "fallout_wastelands_:block/vaulttile53",
+    "top": "fallout_wastelands_:block/vaulttile51"
+  },
+  "render_type": "solid"
+}

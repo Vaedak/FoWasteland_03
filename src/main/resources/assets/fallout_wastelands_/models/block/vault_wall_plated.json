@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/vaultwalkway",
+    "up": "fallout_wastelands_:block/vaultwalkway",
+    "north": "fallout_wastelands_:block/vaultblock5",
+    "east": "fallout_wastelands_:block/vaultblock5",
+    "south": "fallout_wastelands_:block/vaultblock5",
+    "west": "fallout_wastelands_:block/vaultblock5",
+    "particle": "fallout_wastelands_:block/vaultwalkway"
+  },
+  "render_type": "solid"
+}

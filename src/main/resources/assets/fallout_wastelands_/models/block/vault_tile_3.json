@@ -3,10 +3,10 @@
   "textures": {
     "down": "fallout_wastelands_:block/vaultblock_tile1",
     "up": "fallout_wastelands_:block/vaultblock_tile1",
-    "north": "fallout_wastelands_:block/vaultblock_tile13",
-    "east": "fallout_wastelands_:block/vaultblock_tile13",
-    "south": "fallout_wastelands_:block/vaultblock_tile13",
-    "west": "fallout_wastelands_:block/vaultblock_tile13",
+    "north": "fallout_wastelands_:block/vaulttile7",
+    "east": "fallout_wastelands_:block/vaulttile7",
+    "south": "fallout_wastelands_:block/vaulttile7",
+    "west": "fallout_wastelands_:block/vaulttile7",
     "particle": "fallout_wastelands_:block/vaultblock_tile1"
   },
   "render_type": "solid"

@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -101,7 +101,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 7,
+    "luminance": 14,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
