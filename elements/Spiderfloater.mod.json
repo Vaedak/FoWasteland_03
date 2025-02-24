@@ -27,7 +27,11 @@
       "value": -5934277,
       "falpha": 0.0
     },
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      }
+    ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",

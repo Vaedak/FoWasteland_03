@@ -505,7 +505,9 @@ public class FalloutWastelandsModTabs {
 			tabData.accept(FalloutWastelandsModItems.GECKO_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.LOBOTOMITE_WALKER_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.CANNIBAL_01_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.SPIDERFLOATER_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.CANNIBAL_02_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.FLOATER_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
