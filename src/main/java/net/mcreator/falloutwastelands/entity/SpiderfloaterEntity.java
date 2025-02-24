@@ -116,23 +116,29 @@ public class SpiderfloaterEntity extends Monster implements GeoEntity {
 		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.3, true) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
+				return 1;
+			}
+		});
+		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.3, true) {
+			@Override
+			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Cannibal00Entity.class, false, false));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Cannibal01Entity.class, false, false));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, BrahminEntity.class, false, false));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, BlastmasterRaiderEntity.class, false, false));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, GeckoEntity.class, false, false));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, LobotomiteWalkerEntity.class, false, false));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, Wolf.class, false, false));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, RaiderscavangerEntity.class, false, false));
-		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, RaiderDustwalkerEntity.class, false, false));
-		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, Animal.class, false, false));
-		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(14, new HurtByTargetGoal(this).setAlertOthers());
-		this.goalSelector.addGoal(15, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(16, new FloatGoal(this));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Cannibal00Entity.class, false, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Cannibal01Entity.class, false, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, BrahminEntity.class, false, false));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, BlastmasterRaiderEntity.class, false, false));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, GeckoEntity.class, false, false));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, LobotomiteWalkerEntity.class, false, false));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, Wolf.class, false, false));
+		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, RaiderscavangerEntity.class, false, false));
+		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, RaiderDustwalkerEntity.class, false, false));
+		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, Animal.class, false, false));
+		this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.targetSelector.addGoal(15, new HurtByTargetGoal(this).setAlertOthers());
+		this.goalSelector.addGoal(16, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(17, new FloatGoal(this));
 	}
 
 	@Override
