@@ -2,43 +2,52 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "mutated_web",
+    "texture": "curtain",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
-    "rotationMode": 0,
+    "renderType": 2,
+    "customModelName": "wastelandrag:default",
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "mutated_web",
-    "particleTexture": "",
+    "itemTexture": "curtainitem",
+    "particleTexture": "curtain",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
-        "my": 0.0,
-        "mz": 0.0,
+        "my": -16.0,
+        "mz": 8.0,
         "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "My": 15.0,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 14.5,
+        "mz": 7.5,
+        "Mx": 16.0,
+        "My": 15.5,
+        "Mz": 8.5,
         "subtract": false
       }
     ],
     "customProperties": [],
-    "name": "Mutated Web",
+    "name": "Curtain",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 0.5,
     "resistance": 1.0,
     "hasGravity": false,
     "isWaterloggable": true,
@@ -47,9 +56,9 @@
         "value": "CUSTOM:Wastelandblockstab"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
-      "value": "Items.ROTTEN_FLESH"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -77,14 +86,14 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.05,
-    "speedFactor": 0.05,
-    "jumpFactor": 0.1,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0999999999999999,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SLIME"
+      "value": "CLOTH"
     },
     "breakSound": {
       "value": ""
@@ -103,7 +112,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "IRON",
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

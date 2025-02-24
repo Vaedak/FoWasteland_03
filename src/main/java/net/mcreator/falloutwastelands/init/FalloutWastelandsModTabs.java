@@ -298,6 +298,9 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.VAULT_CATWALK.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.VAULT_TRAPDOOR.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.MUTATED_WEB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.CURTAIN.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.INDUS_PIPE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.INDUS_PIPE_HUB.get().asItem());
 			})
 
 					.build());

@@ -649,6 +649,9 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> VAULT_CATWALK = block(FalloutWastelandsModBlocks.VAULT_CATWALK);
 	public static final RegistryObject<Item> VAULT_TRAPDOOR = block(FalloutWastelandsModBlocks.VAULT_TRAPDOOR);
 	public static final RegistryObject<Item> MUTATED_WEB = block(FalloutWastelandsModBlocks.MUTATED_WEB);
+	public static final RegistryObject<Item> CURTAIN = block(FalloutWastelandsModBlocks.CURTAIN);
+	public static final RegistryObject<Item> INDUS_PIPE = block(FalloutWastelandsModBlocks.INDUS_PIPE);
+	public static final RegistryObject<Item> INDUS_PIPE_HUB = block(FalloutWastelandsModBlocks.INDUS_PIPE_HUB);
 
 	// Start of user code block custom items
 	// End of user code block custom items

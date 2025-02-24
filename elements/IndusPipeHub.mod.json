@@ -2,19 +2,19 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "mutated_web",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
+    "texture": "pipehub",
+    "textureTop": "walkwaytop",
+    "textureLeft": "walkwaysideone",
+    "textureFront": "walkwaysidetwo",
+    "textureRight": "walkwaysideone",
+    "textureBack": "walkwaysidetwo",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "mutated_web",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -34,14 +34,14 @@
       }
     ],
     "customProperties": [],
-    "name": "Mutated Web",
+    "name": "Industrial Pipe Hub",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 1.0,
+    "hardness": 1.5,
+    "resistance": 3.5,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandblockstab"
@@ -49,7 +49,7 @@
     ],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Items.ROTTEN_FLESH"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "TALL_PLANTS"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -77,14 +77,14 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.05,
-    "speedFactor": 0.05,
-    "jumpFactor": 0.1,
+    "slipperiness": 0.6,
+    "speedFactor": 1.2000000000000002,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SLIME"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -103,7 +103,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "IRON",
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -126,7 +126,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",

@@ -216,6 +216,8 @@ import net.mcreator.falloutwastelands.block.IndustrialAlloyPlainBlock;
 import net.mcreator.falloutwastelands.block.IndustrialAlloyBottomRivetBlock;
 import net.mcreator.falloutwastelands.block.IndustrialAlloyBlock;
 import net.mcreator.falloutwastelands.block.IndustrialAllowMidRivetBlock;
+import net.mcreator.falloutwastelands.block.IndusPipeHubBlock;
+import net.mcreator.falloutwastelands.block.IndusPipeBlock;
 import net.mcreator.falloutwastelands.block.HorizontallinedconcreteBlock;
 import net.mcreator.falloutwastelands.block.HardconcretestairsBlock;
 import net.mcreator.falloutwastelands.block.HardconcreteBlock;
@@ -244,6 +246,7 @@ import net.mcreator.falloutwastelands.block.DriedPlanksWallBlock;
 import net.mcreator.falloutwastelands.block.DriedPlanksBlock;
 import net.mcreator.falloutwastelands.block.DoubleScaffoldWallBlock;
 import net.mcreator.falloutwastelands.block.DoubleScaffoldBlockBlock;
+import net.mcreator.falloutwastelands.block.CurtainBlock;
 import net.mcreator.falloutwastelands.block.CrackedWastelandConcreteWallBlock;
 import net.mcreator.falloutwastelands.block.CrackedWastelandConcreteStairsBlock;
 import net.mcreator.falloutwastelands.block.CrackedWastelandConcreteSlabsBlock;
@@ -574,6 +577,9 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> VAULT_CATWALK = REGISTRY.register("vault_catwalk", () -> new VaultCatwalkBlock());
 	public static final RegistryObject<Block> VAULT_TRAPDOOR = REGISTRY.register("vault_trapdoor", () -> new VaultTrapdoorBlock());
 	public static final RegistryObject<Block> MUTATED_WEB = REGISTRY.register("mutated_web", () -> new MutatedWebBlock());
+	public static final RegistryObject<Block> CURTAIN = REGISTRY.register("curtain", () -> new CurtainBlock());
+	public static final RegistryObject<Block> INDUS_PIPE = REGISTRY.register("indus_pipe", () -> new IndusPipeBlock());
+	public static final RegistryObject<Block> INDUS_PIPE_HUB = REGISTRY.register("indus_pipe_hub", () -> new IndusPipeHubBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

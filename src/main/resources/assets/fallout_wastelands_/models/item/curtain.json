@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fallout_wastelands_:item/curtainitem"
+  },
+  "render_type": "translucent"
+}
