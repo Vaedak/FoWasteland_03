@@ -24,7 +24,8 @@ import net.mcreator.falloutwastelands.procedures.LightbulbonOnBlockRightClickedP
 
 public class LightbulbonBlock extends Block {
 	public LightbulbonBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.HAT).sound(SoundType.GLASS).strength(1f).lightLevel(s -> 8).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.HAT).sound(SoundType.GLASS).strength(1f).lightLevel(s -> 10).noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
+				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

@@ -1,6 +1,16 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:vault_trapdoor",
+    "fallout_wastelands_:vault_catwalk",
+    "fallout_wastelands_:vault_hidden_door",
+    "fallout_wastelands_:vault_tile_slab",
+    "fallout_wastelands_:vault_tile_stairs",
+    "fallout_wastelands_:vault_wall_slab",
+    "fallout_wastelands_:vault_wall_stairs",
+    "fallout_wastelands_:vault_wall_plated",
+    "fallout_wastelands_:vault_wall_yellow",
+    "fallout_wastelands_:vault_tile_6",
     "fallout_wastelands_:vault_tile_5",
     "fallout_wastelands_:vault_tile_4",
     "fallout_wastelands_:vault_tile_3",

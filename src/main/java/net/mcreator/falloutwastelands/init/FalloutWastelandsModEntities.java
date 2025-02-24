@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.falloutwastelands.entity.SpiderfloaterEntityProjectile;
 import net.mcreator.falloutwastelands.entity.SpiderfloaterEntity;
 import net.mcreator.falloutwastelands.entity.ShootNothingEntity;
 import net.mcreator.falloutwastelands.entity.RipperProjectileProjectileEntity;
@@ -94,6 +95,9 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<SpiderfloaterEntity>of(SpiderfloaterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpiderfloaterEntity::new)
 
 					.sized(1.5f, 1.5f));
+	public static final RegistryObject<EntityType<SpiderfloaterEntityProjectile>> SPIDERFLOATER_PROJECTILE = register("projectile_spiderfloater",
+			EntityType.Builder.<SpiderfloaterEntityProjectile>of(SpiderfloaterEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1)
+					.setCustomClientFactory(SpiderfloaterEntityProjectile::new).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<Cannibal02Entity>> CANNIBAL_02 = register("cannibal_02",
 			EntityType.Builder.<Cannibal02Entity>of(Cannibal02Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Cannibal02Entity::new)
 

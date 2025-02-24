@@ -287,6 +287,17 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_3.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_4.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_5.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_6.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_WALL_YELLOW.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_WALL_PLATED.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_WALL_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_WALL_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_HIDDEN_DOOR.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_CATWALK.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_TRAPDOOR.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.MUTATED_WEB.get().asItem());
 			})
 
 					.build());
@@ -501,6 +512,7 @@ public class FalloutWastelandsModTabs {
 			tabData.accept(FalloutWastelandsModItems.GECKO_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.LOBOTOMITE_WALKER_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.CANNIBAL_01_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.SPIDERFLOATER_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.CANNIBAL_02_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

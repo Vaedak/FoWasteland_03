@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "fallout_wastelands_:block/vaultwall",
-    "up": "fallout_wastelands_:block/vaultwall",
-    "north": "fallout_wastelands_:block/vaultvent",
-    "east": "fallout_wastelands_:block/vaultvent",
-    "south": "fallout_wastelands_:block/vaultvent",
-    "west": "fallout_wastelands_:block/vaultvent",
-    "particle": "fallout_wastelands_:block/vaultwall"
+    "down": "fallout_wastelands_:block/vaultblock",
+    "up": "fallout_wastelands_:block/vaultblock",
+    "north": "fallout_wastelands_:block/vaultvent1",
+    "east": "fallout_wastelands_:block/vaultvent1",
+    "south": "fallout_wastelands_:block/vaultvent1",
+    "west": "fallout_wastelands_:block/vaultvent1",
+    "particle": "fallout_wastelands_:block/vaultblock"
   },
   "render_type": "solid"
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fallout_wastelands_:block/vault_catwalk"
+    },
+    "type=top": {
+      "model": "fallout_wastelands_:block/vault_catwalk_top"
+    },
+    "type=double": {
+      "model": "fallout_wastelands_:block/vault_catwalk_full"
+    }
+  }
+}

@@ -14227,7 +14227,8 @@
           "src/main/java/net/mcreator/falloutwastelands/entity/SpiderfloaterEntity.java",
           "src/main/java/net/mcreator/falloutwastelands/entity/model/SpiderfloaterModel.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/spiderfloater_spawn_egg.json",
-          "src/main/java/net/mcreator/falloutwastelands/client/renderer/SpiderfloaterRenderer.java"
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/SpiderfloaterRenderer.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/SpiderfloaterEntityProjectile.java"
         ]
       },
       "path": "~/Mobs"
@@ -14380,6 +14381,212 @@
         "files": []
       },
       "path": "~/Others"
+    },
+    {
+      "name": "VaultTile6",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_tile_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultTile6Block.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_tile_6.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_tile_6.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_tile_6.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_tile_6.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VaultWallYellow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_wall_yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_wall_yellow.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultWallYellowBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_wall_yellow.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_wall_yellow.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_wall_yellow.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VaultWallPlated",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_wall_plated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultWallPlatedBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_wall_plated.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_wall_plated.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_wall_plated.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_wall_plated.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VaultWallStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_wall_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_wall_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_wall_stairs_inner.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_wall_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_wall_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_wall_stairs_outer.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_wall_stairs.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultWallStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VaultWallSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_wall_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_wall_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_wall_slab.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_wall_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_wall_slab.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultWallSlabBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_wall_slab_top.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_wall_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VaultTileStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_tile_stairs_outer.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_tile_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_tile_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_tile_stairs.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultTileStairsBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_tile_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_tile_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VaultTileSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_tile_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_tile_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_tile_slab.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_tile_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_tile_slab_full.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultTileSlabBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_tile_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VaultHiddenDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_hidden_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_hidden_door_top_right.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_hidden_door.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_hidden_door_bottom_right.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_hidden_door_top_left.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_hidden_door_top_right_open.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultHiddenDoorBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_hidden_door_bottom_left_open.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_hidden_door.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_hidden_door_bottom_left.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_hidden_door_bottom_right_open.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_hidden_door.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_hidden_door_top_left_open.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VaultCatwalk",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_catwalk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultCatwalkBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_catwalk.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_catwalk.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_catwalk.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_catwalk.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_catwalk_top.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_catwalk_full.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VaultTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_trapdoor.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_trapdoor_top.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_trapdoor.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultTrapdoorBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_trapdoor.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_trapdoor_open.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_trapdoor.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MutatedWeb",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_web",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/MutatedWebBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/mutated_web.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/mutated_web.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/mutated_web.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/mutated_web.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -14559,6 +14766,9 @@
       "CUSTOM:MolderWoodTrapdoor"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:VaultCatwalk",
+      "~CUSTOM:VaultTileSlab",
+      "~CUSTOM:VaultWallSlab",
       "~CUSTOM:RoofMetalSlab",
       "~CUSTOM:SandbagsSlab",
       "~CUSTOM:JoshuaTreeSlab",
@@ -14667,6 +14877,8 @@
       "~CUSTOM:Hachet"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:VaultTileStairs",
+      "~CUSTOM:VaultWallStairs",
       "~CUSTOM:Sandbagstairs",
       "~CUSTOM:JoshueaTreeStairs",
       "~CUSTOM:AdobeStairs",
@@ -14750,6 +14962,16 @@
       "Blocks.STONECUTTER"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:VaultTrapdoor",
+      "~CUSTOM:VaultCatwalk",
+      "~CUSTOM:VaultHiddenDoor",
+      "~CUSTOM:VaultTileSlab",
+      "~CUSTOM:VaultTileStairs",
+      "~CUSTOM:VaultWallSlab",
+      "~CUSTOM:VaultWallStairs",
+      "~CUSTOM:VaultWallPlated",
+      "~CUSTOM:VaultWallYellow",
+      "~CUSTOM:VaultTile6",
       "~CUSTOM:VaultTile5",
       "~CUSTOM:VaultTile4",
       "~CUSTOM:VaultTile3",
@@ -14856,6 +15078,16 @@
       "CUSTOM:WastelandCobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:VaultTrapdoor",
+      "~CUSTOM:VaultCatwalk",
+      "~CUSTOM:VaultHiddenDoor",
+      "~CUSTOM:VaultTileSlab",
+      "~CUSTOM:VaultTileStairs",
+      "~CUSTOM:VaultWallSlab",
+      "~CUSTOM:VaultWallStairs",
+      "~CUSTOM:VaultWallPlated",
+      "~CUSTOM:VaultWallYellow",
+      "~CUSTOM:VaultTile6",
       "~CUSTOM:VaultTile5",
       "~CUSTOM:VaultTile4",
       "~CUSTOM:VaultTile3",
@@ -15187,6 +15419,7 @@
       "item.fallout_wastelands_.enclaveofficier_suit_chestplate": "Enclave Vest",
       "block.fallout_wastelands_.wastelandshortburntgrass": "Wasteland Short Burnt Grass",
       "item.fallout_wastelands_.wrench": "Wrench",
+      "block.fallout_wastelands_.vault_tile_6": "Vault Tile",
       "block.fallout_wastelands_.wasteland_goldore": "Wasteland Gold Ore",
       "item.fallout_wastelands_.laserrifle": "Laser Rifle",
       "item.fallout_wastelands_.dented_can": "Dented Can",
@@ -15221,6 +15454,7 @@
       "gui.fallout_wastelands_.base_menu_ui.label_varlocalvar": "DisplaysInputName",
       "block.fallout_wastelands_.bos_metal_roof_stairs": "BoS Metal Roof Stairs",
       "block.fallout_wastelands_.worn_metal_pillar": "Worn Metal Pillar",
+      "block.fallout_wastelands_.vault_catwalk": "Vault Catwalk",
       "item.fallout_wastelands_.gecko_coocked_egg": "Boiled Gecko Egg",
       "item.fallout_wastelands_.wastelandbrickitem": "Wasteland Brick",
       "item.fallout_wastelands_.corn": "Corn",
@@ -15238,9 +15472,9 @@
       "item.fallout_wastelands_.raiderbasher_helmet": "Raider Basher Helmet",
       "subtitles.wasteland_wind": "",
       "item_group.fallout_wastelands_.wastelanditems": "Wastelands Items",
-      "block.fallout_wastelands_.subwaybricks": "Subway Bricks",
-      "block.fallout_wastelands_.wastelandcoalore": "Wasteland Coal Ore",
       "entity.fallout_wastelands_.blastmaster_raider": "Raider Blastmaster",
+      "block.fallout_wastelands_.wastelandcoalore": "Wasteland Coal Ore",
+      "block.fallout_wastelands_.subwaybricks": "Subway Bricks",
       "block.fallout_wastelands_.industrial_plating": "Industrial Plating",
       "block.fallout_wastelands_.horizontallinedconcrete": "Concrete",
       "item.fallout_wastelands_.test_weapon": "Test Weapon",
@@ -15259,6 +15493,7 @@
       "block.fallout_wastelands_.wirefence": "Wire Fence",
       "item.fallout_wastelands_.brahmin_spawn_egg": "Brahmin Spawn Egg",
       "block.fallout_wastelands_.bos_metal_plating_lighted": "Bos Lighted Plating",
+      "block.fallout_wastelands_.vault_tile_slab": "Vault Tile",
       "block.fallout_wastelands_.bo_s_grid_floor_stairs": "BSs Grid Floor Stairs",
       "block.fallout_wastelands_.red_painted_planks": "Red Painted Planks",
       "block.fallout_wastelands_.wasteland_broken_glass": "Broken Glass",
@@ -15275,6 +15510,7 @@
       "block.fallout_wastelands_.industrial_walkwaystairs": "Industrial Plating Stairs",
       "item.fallout_wastelands_.enclaveofficier_suit_leggings": "Enclave Pants",
       "item.fallout_wastelands_.t_51b_pa_helmet": "T51b Helmet",
+      "block.fallout_wastelands_.vault_wall_slab": "Vault Wall Slab",
       "item.fallout_wastelands_.cloth": "Cloth",
       "item.fallout_wastelands_.ripper_projectile": "Ripper Projectile",
       "item.fallout_wastelands_.base_gun_item": "Base Gun Item",
@@ -15332,6 +15568,7 @@
       "block.fallout_wastelands_.wastelandironore": "Wasteland Iron Ore",
       "block.fallout_wastelands_.military_plating_walkway_slab": "Military Plating Walkway Slab",
       "block.fallout_wastelands_.blasted_glass": "Blasted Window",
+      "block.fallout_wastelands_.vault_hidden_door": "Vault Tile (Hidden Door)",
       "block.fallout_wastelands_.oxidized_metal_stair": "Smeared Stairs",
       "item.fallout_wastelands_.taloncombatarmor_helmet": "Talon Combat Armor Helmet",
       "item.fallout_wastelands_.sugar_bombs": "Sugar Bombs",
@@ -15385,6 +15622,7 @@
       "block.fallout_wastelands_.molten_tin": "Molten Tin Block",
       "block.fallout_wastelands_.wasteland_road_slab": "Wasteland Asphalt Slab",
       "item.fallout_wastelands_.empty_neutronade_bottle": "Empty Nuka Cola Bottle",
+      "block.fallout_wastelands_.vault_tile_stairs": "Vault Tile",
       "block.fallout_wastelands_.bos_metal_stairs": "Bos Metal Stairs",
       "block.fallout_wastelands_.grey_industrial_walkwayslab": "Industrial Plating Slab",
       "block.fallout_wastelands_.enclave_door": "Enclave Door",
@@ -15459,6 +15697,7 @@
       "block.fallout_wastelands_.vault_wall": "Vault Wall",
       "block.fallout_wastelands_.bo_s_grid_floor_slab": "BoS Grid Floor Slab",
       "subtitles.pistol32firing": "",
+      "block.fallout_wastelands_.vault_wall_yellow": "Vault Wall",
       "block.fallout_wastelands_.rusted_sheet_metal_wall": "Rusted Sheet Metal Wall",
       "subtitles.the_glow": "",
       "effect.fallout_wastelands_.delete_armor_stand_if_not_riding": "despawnArmorStand",
@@ -15521,6 +15760,7 @@
       "block.fallout_wastelands_.wastelandgravel": "Wasteland Gravel",
       "block.fallout_wastelands_.yukaplant": "Yucca Tree",
       "subtitles.pistolreloading": "",
+      "block.fallout_wastelands_.vault_wall_stairs": "Vault Wall Stairs",
       "subtitles.revolverreloading": "",
       "item.fallout_wastelands_.uranium_nugget": "Uranium Nugget",
       "block.fallout_wastelands_.adobe_block_wall": "Adobe Block Wall",
@@ -15560,6 +15800,7 @@
       "item.fallout_wastelands_.brotherhood_hull": "Brotherhood Plating",
       "item.fallout_wastelands_.raiderduster_helmet": "Raider Duster Hood",
       "item.fallout_wastelands_.ninemmammo": "9mm Rounds",
+      "block.fallout_wastelands_.vault_trapdoor": "Vault Trapdoor",
       "entity.fallout_wastelands_.pa_display_entity": "PA Display Entity",
       "item.fallout_wastelands_.power_armor_frame_armor_boots": "Power Armor Frame",
       "item.fallout_wastelands_.coffepot": "Coffe Pot",
@@ -15613,6 +15854,7 @@
       "block.fallout_wastelands_.molder_wood_button": "Rotten Button",
       "block.fallout_wastelands_.barbed_wires": "Barbed Wires",
       "item.fallout_wastelands_.revolver_32": "Revolver 32",
+      "block.fallout_wastelands_.vault_wall_plated": "Vault Wall",
       "biome.fallout_wastelands_.wasteland_plains": "Wasteland Plains",
       "item.fallout_wastelands_.smallcalibercasing": "Small Empty Rounds",
       "block.fallout_wastelands_.bo_s_data_front_middle": "BoS Data Block",
@@ -15622,6 +15864,7 @@
       "item.fallout_wastelands_.army_repairman_suit_leggings": "Army Repairman Pants",
       "block.fallout_wastelands_.molten_steel": "Molten Steel Block",
       "block.fallout_wastelands_.blasted_glass_pane": "Blasted Glass Pane",
+      "block.fallout_wastelands_.mutated_web": "Mutated Web",
       "gui.fallout_wastelands_.base_inventory.label_note_to_make_the_white_ui_disap": "Note: to make the white ui disappear you must set it",
       "block.fallout_wastelands_.military_metalwindow": "Military Metal Window",
       "block.fallout_wastelands_.bas_ecore": "B.A.S.E Core",

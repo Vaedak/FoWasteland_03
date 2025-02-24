@@ -48,6 +48,7 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.SHOOT_NOTHING.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.CANNIBAL_01.get(), Cannibal01Renderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.SPIDERFLOATER.get(), SpiderfloaterRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.SPIDERFLOATER_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.CANNIBAL_02.get(), Cannibal02Renderer::new);
 	}
 }

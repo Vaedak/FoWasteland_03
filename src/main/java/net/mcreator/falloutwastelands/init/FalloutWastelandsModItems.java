@@ -638,6 +638,17 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> VAULT_TILE_3 = block(FalloutWastelandsModBlocks.VAULT_TILE_3);
 	public static final RegistryObject<Item> VAULT_TILE_4 = block(FalloutWastelandsModBlocks.VAULT_TILE_4);
 	public static final RegistryObject<Item> VAULT_TILE_5 = block(FalloutWastelandsModBlocks.VAULT_TILE_5);
+	public static final RegistryObject<Item> VAULT_TILE_6 = block(FalloutWastelandsModBlocks.VAULT_TILE_6);
+	public static final RegistryObject<Item> VAULT_WALL_YELLOW = block(FalloutWastelandsModBlocks.VAULT_WALL_YELLOW);
+	public static final RegistryObject<Item> VAULT_WALL_PLATED = block(FalloutWastelandsModBlocks.VAULT_WALL_PLATED);
+	public static final RegistryObject<Item> VAULT_WALL_STAIRS = block(FalloutWastelandsModBlocks.VAULT_WALL_STAIRS);
+	public static final RegistryObject<Item> VAULT_WALL_SLAB = block(FalloutWastelandsModBlocks.VAULT_WALL_SLAB);
+	public static final RegistryObject<Item> VAULT_TILE_STAIRS = block(FalloutWastelandsModBlocks.VAULT_TILE_STAIRS);
+	public static final RegistryObject<Item> VAULT_TILE_SLAB = block(FalloutWastelandsModBlocks.VAULT_TILE_SLAB);
+	public static final RegistryObject<Item> VAULT_HIDDEN_DOOR = doubleBlock(FalloutWastelandsModBlocks.VAULT_HIDDEN_DOOR);
+	public static final RegistryObject<Item> VAULT_CATWALK = block(FalloutWastelandsModBlocks.VAULT_CATWALK);
+	public static final RegistryObject<Item> VAULT_TRAPDOOR = block(FalloutWastelandsModBlocks.VAULT_TRAPDOOR);
+	public static final RegistryObject<Item> MUTATED_WEB = block(FalloutWastelandsModBlocks.MUTATED_WEB);
 
 	// Start of user code block custom items
 	// End of user code block custom items
