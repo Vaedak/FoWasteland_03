@@ -3,31 +3,31 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:IndusPipe"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.COAL#0"
+        "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:SingleScaffoldBlock"
       },
       {
-        "value": "Items.COAL#0"
+        "value": ""
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SteelComposite"
+      "value": "CUSTOM:EncasedIndusPipe"
     },
-    "name": "steelcompositecraft",
+    "name": "encased_pipe_craft",
     "namespace": "mod"
   }
 }

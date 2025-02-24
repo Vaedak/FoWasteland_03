@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 8,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -15,34 +15,34 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:LeadIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.COAL#0"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Items.COAL#0"
+        "value": "CUSTOM:LeadIngot"
       },
       {
         "value": ""
       },
       {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SteelComposite"
+      "value": "CUSTOM:IndusPipe"
     },
-    "name": "steelcompositecraft",
+    "name": "indus_pipe_craft",
     "namespace": "mod"
   }
 }

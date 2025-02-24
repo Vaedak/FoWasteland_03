@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:indus_pipe"
+    },
+    {
+      "item": "fallout_wastelands_:worn_metal"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:indus_pipe_hub",
+    "count": 2
+  }
+}
