@@ -638,6 +638,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> VAULT_TILE_3 = block(FalloutWastelandsModBlocks.VAULT_TILE_3);
 	public static final RegistryObject<Item> VAULT_TILE_4 = block(FalloutWastelandsModBlocks.VAULT_TILE_4);
 	public static final RegistryObject<Item> VAULT_TILE_5 = block(FalloutWastelandsModBlocks.VAULT_TILE_5);
+	public static final RegistryObject<Item> FLOATER_SPAWN_EGG = REGISTRY.register("floater_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.FLOATER, -11127510, -5934277, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
