@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/encasedpipe",
+  "textures": {
+    "all": "fallout_wastelands_:block/encasedindustrialpipe",
+    "particle": "fallout_wastelands_:block/pipehub",
+    "0": "fallout_wastelands_:block/encasedindustrialpipe"
+  },
+  "render_type": "translucent"
+}

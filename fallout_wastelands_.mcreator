@@ -14464,6 +14464,75 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "IndusPipeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indus_pipe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/indus_pipe_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PipeHubCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipe_hub_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/pipe_hub_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CurtainCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curtain_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/curtain_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EncasedIndusPipe",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "encased_indus_pipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/encased_indus_pipe.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/encased_indus_pipe.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/EncasedIndusPipeBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/encased_indus_pipe.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/encased_indus_pipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EncasedPipeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "encased_pipe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/encased_pipe_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -15716,6 +15785,7 @@
       "block.fallout_wastelands_.blasted_glass_pane": "Blasted Glass Pane",
       "gui.fallout_wastelands_.base_inventory.label_note_to_make_the_white_ui_disap": "Note: to make the white ui disappear you must set it",
       "block.fallout_wastelands_.military_metalwindow": "Military Metal Window",
+      "block.fallout_wastelands_.encased_indus_pipe": "Encased Industrial Pipe",
       "block.fallout_wastelands_.bas_ecore": "B.A.S.E Core",
       "gui.fallout_wastelands_.base_menu_ui.label_caps_expense": "Caps Expense",
       "block.fallout_wastelands_.sandbags_slab": "Sandbag Slab",

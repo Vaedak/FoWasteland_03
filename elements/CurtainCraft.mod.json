@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 3,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Cloth"
       },
       {
-        "value": "Items.COAL#0"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Items.COAL#0"
+        "value": "CUSTOM:Cloth"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Cloth"
+      },
+      {
+        "value": "CUSTOM:Cloth"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SteelComposite"
+      "value": "CUSTOM:Curtain"
     },
-    "name": "steelcompositecraft",
+    "name": "curtain_craft",
     "namespace": "mod"
   }
 }
