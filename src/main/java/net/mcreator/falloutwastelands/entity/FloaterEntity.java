@@ -185,10 +185,12 @@ public class FloaterEntity extends Monster implements GeoEntity {
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
-			if (!this.onGround()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.needletoothfloater.Idle"));
+			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
+
+			) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.flatwormfloater.walk"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.needletoothfloater.Idle"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.flatwormfloater.Idle"));
 		}
 		return PlayState.STOP;
 	}
@@ -206,7 +208,7 @@ public class FloaterEntity extends Monster implements GeoEntity {
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 			event.getController().forceAnimationReset();
-			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.needletoothfloater.attack"));
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.flatwormfloater.attack"));
 		}
 		return PlayState.CONTINUE;
 	}

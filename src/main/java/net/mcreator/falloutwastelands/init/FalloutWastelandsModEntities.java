@@ -21,6 +21,7 @@ import net.mcreator.falloutwastelands.entity.ShootNothingEntity;
 import net.mcreator.falloutwastelands.entity.RipperProjectileProjectileEntity;
 import net.mcreator.falloutwastelands.entity.RaiderscavangerEntity;
 import net.mcreator.falloutwastelands.entity.RaiderDustwalkerEntity;
+import net.mcreator.falloutwastelands.entity.RadroachEntity;
 import net.mcreator.falloutwastelands.entity.PowerArmorFrameEntity;
 import net.mcreator.falloutwastelands.entity.PlasmaProjectileEntity;
 import net.mcreator.falloutwastelands.entity.PADisplayEntityEntity;
@@ -103,6 +104,10 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<FloaterEntity>of(FloaterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FloaterEntity::new)
 
 					.sized(1.5f, 1.5f));
+	public static final RegistryObject<EntityType<RadroachEntity>> RADROACH = register("radroach",
+			EntityType.Builder.<RadroachEntity>of(RadroachEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RadroachEntity::new)
+
+					.sized(0.6f, 1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -125,6 +130,7 @@ public class FalloutWastelandsModEntities {
 			SpiderfloaterEntity.init();
 			Cannibal02Entity.init();
 			FloaterEntity.init();
+			RadroachEntity.init();
 		});
 	}
 
@@ -144,5 +150,6 @@ public class FalloutWastelandsModEntities {
 		event.put(SPIDERFLOATER.get(), SpiderfloaterEntity.createAttributes().build());
 		event.put(CANNIBAL_02.get(), Cannibal02Entity.createAttributes().build());
 		event.put(FLOATER.get(), FloaterEntity.createAttributes().build());
+		event.put(RADROACH.get(), RadroachEntity.createAttributes().build());
 	}
 }

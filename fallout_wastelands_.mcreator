@@ -14567,6 +14567,22 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "Radroach",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radroach",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/entity/RadroachEntity.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/model/RadroachModel.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/RadroachRenderer.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/radroach_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -15773,7 +15789,6 @@
       "block.fallout_wastelands_.rusty_sheetmetalblock": "Rusted Sheet Metal",
       "item.fallout_wastelands_.nailed_wrench": "SpikedWrench",
       "item.fallout_wastelands_.beer": "Beer",
-      "block.fallout_wastelands_.vault_door_open": "Vault Door Open",
       "block.fallout_wastelands_.wastelandlapisore": "Wasteland Lapis Ore",
       "item.fallout_wastelands_.combatarmor_helmet": "Combat Armor Helmet",
       "block.fallout_wastelands_.worn_metal_slab": "Worn Metal Slab",
@@ -15872,7 +15887,6 @@
       "item.fallout_wastelands_.nailgun": "Nailgun",
       "item.fallout_wastelands_.taloncombatarmor_boots": "Talon Combat Armor Boots",
       "block.fallout_wastelands_.molder_wood_door": "Rotten Door",
-      "block.fallout_wastelands_.vault_door_sealed": "Vault Door Sealed",
       "item.fallout_wastelands_.heavycalibercasing": "Large Empty Rounds",
       "entity.fallout_wastelands_.power_armor_frame": "Power Armor Frame",
       "block.fallout_wastelands_.ruins": "Ruins Vault Block",
