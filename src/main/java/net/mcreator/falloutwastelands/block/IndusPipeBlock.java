@@ -1,7 +1,21 @@
 
 package net.mcreator.falloutwastelands.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
 
 public class IndusPipeBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
@@ -24,6 +38,15 @@ public class IndusPipeBlock extends Block {
 	@Override
 	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.empty();
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(AXIS)) {
+			case X -> Shapes.or(box(1, 3, 3, 15, 13, 13), box(15, 2, 2, 16, 14, 14), box(0, 2, 2, 1, 14, 14));
+			case Y -> Shapes.or(box(3, 1, 3, 13, 15, 13), box(2, 15, 2, 14, 16, 14), box(2, 0, 2, 14, 1, 14));
+			case Z -> Shapes.or(box(3, 3, 1, 13, 13, 15), box(2, 2, 0, 14, 14, 1), box(2, 2, 15, 14, 14, 16));
+		};
 	}
 
 	@Override

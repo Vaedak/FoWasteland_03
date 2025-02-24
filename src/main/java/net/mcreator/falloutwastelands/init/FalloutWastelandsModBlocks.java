@@ -72,6 +72,7 @@ import net.mcreator.falloutwastelands.block.WastelandBrickBlock;
 import net.mcreator.falloutwastelands.block.WastelandAluminumOreBlock;
 import net.mcreator.falloutwastelands.block.WasteSandBlock;
 import net.mcreator.falloutwastelands.block.WallWastelandCobblestoneBlock;
+import net.mcreator.falloutwastelands.block.VaultWallYelloBlock;
 import net.mcreator.falloutwastelands.block.VaultWallExposedBlock;
 import net.mcreator.falloutwastelands.block.VaultWallCurvedBlock;
 import net.mcreator.falloutwastelands.block.VaultWallBlock;
@@ -558,6 +559,7 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> CURTAIN = REGISTRY.register("curtain", () -> new CurtainBlock());
 	public static final RegistryObject<Block> INDUS_PIPE_HUB = REGISTRY.register("indus_pipe_hub", () -> new IndusPipeHubBlock());
 	public static final RegistryObject<Block> INDUS_PIPE = REGISTRY.register("indus_pipe", () -> new IndusPipeBlock());
+	public static final RegistryObject<Block> VAULT_WALL_YELLO = REGISTRY.register("vault_wall_yello", () -> new VaultWallYelloBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

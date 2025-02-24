@@ -641,6 +641,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> CURTAIN = block(FalloutWastelandsModBlocks.CURTAIN);
 	public static final RegistryObject<Item> INDUS_PIPE_HUB = block(FalloutWastelandsModBlocks.INDUS_PIPE_HUB);
 	public static final RegistryObject<Item> INDUS_PIPE = block(FalloutWastelandsModBlocks.INDUS_PIPE);
+	public static final RegistryObject<Item> VAULT_WALL_YELLO = block(FalloutWastelandsModBlocks.VAULT_WALL_YELLO);
 
 	// Start of user code block custom items
 	// End of user code block custom items

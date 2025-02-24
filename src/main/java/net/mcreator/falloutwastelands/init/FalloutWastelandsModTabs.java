@@ -290,6 +290,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.CURTAIN.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.INDUS_PIPE_HUB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.INDUS_PIPE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.VAULT_WALL_YELLO.get().asItem());
 			})
 
 					.build());

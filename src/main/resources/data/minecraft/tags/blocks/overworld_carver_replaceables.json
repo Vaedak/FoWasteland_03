@@ -1,11 +1,10 @@
 {
   "replace": false,
   "values": [
-    "fallout_wastelands_:wasteland_rooty_dirt",
     "fallout_wastelands_:wastelandgravel",
-    "fallout_wastelands_:wasteland_cobblestone",
     "fallout_wastelands_:wastelandgrassblock",
     "fallout_wastelands_:wasteland_dirt",
+    "fallout_wastelands_:wasteland_cobblestone",
     "fallout_wastelands_:wasteland_stone"
   ]
 }
