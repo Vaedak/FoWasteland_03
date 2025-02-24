@@ -232,6 +232,7 @@ import net.mcreator.falloutwastelands.block.EnclaveBunkerStairsBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerFloorBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerBlockLogoBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerBlockBlock;
+import net.mcreator.falloutwastelands.block.EncasedIndusPipeBlock;
 import net.mcreator.falloutwastelands.block.DriedPlanksWallBlock;
 import net.mcreator.falloutwastelands.block.DriedPlanksBlock;
 import net.mcreator.falloutwastelands.block.DoubleScaffoldWallBlock;
@@ -560,6 +561,7 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> VAULT_WALL_YELLO = REGISTRY.register("vault_wall_yello", () -> new VaultWallYelloBlock());
 	public static final RegistryObject<Block> INDUS_PIPE_HUB = REGISTRY.register("indus_pipe_hub", () -> new IndusPipeHubBlock());
 	public static final RegistryObject<Block> INDUS_PIPE = REGISTRY.register("indus_pipe", () -> new IndusPipeBlock());
+	public static final RegistryObject<Block> ENCASED_INDUS_PIPE = REGISTRY.register("encased_indus_pipe", () -> new EncasedIndusPipeBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

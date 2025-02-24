@@ -14,15 +14,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.animal.Wolf;
-import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
-import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
@@ -43,29 +40,29 @@ import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.core.BlockPos;
 
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModEntities;
 
-public class FloaterEntity extends Monster implements GeoEntity {
-	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(FloaterEntity.class, EntityDataSerializers.BOOLEAN);
-	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(FloaterEntity.class, EntityDataSerializers.STRING);
-	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(FloaterEntity.class, EntityDataSerializers.STRING);
+public class RadroachEntity extends Monster implements GeoEntity {
+	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(RadroachEntity.class, EntityDataSerializers.BOOLEAN);
+	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(RadroachEntity.class, EntityDataSerializers.STRING);
+	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(RadroachEntity.class, EntityDataSerializers.STRING);
 	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
 	private boolean swinging;
 	private boolean lastloop;
 	private long lastSwing;
 	public String animationprocedure = "empty";
 
-	public FloaterEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(FalloutWastelandsModEntities.FLOATER.get(), world);
+	public RadroachEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(FalloutWastelandsModEntities.RADROACH.get(), world);
 	}
 
-	public FloaterEntity(EntityType<FloaterEntity> type, Level world) {
+	public RadroachEntity(EntityType<RadroachEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
 		setMaxUpStep(0.6f);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -73,7 +70,7 @@ public class FloaterEntity extends Monster implements GeoEntity {
 		super.defineSynchedData();
 		this.entityData.define(SHOOT, false);
 		this.entityData.define(ANIMATION, "undefined");
-		this.entityData.define(TEXTURE, "flatworm");
+		this.entityData.define(TEXTURE, "radroach");
 	}
 
 	public void setTexture(String texture) {
@@ -85,11 +82,6 @@ public class FloaterEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
-	protected float getStandingEyeHeight(Pose poseIn, EntityDimensions sizeIn) {
-		return 1.8F;
-	}
-
-	@Override
 	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
@@ -97,31 +89,26 @@ public class FloaterEntity extends Monster implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new WaterAvoidingRandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1, true) {
-			@Override
-			protected double getAttackReachSqr(LivingEntity entity) {
-				return 4;
-			}
-		});
-		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1, true) {
+		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 0.9, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Cannibal00Entity.class, false, false));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Cannibal01Entity.class, false, false));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, BrahminEntity.class, false, false));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, BlastmasterRaiderEntity.class, false, false));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, GeckoEntity.class, false, false));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, LobotomiteWalkerEntity.class, false, false));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, Wolf.class, false, false));
-		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, RaiderscavangerEntity.class, false, false));
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.9));
+		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, BlastmasterRaiderEntity.class, false, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, BrahminEntity.class, false, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Cannibal00Entity.class, false, false));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Cannibal01Entity.class, false, false));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Cannibal02Entity.class, false, false));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, FloaterEntity.class, false, false));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, GeckoEntity.class, false, false));
+		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, LobotomiteWalkerEntity.class, false, false));
 		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, RaiderDustwalkerEntity.class, false, false));
-		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, Animal.class, false, false));
-		this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(15, new HurtByTargetGoal(this).setAlertOthers());
+		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, RaiderscavangerEntity.class, false, false));
+		this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, SpiderfloaterEntity.class, false, false));
+		this.targetSelector.addGoal(15, new NearestAttackableTargetGoal(this, Player.class, false, false));
 		this.goalSelector.addGoal(16, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(17, new FloatGoal(this));
 	}
@@ -132,8 +119,8 @@ public class FloaterEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
-	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.spider.ambient")), 0.15f, 1);
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override
@@ -176,9 +163,9 @@ public class FloaterEntity extends Monster implements GeoEntity {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 10);
+		builder = builder.add(Attributes.MAX_HEALTH, 6);
 		builder = builder.add(Attributes.ARMOR, 0);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 2);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		return builder;
 	}
@@ -188,9 +175,12 @@ public class FloaterEntity extends Monster implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.flatwormfloater.walk"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.radroack.walk"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.flatwormfloater.Idle"));
+			if (this.isInWaterOrBubble()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.radroack.walk"));
+			}
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.radroack.idle"));
 		}
 		return PlayState.STOP;
 	}
@@ -208,7 +198,7 @@ public class FloaterEntity extends Monster implements GeoEntity {
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 			event.getController().forceAnimationReset();
-			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.flatwormfloater.attack"));
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.radroack.attack"));
 		}
 		return PlayState.CONTINUE;
 	}
@@ -236,7 +226,7 @@ public class FloaterEntity extends Monster implements GeoEntity {
 	protected void tickDeath() {
 		++this.deathTime;
 		if (this.deathTime == 20) {
-			this.remove(FloaterEntity.RemovalReason.KILLED);
+			this.remove(RadroachEntity.RemovalReason.KILLED);
 			this.dropExperience();
 		}
 	}

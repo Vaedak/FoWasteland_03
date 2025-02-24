@@ -291,6 +291,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.VAULT_WALL_YELLO.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.INDUS_PIPE_HUB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.INDUS_PIPE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ENCASED_INDUS_PIPE.get().asItem());
 			})
 
 					.build());
@@ -508,6 +509,7 @@ public class FalloutWastelandsModTabs {
 			tabData.accept(FalloutWastelandsModItems.SPIDERFLOATER_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.CANNIBAL_02_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.FLOATER_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.RADROACH_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

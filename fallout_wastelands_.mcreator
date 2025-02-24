@@ -14512,11 +14512,11 @@
       "registry_name": "encased_indus_pipe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/encased_indus_pipe.json",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/encased_indus_pipe.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/EncasedIndusPipeBlock.java",
           "src/main/resources/assets/fallout_wastelands_/models/block/encased_indus_pipe.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/encased_indus_pipe.json"
+          "src/main/resources/assets/fallout_wastelands_/blockstates/encased_indus_pipe.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/encased_indus_pipe.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/encased_indus_pipe.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/EncasedIndusPipeBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -14533,6 +14533,22 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Radroach",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radroach",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/entity/model/RadroachModel.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/radroach_spawn_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/RadroachRenderer.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/RadroachEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -14669,11 +14685,6 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:WastelandDriedGrass",
       "~CUSTOM:JoshuaLeaves",
@@ -14681,6 +14692,11 @@
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs"
     ],
     "BLOCKS:minecraft:sand": [
       "CUSTOM:WasteSand"
@@ -15683,6 +15699,7 @@
       "subtitles.revolverreloading": "",
       "item.fallout_wastelands_.uranium_nugget": "Uranium Nugget",
       "block.fallout_wastelands_.adobe_block_wall": "Adobe Block Wall",
+      "item.fallout_wastelands_.radroach_spawn_egg": "Radroach Spawn Egg",
       "item.fallout_wastelands_.cannibal_01_spawn_egg": "Cannibal Tribal Spawn Egg",
       "block.fallout_wastelands_.industrial_alloy_vent": "Industrial Plating Vent",
       "item.fallout_wastelands_.dynamite_entity_spawn_egg": "Dynamite Spawn Egg",
@@ -15796,6 +15813,7 @@
       "gui.fallout_wastelands_.box.label_locker": "Box",
       "block.fallout_wastelands_.sheetmetalblock": "Sheet Metal Block",
       "block.fallout_wastelands_.industrial_walkway": "Industrial Alloy",
+      "entity.fallout_wastelands_.radroach": "Radroach",
       "item.fallout_wastelands_.raider_warmonger_boots": "Raider Warmonger Shoes",
       "block.fallout_wastelands_.wastelandhardstone": "Wasteland Hard Stone",
       "item.fallout_wastelands_.chicago_omelette": "Chicago Omelette",
