@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/wastelandrag",
+  "textures": {
+    "all": "fallout_wastelands_:block/curtain",
+    "particle": "fallout_wastelands_:block/curtain",
+    "0": "fallout_wastelands_:block/curtain"
+  },
+  "render_type": "cutout"
+}

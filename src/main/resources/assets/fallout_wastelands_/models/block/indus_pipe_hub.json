@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fallout_wastelands_:block/pipehub",
+    "particle": "fallout_wastelands_:block/pipehub"
+  },
+  "render_type": "translucent"
+}

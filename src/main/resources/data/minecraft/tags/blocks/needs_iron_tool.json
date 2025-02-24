@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:vault_wall_yello",
     "fallout_wastelands_:vault_tile_5",
     "fallout_wastelands_:vault_tile_4",
     "fallout_wastelands_:vault_tile_3",

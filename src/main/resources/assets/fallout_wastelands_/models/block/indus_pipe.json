@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/industrialpipe",
+  "textures": {
+    "all": "fallout_wastelands_:block/industrialpipe",
+    "particle": "fallout_wastelands_:block/pipehub",
+    "0": "fallout_wastelands_:block/industrialpipe"
+  },
+  "render_type": "translucent"
+}

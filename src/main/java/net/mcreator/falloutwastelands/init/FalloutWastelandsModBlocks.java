@@ -72,6 +72,7 @@ import net.mcreator.falloutwastelands.block.WastelandBrickBlock;
 import net.mcreator.falloutwastelands.block.WastelandAluminumOreBlock;
 import net.mcreator.falloutwastelands.block.WasteSandBlock;
 import net.mcreator.falloutwastelands.block.WallWastelandCobblestoneBlock;
+import net.mcreator.falloutwastelands.block.VaultWallYelloBlock;
 import net.mcreator.falloutwastelands.block.VaultWallExposedBlock;
 import net.mcreator.falloutwastelands.block.VaultWallCurvedBlock;
 import net.mcreator.falloutwastelands.block.VaultWallBlock;
@@ -205,6 +206,8 @@ import net.mcreator.falloutwastelands.block.IndustrialAlloyPlainBlock;
 import net.mcreator.falloutwastelands.block.IndustrialAlloyBottomRivetBlock;
 import net.mcreator.falloutwastelands.block.IndustrialAlloyBlock;
 import net.mcreator.falloutwastelands.block.IndustrialAllowMidRivetBlock;
+import net.mcreator.falloutwastelands.block.IndusPipeHubBlock;
+import net.mcreator.falloutwastelands.block.IndusPipeBlock;
 import net.mcreator.falloutwastelands.block.HorizontallinedconcreteBlock;
 import net.mcreator.falloutwastelands.block.HardconcretestairsBlock;
 import net.mcreator.falloutwastelands.block.HardconcreteBlock;
@@ -233,6 +236,7 @@ import net.mcreator.falloutwastelands.block.DriedPlanksWallBlock;
 import net.mcreator.falloutwastelands.block.DriedPlanksBlock;
 import net.mcreator.falloutwastelands.block.DoubleScaffoldWallBlock;
 import net.mcreator.falloutwastelands.block.DoubleScaffoldBlockBlock;
+import net.mcreator.falloutwastelands.block.CurtainBlock;
 import net.mcreator.falloutwastelands.block.CrackedWastelandConcreteWallBlock;
 import net.mcreator.falloutwastelands.block.CrackedWastelandConcreteStairsBlock;
 import net.mcreator.falloutwastelands.block.CrackedWastelandConcreteSlabsBlock;
@@ -552,6 +556,10 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> VAULT_TILE_3 = REGISTRY.register("vault_tile_3", () -> new VaultTile3Block());
 	public static final RegistryObject<Block> VAULT_TILE_4 = REGISTRY.register("vault_tile_4", () -> new VaultTile4Block());
 	public static final RegistryObject<Block> VAULT_TILE_5 = REGISTRY.register("vault_tile_5", () -> new VaultTile5Block());
+	public static final RegistryObject<Block> CURTAIN = REGISTRY.register("curtain", () -> new CurtainBlock());
+	public static final RegistryObject<Block> VAULT_WALL_YELLO = REGISTRY.register("vault_wall_yello", () -> new VaultWallYelloBlock());
+	public static final RegistryObject<Block> INDUS_PIPE_HUB = REGISTRY.register("indus_pipe_hub", () -> new IndusPipeHubBlock());
+	public static final RegistryObject<Block> INDUS_PIPE = REGISTRY.register("indus_pipe", () -> new IndusPipeBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
