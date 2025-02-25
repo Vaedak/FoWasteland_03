@@ -20,34 +20,16 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 3.0,
-        "my": 1.0,
-        "mz": 3.0,
-        "Mx": 13.0,
-        "My": 15.0,
-        "Mz": 13.0,
-        "subtract": false
-      },
-      {
-        "mx": 2.0,
-        "my": 15.0,
-        "mz": 2.0,
-        "Mx": 14.0,
-        "My": 16.0,
-        "Mz": 14.0,
-        "subtract": false
-      },
-      {
-        "mx": 2.0,
+        "mx": 0.0,
         "my": 0.0,
-        "mz": 2.0,
-        "Mx": 14.0,
-        "My": 1.0,
-        "Mz": 14.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
@@ -59,7 +41,7 @@
     "hardness": 1.5,
     "resistance": 3.5,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandblockstab"
