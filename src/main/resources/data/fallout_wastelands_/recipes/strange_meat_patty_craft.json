@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:rollingpin"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:strange_meat_patty",
+    "count": 1
+  }
+}

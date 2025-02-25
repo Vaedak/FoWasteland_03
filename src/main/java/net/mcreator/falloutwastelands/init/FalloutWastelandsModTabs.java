@@ -492,6 +492,11 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.WONDERGLUE.get());
 				tabData.accept(FalloutWastelandsModItems.FISSION_BATTERY.get());
 				tabData.accept(FalloutWastelandsModItems.POTATO_CRISPS.get());
+				tabData.accept(FalloutWastelandsModItems.SIERRA_MADRE_MARTINI.get());
+				tabData.accept(FalloutWastelandsModItems.STRANGE_MEAT_PATTY.get());
+				tabData.accept(FalloutWastelandsModItems.RADROACH_MEAT.get());
+				tabData.accept(FalloutWastelandsModItems.RAD_ISLAND_CIDER.get());
+				tabData.accept(FalloutWastelandsModItems.MIRELURK_CAKE.get());
 			})
 
 					.build());

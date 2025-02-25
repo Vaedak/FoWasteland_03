@@ -14583,6 +14583,102 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "MirelurkCakeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mirelurk_cake_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/mirelurk_cake_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SierraMadreMartini",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sierra_madre_martini",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/SierraMadreMartiniItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/sierra_madre_martini.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StrangeMeatPatty",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_meat_patty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/StrangeMeatPattyItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/strange_meat_patty.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "RadroachMeat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radroach_meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/radroach_meat.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/RadroachMeatItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StrangeMeatPattyCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_meat_patty_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/strange_meat_patty_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RadIslandCider",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rad_island_cider",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/rad_island_cider.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/RadIslandCiderItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MirelurkCake",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mirelurk_cake",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/MirelurkCakeItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/mirelurk_cake.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -14719,11 +14815,6 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:WastelandDriedGrass",
       "~CUSTOM:JoshuaLeaves",
@@ -14731,6 +14822,11 @@
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs"
     ],
     "BLOCKS:minecraft:sand": [
       "CUSTOM:WasteSand"
