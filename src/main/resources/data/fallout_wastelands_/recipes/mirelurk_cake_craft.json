@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "fallout_wastelands_:rollingpin"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "fallout_wastelands_:mirelurkmeat"
+    },
+    {
+      "item": "fallout_wastelands_:mutlemon"
+    }
+  ],
+  "result": {
+    "item": "fallout_wastelands_:mirelurk_cake",
+    "count": 1
+  }
+}
