@@ -113,29 +113,29 @@ public class SpiderfloaterEntity extends Monster implements GeoEntity {
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.3, true) {
+		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.5, true) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
-				return 1;
+				return 0;
 			}
 		});
-		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.3, true) {
+		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.5, true) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Cannibal00Entity.class, false, false));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Cannibal01Entity.class, false, false));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, BrahminEntity.class, false, false));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, BlastmasterRaiderEntity.class, false, false));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, GeckoEntity.class, false, false));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, LobotomiteWalkerEntity.class, false, false));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, Wolf.class, false, false));
-		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, RaiderscavangerEntity.class, false, false));
-		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, RaiderDustwalkerEntity.class, false, false));
-		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, Animal.class, false, false));
-		this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Cannibal00Entity.class, true, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Cannibal01Entity.class, true, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, BrahminEntity.class, true, false));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, BlastmasterRaiderEntity.class, true, false));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, GeckoEntity.class, true, false));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, LobotomiteWalkerEntity.class, true, false));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, Wolf.class, true, false));
+		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, RaiderscavangerEntity.class, true, false));
+		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, RaiderDustwalkerEntity.class, true, false));
+		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, Animal.class, true, false));
+		this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, Player.class, true, false));
 		this.targetSelector.addGoal(15, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(16, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(17, new FloatGoal(this));
@@ -147,8 +147,8 @@ public class SpiderfloaterEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
-	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.spider.ambient")), 0.15f, 1);
+	public SoundEvent getAmbientSound() {
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.spider.ambient"));
 	}
 
 	@Override
@@ -220,7 +220,13 @@ public class SpiderfloaterEntity extends Monster implements GeoEntity {
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
+			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.onGround() && !this.isAggressive()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.needletoothfloater.Idle"));
+			}
 			if (!this.onGround()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.needletoothfloater.Idle"));
+			}
+			if (this.isAggressive() && event.isMoving()) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.needletoothfloater.Idle"));
 			}
 			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.needletoothfloater.Idle"));
