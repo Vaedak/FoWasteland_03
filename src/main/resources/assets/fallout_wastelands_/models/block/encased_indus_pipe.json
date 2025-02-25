@@ -5,5 +5,5 @@
     "particle": "fallout_wastelands_:block/pipehub",
     "0": "fallout_wastelands_:block/encasedindustrialpipe"
   },
-  "render_type": "translucent"
+  "render_type": "cutout_mipped"
 }

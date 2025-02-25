@@ -1,6 +1,9 @@
 
 package net.mcreator.falloutwastelands.block;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -26,7 +29,7 @@ public class TireStackBlock extends Block implements SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public TireStackBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.SHROOMLIGHT).strength(0.65f, 0.5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.SHROOMLIGHT).strength(0.65f, 0.5f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
 
@@ -38,6 +41,11 @@ public class TireStackBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
+	}
+
+	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
 	}
 
 	@Override
