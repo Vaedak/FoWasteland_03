@@ -14549,6 +14549,40 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "VaultDoorSealed",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_door_sealed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_sealed.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_sealed.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorSealedBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_sealed.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_sealed.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VaultDoorOpen",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_door_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorOpenBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_open.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_open.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_open.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_open.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -14919,6 +14953,8 @@
       "Blocks.STONECUTTER"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:VaultDoorOpen",
+      "~CUSTOM:VaultDoorSealed",
       "~CUSTOM:VaultWallYello",
       "~CUSTOM:VaultTile5",
       "~CUSTOM:VaultTile4",
@@ -15025,6 +15061,8 @@
       "CUSTOM:WastelandCobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:VaultDoorOpen",
+      "~CUSTOM:VaultDoorSealed",
       "~CUSTOM:VaultWallYello",
       "~CUSTOM:VaultTile5",
       "~CUSTOM:VaultTile4",
@@ -15699,7 +15737,6 @@
       "subtitles.revolverreloading": "",
       "item.fallout_wastelands_.uranium_nugget": "Uranium Nugget",
       "block.fallout_wastelands_.adobe_block_wall": "Adobe Block Wall",
-      "item.fallout_wastelands_.radroach_spawn_egg": "Radroach Spawn Egg",
       "item.fallout_wastelands_.cannibal_01_spawn_egg": "Cannibal Tribal Spawn Egg",
       "block.fallout_wastelands_.industrial_alloy_vent": "Industrial Plating Vent",
       "item.fallout_wastelands_.dynamite_entity_spawn_egg": "Dynamite Spawn Egg",
@@ -15813,7 +15850,6 @@
       "gui.fallout_wastelands_.box.label_locker": "Box",
       "block.fallout_wastelands_.sheetmetalblock": "Sheet Metal Block",
       "block.fallout_wastelands_.industrial_walkway": "Industrial Alloy",
-      "entity.fallout_wastelands_.radroach": "Radroach",
       "item.fallout_wastelands_.raider_warmonger_boots": "Raider Warmonger Shoes",
       "block.fallout_wastelands_.wastelandhardstone": "Wasteland Hard Stone",
       "item.fallout_wastelands_.chicago_omelette": "Chicago Omelette",

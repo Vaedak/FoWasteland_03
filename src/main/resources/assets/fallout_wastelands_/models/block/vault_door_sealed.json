@@ -1,0 +1,9 @@
+{
+  "parent": "fallout_wastelands_:custom/vaultsealon",
+  "textures": {
+    "all": "fallout_wastelands_:block/vaultseal",
+    "particle": "fallout_wastelands_:block/vaultreinforcedpillar",
+    "0": "fallout_wastelands_:block/vaultseal"
+  },
+  "render_type": "solid"
+}
