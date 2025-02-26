@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:vault_door_open"
+          "name": "minecraft:air"
         }
       ]
     }

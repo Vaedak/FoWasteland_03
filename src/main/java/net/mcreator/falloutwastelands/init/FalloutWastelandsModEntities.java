@@ -85,7 +85,7 @@ public class FalloutWastelandsModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<DynamiteEntityEntity>> DYNAMITE_ENTITY = register("dynamite_entity", EntityType.Builder.<DynamiteEntityEntity>of(DynamiteEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DynamiteEntityEntity::new).fireImmune().sized(0.6f, 1.8f));
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DynamiteEntityEntity::new).fireImmune().sized(0.2f, 0.2f));
 	public static final RegistryObject<EntityType<ShootNothingEntity>> SHOOT_NOTHING = register("shoot_nothing",
 			EntityType.Builder.<ShootNothingEntity>of(ShootNothingEntity::new, MobCategory.MISC).setCustomClientFactory(ShootNothingEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0f, 0f));
 	public static final RegistryObject<EntityType<Cannibal01Entity>> CANNIBAL_01 = register("cannibal_01",

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "fallout_wastelands_:blocks/vault_door_sealed",
+  "random_sequence": "fallout_wastelands_:blocks/vault_door_bottom_right",
   "pools": [
     {
       "rolls": 1.0,

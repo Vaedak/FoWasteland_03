@@ -85,8 +85,11 @@ import net.mcreator.falloutwastelands.block.VaultTile1Block;
 import net.mcreator.falloutwastelands.block.VaultReinforcedPillarBlock;
 import net.mcreator.falloutwastelands.block.VaultPillarBlock;
 import net.mcreator.falloutwastelands.block.VaultFloorBlock;
+import net.mcreator.falloutwastelands.block.VaultDoorTopRightBlock;
+import net.mcreator.falloutwastelands.block.VaultDoorTopBlock;
 import net.mcreator.falloutwastelands.block.VaultDoorSealedBlock;
 import net.mcreator.falloutwastelands.block.VaultDoorOpenBlock;
+import net.mcreator.falloutwastelands.block.VaultDoorBottomRightBlock;
 import net.mcreator.falloutwastelands.block.UtsolBlock;
 import net.mcreator.falloutwastelands.block.UraniumOreBlock;
 import net.mcreator.falloutwastelands.block.UraniumBlockBlock;
@@ -566,6 +569,9 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> ENCASED_INDUS_PIPE = REGISTRY.register("encased_indus_pipe", () -> new EncasedIndusPipeBlock());
 	public static final RegistryObject<Block> VAULT_DOOR_SEALED = REGISTRY.register("vault_door_sealed", () -> new VaultDoorSealedBlock());
 	public static final RegistryObject<Block> VAULT_DOOR_OPEN = REGISTRY.register("vault_door_open", () -> new VaultDoorOpenBlock());
+	public static final RegistryObject<Block> VAULT_DOOR_TOP = REGISTRY.register("vault_door_top", () -> new VaultDoorTopBlock());
+	public static final RegistryObject<Block> VAULT_DOOR_TOP_RIGHT = REGISTRY.register("vault_door_top_right", () -> new VaultDoorTopRightBlock());
+	public static final RegistryObject<Block> VAULT_DOOR_BOTTOM_RIGHT = REGISTRY.register("vault_door_bottom_right", () -> new VaultDoorBottomRightBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

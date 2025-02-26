@@ -647,6 +647,9 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> VAULT_DOOR_SEALED = block(FalloutWastelandsModBlocks.VAULT_DOOR_SEALED);
 	public static final RegistryObject<Item> VAULT_DOOR_OPEN = block(FalloutWastelandsModBlocks.VAULT_DOOR_OPEN);
 	public static final RegistryObject<Item> RADROACH_SPAWN_EGG = REGISTRY.register("radroach_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.RADROACH, -14410475, -13751529, new Item.Properties()));
+	public static final RegistryObject<Item> VAULT_DOOR_TOP = block(FalloutWastelandsModBlocks.VAULT_DOOR_TOP);
+	public static final RegistryObject<Item> VAULT_DOOR_TOP_RIGHT = block(FalloutWastelandsModBlocks.VAULT_DOOR_TOP_RIGHT);
+	public static final RegistryObject<Item> VAULT_DOOR_BOTTOM_RIGHT = block(FalloutWastelandsModBlocks.VAULT_DOOR_BOTTOM_RIGHT);
 
 	// Start of user code block custom items
 	// End of user code block custom items
