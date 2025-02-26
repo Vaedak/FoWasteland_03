@@ -657,6 +657,9 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> SIERRA_MADRE_MARTINI = REGISTRY.register("sierra_madre_martini", () -> new SierraMadreMartiniItem());
 	public static final RegistryObject<Item> STRANGE_MEAT_PATTY = REGISTRY.register("strange_meat_patty", () -> new StrangeMeatPattyItem());
 	public static final RegistryObject<Item> MIRELURK_CAKE = REGISTRY.register("mirelurk_cake", () -> new MirelurkCakeItem());
+	public static final RegistryObject<Item> VAULT_DOOR_TOP = block(FalloutWastelandsModBlocks.VAULT_DOOR_TOP);
+	public static final RegistryObject<Item> VAULT_DOOR_TOP_RIGHT = block(FalloutWastelandsModBlocks.VAULT_DOOR_TOP_RIGHT);
+	public static final RegistryObject<Item> VAULT_DOOR_BOTTOM_RIGHT = block(FalloutWastelandsModBlocks.VAULT_DOOR_BOTTOM_RIGHT);
 
 	// Start of user code block custom items
 	// End of user code block custom items

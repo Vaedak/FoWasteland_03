@@ -1,17 +1,6 @@
 
 package net.mcreator.falloutwastelands.item;
 
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-
-import net.mcreator.falloutwastelands.procedures.ShootVarmintRifleProcedure;
-import net.mcreator.falloutwastelands.procedures.GunInHandTickProcedure;
-
 public class VarmintRifleItem extends Item {
 	public VarmintRifleItem() {
 		super(new Item.Properties().durability(11).rarity(Rarity.COMMON));

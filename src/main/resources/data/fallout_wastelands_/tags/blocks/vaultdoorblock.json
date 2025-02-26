@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fallout_wastelands_:vault_door_sealed",
+    "fallout_wastelands_:vault_door_open",
+    "fallout_wastelands_:vault_door_top",
+    "fallout_wastelands_:vault_door_top_right",
+    "fallout_wastelands_:vault_door_bottom_right"
+  ]
+}

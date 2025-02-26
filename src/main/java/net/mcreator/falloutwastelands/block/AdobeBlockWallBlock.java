@@ -1,10 +1,7 @@
 
 package net.mcreator.falloutwastelands.block;
 
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.WallBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class AdobeBlockWallBlock extends WallBlock {
 	public AdobeBlockWallBlock() {
