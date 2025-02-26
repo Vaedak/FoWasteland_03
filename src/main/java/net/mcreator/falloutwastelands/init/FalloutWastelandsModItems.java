@@ -41,11 +41,13 @@ import net.mcreator.falloutwastelands.item.T51bPAItem;
 import net.mcreator.falloutwastelands.item.T45PAItem;
 import net.mcreator.falloutwastelands.item.SuperSledgeItem;
 import net.mcreator.falloutwastelands.item.SugarBombsItem;
+import net.mcreator.falloutwastelands.item.StrangeMeatPattyItem;
 import net.mcreator.falloutwastelands.item.StimpackItem;
 import net.mcreator.falloutwastelands.item.SteelnuggetItem;
 import net.mcreator.falloutwastelands.item.SteelIngotItem;
 import net.mcreator.falloutwastelands.item.SteelCompositeItem;
 import net.mcreator.falloutwastelands.item.SmallcalibercasingItem;
+import net.mcreator.falloutwastelands.item.SierraMadreMartiniItem;
 import net.mcreator.falloutwastelands.item.SecurityBatonItem;
 import net.mcreator.falloutwastelands.item.ScrapmetalItem;
 import net.mcreator.falloutwastelands.item.ScotchItem;
@@ -64,7 +66,9 @@ import net.mcreator.falloutwastelands.item.RaiderdusterItem;
 import net.mcreator.falloutwastelands.item.RaiderblastmasterItem;
 import net.mcreator.falloutwastelands.item.RaiderbasherItem;
 import net.mcreator.falloutwastelands.item.RaiderWarmongerItem;
+import net.mcreator.falloutwastelands.item.RadroachMeatItem;
 import net.mcreator.falloutwastelands.item.RadiactiveWasteItem;
+import net.mcreator.falloutwastelands.item.RadIslandCiderItem;
 import net.mcreator.falloutwastelands.item.PsychoItem;
 import net.mcreator.falloutwastelands.item.PowerArmorFrameArmorItem;
 import net.mcreator.falloutwastelands.item.PotatoCrispsItem;
@@ -87,6 +91,7 @@ import net.mcreator.falloutwastelands.item.MugItem;
 import net.mcreator.falloutwastelands.item.MotorItem;
 import net.mcreator.falloutwastelands.item.MotherboardItem;
 import net.mcreator.falloutwastelands.item.MirelurkmeatItem;
+import net.mcreator.falloutwastelands.item.MirelurkCakeItem;
 import net.mcreator.falloutwastelands.item.MilitaryHullItem;
 import net.mcreator.falloutwastelands.item.MetalstickItem;
 import net.mcreator.falloutwastelands.item.MacheteItem;
@@ -650,6 +655,11 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> VAULT_DOOR_TOP = block(FalloutWastelandsModBlocks.VAULT_DOOR_TOP);
 	public static final RegistryObject<Item> VAULT_DOOR_TOP_RIGHT = block(FalloutWastelandsModBlocks.VAULT_DOOR_TOP_RIGHT);
 	public static final RegistryObject<Item> VAULT_DOOR_BOTTOM_RIGHT = block(FalloutWastelandsModBlocks.VAULT_DOOR_BOTTOM_RIGHT);
+	public static final RegistryObject<Item> SIERRA_MADRE_MARTINI = REGISTRY.register("sierra_madre_martini", () -> new SierraMadreMartiniItem());
+	public static final RegistryObject<Item> STRANGE_MEAT_PATTY = REGISTRY.register("strange_meat_patty", () -> new StrangeMeatPattyItem());
+	public static final RegistryObject<Item> RADROACH_MEAT = REGISTRY.register("radroach_meat", () -> new RadroachMeatItem());
+	public static final RegistryObject<Item> RAD_ISLAND_CIDER = REGISTRY.register("rad_island_cider", () -> new RadIslandCiderItem());
+	public static final RegistryObject<Item> MIRELURK_CAKE = REGISTRY.register("mirelurk_cake", () -> new MirelurkCakeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

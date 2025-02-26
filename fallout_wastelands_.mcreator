@@ -1739,8 +1739,8 @@
       "registry_name": "revolver_32",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/Revolver32Item.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/revolver_32.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/revolver_32.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/Revolver32Item.java"
         ]
       },
       "path": "~/Weapons/Guns/Revolver32"
@@ -2350,8 +2350,8 @@
       "registry_name": "lead_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/LeadIngotItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/lead_ingot.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/lead_ingot.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/LeadIngotItem.java"
         ]
       },
       "path": "~/Items"
@@ -2364,8 +2364,8 @@
       "registry_name": "uranium_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/uranium_ingot.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/UraniumIngotItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/UraniumIngotItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/uranium_ingot.json"
         ]
       },
       "path": "~/Items"
@@ -2406,8 +2406,8 @@
       "registry_name": "nuka_cola_quantum",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/NukaColaQuantumItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/nuka_cola_quantum.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/nuka_cola_quantum.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/NukaColaQuantumItem.java"
         ]
       },
       "path": "~/Items"
@@ -2434,8 +2434,8 @@
       "registry_name": "ninemmpistol",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/ninemmpistol.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/NinemmpistolItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/NinemmpistolItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/ninemmpistol.json"
         ]
       },
       "path": "~/Weapons/Guns/9mmPistol"
@@ -2978,8 +2978,8 @@
       "registry_name": "base_name_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/BASENameItemItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/base_name_item.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/base_name_item.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/BASENameItemItem.java"
         ]
       },
       "path": "~/B.A.S.E"
@@ -3023,8 +3023,8 @@
       "registry_name": "zone_particle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/client/particle/ZoneParticleParticle.java",
-          "src/main/resources/assets/fallout_wastelands_/particles/zone_particle.json"
+          "src/main/resources/assets/fallout_wastelands_/particles/zone_particle.json",
+          "src/main/java/net/mcreator/falloutwastelands/client/particle/ZoneParticleParticle.java"
         ]
       },
       "path": "~/B.A.S.E"
@@ -3890,8 +3890,8 @@
       "registry_name": "fivemm_ammo",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/FivemmAmmoItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/fivemm_ammo.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/fivemm_ammo.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/FivemmAmmoItem.java"
         ]
       },
       "path": "~/Items"
@@ -4342,8 +4342,8 @@
       "registry_name": "laserrifle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/laserrifle.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/LaserrifleItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/LaserrifleItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/laserrifle.json"
         ]
       },
       "path": "~/Weapons/Guns/LaserRifle"
@@ -4426,8 +4426,8 @@
       "registry_name": "rollingpin",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/RollingpinItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/rollingpin.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/rollingpin.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/RollingpinItem.java"
         ]
       },
       "path": "~/Items"
@@ -5716,8 +5716,8 @@
       "registry_name": "raw_lead",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/RawLeadItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/raw_lead.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/raw_lead.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/RawLeadItem.java"
         ]
       },
       "path": "~/Items"
@@ -6905,8 +6905,7 @@
           "src/main/java/net/mcreator/falloutwastelands/entity/PowerArmorFrameEntity.java",
           "src/main/java/net/mcreator/falloutwastelands/client/renderer/PowerArmorFrameRenderer.java"
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PowerArmorFrameGUI",
@@ -6920,8 +6919,7 @@
           "src/main/java/net/mcreator/falloutwastelands/client/gui/PowerArmorFrameGUIScreen.java",
           "src/main/java/net/mcreator/falloutwastelands/network/PowerArmorFrameGUIButtonMessage.java"
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PowerArmorFrameRightClicked",
@@ -6959,8 +6957,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PowerArmorFrameTickUpdate",
@@ -6994,8 +6991,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "FrameInitialSpawn",
@@ -7029,8 +7025,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "HelperProcedureGetFrameEntity",
@@ -7053,8 +7048,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PickupFrame",
@@ -7088,8 +7082,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "CheckIfRiding",
@@ -7107,8 +7100,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "DeleteArmorStandIfNotRiding",
@@ -7120,8 +7112,7 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/potion/DeleteArmorStandIfNotRidingMobEffect.java"
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "ExitPowerArmorKeyPressed",
@@ -7155,8 +7146,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "ExitPowerArmor",
@@ -7168,8 +7158,7 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/network/ExitPowerArmorMessage.java"
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PowerArmorFrameArmor",
@@ -7185,8 +7174,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_armor_boots.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_armor_helmet.json"
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PowerArmorFrameGUIWhileThisGUIIsOpenTick",
@@ -7208,8 +7196,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PlayerInPowerArmor",
@@ -7243,8 +7230,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "FrameDroppedDelete",
@@ -7262,8 +7248,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PlayerPressE",
@@ -7281,8 +7266,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PlayerOpensInventory",
@@ -7294,8 +7278,7 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/network/PlayerOpensInventoryMessage.java"
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PlayerPressesESC",
@@ -7307,8 +7290,7 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/network/PlayerPressesESCMessage.java"
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "TurnOffFramecheck",
@@ -7326,8 +7308,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "FramePickedUp",
@@ -7349,8 +7330,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PlayerInteractWithBlockGUI",
@@ -7372,8 +7352,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PlayerInteractWIthEntity",
@@ -7395,8 +7374,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "SpawnInvisibleArmorStand",
@@ -7426,8 +7404,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "ReplacepaFrames",
@@ -7461,8 +7438,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "T45PA",
@@ -7621,8 +7597,8 @@
       "registry_name": "steelnugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/steelnugget.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/SteelnuggetItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/SteelnuggetItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/steelnugget.json"
         ]
       },
       "path": "~/Items"
@@ -7648,8 +7624,8 @@
       "registry_name": "tinnugget",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/TinnuggetItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/tinnugget.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/tinnugget.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/TinnuggetItem.java"
         ]
       },
       "path": "~/Items"
@@ -7771,8 +7747,8 @@
       "registry_name": "plasma_particle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/client/particle/PlasmaParticleParticle.java",
-          "src/main/resources/assets/fallout_wastelands_/particles/plasma_particle.json"
+          "src/main/resources/assets/fallout_wastelands_/particles/plasma_particle.json",
+          "src/main/java/net/mcreator/falloutwastelands/client/particle/PlasmaParticleParticle.java"
         ]
       },
       "path": "~/Weapons/Guns/PlasmaRifle"
@@ -8016,8 +7992,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PAFrameItemRightclicked",
@@ -8051,8 +8026,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PAFrameItem",
@@ -8065,8 +8039,7 @@
           "src/main/java/net/mcreator/falloutwastelands/item/PAFrameItemItem.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/pa_frame_item.json"
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PlayerDiesInPA",
@@ -8100,8 +8073,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "PADisplayEntity",
@@ -8115,8 +8087,7 @@
           "src/main/java/net/mcreator/falloutwastelands/client/renderer/PADisplayEntityRenderer.java",
           "src/main/java/net/mcreator/falloutwastelands/entity/PADisplayEntityEntity.java"
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "CraftPAFrame",
@@ -8128,8 +8099,7 @@
         "files": [
           "src/main/resources/data/fallout_wastelands_/recipes/craft_pa_frame.json"
         ]
-      },
-      "path": "~/PowerArmor"
+      }
     },
     {
       "name": "F",
@@ -8329,8 +8299,8 @@
       "registry_name": "coffepot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/coffepot.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/CoffepotItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/CoffepotItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/coffepot.json"
         ]
       },
       "path": "~/Items"
@@ -8559,8 +8529,8 @@
       "registry_name": "hunting_casing",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/HuntingCasingItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/hunting_casing.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/hunting_casing.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/HuntingCasingItem.java"
         ]
       },
       "path": "~/Items"
@@ -8587,8 +8557,8 @@
       "registry_name": "sugar_bombs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/SugarBombsItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/sugar_bombs.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/sugar_bombs.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/SugarBombsItem.java"
         ]
       },
       "path": "~/Items"
@@ -8671,8 +8641,8 @@
       "registry_name": "gecko_egg",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/GeckoEggItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/gecko_egg.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/gecko_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/GeckoEggItem.java"
         ]
       },
       "path": "~/Items"
@@ -8713,8 +8683,8 @@
       "registry_name": "mug",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/MugItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/mug.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/mug.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/MugItem.java"
         ]
       },
       "path": "~/Items"
@@ -8727,8 +8697,8 @@
       "registry_name": "advanced_motherboard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/advanced_motherboard.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/AdvancedMotherboardItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/AdvancedMotherboardItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/advanced_motherboard.json"
         ]
       },
       "path": "~/Items"
@@ -8741,8 +8711,8 @@
       "registry_name": "acid",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/acid.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/AcidItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/AcidItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/acid.json"
         ]
       },
       "path": "~/Items"
@@ -9208,8 +9178,8 @@
       "registry_name": "motor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/MotorItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/motor.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/motor.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/MotorItem.java"
         ]
       },
       "path": "~/Items"
@@ -9301,8 +9271,8 @@
       "registry_name": "military_hull",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/military_hull.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/MilitaryHullItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/MilitaryHullItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/military_hull.json"
         ]
       },
       "path": "~/Items"
@@ -11345,8 +11315,8 @@
       "registry_name": "steel_composite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/steel_composite.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/SteelCompositeItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/SteelCompositeItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/steel_composite.json"
         ]
       },
       "path": "~/Items"
@@ -11616,8 +11586,8 @@
       "registry_name": "mirelurkmeat",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/mirelurkmeat.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/MirelurkmeatItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/MirelurkmeatItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/mirelurkmeat.json"
         ]
       },
       "path": "~/Items"
@@ -12118,8 +12088,8 @@
       "registry_name": "vaccum_tube",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/VaccumTubeItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/vaccum_tube.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/vaccum_tube.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/VaccumTubeItem.java"
         ]
       },
       "path": "~/Items"
@@ -12511,8 +12481,8 @@
       "registry_name": "vodka",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/VodkaItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/vodka.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/vodka.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/VodkaItem.java"
         ]
       },
       "path": "~/Items"
@@ -12888,8 +12858,8 @@
       "registry_name": "deathclaw_gauntlet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/deathclaw_gauntlet.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/DeathclawGauntletItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/DeathclawGauntletItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/deathclaw_gauntlet.json"
         ]
       },
       "path": "~/Items"
@@ -13352,8 +13322,8 @@
       "registry_name": "security_baton",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/SecurityBatonItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/security_baton.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/security_baton.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/SecurityBatonItem.java"
         ]
       },
       "path": "~/Items"
@@ -13647,8 +13617,8 @@
       "registry_name": "ammo_box_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/world/inventory/AmmoBoxGUIMenu.java",
-          "src/main/java/net/mcreator/falloutwastelands/client/gui/AmmoBoxGUIScreen.java"
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/AmmoBoxGUIScreen.java",
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/AmmoBoxGUIMenu.java"
         ]
       },
       "path": "~/GUI"
@@ -13804,8 +13774,8 @@
       "registry_name": "dynamite_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/DynamiteItemItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/dynamite_item.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/dynamite_item.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/DynamiteItemItem.java"
         ]
       },
       "path": "~/Weapons/Dynamite"
@@ -13831,8 +13801,8 @@
       "registry_name": "medicalbox_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/world/inventory/MedicalboxGUIMenu.java",
-          "src/main/java/net/mcreator/falloutwastelands/client/gui/MedicalboxGUIScreen.java"
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/MedicalboxGUIScreen.java",
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/MedicalboxGUIMenu.java"
         ]
       },
       "path": "~/GUI"
@@ -13845,8 +13815,8 @@
       "registry_name": "knife",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/knife.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/KnifeItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/KnifeItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/knife.json"
         ]
       },
       "path": "~/Items"
@@ -14144,9 +14114,9 @@
       "registry_name": "cannibal_01",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/entity/Cannibal01Entity.java",
           "src/main/java/net/mcreator/falloutwastelands/client/renderer/Cannibal01Renderer.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/cannibal_01_spawn_egg.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/cannibal_01_spawn_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/entity/Cannibal01Entity.java"
         ]
       },
       "path": "~/Mobs"
@@ -14254,10 +14224,10 @@
       "registry_name": "spiderfloater",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/client/renderer/SpiderfloaterRenderer.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/SpiderfloaterEntity.java",
           "src/main/java/net/mcreator/falloutwastelands/entity/model/SpiderfloaterModel.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/spiderfloater_spawn_egg.json",
-          "src/main/java/net/mcreator/falloutwastelands/entity/SpiderfloaterEntity.java"
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/SpiderfloaterRenderer.java"
         ]
       },
       "path": "~/Mobs"
@@ -14542,11 +14512,11 @@
       "registry_name": "encased_indus_pipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/encased_indus_pipe.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/encased_indus_pipe.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/encased_indus_pipe.json",
           "src/main/resources/assets/fallout_wastelands_/blockstates/encased_indus_pipe.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/EncasedIndusPipeBlock.java"
+          "src/main/java/net/mcreator/falloutwastelands/block/EncasedIndusPipeBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/encased_indus_pipe.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/encased_indus_pipe.json"
         ]
       },
       "path": "~/Blocks"
@@ -14579,7 +14549,7 @@
           "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_sealed.json"
         ]
       },
-      "path": "~/Blocks/VaultDoor"
+      "path": "~/Blocks"
     },
     {
       "name": "VaultDoorOpen",
@@ -14596,7 +14566,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_open.json"
         ]
       },
-      "path": "~/Blocks/VaultDoor"
+      "path": "~/Blocks"
     },
     {
       "name": "Radroach",
@@ -14606,23 +14576,74 @@
       "registry_name": "radroach",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/radroach_spawn_egg.json",
-          "src/main/java/net/mcreator/falloutwastelands/client/renderer/RadroachRenderer.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/RadroachEntity.java",
           "src/main/java/net/mcreator/falloutwastelands/entity/model/RadroachModel.java",
-          "src/main/java/net/mcreator/falloutwastelands/entity/RadroachEntity.java"
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/RadroachRenderer.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/radroach_spawn_egg.json"
         ]
       },
       "path": "~/Mobs"
     },
     {
-      "name": "RightClockVaultDoor",
+      "name": "VaultDoorTop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_door_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_top.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorTopBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_top.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_top.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_top.json"
+        ]
+      },
+      "path": "~/Blocks/VaultDoor"
+    },
+    {
+      "name": "VaultDoorTopRight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_door_top_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_top_right.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorTopRightBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_top_right.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_top_right.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_top_right.json"
+        ]
+      },
+      "path": "~/Blocks/VaultDoor"
+    },
+    {
+      "name": "VaultDoorBottomRight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault_door_bottom_right",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_bottom_right.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_bottom_right.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_bottom_right.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorBottomRightBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_bottom_right.json"
+        ]
+      },
+      "path": "~/Blocks/VaultDoor"
+    },
+    {
+      "name": "VaultDoorSealedBlockAdded",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "right_clock_vault_door",
+      "registry_name": "vault_door_sealed_block_added",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/procedures/RightClockVaultDoorProcedure.java"
+          "src/main/java/net/mcreator/falloutwastelands/procedures/VaultDoorSealedBlockAddedProcedure.java"
         ],
         "dependencies": [
           {
@@ -14650,31 +14671,14 @@
       "path": "~/Blocks/VaultDoor"
     },
     {
-      "name": "VaultDoorTop",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vault_door_top",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_top.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorTopBlock.java",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_top.json",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_top.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_top.json"
-        ]
-      },
-      "path": "~/Blocks/VaultDoor"
-    },
-    {
-      "name": "VaultDoorSealedBlockAdded",
+      "name": "RightClockVaultDoor",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vault_door_sealed_block_added",
+      "registry_name": "right_clock_vault_door",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/procedures/VaultDoorSealedBlockAddedProcedure.java"
+          "src/main/java/net/mcreator/falloutwastelands/procedures/RightClockVaultDoorProcedure.java"
         ],
         "dependencies": [
           {
@@ -14737,38 +14741,100 @@
       "path": "~/Blocks/VaultDoor"
     },
     {
-      "name": "VaultDoorTopRight",
-      "type": "block",
+      "name": "MirelurkCakeCraft",
+      "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vault_door_top_right",
+      "registry_name": "mirelurk_cake_craft",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_top_right.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorTopRightBlock.java",
-          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_top_right.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_top_right.json",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_top_right.json"
+          "src/main/resources/data/fallout_wastelands_/recipes/mirelurk_cake_craft.json"
         ]
       },
-      "path": "~/Blocks/VaultDoor"
+      "path": "~/Recipes"
     },
     {
-      "name": "VaultDoorBottomRight",
-      "type": "block",
+      "name": "SierraMadreMartini",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vault_door_bottom_right",
+      "registry_name": "sierra_madre_martini",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_bottom_right.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_bottom_right.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_bottom_right.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorBottomRightBlock.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_bottom_right.json"
+          "src/main/java/net/mcreator/falloutwastelands/item/SierraMadreMartiniItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/sierra_madre_martini.json"
         ]
       },
-      "path": "~/Blocks/VaultDoor"
+      "path": "~/Items"
+    },
+    {
+      "name": "StrangeMeatPatty",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_meat_patty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/StrangeMeatPattyItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/strange_meat_patty.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "RadroachMeat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radroach_meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/radroach_meat.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/RadroachMeatItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StrangeMeatPattyCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_meat_patty_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/strange_meat_patty_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RadIslandCider",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rad_island_cider",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/rad_island_cider.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/RadIslandCiderItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MirelurkCake",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mirelurk_cake",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/MirelurkCakeItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/mirelurk_cake.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -14905,6 +14971,11 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs"
+    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:WastelandDriedGrass",
       "~CUSTOM:JoshuaLeaves",
@@ -14913,10 +14984,8 @@
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs"
+    "BLOCKS:minecraft:sand": [
+      "CUSTOM:WasteSand"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -14928,9 +14997,6 @@
       "CUSTOM:Nailgun",
       "CUSTOM:Chinesepistol",
       "CUSTOM:Fivemmminigun"
-    ],
-    "BLOCKS:minecraft:sand": [
-      "CUSTOM:WasteSand"
     ],
     "ITEMS:minecraft:wooden_stairs": [
       "CUSTOM:Molder_WoodStairs"
@@ -14946,13 +15012,6 @@
     ],
     "ITEMS:minecraft:wooden_trapdoors": [
       "CUSTOM:MolderWoodTrapdoor"
-    ],
-    "BLOCKS:mod:vaultdoorblock": [
-      "CUSTOM:VaultDoorSealed",
-      "CUSTOM:VaultDoorOpen",
-      "CUSTOM:VaultDoorTop",
-      "CUSTOM:VaultDoorTopRight",
-      "CUSTOM:VaultDoorBottomRight"
     ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:RoofMetalSlab",
