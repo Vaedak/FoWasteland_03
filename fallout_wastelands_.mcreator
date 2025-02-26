@@ -14558,11 +14558,11 @@
       "registry_name": "vault_door_sealed",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_sealed.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_sealed.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorSealedBlock.java",
           "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_sealed.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_sealed.json"
+          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorSealedBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_sealed.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_sealed.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_sealed.json"
         ]
       },
       "path": "~/Blocks"
@@ -14576,8 +14576,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorOpenBlock.java",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_open.json",
           "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_open.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_open.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_open.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_open.json"
         ]
