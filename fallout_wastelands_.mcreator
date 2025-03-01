@@ -14971,6 +14971,11 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs"
+    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:WastelandDriedGrass",
       "~CUSTOM:JoshuaLeaves",
@@ -14978,11 +14983,6 @@
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
-    ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs"
     ],
     "BLOCKS:minecraft:sand": [
       "CUSTOM:WasteSand"
@@ -15646,8 +15646,8 @@
       "block.fallout_wastelands_.vault_tile_2": "Vault Tile",
       "item.fallout_wastelands_.enclaveofficier_suit_chestplate": "Enclave Vest",
       "block.fallout_wastelands_.vault_tile_3": "Vault Tile",
-      "block.fallout_wastelands_.wastelandshortburntgrass": "Wasteland Short Burnt Grass",
       "item.fallout_wastelands_.wrench": "Wrench",
+      "block.fallout_wastelands_.wastelandshortburntgrass": "Wasteland Short Burnt Grass",
       "block.fallout_wastelands_.wasteland_goldore": "Wasteland Gold Ore",
       "item.fallout_wastelands_.laserrifle": "Laser Rifle",
       "item.fallout_wastelands_.dented_can": "Dented Can",
@@ -15729,6 +15729,7 @@
       "block.fallout_wastelands_.vault_vent": "Vault Vent",
       "item.fallout_wastelands_.army_repairman_suit_boots": "Army Repairman Boots",
       "item.fallout_wastelands_.tire_iron": "Tire Iron",
+      "item.fallout_wastelands_.rad_island_cider": "Rad Island Cider",
       "item.fallout_wastelands_.human_brain": "Human Brain",
       "block.fallout_wastelands_.industrial_alloy_plain": "Industrial Alloy",
       "block.fallout_wastelands_.bo_s_grid_floor": "Bos Grid Floor",
@@ -15757,6 +15758,7 @@
       "item.fallout_wastelands_.power_armor_frame_armor_helmet": "Power Armor Frame",
       "gui.fallout_wastelands_.base_menu_ui.NameInput": "Name",
       "block.fallout_wastelands_.industrial_support": "Industrial Support",
+      "item.fallout_wastelands_.mirelurk_cake": "Mirelurk Cake",
       "block.fallout_wastelands_.wasteland_concrete_stairs": "Concrete Stairs",
       "item.fallout_wastelands_.military_hull": "Military Plating",
       "block.fallout_wastelands_.military_metal_door": "Military Metal Door",
@@ -15783,6 +15785,7 @@
       "item.fallout_wastelands_.motherboard": "Motherboard",
       "item.fallout_wastelands_.fivemm_ammo": "5mm Rounds",
       "gui.fallout_wastelands_.base_menu_ui.label_done1": "Done",
+      "block.fallout_wastelands_.vault_door_bottom_right": "Vault Door Top",
       "gui.fallout_wastelands_.base_menu_ui.label_done2": "Done",
       "block.fallout_wastelands_.industrial_alloy_stair": "Industrial Alloy Stair",
       "item.fallout_wastelands_.wonderglue": "Wonderglue",
@@ -15868,6 +15871,7 @@
       "block.fallout_wastelands_.molder_wood_fence_gate": "Rotten Fence Gate",
       "gui.fallout_wastelands_.base_menu_ui.label_done": "Done",
       "block.fallout_wastelands_.indus_pipe_hub": "Industrial Pipe Hub",
+      "block.fallout_wastelands_.vault_door_top_right": "Vault Door Top",
       "block.fallout_wastelands_.locker": "Locker",
       "block.fallout_wastelands_.charred_molder_slab": "Burned Slab",
       "block.fallout_wastelands_.radiation_barrel": "Radiation Barrel",
@@ -15920,6 +15924,7 @@
       "block.fallout_wastelands_.bo_s_metal_roof": "BoS Metal Roof",
       "item.fallout_wastelands_.raider_dustwalker_spawn_egg": "Raider Dustwalker Spawn Egg",
       "block.fallout_wastelands_.stoproadsign": "Stop Roadsign",
+      "item.fallout_wastelands_.radroach_meat": "Radroach Meat",
       "block.fallout_wastelands_.uranium_ore": "Uranium Ore",
       "block.fallout_wastelands_.vault_wall": "Vault Wall",
       "block.fallout_wastelands_.bo_s_grid_floor_slab": "BoS Grid Floor Slab",
@@ -15996,6 +16001,7 @@
       "item.fallout_wastelands_.instamash": "Insta-mash",
       "block.fallout_wastelands_.bo_s_data_front_top": "BoS Data Block",
       "item.fallout_wastelands_.deathclaw_gauntlet": "Deathclaw Gauntlet",
+      "item.fallout_wastelands_.sierra_madre_martini": "Sierra Madre Martini",
       "item.fallout_wastelands_.mirelurkmeat": "Mirelurk Meat",
       "block.fallout_wastelands_.molder_wood_wood": "Rotten Log",
       "item.fallout_wastelands_.lobotomite_suit_chestplate": "Lobotomite Jacket",
@@ -16009,6 +16015,7 @@
       "item.fallout_wastelands_.raiderbasher_leggings": "Raider Basher Pants",
       "item.fallout_wastelands_.neutronade": "Neutronade",
       "block.fallout_wastelands_.vault_wall_exposed": "Plated Vault Wall",
+      "block.fallout_wastelands_.vault_door_top": "Vault Door Top",
       "block.fallout_wastelands_.military_metal_plate": "Military Plating",
       "block.fallout_wastelands_.enclave_bunker_floor": "Enclave Bunker Floor",
       "item.fallout_wastelands_.lead_ingot": "Lead Ingot",
@@ -16079,6 +16086,7 @@
       "block.fallout_wastelands_.dried_planks_wall": "Joshhua Tree Planks",
       "block.fallout_wastelands_.molder_wood_slab": "Molder Wood Slab",
       "item.fallout_wastelands_.enclave_antiradsuit_boots": "Enclave Scientist Anti-Rad Boots",
+      "item.fallout_wastelands_.strange_meat_patty": "Strange Meat Patty",
       "block.fallout_wastelands_.molder_wood_button": "Rotten Button",
       "block.fallout_wastelands_.barbed_wires": "Barbed Wires",
       "item.fallout_wastelands_.revolver_32": "Revolver 32",

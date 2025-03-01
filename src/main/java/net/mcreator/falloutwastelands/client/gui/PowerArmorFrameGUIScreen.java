@@ -1,13 +1,30 @@
 package net.mcreator.falloutwastelands.client.gui;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.gui.screens.inventory.InventoryScreen;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.GuiGraphics;
+
+import net.mcreator.falloutwastelands.world.inventory.PowerArmorFrameGUIMenu;
+import net.mcreator.falloutwastelands.procedures.HelperProcedureGetFrameEntityProcedure;
+import net.mcreator.falloutwastelands.network.PowerArmorFrameGUIButtonMessage;
+import net.mcreator.falloutwastelands.FalloutWastelandsMod;
+
+import java.util.HashMap;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+
 public class PowerArmorFrameGUIScreen extends AbstractContainerScreen<PowerArmorFrameGUIMenu> {
-
 	private final static HashMap<String, Object> guistate = PowerArmorFrameGUIMenu.guistate;
-
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-
 	Button button_pickup;
 
 	public PowerArmorFrameGUIScreen(PowerArmorFrameGUIMenu container, Inventory inventory, Component text) {
@@ -26,19 +43,11 @@ public class PowerArmorFrameGUIScreen extends AbstractContainerScreen<PowerArmor
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
-
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-
-		if (
-
-		HelperProcedureGetFrameEntityProcedure.execute(world, entity)
-
-		instanceof LivingEntity livingEntity) {
+		if (HelperProcedureGetFrameEntityProcedure.execute(world, entity) instanceof LivingEntity livingEntity) {
 			InventoryScreen.renderEntityInInventoryFollowsAngle(guiGraphics, this.leftPos + 53, this.topPos + 66, 30, 0f, 0, livingEntity);
 		}
-
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
-
 	}
 
 	@Override
@@ -46,9 +55,7 @@ public class PowerArmorFrameGUIScreen extends AbstractContainerScreen<PowerArmor
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -58,7 +65,6 @@ public class PowerArmorFrameGUIScreen extends AbstractContainerScreen<PowerArmor
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-
 		return super.keyPressed(key, b, c);
 	}
 
@@ -69,17 +75,13 @@ public class PowerArmorFrameGUIScreen extends AbstractContainerScreen<PowerArmor
 	@Override
 	public void init() {
 		super.init();
-
 		button_pickup = Button.builder(Component.translatable("gui.fallout_wastelands_.power_armor_frame_gui.button_pickup"), e -> {
 			if (true) {
 				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new PowerArmorFrameGUIButtonMessage(0, x, y, z));
 				PowerArmorFrameGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 24, this.topPos + 69, 56, 20).build();
-
 		guistate.put("button:button_pickup", button_pickup);
 		this.addRenderableWidget(button_pickup);
-
 	}
-
 }

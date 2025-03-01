@@ -1,15 +1,32 @@
 package net.mcreator.falloutwastelands.client.gui;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.ImageButton;
+import net.minecraft.client.gui.components.EditBox;
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.Minecraft;
+
+import net.mcreator.falloutwastelands.world.inventory.BASEMenuUIMenu;
+import net.mcreator.falloutwastelands.procedures.DisplayCapsStoredProcedure;
+import net.mcreator.falloutwastelands.procedures.DisplayBaseNameStoredProcedure;
+import net.mcreator.falloutwastelands.network.BASEMenuUIButtonMessage;
+import net.mcreator.falloutwastelands.FalloutWastelandsMod;
+
+import java.util.HashMap;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+
 public class BASEMenuUIScreen extends AbstractContainerScreen<BASEMenuUIMenu> {
-
 	private final static HashMap<String, Object> guistate = BASEMenuUIMenu.guistate;
-
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-
 	EditBox NameInput;
-
 	ImageButton imagebutton_locker_storage;
 	ImageButton imagebutton_buttonplaceholdertexture;
 	ImageButton imagebutton_buttonplaceholdertexture1;
@@ -29,13 +46,9 @@ public class BASEMenuUIScreen extends AbstractContainerScreen<BASEMenuUIMenu> {
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
-
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-
 		NameInput.render(guiGraphics, mouseX, mouseY, partialTicks);
-
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
-
 	}
 
 	@Override
@@ -55,10 +68,8 @@ public class BASEMenuUIScreen extends AbstractContainerScreen<BASEMenuUIMenu> {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-
 		if (NameInput.isFocused())
 			return NameInput.keyPressed(key, b, c);
-
 		return super.keyPressed(key, b, c);
 	}
 
@@ -97,7 +108,6 @@ public class BASEMenuUIScreen extends AbstractContainerScreen<BASEMenuUIMenu> {
 	@Override
 	public void init() {
 		super.init();
-
 		NameInput = new EditBox(this.font, this.leftPos + 47, this.topPos + -33, 118, 18, Component.translatable("gui.fallout_wastelands_.base_menu_ui.NameInput")) {
 			@Override
 			public void insertText(String text) {
@@ -119,50 +129,39 @@ public class BASEMenuUIScreen extends AbstractContainerScreen<BASEMenuUIMenu> {
 		};
 		NameInput.setSuggestion(Component.translatable("gui.fallout_wastelands_.base_menu_ui.NameInput").getString());
 		NameInput.setMaxLength(32767);
-
 		guistate.put("text:NameInput", NameInput);
 		this.addWidget(this.NameInput);
-
 		imagebutton_locker_storage = new ImageButton(this.leftPos + -13, this.topPos + 33, 16, 16, 0, 0, 16, new ResourceLocation("fallout_wastelands_:textures/screens/atlas/imagebutton_locker_storage.png"), 16, 32, e -> {
 			if (true) {
 				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new BASEMenuUIButtonMessage(0, x, y, z));
 				BASEMenuUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		});
-
 		guistate.put("button:imagebutton_locker_storage", imagebutton_locker_storage);
 		this.addRenderableWidget(imagebutton_locker_storage);
-
 		imagebutton_buttonplaceholdertexture = new ImageButton(this.leftPos + -83, this.topPos + 181, 16, 16, 0, 0, 16, new ResourceLocation("fallout_wastelands_:textures/screens/atlas/imagebutton_buttonplaceholdertexture.png"), 16, 32, e -> {
 			if (true) {
 				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new BASEMenuUIButtonMessage(1, x, y, z));
 				BASEMenuUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		});
-
 		guistate.put("button:imagebutton_buttonplaceholdertexture", imagebutton_buttonplaceholdertexture);
 		this.addRenderableWidget(imagebutton_buttonplaceholdertexture);
-
 		imagebutton_buttonplaceholdertexture1 = new ImageButton(this.leftPos + 190, this.topPos + -32, 16, 16, 0, 0, 16, new ResourceLocation("fallout_wastelands_:textures/screens/atlas/imagebutton_buttonplaceholdertexture1.png"), 16, 32, e -> {
 			if (true) {
 				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new BASEMenuUIButtonMessage(2, x, y, z));
 				BASEMenuUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		});
-
 		guistate.put("button:imagebutton_buttonplaceholdertexture1", imagebutton_buttonplaceholdertexture1);
 		this.addRenderableWidget(imagebutton_buttonplaceholdertexture1);
-
 		imagebutton_buttonplaceholdertexture2 = new ImageButton(this.leftPos + -87, this.topPos + 68, 16, 16, 0, 0, 16, new ResourceLocation("fallout_wastelands_:textures/screens/atlas/imagebutton_buttonplaceholdertexture2.png"), 16, 32, e -> {
 			if (true) {
 				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new BASEMenuUIButtonMessage(3, x, y, z));
 				BASEMenuUIButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
 		});
-
 		guistate.put("button:imagebutton_buttonplaceholdertexture2", imagebutton_buttonplaceholdertexture2);
 		this.addRenderableWidget(imagebutton_buttonplaceholdertexture2);
-
 	}
-
 }

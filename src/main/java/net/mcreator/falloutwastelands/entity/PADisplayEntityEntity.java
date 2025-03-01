@@ -1,11 +1,22 @@
 
 package net.mcreator.falloutwastelands.entity;
 
-import net.minecraft.nbt.Tag;
-import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraftforge.network.PlayMessages;
+import net.minecraftforge.network.NetworkHooks;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.PathfinderMob;
+import net.minecraft.world.entity.MobType;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
+import net.minecraft.network.protocol.Packet;
+
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModEntities;
 
 public class PADisplayEntityEntity extends PathfinderMob {
-
 	public PADisplayEntityEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(FalloutWastelandsModEntities.PA_DISPLAY_ENTITY.get(), world);
 	}
@@ -15,9 +26,7 @@ public class PADisplayEntityEntity extends PathfinderMob {
 		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(true);
-
 		setPersistenceRequired();
-
 	}
 
 	@Override
@@ -41,7 +50,6 @@ public class PADisplayEntityEntity extends PathfinderMob {
 	}
 
 	public static void init() {
-
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -51,8 +59,6 @@ public class PADisplayEntityEntity extends PathfinderMob {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-
 		return builder;
 	}
-
 }

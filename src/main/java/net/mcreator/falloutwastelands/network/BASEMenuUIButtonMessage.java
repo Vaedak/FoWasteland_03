@@ -1,9 +1,28 @@
 
 package net.mcreator.falloutwastelands.network;
 
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.falloutwastelands.world.inventory.BASEMenuUIMenu;
+import net.mcreator.falloutwastelands.procedures.SetBASENameProcedure;
+import net.mcreator.falloutwastelands.procedures.OpenBASEInventoryProcedure;
+import net.mcreator.falloutwastelands.procedures.InputCapsBASEUIProcedure;
+import net.mcreator.falloutwastelands.procedures.ExitMenuUIProcedure;
+import net.mcreator.falloutwastelands.FalloutWastelandsMod;
+
+import java.util.function.Supplier;
+import java.util.HashMap;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BASEMenuUIButtonMessage {
-
 	private final int buttonID, x, y, z;
 
 	public BASEMenuUIButtonMessage(FriendlyByteBuf buffer) {
@@ -35,7 +54,6 @@ public class BASEMenuUIButtonMessage {
 			int x = message.x;
 			int y = message.y;
 			int z = message.z;
-
 			handleButtonAction(entity, buttonID, x, y, z);
 		});
 		context.setPacketHandled(true);
@@ -44,11 +62,9 @@ public class BASEMenuUIButtonMessage {
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level();
 		HashMap guistate = BASEMenuUIMenu.guistate;
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-
 		if (buttonID == 0) {
 
 			OpenBASEInventoryProcedure.execute(world, x, y, z, entity);
@@ -71,5 +87,4 @@ public class BASEMenuUIButtonMessage {
 	public static void registerMessage(FMLCommonSetupEvent event) {
 		FalloutWastelandsMod.addNetworkMessage(BASEMenuUIButtonMessage.class, BASEMenuUIButtonMessage::buffer, BASEMenuUIButtonMessage::new, BASEMenuUIButtonMessage::handler);
 	}
-
 }

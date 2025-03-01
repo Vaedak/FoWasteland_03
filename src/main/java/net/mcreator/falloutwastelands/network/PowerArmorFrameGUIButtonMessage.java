@@ -1,9 +1,25 @@
 
 package net.mcreator.falloutwastelands.network;
 
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.falloutwastelands.world.inventory.PowerArmorFrameGUIMenu;
+import net.mcreator.falloutwastelands.procedures.PickupFrameProcedure;
+import net.mcreator.falloutwastelands.FalloutWastelandsMod;
+
+import java.util.function.Supplier;
+import java.util.HashMap;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class PowerArmorFrameGUIButtonMessage {
-
 	private final int buttonID, x, y, z;
 
 	public PowerArmorFrameGUIButtonMessage(FriendlyByteBuf buffer) {
@@ -35,7 +51,6 @@ public class PowerArmorFrameGUIButtonMessage {
 			int x = message.x;
 			int y = message.y;
 			int z = message.z;
-
 			handleButtonAction(entity, buttonID, x, y, z);
 		});
 		context.setPacketHandled(true);
@@ -44,11 +59,9 @@ public class PowerArmorFrameGUIButtonMessage {
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level();
 		HashMap guistate = PowerArmorFrameGUIMenu.guistate;
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-
 		if (buttonID == 0) {
 
 			PickupFrameProcedure.execute(world, x, y, z, entity);
@@ -59,5 +72,4 @@ public class PowerArmorFrameGUIButtonMessage {
 	public static void registerMessage(FMLCommonSetupEvent event) {
 		FalloutWastelandsMod.addNetworkMessage(PowerArmorFrameGUIButtonMessage.class, PowerArmorFrameGUIButtonMessage::buffer, PowerArmorFrameGUIButtonMessage::new, PowerArmorFrameGUIButtonMessage::handler);
 	}
-
 }
