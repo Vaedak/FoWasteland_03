@@ -517,6 +517,7 @@ public class FalloutWastelandsModTabs {
 			tabData.accept(FalloutWastelandsModItems.CANNIBAL_02_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.FLOATER_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.RADROACH_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.RADSCORPION_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

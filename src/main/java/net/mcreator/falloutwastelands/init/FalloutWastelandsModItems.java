@@ -660,6 +660,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> VAULT_DOOR_TOP = block(FalloutWastelandsModBlocks.VAULT_DOOR_TOP);
 	public static final RegistryObject<Item> VAULT_DOOR_TOP_RIGHT = block(FalloutWastelandsModBlocks.VAULT_DOOR_TOP_RIGHT);
 	public static final RegistryObject<Item> VAULT_DOOR_BOTTOM_RIGHT = block(FalloutWastelandsModBlocks.VAULT_DOOR_BOTTOM_RIGHT);
+	public static final RegistryObject<Item> RADSCORPION_SPAWN_EGG = REGISTRY.register("radscorpion_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.RADSCORPION, -5146569, -11256031, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
