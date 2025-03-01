@@ -1,6 +1,14 @@
 
 package net.mcreator.falloutwastelands.item;
 
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
+
 public class IndustrialshovelItem extends PickaxeItem {
 	public IndustrialshovelItem() {
 		super(new Tier() {

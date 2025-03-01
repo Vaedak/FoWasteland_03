@@ -5,6 +5,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
 import net.mcreator.falloutwastelands.entity.SpiderfloaterEntity;
+import net.mcreator.falloutwastelands.entity.RadscorpionEntity;
 import net.mcreator.falloutwastelands.entity.RadroachEntity;
 import net.mcreator.falloutwastelands.entity.GeckoEntity;
 import net.mcreator.falloutwastelands.entity.FloaterEntity;
@@ -44,6 +45,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof RadroachEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof RadscorpionEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

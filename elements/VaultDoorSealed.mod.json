@@ -185,9 +185,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockPlayedBy": {
-      "name": "VaultDoorSealedBlockAdded"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],

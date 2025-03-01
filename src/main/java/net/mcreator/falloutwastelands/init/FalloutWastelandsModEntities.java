@@ -21,6 +21,7 @@ import net.mcreator.falloutwastelands.entity.ShootNothingEntity;
 import net.mcreator.falloutwastelands.entity.RipperProjectileProjectileEntity;
 import net.mcreator.falloutwastelands.entity.RaiderscavangerEntity;
 import net.mcreator.falloutwastelands.entity.RaiderDustwalkerEntity;
+import net.mcreator.falloutwastelands.entity.RadscorpionEntity;
 import net.mcreator.falloutwastelands.entity.RadroachEntity;
 import net.mcreator.falloutwastelands.entity.PowerArmorFrameEntity;
 import net.mcreator.falloutwastelands.entity.PlasmaProjectileEntity;
@@ -85,7 +86,7 @@ public class FalloutWastelandsModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<DynamiteEntityEntity>> DYNAMITE_ENTITY = register("dynamite_entity", EntityType.Builder.<DynamiteEntityEntity>of(DynamiteEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DynamiteEntityEntity::new).fireImmune().sized(0.6f, 1.8f));
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DynamiteEntityEntity::new).fireImmune().sized(0.2f, 0.2f));
 	public static final RegistryObject<EntityType<ShootNothingEntity>> SHOOT_NOTHING = register("shoot_nothing",
 			EntityType.Builder.<ShootNothingEntity>of(ShootNothingEntity::new, MobCategory.MISC).setCustomClientFactory(ShootNothingEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0f, 0f));
 	public static final RegistryObject<EntityType<Cannibal01Entity>> CANNIBAL_01 = register("cannibal_01",
@@ -106,6 +107,10 @@ public class FalloutWastelandsModEntities {
 					.sized(1.5f, 1.5f));
 	public static final RegistryObject<EntityType<RadroachEntity>> RADROACH = register("radroach",
 			EntityType.Builder.<RadroachEntity>of(RadroachEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RadroachEntity::new)
+
+					.sized(0.6f, 1f));
+	public static final RegistryObject<EntityType<RadscorpionEntity>> RADSCORPION = register("radscorpion",
+			EntityType.Builder.<RadscorpionEntity>of(RadscorpionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RadscorpionEntity::new)
 
 					.sized(0.6f, 1f));
 
@@ -131,6 +136,7 @@ public class FalloutWastelandsModEntities {
 			Cannibal02Entity.init();
 			FloaterEntity.init();
 			RadroachEntity.init();
+			RadscorpionEntity.init();
 		});
 	}
 
@@ -151,5 +157,6 @@ public class FalloutWastelandsModEntities {
 		event.put(CANNIBAL_02.get(), Cannibal02Entity.createAttributes().build());
 		event.put(FLOATER.get(), FloaterEntity.createAttributes().build());
 		event.put(RADROACH.get(), RadroachEntity.createAttributes().build());
+		event.put(RADSCORPION.get(), RadscorpionEntity.createAttributes().build());
 	}
 }
