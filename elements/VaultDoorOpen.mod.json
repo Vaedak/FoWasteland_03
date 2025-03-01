@@ -67,6 +67,15 @@
         "My": 32.0,
         "Mz": 16.0,
         "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
       }
     ],
     "customProperties": [],
@@ -85,7 +94,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -106,7 +115,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:VaultDoorSealed"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -117,7 +126,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "STONE"
