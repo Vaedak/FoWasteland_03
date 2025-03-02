@@ -1,5 +1,11 @@
 package net.mcreator.falloutwastelands.block.model;
 
+import software.bernie.geckolib.model.GeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.falloutwastelands.block.display.BASEcoreDisplayItem;
+
 public class BASEcoreDisplayModel extends GeoModel<BASEcoreDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(BASEcoreDisplayItem animatable) {

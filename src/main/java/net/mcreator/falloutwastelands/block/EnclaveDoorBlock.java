@@ -1,7 +1,12 @@
 
 package net.mcreator.falloutwastelands.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import org.checkerframework.checker.units.qual.s;
+
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.DoorBlock;
 
 public class EnclaveDoorBlock extends DoorBlock {
 	public EnclaveDoorBlock() {
