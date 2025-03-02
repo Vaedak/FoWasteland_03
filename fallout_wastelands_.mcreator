@@ -14681,156 +14681,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "VaultDoorTop",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vault_door_top",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_top.json",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_top.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_top.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_top.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorTopBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "VaultDoorTopRight",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vault_door_top_right",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_top_right.json",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_top_right.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_top_right.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_top_right.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorTopRightBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "VaultDoorBottomRight",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vault_door_bottom_right",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_bottom_right.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_bottom_right.json",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/vault_door_bottom_right.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorBottomRightBlock.java",
-          "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_bottom_right.json"
-        ]
-      }
-    },
-    {
-      "name": "VaultDoorSealedBlockAdded",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vault_door_sealed_block_added",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/procedures/VaultDoorSealedBlockAddedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "RightClockVaultDoor",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "right_clock_vault_door",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/procedures/RightClockVaultDoorProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "VaultBlockBroken",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vault_block_broken",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/procedures/VaultBlockBrokenProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Radscorpion",
       "type": "animatedentity",
       "compiles": true,
@@ -14994,6 +14844,9 @@
       "CUSTOM:PowerArmorFrameArmor.legs",
       "CUSTOM:T51bPA.legs"
     ],
+    "BLOCKS:minecraft:sand": [
+      "CUSTOM:WasteSand"
+    ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
       "CUSTOM:Ninemmpistol",
@@ -15004,9 +14857,6 @@
       "CUSTOM:Nailgun",
       "CUSTOM:Chinesepistol",
       "CUSTOM:Fivemmminigun"
-    ],
-    "BLOCKS:minecraft:sand": [
-      "CUSTOM:WasteSand"
     ],
     "ITEMS:minecraft:wooden_stairs": [
       "CUSTOM:Molder_WoodStairs"
@@ -15796,7 +15646,6 @@
       "item.fallout_wastelands_.motherboard": "Motherboard",
       "item.fallout_wastelands_.fivemm_ammo": "5mm Rounds",
       "gui.fallout_wastelands_.base_menu_ui.label_done1": "Done",
-      "block.fallout_wastelands_.vault_door_bottom_right": "Vault Door Top",
       "gui.fallout_wastelands_.base_menu_ui.label_done2": "Done",
       "block.fallout_wastelands_.industrial_alloy_stair": "Industrial Alloy Stair",
       "item.fallout_wastelands_.wonderglue": "Wonderglue",
@@ -15882,7 +15731,6 @@
       "block.fallout_wastelands_.molder_wood_fence_gate": "Rotten Fence Gate",
       "gui.fallout_wastelands_.base_menu_ui.label_done": "Done",
       "block.fallout_wastelands_.indus_pipe_hub": "Industrial Pipe Hub",
-      "block.fallout_wastelands_.vault_door_top_right": "Vault Door Top",
       "block.fallout_wastelands_.locker": "Locker",
       "block.fallout_wastelands_.charred_molder_slab": "Burned Slab",
       "block.fallout_wastelands_.radiation_barrel": "Radiation Barrel",
@@ -16026,7 +15874,6 @@
       "item.fallout_wastelands_.raiderbasher_leggings": "Raider Basher Pants",
       "item.fallout_wastelands_.neutronade": "Neutronade",
       "block.fallout_wastelands_.vault_wall_exposed": "Plated Vault Wall",
-      "block.fallout_wastelands_.vault_door_top": "Vault Door Top",
       "block.fallout_wastelands_.military_metal_plate": "Military Plating",
       "block.fallout_wastelands_.enclave_bunker_floor": "Enclave Bunker Floor",
       "item.fallout_wastelands_.lead_ingot": "Lead Ingot",
