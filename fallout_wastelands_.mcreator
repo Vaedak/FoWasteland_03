@@ -14694,8 +14694,7 @@
           "src/main/resources/assets/fallout_wastelands_/models/item/vault_door_top.json",
           "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorTopBlock.java"
         ]
-      },
-      "path": "~/Blocks/VaultDoor"
+      }
     },
     {
       "name": "VaultDoorTopRight",
@@ -14711,8 +14710,7 @@
           "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/vault_door_top_right.json",
           "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorTopRightBlock.java"
         ]
-      },
-      "path": "~/Blocks/VaultDoor"
+      }
     },
     {
       "name": "VaultDoorBottomRight",
@@ -14728,8 +14726,7 @@
           "src/main/java/net/mcreator/falloutwastelands/block/VaultDoorBottomRightBlock.java",
           "src/main/resources/assets/fallout_wastelands_/models/block/vault_door_bottom_right.json"
         ]
-      },
-      "path": "~/Blocks/VaultDoor"
+      }
     },
     {
       "name": "VaultDoorSealedBlockAdded",
@@ -14763,8 +14760,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Blocks/VaultDoor"
+      }
     },
     {
       "name": "RightClockVaultDoor",
@@ -14798,8 +14794,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Blocks/VaultDoor"
+      }
     },
     {
       "name": "VaultBlockBroken",
@@ -14833,8 +14828,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Blocks/VaultDoor"
+      }
     },
     {
       "name": "Radscorpion",
@@ -14987,11 +14981,6 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:WastelandDriedGrass",
       "~CUSTOM:JoshuaLeaves",
@@ -14999,6 +14988,11 @@
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -15710,6 +15704,7 @@
       "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
       "item.fallout_wastelands_.mug": "Mug",
       "item.fallout_wastelands_.cannibal_02_spawn_egg": "Cannibal Trapper Spawn Egg",
+      "entity.fallout_wastelands_.radscorpion": "Radscorpion",
       "item.fallout_wastelands_.spiderfloater_spawn_egg": "Spiderfloater Spawn Egg",
       "block.fallout_wastelands_.steel_bars": "Steel Bars",
       "block.fallout_wastelands_.wasteland_road_white_slab": "White Wasteland Asphalt Slab",
@@ -16071,6 +16066,7 @@
       "block.fallout_wastelands_.worn_metal_slab": "Worn Metal Slab",
       "entity.fallout_wastelands_.floater": "Floater",
       "block.fallout_wastelands_.military_metal_plate_wall": "Military Plated Wall",
+      "item.fallout_wastelands_.radscorpion_spawn_egg": "Radscorpion Spawn Egg",
       "block.fallout_wastelands_.grey_industrial_walkway_stairs": "Industrial Plating Stairs",
       "item.fallout_wastelands_.steelnugget": "Steel Nugget",
       "block.fallout_wastelands_.wastelandtiles": "Wasteland Tiles",
