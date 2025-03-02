@@ -66,8 +66,6 @@
     [
       "fallout_wastelands_:wasteland_dryland_tree"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ]
 }

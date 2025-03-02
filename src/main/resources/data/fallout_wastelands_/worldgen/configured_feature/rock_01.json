@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": {
+        "type": "minecraft:no_op",
+        "config": {}
+      },
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": {
+            "type": "fallout_wastelands_:structure_feature",
+            "config": {
+              "structure": "fallout_wastelands_:rock_01",
+              "random_rotation": true,
+              "random_mirror": true,
+              "ignored_blocks": [
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block"
+              ],
+              "offset": [
+                0,
+                -2,
+                0
+              ]
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.7,
+        "feature": {
+          "feature": {
+            "type": "fallout_wastelands_:structure_feature",
+            "config": {
+              "structure": "fallout_wastelands_:rock_01",
+              "random_rotation": true,
+              "random_mirror": true,
+              "ignored_blocks": [
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block"
+              ],
+              "offset": [
+                0,
+                -2,
+                0
+              ]
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": {
+            "type": "fallout_wastelands_:structure_feature",
+            "config": {
+              "structure": "fallout_wastelands_:rock03",
+              "random_rotation": true,
+              "random_mirror": true,
+              "ignored_blocks": [
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block"
+              ],
+              "offset": [
+                0,
+                -5,
+                0
+              ]
+            }
+          },
+          "placement": []
+        }
+      }
+    ]
+  }
+}

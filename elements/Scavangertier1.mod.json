@@ -8,7 +8,7 @@
         "minrolls": 0,
         "maxrolls": 5,
         "minbonusrolls": 1,
-        "maxbonusrolls": 20,
+        "maxbonusrolls": 8,
         "hasbonusrolls": true,
         "entries": [
           {
@@ -16,9 +16,9 @@
             "item": {
               "value": "CUSTOM:Scrapmetal"
             },
-            "weight": 3,
+            "weight": 1,
             "minCount": 0,
-            "maxCount": 2,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -32,7 +32,7 @@
             },
             "weight": 1,
             "minCount": 0,
-            "maxCount": 6,
+            "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -44,7 +44,7 @@
             "item": {
               "value": "CUSTOM:BottleCap"
             },
-            "weight": 2,
+            "weight": 3,
             "minCount": 0,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -56,11 +56,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Aluminiumnugget"
+              "value": "CUSTOM:Cigarettepack"
             },
             "weight": 3,
             "minCount": 0,
-            "maxCount": 4,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -75,6 +75,71 @@
             "weight": 1,
             "minCount": 0,
             "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      },
+      {
+        "minrolls": 0,
+        "maxrolls": 6,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 3,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Copperwires"
+            },
+            "weight": 1,
+            "minCount": 0,
+            "maxCount": 2,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:DentedCan"
+            },
+            "weight": 2,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Wonderglue"
+            },
+            "weight": 0,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:EmptyNeutronadeBottle"
+            },
+            "weight": 4,
+            "minCount": 1,
+            "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.falloutwastelands.world.features.StructureFeature;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModTabs;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModSounds;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModParticleTypes;
@@ -54,6 +55,7 @@ public class FalloutWastelandsMod {
 
 		FalloutWastelandsModTabs.REGISTRY.register(bus);
 
+		StructureFeature.REGISTRY.register(bus);
 		FalloutWastelandsModMobEffects.REGISTRY.register(bus);
 
 		FalloutWastelandsModParticleTypes.REGISTRY.register(bus);

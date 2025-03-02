@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": {
+        "type": "minecraft:no_op",
+        "config": {}
+      },
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.8,
+        "feature": {
+          "feature": {
+            "type": "fallout_wastelands_:structure_feature",
+            "config": {
+              "structure": "fallout_wastelands_:ruinedbuilding_01",
+              "random_rotation": true,
+              "random_mirror": true,
+              "ignored_blocks": [
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block",
+                "minecraft:structure_block"
+              ],
+              "offset": [
+                0,
+                -2,
+                0
+              ]
+            }
+          },
+          "placement": []
+        }
+      }
+    ]
+  }
+}
