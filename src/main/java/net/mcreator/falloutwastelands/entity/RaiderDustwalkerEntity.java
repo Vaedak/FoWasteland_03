@@ -65,16 +65,20 @@ public class RaiderDustwalkerEntity extends Monster {
 		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Cannibal00Entity.class, false, false));
 		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, GeckoEntity.class, false, false));
 		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, LobotomiteWalkerEntity.class, false, false));
-		this.goalSelector.addGoal(8, new MeleeAttackGoal(this, 1.1, false) {
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Cannibal01Entity.class, false, false));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, Cannibal02Entity.class, false, false));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, FloaterEntity.class, false, false));
+		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, SpiderfloaterEntity.class, false, false));
+		this.goalSelector.addGoal(12, new MeleeAttackGoal(this, 1.1, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(9, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(10, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(11, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(12, new FloatGoal(this));
+		this.goalSelector.addGoal(13, new RandomStrollGoal(this, 1));
+		this.targetSelector.addGoal(14, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(15, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(16, new FloatGoal(this));
 	}
 
 	@Override

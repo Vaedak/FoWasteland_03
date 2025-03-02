@@ -61,7 +61,7 @@ public class RadscorpionEntity extends Monster implements GeoEntity {
 
 	public RadscorpionEntity(EntityType<RadscorpionEntity> type, Level world) {
 		super(type, world);
-		xpReward = 0;
+		xpReward = 3;
 		setNoAi(false);
 		setMaxUpStep(0.6f);
 	}
@@ -164,9 +164,9 @@ public class RadscorpionEntity extends Monster implements GeoEntity {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 6);
-		builder = builder.add(Attributes.ARMOR, 0);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 2);
+		builder = builder.add(Attributes.MAX_HEALTH, 15);
+		builder = builder.add(Attributes.ARMOR, 5);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 5);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		return builder;
 	}
@@ -175,13 +175,10 @@ public class RadscorpionEntity extends Monster implements GeoEntity {
 		if (this.animationprocedure.equals("empty")) {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
-					&& !this.isAggressive() && !this.isSprinting()) {
+					&& !this.isAggressive()) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.radscorpion.walk"));
 			}
 			if (this.isInWaterOrBubble()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.radscorpion.walk"));
-			}
-			if (this.isSprinting()) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.radscorpion.walk"));
 			}
 			if (this.isAggressive() && event.isMoving()) {
@@ -200,7 +197,7 @@ public class RadscorpionEntity extends Monster implements GeoEntity {
 			this.swinging = true;
 			this.lastSwing = level().getGameTime();
 		}
-		if (this.swinging && this.lastSwing + 7L <= level().getGameTime()) {
+		if (this.swinging && this.lastSwing + 4L <= level().getGameTime()) {
 			this.swinging = false;
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {

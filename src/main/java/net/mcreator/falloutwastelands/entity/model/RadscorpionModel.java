@@ -9,12 +9,12 @@ import net.mcreator.falloutwastelands.entity.RadscorpionEntity;
 public class RadscorpionModel extends GeoModel<RadscorpionEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(RadscorpionEntity entity) {
-		return new ResourceLocation("fallout_wastelands_", "animations/radroack.animation.json");
+		return new ResourceLocation("fallout_wastelands_", "animations/radscorpion.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(RadscorpionEntity entity) {
-		return new ResourceLocation("fallout_wastelands_", "geo/radroack.geo.json");
+		return new ResourceLocation("fallout_wastelands_", "geo/radscorpion.geo.json");
 	}
 
 	@Override
