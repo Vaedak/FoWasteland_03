@@ -142,9 +142,6 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:WastelandDryland"
-      },
-      {
-        "value": "CUSTOM:WastelandMountains"
       }
     ],
     "spawnInDungeons": false,

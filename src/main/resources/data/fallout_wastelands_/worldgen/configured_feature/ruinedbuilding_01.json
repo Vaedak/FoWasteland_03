@@ -15,7 +15,7 @@
           "feature": {
             "type": "fallout_wastelands_:structure_feature",
             "config": {
-              "structure": "fallout_wastelands_:ruinedbuilding_01",
+              "structure": "fallout_wastelands_:ruinedbuilding_01_fixed01",
               "random_rotation": true,
               "random_mirror": true,
               "ignored_blocks": [

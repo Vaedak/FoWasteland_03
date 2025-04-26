@@ -6,9 +6,6 @@
     "generationStep": "SURFACE_STRUCTURES",
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:WastelandMountains"
-      },
-      {
         "value": "CUSTOM:WastelandDryland"
       }
     ],
