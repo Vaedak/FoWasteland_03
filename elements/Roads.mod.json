@@ -49,13 +49,13 @@
           {
             "weight": 1,
             "structure": "road_04way",
-            "projection": "rigid",
+            "projection": "terrain_matching",
             "ignoredBlocks": []
           },
           {
             "weight": 6,
             "structure": "road_mined_02way",
-            "projection": "rigid",
+            "projection": "terrain_matching",
             "ignoredBlocks": []
           }
         ]

@@ -14,6 +14,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import net.mcreator.falloutwastelands.client.gui.PowerArmorFrameGUIScreen;
 import net.mcreator.falloutwastelands.client.gui.MedicalboxGUIScreen;
 import net.mcreator.falloutwastelands.client.gui.LockerStorageScreen;
+import net.mcreator.falloutwastelands.client.gui.FridgeGUIScreen;
 import net.mcreator.falloutwastelands.client.gui.BoxScreen;
 import net.mcreator.falloutwastelands.client.gui.BASEMenuUIScreen;
 import net.mcreator.falloutwastelands.client.gui.BASEInventoryScreen;
@@ -31,6 +32,7 @@ public class FalloutWastelandsModScreens {
 			MenuScreens.register(FalloutWastelandsModMenus.BOX.get(), BoxScreen::new);
 			MenuScreens.register(FalloutWastelandsModMenus.AMMO_BOX_GUI.get(), AmmoBoxGUIScreen::new);
 			MenuScreens.register(FalloutWastelandsModMenus.MEDICALBOX_GUI.get(), MedicalboxGUIScreen::new);
+			MenuScreens.register(FalloutWastelandsModMenus.FRIDGE_GUI.get(), FridgeGUIScreen::new);
 		});
 	}
 }

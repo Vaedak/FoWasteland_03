@@ -5,5 +5,5 @@
     "bottom": "fallout_wastelands_:block/industrialredrivetdoorbottom",
     "top": "fallout_wastelands_:block/industrialredrivetdoorup"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }

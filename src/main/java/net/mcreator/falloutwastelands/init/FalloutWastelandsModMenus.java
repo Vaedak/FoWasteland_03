@@ -14,6 +14,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.mcreator.falloutwastelands.world.inventory.PowerArmorFrameGUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.MedicalboxGUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.LockerStorageMenu;
+import net.mcreator.falloutwastelands.world.inventory.FridgeGUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.BoxMenu;
 import net.mcreator.falloutwastelands.world.inventory.BASEMenuUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.BASEInventoryMenu;
@@ -29,4 +30,5 @@ public class FalloutWastelandsModMenus {
 	public static final RegistryObject<MenuType<BoxMenu>> BOX = REGISTRY.register("box", () -> IForgeMenuType.create(BoxMenu::new));
 	public static final RegistryObject<MenuType<AmmoBoxGUIMenu>> AMMO_BOX_GUI = REGISTRY.register("ammo_box_gui", () -> IForgeMenuType.create(AmmoBoxGUIMenu::new));
 	public static final RegistryObject<MenuType<MedicalboxGUIMenu>> MEDICALBOX_GUI = REGISTRY.register("medicalbox_gui", () -> IForgeMenuType.create(MedicalboxGUIMenu::new));
+	public static final RegistryObject<MenuType<FridgeGUIMenu>> FRIDGE_GUI = REGISTRY.register("fridge_gui", () -> IForgeMenuType.create(FridgeGUIMenu::new));
 }

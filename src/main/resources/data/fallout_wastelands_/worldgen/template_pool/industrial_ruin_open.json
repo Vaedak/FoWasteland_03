@@ -1,0 +1,17 @@
+{
+  "name": "fallout_wastelands_:industrial_ruin_open",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "fallout_wastelands_:2way",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

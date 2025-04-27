@@ -4,7 +4,7 @@
     {
       "rolls": {
         "min": 0,
-        "max": 6
+        "max": 4
       },
       "entries": [
         {
@@ -138,7 +138,7 @@
     {
       "rolls": {
         "min": 0,
-        "max": 5
+        "max": 3
       },
       "entries": [
         {

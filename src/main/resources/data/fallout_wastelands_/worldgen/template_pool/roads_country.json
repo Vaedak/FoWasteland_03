@@ -30,7 +30,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "fallout_wastelands_:road_04way",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "processors": {
           "processors": []
         }
@@ -41,7 +41,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "fallout_wastelands_:road_mined_02way",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "processors": {
           "processors": []
         }
