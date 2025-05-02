@@ -30,6 +30,7 @@ import net.mcreator.falloutwastelands.entity.LobotomiteWalkerEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.GeckoEntity;
 import net.mcreator.falloutwastelands.entity.FloaterEntity;
+import net.mcreator.falloutwastelands.entity.FeralGhoulEntity;
 import net.mcreator.falloutwastelands.entity.DynamiteEntityEntity;
 import net.mcreator.falloutwastelands.entity.Cannibal02Entity;
 import net.mcreator.falloutwastelands.entity.Cannibal01Entity;
@@ -113,6 +114,10 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<RadscorpionEntity>of(RadscorpionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RadscorpionEntity::new)
 
 					.sized(0.6f, 1f));
+	public static final RegistryObject<EntityType<FeralGhoulEntity>> FERAL_GHOUL = register("feral_ghoul",
+			EntityType.Builder.<FeralGhoulEntity>of(FeralGhoulEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FeralGhoulEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -137,6 +142,7 @@ public class FalloutWastelandsModEntities {
 			FloaterEntity.init();
 			RadroachEntity.init();
 			RadscorpionEntity.init();
+			FeralGhoulEntity.init();
 		});
 	}
 
@@ -158,5 +164,6 @@ public class FalloutWastelandsModEntities {
 		event.put(FLOATER.get(), FloaterEntity.createAttributes().build());
 		event.put(RADROACH.get(), RadroachEntity.createAttributes().build());
 		event.put(RADSCORPION.get(), RadscorpionEntity.createAttributes().build());
+		event.put(FERAL_GHOUL.get(), FeralGhoulEntity.createAttributes().build());
 	}
 }

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "fallout_wastelands_:wasteland_dryland",
+  "spawners": {
+    "type": "fallout_wastelands_:radscorpion",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

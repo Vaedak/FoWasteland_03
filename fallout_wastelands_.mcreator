@@ -6676,6 +6676,7 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/block/MedicalBoxBlock.java",
           "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/medical_box.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/entity/MedicalBoxBlockEntity.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/medical_box.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/medical_box.json",
           "src/main/resources/assets/fallout_wastelands_/blockstates/medical_box.json"
@@ -14528,7 +14529,8 @@
           "src/main/java/net/mcreator/falloutwastelands/entity/model/RadroachModel.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/radroach_spawn_egg.json",
           "src/main/java/net/mcreator/falloutwastelands/client/renderer/RadroachRenderer.java",
-          "src/main/java/net/mcreator/falloutwastelands/entity/RadroachEntity.java"
+          "src/main/java/net/mcreator/falloutwastelands/entity/RadroachEntity.java",
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/radroach_biome_modifier.json"
         ]
       },
       "path": "~/Mobs"
@@ -14671,6 +14673,7 @@
       "registry_name": "radscorpion",
       "metadata": {
         "files": [
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/radscorpion_biome_modifier.json",
           "src/main/java/net/mcreator/falloutwastelands/entity/model/RadscorpionModel.java",
           "src/main/java/net/mcreator/falloutwastelands/client/renderer/RadscorpionRenderer.java",
           "src/main/java/net/mcreator/falloutwastelands/entity/RadscorpionEntity.java",
@@ -14678,22 +14681,6 @@
         ]
       },
       "path": "~/Mobs"
-    },
-    {
-      "name": "Ruinedbuilding01",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruinedbuilding_01",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/ruinedbuilding_01_biome_modifier.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/ruinedbuilding_01.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/ruinedbuilding_01.json"
-        ],
-        "has_nbt_structure": true
-      },
-      "path": "~/Structures"
     },
     {
       "name": "Rock01",
@@ -14717,7 +14704,6 @@
       "registry_name": "roads",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/roads_country.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/roads.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/structure/roads.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/roads.json"
@@ -14734,10 +14720,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fallout_wastelands_/worldgen/structure/industrial_ruin.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/industrial_ruin_buildings.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/industrial_ruin.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/industrial_ruin.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/industrial_ruin_open.json"
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/industrial_ruin.json"
         ]
       },
       "path": "~/jigsaw"
@@ -14755,6 +14739,66 @@
         ]
       },
       "path": "~/GUI"
+    },
+    {
+      "name": "FeralGhoul",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feral_ghoul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/entity/FeralGhoulEntity.java",
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/feral_ghoul_biome_modifier.json",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/FeralGhoulRenderer.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/feral_ghoul_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Trashtier1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trashtier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/chests/trashtier_1.json"
+        ]
+      },
+      "path": "~/loottable"
+    },
+    {
+      "name": "Factory",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "factory",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/factory.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure/factory.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/factory_building.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/factory.json"
+        ]
+      },
+      "path": "~/jigsaw"
+    },
+    {
+      "name": "WastelandSea",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasteland_sea",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/biome/wasteland_sea.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/wasteland_sea_tree.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/wasteland_sea_tree.json"
+        ]
+      },
+      "path": "~/Biomes"
     }
   ],
   "variable_elements": [
@@ -14891,11 +14935,6 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:WastelandDriedGrass",
       "~CUSTOM:JoshuaLeaves",
@@ -14903,6 +14942,11 @@
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs"
     ],
     "BLOCKS:minecraft:sand": [
       "CUSTOM:WasteSand"
@@ -15547,11 +15591,12 @@
       "block.fallout_wastelands_.linedconcrete": "Concrete",
       "block.fallout_wastelands_.bo_s_tile": "Bos Tile",
       "item.fallout_wastelands_.brahim_meat": "Brahim Meat",
-      "block.fallout_wastelands_.metal_shelf": "Metal Shelf",
       "item.fallout_wastelands_.dynamite_item": "Dynamite",
+      "block.fallout_wastelands_.metal_shelf": "Metal Shelf",
       "subtitles.ninemmshot": "",
       "key.fallout_wastelands_.player_presses_esc": "Player Closes Inventory",
       "item.fallout_wastelands_.copperwires": "Copper Wires",
+      "biome.fallout_wastelands_.wasteland_sea": "Wasteland Sea",
       "entity.fallout_wastelands_.lobotomite_walker": "Lobotomite Walker",
       "block.fallout_wastelands_.double_scaffold_block": "Double Scaffold Block",
       "item.fallout_wastelands_.deathclawhand": "Deathclaw Hand",
@@ -15637,8 +15682,8 @@
       "item.fallout_wastelands_.potato_crisps": "Potato Crisps",
       "item.fallout_wastelands_.gamma_gulp_beer": "Gamma Gulp Beer",
       "block.fallout_wastelands_.slab_wasteland_cobblestone": "Wasteland Cobblestone Slab",
-      "item.fallout_wastelands_.brahmin_spawn_egg": "Brahmin Spawn Egg",
       "block.fallout_wastelands_.wirefence": "Wire Fence",
+      "item.fallout_wastelands_.brahmin_spawn_egg": "Brahmin Spawn Egg",
       "block.fallout_wastelands_.bos_metal_plating_lighted": "Bos Lighted Plating",
       "block.fallout_wastelands_.bo_s_grid_floor_stairs": "BSs Grid Floor Stairs",
       "block.fallout_wastelands_.red_painted_planks": "Red Painted Planks",
@@ -15703,6 +15748,7 @@
       "block.fallout_wastelands_.wasteland_brickslab": "Wasteland Brick Slab",
       "item.fallout_wastelands_.motherboard": "Motherboard",
       "item.fallout_wastelands_.fivemm_ammo": "5mm Rounds",
+      "entity.fallout_wastelands_.feral_ghoul": "Feral Ghoul",
       "gui.fallout_wastelands_.base_menu_ui.label_done1": "Done",
       "block.fallout_wastelands_.vault_door_bottom_right": "Vault Door Top",
       "gui.fallout_wastelands_.base_menu_ui.label_done2": "Done",
@@ -15883,7 +15929,7 @@
       "entity.fallout_wastelands_.gecko": "Gecko",
       "gui.fallout_wastelands_.base_menu_ui.label_caps": "Caps",
       "block.fallout_wastelands_.enclave_bunker_block_logo": "Enclave Bunker Emblem",
-      "item.fallout_wastelands_.tinnugget": "Uranium Nugget",
+      "item.fallout_wastelands_.tinnugget": "Tin Nugget",
       "item.fallout_wastelands_.industrialshovel": "Spade",
       "block.fallout_wastelands_.oxidized_metal": "Smeared Concrete",
       "block.fallout_wastelands_.joshua_leaves": "Joshua Leaves",
@@ -16037,6 +16083,7 @@
       "item.fallout_wastelands_.chicago_omelette": "Chicago Omelette",
       "block.fallout_wastelands_.lead_ore": "Lead Ore",
       "block.fallout_wastelands_.molder_wood_stairs": "Rotten Wood Stairs",
+      "item.fallout_wastelands_.feral_ghoul_spawn_egg": "Feral Ghoul Spawn Egg",
       "item.fallout_wastelands_.raiderduster_chestplate": "Raider Duster Chestpads",
       "item.fallout_wastelands_.thirtytwoammo": ".32 Rounds",
       "block.fallout_wastelands_.pipe": "Pipe",

@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "structure",
   "definition": {
-    "structure": "road_02way",
+    "structure": "2way",
     "projection": "terrain_matching",
     "ignoredBlocks": [
       {
@@ -13,10 +13,7 @@
     "separation": 63,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:WastelandDryland"
-      },
-      {
-        "value": "CUSTOM:WastelandPlains"
+        "value": "bamboo_jungle"
       }
     ],
     "terrainAdaptation": "beard_thin",
@@ -28,38 +25,6 @@
     "startHeightMax": 128,
     "size": 16,
     "maxDistanceFromCenter": 116,
-    "jigsawPools": [
-      {
-        "poolName": "country",
-        "fallbackPool": "",
-        "poolParts": [
-          {
-            "weight": 8,
-            "structure": "road_02way",
-            "projection": "terrain_matching",
-            "ignoredBlocks": [
-              {
-                "value": "Blocks.STRUCTURE_BLOCK"
-              },
-              {
-                "value": "Blocks.STRUCTURE_BLOCK#2"
-              }
-            ]
-          },
-          {
-            "weight": 1,
-            "structure": "road_04way",
-            "projection": "terrain_matching",
-            "ignoredBlocks": []
-          },
-          {
-            "weight": 6,
-            "structure": "road_mined_02way",
-            "projection": "terrain_matching",
-            "ignoredBlocks": []
-          }
-        ]
-      }
-    ]
+    "jigsawPools": []
   }
 }

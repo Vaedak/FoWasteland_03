@@ -13,7 +13,7 @@
     "separation": 2,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:WastelandPlains"
+        "value": "mutated_ice_flats"
       }
     ],
     "terrainAdaptation": "beard_box",
@@ -23,33 +23,8 @@
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 0,
     "startHeightMax": 128,
-    "size": 1,
+    "size": 5,
     "maxDistanceFromCenter": 64,
-    "jigsawPools": [
-      {
-        "poolName": "buildings",
-        "fallbackPool": "",
-        "poolParts": [
-          {
-            "weight": 1,
-            "structure": "2way",
-            "projection": "rigid",
-            "ignoredBlocks": []
-          }
-        ]
-      },
-      {
-        "poolName": "open",
-        "fallbackPool": "",
-        "poolParts": [
-          {
-            "weight": 1,
-            "structure": "2way",
-            "projection": "rigid",
-            "ignoredBlocks": []
-          }
-        ]
-      }
-    ]
+    "jigsawPools": []
   }
 }

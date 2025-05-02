@@ -1,0 +1,49 @@
+{
+  "_fv": 69,
+  "_type": "structure",
+  "definition": {
+    "structure": "statue_poseidon_oil",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 5,
+    "separation": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:WastelandPlains"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 4,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "building",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 10,
+            "structure": "factory_ruin_01_01way",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 20,
+            "structure": "factory_ruin_02_01way",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

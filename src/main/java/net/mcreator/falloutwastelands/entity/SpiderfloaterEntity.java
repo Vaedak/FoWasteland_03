@@ -136,9 +136,13 @@ public class SpiderfloaterEntity extends Monster implements GeoEntity {
 		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, RaiderDustwalkerEntity.class, true, false));
 		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, Animal.class, true, false));
 		this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, Player.class, true, false));
-		this.targetSelector.addGoal(15, new HurtByTargetGoal(this).setAlertOthers());
-		this.goalSelector.addGoal(16, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(17, new FloatGoal(this));
+		this.targetSelector.addGoal(15, new NearestAttackableTargetGoal(this, Cannibal02Entity.class, true, false));
+		this.targetSelector.addGoal(16, new NearestAttackableTargetGoal(this, FeralGhoulEntity.class, true, false));
+		this.targetSelector.addGoal(17, new NearestAttackableTargetGoal(this, RadroachEntity.class, true, false));
+		this.targetSelector.addGoal(18, new NearestAttackableTargetGoal(this, RadscorpionEntity.class, true, false));
+		this.targetSelector.addGoal(19, new HurtByTargetGoal(this).setAlertOthers());
+		this.goalSelector.addGoal(20, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(21, new FloatGoal(this));
 	}
 
 	@Override

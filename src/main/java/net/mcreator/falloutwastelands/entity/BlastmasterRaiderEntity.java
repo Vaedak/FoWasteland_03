@@ -73,16 +73,17 @@ public class BlastmasterRaiderEntity extends Monster implements RangedAttackMob 
 		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, RadroachEntity.class, false, false));
 		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, RadscorpionEntity.class, false, false));
 		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, SpiderfloaterEntity.class, false, false));
-		this.goalSelector.addGoal(14, new MeleeAttackGoal(this, 1.2, false) {
+		this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, FeralGhoulEntity.class, false, false));
+		this.goalSelector.addGoal(15, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(15, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(16, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(17, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(18, new FloatGoal(this));
+		this.goalSelector.addGoal(16, new RandomStrollGoal(this, 1));
+		this.targetSelector.addGoal(17, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(18, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(19, new FloatGoal(this));
 		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 35, 17f) {
 			@Override
 			public boolean canContinueToUse() {

@@ -2,11 +2,11 @@
   "_fv": 69,
   "_type": "loottable",
   "definition": {
-    "type": "Block",
+    "type": "Chest",
     "pools": [
       {
         "minrolls": 1,
-        "maxrolls": 10,
+        "maxrolls": 4,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -85,7 +85,7 @@
       },
       {
         "minrolls": 1,
-        "maxrolls": 6,
+        "maxrolls": 3,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "fallout_wastelands_:wasteland_dryland",
+    "fallout_wastelands_:wasteland_plains"
+  ],
+  "spawners": {
+    "type": "fallout_wastelands_:radroach",
+    "weight": 6,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

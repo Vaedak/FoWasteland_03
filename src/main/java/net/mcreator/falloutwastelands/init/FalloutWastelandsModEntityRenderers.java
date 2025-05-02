@@ -22,6 +22,7 @@ import net.mcreator.falloutwastelands.client.renderer.LobotomiteWalkerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.LaserBeamRenderer;
 import net.mcreator.falloutwastelands.client.renderer.GeckoRenderer;
 import net.mcreator.falloutwastelands.client.renderer.FloaterRenderer;
+import net.mcreator.falloutwastelands.client.renderer.FeralGhoulRenderer;
 import net.mcreator.falloutwastelands.client.renderer.DynamiteEntityRenderer;
 import net.mcreator.falloutwastelands.client.renderer.Cannibal02Renderer;
 import net.mcreator.falloutwastelands.client.renderer.Cannibal01Renderer;
@@ -55,5 +56,6 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.FLOATER.get(), FloaterRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.RADROACH.get(), RadroachRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.RADSCORPION.get(), RadscorpionRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.FERAL_GHOUL.get(), FeralGhoulRenderer::new);
 	}
 }

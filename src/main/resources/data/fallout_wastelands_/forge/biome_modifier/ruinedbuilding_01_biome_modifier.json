@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "fallout_wastelands_:wasteland_plains",
-  "features": "fallout_wastelands_:ruinedbuilding_01",
-  "step": "surface_structures"
-}

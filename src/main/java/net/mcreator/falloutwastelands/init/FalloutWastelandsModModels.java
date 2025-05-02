@@ -26,6 +26,7 @@ import net.mcreator.falloutwastelands.client.model.Modelbasherraiderarmor;
 import net.mcreator.falloutwastelands.client.model.ModelT51b;
 import net.mcreator.falloutwastelands.client.model.ModelSecuriy_Suit;
 import net.mcreator.falloutwastelands.client.model.ModelLobotomite;
+import net.mcreator.falloutwastelands.client.model.ModelGhoul;
 import net.mcreator.falloutwastelands.client.model.ModelBighorn;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -49,6 +50,7 @@ public class FalloutWastelandsModModels {
 		event.registerLayerDefinition(Modelbasherraiderarmor.LAYER_LOCATION, Modelbasherraiderarmor::createBodyLayer);
 		event.registerLayerDefinition(Modelroadleather02.LAYER_LOCATION, Modelroadleather02::createBodyLayer);
 		event.registerLayerDefinition(Modeldusterraiderarmor.LAYER_LOCATION, Modeldusterraiderarmor::createBodyLayer);
+		event.registerLayerDefinition(ModelGhoul.LAYER_LOCATION, ModelGhoul::createBodyLayer);
 		event.registerLayerDefinition(Modeldynamite.LAYER_LOCATION, Modeldynamite::createBodyLayer);
 	}
 }

@@ -658,6 +658,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> RAD_ISLAND_CIDER = REGISTRY.register("rad_island_cider", () -> new RadIslandCiderItem());
 	public static final RegistryObject<Item> MIRELURK_CAKE = REGISTRY.register("mirelurk_cake", () -> new MirelurkCakeItem());
 	public static final RegistryObject<Item> RADSCORPION_SPAWN_EGG = REGISTRY.register("radscorpion_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.RADSCORPION, -5146569, -11256031, new Item.Properties()));
+	public static final RegistryObject<Item> FERAL_GHOUL_SPAWN_EGG = REGISTRY.register("feral_ghoul_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.FERAL_GHOUL, -11707342, -6707616, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -14,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -26,6 +27,7 @@ import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
@@ -33,6 +35,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -110,8 +113,10 @@ public class RadscorpionEntity extends Monster implements GeoEntity {
 		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, RaiderscavangerEntity.class, false, false));
 		this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, SpiderfloaterEntity.class, false, false));
 		this.targetSelector.addGoal(15, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.goalSelector.addGoal(16, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(17, new FloatGoal(this));
+		this.targetSelector.addGoal(16, new NearestAttackableTargetGoal(this, RadroachEntity.class, false, false));
+		this.targetSelector.addGoal(17, new NearestAttackableTargetGoal(this, FeralGhoulEntity.class, false, false));
+		this.goalSelector.addGoal(18, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(19, new FloatGoal(this));
 	}
 
 	@Override
@@ -159,6 +164,8 @@ public class RadscorpionEntity extends Monster implements GeoEntity {
 	}
 
 	public static void init() {
+		SpawnPlacements.register(FalloutWastelandsModEntities.RADSCORPION.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
