@@ -2,15 +2,15 @@
   "_fv": 69,
   "_type": "structure",
   "definition": {
-    "structure": "statue_poseidon_oil",
+    "structure": "statue_poseidon_oil_v0",
     "projection": "rigid",
     "ignoredBlocks": [
       {
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 5,
-    "separation": 2,
+    "spacing": 101,
+    "separation": 100,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:WastelandPlains"
@@ -23,7 +23,7 @@
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 0,
     "startHeightMax": 128,
-    "size": 4,
+    "size": 8,
     "maxDistanceFromCenter": 64,
     "jigsawPools": [
       {
@@ -31,13 +31,37 @@
         "fallbackPool": "",
         "poolParts": [
           {
-            "weight": 10,
-            "structure": "factory_ruin_01_01way",
+            "weight": 5,
+            "structure": "walking_area_03way",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "walking_area_barrel_03way",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "walking_area_trash_03way",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "walking_area_truck_03way",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
             "weight": 20,
+            "structure": "factory_ruin_01_01way_v0",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 2,
             "structure": "factory_ruin_02_01way",
             "projection": "rigid",
             "ignoredBlocks": []

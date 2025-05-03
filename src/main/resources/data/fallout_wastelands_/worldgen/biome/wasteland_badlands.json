@@ -9,8 +9,8 @@
       "max_delay": 24000,
       "replace_current_music": true
     },
-    "foliage_color": -9413056,
-    "grass_color": -1384800,
+    "foliage_color": -9545417,
+    "grass_color": -1583481,
     "sky_color": -5524337,
     "fog_color": -5524337,
     "water_color": -15194846,
@@ -27,10 +27,18 @@
     "misc": []
   },
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
   "features": [
     [],
-    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
     [],
     [],
     [],
@@ -56,7 +64,7 @@
     [],
     [],
     [
-      "fallout_wastelands_:wasteland_dryland_tree"
+      "fallout_wastelands_:wasteland_badlands_tree"
     ],
     []
   ]

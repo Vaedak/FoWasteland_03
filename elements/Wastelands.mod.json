@@ -10,7 +10,10 @@
         "value": "CUSTOM:WastelandPlains"
       },
       {
-        "value": "CUSTOM:WastelandMountains"
+        "value": "CUSTOM:WastelandSea"
+      },
+      {
+        "value": "CUSTOM:WastelandBadlands"
       }
     ],
     "worldGenType": "Normal world gen",

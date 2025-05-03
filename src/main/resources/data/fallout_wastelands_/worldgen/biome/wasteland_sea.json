@@ -5,9 +5,9 @@
   "effects": {
     "foliage_color": -10851762,
     "grass_color": -10717087,
-    "sky_color": -7554154,
-    "fog_color": -7554154,
-    "water_color": -13087165,
+    "sky_color": -5915764,
+    "fog_color": -5915764,
+    "water_color": -12956104,
     "water_fog_color": -15258847
   },
   "spawners": {
@@ -21,18 +21,10 @@
     "misc": []
   },
   "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": {},
   "features": [
     [],
-    [
-      "minecraft:lake_lava_underground"
-    ],
+    [],
     [],
     [],
     [],
@@ -60,8 +52,6 @@
     [
       "fallout_wastelands_:wasteland_sea_tree"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ]
 }
