@@ -38,6 +38,7 @@ public class PlayerInPowerArmorProcedure {
 			return;
 		double distance = 0;
 		if ((entity.getCapability(FalloutWastelandsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new FalloutWastelandsModVariables.PlayerVariables())).inPowerArmor == true) {
+			entity.fallDistance = 0;
 			if ((entity.getCapability(FalloutWastelandsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new FalloutWastelandsModVariables.PlayerVariables())).fusionCorePower > 1) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 10, 1, false, false));
@@ -50,8 +51,6 @@ public class PlayerInPowerArmorProcedure {
 			if (entity.getPersistentData().getBoolean("inventoryOpen") == true) {
 				ReplacepaFramesProcedure.execute(world, x, y, z, entity);
 			}
-			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 25, 255, false, false));
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("fallout_wastelands_:pa_frame"))) == false) {
 				if (entity.isInWater()) {
 					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())

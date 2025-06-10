@@ -5182,20 +5182,6 @@
       "path": "~/Weapons/Guns/GunProcedures"
     },
     {
-      "name": "EXAMPLEdiamondFeature",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exampl_ediamond_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/exampl_ediamond_feature.json",
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/exampl_ediamond_feature_biome_modifier.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/exampl_ediamond_feature.json"
-        ]
-      }
-    },
-    {
       "name": "WastelandAluminumOre",
       "type": "block",
       "compiles": true,
@@ -6907,7 +6893,8 @@
           "src/main/java/net/mcreator/falloutwastelands/entity/PowerArmorFrameEntity.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PowerArmorFrameGUI",
@@ -6921,7 +6908,8 @@
           "src/main/java/net/mcreator/falloutwastelands/network/PowerArmorFrameGUIButtonMessage.java",
           "src/main/java/net/mcreator/falloutwastelands/world/inventory/PowerArmorFrameGUIMenu.java"
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PowerArmorFrameRightClicked",
@@ -6959,7 +6947,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PowerArmorFrameTickUpdate",
@@ -6993,7 +6982,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "FrameInitialSpawn",
@@ -7027,7 +7017,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "HelperProcedureGetFrameEntity",
@@ -7050,7 +7041,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PickupFrame",
@@ -7084,7 +7076,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "CheckIfRiding",
@@ -7102,7 +7095,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "DeleteArmorStandIfNotRiding",
@@ -7114,7 +7108,8 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/potion/DeleteArmorStandIfNotRidingMobEffect.java"
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "ExitPowerArmorKeyPressed",
@@ -7148,7 +7143,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "ExitPowerArmor",
@@ -7160,7 +7156,8 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/network/ExitPowerArmorMessage.java"
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PowerArmorFrameArmor",
@@ -7170,13 +7167,14 @@
       "registry_name": "power_armor_frame_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/PowerArmorFrameArmorItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_armor_boots.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_armor_chestplate.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_armor_leggings.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_armor_helmet.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_armor_boots.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/power_armor_frame_armor_chestplate.json"
+          "src/main/java/net/mcreator/falloutwastelands/item/PowerArmorFrameArmorItem.java"
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PowerArmorFrameGUIWhileThisGUIIsOpenTick",
@@ -7198,7 +7196,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PlayerInPowerArmor",
@@ -7232,7 +7231,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "FrameDroppedDelete",
@@ -7250,7 +7250,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PlayerPressE",
@@ -7268,7 +7269,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PlayerOpensInventory",
@@ -7280,7 +7282,8 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/network/PlayerOpensInventoryMessage.java"
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PlayerPressesESC",
@@ -7292,7 +7295,8 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/network/PlayerPressesESCMessage.java"
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "TurnOffFramecheck",
@@ -7310,7 +7314,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "FramePickedUp",
@@ -7332,7 +7337,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PlayerInteractWithBlockGUI",
@@ -7354,7 +7360,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PlayerInteractWIthEntity",
@@ -7376,7 +7383,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "SpawnInvisibleArmorStand",
@@ -7406,7 +7414,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "ReplacepaFrames",
@@ -7440,7 +7449,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "T45PA",
@@ -7994,7 +8004,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PAFrameItemRightclicked",
@@ -8028,7 +8039,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PAFrameItem",
@@ -8041,7 +8053,8 @@
           "src/main/java/net/mcreator/falloutwastelands/item/PAFrameItemItem.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/pa_frame_item.json"
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PlayerDiesInPA",
@@ -8075,7 +8088,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "PADisplayEntity",
@@ -8089,7 +8103,8 @@
           "src/main/java/net/mcreator/falloutwastelands/client/renderer/PADisplayEntityRenderer.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/pa_display_entity_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "CraftPAFrame",
@@ -8101,7 +8116,8 @@
         "files": [
           "src/main/resources/data/fallout_wastelands_/recipes/craft_pa_frame.json"
         ]
-      }
+      },
+      "path": "~/PowerArmor"
     },
     {
       "name": "F",
@@ -11723,14 +11739,14 @@
       "registry_name": "brahmin",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/entity/model/BrahminModel.java",
-          "src/main/java/net/mcreator/falloutwastelands/entity/BrahminEntity.java",
           "src/main/java/net/mcreator/falloutwastelands/client/renderer/BrahminRenderer.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/brahmin_spawn_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/entity/BrahminEntity.java",
           "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/brahmin_biome_modifier.json",
-          "src/main/resources/assets/fallout_wastelands_/models/item/brahmin_spawn_egg.json"
+          "src/main/java/net/mcreator/falloutwastelands/entity/model/BrahminModel.java"
         ]
       },
-      "path": "~/Entity"
+      "path": "~/Entity/Brahmin"
     },
     {
       "name": "Tatoplant4",
@@ -14799,6 +14815,166 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "BrahminRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brahmin_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BrahminRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entity/Brahmin"
+    },
+    {
+      "name": "BrahminOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brahmin_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BrahminOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entity/Brahmin"
+    },
+    {
+      "name": "BabyBrahmin",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_brahmin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/baby_brahmin_spawn_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BabyBrahminRenderer.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/BabyBrahminEntity.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/model/BabyBrahminModel.java"
+        ]
+      },
+      "path": "~/Entity/Brahmin"
+    },
+    {
+      "name": "BabyBrahminAgeTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_brahmin_age_timer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BabyBrahminAgeTimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entity/Brahmin"
+    },
+    {
+      "name": "BabyBrahminOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_brahmin_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BabyBrahminOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entity/Brahmin"
     }
   ],
   "variable_elements": [
@@ -15597,6 +15773,7 @@
       "item.fallout_wastelands_.dynamite_item": "Dynamite",
       "subtitles.ninemmshot": "",
       "key.fallout_wastelands_.player_presses_esc": "Player Closes Inventory",
+      "item.fallout_wastelands_.baby_brahmin_spawn_egg": "Baby Brahmin Spawn Egg",
       "item.fallout_wastelands_.copperwires": "Copper Wires",
       "biome.fallout_wastelands_.wasteland_sea": "Wasteland Sea",
       "entity.fallout_wastelands_.lobotomite_walker": "Lobotomite Walker",
@@ -16053,6 +16230,7 @@
       "block.fallout_wastelands_.dried_planks_wall": "Joshhua Tree Planks",
       "block.fallout_wastelands_.molder_wood_slab": "Molder Wood Slab",
       "item.fallout_wastelands_.enclave_antiradsuit_boots": "Enclave Scientist Anti-Rad Boots",
+      "entity.fallout_wastelands_.baby_brahmin": "Baby Brahmin",
       "item.fallout_wastelands_.strange_meat_patty": "Strange Meat Patty",
       "block.fallout_wastelands_.molder_wood_button": "Rotten Button",
       "block.fallout_wastelands_.barbed_wires": "Barbed Wires",
@@ -16261,7 +16439,12 @@
       },
       {
         "name": "Entity",
-        "children": []
+        "children": [
+          {
+            "name": "Brahmin",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Biomes",
