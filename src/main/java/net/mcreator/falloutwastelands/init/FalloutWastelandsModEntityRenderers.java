@@ -30,6 +30,7 @@ import net.mcreator.falloutwastelands.client.renderer.Cannibal00Renderer;
 import net.mcreator.falloutwastelands.client.renderer.BrahminRenderer;
 import net.mcreator.falloutwastelands.client.renderer.BlastmasterRaiderRenderer;
 import net.mcreator.falloutwastelands.client.renderer.BaseGunItemProjectileRenderer;
+import net.mcreator.falloutwastelands.client.renderer.BabyBrahminRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class FalloutWastelandsModEntityRenderers {
@@ -57,5 +58,6 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.RADROACH.get(), RadroachRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.RADSCORPION.get(), RadscorpionRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.FERAL_GHOUL.get(), FeralGhoulRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.BABY_BRAHMIN.get(), BabyBrahminRenderer::new);
 	}
 }

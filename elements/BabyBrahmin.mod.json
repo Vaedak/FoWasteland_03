@@ -2,12 +2,12 @@
   "_fv": 69,
   "_type": "animatedentity",
   "definition": {
-    "mobName": "Brahmin",
+    "mobName": "Baby Brahmin",
     "mobLabel": "",
     "mobModelTexture": "brahmin.png",
     "mobModelGlowTexture": "",
     "visualScale": {
-      "fixedValue": 1.0
+      "fixedValue": 0.5
     },
     "boundingBoxScale": {
       "fixedValue": 1.0
@@ -40,11 +40,7 @@
       "value": -7046050,
       "falpha": 0.0
     },
-    "creativeTabs": [
-      {
-        "value": "MISC"
-      }
-    ],
+    "creativeTabs": [],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
@@ -75,7 +71,7 @@
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 15,
+    "health": 6,
     "xpAmount": 2,
     "waterMob": false,
     "flyingMob": false,
@@ -102,7 +98,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:BrahimMeat"
+      "value": ""
     },
     "livingSound": {
       "value": "entity.cow.ambient"
@@ -119,15 +115,15 @@
     "raidCelebrationSound": {
       "value": ""
     },
-    "onRightClickedOn": {
-      "name": "BrahminRightClickedOnEntity"
-    },
     "onMobTickUpdate": {
-      "name": "BrahminOnEntityTickUpdate"
+      "name": "BabyBrahminOnEntityTickUpdate"
+    },
+    "onInitialSpawn": {
+      "name": "BabyBrahminAgeTimer"
     },
     "hasAI": true,
     "aiBase": "Cow",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"follow_item_in_hands\"><field name=\"speed\">0.5</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Corn</field></block></value><next><block type=\"wander\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block><block type=\"attack_on_collide\" x=\"841\" y=\"127\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "model": "brahmin.geo.json",
     "groupName": "lefthead",
     "animation1": "animation.brahmin.idle",
@@ -177,11 +173,8 @@
       4,
       2
     ],
-    "spawnThisMob": true,
-    "doesDespawnWhenIdle": true,
-    "spawningCondition": {
-      "name": "BrahminNaturalEntitySpawningCondition"
-    },
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
     "spawningProbability": 60,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 2,

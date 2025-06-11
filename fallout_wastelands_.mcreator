@@ -5182,20 +5182,6 @@
       "path": "~/Weapons/Guns/GunProcedures"
     },
     {
-      "name": "EXAMPLEdiamondFeature",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exampl_ediamond_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/exampl_ediamond_feature.json",
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/exampl_ediamond_feature_biome_modifier.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/exampl_ediamond_feature.json"
-        ]
-      }
-    },
-    {
       "name": "WastelandAluminumOre",
       "type": "block",
       "compiles": true,
@@ -14801,30 +14787,22 @@
       "path": "~/Biomes"
     },
     {
-      "name": "Ghoulloottable",
-      "type": "loottable",
+      "name": "FEVgooMobplayerCollidesBlock",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ghoulloottable",
+      "registry_name": "fe_vgoo_mobplayer_collides_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/loot_tables/entities/ghoulloottable.json"
+          "src/main/java/net/mcreator/falloutwastelands/procedures/FEVgooMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
-      },
-      "path": "~/loottable"
-    },
-    {
-      "name": "Raiderlootable",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raiderlootable",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fallout_wastelands_/loot_tables/raiderlootable.json"
-        ]
-      },
-      "path": "~/loottable"
+      }
     },
     {
       "name": "FEVgoo",
@@ -14846,22 +14824,190 @@
       "path": "~/Blocks"
     },
     {
-      "name": "FEVgooMobplayerCollidesBlock",
+      "name": "Raiderlootable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raiderlootable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/raiderlootable.json"
+        ]
+      },
+      "path": "~/loottable"
+    },
+    {
+      "name": "Ghoulloottable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghoulloottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/entities/ghoulloottable.json"
+        ]
+      },
+      "path": "~/loottable"
+    },
+    {
+      "name": "BrahminRightClickedOnEntity",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fe_vgoo_mobplayer_collides_block",
+      "registry_name": "brahmin_right_clicked_on_entity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/procedures/FEVgooMobplayerCollidesBlockProcedure.java"
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BrahminRightClickedOnEntityProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Entity/Brahmin"
+    },
+    {
+      "name": "BabyBrahmin",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_brahmin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/entity/BabyBrahminEntity.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/model/BabyBrahminModel.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/baby_brahmin_spawn_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BabyBrahminRenderer.java"
+        ]
+      },
+      "path": "~/Entity/Brahmin"
+    },
+    {
+      "name": "BabyBrahminAgeTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_brahmin_age_timer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BabyBrahminAgeTimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entity/Brahmin"
+    },
+    {
+      "name": "BrahminOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brahmin_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BrahminOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entity/Brahmin"
+    },
+    {
+      "name": "BabyBrahminOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_brahmin_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BabyBrahminOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entity/Brahmin"
     }
   ],
   "variable_elements": [
@@ -15761,7 +15907,6 @@
       "item.fallout_wastelands_.tire_iron": "Tire Iron",
       "item.fallout_wastelands_.rad_island_cider": "Rad Island Cider",
       "item.fallout_wastelands_.human_brain": "Human Brain",
-      "item.fallout_wastelands_.fe_vgoo_bucket": "FEV Goo Bucket",
       "block.fallout_wastelands_.industrial_alloy_plain": "Industrial Alloy",
       "block.fallout_wastelands_.bo_s_grid_floor": "Bos Grid Floor",
       "block.fallout_wastelands_.wasteland_sand_stone": "Wasteland Sandstone",
@@ -15816,7 +15961,6 @@
       "item.fallout_wastelands_.motherboard": "Motherboard",
       "item.fallout_wastelands_.fivemm_ammo": "5mm Rounds",
       "entity.fallout_wastelands_.feral_ghoul": "Feral Ghoul",
-      "fluid.fallout_wastelands_.fe_vgoo": "FEV Goo",
       "gui.fallout_wastelands_.base_menu_ui.label_done1": "Done",
       "block.fallout_wastelands_.vault_door_bottom_right": "Vault Door Top",
       "gui.fallout_wastelands_.base_menu_ui.label_done2": "Done",
@@ -15829,7 +15973,6 @@
       "block.fallout_wastelands_.grey_industrial_alloy": "Industrial Plating (upper rivet)",
       "block.fallout_wastelands_.wastelandironore": "Wasteland Iron Ore",
       "block.fallout_wastelands_.military_plating_walkway_slab": "Military Plating Walkway Slab",
-      "block.fallout_wastelands_.fe_vgoo": "FEV Goo",
       "block.fallout_wastelands_.blasted_glass": "Blasted Window",
       "block.fallout_wastelands_.oxidized_metal_stair": "Smeared Stairs",
       "item.fallout_wastelands_.taloncombatarmor_helmet": "Talon Combat Armor Helmet",
@@ -16328,7 +16471,12 @@
       },
       {
         "name": "Entity",
-        "children": []
+        "children": [
+          {
+            "name": "Brahmin",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Biomes",

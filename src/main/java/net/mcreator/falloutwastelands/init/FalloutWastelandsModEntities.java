@@ -38,6 +38,7 @@ import net.mcreator.falloutwastelands.entity.Cannibal00Entity;
 import net.mcreator.falloutwastelands.entity.BrahminEntity;
 import net.mcreator.falloutwastelands.entity.BlastmasterRaiderEntity;
 import net.mcreator.falloutwastelands.entity.BaseGunItemProjectileEntity;
+import net.mcreator.falloutwastelands.entity.BabyBrahminEntity;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -118,6 +119,10 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<FeralGhoulEntity>of(FeralGhoulEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FeralGhoulEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BabyBrahminEntity>> BABY_BRAHMIN = register("baby_brahmin",
+			EntityType.Builder.<BabyBrahminEntity>of(BabyBrahminEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BabyBrahminEntity::new)
+
+					.sized(0.8f, 1.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -143,6 +148,7 @@ public class FalloutWastelandsModEntities {
 			RadroachEntity.init();
 			RadscorpionEntity.init();
 			FeralGhoulEntity.init();
+			BabyBrahminEntity.init();
 		});
 	}
 
@@ -165,5 +171,6 @@ public class FalloutWastelandsModEntities {
 		event.put(RADROACH.get(), RadroachEntity.createAttributes().build());
 		event.put(RADSCORPION.get(), RadscorpionEntity.createAttributes().build());
 		event.put(FERAL_GHOUL.get(), FeralGhoulEntity.createAttributes().build());
+		event.put(BABY_BRAHMIN.get(), BabyBrahminEntity.createAttributes().build());
 	}
 }
