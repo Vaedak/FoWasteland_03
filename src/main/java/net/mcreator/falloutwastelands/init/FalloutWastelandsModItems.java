@@ -119,6 +119,7 @@ import net.mcreator.falloutwastelands.item.FivemmminigunItem;
 import net.mcreator.falloutwastelands.item.FivemmAmmoItem;
 import net.mcreator.falloutwastelands.item.FissionBatteryItem;
 import net.mcreator.falloutwastelands.item.FertilizerItem;
+import net.mcreator.falloutwastelands.item.FEVgooItem;
 import net.mcreator.falloutwastelands.item.EnergyCellItem;
 import net.mcreator.falloutwastelands.item.EnclaveofficierSuitItem;
 import net.mcreator.falloutwastelands.item.EnclaveHullItem;
@@ -659,6 +660,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> MIRELURK_CAKE = REGISTRY.register("mirelurk_cake", () -> new MirelurkCakeItem());
 	public static final RegistryObject<Item> RADSCORPION_SPAWN_EGG = REGISTRY.register("radscorpion_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.RADSCORPION, -5146569, -11256031, new Item.Properties()));
 	public static final RegistryObject<Item> FERAL_GHOUL_SPAWN_EGG = REGISTRY.register("feral_ghoul_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.FERAL_GHOUL, -11707342, -6707616, new Item.Properties()));
+	public static final RegistryObject<Item> FE_VGOO_BUCKET = REGISTRY.register("fe_vgoo_bucket", () -> new FEVgooItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

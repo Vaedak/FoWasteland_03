@@ -228,6 +228,7 @@ import net.mcreator.falloutwastelands.block.GoreBlock;
 import net.mcreator.falloutwastelands.block.FridgeBlock;
 import net.mcreator.falloutwastelands.block.FloorPapersBlock;
 import net.mcreator.falloutwastelands.block.FilingCabinetBlock;
+import net.mcreator.falloutwastelands.block.FEVgooBlock;
 import net.mcreator.falloutwastelands.block.ExposedRustBlockBlock;
 import net.mcreator.falloutwastelands.block.EnclaveDoorBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerStairsBlock;
@@ -566,6 +567,7 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> ENCASED_INDUS_PIPE = REGISTRY.register("encased_indus_pipe", () -> new EncasedIndusPipeBlock());
 	public static final RegistryObject<Block> VAULT_DOOR_SEALED = REGISTRY.register("vault_door_sealed", () -> new VaultDoorSealedBlock());
 	public static final RegistryObject<Block> VAULT_DOOR_OPEN = REGISTRY.register("vault_door_open", () -> new VaultDoorOpenBlock());
+	public static final RegistryObject<Block> FE_VGOO = REGISTRY.register("fe_vgoo", () -> new FEVgooBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

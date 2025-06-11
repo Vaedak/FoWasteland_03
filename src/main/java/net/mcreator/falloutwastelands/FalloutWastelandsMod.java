@@ -24,6 +24,8 @@ import net.mcreator.falloutwastelands.init.FalloutWastelandsModParticleTypes;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModMobEffects;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModMenus;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModFluids;
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModFluidTypes;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModEntities;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModBlocks;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModBlockEntities;
@@ -61,6 +63,8 @@ public class FalloutWastelandsMod {
 		FalloutWastelandsModParticleTypes.REGISTRY.register(bus);
 
 		FalloutWastelandsModMenus.REGISTRY.register(bus);
+		FalloutWastelandsModFluids.REGISTRY.register(bus);
+		FalloutWastelandsModFluidTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
