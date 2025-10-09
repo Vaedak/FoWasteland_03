@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fallout_wastelands_:cannibalcave_01",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 8,
+    "separation": 4,
+    "salt": 516461275
+  }
+}

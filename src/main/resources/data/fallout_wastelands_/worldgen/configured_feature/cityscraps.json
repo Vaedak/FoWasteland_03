@@ -1,0 +1,129 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 10,
+    "xz_spread": 1,
+    "y_spread": 0,
+    "feature": {
+      "feature": {
+        "type": "minecraft:random_selector",
+        "config": {
+          "default": {
+            "feature": {
+              "type": "minecraft:no_op",
+              "config": {}
+            },
+            "placement": []
+          },
+          "features": [
+            {
+              "chance": 0.5,
+              "feature": {
+                "feature": {
+                  "type": "fallout_wastelands_:structure_feature",
+                  "config": {
+                    "structure": "fallout_wastelands_:ruined_building_06",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block"
+                    ],
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              }
+            },
+            {
+              "chance": 0.5,
+              "feature": {
+                "feature": {
+                  "type": "fallout_wastelands_:structure_feature",
+                  "config": {
+                    "structure": "fallout_wastelands_:ruined_building_06_b",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block"
+                    ],
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              }
+            },
+            {
+              "chance": 0.5,
+              "feature": {
+                "feature": {
+                  "type": "fallout_wastelands_:structure_feature",
+                  "config": {
+                    "structure": "fallout_wastelands_:ruined_building_03",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block"
+                    ],
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              }
+            },
+            {
+              "chance": 0.5,
+              "feature": {
+                "feature": {
+                  "type": "fallout_wastelands_:structure_feature",
+                  "config": {
+                    "structure": "fallout_wastelands_:ruined_building_03_b",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block",
+                      "minecraft:structure_block"
+                    ],
+                    "offset": [
+                      0,
+                      -5,
+                      0
+                    ]
+                  }
+                },
+                "placement": []
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    }
+  }
+}

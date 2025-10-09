@@ -1,0 +1,33 @@
+{
+  "feature": "fallout_wastelands_:rock_01",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "fallout_wastelands_:wasteland_stone",
+          "fallout_wastelands_:wasteland_dirt",
+          "fallout_wastelands_:wastelandgravel",
+          "fallout_wastelands_:wasteland_cobblestone",
+          "fallout_wastelands_:waste_sand"
+        ],
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -2,7 +2,9 @@
   "type": "forge:add_features",
   "biomes": [
     "fallout_wastelands_:wasteland_dryland",
-    "fallout_wastelands_:wasteland_plains"
+    "fallout_wastelands_:wasteland_plains",
+    "fallout_wastelands_:wasteland_badlands",
+    "fallout_wastelands_:wasteland_city"
   ],
   "features": "fallout_wastelands_:wastelandgrassbush",
   "step": "vegetal_decoration"

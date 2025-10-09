@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class WastelandStoneBlock extends Block {
 	public WastelandStoneBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(0.6f, 6f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(7f, 6f).requiresCorrectToolForDrops());
 	}
 
 	@Override

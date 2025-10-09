@@ -1,0 +1,72 @@
+{
+  "feature": "fallout_wastelands_:cityscraps",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "fallout_wastelands_:wasteland_dirt",
+              "fallout_wastelands_:wastelandgrassblock",
+              "fallout_wastelands_:wastelandgravel"
+            ],
+            "offset": [
+              0,
+              -1,
+              -8
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "fallout_wastelands_:wasteland_dirt",
+              "fallout_wastelands_:wastelandgrassblock",
+              "fallout_wastelands_:wastelandgravel"
+            ],
+            "offset": [
+              0,
+              -1,
+              8
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "fallout_wastelands_:wasteland_dirt",
+              "fallout_wastelands_:wastelandgrassblock",
+              "fallout_wastelands_:wastelandgravel"
+            ],
+            "offset": [
+              -8,
+              -1,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "fallout_wastelands_:wasteland_dirt",
+              "fallout_wastelands_:wastelandgrassblock",
+              "fallout_wastelands_:wastelandgravel"
+            ],
+            "offset": [
+              8,
+              -1,
+              0
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

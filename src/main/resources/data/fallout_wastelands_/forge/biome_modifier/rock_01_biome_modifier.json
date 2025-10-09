@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "fallout_wastelands_:wasteland_dryland",
+    "fallout_wastelands_:wasteland_sea"
+  ],
+  "features": "fallout_wastelands_:rock_01",
+  "step": "surface_structures"
+}

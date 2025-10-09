@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:brotherhood_hull"
+    },
+    "b": {
+      "item": "fallout_wastelands_:advanced_motor"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:t_45_pa_helmet",
+    "count": 1
+  }
+}

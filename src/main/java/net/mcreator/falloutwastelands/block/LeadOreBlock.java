@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class LeadOreBlock extends Block {
 	public LeadOreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2.8f, 7f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(4.8f, 7f).requiresCorrectToolForDrops());
 	}
 
 	@Override

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "fallout_wastelands_:wasteland_city",
+  "features": "fallout_wastelands_:wasteland_road_block",
+  "step": "underground_ores"
+}

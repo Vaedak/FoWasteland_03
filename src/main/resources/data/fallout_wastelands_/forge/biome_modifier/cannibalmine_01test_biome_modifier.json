@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "fallout_wastelands_:wasteland_dryland",
+  "features": "fallout_wastelands_:cannibalmine_01test",
+  "step": "surface_structures"
+}

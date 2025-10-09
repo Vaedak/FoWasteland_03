@@ -123,8 +123,16 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": true,
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:WastelandBadlands"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:TheGlowDirt"
+      }
+    ],
     "generationShape": "TRIANGLE",
     "frequencyPerChunks": 24,
     "frequencyOnChunk": 32,

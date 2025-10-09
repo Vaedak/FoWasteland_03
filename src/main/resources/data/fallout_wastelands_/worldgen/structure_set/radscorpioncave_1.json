@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fallout_wastelands_:radscorpioncave_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 78,
+    "separation": 32,
+    "salt": 327573265
+  }
+}

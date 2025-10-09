@@ -2,7 +2,8 @@
   "type": "forge:add_features",
   "biomes": [
     "fallout_wastelands_:wasteland_dryland",
-    "fallout_wastelands_:wasteland_plains"
+    "fallout_wastelands_:wasteland_plains",
+    "fallout_wastelands_:wasteland_city"
   ],
   "features": "fallout_wastelands_:wastelandshortburntgrass",
   "step": "vegetal_decoration"

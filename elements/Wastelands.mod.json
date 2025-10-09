@@ -14,6 +14,9 @@
       },
       {
         "value": "CUSTOM:WastelandBadlands"
+      },
+      {
+        "value": "CUSTOM:WastelandCity"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -35,12 +38,12 @@
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
     "portalFrame": {
-      "value": "CUSTOM:WastelandStone"
+      "value": "CUSTOM:PortalFrame"
     },
     "portalParticles": {
-      "value": "PORTAL"
+      "value": "MYCELIUM"
     },
-    "portalLuminance": 0,
+    "portalLuminance": 1,
     "portalSound": {
       "value": "block.portal.ambient"
     },
@@ -56,7 +59,7 @@
       }
     ],
     "texture": "portaligniter",
-    "portalTexture": "portalframe",
+    "portalTexture": "portalenergy",
     "enablePortal": true
   }
 }

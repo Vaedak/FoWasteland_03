@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "fallout_wastelands_:block/portalframe",
-    "portal": "fallout_wastelands_:block/portalframe"
+    "particle": "fallout_wastelands_:block/portalenergy",
+    "portal": "fallout_wastelands_:block/portalenergy"
   },
   "elements": [
     {

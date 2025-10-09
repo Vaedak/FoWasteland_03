@@ -135,6 +135,7 @@ import net.mcreator.falloutwastelands.block.RockydirtBlock;
 import net.mcreator.falloutwastelands.block.ReinforcedPlanksBlock;
 import net.mcreator.falloutwastelands.block.RedPaintedPlanksBlock;
 import net.mcreator.falloutwastelands.block.RadiationBarrelBlock;
+import net.mcreator.falloutwastelands.block.PortalFrameBlock;
 import net.mcreator.falloutwastelands.block.PlasterBlock;
 import net.mcreator.falloutwastelands.block.PipeBlock;
 import net.mcreator.falloutwastelands.block.OxidizedMetalWallBlock;
@@ -568,6 +569,7 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> VAULT_DOOR_SEALED = REGISTRY.register("vault_door_sealed", () -> new VaultDoorSealedBlock());
 	public static final RegistryObject<Block> VAULT_DOOR_OPEN = REGISTRY.register("vault_door_open", () -> new VaultDoorOpenBlock());
 	public static final RegistryObject<Block> FE_VGOO = REGISTRY.register("fe_vgoo", () -> new FEVgooBlock());
+	public static final RegistryObject<Block> PORTAL_FRAME = REGISTRY.register("portal_frame", () -> new PortalFrameBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

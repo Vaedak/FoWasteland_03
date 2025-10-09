@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class WastelandredstoneoreBlock extends Block {
 	public WastelandredstoneoreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(3f, 7f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(10f, 7f));
 	}
 
 	@Override

@@ -100,6 +100,9 @@
       },
       {
         "value": "CUSTOM:WastelandPlains"
+      },
+      {
+        "value": "CUSTOM:WastelandCity"
       }
     ],
     "generationType": "Grass",

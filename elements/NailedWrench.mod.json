@@ -8,7 +8,7 @@
     "texture": "wrenchwithanail",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "SpikedWrench",
+    "name": "Spiked Wrench",
     "specialInformation": {
       "fixedValue": [
         "Some nails cannot harm ... can they ?"

@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class TinOreBlock extends Block {
 	public TinOreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(3f, 5.5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(10f, 5.5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

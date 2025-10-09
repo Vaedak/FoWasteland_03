@@ -2,9 +2,9 @@
   "replace": false,
   "values": [
     "fallout_wastelands_:the_glow_dirt",
-    "fallout_wastelands_:waste_sand",
     "fallout_wastelands_:wastelandgrassblock",
     "fallout_wastelands_:wasteland_dirt",
+    "fallout_wastelands_:waste_sand",
     "fallout_wastelands_:wasteland_stone"
   ]
 }

@@ -61,6 +61,17 @@
         "state": {
           "Name": "fallout_wastelands_:wasteland_dirt"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "fallout_wastelands_:the_glow_dirt"
+          }
+        },
+        "state": {
+          "Name": "fallout_wastelands_:wasteland_dirt"
+        }
       }
     ]
   }

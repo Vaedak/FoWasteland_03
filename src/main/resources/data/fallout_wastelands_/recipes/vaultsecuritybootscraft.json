@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:plasticsheet"
+    },
+    "b": {
+      "item": "fallout_wastelands_:vault_suit_boots"
+    },
+    "c": {
+      "item": "fallout_wastelands_:industrialhull"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:vault_security_suit_boots",
+    "count": 1
+  }
+}

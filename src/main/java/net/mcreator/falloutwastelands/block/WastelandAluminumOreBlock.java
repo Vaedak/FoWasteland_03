@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class WastelandAluminumOreBlock extends Block {
 	public WastelandAluminumOreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2.8f, 6f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(10f, 6f).requiresCorrectToolForDrops());
 	}
 
 	@Override

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:industrialhull"
+    },
+    "b": {
+      "tag": "forge:stained_glass_panes"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:vault_security_suit_helmet",
+    "count": 1
+  }
+}

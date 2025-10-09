@@ -100,10 +100,16 @@
       },
       {
         "value": "CUSTOM:WastelandPlains"
+      },
+      {
+        "value": "CUSTOM:WastelandBadlands"
+      },
+      {
+        "value": "CUSTOM:WastelandCity"
       }
     ],
     "generationType": "Grass",
-    "patchSize": 120,
+    "patchSize": 200,
     "generateAtAnyHeight": true,
     "onDestroyedByPlayer": {
       "name": "GrassDestroyedWithShears"

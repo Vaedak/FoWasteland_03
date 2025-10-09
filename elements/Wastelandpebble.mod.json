@@ -106,10 +106,19 @@
       },
       {
         "value": "CUSTOM:WastelandDryland"
+      },
+      {
+        "value": "CUSTOM:WastelandCity"
+      },
+      {
+        "value": "CUSTOM:WastelandBadlands"
+      },
+      {
+        "value": "CUSTOM:WastelandSea"
       }
     ],
     "generationType": "Grass",
-    "patchSize": 92,
+    "patchSize": 128,
     "generateAtAnyHeight": true
   }
 }

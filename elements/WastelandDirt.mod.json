@@ -126,6 +126,12 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:WastelandPlains"
+      },
+      {
+        "value": "CUSTOM:WastelandSea"
+      },
+      {
+        "value": "CUSTOM:WastelandBadlands"
       }
     ],
     "blocksToReplace": [
@@ -143,6 +149,9 @@
       },
       {
         "value": "CUSTOM:Wastelandgrassblock"
+      },
+      {
+        "value": "CUSTOM:TheGlowDirt"
       }
     ],
     "generationShape": "TRIANGLE",

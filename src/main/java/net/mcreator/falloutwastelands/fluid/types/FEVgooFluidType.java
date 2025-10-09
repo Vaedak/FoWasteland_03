@@ -1,6 +1,15 @@
 
 package net.mcreator.falloutwastelands.fluid.types;
 
+import net.minecraftforge.fluids.FluidType;
+import net.minecraftforge.common.SoundActions;
+import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
+
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.resources.ResourceLocation;
+
+import java.util.function.Consumer;
+
 public class FEVgooFluidType extends FluidType {
 	public FEVgooFluidType() {
 		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(0.007D).lightLevel(4).viscosity(5000).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)

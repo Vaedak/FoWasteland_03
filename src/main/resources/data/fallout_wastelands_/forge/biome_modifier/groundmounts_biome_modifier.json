@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "fallout_wastelands_:wasteland_badlands",
+  "features": "fallout_wastelands_:groundmounts",
+  "step": "surface_structures"
+}
