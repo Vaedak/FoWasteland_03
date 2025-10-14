@@ -34,11 +34,11 @@
       }
     ],
     "customProperties": [],
-    "name": "Exposed Vault Ruins Block",
+    "name": "Rotten Metal Floor Block",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.55,
+    "hardness": 0.85,
     "resistance": 3.5,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

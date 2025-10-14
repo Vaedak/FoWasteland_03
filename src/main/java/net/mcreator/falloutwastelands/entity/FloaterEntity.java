@@ -63,7 +63,7 @@ public class FloaterEntity extends Monster implements GeoEntity {
 
 	public FloaterEntity(EntityType<FloaterEntity> type, Level world) {
 		super(type, world);
-		xpReward = 0;
+		xpReward = 2;
 		setNoAi(false);
 		setMaxUpStep(0.6f);
 	}
@@ -186,9 +186,9 @@ public class FloaterEntity extends Monster implements GeoEntity {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 20);
+		builder = builder.add(Attributes.MAX_HEALTH, 45);
 		builder = builder.add(Attributes.ARMOR, 5);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 8);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 5);
 		return builder;

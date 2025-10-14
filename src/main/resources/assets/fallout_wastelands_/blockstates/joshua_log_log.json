@@ -1,16 +1,90 @@
 {
-  "variants": {
-    "axis=x": {
-      "model": "fallout_wastelands_:block/joshua_log_log",
-      "x": 90,
-      "y": 90
+  "multipart": [
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "fallout_wastelands_:block/joshua_log_log_post"
+      }
     },
-    "axis=y": {
-      "model": "fallout_wastelands_:block/joshua_log_log"
+    {
+      "when": {
+        "north": "low"
+      },
+      "apply": {
+        "model": "fallout_wastelands_:block/joshua_log_log",
+        "uvlock": true
+      }
     },
-    "axis=z": {
-      "model": "fallout_wastelands_:block/joshua_log_log",
-      "x": 90
+    {
+      "when": {
+        "east": "low"
+      },
+      "apply": {
+        "model": "fallout_wastelands_:block/joshua_log_log",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "low"
+      },
+      "apply": {
+        "model": "fallout_wastelands_:block/joshua_log_log",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "low"
+      },
+      "apply": {
+        "model": "fallout_wastelands_:block/joshua_log_log",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "tall"
+      },
+      "apply": {
+        "model": "fallout_wastelands_:block/joshua_log_log_side_tall",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "tall"
+      },
+      "apply": {
+        "model": "fallout_wastelands_:block/joshua_log_log_side_tall",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "tall"
+      },
+      "apply": {
+        "model": "fallout_wastelands_:block/joshua_log_log_side_tall",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "tall"
+      },
+      "apply": {
+        "model": "fallout_wastelands_:block/joshua_log_log_side_tall",
+        "y": 270,
+        "uvlock": true
+      }
     }
-  }
+  ]
 }

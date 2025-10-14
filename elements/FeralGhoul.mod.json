@@ -71,7 +71,7 @@
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 10,
+    "health": 15,
     "xpAmount": 2,
     "waterMob": false,
     "breatheUnderwater": {
@@ -102,7 +102,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "Items.ROTTEN_FLESH"
+      "value": ""
     },
     "livingSound": {
       "value": ""

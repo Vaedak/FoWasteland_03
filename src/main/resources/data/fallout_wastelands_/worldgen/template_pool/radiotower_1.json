@@ -1,12 +1,12 @@
 {
-  "name": "fallout_wastelands_:f",
+  "name": "fallout_wastelands_:radiotower_1",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "fallout_wastelands_:2way",
+        "location": "fallout_wastelands_:radio_tower_01",
         "projection": "rigid",
         "processors": {
           "processors": [

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fallout_wastelands_:raiderhourse_01",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 24,
+    "salt": 1059857153
+  }
+}

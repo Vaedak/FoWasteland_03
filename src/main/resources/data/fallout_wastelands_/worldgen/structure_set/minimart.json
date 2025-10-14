@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "fallout_wastelands_:f",
+      "structure": "fallout_wastelands_:minimart",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 3,
-    "separation": 1,
-    "salt": 1550888663
+    "spacing": 28,
+    "separation": 14,
+    "salt": 718296967
   }
 }

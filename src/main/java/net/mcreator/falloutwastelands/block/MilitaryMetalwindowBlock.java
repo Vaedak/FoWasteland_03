@@ -14,7 +14,7 @@ import net.minecraft.core.BlockPos;
 
 public class MilitaryMetalwindowBlock extends Block {
 	public MilitaryMetalwindowBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GLASS).strength(0.65f, 9f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.GLASS).strength(6.5f, 9f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class RuinsGroundBlock extends Block {
 	public RuinsGroundBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(0.55f, 3.5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(0.85f, 3.5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

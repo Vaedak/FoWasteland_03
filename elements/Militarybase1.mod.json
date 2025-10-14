@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 16,
-    "separation": 12,
+    "spacing": 38,
+    "separation": 32,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:WastelandPlains"

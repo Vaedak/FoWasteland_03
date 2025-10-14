@@ -1,0 +1,39 @@
+{
+  "_fv": 69,
+  "_type": "structure",
+  "definition": {
+    "structure": "bos_abandonned_bunker_01",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 56,
+    "separation": 48,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:WastelandPlains"
+      },
+      {
+        "value": "CUSTOM:WastelandCity"
+      },
+      {
+        "value": "CUSTOM:WastelandDryland"
+      },
+      {
+        "value": "CUSTOM:WastelandBadlands"
+      }
+    ],
+    "terrainAdaptation": "bury",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

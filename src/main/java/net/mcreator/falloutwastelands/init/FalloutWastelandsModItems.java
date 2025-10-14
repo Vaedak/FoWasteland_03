@@ -663,6 +663,8 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> FE_VGOO_BUCKET = REGISTRY.register("fe_vgoo_bucket", () -> new FEVgooItem());
 	public static final RegistryObject<Item> BABY_BRAHMIN_SPAWN_EGG = REGISTRY.register("baby_brahmin_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.BABY_BRAHMIN, -10205395, -7046050, new Item.Properties()));
 	public static final RegistryObject<Item> PORTAL_FRAME = block(FalloutWastelandsModBlocks.PORTAL_FRAME);
+	public static final RegistryObject<Item> THINMETALPLATING = block(FalloutWastelandsModBlocks.THINMETALPLATING);
+	public static final RegistryObject<Item> HEAVYDECORATEDPRESSUREPLATE = block(FalloutWastelandsModBlocks.HEAVYDECORATEDPRESSUREPLATE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

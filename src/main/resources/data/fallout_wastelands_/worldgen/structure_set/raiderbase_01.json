@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fallout_wastelands_:raiderbase_01",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 28,
+    "salt": 498513757
+  }
+}

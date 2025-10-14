@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "fallout_wastelands_:roads",
+      "structure": "fallout_wastelands_:bosbunker",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 64,
-    "separation": 63,
-    "salt": 32348563
+    "spacing": 56,
+    "separation": 48,
+    "salt": 145768490
   }
 }

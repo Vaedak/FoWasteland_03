@@ -1,13 +1,13 @@
 {
-  "name": "fallout_wastelands_:roads",
+  "name": "fallout_wastelands_:raiderhourse_01",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "fallout_wastelands_:2way",
-        "projection": "terrain_matching",
+        "location": "fallout_wastelands_:raider_house_01",
+        "projection": "rigid",
         "processors": {
           "processors": [
             {
@@ -15,6 +15,9 @@
               "blocks": [
                 {
                   "Name": "minecraft:structure_block"
+                },
+                {
+                  "Name": "minecraft:command_block"
                 }
               ]
             }

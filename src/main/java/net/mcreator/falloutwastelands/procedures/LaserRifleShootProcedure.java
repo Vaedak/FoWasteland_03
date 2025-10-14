@@ -43,7 +43,7 @@ public class LaserRifleShootProcedure {
 								}
 							}.getArrow(projectileLevel, entity, 2, 0, (byte) 2);
 							_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
-							_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, (float) 3.5, (float) 0.5);
+							_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, (float) 6.5, (float) 0.01);
 							projectileLevel.addFreshEntity(_entityToSpawn);
 						}
 					}

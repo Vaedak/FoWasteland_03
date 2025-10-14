@@ -26,7 +26,7 @@ public class NailGunShootProcedure {
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FalloutWastelandsModItems.NAILGUN.get()) {
 			DontShootOnDropItemProcedure.execute(world, entity);
 			if (entity.getPersistentData().getDouble("cooldown") == 0) {
-				if (itemstack.getDamageValue() < itemstack.getMaxDamage() - 1 == true && entity.getPersistentData().getBoolean("ReloadGun") == false) {
+				if (itemstack.getDamageValue() < itemstack.getMaxDamage() - 0.5 == true && entity.getPersistentData().getBoolean("ReloadGun") == false) {
 					{
 						Entity _shootFrom = entity;
 						Level projectileLevel = _shootFrom.level();

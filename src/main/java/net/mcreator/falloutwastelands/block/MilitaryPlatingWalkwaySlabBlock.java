@@ -7,6 +7,6 @@ import net.minecraft.world.level.block.SlabBlock;
 
 public class MilitaryPlatingWalkwaySlabBlock extends SlabBlock {
 	public MilitaryPlatingWalkwaySlabBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(0.65f, 9f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(6.5f, 9f).requiresCorrectToolForDrops());
 	}
 }

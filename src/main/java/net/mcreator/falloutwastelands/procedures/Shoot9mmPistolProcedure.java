@@ -41,7 +41,7 @@ public class Shoot9mmPistolProcedure {
 									entityToSpawn.setPierceLevel(piercing);
 									return entityToSpawn;
 								}
-							}.getArrow(projectileLevel, entity, (float) 2.5, 0, (byte) 5);
+							}.getArrow(projectileLevel, entity, (float) 0.6, 0, (byte) 5);
 							_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
 							_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 5, (float) 0.01);
 							projectileLevel.addFreshEntity(_entityToSpawn);

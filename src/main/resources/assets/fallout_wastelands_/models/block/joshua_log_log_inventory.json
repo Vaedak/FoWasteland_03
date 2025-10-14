@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "fallout_wastelands_:block/joshualogside",
+    "particle": "fallout_wastelands_:block/joshualogside"
+  },
+  "render_type": "solid"
+}

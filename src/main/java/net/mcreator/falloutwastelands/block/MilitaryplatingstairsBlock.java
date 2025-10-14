@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.Blocks;
 
 public class MilitaryplatingstairsBlock extends StairBlock {
 	public MilitaryplatingstairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(0.65f, 9f).requiresCorrectToolForDrops());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(6.5f, 9f).requiresCorrectToolForDrops());
 	}
 
 	@Override

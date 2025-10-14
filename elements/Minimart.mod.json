@@ -2,29 +2,29 @@
   "_fv": 69,
   "_type": "structure",
   "definition": {
-    "structure": "2way",
-    "projection": "terrain_matching",
+    "structure": "dupermart_01",
+    "projection": "rigid",
     "ignoredBlocks": [
       {
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 64,
-    "separation": 63,
+    "spacing": 28,
+    "separation": 14,
     "restrictionBiomes": [
       {
-        "value": "bamboo_jungle"
+        "value": "CUSTOM:WastelandDryland"
       }
     ],
-    "terrainAdaptation": "beard_thin",
+    "terrainAdaptation": "beard_box",
     "generationStep": "SURFACE_STRUCTURES",
     "surfaceDetectionType": "WORLD_SURFACE_WG",
     "useStartHeight": false,
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 0,
     "startHeightMax": 128,
-    "size": 16,
-    "maxDistanceFromCenter": 116,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
     "jigsawPools": []
   }
 }

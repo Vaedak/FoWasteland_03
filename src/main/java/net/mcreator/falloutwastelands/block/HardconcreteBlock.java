@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class HardconcreteBlock extends Block {
 	public HardconcreteBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 6.5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(5.5f, 6.5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

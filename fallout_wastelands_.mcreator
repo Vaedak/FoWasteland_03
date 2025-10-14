@@ -8093,22 +8093,6 @@
       }
     },
     {
-      "name": "F",
-      "type": "structure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "f",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/f.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/structure/f.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/f.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/f_pool.json"
-        ]
-      },
-      "path": "~/jigsaw"
-    },
-    {
       "name": "RaiderDustwalker",
       "type": "livingentity",
       "compiles": true,
@@ -12620,32 +12604,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "Industrialtier1",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "industrialtier_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/industrialtier_1.json"
-        ]
-      },
-      "path": "~/loottable"
-    },
-    {
-      "name": "Medicaltier1",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "medicaltier_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/medicaltier_1.json"
-        ]
-      },
-      "path": "~/loottable"
-    },
-    {
       "name": "RaiderWarmonger",
       "type": "armor",
       "compiles": true,
@@ -13896,10 +13854,13 @@
       "registry_name": "joshua_log_log",
       "metadata": {
         "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/joshua_log_log_inventory.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/joshua_log_log.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/joshua_log_log.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/joshua_log_log_side_tall.json",
           "src/main/java/net/mcreator/falloutwastelands/block/JoshuaLogLogBlock.java",
           "src/main/resources/assets/fallout_wastelands_/blockstates/joshua_log_log.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/joshua_log_log_post.json",
           "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/joshua_log_log.json"
         ]
       },
@@ -14593,21 +14554,6 @@
         "has_nbt_structure": true
       },
       "path": "~/Structures"
-    },
-    {
-      "name": "Roads",
-      "type": "structure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "roads",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/roads.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/structure/roads.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/roads.json"
-        ]
-      },
-      "path": "~/jigsaw"
     },
     {
       "name": "FridgeGUI",
@@ -15607,6 +15553,198 @@
         ]
       },
       "path": "~/loottable"
+    },
+    {
+      "name": "Civiliantier1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "civiliantier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/chests/civiliantier_1.json"
+        ]
+      },
+      "path": "~/loottable"
+    },
+    {
+      "name": "Raiderbase01",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raiderbase_01",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/raiderbase_01.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/raiderbase_01.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure/raiderbase_01.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Raiderhourse01",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raiderhourse_01",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure/raiderhourse_01.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/raiderhourse_01.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/raiderhourse_01.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Industrialtier1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrialtier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/chests/industrialtier_1.json"
+        ]
+      },
+      "path": "~/loottable"
+    },
+    {
+      "name": "Shipwreck01",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipwreck_01",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure/shipwreck_01.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/shipwreck_01.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/shipwreck_01.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Lobotomitefactory1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lobotomitefactory_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure/lobotomitefactory_1.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/lobotomitefactory_1.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/lobotomitefactory_1.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Radiotower1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiotower_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/radiotower_1.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure/radiotower_1.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/radiotower_1.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "BoStier1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_stier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/chests/bo_stier_1.json"
+        ]
+      },
+      "path": "~/loottable"
+    },
+    {
+      "name": "Thinmetalplating",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thinmetalplating",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/thinmetalplating.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/thinmetalplating.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/ThinmetalplatingBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/thinmetalplating.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/thinmetalplating.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Militarythinplating",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "militarythinplating",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/militarythinplating.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Heavydecoratedpressureplate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavydecoratedpressureplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/HeavydecoratedpressureplateBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/heavydecoratedpressureplate.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/heavydecoratedpressureplate.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/heavydecoratedpressureplate.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/heavydecoratedpressureplate.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/heavydecoratedpressureplate_down.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Minimart",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minimart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/minimart.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/minimart.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure/minimart.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Bosbunker",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bosbunker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure/bosbunker.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/bosbunker.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/bosbunker.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [
@@ -15821,6 +15959,8 @@
       "CUSTOM:T51bPA.body"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Heavydecoratedpressureplate",
+      "~CUSTOM:Thinmetalplating",
       "~CUSTOM:RoofMetalSlab",
       "~CUSTOM:RoofMetalWall",
       "~CUSTOM:Yielroadsign",
@@ -16087,6 +16227,8 @@
       "CUSTOM:WastelandCobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Heavydecoratedpressureplate",
+      "~CUSTOM:Thinmetalplating",
       "~CUSTOM:PortalFrame",
       "~CUSTOM:VaultDoorOpen",
       "~CUSTOM:VaultDoorSealed",
@@ -16333,6 +16475,7 @@
       "CUSTOM:CharredMolderFence"
     ],
     "BLOCKS:minecraft:walls": [
+      "~CUSTOM:JoshuaLogLog",
       "~CUSTOM:AdobeBlockWall",
       "~CUSTOM:WornMetalPillar",
       "CUSTOM:WastelandConcreteWall",
@@ -16410,6 +16553,7 @@
       "key.fallout_wastelands_.player_presses_esc": "Player Closes Inventory",
       "item.fallout_wastelands_.baby_brahmin_spawn_egg": "Baby Brahmin Spawn Egg",
       "item.fallout_wastelands_.copperwires": "Copper Wires",
+      "block.fallout_wastelands_.heavydecoratedpressureplate": "Heavy Decorated Pressure Plate",
       "biome.fallout_wastelands_.wasteland_sea": "Wasteland Sea",
       "entity.fallout_wastelands_.lobotomite_walker": "Lobotomite Walker",
       "block.fallout_wastelands_.double_scaffold_block": "Double Scaffold Block",
@@ -16583,7 +16727,7 @@
       "block.fallout_wastelands_.oxidized_metal_stair": "Smeared Stairs",
       "item.fallout_wastelands_.taloncombatarmor_helmet": "Talon Combat Armor Helmet",
       "item.fallout_wastelands_.sugar_bombs": "Sugar Bombs",
-      "block.fallout_wastelands_.ruins_ground": "Exposed Vault Ruins Block",
+      "block.fallout_wastelands_.ruins_ground": "Rotten Metal Floor Block",
       "block.fallout_wastelands_.roof_metal_wall": "Roof Sheet Metal Block",
       "block.fallout_wastelands_.wasteland_dirt": "Wasteland Dirt",
       "item.fallout_wastelands_.aluminiumnugget": "Aluminium Nugget",
@@ -16731,6 +16875,7 @@
       "block.fallout_wastelands_.oxidized_metal_slab": "Oxidized Metal Slab",
       "block.fallout_wastelands_.military_metal_radiation": "Military Plating (radiation)",
       "block.fallout_wastelands_.wasteland_cobblestone": "Wasteland Cobblestone",
+      "block.fallout_wastelands_.thinmetalplating": "Military Thin Plating",
       "block.fallout_wastelands_.wastelandventconcrete": "Concrete Vent",
       "block.fallout_wastelands_.worn_metal_decoration": "Worn Metal Decoration",
       "item.fallout_wastelands_.abraxo_cleaner": "Abraxo Cleaner",
@@ -16940,10 +17085,10 @@
       "block.fallout_wastelands_.vault_door_sealed": "Vault Door",
       "item.fallout_wastelands_.heavycalibercasing": "Large Empty Rounds",
       "entity.fallout_wastelands_.power_armor_frame": "Power Armor Frame",
-      "block.fallout_wastelands_.ruins": "Ruins Vault Block",
+      "block.fallout_wastelands_.ruins": "Rotten Metal Block",
       "item.fallout_wastelands_.t_45_pa_helmet": "T45 Helmet",
       "block.fallout_wastelands_.joshua_tree_woodplanks": "Joshhua Tree Planks",
-      "block.fallout_wastelands_.ruins_base": "Rusted Vault Ruins Block (base)",
+      "block.fallout_wastelands_.ruins_base": "Rotten Metal structure Block",
       "block.fallout_wastelands_.melted_iron_block": "Melted Iron Block",
       "block.fallout_wastelands_.sheetmetalstairs": "Sheet Metal Stairs",
       "block.fallout_wastelands_.bo_s_steel_wall": "BoS Steel Wall",

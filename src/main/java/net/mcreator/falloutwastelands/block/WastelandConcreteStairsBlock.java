@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.Blocks;
 
 public class WastelandConcreteStairsBlock extends StairBlock {
 	public WastelandConcreteStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(0.7f, 5.5f).requiresCorrectToolForDrops());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(3.5f, 5.5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

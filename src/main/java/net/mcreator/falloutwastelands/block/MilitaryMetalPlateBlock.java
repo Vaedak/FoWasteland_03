@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class MilitaryMetalPlateBlock extends Block {
 	public MilitaryMetalPlateBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(0.65f, 9f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(6.5f, 9f).requiresCorrectToolForDrops());
 	}
 
 	@Override

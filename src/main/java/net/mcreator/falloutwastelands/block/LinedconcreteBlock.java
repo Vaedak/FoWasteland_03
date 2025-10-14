@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class LinedconcreteBlock extends Block {
 	public LinedconcreteBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(0.7f, 5.5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(3.5f, 5.5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

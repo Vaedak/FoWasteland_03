@@ -295,6 +295,8 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.VAULT_DOOR_SEALED.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.VAULT_DOOR_OPEN.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.PORTAL_FRAME.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.THINMETALPLATING.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.HEAVYDECORATEDPRESSUREPLATE.get().asItem());
 			})
 
 					.build());

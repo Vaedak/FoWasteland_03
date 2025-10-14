@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "fallout_wastelands_:block/heavydecoratedpressureplate"
+    },
+    "powered=true": {
+      "model": "fallout_wastelands_:block/heavydecoratedpressureplate_down"
+    }
+  }
+}

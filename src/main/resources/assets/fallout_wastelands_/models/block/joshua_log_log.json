@@ -1,7 +1,7 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/template_wall_side",
   "textures": {
-    "all": "fallout_wastelands_:block/joshualogside",
+    "wall": "fallout_wastelands_:block/joshualogside",
     "particle": "fallout_wastelands_:block/joshualogside"
   },
   "render_type": "solid"

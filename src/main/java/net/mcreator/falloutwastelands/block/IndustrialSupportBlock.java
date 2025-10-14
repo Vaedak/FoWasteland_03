@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class IndustrialSupportBlock extends Block {
 	public IndustrialSupportBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(0.75f, 7f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1.2f, 7f).requiresCorrectToolForDrops());
 	}
 
 	@Override

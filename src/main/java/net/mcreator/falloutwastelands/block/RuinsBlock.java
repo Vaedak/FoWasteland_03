@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class RuinsBlock extends Block {
 	public RuinsBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(0.55f, 3.5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(0.85f, 3.5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

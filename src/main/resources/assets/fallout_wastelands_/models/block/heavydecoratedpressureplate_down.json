@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "particle": "fallout_wastelands_:block/wastelandwornmetaltop",
+    "texture": "fallout_wastelands_:block/wastelandwornmetaltop"
+  },
+  "render_type": "solid"
+}

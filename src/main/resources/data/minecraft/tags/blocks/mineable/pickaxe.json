@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:heavydecoratedpressureplate",
+    "fallout_wastelands_:thinmetalplating",
     "fallout_wastelands_:portal_frame",
     "fallout_wastelands_:vault_door_open",
     "fallout_wastelands_:vault_door_sealed",

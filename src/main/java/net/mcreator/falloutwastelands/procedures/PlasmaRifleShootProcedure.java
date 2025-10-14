@@ -41,7 +41,7 @@ public class PlasmaRifleShootProcedure {
 									entityToSpawn.setPierceLevel(piercing);
 									return entityToSpawn;
 								}
-							}.getArrow(projectileLevel, entity, 4, 0, (byte) 1);
+							}.getArrow(projectileLevel, entity, 5, 0, (byte) 1);
 							_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
 							_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, (float) 2.4, (float) 0.04);
 							projectileLevel.addFreshEntity(_entityToSpawn);

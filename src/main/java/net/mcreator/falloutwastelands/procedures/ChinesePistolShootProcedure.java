@@ -40,7 +40,7 @@ public class ChinesePistolShootProcedure {
 									entityToSpawn.setSilent(true);
 									return entityToSpawn;
 								}
-							}.getArrow(projectileLevel, entity, (float) 1.5, 0);
+							}.getArrow(projectileLevel, entity, (float) 0.9, 0);
 							_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
 							_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 8, (float) 0.02);
 							projectileLevel.addFreshEntity(_entityToSpawn);

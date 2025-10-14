@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class IndustrialPlatingBlock extends Block {
 	public IndustrialPlatingBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(0.7f, 6f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1.2f, 6f).requiresCorrectToolForDrops());
 	}
 
 	@Override

@@ -109,7 +109,7 @@ public class BrahminEntity extends Cow implements GeoEntity {
 		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(4, new FloatGoal(this));
 		this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, (float) 0.5));
-		this.goalSelector.addGoal(6, new PanicGoal(this, 1));
+		this.goalSelector.addGoal(6, new PanicGoal(this, 0.8));
 	}
 
 	@Override

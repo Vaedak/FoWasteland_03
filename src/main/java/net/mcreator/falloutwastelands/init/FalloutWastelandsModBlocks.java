@@ -94,6 +94,7 @@ import net.mcreator.falloutwastelands.block.TrashBinBlock;
 import net.mcreator.falloutwastelands.block.TireStackBlock;
 import net.mcreator.falloutwastelands.block.TinOreBlock;
 import net.mcreator.falloutwastelands.block.TinBlockBlock;
+import net.mcreator.falloutwastelands.block.ThinmetalplatingBlock;
 import net.mcreator.falloutwastelands.block.TheGlowDirtBlock;
 import net.mcreator.falloutwastelands.block.TerminalBlock;
 import net.mcreator.falloutwastelands.block.TelevisionBlock;
@@ -212,6 +213,7 @@ import net.mcreator.falloutwastelands.block.IndustrialAllowMidRivetBlock;
 import net.mcreator.falloutwastelands.block.IndusPipeHubBlock;
 import net.mcreator.falloutwastelands.block.IndusPipeBlock;
 import net.mcreator.falloutwastelands.block.HorizontallinedconcreteBlock;
+import net.mcreator.falloutwastelands.block.HeavydecoratedpressureplateBlock;
 import net.mcreator.falloutwastelands.block.HardconcretestairsBlock;
 import net.mcreator.falloutwastelands.block.HardconcreteBlock;
 import net.mcreator.falloutwastelands.block.HangardoorBlock;
@@ -570,6 +572,8 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> VAULT_DOOR_OPEN = REGISTRY.register("vault_door_open", () -> new VaultDoorOpenBlock());
 	public static final RegistryObject<Block> FE_VGOO = REGISTRY.register("fe_vgoo", () -> new FEVgooBlock());
 	public static final RegistryObject<Block> PORTAL_FRAME = REGISTRY.register("portal_frame", () -> new PortalFrameBlock());
+	public static final RegistryObject<Block> THINMETALPLATING = REGISTRY.register("thinmetalplating", () -> new ThinmetalplatingBlock());
+	public static final RegistryObject<Block> HEAVYDECORATEDPRESSUREPLATE = REGISTRY.register("heavydecoratedpressureplate", () -> new HeavydecoratedpressureplateBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
