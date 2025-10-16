@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "fallout_wastelands_:blocks/bunker_block_light",
+  "random_sequence": "fallout_wastelands_:blocks/enclave_wood_plated_block",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:bunker_block_light"
+          "name": "fallout_wastelands_:enclave_wood_plated_block"
         }
       ]
     }

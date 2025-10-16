@@ -70,7 +70,7 @@
         {
           "type": "minecraft:item",
           "name": "fallout_wastelands_:handyman_suit_chestplate",
-          "weight": 1,
+          "weight": 3,
           "functions": [
             {
               "function": "set_count",
@@ -84,7 +84,7 @@
         {
           "type": "minecraft:item",
           "name": "fallout_wastelands_:handyman_suit_leggings",
-          "weight": 1,
+          "weight": 3,
           "functions": [
             {
               "function": "set_count",
@@ -98,7 +98,7 @@
         {
           "type": "minecraft:item",
           "name": "fallout_wastelands_:handyman_suit_boots",
-          "weight": 1,
+          "weight": 3,
           "functions": [
             {
               "function": "set_count",
@@ -329,6 +329,20 @@
               "count": {
                 "min": 1,
                 "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:nailgun",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
               }
             }
           ]

@@ -2,17 +2,17 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "enclavemetalplating1",
+    "texture": "enclavetile_3",
     "textureTop": "",
     "textureLeft": "",
-    "textureFront": "enclavemetalplatingwallsneonsb1",
+    "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 1,
+    "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Enclave Lantern Bunker Block",
+    "name": "Enclave Bunker Vertical Light",
     "specialInformation": {
       "fixedValue": []
     },
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -101,7 +101,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 3,
+    "luminance": 12,
     "unbreakable": false,
     "vanillaToolTier": "IRON",
     "isBonemealable": false,

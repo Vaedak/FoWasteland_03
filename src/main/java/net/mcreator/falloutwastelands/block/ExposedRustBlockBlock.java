@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class ExposedRustBlockBlock extends Block {
 	public ExposedRustBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.CALCITE).strength(0.25f, 4f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.CALCITE).strength(1.5f, 4f).requiresCorrectToolForDrops());
 	}
 
 	@Override

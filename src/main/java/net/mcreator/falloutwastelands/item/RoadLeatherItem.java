@@ -36,7 +36,7 @@ public abstract class RoadLeatherItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{1, 2, 3, 0}[type.getSlot().getIndex()];
+				return new int[]{2, 3, 4, 1}[type.getSlot().getIndex()];
 			}
 
 			@Override

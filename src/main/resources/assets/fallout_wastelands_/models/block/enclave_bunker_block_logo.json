@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "fallout_wastelands_:block/enclavemetalplatinglogosh1",
-    "up": "fallout_wastelands_:block/enclavemetalplatinglogosh1",
-    "north": "fallout_wastelands_:block/enclavemetalplatinglogosh1",
-    "east": "fallout_wastelands_:block/enclavemetalplatinglogosh1",
-    "south": "fallout_wastelands_:block/enclavemetalplatinglogosh1",
-    "west": "fallout_wastelands_:block/enclavemetalplatinglogosh1",
-    "particle": "fallout_wastelands_:block/enclavemetalplatinglogosh1"
+    "down": "fallout_wastelands_:block/enclavetile_4",
+    "up": "fallout_wastelands_:block/enclavetile_4",
+    "north": "fallout_wastelands_:block/enclavetile_4",
+    "east": "fallout_wastelands_:block/enclavetile_4",
+    "south": "fallout_wastelands_:block/enclavetile_4",
+    "west": "fallout_wastelands_:block/enclavetile_4",
+    "particle": "fallout_wastelands_:block/enclavetile_4"
   },
   "render_type": "solid"
 }

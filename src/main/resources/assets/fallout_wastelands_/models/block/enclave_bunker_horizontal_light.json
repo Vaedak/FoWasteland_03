@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/enclavetile_2",
+    "up": "fallout_wastelands_:block/enclavetile_2",
+    "north": "fallout_wastelands_:block/enclavetile_2",
+    "east": "fallout_wastelands_:block/enclavetile_2",
+    "south": "fallout_wastelands_:block/enclavetile_2",
+    "west": "fallout_wastelands_:block/enclavetile_2",
+    "particle": "fallout_wastelands_:block/enclavetile_2"
+  },
+  "render_type": "solid"
+}

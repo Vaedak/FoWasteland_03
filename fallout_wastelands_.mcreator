@@ -5454,23 +5454,6 @@
       "path": "~/Blocks"
     },
     {
-      "name": "BunkerBlockLight",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bunker_block_light",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fallout_wastelands_/blockstates/bunker_block_light.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/bunker_block_light.json",
-          "src/main/java/net/mcreator/falloutwastelands/block/BunkerBlockLightBlock.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/bunker_block_light.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/bunker_block_light.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
       "name": "IndustrialAlloy",
       "type": "block",
       "compiles": true,
@@ -15745,6 +15728,137 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "Burnedtreeless",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnedtreeless",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/burnedtreeless.json",
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/burnedtreeless_biome_modifier.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/burnedtreeless.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "Enclavelootable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclavelootable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/chests/enclavelootable.json"
+        ]
+      },
+      "path": "~/loottable"
+    },
+    {
+      "name": "EnclaveBunkerVerticallight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_bunker_verticallight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/enclave_bunker_verticallight.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/EnclaveBunkerVerticallightBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/enclave_bunker_verticallight.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/enclave_bunker_verticallight.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_bunker_verticallight.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnclaveBunkerHorizontalLight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_bunker_horizontal_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_bunker_horizontal_light.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/enclave_bunker_horizontal_light.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/enclave_bunker_horizontal_light.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/enclave_bunker_horizontal_light.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/EnclaveBunkerHorizontalLightBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnclaveBunkerVent",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_bunker_vent",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/enclave_bunker_vent.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/enclave_bunker_vent.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_bunker_vent.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/EnclaveBunkerVentBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/enclave_bunker_vent.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnclaveWoodPlatedBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_wood_plated_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/EnclaveWoodPlatedBlockBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/enclave_wood_plated_block.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_wood_plated_block.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/enclave_wood_plated_block.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/enclave_wood_plated_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnclaveBunkerCarpet",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_bunker_carpet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/enclave_bunker_carpet.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_bunker_carpet.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/enclave_bunker_carpet.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/EnclaveBunkerCarpetBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/enclave_bunker_carpet.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "APA1",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apa_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/APA1Item.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/apa_1_boots.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/apa_1_chestplate.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/apa_1_helmet.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/apa_1_leggings.json"
+        ]
+      },
+      "path": "~/Armors"
     }
   ],
   "variable_elements": [
@@ -15881,6 +15995,11 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs"
+    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:FEVgoo",
       "~CUSTOM:WastelandDriedGrass",
@@ -15889,14 +16008,6 @@
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
-    ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs"
-    ],
-    "BLOCKS:minecraft:sand": [
-      "CUSTOM:WasteSand"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -15908,6 +16019,9 @@
       "CUSTOM:Nailgun",
       "CUSTOM:Chinesepistol",
       "CUSTOM:Fivemmminigun"
+    ],
+    "BLOCKS:minecraft:sand": [
+      "CUSTOM:WasteSand"
     ],
     "ITEMS:minecraft:wooden_stairs": [
       "CUSTOM:Molder_WoodStairs"
@@ -16118,6 +16232,11 @@
       "Blocks.STONECUTTER"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:EnclaveBunkerCarpet",
+      "~CUSTOM:EnclaveWoodPlatedBlock",
+      "~CUSTOM:EnclaveBunkerVent",
+      "~CUSTOM:EnclaveBunkerHorizontalLight",
+      "~CUSTOM:EnclaveBunkerVerticallight",
       "~CUSTOM:PortalFrame",
       "~CUSTOM:VaultDoorOpen",
       "~CUSTOM:VaultDoorSealed",
@@ -16180,7 +16299,6 @@
       "~CUSTOM:IndustrialAlloySlab",
       "~CUSTOM:IndustrialAlloyPlain",
       "~CUSTOM:IndustrialAlloy",
-      "~CUSTOM:BunkerBlockLight",
       "~CUSTOM:EnclaveBunkerFloor",
       "~CUSTOM:EnclaveBunkerBlockLogo",
       "~CUSTOM:EnclaveBunkerBlock",
@@ -16227,6 +16345,11 @@
       "CUSTOM:WastelandCobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EnclaveBunkerCarpet",
+      "~CUSTOM:EnclaveWoodPlatedBlock",
+      "~CUSTOM:EnclaveBunkerVent",
+      "~CUSTOM:EnclaveBunkerHorizontalLight",
+      "~CUSTOM:EnclaveBunkerVerticallight",
       "~CUSTOM:Heavydecoratedpressureplate",
       "~CUSTOM:Thinmetalplating",
       "~CUSTOM:PortalFrame",
@@ -16348,7 +16471,6 @@
       "~CUSTOM:IndustrialAlloySlab",
       "~CUSTOM:IndustrialAlloyPlain",
       "~CUSTOM:IndustrialAlloy",
-      "~CUSTOM:BunkerBlockLight",
       "~CUSTOM:EnclaveBunkerFloor",
       "~CUSTOM:EnclaveBunkerBlockLogo",
       "~CUSTOM:EnclaveBunkerBlock",
@@ -16544,8 +16666,8 @@
   "language_map": {
     "en_us": {
       "item.fallout_wastelands_.tenmmpistol": "10mm Pistol",
-      "block.fallout_wastelands_.linedconcrete": "Concrete",
       "block.fallout_wastelands_.bo_s_tile": "Bos Tile",
+      "block.fallout_wastelands_.linedconcrete": "Concrete",
       "item.fallout_wastelands_.brahim_meat": "Brahim Meat",
       "item.fallout_wastelands_.dynamite_item": "Dynamite",
       "block.fallout_wastelands_.metal_shelf": "Metal Shelf",
@@ -16558,6 +16680,7 @@
       "entity.fallout_wastelands_.lobotomite_walker": "Lobotomite Walker",
       "block.fallout_wastelands_.double_scaffold_block": "Double Scaffold Block",
       "item.fallout_wastelands_.deathclawhand": "Deathclaw Hand",
+      "block.fallout_wastelands_.enclave_wood_plated_block": "Enclave Bunker Wood Plates",
       "block.fallout_wastelands_.wasteland_brick": "Wasteland Bricks",
       "block.fallout_wastelands_.tire_stack": "Tire Stack",
       "gui.fallout_wastelands_.base_menu_ui.label_inventory": "Inventory",
@@ -16565,8 +16688,8 @@
       "block.fallout_wastelands_.vault_tile_4": "Vault Tile",
       "block.fallout_wastelands_.vault_tile_5": "Vault Tile",
       "block.fallout_wastelands_.vault_tile_2": "Vault Tile",
-      "item.fallout_wastelands_.enclaveofficier_suit_chestplate": "Enclave Vest",
       "block.fallout_wastelands_.vault_tile_3": "Vault Tile",
+      "item.fallout_wastelands_.enclaveofficier_suit_chestplate": "Enclave Vest",
       "item.fallout_wastelands_.wrench": "Wrench",
       "block.fallout_wastelands_.wastelandshortburntgrass": "Wasteland Short Burnt Grass",
       "block.fallout_wastelands_.wasteland_goldore": "Wasteland Gold Ore",
@@ -16588,18 +16711,20 @@
       "item.fallout_wastelands_.lobotomite_suit_leggings": "Lobotomite Pants",
       "item.fallout_wastelands_.roentgen_rum": "Roentgen Rum",
       "item.fallout_wastelands_.raw_lead": "Raw Lead",
-      "item.fallout_wastelands_.enclaveofficier_suit_helmet": "Enclave Cap",
-      "block.fallout_wastelands_.wastelandburntgrass": "Wasteland Burnt Grass",
+      "block.fallout_wastelands_.enclave_bunker_horizontal_light": "Enclave Bunker Horizontal Light",
       "item.fallout_wastelands_.vodka": "Vodka",
-      "item.fallout_wastelands_.enclaveofficier_suit_boots": "Enclave Boots",
+      "block.fallout_wastelands_.wastelandburntgrass": "Wasteland Burnt Grass",
+      "item.fallout_wastelands_.enclaveofficier_suit_helmet": "Enclave Cap",
       "block.fallout_wastelands_.indus_pipe": "Industrial Pipe",
+      "item.fallout_wastelands_.enclaveofficier_suit_boots": "Enclave Boots",
       "item.fallout_wastelands_.cannibal_00_spawn_egg": "Cannibal Grunt Spawn Egg",
-      "block.fallout_wastelands_.single_scaffold_block": "Scaffold Block",
       "block.fallout_wastelands_.yielroadsign": "Yield Roadsign",
+      "block.fallout_wastelands_.single_scaffold_block": "Scaffold Block",
       "item.fallout_wastelands_.army_repairman_suit_chestplate": "Army Repairman Jacket",
       "item.fallout_wastelands_.industrialhammer": "Sledgehammer",
       "item.fallout_wastelands_.handyman_suit_chestplate": "Handyman Jacket",
       "entity.fallout_wastelands_.spiderfloater": "Spiderfloater",
+      "block.fallout_wastelands_.enclave_bunker_carpet": "Enclave Bunker Carpet",
       "item.fallout_wastelands_.pa_display_entity_spawn_egg": "PA Display Entity Spawn Egg",
       "gui.fallout_wastelands_.base_menu_ui.label_varlocalvar": "DisplaysInputName",
       "block.fallout_wastelands_.bos_metal_roof_stairs": "BoS Metal Roof Stairs",
@@ -16610,8 +16735,9 @@
       "block.fallout_wastelands_.molder_wood_log": "Rotten Wood Log",
       "biome.fallout_wastelands_.wasteland_dryland": "Wasteland Dryland",
       "block.fallout_wastelands_.enclave_bunker_block": "Enclave Bunker Block",
-      "block.fallout_wastelands_.aluminum_block": "Aluminum Block",
+      "block.fallout_wastelands_.enclave_bunker_vent": "Enclave Bunker Vent",
       "block.fallout_wastelands_.vault_floor": "Vault Floor",
+      "block.fallout_wastelands_.aluminum_block": "Aluminum Block",
       "item.fallout_wastelands_.plasmarifle": "Plasma Rifle",
       "item.fallout_wastelands_.mug": "Mug",
       "item.fallout_wastelands_.cannibal_02_spawn_egg": "Cannibal Trapper Spawn Egg",
@@ -16620,6 +16746,7 @@
       "block.fallout_wastelands_.steel_bars": "Steel Bars",
       "block.fallout_wastelands_.wasteland_road_white_slab": "White Wasteland Asphalt Slab",
       "block.fallout_wastelands_.portal_frame": "Wasteland Portal Frame",
+      "item.fallout_wastelands_.apa_1_leggings": "APA1 Leggings",
       "item.fallout_wastelands_.raiderbasher_helmet": "Raider Basher Helmet",
       "subtitles.wasteland_wind": "",
       "item_group.fallout_wastelands_.wastelanditems": "Wastelands Items",
@@ -16820,7 +16947,6 @@
       "item.fallout_wastelands_.stimpack": "Stimpack",
       "item.fallout_wastelands_.base_cap_bundle": "Cap Bundle",
       "block.fallout_wastelands_.wall_wasteland_cobblestone": "Wasteland Cobblestone Wall",
-      "block.fallout_wastelands_.bunker_block_light": "Enclave Lantern Bunker Block",
       "item.fallout_wastelands_.bottle_cap": "Bottle Cap",
       "block.fallout_wastelands_.wasteland_aluminum_ore": "Aluminum Ore",
       "block.fallout_wastelands_.metal_barrel": "Metal Barrel",
@@ -16850,11 +16976,13 @@
       "block.fallout_wastelands_.mixer": "Mixer",
       "block.fallout_wastelands_.plaster": "Plaster",
       "block.fallout_wastelands_.bo_s_metal_roof": "BoS Metal Roof",
+      "item.fallout_wastelands_.apa_1_helmet": "APA1 Helmet",
       "item.fallout_wastelands_.raider_dustwalker_spawn_egg": "Raider Dustwalker Spawn Egg",
       "block.fallout_wastelands_.stoproadsign": "Stop Roadsign",
       "item.fallout_wastelands_.radroach_meat": "Radroach Meat",
       "block.fallout_wastelands_.uranium_ore": "Uranium Ore",
       "block.fallout_wastelands_.vault_wall": "Vault Wall",
+      "item.fallout_wastelands_.apa_1_boots": "APA1 Boots",
       "block.fallout_wastelands_.bo_s_grid_floor_slab": "BoS Grid Floor Slab",
       "subtitles.pistol32firing": "",
       "block.fallout_wastelands_.rusted_sheet_metal_wall": "Rusted Sheet Metal Wall",
@@ -16902,6 +17030,7 @@
       "item.fallout_wastelands_.ripper": "Ripper",
       "item.fallout_wastelands_.antiradclothing": "Anti-rad Clothing",
       "block.fallout_wastelands_.lightbulbon": "Lightbulb",
+      "block.fallout_wastelands_.enclave_bunker_verticallight": "Enclave Bunker Vertical Light",
       "item.fallout_wastelands_.asbestos": "Asbestos",
       "item.fallout_wastelands_.vaccum_tube": "Vaccum Tube",
       "block.fallout_wastelands_.wasteland_brick_stairs": "Wasteland Brick Stairs",
@@ -17049,6 +17178,7 @@
       "block.fallout_wastelands_.lead_ore": "Lead Ore",
       "block.fallout_wastelands_.molder_wood_stairs": "Rotten Wood Stairs",
       "item.fallout_wastelands_.feral_ghoul_spawn_egg": "Feral Ghoul Spawn Egg",
+      "item.fallout_wastelands_.apa_1_chestplate": "APA1 Chestplate",
       "item.fallout_wastelands_.raiderduster_chestplate": "Raider Duster Chestpads",
       "item.fallout_wastelands_.thirtytwoammo": ".32 Rounds",
       "block.fallout_wastelands_.pipe": "Pipe",

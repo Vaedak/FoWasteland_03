@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 0,
-        "max": 2
+        "min": 1,
+        "max": 3
       },
       "entries": [
         {
@@ -38,7 +38,7 @@
         {
           "type": "minecraft:item",
           "name": "fallout_wastelands_:ninemmpistol",
-          "weight": 11,
+          "weight": 15,
           "functions": [
             {
               "function": "set_count",
@@ -66,7 +66,7 @@
         {
           "type": "minecraft:item",
           "name": "fallout_wastelands_:revolver_32",
-          "weight": 10,
+          "weight": 13,
           "functions": [
             {
               "function": "set_count",
@@ -95,6 +95,48 @@
           "type": "minecraft:item",
           "name": "fallout_wastelands_:tenmmpistol",
           "weight": 15,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:stimpack",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:combatarmor_chestplate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fallout_wastelands_:fivemm_ammo",
+          "weight": 7,
           "functions": [
             {
               "function": "set_count",

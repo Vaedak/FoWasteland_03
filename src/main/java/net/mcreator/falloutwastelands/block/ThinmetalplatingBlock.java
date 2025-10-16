@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class ThinmetalplatingBlock extends Block {
 	public ThinmetalplatingBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(0.65f, 9f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 9f).requiresCorrectToolForDrops());
 	}
 
 	@Override

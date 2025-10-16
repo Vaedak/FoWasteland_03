@@ -2,8 +2,8 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "enclavemetalplating1",
-    "textureTop": "enclavemetalplatingfloortop",
+    "texture": "enclavetile_1",
+    "textureTop": "enclavetile_5",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -18,9 +18,9 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,

@@ -22,7 +22,7 @@ public class FloorPapersBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public FloorPapersBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.LILY_PAD).strength(0.1f, 0.5f).requiresCorrectToolForDrops().noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.LILY_PAD).strength(0.1f, 0.5f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 

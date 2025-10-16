@@ -154,7 +154,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_BLOCK.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_BLOCK_LOGO.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_FLOOR.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.BUNKER_BLOCK_LIGHT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_PLAIN.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_SLAB.get().asItem());
@@ -297,6 +296,11 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.PORTAL_FRAME.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.THINMETALPLATING.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.HEAVYDECORATEDPRESSUREPLATE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_VERTICALLIGHT.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_HORIZONTAL_LIGHT.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_VENT.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_WOOD_PLATED_BLOCK.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_CARPET.get().asItem());
 			})
 
 					.build());
@@ -404,6 +408,10 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.VAULT_SECURITY_SUIT_BOOTS.get());
 				tabData.accept(FalloutWastelandsModItems.DYNAMITE_ITEM.get());
 				tabData.accept(FalloutWastelandsModItems.KNIFE.get());
+				tabData.accept(FalloutWastelandsModItems.APA_1_HELMET.get());
+				tabData.accept(FalloutWastelandsModItems.APA_1_CHESTPLATE.get());
+				tabData.accept(FalloutWastelandsModItems.APA_1_LEGGINGS.get());
+				tabData.accept(FalloutWastelandsModItems.APA_1_BOOTS.get());
 			})
 
 					.build());

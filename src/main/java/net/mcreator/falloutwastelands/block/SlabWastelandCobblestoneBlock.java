@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.SlabBlock;
 
 public class SlabWastelandCobblestoneBlock extends SlabBlock {
 	public SlabWastelandCobblestoneBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(0.3f, 7f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2f, 7f).requiresCorrectToolForDrops());
 	}
 }

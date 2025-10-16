@@ -128,21 +128,21 @@
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 4
+                "max": 6
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:tenmmammo",
+          "name": "fallout_wastelands_:thirtytwoammo",
           "weight": 7,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 2
+                "max": 7
               }
             }
           ]

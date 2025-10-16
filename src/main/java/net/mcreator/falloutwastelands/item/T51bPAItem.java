@@ -37,7 +37,7 @@ public abstract class T51bPAItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{5, 6, 9, 7}[type.getSlot().getIndex()];
+				return new int[]{6, 7, 10, 8}[type.getSlot().getIndex()];
 			}
 
 			@Override

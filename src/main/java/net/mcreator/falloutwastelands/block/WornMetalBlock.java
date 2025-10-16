@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class WornMetalBlock extends Block {
 	public WornMetalBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(0.55f, 8f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 8f).requiresCorrectToolForDrops());
 	}
 
 	@Override

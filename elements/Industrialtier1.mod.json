@@ -72,7 +72,7 @@
             "item": {
               "value": "CUSTOM:HandymanSuit.body"
             },
-            "weight": 1,
+            "weight": 3,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -86,7 +86,7 @@
             "item": {
               "value": "CUSTOM:HandymanSuit.legs"
             },
-            "weight": 1,
+            "weight": 3,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -100,7 +100,7 @@
             "item": {
               "value": "CUSTOM:HandymanSuit.boots"
             },
-            "weight": 1,
+            "weight": 3,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -327,6 +327,20 @@
             "weight": 9,
             "minCount": 1,
             "maxCount": 8,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Nailgun"
+            },
+            "weight": 3,
+            "minCount": 1,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

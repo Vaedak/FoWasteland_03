@@ -25,7 +25,7 @@ public abstract class TaloncombatarmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{2, 5, 6, 2}[type.getSlot().getIndex()];
+				return new int[]{3, 6, 7, 3}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -55,7 +55,7 @@ public abstract class TaloncombatarmorItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.5f;
+				return 0.8f;
 			}
 		}, type, properties);
 	}

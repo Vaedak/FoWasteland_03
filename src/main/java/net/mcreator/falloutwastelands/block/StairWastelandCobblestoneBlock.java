@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.Blocks;
 
 public class StairWastelandCobblestoneBlock extends StairBlock {
 	public StairWastelandCobblestoneBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(0.3f, 7f).requiresCorrectToolForDrops());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2f, 7f).requiresCorrectToolForDrops());
 	}
 
 	@Override

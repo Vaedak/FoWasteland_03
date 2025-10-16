@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class RustySheetmetalblockBlock extends Block {
 	public RustySheetmetalblockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(0.55f, 6f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1.5f, 6f).requiresCorrectToolForDrops());
 	}
 
 	@Override

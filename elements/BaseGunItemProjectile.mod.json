@@ -7,7 +7,7 @@
     },
     "showParticles": false,
     "actionSound": {
-      "value": "entity.arrow.shoot"
+      "value": "CUSTOM:pistol32firing"
     },
     "igniteFire": false,
     "power": 1.7,

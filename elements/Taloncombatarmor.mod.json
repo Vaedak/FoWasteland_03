@@ -85,13 +85,13 @@
       "fixedValue": false
     },
     "maxDamage": 25,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
     "enchantability": 9,
     "toughness": 0.2,
-    "knockbackResistance": 0.5,
+    "knockbackResistance": 0.7999999999999999,
     "equipSound": {
       "value": "item.armor.equip_leather"
     },

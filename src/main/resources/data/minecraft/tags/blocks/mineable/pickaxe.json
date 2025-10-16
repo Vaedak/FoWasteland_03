@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:enclave_bunker_carpet",
+    "fallout_wastelands_:enclave_wood_plated_block",
+    "fallout_wastelands_:enclave_bunker_vent",
+    "fallout_wastelands_:enclave_bunker_horizontal_light",
+    "fallout_wastelands_:enclave_bunker_verticallight",
     "fallout_wastelands_:heavydecoratedpressureplate",
     "fallout_wastelands_:thinmetalplating",
     "fallout_wastelands_:portal_frame",
@@ -122,7 +127,6 @@
     "fallout_wastelands_:industrial_alloy_slab",
     "fallout_wastelands_:industrial_alloy_plain",
     "fallout_wastelands_:industrial_alloy",
-    "fallout_wastelands_:bunker_block_light",
     "fallout_wastelands_:enclave_bunker_floor",
     "fallout_wastelands_:enclave_bunker_block_logo",
     "fallout_wastelands_:enclave_bunker_block",

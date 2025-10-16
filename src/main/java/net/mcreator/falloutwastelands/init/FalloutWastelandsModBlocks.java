@@ -233,9 +233,14 @@ import net.mcreator.falloutwastelands.block.FloorPapersBlock;
 import net.mcreator.falloutwastelands.block.FilingCabinetBlock;
 import net.mcreator.falloutwastelands.block.FEVgooBlock;
 import net.mcreator.falloutwastelands.block.ExposedRustBlockBlock;
+import net.mcreator.falloutwastelands.block.EnclaveWoodPlatedBlockBlock;
 import net.mcreator.falloutwastelands.block.EnclaveDoorBlock;
+import net.mcreator.falloutwastelands.block.EnclaveBunkerVerticallightBlock;
+import net.mcreator.falloutwastelands.block.EnclaveBunkerVentBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerStairsBlock;
+import net.mcreator.falloutwastelands.block.EnclaveBunkerHorizontalLightBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerFloorBlock;
+import net.mcreator.falloutwastelands.block.EnclaveBunkerCarpetBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerBlockLogoBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerBlockBlock;
 import net.mcreator.falloutwastelands.block.EncasedIndusPipeBlock;
@@ -258,7 +263,6 @@ import net.mcreator.falloutwastelands.block.CeilingLightBlock;
 import net.mcreator.falloutwastelands.block.CageBlock;
 import net.mcreator.falloutwastelands.block.BurnishedGlassPaneBlock;
 import net.mcreator.falloutwastelands.block.BurnishedGlassBlock;
-import net.mcreator.falloutwastelands.block.BunkerBlockLightBlock;
 import net.mcreator.falloutwastelands.block.BosSteelStairBlock;
 import net.mcreator.falloutwastelands.block.BosSteelSlabsBlock;
 import net.mcreator.falloutwastelands.block.BosSteelBlockBlock;
@@ -412,7 +416,6 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> ENCLAVE_BUNKER_BLOCK = REGISTRY.register("enclave_bunker_block", () -> new EnclaveBunkerBlockBlock());
 	public static final RegistryObject<Block> ENCLAVE_BUNKER_BLOCK_LOGO = REGISTRY.register("enclave_bunker_block_logo", () -> new EnclaveBunkerBlockLogoBlock());
 	public static final RegistryObject<Block> ENCLAVE_BUNKER_FLOOR = REGISTRY.register("enclave_bunker_floor", () -> new EnclaveBunkerFloorBlock());
-	public static final RegistryObject<Block> BUNKER_BLOCK_LIGHT = REGISTRY.register("bunker_block_light", () -> new BunkerBlockLightBlock());
 	public static final RegistryObject<Block> INDUSTRIAL_ALLOY = REGISTRY.register("industrial_alloy", () -> new IndustrialAlloyBlock());
 	public static final RegistryObject<Block> INDUSTRIAL_ALLOY_PLAIN = REGISTRY.register("industrial_alloy_plain", () -> new IndustrialAlloyPlainBlock());
 	public static final RegistryObject<Block> INDUSTRIAL_ALLOY_SLAB = REGISTRY.register("industrial_alloy_slab", () -> new IndustrialAlloySlabBlock());
@@ -574,6 +577,11 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> PORTAL_FRAME = REGISTRY.register("portal_frame", () -> new PortalFrameBlock());
 	public static final RegistryObject<Block> THINMETALPLATING = REGISTRY.register("thinmetalplating", () -> new ThinmetalplatingBlock());
 	public static final RegistryObject<Block> HEAVYDECORATEDPRESSUREPLATE = REGISTRY.register("heavydecoratedpressureplate", () -> new HeavydecoratedpressureplateBlock());
+	public static final RegistryObject<Block> ENCLAVE_BUNKER_VERTICALLIGHT = REGISTRY.register("enclave_bunker_verticallight", () -> new EnclaveBunkerVerticallightBlock());
+	public static final RegistryObject<Block> ENCLAVE_BUNKER_HORIZONTAL_LIGHT = REGISTRY.register("enclave_bunker_horizontal_light", () -> new EnclaveBunkerHorizontalLightBlock());
+	public static final RegistryObject<Block> ENCLAVE_BUNKER_VENT = REGISTRY.register("enclave_bunker_vent", () -> new EnclaveBunkerVentBlock());
+	public static final RegistryObject<Block> ENCLAVE_WOOD_PLATED_BLOCK = REGISTRY.register("enclave_wood_plated_block", () -> new EnclaveWoodPlatedBlockBlock());
+	public static final RegistryObject<Block> ENCLAVE_BUNKER_CARPET = REGISTRY.register("enclave_bunker_carpet", () -> new EnclaveBunkerCarpetBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -130,7 +130,7 @@
             },
             "weight": 7,
             "minCount": 0,
-            "maxCount": 4,
+            "maxCount": 6,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -140,11 +140,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Tenmmammo"
+              "value": "CUSTOM:Thirtytwoammo"
             },
             "weight": 7,
             "minCount": 0,
-            "maxCount": 2,
+            "maxCount": 7,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

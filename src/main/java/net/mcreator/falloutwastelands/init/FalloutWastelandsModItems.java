@@ -163,6 +163,7 @@ import net.mcreator.falloutwastelands.item.AdvancedMotherboardItem;
 import net.mcreator.falloutwastelands.item.AcidItem;
 import net.mcreator.falloutwastelands.item.AbsintheItem;
 import net.mcreator.falloutwastelands.item.AbraxoCleanerItem;
+import net.mcreator.falloutwastelands.item.APA1Item;
 import net.mcreator.falloutwastelands.block.display.BASEcoreDisplayItem;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
@@ -358,7 +359,6 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> ENCLAVE_BUNKER_BLOCK = block(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_BLOCK);
 	public static final RegistryObject<Item> ENCLAVE_BUNKER_BLOCK_LOGO = block(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_BLOCK_LOGO);
 	public static final RegistryObject<Item> ENCLAVE_BUNKER_FLOOR = block(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_FLOOR);
-	public static final RegistryObject<Item> BUNKER_BLOCK_LIGHT = block(FalloutWastelandsModBlocks.BUNKER_BLOCK_LIGHT);
 	public static final RegistryObject<Item> INDUSTRIAL_ALLOY = block(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY);
 	public static final RegistryObject<Item> INDUSTRIAL_ALLOY_PLAIN = block(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_PLAIN);
 	public static final RegistryObject<Item> INDUSTRIAL_ALLOY_SLAB = block(FalloutWastelandsModBlocks.INDUSTRIAL_ALLOY_SLAB);
@@ -665,6 +665,15 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> PORTAL_FRAME = block(FalloutWastelandsModBlocks.PORTAL_FRAME);
 	public static final RegistryObject<Item> THINMETALPLATING = block(FalloutWastelandsModBlocks.THINMETALPLATING);
 	public static final RegistryObject<Item> HEAVYDECORATEDPRESSUREPLATE = block(FalloutWastelandsModBlocks.HEAVYDECORATEDPRESSUREPLATE);
+	public static final RegistryObject<Item> ENCLAVE_BUNKER_VERTICALLIGHT = block(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_VERTICALLIGHT);
+	public static final RegistryObject<Item> ENCLAVE_BUNKER_HORIZONTAL_LIGHT = block(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_HORIZONTAL_LIGHT);
+	public static final RegistryObject<Item> ENCLAVE_BUNKER_VENT = block(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_VENT);
+	public static final RegistryObject<Item> ENCLAVE_WOOD_PLATED_BLOCK = block(FalloutWastelandsModBlocks.ENCLAVE_WOOD_PLATED_BLOCK);
+	public static final RegistryObject<Item> ENCLAVE_BUNKER_CARPET = block(FalloutWastelandsModBlocks.ENCLAVE_BUNKER_CARPET);
+	public static final RegistryObject<Item> APA_1_HELMET = REGISTRY.register("apa_1_helmet", () -> new APA1Item.Helmet());
+	public static final RegistryObject<Item> APA_1_CHESTPLATE = REGISTRY.register("apa_1_chestplate", () -> new APA1Item.Chestplate());
+	public static final RegistryObject<Item> APA_1_LEGGINGS = REGISTRY.register("apa_1_leggings", () -> new APA1Item.Leggings());
+	public static final RegistryObject<Item> APA_1_BOOTS = REGISTRY.register("apa_1_boots", () -> new APA1Item.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

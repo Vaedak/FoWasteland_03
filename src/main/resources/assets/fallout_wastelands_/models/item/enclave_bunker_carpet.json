@@ -1,5 +1,5 @@
 {
-  "parent": "fallout_wastelands_:block/bunker_block_light",
+  "parent": "fallout_wastelands_:block/enclave_bunker_carpet",
   "display": {
     "thirdperson": {
       "rotation": [

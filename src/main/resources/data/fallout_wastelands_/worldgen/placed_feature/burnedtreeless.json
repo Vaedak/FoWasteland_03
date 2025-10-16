@@ -1,0 +1,27 @@
+{
+  "feature": "fallout_wastelands_:burnedtreeless",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "fallout_wastelands_:wasteland_dirt",
+          "fallout_wastelands_:wastelandgrassblock"
+        ],
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
+    }
+  ]
+}
