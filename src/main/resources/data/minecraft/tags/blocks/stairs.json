@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:blue_industrial_alloy_walkway_stairs",
+    "fallout_wastelands_:blue_industrial_alloy_top_rivet_stairs",
+    "fallout_wastelands_:blue_industrial_alloy_stairs",
     "fallout_wastelands_:sandbagstairs",
     "fallout_wastelands_:joshuea_tree_stairs",
     "fallout_wastelands_:adobe_stairs",

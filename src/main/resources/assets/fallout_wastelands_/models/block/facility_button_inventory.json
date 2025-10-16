@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "particle": "fallout_wastelands_:block/vaulttile_rusty_16_topleft",
+    "texture": "fallout_wastelands_:block/vaulttile_rusty_16_topleft"
+  },
+  "render_type": "solid"
+}

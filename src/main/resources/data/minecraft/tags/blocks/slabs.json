@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:enclave_bunker_block_slab",
+    "fallout_wastelands_:enclave_bunker_floor_slab",
+    "fallout_wastelands_:blue_industrial_alloy_walkway_slab",
+    "fallout_wastelands_:blue_industrial_alloy_top_rivet_slab",
+    "fallout_wastelands_:blue_industrial_alloy_slab",
     "fallout_wastelands_:roof_metal_slab",
     "fallout_wastelands_:sandbags_slab",
     "fallout_wastelands_:joshua_tree_slab",

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fallout_wastelands_:block/enclave_bunker_block_slab"
+    },
+    "type=top": {
+      "model": "fallout_wastelands_:block/enclave_bunker_block_slab_top"
+    },
+    "type=double": {
+      "model": "fallout_wastelands_:block/enclave_bunker_block_slab_full"
+    }
+  }
+}

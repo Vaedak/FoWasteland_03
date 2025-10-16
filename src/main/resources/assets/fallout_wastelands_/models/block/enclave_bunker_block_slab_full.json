@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "fallout_wastelands_:block/enclavetile_1",
+    "bottom": "fallout_wastelands_:block/enclavetile_1",
+    "top": "fallout_wastelands_:block/enclavetile_1",
+    "side": "fallout_wastelands_:block/enclavetile_1"
+  },
+  "render_type": "solid"
+}

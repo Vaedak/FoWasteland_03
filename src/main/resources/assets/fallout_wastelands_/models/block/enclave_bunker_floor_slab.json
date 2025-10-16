@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "fallout_wastelands_:block/enclavetile_5",
+    "bottom": "fallout_wastelands_:block/enclavetile_5",
+    "top": "fallout_wastelands_:block/enclavetile_5",
+    "side": "fallout_wastelands_:block/enclavetile_1"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:nail"
+    },
+    "b": {
+      "item": "fallout_wastelands_:blue_industrial_alloy"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:blue_industrial_alloylowerrivet",
+    "count": 3
+  }
+}

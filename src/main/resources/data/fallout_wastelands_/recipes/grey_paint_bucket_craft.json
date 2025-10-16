@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:empty_paint_can"
+    },
+    "b": {
+      "item": "fallout_wastelands_:blue_paint_can"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:grey_paint_can",
+    "count": 2
+  }
+}

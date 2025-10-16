@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueIndustrialAlloytoprivet"
+      },
+      {
+        "value": "CUSTOM:BlueIndustrialAlloytoprivet"
+      },
+      {
+        "value": "CUSTOM:BlueIndustrialAlloytoprivet"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueIndustrialWalkway"
+    },
+    "name": "blue_industrial_alloy_walkway_craft",
+    "namespace": "mod"
+  }
+}

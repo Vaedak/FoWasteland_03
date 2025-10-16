@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "fallout_wastelands_:block/enclave_bunkerpressureplate"
+    },
+    "powered=true": {
+      "model": "fallout_wastelands_:block/enclave_bunkerpressureplate_down"
+    }
+  }
+}

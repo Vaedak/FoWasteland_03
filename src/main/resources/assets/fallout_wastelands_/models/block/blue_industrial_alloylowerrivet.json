@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/blueindus",
+    "up": "fallout_wastelands_:block/blueindus",
+    "north": "fallout_wastelands_:block/blueindusbottom",
+    "east": "fallout_wastelands_:block/blueindusbottom",
+    "south": "fallout_wastelands_:block/blueindusbottom",
+    "west": "fallout_wastelands_:block/blueindusbottom",
+    "particle": "fallout_wastelands_:block/blueindus"
+  },
+  "render_type": "solid"
+}

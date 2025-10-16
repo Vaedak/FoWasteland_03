@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "fallout_wastelands_:block/blueindus",
+    "bottom": "fallout_wastelands_:block/blueindus",
+    "top": "fallout_wastelands_:block/blueindus",
+    "side": "fallout_wastelands_:block/blueindustop"
+  },
+  "render_type": "solid"
+}

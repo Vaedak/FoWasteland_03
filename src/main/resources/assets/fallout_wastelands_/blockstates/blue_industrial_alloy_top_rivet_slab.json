@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fallout_wastelands_:block/blue_industrial_alloy_top_rivet_slab"
+    },
+    "type=top": {
+      "model": "fallout_wastelands_:block/blue_industrial_alloy_top_rivet_slab_top"
+    },
+    "type=double": {
+      "model": "fallout_wastelands_:block/blue_industrial_alloy_top_rivet_slab_full"
+    }
+  }
+}

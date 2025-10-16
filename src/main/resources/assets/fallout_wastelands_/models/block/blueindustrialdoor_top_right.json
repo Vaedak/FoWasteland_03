@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_right",
+  "textures": {
+    "particle": "fallout_wastelands_:block/blueindusdoorbottom",
+    "bottom": "fallout_wastelands_:block/blueindusdoorbottom",
+    "top": "fallout_wastelands_:block/blueindusdoortop"
+  },
+  "render_type": "translucent"
+}

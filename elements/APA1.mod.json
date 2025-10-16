@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "apowerarmor_helmet",
+    "textureHelmet": "apahelmet",
     "enableBody": true,
-    "textureBody": "apowerarmorchestpiece",
+    "textureBody": "apachestplate",
     "enableLeggings": true,
-    "textureLeggings": "apowerarmorlegs",
+    "textureLeggings": "apachestleggingd",
     "enableBoots": true,
-    "textureBoots": "apowerarmorboots",
+    "textureBoots": "apachestboots",
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandcombat"

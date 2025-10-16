@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/vaulttile_rusty_12",
+    "up": "fallout_wastelands_:block/vaulttile_rusty_14",
+    "north": "fallout_wastelands_:block/vaulttile_rusty_12",
+    "east": "fallout_wastelands_:block/vaulttile_rusty_12",
+    "south": "fallout_wastelands_:block/vaulttile_rusty_12",
+    "west": "fallout_wastelands_:block/vaulttile_rusty_12",
+    "particle": "fallout_wastelands_:block/vaulttile_rusty_12"
+  },
+  "render_type": "solid"
+}

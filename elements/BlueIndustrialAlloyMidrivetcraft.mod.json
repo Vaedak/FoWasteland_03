@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Nail"
+      },
+      {
+        "value": "CUSTOM:BlueIndustrialAlloy"
+      },
+      {
+        "value": "CUSTOM:Nail"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueIndustrialAlloy"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Nail"
+      },
+      {
+        "value": "CUSTOM:BlueIndustrialAlloy"
+      },
+      {
+        "value": "CUSTOM:Nail"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueIndustrialAlloymiddlerivet"
+    },
+    "name": "blue_industrial_alloy_midrivetcraft",
+    "namespace": "mod"
+  }
+}

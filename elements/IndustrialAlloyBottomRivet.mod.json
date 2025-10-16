@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Industrial Alloy (bottom rivet)",
+    "name": "Red Industrial Alloy (bottom rivet)",
     "specialInformation": {
       "fixedValue": []
     },
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,
