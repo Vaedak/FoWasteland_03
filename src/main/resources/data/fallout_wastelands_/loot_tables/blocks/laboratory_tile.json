@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "fallout_wastelands_:blocks/facility_bar_right",
+  "random_sequence": "fallout_wastelands_:blocks/laboratory_tile",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "fallout_wastelands_:facility_bar_right"
+          "name": "fallout_wastelands_:laboratory_tile"
         }
       ]
     }

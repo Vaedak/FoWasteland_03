@@ -5,9 +5,9 @@
     "texture": "vaulttile_rusty_1",
     "textureTop": "vaulttile_rusty_1",
     "textureLeft": "vaulttile_rusty_6_left",
-    "textureFront": "vaulttile_rusty_6_left",
+    "textureFront": "vaulttile_rusty_6_right",
     "textureRight": "vaulttile_rusty_6_left",
-    "textureBack": "vaulttile_rusty_6_left",
+    "textureBack": "vaulttile_rusty_6_right",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Facility Bar Left",
+    "name": "Facility Bar ",
     "specialInformation": {
       "fixedValue": []
     },

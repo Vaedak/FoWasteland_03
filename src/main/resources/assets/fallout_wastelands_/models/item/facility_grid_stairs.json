@@ -1,5 +1,5 @@
 {
-  "parent": "fallout_wastelands_:block/facility_bar_right",
+  "parent": "fallout_wastelands_:block/facility_grid_stairs",
   "display": {
     "thirdperson": {
       "rotation": [

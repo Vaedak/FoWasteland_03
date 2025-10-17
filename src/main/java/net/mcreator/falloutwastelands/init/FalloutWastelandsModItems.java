@@ -724,7 +724,6 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> FACILITY_TILE_4 = block(FalloutWastelandsModBlocks.FACILITY_TILE_4);
 	public static final RegistryObject<Item> FACILITY_TILE_5 = block(FalloutWastelandsModBlocks.FACILITY_TILE_5);
 	public static final RegistryObject<Item> FACILITY_BAR_LEFT = block(FalloutWastelandsModBlocks.FACILITY_BAR_LEFT);
-	public static final RegistryObject<Item> FACILITY_BAR_RIGHT = block(FalloutWastelandsModBlocks.FACILITY_BAR_RIGHT);
 	public static final RegistryObject<Item> VAULT_BAR_LEFT = block(FalloutWastelandsModBlocks.VAULT_BAR_LEFT);
 	public static final RegistryObject<Item> VAULT_BAR_RIGHT = block(FalloutWastelandsModBlocks.VAULT_BAR_RIGHT);
 	public static final RegistryObject<Item> FACILITY_BUTTON = block(FalloutWastelandsModBlocks.FACILITY_BUTTON);
@@ -735,6 +734,19 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> RAIDER_PA_CHESTPLATE = REGISTRY.register("raider_pa_chestplate", () -> new RaiderPaItem.Chestplate());
 	public static final RegistryObject<Item> RAIDER_PA_LEGGINGS = REGISTRY.register("raider_pa_leggings", () -> new RaiderPaItem.Leggings());
 	public static final RegistryObject<Item> RAIDER_PA_BOOTS = REGISTRY.register("raider_pa_boots", () -> new RaiderPaItem.Boots());
+	public static final RegistryObject<Item> LABORATORY_TILE = block(FalloutWastelandsModBlocks.LABORATORY_TILE);
+	public static final RegistryObject<Item> LABORATORY_TILE_2 = block(FalloutWastelandsModBlocks.LABORATORY_TILE_2);
+	public static final RegistryObject<Item> LABORATORY_TILE_3 = block(FalloutWastelandsModBlocks.LABORATORY_TILE_3);
+	public static final RegistryObject<Item> LABORATORY_TILE_4 = block(FalloutWastelandsModBlocks.LABORATORY_TILE_4);
+	public static final RegistryObject<Item> LABORATORY_TILE_5 = block(FalloutWastelandsModBlocks.LABORATORY_TILE_5);
+	public static final RegistryObject<Item> LABORATORY_TILE_6 = block(FalloutWastelandsModBlocks.LABORATORY_TILE_6);
+	public static final RegistryObject<Item> LABORATORY_TILE_7 = block(FalloutWastelandsModBlocks.LABORATORY_TILE_7);
+	public static final RegistryObject<Item> LABORATORYFLOOR_TILE = block(FalloutWastelandsModBlocks.LABORATORYFLOOR_TILE);
+	public static final RegistryObject<Item> LABORATORY_BIG_TILE = block(FalloutWastelandsModBlocks.LABORATORY_BIG_TILE);
+	public static final RegistryObject<Item> LABORATORY_BAR_LEFT = block(FalloutWastelandsModBlocks.LABORATORY_BAR_LEFT);
+	public static final RegistryObject<Item> FACILITY_GRID_STAIRS = block(FalloutWastelandsModBlocks.FACILITY_GRID_STAIRS);
+	public static final RegistryObject<Item> FACILITY_GRID_SLAB = block(FalloutWastelandsModBlocks.FACILITY_GRID_SLAB);
+	public static final RegistryObject<Item> LABORATORYCOMPUTERBLOCK = block(FalloutWastelandsModBlocks.LABORATORYCOMPUTERBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

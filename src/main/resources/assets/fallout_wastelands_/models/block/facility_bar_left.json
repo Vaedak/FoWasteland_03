@@ -3,9 +3,9 @@
   "textures": {
     "down": "fallout_wastelands_:block/vaulttile_rusty_1",
     "up": "fallout_wastelands_:block/vaulttile_rusty_1",
-    "north": "fallout_wastelands_:block/vaulttile_rusty_6_left",
+    "north": "fallout_wastelands_:block/vaulttile_rusty_6_right",
     "east": "fallout_wastelands_:block/vaulttile_rusty_6_left",
-    "south": "fallout_wastelands_:block/vaulttile_rusty_6_left",
+    "south": "fallout_wastelands_:block/vaulttile_rusty_6_right",
     "west": "fallout_wastelands_:block/vaulttile_rusty_6_left",
     "particle": "fallout_wastelands_:block/vaulttile_rusty_1"
   },

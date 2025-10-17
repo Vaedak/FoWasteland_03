@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fallout_wastelands_:block/laboratorytile_1",
+    "up": "fallout_wastelands_:block/laboratorytile_1",
+    "north": "fallout_wastelands_:block/laboratorytile_8_right",
+    "east": "fallout_wastelands_:block/laboratorytile_8_left",
+    "south": "fallout_wastelands_:block/laboratorytile_8_right",
+    "west": "fallout_wastelands_:block/laboratorytile_8_left",
+    "particle": "fallout_wastelands_:block/laboratorytile_1"
+  },
+  "render_type": "solid"
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:facility_grid_stairs",
     "fallout_wastelands_:blue_industrial_alloy_walkway_stairs",
     "fallout_wastelands_:blue_industrial_alloy_top_rivet_stairs",
     "fallout_wastelands_:blue_industrial_alloy_stairs",

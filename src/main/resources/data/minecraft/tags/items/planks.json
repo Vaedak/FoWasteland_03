@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "fallout_wastelands_:molder_wood_planks"
+    "fallout_wastelands_:molder_wood_planks",
+    "fallout_wastelands_:joshua_tree_woodplanks"
   ]
 }

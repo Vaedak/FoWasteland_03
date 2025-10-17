@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:facility_grid_slab",
     "fallout_wastelands_:enclave_bunker_block_slab",
     "fallout_wastelands_:enclave_bunker_floor_slab",
     "fallout_wastelands_:blue_industrial_alloy_walkway_slab",

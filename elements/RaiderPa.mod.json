@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "powerarmor_helmet",
+    "textureHelmet": "raiderhelmet",
     "enableBody": true,
-    "textureBody": "powerarmorchestpiece",
+    "textureBody": "raiderchestplate",
     "enableLeggings": true,
-    "textureLeggings": "powerarmorlegs",
+    "textureLeggings": "raiderleggings",
     "enableBoots": true,
-    "textureBoots": "powerarmorboots",
+    "textureBoots": "raiderboots",
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandcombat"

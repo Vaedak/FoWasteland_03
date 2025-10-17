@@ -16827,23 +16827,6 @@
       "path": "~/Blocks"
     },
     {
-      "name": "FacilityBarRight",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "facility_bar_right",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/block/FacilityBarRightBlock.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/facility_bar_right.json",
-          "src/main/resources/assets/fallout_wastelands_/models/block/facility_bar_right.json",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/facility_bar_right.json",
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/facility_bar_right.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
       "name": "VaultBarLeft",
       "type": "block",
       "compiles": true,
@@ -16964,6 +16947,231 @@
         ]
       },
       "path": "~/Armors"
+    },
+    {
+      "name": "LaboratoryTile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/laboratory_tile.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/LaboratoryTileBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/laboratory_tile.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/laboratory_tile.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/laboratory_tile.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LaboratoryTile2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_tile_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/LaboratoryTile2Block.java",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/laboratory_tile_2.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/laboratory_tile_2.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/laboratory_tile_2.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/laboratory_tile_2.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LaboratoryTile3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_tile_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/block/laboratory_tile_3.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/LaboratoryTile3Block.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/laboratory_tile_3.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/laboratory_tile_3.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/laboratory_tile_3.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LaboratoryTile4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_tile_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/LaboratoryTile4Block.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/laboratory_tile_4.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/laboratory_tile_4.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/laboratory_tile_4.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/laboratory_tile_4.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LaboratoryTile5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_tile_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/laboratory_tile_5.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/laboratory_tile_5.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/laboratory_tile_5.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/LaboratoryTile5Block.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/laboratory_tile_5.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LaboratoryTile6",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_tile_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/laboratory_tile_6.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/laboratory_tile_6.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/laboratory_tile_6.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/LaboratoryTile6Block.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/laboratory_tile_6.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LaboratoryTile7",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_tile_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/LaboratoryTile7Block.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/laboratory_tile_7.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/laboratory_tile_7.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/laboratory_tile_7.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/laboratory_tile_7.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LaboratoryfloorTile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratoryfloor_tile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/LaboratoryfloorTileBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/laboratoryfloor_tile.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/laboratoryfloor_tile.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/laboratoryfloor_tile.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/laboratoryfloor_tile.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LaboratoryBigTile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_big_tile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/LaboratoryBigTileBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/block/laboratory_big_tile.json",
+          "src/main/resources/assets/fallout_wastelands_/models/item/laboratory_big_tile.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/laboratory_big_tile.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/laboratory_big_tile.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LaboratoryBarLeft",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_bar_left",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/laboratory_bar_left.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/laboratory_bar_left.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/LaboratoryBarLeftBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/laboratory_bar_left.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/laboratory_bar_left.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FacilityGridStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "facility_grid_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/facility_grid_stairs.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/facility_grid_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/facility_grid_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/facility_grid_stairs_inner.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/facility_grid_stairs_outer.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/FacilityGridStairsBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/facility_grid_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FacilityGridSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "facility_grid_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/FacilityGridSlabBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/facility_grid_slab.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/facility_grid_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/facility_grid_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/facility_grid_slab.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/facility_grid_slab_top.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/facility_grid_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Laboratorycomputerblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratorycomputerblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/blockstates/laboratorycomputerblock.json",
+          "src/main/java/net/mcreator/falloutwastelands/block/LaboratorycomputerblockBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/laboratorycomputerblock.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/laboratorycomputerblock.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/laboratorycomputerblock.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -17103,7 +17311,9 @@
     "ITEMS:mod:pa_leggings": [
       "CUSTOM:T45PA.legs",
       "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs"
+      "CUSTOM:T51bPA.legs",
+      "CUSTOM:APA1.legs",
+      "CUSTOM:RaiderPa.legs"
     ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:FEVgoo",
@@ -17134,7 +17344,9 @@
     "ITEMS:mod:pa_boots": [
       "CUSTOM:T45PA.boots",
       "CUSTOM:PowerArmorFrameArmor.boots",
-      "CUSTOM:T51bPA.boots"
+      "CUSTOM:T51bPA.boots",
+      "CUSTOM:APA1.boots",
+      "CUSTOM:RaiderPa.boots"
     ],
     "ITEMS:minecraft:logs": [
       "CUSTOM:Molder_WoodWood",
@@ -17144,6 +17356,7 @@
       "CUSTOM:MolderWoodTrapdoor"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:FacilityGridSlab",
       "~CUSTOM:EnclaveBunkerBlockSlab",
       "~CUSTOM:EnclaveBunkerFloorSlab",
       "~CUSTOM:BlueIndustrialAlloyWalkwaySlab",
@@ -17180,7 +17393,9 @@
     ],
     "ITEMS:mod:pa_chestplate": [
       "CUSTOM:T45PA.body",
-      "CUSTOM:T51bPA.body"
+      "CUSTOM:T51bPA.body",
+      "CUSTOM:APA1.body",
+      "CUSTOM:RaiderPa.body"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Heavydecoratedpressureplate",
@@ -17259,6 +17474,7 @@
       "~CUSTOM:Hachet"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:FacilityGridStairs",
       "~CUSTOM:BlueIndustrialAlloyWalkwayStairs",
       "~CUSTOM:BlueIndustrialAlloyTopRivetStairs",
       "~CUSTOM:BlueIndustrialAlloyStairs",
@@ -17306,7 +17522,8 @@
       "~CUSTOM:Wrench"
     ],
     "ITEMS:minecraft:planks": [
-      "CUSTOM:Molder_WoodPlanks"
+      "CUSTOM:Molder_WoodPlanks",
+      "CUSTOM:JoshuaTreeWoodplanks"
     ],
     "BLOCKS:mod:blocks_with_gu_is": [
       "Blocks.CRAFTING_TABLE",
@@ -17345,13 +17562,25 @@
       "Blocks.STONECUTTER"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Laboratorycomputerblock",
+      "~CUSTOM:FacilityGridSlab",
+      "~CUSTOM:FacilityGridStairs",
+      "~CUSTOM:LaboratoryBarLeft",
+      "~CUSTOM:LaboratoryBigTile",
+      "~CUSTOM:LaboratoryfloorTile",
+      "~CUSTOM:LaboratoryTile7",
+      "~CUSTOM:LaboratoryTile6",
+      "~CUSTOM:LaboratoryTile5",
+      "~CUSTOM:LaboratoryTile4",
+      "~CUSTOM:LaboratoryTile3",
+      "~CUSTOM:LaboratoryTile2",
+      "~CUSTOM:LaboratoryTile",
       "~CUSTOM:FacilityTile6",
       "~CUSTOM:VaultTile6",
       "~CUSTOM:Facilitypressureplate",
       "~CUSTOM:FacilityButton",
       "~CUSTOM:VaultBarRight",
       "~CUSTOM:VaultBarLeft",
-      "~CUSTOM:FacilityBarRight",
       "~CUSTOM:FacilityBarLeft",
       "~CUSTOM:FacilityTile5",
       "~CUSTOM:FacilityTile4",
@@ -17500,13 +17729,25 @@
       "CUSTOM:WastelandCobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Laboratorycomputerblock",
+      "~CUSTOM:FacilityGridSlab",
+      "~CUSTOM:FacilityGridStairs",
+      "~CUSTOM:LaboratoryBarLeft",
+      "~CUSTOM:LaboratoryBigTile",
+      "~CUSTOM:LaboratoryfloorTile",
+      "~CUSTOM:LaboratoryTile7",
+      "~CUSTOM:LaboratoryTile6",
+      "~CUSTOM:LaboratoryTile5",
+      "~CUSTOM:LaboratoryTile4",
+      "~CUSTOM:LaboratoryTile3",
+      "~CUSTOM:LaboratoryTile2",
+      "~CUSTOM:LaboratoryTile",
       "~CUSTOM:FacilityTile6",
       "~CUSTOM:VaultTile6",
       "~CUSTOM:Facilitypressureplate",
       "~CUSTOM:FacilityButton",
       "~CUSTOM:VaultBarRight",
       "~CUSTOM:VaultBarLeft",
-      "~CUSTOM:FacilityBarRight",
       "~CUSTOM:FacilityBarLeft",
       "~CUSTOM:FacilityTile5",
       "~CUSTOM:FacilityTile4",
@@ -17856,7 +18097,9 @@
     ],
     "ITEMS:mod:pa_helmet": [
       "CUSTOM:T45PA.helmet",
-      "CUSTOM:T51bPA.helmet"
+      "CUSTOM:T51bPA.helmet",
+      "CUSTOM:RaiderPa.helmet",
+      "CUSTOM:APA1.helmet"
     ]
   },
   "tab_element_order": {
@@ -18131,13 +18374,25 @@
       "FacilityTile4",
       "FacilityTile5",
       "FacilityBarLeft",
-      "FacilityBarRight",
       "VaultBarLeft",
       "VaultBarRight",
       "FacilityButton",
       "Facilitypressureplate",
       "VaultTile6",
-      "FacilityTile6"
+      "FacilityTile6",
+      "LaboratoryTile",
+      "LaboratoryTile2",
+      "LaboratoryTile3",
+      "LaboratoryTile4",
+      "LaboratoryTile5",
+      "LaboratoryTile6",
+      "LaboratoryTile7",
+      "LaboratoryfloorTile",
+      "LaboratoryBigTile",
+      "LaboratoryBarLeft",
+      "FacilityGridStairs",
+      "FacilityGridSlab",
+      "Laboratorycomputerblock"
     ],
     "CUSTOM:Wastelandcombat": [
       "Raiderduster",
@@ -18298,8 +18553,8 @@
   "language_map": {
     "en_us": {
       "item.fallout_wastelands_.tenmmpistol": "10mm Pistol",
-      "block.fallout_wastelands_.linedconcrete": "Concrete",
       "block.fallout_wastelands_.bo_s_tile": "Bos Tile",
+      "block.fallout_wastelands_.linedconcrete": "Concrete",
       "item.fallout_wastelands_.brahim_meat": "Brahim Meat",
       "item.fallout_wastelands_.dynamite_item": "Dynamite",
       "block.fallout_wastelands_.metal_shelf": "Metal Shelf",
@@ -18308,6 +18563,7 @@
       "item.fallout_wastelands_.baby_brahmin_spawn_egg": "Baby Brahmin Spawn Egg",
       "item.fallout_wastelands_.copperwires": "Copper Wires",
       "block.fallout_wastelands_.heavydecoratedpressureplate": "Heavy Decorated Pressure Plate",
+      "block.fallout_wastelands_.facility_grid_stairs": "Facility Grid Stairs",
       "biome.fallout_wastelands_.wasteland_sea": "Wasteland Sea",
       "entity.fallout_wastelands_.lobotomite_walker": "Lobotomite Walker",
       "block.fallout_wastelands_.double_scaffold_block": "Double Scaffold Block",
@@ -18327,6 +18583,7 @@
       "block.fallout_wastelands_.facility_tile_5": "Facility Tile",
       "block.fallout_wastelands_.vault_tile_4": "Vault Tile",
       "block.fallout_wastelands_.vault_tile_5": "Vault Tile",
+      "block.fallout_wastelands_.laboratory_bar_left": "Laboratory Bar ",
       "block.fallout_wastelands_.vault_tile_2": "Vault Tile",
       "item.fallout_wastelands_.enclaveofficier_suit_chestplate": "Enclave Vest",
       "block.fallout_wastelands_.vault_tile_3": "Vault Tile",
@@ -18348,6 +18605,7 @@
       "item.fallout_wastelands_.enclave_hull": "Enclave Plating",
       "item.fallout_wastelands_.empty_nuka_cola_bottle": "Empty Nuka Cola Bottle",
       "item.fallout_wastelands_.raider_pa_leggings": "Raider Power Armor Leggings",
+      "block.fallout_wastelands_.laboratory_tile": "Laboratory Wall",
       "item.fallout_wastelands_.cattle_rod": "Cattle Prod",
       "item.fallout_wastelands_.jerrican": "Jerrican",
       "item.fallout_wastelands_.lobotomite_suit_leggings": "Lobotomite Pants",
@@ -18401,6 +18659,7 @@
       "block.fallout_wastelands_.subwaybricks": "Subway Bricks",
       "block.fallout_wastelands_.wastelandcoalore": "Wasteland Coal Ore",
       "entity.fallout_wastelands_.blastmaster_raider": "Raider Blastmaster",
+      "block.fallout_wastelands_.laboratorycomputerblock": "Laboratory Wall Computer",
       "block.fallout_wastelands_.industrial_plating": "Industrial Plating",
       "block.fallout_wastelands_.horizontallinedconcrete": "Concrete",
       "item.fallout_wastelands_.test_weapon": "Test Weapon",
@@ -18410,6 +18669,7 @@
       "item.fallout_wastelands_.raiderblastmaster_helmet": "Raider Blastmaster Helmet",
       "item.fallout_wastelands_.blastmaster_raider_spawn_egg": "Raider Blastmaster Spawn Egg",
       "block.fallout_wastelands_.adobe_stairs": "Adobe Block Stairs",
+      "block.fallout_wastelands_.laboratoryfloor_tile": "Laboratory Floor Tile",
       "item.fallout_wastelands_.road_leather_boots": "Road Leather Boots",
       "block.fallout_wastelands_.military_plating_walkway": "Military Plating Walkway",
       "item.fallout_wastelands_.vault_suit_leggings": "Vault Jumpsuit Pants",
@@ -18562,7 +18822,7 @@
       "block.fallout_wastelands_.molten_tin": "Molten Tin Block",
       "block.fallout_wastelands_.wasteland_road_slab": "Wasteland Asphalt Slab",
       "item.fallout_wastelands_.empty_neutronade_bottle": "Empty Nuka Cola Bottle",
-      "block.fallout_wastelands_.facility_bar_left": "Facility Bar Left",
+      "block.fallout_wastelands_.facility_bar_left": "Facility Bar ",
       "block.fallout_wastelands_.bos_metal_stairs": "Bos Metal Stairs",
       "block.fallout_wastelands_.grey_industrial_walkwayslab": "Grey Industrial Plating Slab",
       "block.fallout_wastelands_.enclave_door": "Enclave Door",
@@ -18618,9 +18878,15 @@
       "key.fallout_wastelands_.player_opens_inventory": "Player Opens Inventory",
       "block.fallout_wastelands_.barricadesheetmetalblock": "Barricade Sheet Metal Block",
       "block.fallout_wastelands_.joshua_tree_slab": "Joshhua Tree Planks Slab",
+      "block.fallout_wastelands_.laboratory_tile_7": "Laboratory Tile",
       "item.fallout_wastelands_.antiradsuit_leggings": "Anti-Rad Suit Leggings",
       "item.fallout_wastelands_.advanced_motor": "Advanced Motor",
+      "block.fallout_wastelands_.laboratory_tile_2": "Laboratory Wall",
+      "block.fallout_wastelands_.laboratory_tile_5": "Laboratory Tile",
+      "block.fallout_wastelands_.laboratory_tile_6": "Laboratory Tile",
       "block.fallout_wastelands_.cracked_wasteland_concrete_wall": "Cracked Concrete Slab",
+      "block.fallout_wastelands_.laboratory_tile_3": "Laboratory Tile",
+      "block.fallout_wastelands_.laboratory_tile_4": "Laboratory Tile",
       "item.fallout_wastelands_.absinthe": "Absinthe",
       "biome.fallout_wastelands_.wasteland_city": "Irradiated City",
       "block.fallout_wastelands_.curtain": "Curtain",
@@ -18659,6 +18925,7 @@
       "item.fallout_wastelands_.robco_repairman_boots": "Robco Boots",
       "gui.fallout_wastelands_.base_inventory.label_a": " to 0 every time the gui is saved",
       "block.fallout_wastelands_.oven": "Oven",
+      "block.fallout_wastelands_.facility_grid_slab": "Facility Grid Slab",
       "item.fallout_wastelands_.handyman_suit_boots": "Handyman Boots",
       "block.fallout_wastelands_.blue_industrial_alloymiddlecut": "Blue Industrial Alloy (Middle cut)",
       "block.fallout_wastelands_.ceiling_light": "Ceiling Light",
@@ -18695,6 +18962,7 @@
       "item.fallout_wastelands_.industrialshovel": "Spade",
       "block.fallout_wastelands_.oxidized_metal": "Smeared Concrete",
       "block.fallout_wastelands_.joshua_leaves": "Joshua Leaves",
+      "block.fallout_wastelands_.laboratory_big_tile": "Laboratory Big Tile",
       "block.fallout_wastelands_.military_metal_stair": "Military Plated Stair",
       "item.fallout_wastelands_.advanced_motherboard": "Advanced Motherboard",
       "item.fallout_wastelands_.ripper": "Ripper",
@@ -18739,7 +19007,6 @@
       "block.fallout_wastelands_.rustysheetmetalstairs": "Rusted Sheet MetalStairs",
       "block.fallout_wastelands_.joshua_log": "Joshua Tree Log",
       "item.fallout_wastelands_.blue_paint_can": "Blue Paint Can",
-      "block.fallout_wastelands_.facility_bar_right": "Facility Bar Right",
       "block.fallout_wastelands_.facilityfloor": "Facility Floor",
       "subtitles.ripper": "",
       "item.fallout_wastelands_.chinesepistol": "Chinese Pistol",

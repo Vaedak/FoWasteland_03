@@ -336,13 +336,25 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.FACILITY_TILE_4.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.FACILITY_TILE_5.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.FACILITY_BAR_LEFT.get().asItem());
-				tabData.accept(FalloutWastelandsModBlocks.FACILITY_BAR_RIGHT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.VAULT_BAR_LEFT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.VAULT_BAR_RIGHT.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.FACILITY_BUTTON.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.FACILITYPRESSUREPLATE.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.VAULT_TILE_6.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.FACILITY_TILE_6.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LABORATORY_TILE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LABORATORY_TILE_2.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LABORATORY_TILE_3.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LABORATORY_TILE_4.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LABORATORY_TILE_5.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LABORATORY_TILE_6.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LABORATORY_TILE_7.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LABORATORYFLOOR_TILE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LABORATORY_BIG_TILE.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LABORATORY_BAR_LEFT.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.FACILITY_GRID_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.FACILITY_GRID_SLAB.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.LABORATORYCOMPUTERBLOCK.get().asItem());
 			})
 
 					.build());

@@ -9,8 +9,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
-public class FacilityBarRightBlock extends Block {
-	public FacilityBarRightBlock() {
+public class LaboratoryTile6Block extends Block {
+	public LaboratoryTile6Block() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(5.7f, 8f).requiresCorrectToolForDrops());
 	}
 

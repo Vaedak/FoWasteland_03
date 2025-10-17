@@ -2,12 +2,12 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "vaulttile_rusty_1",
-    "textureTop": "vaulttile_rusty_1",
-    "textureLeft": "vaulttile_rusty_6_right",
-    "textureFront": "vaulttile_rusty_6_right",
-    "textureRight": "vaulttile_rusty_6_right",
-    "textureBack": "vaulttile_rusty_6_right",
+    "texture": "laboratorytile_1",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Facility Bar Right",
+    "name": "Laboratory Wall",
     "specialInformation": {
       "fixedValue": []
     },
