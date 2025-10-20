@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "powerarmor_helmet",
+    "textureHelmet": "t45helmet",
     "enableBody": true,
-    "textureBody": "powerarmorchestpiece",
+    "textureBody": "t45chestplate",
     "enableLeggings": true,
-    "textureLeggings": "powerarmorlegs",
+    "textureLeggings": "t45leggings",
     "enableBoots": true,
-    "textureBoots": "powerarmorboots",
+    "textureBoots": "t45boots",
     "creativeTabs": [
       {
         "value": "CUSTOM:Wastelandcombat"

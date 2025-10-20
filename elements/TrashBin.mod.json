@@ -124,7 +124,7 @@
     "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "LockerStorage",
+    "guiBoundTo": "Dumpster",
     "openGUIOnRightClick": true,
     "inventorySize": 28,
     "inventoryStackSize": 64,

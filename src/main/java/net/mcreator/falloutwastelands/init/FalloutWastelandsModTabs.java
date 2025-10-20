@@ -595,6 +595,7 @@ public class FalloutWastelandsModTabs {
 			tabData.accept(FalloutWastelandsModItems.RADROACH_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.RADSCORPION_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.FERAL_GHOUL_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.POWER_ARMORED_RAIDER_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

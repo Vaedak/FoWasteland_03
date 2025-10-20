@@ -21,7 +21,7 @@ import net.minecraft.core.NonNullList;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.falloutwastelands.world.inventory.LockerStorageMenu;
+import net.mcreator.falloutwastelands.world.inventory.DumpsterMenu;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModBlockEntities;
 
 import javax.annotation.Nullable;
@@ -89,7 +89,7 @@ public class TrashBinBlockEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
-		return new LockerStorageMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
+		return new DumpsterMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
 	}
 
 	@Override

@@ -23,6 +23,7 @@ import net.mcreator.falloutwastelands.entity.RaiderscavangerEntity;
 import net.mcreator.falloutwastelands.entity.RaiderDustwalkerEntity;
 import net.mcreator.falloutwastelands.entity.RadscorpionEntity;
 import net.mcreator.falloutwastelands.entity.RadroachEntity;
+import net.mcreator.falloutwastelands.entity.PowerArmoredRaiderEntity;
 import net.mcreator.falloutwastelands.entity.PowerArmorFrameEntity;
 import net.mcreator.falloutwastelands.entity.PlasmaProjectileEntity;
 import net.mcreator.falloutwastelands.entity.PADisplayEntityEntity;
@@ -114,7 +115,7 @@ public class FalloutWastelandsModEntities {
 	public static final RegistryObject<EntityType<RadscorpionEntity>> RADSCORPION = register("radscorpion",
 			EntityType.Builder.<RadscorpionEntity>of(RadscorpionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RadscorpionEntity::new)
 
-					.sized(0.6f, 1f));
+					.sized(1f, 1f));
 	public static final RegistryObject<EntityType<FeralGhoulEntity>> FERAL_GHOUL = register("feral_ghoul",
 			EntityType.Builder.<FeralGhoulEntity>of(FeralGhoulEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FeralGhoulEntity::new)
 
@@ -123,6 +124,10 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<BabyBrahminEntity>of(BabyBrahminEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BabyBrahminEntity::new)
 
 					.sized(0.8f, 1.5f));
+	public static final RegistryObject<EntityType<PowerArmoredRaiderEntity>> POWER_ARMORED_RAIDER = register("power_armored_raider",
+			EntityType.Builder.<PowerArmoredRaiderEntity>of(PowerArmoredRaiderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(80).setUpdateInterval(3).setCustomClientFactory(PowerArmoredRaiderEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -149,6 +154,7 @@ public class FalloutWastelandsModEntities {
 			RadscorpionEntity.init();
 			FeralGhoulEntity.init();
 			BabyBrahminEntity.init();
+			PowerArmoredRaiderEntity.init();
 		});
 	}
 
@@ -172,5 +178,6 @@ public class FalloutWastelandsModEntities {
 		event.put(RADSCORPION.get(), RadscorpionEntity.createAttributes().build());
 		event.put(FERAL_GHOUL.get(), FeralGhoulEntity.createAttributes().build());
 		event.put(BABY_BRAHMIN.get(), BabyBrahminEntity.createAttributes().build());
+		event.put(POWER_ARMORED_RAIDER.get(), PowerArmoredRaiderEntity.createAttributes().build());
 	}
 }

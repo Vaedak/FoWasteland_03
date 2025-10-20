@@ -41,7 +41,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.falloutwastelands.world.inventory.LockerStorageMenu;
+import net.mcreator.falloutwastelands.world.inventory.DumpsterMenu;
 import net.mcreator.falloutwastelands.block.entity.TrashBinBlockEntity;
 
 import io.netty.buffer.Unpooled;
@@ -130,7 +130,7 @@ public class TrashBinBlock extends Block implements SimpleWaterloggedBlock, Enti
 
 				@Override
 				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-					return new LockerStorageMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
+					return new DumpsterMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
 				}
 			}, pos);
 		}

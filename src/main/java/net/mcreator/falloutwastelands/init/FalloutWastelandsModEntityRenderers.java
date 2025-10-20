@@ -16,6 +16,7 @@ import net.mcreator.falloutwastelands.client.renderer.RaiderscavangerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.RaiderDustwalkerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.RadscorpionRenderer;
 import net.mcreator.falloutwastelands.client.renderer.RadroachRenderer;
+import net.mcreator.falloutwastelands.client.renderer.PowerArmoredRaiderRenderer;
 import net.mcreator.falloutwastelands.client.renderer.PowerArmorFrameRenderer;
 import net.mcreator.falloutwastelands.client.renderer.PADisplayEntityRenderer;
 import net.mcreator.falloutwastelands.client.renderer.LobotomiteWalkerRenderer;
@@ -59,5 +60,6 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.RADSCORPION.get(), RadscorpionRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.FERAL_GHOUL.get(), FeralGhoulRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.BABY_BRAHMIN.get(), BabyBrahminRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.POWER_ARMORED_RAIDER.get(), PowerArmoredRaiderRenderer::new);
 	}
 }
