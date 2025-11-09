@@ -1,0 +1,30 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.AIR"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": ""
+    },
+    "igniteFire": false,
+    "power": 1.7,
+    "damage": 2.0,
+    "knockback": 0,
+    "entityModel": "Modelgunshot",
+    "customModelTexture": "gunshot.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "GunProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "GunProjectileHitsEntity"
+    },
+    "onFlyingTick": {
+      "name": "WhileProjectileFlyingTick"
+    }
+  }
+}

@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.falloutwastelands.client.model.ModelvertibirdXBV02;
 import net.mcreator.falloutwastelands.client.model.Modelvaultjumpsuit;
 import net.mcreator.falloutwastelands.client.model.Modeltfourtyfive;
 import net.mcreator.falloutwastelands.client.model.Modelt51b01f;
@@ -49,10 +50,11 @@ public class FalloutWastelandsModModels {
 		event.registerLayerDefinition(ModelRaider_PA.LAYER_LOCATION, ModelRaider_PA::createBodyLayer);
 		event.registerLayerDefinition(Modelenclaveofficeruniform.LAYER_LOCATION, Modelenclaveofficeruniform::createBodyLayer);
 		event.registerLayerDefinition(ModelT51b.LAYER_LOCATION, ModelT51b::createBodyLayer);
-		event.registerLayerDefinition(Modelgunshot.LAYER_LOCATION, Modelgunshot::createBodyLayer);
 		event.registerLayerDefinition(Modellaserriflebeam.LAYER_LOCATION, Modellaserriflebeam::createBodyLayer);
+		event.registerLayerDefinition(Modelgunshot.LAYER_LOCATION, Modelgunshot::createBodyLayer);
 		event.registerLayerDefinition(ModelSecuriy_Suit.LAYER_LOCATION, ModelSecuriy_Suit::createBodyLayer);
 		event.registerLayerDefinition(Modelbasherraiderarmor2.LAYER_LOCATION, Modelbasherraiderarmor2::createBodyLayer);
+		event.registerLayerDefinition(ModelvertibirdXBV02.LAYER_LOCATION, ModelvertibirdXBV02::createBodyLayer);
 		event.registerLayerDefinition(Modelbasherraiderarmor.LAYER_LOCATION, Modelbasherraiderarmor::createBodyLayer);
 		event.registerLayerDefinition(Modelroadleather02.LAYER_LOCATION, Modelroadleather02::createBodyLayer);
 		event.registerLayerDefinition(Modeldusterraiderarmor.LAYER_LOCATION, Modeldusterraiderarmor::createBodyLayer);

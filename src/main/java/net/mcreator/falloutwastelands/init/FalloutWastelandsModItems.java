@@ -749,6 +749,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> LABORATORYCOMPUTERBLOCK = block(FalloutWastelandsModBlocks.LABORATORYCOMPUTERBLOCK);
 	public static final RegistryObject<Item> POWER_ARMORED_RAIDER_SPAWN_EGG = REGISTRY.register("power_armored_raider_spawn_egg",
 			() -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.POWER_ARMORED_RAIDER, -8423335, -9939410, new Item.Properties()));
+	public static final RegistryObject<Item> VERTIBIRD_SPAWN_EGG = REGISTRY.register("vertibird_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.VERTIBIRD, -11446215, -12962027, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

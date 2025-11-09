@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "fallout_wastelands_:cannibal_00",
+    "fallout_wastelands_:cannibal_01",
+    "fallout_wastelands_:cannibal_02",
+    "fallout_wastelands_:feral_ghoul",
+    "fallout_wastelands_:floater",
+    "fallout_wastelands_:gecko",
+    "fallout_wastelands_:lobotomite_walker",
+    "fallout_wastelands_:radroach",
+    "fallout_wastelands_:radscorpion",
+    "fallout_wastelands_:raider_dustwalker",
+    "fallout_wastelands_:raiderscavanger",
+    "fallout_wastelands_:spiderfloater"
+  ]
+}

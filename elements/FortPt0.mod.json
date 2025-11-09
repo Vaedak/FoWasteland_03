@@ -1,0 +1,88 @@
+{
+  "_fv": 69,
+  "_type": "structure",
+  "definition": {
+    "structure": "fortress-pt-0",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.GRASS"
+      }
+    ],
+    "spacing": 100,
+    "separation": 5,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:WastelandBadlands"
+      },
+      {
+        "value": "CUSTOM:WastelandDryland"
+      },
+      {
+        "value": "CUSTOM:WastelandPlains"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "pt1",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "fortress-pt-1",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.GRASS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "poolName": "pt2",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "fortress-pt-2",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.GRASS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "poolName": "pt3",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "fortress-pt-3",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.GRASS"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

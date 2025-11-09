@@ -11,6 +11,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.falloutwastelands.client.renderer.VertibirdRenderer;
+import net.mcreator.falloutwastelands.client.renderer.VertibirdBulletRenderer;
 import net.mcreator.falloutwastelands.client.renderer.SpiderfloaterRenderer;
 import net.mcreator.falloutwastelands.client.renderer.RaiderscavangerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.RaiderDustwalkerRenderer;
@@ -61,5 +63,8 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.FERAL_GHOUL.get(), FeralGhoulRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.BABY_BRAHMIN.get(), BabyBrahminRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.POWER_ARMORED_RAIDER.get(), PowerArmoredRaiderRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD.get(), VertibirdRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD_BULLET.get(), VertibirdBulletRenderer::new);
 	}
 }

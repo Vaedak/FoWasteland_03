@@ -66,6 +66,7 @@ public class FalloutWastelandsModVariables {
 			event.getOriginal().revive();
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
+			clone.currentDimension = original.currentDimension;
 			if (!event.isWasDeath()) {
 				clone.paFrameXcord = original.paFrameXcord;
 				clone.paFrameYcord = original.paFrameYcord;
@@ -112,6 +113,7 @@ public class FalloutWastelandsModVariables {
 		public double paFrameZcord = 0;
 		public boolean inPowerArmor = false;
 		public double fusionCorePower = 0;
+		public String currentDimension = "\"\"";
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -125,6 +127,7 @@ public class FalloutWastelandsModVariables {
 			nbt.putDouble("paFrameZcord", paFrameZcord);
 			nbt.putBoolean("inPowerArmor", inPowerArmor);
 			nbt.putDouble("fusionCorePower", fusionCorePower);
+			nbt.putString("currentDimension", currentDimension);
 			return nbt;
 		}
 
@@ -135,6 +138,7 @@ public class FalloutWastelandsModVariables {
 			paFrameZcord = nbt.getDouble("paFrameZcord");
 			inPowerArmor = nbt.getBoolean("inPowerArmor");
 			fusionCorePower = nbt.getDouble("fusionCorePower");
+			currentDimension = nbt.getString("currentDimension");
 		}
 	}
 
@@ -164,6 +168,7 @@ public class FalloutWastelandsModVariables {
 					variables.paFrameZcord = message.data.paFrameZcord;
 					variables.inPowerArmor = message.data.inPowerArmor;
 					variables.fusionCorePower = message.data.fusionCorePower;
+					variables.currentDimension = message.data.currentDimension;
 				}
 			});
 			context.setPacketHandled(true);

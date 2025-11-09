@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fallout_wastelands_:fort_pt_0",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 5,
+    "salt": 635827374
+  }
+}

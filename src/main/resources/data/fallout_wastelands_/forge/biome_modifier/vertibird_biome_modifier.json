@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "fallout_wastelands_:wasteland_badlands",
+    "fallout_wastelands_:wasteland_city",
+    "fallout_wastelands_:wasteland_dryland",
+    "fallout_wastelands_:wasteland_plains",
+    "fallout_wastelands_:wasteland_sea"
+  ],
+  "spawners": {
+    "type": "fallout_wastelands_:vertibird",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}
