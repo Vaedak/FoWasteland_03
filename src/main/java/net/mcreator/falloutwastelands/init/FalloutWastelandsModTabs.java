@@ -355,6 +355,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.FACILITY_GRID_STAIRS.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.FACILITY_GRID_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.LABORATORYCOMPUTERBLOCK.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_BUNKDER_BLOCK_STAIRS.get().asItem());
 			})
 
 					.build());

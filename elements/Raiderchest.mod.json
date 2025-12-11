@@ -129,8 +129,8 @@
               "value": "CUSTOM:Ninemmammo"
             },
             "weight": 7,
-            "minCount": 0,
-            "maxCount": 6,
+            "minCount": 3,
+            "maxCount": 9,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -143,8 +143,8 @@
               "value": "CUSTOM:Thirtytwoammo"
             },
             "weight": 7,
-            "minCount": 0,
-            "maxCount": 7,
+            "minCount": 3,
+            "maxCount": 10,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

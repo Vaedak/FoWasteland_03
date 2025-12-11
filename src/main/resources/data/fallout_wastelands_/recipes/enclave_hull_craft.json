@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:enclave_hull"
+    },
+    "b": {
+      "item": "fallout_wastelands_:military_metal_plate"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:enclave_bunker_block",
+    "count": 12
+  }
+}

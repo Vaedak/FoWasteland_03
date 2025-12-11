@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:lead_ingot"
+    },
+    "b": {
+      "item": "fallout_wastelands_:steel_ingot"
+    },
+    "c": {
+      "item": "fallout_wastelands_:military_hull"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:enclave_hull",
+    "count": 4
+  }
+}

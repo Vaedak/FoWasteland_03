@@ -72,7 +72,7 @@
             "item": {
               "value": "CUSTOM:Scrapmetal"
             },
-            "weight": 20,
+            "weight": 12,
             "minCount": 0,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -100,7 +100,7 @@
             "item": {
               "value": "CUSTOM:BottleCap"
             },
-            "weight": 18,
+            "weight": 10,
             "minCount": 0,
             "maxCount": 5,
             "minEnchantmentLevel": 0,
@@ -114,7 +114,7 @@
             "item": {
               "value": "CUSTOM:DentedCan"
             },
-            "weight": 14,
+            "weight": 10,
             "minCount": 1,
             "maxCount": 5,
             "minEnchantmentLevel": 0,
@@ -128,7 +128,7 @@
             "item": {
               "value": "CUSTOM:Wonderglue"
             },
-            "weight": 12,
+            "weight": 8,
             "minCount": 2,
             "maxCount": 4,
             "minEnchantmentLevel": 0,

@@ -8073,7 +8073,8 @@
         "files": [
           "src/main/resources/data/fallout_wastelands_/recipes/craft_pa_frame.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "RaiderDustwalker",
@@ -9443,7 +9444,7 @@
           "src/main/resources/data/fallout_wastelands_/recipes/mugcrushing.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Recipes/Scraping"
     },
     {
       "name": "Cigarettepackdecraft",
@@ -17201,6 +17202,194 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Smeltingtin",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltingtin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/smeltingtin.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnclaveHullCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_hull_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/enclave_hull_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Wastelandfurnacecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelandfurnacecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/wastelandfurnacecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Enclavewalkwaycraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclavewalkwaycraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/enclavewalkwaycraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Enclavebunkerblocksymbolcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclavebunkerblocksymbolcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/enclavebunkerblocksymbolcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Enclavedoorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclavedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/enclavedoorcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Enclavepressureplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclavepressureplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/enclavepressureplatecraft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnclaveBunkerVentCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_bunker_vent_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/enclave_bunker_vent_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnclaveLightCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_light_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/enclave_light_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnclaveLightHorizontalCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_light_horizontal_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/enclave_light_horizontal_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnclaveBunkderBlockStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_bunkder_block_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/block/EnclaveBunkderBlockStairsBlock.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_bunkder_block_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/enclave_bunkder_block_stairs.json",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/enclave_bunkder_block_stairs.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/enclave_bunkder_block_stairs_outer.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/enclave_bunkder_block_stairs_inner.json",
+          "src/main/resources/assets/fallout_wastelands_/models/block/enclave_bunkder_block_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnclaveBunkerStairsCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_bunker_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/enclave_bunker_stairs_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnclaveBunkerSlabCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_bunker_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/enclave_bunker_slab_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnclaveHullItemcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enclave_hull_itemcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fallout_wastelands_/recipes/enclave_hull_itemcraft.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -17502,6 +17691,7 @@
       "~CUSTOM:Hachet"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:EnclaveBunkderBlockStairs",
       "~CUSTOM:FacilityGridStairs",
       "~CUSTOM:BlueIndustrialAlloyWalkwayStairs",
       "~CUSTOM:BlueIndustrialAlloyTopRivetStairs",
@@ -17590,6 +17780,7 @@
       "Blocks.STONECUTTER"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:EnclaveBunkderBlockStairs",
       "~CUSTOM:Laboratorycomputerblock",
       "~CUSTOM:FacilityGridSlab",
       "~CUSTOM:FacilityGridStairs",
@@ -17757,6 +17948,7 @@
       "CUSTOM:WastelandCobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EnclaveBunkderBlockStairs",
       "~CUSTOM:Laboratorycomputerblock",
       "~CUSTOM:FacilityGridSlab",
       "~CUSTOM:FacilityGridStairs",
@@ -18420,7 +18612,8 @@
       "LaboratoryBarLeft",
       "FacilityGridStairs",
       "FacilityGridSlab",
-      "Laboratorycomputerblock"
+      "Laboratorycomputerblock",
+      "EnclaveBunkderBlockStairs"
     ],
     "CUSTOM:Wastelandcombat": [
       "Raiderduster",
@@ -18646,8 +18839,8 @@
       "block.fallout_wastelands_.indus_pipe": "Industrial Pipe",
       "item.fallout_wastelands_.enclaveofficier_suit_boots": "Enclave Boots",
       "item.fallout_wastelands_.cannibal_00_spawn_egg": "Cannibal Grunt Spawn Egg",
-      "block.fallout_wastelands_.yielroadsign": "Yield Roadsign",
       "block.fallout_wastelands_.single_scaffold_block": "Scaffold Block",
+      "block.fallout_wastelands_.yielroadsign": "Yield Roadsign",
       "item.fallout_wastelands_.army_repairman_suit_chestplate": "Army Repairman Jacket",
       "item.fallout_wastelands_.industrialhammer": "Sledgehammer",
       "item.fallout_wastelands_.handyman_suit_chestplate": "Handyman Jacket",
@@ -18732,6 +18925,7 @@
       "item.fallout_wastelands_.base_gun_item": "Base Gun Item",
       "item.fallout_wastelands_.steel_ingot": "Steel Ingot",
       "block.fallout_wastelands_.worn_metal_decorationstairs": "Worn Metal Decoration Stairs",
+      "block.fallout_wastelands_.enclave_bunkder_block_stairs": "Enclave Bunker Stairs",
       "block.fallout_wastelands_.burnished_glass": "Burnished Glass Block",
       "item.fallout_wastelands_.hunting_casing": "Empty Shotgun Shell",
       "block.fallout_wastelands_.grey_industrial_alloyplate": "Grey Industrial Plating",
@@ -19358,7 +19552,12 @@
       },
       {
         "name": "Recipes",
-        "children": []
+        "children": [
+          {
+            "name": "Scraping",
+            "children": []
+          }
+        ]
       },
       {
         "name": "loottable",
