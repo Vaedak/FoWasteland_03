@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:enclave_bunker_block"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:enclave_door",
+    "count": 3
+  }
+}

@@ -63,8 +63,8 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.FERAL_GHOUL.get(), FeralGhoulRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.BABY_BRAHMIN.get(), BabyBrahminRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.POWER_ARMORED_RAIDER.get(), PowerArmoredRaiderRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD_BULLET.get(), VertibirdBulletRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD.get(), VertibirdRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD_PROJECTILE.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD_BULLET.get(), VertibirdBulletRenderer::new);
 	}
 }

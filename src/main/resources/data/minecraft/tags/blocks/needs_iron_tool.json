@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "fallout_wastelands_:enclave_bunkder_block_stairs",
     "fallout_wastelands_:laboratorycomputerblock",
     "fallout_wastelands_:facility_grid_slab",
     "fallout_wastelands_:facility_grid_stairs",

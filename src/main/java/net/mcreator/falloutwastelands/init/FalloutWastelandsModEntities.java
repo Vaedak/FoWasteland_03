@@ -131,14 +131,14 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<PowerArmoredRaiderEntity>of(PowerArmoredRaiderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(80).setUpdateInterval(3).setCustomClientFactory(PowerArmoredRaiderEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<VertibirdBulletEntity>> VERTIBIRD_BULLET = register("vertibird_bullet", EntityType.Builder.<VertibirdBulletEntity>of(VertibirdBulletEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(VertibirdBulletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<VertibirdEntity>> VERTIBIRD = register("vertibird",
 			EntityType.Builder.<VertibirdEntity>of(VertibirdEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(80).setUpdateInterval(3).setCustomClientFactory(VertibirdEntity::new)
 
 					.sized(2.5f, 2f));
 	public static final RegistryObject<EntityType<VertibirdEntityProjectile>> VERTIBIRD_PROJECTILE = register("projectile_vertibird", EntityType.Builder.<VertibirdEntityProjectile>of(VertibirdEntityProjectile::new, MobCategory.MISC)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(VertibirdEntityProjectile::new).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<VertibirdBulletEntity>> VERTIBIRD_BULLET = register("vertibird_bullet", EntityType.Builder.<VertibirdBulletEntity>of(VertibirdBulletEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(VertibirdBulletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

@@ -282,6 +282,7 @@ import net.mcreator.falloutwastelands.block.EnclaveBunkerButtonBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerBlockSlabBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerBlockLogoBlock;
 import net.mcreator.falloutwastelands.block.EnclaveBunkerBlockBlock;
+import net.mcreator.falloutwastelands.block.EnclaveBunkderBlockStairsBlock;
 import net.mcreator.falloutwastelands.block.EncasedIndusPipeBlock;
 import net.mcreator.falloutwastelands.block.DriedPlanksWallBlock;
 import net.mcreator.falloutwastelands.block.DriedPlanksBlock;
@@ -690,6 +691,7 @@ public class FalloutWastelandsModBlocks {
 	public static final RegistryObject<Block> FACILITY_GRID_STAIRS = REGISTRY.register("facility_grid_stairs", () -> new FacilityGridStairsBlock());
 	public static final RegistryObject<Block> FACILITY_GRID_SLAB = REGISTRY.register("facility_grid_slab", () -> new FacilityGridSlabBlock());
 	public static final RegistryObject<Block> LABORATORYCOMPUTERBLOCK = REGISTRY.register("laboratorycomputerblock", () -> new LaboratorycomputerblockBlock());
+	public static final RegistryObject<Block> ENCLAVE_BUNKDER_BLOCK_STAIRS = REGISTRY.register("enclave_bunkder_block_stairs", () -> new EnclaveBunkderBlockStairsBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

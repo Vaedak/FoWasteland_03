@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:enclave_bunker_block"
+    },
+    "b": {
+      "item": "fallout_wastelands_:wirefence"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:enclave_bunker_vent",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "fallout_wastelands_:industrialhull"
+    },
+    "b": {
+      "item": "fallout_wastelands_:enclave_bunker_block"
+    }
+  },
+  "result": {
+    "item": "fallout_wastelands_:enclave_bunker_floor",
+    "count": 4
+  }
+}

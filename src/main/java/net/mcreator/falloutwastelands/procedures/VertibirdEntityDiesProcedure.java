@@ -1,12 +1,6 @@
 package net.mcreator.falloutwastelands.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.item.ItemEntity;
-import net.minecraft.server.level.ServerLevel;
-
-import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
+import net.minecraftforge.eventbus.api.Event;
 
 public class VertibirdEntityDiesProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
