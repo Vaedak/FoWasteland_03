@@ -17,7 +17,7 @@ import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
 
 public class NukaColaQuantumItem extends Item {
 	public NukaColaQuantumItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(7).saturationMod(0.2f).alwaysEat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE).food((new FoodProperties.Builder()).nutrition(7).saturationMod(0.2f).alwaysEat().build()));
 	}
 
 	@Override

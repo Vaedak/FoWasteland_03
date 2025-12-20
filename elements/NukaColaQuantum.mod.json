@@ -14,7 +14,7 @@
         "value": "CUSTOM:Wastelanditems"
       }
     ],
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
@@ -40,6 +40,9 @@
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:BaseGunItemProjectile"
+    },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 7,

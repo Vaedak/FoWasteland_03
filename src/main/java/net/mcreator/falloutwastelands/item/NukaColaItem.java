@@ -14,7 +14,7 @@ import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
 
 public class NukaColaItem extends Item {
 	public NukaColaItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.2f).alwaysEat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.2f).alwaysEat().build()));
 	}
 
 	@Override
