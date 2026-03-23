@@ -43,6 +43,7 @@ import net.mcreator.falloutwastelands.entity.BrahminEntity;
 import net.mcreator.falloutwastelands.entity.BlastmasterRaiderEntity;
 import net.mcreator.falloutwastelands.entity.BaseGunItemProjectileEntity;
 import net.mcreator.falloutwastelands.entity.BabyBrahminEntity;
+import net.mcreator.falloutwastelands.entity.BASENPCEntity;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -139,6 +140,10 @@ public class FalloutWastelandsModEntities {
 					.sized(2.5f, 2f));
 	public static final RegistryObject<EntityType<VertibirdEntityProjectile>> VERTIBIRD_PROJECTILE = register("projectile_vertibird", EntityType.Builder.<VertibirdEntityProjectile>of(VertibirdEntityProjectile::new, MobCategory.MISC)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(VertibirdEntityProjectile::new).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<BASENPCEntity>> BASENPC = register("basenpc",
+			EntityType.Builder.<BASENPCEntity>of(BASENPCEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BASENPCEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -167,6 +172,7 @@ public class FalloutWastelandsModEntities {
 			BabyBrahminEntity.init();
 			PowerArmoredRaiderEntity.init();
 			VertibirdEntity.init();
+			BASENPCEntity.init();
 		});
 	}
 
@@ -192,5 +198,6 @@ public class FalloutWastelandsModEntities {
 		event.put(BABY_BRAHMIN.get(), BabyBrahminEntity.createAttributes().build());
 		event.put(POWER_ARMORED_RAIDER.get(), PowerArmoredRaiderEntity.createAttributes().build());
 		event.put(VERTIBIRD.get(), VertibirdEntity.createAttributes().build());
+		event.put(BASENPC.get(), BASENPCEntity.createAttributes().build());
 	}
 }

@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.falloutwastelands.client.particle.ZoneParticleParticle;
 import net.mcreator.falloutwastelands.client.particle.PlasmaParticleSplashParticle;
 import net.mcreator.falloutwastelands.client.particle.PlasmaParticleParticle;
+import net.mcreator.falloutwastelands.client.particle.OutlineParticleParticle;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class FalloutWastelandsModParticles {
@@ -20,5 +21,6 @@ public class FalloutWastelandsModParticles {
 		event.registerSpriteSet(FalloutWastelandsModParticleTypes.ZONE_PARTICLE.get(), ZoneParticleParticle::provider);
 		event.registerSpriteSet(FalloutWastelandsModParticleTypes.PLASMA_PARTICLE.get(), PlasmaParticleParticle::provider);
 		event.registerSpriteSet(FalloutWastelandsModParticleTypes.PLASMA_PARTICLE_SPLASH.get(), PlasmaParticleSplashParticle::provider);
+		event.registerSpriteSet(FalloutWastelandsModParticleTypes.OUTLINE_PARTICLE.get(), OutlineParticleParticle::provider);
 	}
 }

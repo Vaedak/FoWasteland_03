@@ -75,6 +75,7 @@ import net.mcreator.falloutwastelands.item.RadIslandCiderItem;
 import net.mcreator.falloutwastelands.item.PsychoItem;
 import net.mcreator.falloutwastelands.item.PowerArmorFrameArmorItem;
 import net.mcreator.falloutwastelands.item.PotatoCrispsItem;
+import net.mcreator.falloutwastelands.item.PopulationIconItem;
 import net.mcreator.falloutwastelands.item.PlasticsheetItem;
 import net.mcreator.falloutwastelands.item.PlasmarifleItem;
 import net.mcreator.falloutwastelands.item.PipboyItem;
@@ -751,6 +752,8 @@ public class FalloutWastelandsModItems {
 			() -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.POWER_ARMORED_RAIDER, -8423335, -9939410, new Item.Properties()));
 	public static final RegistryObject<Item> VERTIBIRD_SPAWN_EGG = REGISTRY.register("vertibird_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.VERTIBIRD, -11446215, -12962027, new Item.Properties()));
 	public static final RegistryObject<Item> ENCLAVE_BUNKDER_BLOCK_STAIRS = block(FalloutWastelandsModBlocks.ENCLAVE_BUNKDER_BLOCK_STAIRS);
+	public static final RegistryObject<Item> BASENPC_SPAWN_EGG = REGISTRY.register("basenpc_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.BASENPC, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> POPULATION_ICON = REGISTRY.register("population_icon", () -> new PopulationIconItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

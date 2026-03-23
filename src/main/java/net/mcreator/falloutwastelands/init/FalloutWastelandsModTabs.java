@@ -356,6 +356,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.FACILITY_GRID_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.LABORATORYCOMPUTERBLOCK.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_BUNKDER_BLOCK_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BAS_ECORE.get().asItem());
 			})
 
 					.build());
@@ -598,6 +599,7 @@ public class FalloutWastelandsModTabs {
 			tabData.accept(FalloutWastelandsModItems.FERAL_GHOUL_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.POWER_ARMORED_RAIDER_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.VERTIBIRD_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.BASENPC_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

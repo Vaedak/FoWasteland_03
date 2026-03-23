@@ -10,6 +10,8 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.falloutwastelands.init.FalloutWastelandsModMobEffects;
+
 import java.util.List;
 import java.util.Comparator;
 
@@ -29,6 +31,11 @@ public class BASEcoreUpdateTickProcedure {
 			for (Entity entityiterator : _entfound) {
 				if (entityiterator instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 5, 1));
+				if (entityiterator instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(FalloutWastelandsModMobEffects.IN_BASE.get(), 5, 1));
+				entityiterator.getPersistentData().putDouble("basePosX", x);
+				entityiterator.getPersistentData().putDouble("basePosY", y);
+				entityiterator.getPersistentData().putDouble("basePosZ", z);
 			}
 		}
 	}

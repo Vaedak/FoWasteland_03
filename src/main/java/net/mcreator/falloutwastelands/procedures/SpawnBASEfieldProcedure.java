@@ -4,6 +4,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
 
 public class SpawnBASEfieldProcedure {
@@ -11,6 +12,7 @@ public class SpawnBASEfieldProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
+		ItemStack populationCount = ItemStack.EMPTY;
 		if (!world.isClientSide()) {
 			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);

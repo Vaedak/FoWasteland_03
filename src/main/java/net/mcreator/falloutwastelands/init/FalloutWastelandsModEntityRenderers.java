@@ -34,6 +34,7 @@ import net.mcreator.falloutwastelands.client.renderer.BrahminRenderer;
 import net.mcreator.falloutwastelands.client.renderer.BlastmasterRaiderRenderer;
 import net.mcreator.falloutwastelands.client.renderer.BaseGunItemProjectileRenderer;
 import net.mcreator.falloutwastelands.client.renderer.BabyBrahminRenderer;
+import net.mcreator.falloutwastelands.client.renderer.BASENPCRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class FalloutWastelandsModEntityRenderers {
@@ -66,5 +67,6 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD_BULLET.get(), VertibirdBulletRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD.get(), VertibirdRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.BASENPC.get(), BASENPCRenderer::new);
 	}
 }
