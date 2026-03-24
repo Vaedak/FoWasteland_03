@@ -17831,6 +17831,17 @@
         ]
       },
       "path": "~/B.A.S.E"
+    },
+    {
+      "name": "WeaponTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/B.A.S.E"
     }
   ],
   "variable_elements": [

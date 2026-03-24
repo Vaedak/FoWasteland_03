@@ -1,0 +1,33 @@
+{
+  "_fv": 69,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "WEAPONSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:BottleCap"
+            },
+            "countPrice1": 15,
+            "price2": {
+              "value": "CUSTOM:NeutronadeCap"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:Stimpack"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}
