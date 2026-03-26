@@ -290,8 +290,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 54,
-          "y": 165
+          "x": 7,
+          "y": 16
         }
       },
       {
@@ -301,6 +301,37 @@
           "use1Xscale": false,
           "x": 42,
           "y": 0
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 198,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 10,
+          "y": 55
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonplaceholdertexture3",
+          "image": "buttonplaceholdertexture.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "OpenBuildDefenseGUI"
+          },
+          "x": 11,
+          "y": 73
         }
       }
     ],

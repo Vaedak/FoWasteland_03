@@ -14,6 +14,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import net.mcreator.falloutwastelands.client.renderer.VertibirdRenderer;
 import net.mcreator.falloutwastelands.client.renderer.VertibirdBulletRenderer;
 import net.mcreator.falloutwastelands.client.renderer.SpiderfloaterRenderer;
+import net.mcreator.falloutwastelands.client.renderer.SettlerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.RaiderscavangerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.RaiderDustwalkerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.RadscorpionRenderer;
@@ -24,6 +25,7 @@ import net.mcreator.falloutwastelands.client.renderer.PADisplayEntityRenderer;
 import net.mcreator.falloutwastelands.client.renderer.LobotomiteWalkerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.LaserBeamRenderer;
 import net.mcreator.falloutwastelands.client.renderer.GeckoRenderer;
+import net.mcreator.falloutwastelands.client.renderer.FriendlyMK1TurretRenderer;
 import net.mcreator.falloutwastelands.client.renderer.FloaterRenderer;
 import net.mcreator.falloutwastelands.client.renderer.FeralGhoulRenderer;
 import net.mcreator.falloutwastelands.client.renderer.DynamiteEntityRenderer;
@@ -68,5 +70,7 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD.get(), VertibirdRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.BASENPC.get(), BASENPCRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.FRIENDLY_MK_1_TURRET.get(), FriendlyMK1TurretRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.SETTLER.get(), SettlerRenderer::new);
 	}
 }

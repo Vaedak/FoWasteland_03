@@ -30,9 +30,9 @@ public class BASEcoreUpdateTickProcedure {
 			}.getValue(world, BlockPos.containing(x, y, z), "zoneSize")) * 2) / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 			for (Entity entityiterator : _entfound) {
 				if (entityiterator instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 5, 1));
+					_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 60, 2, false, false));
 				if (entityiterator instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(FalloutWastelandsModMobEffects.IN_BASE.get(), 5, 1));
+					_entity.addEffect(new MobEffectInstance(FalloutWastelandsModMobEffects.IN_BASE.get(), 5, 1, false, false));
 				entityiterator.getPersistentData().putDouble("basePosX", x);
 				entityiterator.getPersistentData().putDouble("basePosY", y);
 				entityiterator.getPersistentData().putDouble("basePosZ", z);

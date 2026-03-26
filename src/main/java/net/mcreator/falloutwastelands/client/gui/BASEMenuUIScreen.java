@@ -31,6 +31,7 @@ public class BASEMenuUIScreen extends AbstractContainerScreen<BASEMenuUIMenu> {
 	ImageButton imagebutton_buttonplaceholdertexture;
 	ImageButton imagebutton_buttonplaceholdertexture1;
 	ImageButton imagebutton_buttonplaceholdertexture2;
+	ImageButton imagebutton_buttonplaceholdertexture3;
 
 	public BASEMenuUIScreen(BASEMenuUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -163,5 +164,13 @@ public class BASEMenuUIScreen extends AbstractContainerScreen<BASEMenuUIMenu> {
 		});
 		guistate.put("button:imagebutton_buttonplaceholdertexture2", imagebutton_buttonplaceholdertexture2);
 		this.addRenderableWidget(imagebutton_buttonplaceholdertexture2);
+		imagebutton_buttonplaceholdertexture3 = new ImageButton(this.leftPos + -115, this.topPos + 36, 16, 16, 0, 0, 16, new ResourceLocation("fallout_wastelands_:textures/screens/atlas/imagebutton_buttonplaceholdertexture3.png"), 16, 32, e -> {
+			if (true) {
+				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new BASEMenuUIButtonMessage(4, x, y, z));
+				BASEMenuUIButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_buttonplaceholdertexture3", imagebutton_buttonplaceholdertexture3);
+		this.addRenderableWidget(imagebutton_buttonplaceholdertexture3);
 	}
 }

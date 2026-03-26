@@ -1,0 +1,50 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 421,
+    "height": 217,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "DisplayMK1Turret"
+          },
+          "scale": 30,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 37,
+          "y": 56
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_build",
+          "text": "Build",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "BuildMK1Turret"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 24,
+          "y": 98
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

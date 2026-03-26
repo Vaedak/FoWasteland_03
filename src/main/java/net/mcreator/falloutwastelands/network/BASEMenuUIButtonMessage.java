@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.falloutwastelands.world.inventory.BASEMenuUIMenu;
 import net.mcreator.falloutwastelands.procedures.SetBASENameProcedure;
+import net.mcreator.falloutwastelands.procedures.OpenBuildDefenseGUIProcedure;
 import net.mcreator.falloutwastelands.procedures.OpenBASEInventoryProcedure;
 import net.mcreator.falloutwastelands.procedures.InputCapsBASEUIProcedure;
 import net.mcreator.falloutwastelands.procedures.ExitMenuUIProcedure;
@@ -80,6 +81,10 @@ public class BASEMenuUIButtonMessage {
 		if (buttonID == 3) {
 
 			InputCapsBASEUIProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			OpenBuildDefenseGUIProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

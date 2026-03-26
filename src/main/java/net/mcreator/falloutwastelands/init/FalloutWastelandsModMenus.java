@@ -11,11 +11,14 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
+import net.mcreator.falloutwastelands.world.inventory.SettlerControllerMenu;
 import net.mcreator.falloutwastelands.world.inventory.PowerArmorFrameGUIMenu;
+import net.mcreator.falloutwastelands.world.inventory.PipboyGUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.MedicalboxGUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.LockerStorageMenu;
 import net.mcreator.falloutwastelands.world.inventory.FridgeGUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.DumpsterMenu;
+import net.mcreator.falloutwastelands.world.inventory.DefenseBuildMenuMenu;
 import net.mcreator.falloutwastelands.world.inventory.BoxMenu;
 import net.mcreator.falloutwastelands.world.inventory.BASEMenuUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.BASEInventoryMenu;
@@ -33,4 +36,7 @@ public class FalloutWastelandsModMenus {
 	public static final RegistryObject<MenuType<MedicalboxGUIMenu>> MEDICALBOX_GUI = REGISTRY.register("medicalbox_gui", () -> IForgeMenuType.create(MedicalboxGUIMenu::new));
 	public static final RegistryObject<MenuType<FridgeGUIMenu>> FRIDGE_GUI = REGISTRY.register("fridge_gui", () -> IForgeMenuType.create(FridgeGUIMenu::new));
 	public static final RegistryObject<MenuType<DumpsterMenu>> DUMPSTER = REGISTRY.register("dumpster", () -> IForgeMenuType.create(DumpsterMenu::new));
+	public static final RegistryObject<MenuType<PipboyGUIMenu>> PIPBOY_GUI = REGISTRY.register("pipboy_gui", () -> IForgeMenuType.create(PipboyGUIMenu::new));
+	public static final RegistryObject<MenuType<DefenseBuildMenuMenu>> DEFENSE_BUILD_MENU = REGISTRY.register("defense_build_menu", () -> IForgeMenuType.create(DefenseBuildMenuMenu::new));
+	public static final RegistryObject<MenuType<SettlerControllerMenu>> SETTLER_CONTROLLER = REGISTRY.register("settler_controller", () -> IForgeMenuType.create(SettlerControllerMenu::new));
 }

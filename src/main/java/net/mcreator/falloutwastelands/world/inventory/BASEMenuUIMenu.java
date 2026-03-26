@@ -103,8 +103,11 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(199, this.addSlot(new SlotItemHandler(internal, 199, -71, 129) {
+		this.customSlots.put(199, this.addSlot(new SlotItemHandler(internal, 199, -118, -20) {
 			private final int slot = 199;
+		}));
+		this.customSlots.put(198, this.addSlot(new SlotItemHandler(internal, 198, -115, 19) {
+			private final int slot = 198;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -133,16 +136,16 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 3) {
-				if (!this.moveItemStackTo(itemstack1, 3, this.slots.size(), true))
+			if (index < 4) {
+				if (!this.moveItemStackTo(itemstack1, 4, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 3, false)) {
-				if (index < 3 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 3 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 4, false)) {
+				if (index < 4 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 4 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 3, 3 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 4, 4 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
@@ -244,6 +247,8 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 						continue;
 					if (j == 201)
 						continue;
+					if (j == 198)
+						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
@@ -251,6 +256,8 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 					if (i == 200)
 						continue;
 					if (i == 201)
+						continue;
+					if (i == 198)
 						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}

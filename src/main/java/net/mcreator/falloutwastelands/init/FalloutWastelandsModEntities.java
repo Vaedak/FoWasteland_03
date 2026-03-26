@@ -21,6 +21,7 @@ import net.mcreator.falloutwastelands.entity.VertibirdEntity;
 import net.mcreator.falloutwastelands.entity.VertibirdBulletEntity;
 import net.mcreator.falloutwastelands.entity.SpiderfloaterEntity;
 import net.mcreator.falloutwastelands.entity.ShootNothingEntity;
+import net.mcreator.falloutwastelands.entity.SettlerEntity;
 import net.mcreator.falloutwastelands.entity.RipperProjectileProjectileEntity;
 import net.mcreator.falloutwastelands.entity.RaiderscavangerEntity;
 import net.mcreator.falloutwastelands.entity.RaiderDustwalkerEntity;
@@ -33,6 +34,7 @@ import net.mcreator.falloutwastelands.entity.PADisplayEntityEntity;
 import net.mcreator.falloutwastelands.entity.LobotomiteWalkerEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.GeckoEntity;
+import net.mcreator.falloutwastelands.entity.FriendlyMK1TurretEntity;
 import net.mcreator.falloutwastelands.entity.FloaterEntity;
 import net.mcreator.falloutwastelands.entity.FeralGhoulEntity;
 import net.mcreator.falloutwastelands.entity.DynamiteEntityEntity;
@@ -144,6 +146,14 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<BASENPCEntity>of(BASENPCEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BASENPCEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FriendlyMK1TurretEntity>> FRIENDLY_MK_1_TURRET = register("friendly_mk_1_turret",
+			EntityType.Builder.<FriendlyMK1TurretEntity>of(FriendlyMK1TurretEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FriendlyMK1TurretEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SettlerEntity>> SETTLER = register("settler",
+			EntityType.Builder.<SettlerEntity>of(SettlerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SettlerEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -173,6 +183,8 @@ public class FalloutWastelandsModEntities {
 			PowerArmoredRaiderEntity.init();
 			VertibirdEntity.init();
 			BASENPCEntity.init();
+			FriendlyMK1TurretEntity.init();
+			SettlerEntity.init();
 		});
 	}
 
@@ -199,5 +211,7 @@ public class FalloutWastelandsModEntities {
 		event.put(POWER_ARMORED_RAIDER.get(), PowerArmoredRaiderEntity.createAttributes().build());
 		event.put(VERTIBIRD.get(), VertibirdEntity.createAttributes().build());
 		event.put(BASENPC.get(), BASENPCEntity.createAttributes().build());
+		event.put(FRIENDLY_MK_1_TURRET.get(), FriendlyMK1TurretEntity.createAttributes().build());
+		event.put(SETTLER.get(), SettlerEntity.createAttributes().build());
 	}
 }
