@@ -25,6 +25,7 @@ public class SettlerControllerScreen extends AbstractContainerScreen<SettlerCont
 	private final Player entity;
 	Button button_recruit;
 	Button button_defense;
+	Button button_farmer;
 
 	public SettlerControllerScreen(SettlerControllerMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -34,7 +35,7 @@ public class SettlerControllerScreen extends AbstractContainerScreen<SettlerCont
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 315;
-		this.imageHeight = 166;
+		this.imageHeight = 235;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("fallout_wastelands_:textures/screens/settler_controller.png");
@@ -66,7 +67,7 @@ public class SettlerControllerScreen extends AbstractContainerScreen<SettlerCont
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.fallout_wastelands_.settler_controller.label_assign"), 21, 9, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.fallout_wastelands_.settler_controller.label_assign"), 21, 43, -12829636, false);
 	}
 
 	@Override
@@ -77,7 +78,7 @@ public class SettlerControllerScreen extends AbstractContainerScreen<SettlerCont
 				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new SettlerControllerButtonMessage(0, x, y, z));
 				SettlerControllerButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 68, this.topPos + 9, 61, 20).build(builder -> new Button(builder) {
+		}).bounds(this.leftPos + 68, this.topPos + 43, 61, 20).build(builder -> new Button(builder) {
 			@Override
 			public void renderWidget(GuiGraphics guiGraphics, int gx, int gy, float ticks) {
 				this.visible = DisplayRecruitButtonProcedure.execute(world, x, y, z);
@@ -87,8 +88,20 @@ public class SettlerControllerScreen extends AbstractContainerScreen<SettlerCont
 		guistate.put("button:button_recruit", button_recruit);
 		this.addRenderableWidget(button_recruit);
 		button_defense = Button.builder(Component.translatable("gui.fallout_wastelands_.settler_controller.button_defense"), e -> {
-		}).bounds(this.leftPos + 7, this.topPos + 92, 61, 20).build();
+			if (true) {
+				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new SettlerControllerButtonMessage(1, x, y, z));
+				SettlerControllerButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
+		}).bounds(this.leftPos + 7, this.topPos + 126, 61, 20).build();
 		guistate.put("button:button_defense", button_defense);
 		this.addRenderableWidget(button_defense);
+		button_farmer = Button.builder(Component.translatable("gui.fallout_wastelands_.settler_controller.button_farmer"), e -> {
+			if (true) {
+				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new SettlerControllerButtonMessage(2, x, y, z));
+				SettlerControllerButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		}).bounds(this.leftPos + 9, this.topPos + 98, 56, 20).build();
+		guistate.put("button:button_farmer", button_farmer);
+		this.addRenderableWidget(button_farmer);
 	}
 }

@@ -151,7 +151,7 @@ public class FalloutWastelandsModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SettlerEntity>> SETTLER = register("settler",
-			EntityType.Builder.<SettlerEntity>of(SettlerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SettlerEntity::new)
+			EntityType.Builder.<SettlerEntity>of(SettlerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SettlerEntity::new)
 
 					.sized(0.6f, 1.8f));
 

@@ -107,7 +107,7 @@ public class BASENPCEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		BASENPCOnEntityTickUpdateProcedure.execute(this.level(), this);
+		BASENPCOnEntityTickUpdateProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {

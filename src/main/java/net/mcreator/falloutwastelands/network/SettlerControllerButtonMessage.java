@@ -12,6 +12,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.falloutwastelands.world.inventory.SettlerControllerMenu;
+import net.mcreator.falloutwastelands.procedures.SetFarmerProcedure;
+import net.mcreator.falloutwastelands.procedures.SetDefenseProcedure;
 import net.mcreator.falloutwastelands.procedures.PressRecruitSettlerProcedure;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
@@ -65,6 +67,14 @@ public class SettlerControllerButtonMessage {
 		if (buttonID == 0) {
 
 			PressRecruitSettlerProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 1) {
+
+			SetDefenseProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 2) {
+
+			SetFarmerProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

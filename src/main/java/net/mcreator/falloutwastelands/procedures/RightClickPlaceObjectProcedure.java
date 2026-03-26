@@ -8,12 +8,16 @@ import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.ClipContext;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
@@ -24,6 +28,8 @@ import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 import javax.annotation.Nullable;
 
 import java.util.function.Supplier;
+import java.util.List;
+import java.util.Comparator;
 
 @Mod.EventBusSubscriber(value = {Dist.CLIENT})
 public class RightClickPlaceObjectProcedure {
@@ -32,7 +38,7 @@ public class RightClickPlaceObjectProcedure {
 		if (event.getHand() != event.getEntity().getUsedItemHand())
 			return;
 		FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new RightClickPlaceObjectMessage());
-		execute(event.getLevel(), event.getEntity());
+		execute(event.getLevel(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ(), event.getEntity());
 	}
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -51,7 +57,7 @@ public class RightClickPlaceObjectProcedure {
 			context.enqueueWork(() -> {
 				if (!context.getSender().level().hasChunkAt(context.getSender().blockPosition()))
 					return;
-				execute(context.getSender().level(), context.getSender());
+				execute(context.getSender().level(), context.getSender().getX(), context.getSender().getY(), context.getSender().getZ(), context.getSender());
 			});
 			context.setPacketHandled(true);
 		}
@@ -62,11 +68,11 @@ public class RightClickPlaceObjectProcedure {
 		}
 	}
 
-	public static void execute(LevelAccessor world, Entity entity) {
-		execute(null, world, entity);
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+		execute(null, world, x, y, z, entity);
 	}
 
-	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
+	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(FalloutWastelandsModMobEffects.IN_BASE.get())) {
@@ -85,6 +91,21 @@ public class RightClickPlaceObjectProcedure {
 				entity.getPersistentData().putBoolean("placeMK1", false);
 			} else {
 				entity.getPersistentData().putBoolean("placeMK1", false);
+			}
+			{
+				final Vec3 _center = new Vec3(x, y, z);
+				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(200 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
+				for (Entity entityiterator : _entfound) {
+					if (entityiterator instanceof LivingEntity _livEnt8 && _livEnt8.hasEffect(FalloutWastelandsModMobEffects.WAITING_FOR_SET_HOME.get())) {
+						entityiterator.getPersistentData().putDouble("homeX", (entity.getX()));
+						entityiterator.getPersistentData().putDouble("homeY", (entity.getY()));
+						entityiterator.getPersistentData().putDouble("homeZ", (entity.getZ()));
+						if (entityiterator instanceof LivingEntity _entity)
+							_entity.removeEffect(FalloutWastelandsModMobEffects.WAITING_FOR_SET_HOME.get());
+						if (entity instanceof Player _player && !_player.level().isClientSide())
+							_player.displayClientMessage(Component.literal("Set Home Of Farmer"), true);
+					}
+				}
 			}
 		}
 	}
