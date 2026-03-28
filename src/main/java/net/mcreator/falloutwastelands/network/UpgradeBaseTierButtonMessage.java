@@ -11,44 +11,39 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.falloutwastelands.world.inventory.BASEMenuUIMenu;
-import net.mcreator.falloutwastelands.procedures.SetBASENameProcedure;
-import net.mcreator.falloutwastelands.procedures.OpenUpgradeTierProcedure;
-import net.mcreator.falloutwastelands.procedures.OpenBuildDefenseGUIProcedure;
-import net.mcreator.falloutwastelands.procedures.OpenBASEInventoryProcedure;
-import net.mcreator.falloutwastelands.procedures.InputCapsBASEUIProcedure;
-import net.mcreator.falloutwastelands.procedures.ExitMenuUIProcedure;
+import net.mcreator.falloutwastelands.world.inventory.UpgradeBaseTierMenu;
+import net.mcreator.falloutwastelands.procedures.UpgradeToTier2Procedure;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
 import java.util.function.Supplier;
 import java.util.HashMap;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class BASEMenuUIButtonMessage {
+public class UpgradeBaseTierButtonMessage {
 	private final int buttonID, x, y, z;
 
-	public BASEMenuUIButtonMessage(FriendlyByteBuf buffer) {
+	public UpgradeBaseTierButtonMessage(FriendlyByteBuf buffer) {
 		this.buttonID = buffer.readInt();
 		this.x = buffer.readInt();
 		this.y = buffer.readInt();
 		this.z = buffer.readInt();
 	}
 
-	public BASEMenuUIButtonMessage(int buttonID, int x, int y, int z) {
+	public UpgradeBaseTierButtonMessage(int buttonID, int x, int y, int z) {
 		this.buttonID = buttonID;
 		this.x = x;
 		this.y = y;
 		this.z = z;
 	}
 
-	public static void buffer(BASEMenuUIButtonMessage message, FriendlyByteBuf buffer) {
+	public static void buffer(UpgradeBaseTierButtonMessage message, FriendlyByteBuf buffer) {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
 		buffer.writeInt(message.y);
 		buffer.writeInt(message.z);
 	}
 
-	public static void handler(BASEMenuUIButtonMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
+	public static void handler(UpgradeBaseTierButtonMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
 		NetworkEvent.Context context = contextSupplier.get();
 		context.enqueueWork(() -> {
 			Player entity = context.getSender();
@@ -63,38 +58,18 @@ public class BASEMenuUIButtonMessage {
 
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level();
-		HashMap guistate = BASEMenuUIMenu.guistate;
+		HashMap guistate = UpgradeBaseTierMenu.guistate;
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
 		if (buttonID == 0) {
 
-			OpenBASEInventoryProcedure.execute(world, x, y, z, entity);
-		}
-		if (buttonID == 1) {
-
-			ExitMenuUIProcedure.execute(entity);
-		}
-		if (buttonID == 2) {
-
-			SetBASENameProcedure.execute(world, x, y, z, entity, guistate);
-		}
-		if (buttonID == 3) {
-
-			InputCapsBASEUIProcedure.execute(world, x, y, z, entity);
-		}
-		if (buttonID == 4) {
-
-			OpenBuildDefenseGUIProcedure.execute(world, x, y, z, entity);
-		}
-		if (buttonID == 5) {
-
-			OpenUpgradeTierProcedure.execute(world, x, y, z, entity);
+			UpgradeToTier2Procedure.execute(world, x, y, z);
 		}
 	}
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		FalloutWastelandsMod.addNetworkMessage(BASEMenuUIButtonMessage.class, BASEMenuUIButtonMessage::buffer, BASEMenuUIButtonMessage::new, BASEMenuUIButtonMessage::handler);
+		FalloutWastelandsMod.addNetworkMessage(UpgradeBaseTierButtonMessage.class, UpgradeBaseTierButtonMessage::buffer, UpgradeBaseTierButtonMessage::new, UpgradeBaseTierButtonMessage::handler);
 	}
 }

@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.falloutwastelands.client.gui.UpgradeBaseTierScreen;
 import net.mcreator.falloutwastelands.client.gui.SettlerControllerScreen;
 import net.mcreator.falloutwastelands.client.gui.PowerArmorFrameGUIScreen;
 import net.mcreator.falloutwastelands.client.gui.PipboyGUIScreen;
@@ -41,6 +42,7 @@ public class FalloutWastelandsModScreens {
 			MenuScreens.register(FalloutWastelandsModMenus.PIPBOY_GUI.get(), PipboyGUIScreen::new);
 			MenuScreens.register(FalloutWastelandsModMenus.DEFENSE_BUILD_MENU.get(), DefenseBuildMenuScreen::new);
 			MenuScreens.register(FalloutWastelandsModMenus.SETTLER_CONTROLLER.get(), SettlerControllerScreen::new);
+			MenuScreens.register(FalloutWastelandsModMenus.UPGRADE_BASE_TIER.get(), UpgradeBaseTierScreen::new);
 		});
 	}
 }

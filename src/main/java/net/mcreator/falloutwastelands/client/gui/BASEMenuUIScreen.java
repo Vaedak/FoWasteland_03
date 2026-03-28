@@ -14,6 +14,7 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.falloutwastelands.world.inventory.BASEMenuUIMenu;
 import net.mcreator.falloutwastelands.procedures.DisplayCapsStoredProcedure;
 import net.mcreator.falloutwastelands.procedures.DisplayBaseNameStoredProcedure;
+import net.mcreator.falloutwastelands.procedures.DisplayBASETierProcedure;
 import net.mcreator.falloutwastelands.network.BASEMenuUIButtonMessage;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
@@ -32,6 +33,7 @@ public class BASEMenuUIScreen extends AbstractContainerScreen<BASEMenuUIMenu> {
 	ImageButton imagebutton_buttonplaceholdertexture1;
 	ImageButton imagebutton_buttonplaceholdertexture2;
 	ImageButton imagebutton_buttonplaceholdertexture3;
+	ImageButton imagebutton_buttonplaceholdertexture4;
 
 	public BASEMenuUIScreen(BASEMenuUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -104,6 +106,9 @@ public class BASEMenuUIScreen extends AbstractContainerScreen<BASEMenuUIMenu> {
 		guiGraphics.drawString(this.font,
 
 				DisplayCapsStoredProcedure.execute(world, x, y, z, entity), 272, 43, -16711936, false);
+		guiGraphics.drawString(this.font,
+
+				DisplayBASETierProcedure.execute(world, x, y, z, entity), 55, -9, -16738048, false);
 	}
 
 	@Override
@@ -172,5 +177,13 @@ public class BASEMenuUIScreen extends AbstractContainerScreen<BASEMenuUIMenu> {
 		});
 		guistate.put("button:imagebutton_buttonplaceholdertexture3", imagebutton_buttonplaceholdertexture3);
 		this.addRenderableWidget(imagebutton_buttonplaceholdertexture3);
+		imagebutton_buttonplaceholdertexture4 = new ImageButton(this.leftPos + -113, this.topPos + 87, 16, 16, 0, 0, 16, new ResourceLocation("fallout_wastelands_:textures/screens/atlas/imagebutton_buttonplaceholdertexture4.png"), 16, 32, e -> {
+			if (true) {
+				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new BASEMenuUIButtonMessage(5, x, y, z));
+				BASEMenuUIButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_buttonplaceholdertexture4", imagebutton_buttonplaceholdertexture4);
+		this.addRenderableWidget(imagebutton_buttonplaceholdertexture4);
 	}
 }

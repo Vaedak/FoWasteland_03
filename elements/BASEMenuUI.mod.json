@@ -333,6 +333,71 @@
           "x": 11,
           "y": 73
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_display_base_tier",
+          "text": {
+            "fixedValue": "",
+            "name": "DisplayBASETier"
+          },
+          "color": {
+            "value": -16738048,
+            "falpha": 0.0
+          },
+          "x": 181,
+          "y": 28
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 197,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 14,
+          "y": 109
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonplaceholdertexture4",
+          "image": "buttonplaceholdertexture.png",
+          "hoveredImage": "buttonplaceholdertexture.png",
+          "onClick": {
+            "name": "OpenUpgradeTier"
+          },
+          "x": 13,
+          "y": 124
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 196,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 13,
+          "y": 157
+        }
       }
     ],
     "gridSettings": {

@@ -160,6 +160,7 @@ import net.mcreator.falloutwastelands.item.BeerItem;
 import net.mcreator.falloutwastelands.item.BaseballClubItem;
 import net.mcreator.falloutwastelands.item.BaseballBatItem;
 import net.mcreator.falloutwastelands.item.BaseGunItemItem;
+import net.mcreator.falloutwastelands.item.BASETierIconItem;
 import net.mcreator.falloutwastelands.item.BASENameItemItem;
 import net.mcreator.falloutwastelands.item.BASECapBundleItem;
 import net.mcreator.falloutwastelands.item.AsbestosItem;
@@ -758,6 +759,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> DEFENSE_ICON = REGISTRY.register("defense_icon", () -> new DefenseIconItem());
 	public static final RegistryObject<Item> FRIENDLY_MK_1_TURRET_SPAWN_EGG = REGISTRY.register("friendly_mk_1_turret_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.FRIENDLY_MK_1_TURRET, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> SETTLER_SPAWN_EGG = REGISTRY.register("settler_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.SETTLER, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> BASE_TIER_ICON = REGISTRY.register("base_tier_icon", () -> new BASETierIconItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

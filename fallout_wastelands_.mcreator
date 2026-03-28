@@ -2706,6 +2706,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -18435,6 +18439,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -18463,6 +18471,172 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/procedures/PickupCropsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "DisplayBASETier",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_base_tier",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DisplayBASETierProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "BASETierIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_tier_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/BASETierIconItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/base_tier_icon.json"
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "OpenUpgradeTier",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_upgrade_tier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/OpenUpgradeTierProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "UpgradeBaseTier",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_base_tier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/UpgradeBaseTierMenu.java",
+          "src/main/java/net/mcreator/falloutwastelands/network/UpgradeBaseTierButtonMessage.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/UpgradeBaseTierScreen.java"
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "UpgradeToTier2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_to_tier_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/UpgradeToTier2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "BASEcoreBlockIsPlacedBy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bas_ecore_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BASEcoreBlockIsPlacedByProcedure.java"
         ],
         "dependencies": [
           {
@@ -20212,6 +20386,7 @@
       "block.fallout_wastelands_.scaffolding_walkways_block": "Scaffolding Walkway Block",
       "item.fallout_wastelands_.tenmmammo": "10mm Rounds",
       "item.fallout_wastelands_.vault_security_suit_boots": "Vault Security Boots",
+      "item.fallout_wastelands_.base_tier_icon": "Population Icon",
       "item.fallout_wastelands_.stimpack": "Stimpack",
       "item.fallout_wastelands_.base_cap_bundle": "Cap Bundle",
       "block.fallout_wastelands_.wall_wasteland_cobblestone": "Wasteland Cobblestone Wall",
@@ -20374,6 +20549,7 @@
       "item.fallout_wastelands_.raiderblastmaster_chestplate": "Raider Blastmaster Chestplate",
       "item.fallout_wastelands_.super_sledge": "Super Sledge",
       "block.fallout_wastelands_.blue_industrial_alloy_top_rivet_slab": "Blue Industrial Alloy Slab (upper rivet)",
+      "gui.fallout_wastelands_.upgrade_base_tier.button_tier_2": "Tier 2",
       "item_group.fallout_wastelands_.wasteland_naturals": "Wasteland Natural Blocks",
       "block.fallout_wastelands_.military_metal_hazard": "Military Plating (hazard)",
       "item.fallout_wastelands_.brotherhood_hull": "Brotherhood Plating",

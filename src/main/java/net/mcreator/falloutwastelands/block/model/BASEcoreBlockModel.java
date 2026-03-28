@@ -19,6 +19,6 @@ public class BASEcoreBlockModel extends GeoModel<BASEcoreTileEntity> {
 
 	@Override
 	public ResourceLocation getTextureResource(BASEcoreTileEntity animatable) {
-		return new ResourceLocation("fallout_wastelands_", "textures/block/walkwaytop.png");
+		return new ResourceLocation("fallout_wastelands_", "textures/block/terminal.png");
 	}
 }

@@ -19,6 +19,6 @@ public class BASEcoreDisplayModel extends GeoModel<BASEcoreDisplayItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(BASEcoreDisplayItem entity) {
-		return new ResourceLocation("fallout_wastelands_", "textures/block/walkwaytop.png");
+		return new ResourceLocation("fallout_wastelands_", "textures/block/terminal.png");
 	}
 }
