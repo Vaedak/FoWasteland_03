@@ -18399,6 +18399,95 @@
         ]
       },
       "path": "~/B.A.S.E"
+    },
+    {
+      "name": "Testing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/TestingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "RaidController",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raid_controller",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/RaidControllerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "PickupCrops",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickup_crops",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PickupCropsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
     }
   ],
   "variable_elements": [
@@ -18580,6 +18669,13 @@
       "CUSTOM:T51bPA.boots",
       "CUSTOM:APA1.boots",
       "CUSTOM:RaiderPa.boots"
+    ],
+    "BLOCKS:mod:growables": [
+      "Blocks.WHEAT",
+      "Blocks.BEETROOTS",
+      "Blocks.POTATOES",
+      "Blocks.MELON_BLOCK",
+      "Blocks.PUMPKIN"
     ],
     "ITEMS:minecraft:logs": [
       "CUSTOM:Molder_WoodWood",

@@ -18,6 +18,7 @@ import java.util.Comparator;
 public class BASEcoreUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		ParticleSquareProcedure.execute(world, x, y, z);
+		RaidControllerProcedure.execute(world, x, y, z);
 		{
 			final Vec3 _center = new Vec3(x, y, z);
 			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(((new Object() {
