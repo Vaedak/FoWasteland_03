@@ -37,10 +37,13 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.falloutwastelands.procedures.SpawnBASEfieldProcedure;
+import net.mcreator.falloutwastelands.procedures.BASEcoreUpdateTickProcedure;
 import net.mcreator.falloutwastelands.procedures.BASEcoreOnBlockRightClickedProcedure;
 import net.mcreator.falloutwastelands.procedures.BASEcoreBlockIsPlacedByProcedure;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModBlockEntities;
@@ -143,7 +146,19 @@ public class BASEcoreBlock extends BaseEntityBlock implements SimpleWaterloggedB
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
+		world.scheduleTick(pos, this, 1);
 		SpawnBASEfieldProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+
+		BASEcoreUpdateTickProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 1);
 	}
 
 	@Override

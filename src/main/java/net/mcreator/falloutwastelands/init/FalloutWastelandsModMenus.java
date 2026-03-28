@@ -11,7 +11,6 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
-import net.mcreator.falloutwastelands.world.inventory.UpgradeBaseTierMenu;
 import net.mcreator.falloutwastelands.world.inventory.SettlerControllerMenu;
 import net.mcreator.falloutwastelands.world.inventory.PowerArmorFrameGUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.PipboyGUIMenu;
@@ -21,6 +20,7 @@ import net.mcreator.falloutwastelands.world.inventory.FridgeGUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.DumpsterMenu;
 import net.mcreator.falloutwastelands.world.inventory.DefenseBuildMenuMenu;
 import net.mcreator.falloutwastelands.world.inventory.BoxMenu;
+import net.mcreator.falloutwastelands.world.inventory.BASEUpgradeGUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.BASEMenuUIMenu;
 import net.mcreator.falloutwastelands.world.inventory.BASEInventoryMenu;
 import net.mcreator.falloutwastelands.world.inventory.AmmoBoxGUIMenu;
@@ -40,5 +40,5 @@ public class FalloutWastelandsModMenus {
 	public static final RegistryObject<MenuType<PipboyGUIMenu>> PIPBOY_GUI = REGISTRY.register("pipboy_gui", () -> IForgeMenuType.create(PipboyGUIMenu::new));
 	public static final RegistryObject<MenuType<DefenseBuildMenuMenu>> DEFENSE_BUILD_MENU = REGISTRY.register("defense_build_menu", () -> IForgeMenuType.create(DefenseBuildMenuMenu::new));
 	public static final RegistryObject<MenuType<SettlerControllerMenu>> SETTLER_CONTROLLER = REGISTRY.register("settler_controller", () -> IForgeMenuType.create(SettlerControllerMenu::new));
-	public static final RegistryObject<MenuType<UpgradeBaseTierMenu>> UPGRADE_BASE_TIER = REGISTRY.register("upgrade_base_tier", () -> IForgeMenuType.create(UpgradeBaseTierMenu::new));
+	public static final RegistryObject<MenuType<BASEUpgradeGUIMenu>> BASE_UPGRADE_GUI = REGISTRY.register("base_upgrade_gui", () -> IForgeMenuType.create(BASEUpgradeGUIMenu::new));
 }

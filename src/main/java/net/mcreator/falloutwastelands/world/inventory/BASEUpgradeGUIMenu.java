@@ -19,13 +19,14 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.falloutwastelands.procedures.UpgradeBaseTierThisGUIIsOpenedProcedure;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class BASEUpgradeGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
@@ -38,11 +39,11 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 	private Entity boundEntity = null;
 	private BlockEntity boundBlockEntity = null;
 
-	public BASEMenuUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(FalloutWastelandsModMenus.BASE_MENU_UI.get(), id);
+	public BASEUpgradeGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(FalloutWastelandsModMenus.BASE_UPGRADE_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(202);
+		this.internal = new ItemStackHandler(4);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -77,8 +78,8 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 					});
 			}
 		}
-		this.customSlots.put(200, this.addSlot(new SlotItemHandler(internal, 200, -70, 22) {
-			private final int slot = 200;
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, -5, 65) {
+			private final int slot = 0;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -90,8 +91,8 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(201, this.addSlot(new SlotItemHandler(internal, 201, -71, 99) {
-			private final int slot = 201;
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 56, 64) {
+			private final int slot = 1;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -103,43 +104,38 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 				return false;
 			}
 		}));
-		this.customSlots.put(199, this.addSlot(new SlotItemHandler(internal, 199, -118, -20) {
-			private final int slot = 199;
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 105, 78) {
+			private final int slot = 2;
 
 			@Override
 			public boolean mayPickup(Player entity) {
 				return false;
 			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return false;
+			}
 		}));
-		this.customSlots.put(198, this.addSlot(new SlotItemHandler(internal, 198, -115, 19) {
-			private final int slot = 198;
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 150, 82) {
+			private final int slot = 3;
 
 			@Override
 			public boolean mayPickup(Player entity) {
 				return false;
 			}
-		}));
-		this.customSlots.put(197, this.addSlot(new SlotItemHandler(internal, 197, -111, 73) {
-			private final int slot = 197;
 
 			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
-			}
-		}));
-		this.customSlots.put(196, this.addSlot(new SlotItemHandler(internal, 196, 227, 99) {
-			private final int slot = 196;
-
-			@Override
-			public boolean mayPickup(Player entity) {
+			public boolean mayPlace(ItemStack itemstack) {
 				return false;
 			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -30 + 8 + sj * 18, 0 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+			this.addSlot(new Slot(inv, si, -30 + 8 + si * 18, 0 + 142));
+		UpgradeBaseTierThisGUIIsOpenedProcedure.execute(entity);
 	}
 
 	@Override
@@ -162,16 +158,16 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 6) {
-				if (!this.moveItemStackTo(itemstack1, 6, this.slots.size(), true))
+			if (index < 4) {
+				if (!this.moveItemStackTo(itemstack1, 4, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 6, false)) {
-				if (index < 6 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 6 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 4, false)) {
+				if (index < 4 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 4 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 6, 6 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 4, 4 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
@@ -269,33 +265,25 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
-					if (j == 200)
+					if (j == 0)
 						continue;
-					if (j == 201)
+					if (j == 1)
 						continue;
-					if (j == 199)
+					if (j == 2)
 						continue;
-					if (j == 198)
-						continue;
-					if (j == 197)
-						continue;
-					if (j == 196)
+					if (j == 3)
 						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
 				for (int i = 0; i < internal.getSlots(); ++i) {
-					if (i == 200)
+					if (i == 0)
 						continue;
-					if (i == 201)
+					if (i == 1)
 						continue;
-					if (i == 199)
+					if (i == 2)
 						continue;
-					if (i == 198)
-						continue;
-					if (i == 197)
-						continue;
-					if (i == 196)
+					if (i == 3)
 						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}

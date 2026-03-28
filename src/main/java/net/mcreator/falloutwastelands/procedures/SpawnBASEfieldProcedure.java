@@ -78,5 +78,17 @@ public class SpawnBASEfieldProcedure {
 				});
 			}
 		}
+		{
+			BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
+			if (_ent != null) {
+				final int _slotid = 199;
+				final ItemStack _setstack = new ItemStack(FalloutWastelandsModItems.POPULATION_ICON.get()).copy();
+				_setstack.setCount(1);
+				_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+					if (capability instanceof IItemHandlerModifiable)
+						((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
+				});
+			}
+		}
 	}
 }

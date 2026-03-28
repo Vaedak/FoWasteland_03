@@ -5,32 +5,28 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
-import net.mcreator.falloutwastelands.world.inventory.UpgradeBaseTierMenu;
-import net.mcreator.falloutwastelands.network.UpgradeBaseTierButtonMessage;
-import net.mcreator.falloutwastelands.FalloutWastelandsMod;
+import net.mcreator.falloutwastelands.world.inventory.BASEUpgradeGUIMenu;
 
 import java.util.HashMap;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class UpgradeBaseTierScreen extends AbstractContainerScreen<UpgradeBaseTierMenu> {
-	private final static HashMap<String, Object> guistate = UpgradeBaseTierMenu.guistate;
+public class BASEUpgradeGUIScreen extends AbstractContainerScreen<BASEUpgradeGUIMenu> {
+	private final static HashMap<String, Object> guistate = BASEUpgradeGUIMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_tier_2;
 
-	public UpgradeBaseTierScreen(UpgradeBaseTierMenu container, Inventory inventory, Component text) {
+	public BASEUpgradeGUIScreen(BASEUpgradeGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 413;
+		this.imageWidth = 176;
 		this.imageHeight = 166;
 	}
 
@@ -65,13 +61,5 @@ public class UpgradeBaseTierScreen extends AbstractContainerScreen<UpgradeBaseTi
 	@Override
 	public void init() {
 		super.init();
-		button_tier_2 = Button.builder(Component.translatable("gui.fallout_wastelands_.upgrade_base_tier.button_tier_2"), e -> {
-			if (true) {
-				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new UpgradeBaseTierButtonMessage(0, x, y, z));
-				UpgradeBaseTierButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
-		}).bounds(this.leftPos + 17, this.topPos + 124, 56, 20).build();
-		guistate.put("button:button_tier_2", button_tier_2);
-		this.addRenderableWidget(button_tier_2);
 	}
 }

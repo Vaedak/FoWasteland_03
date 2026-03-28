@@ -2706,10 +2706,6 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -18439,10 +18435,6 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -18583,52 +18575,6 @@
       "path": "~/B.A.S.E"
     },
     {
-      "name": "UpgradeBaseTier",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "upgrade_base_tier",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/world/inventory/UpgradeBaseTierMenu.java",
-          "src/main/java/net/mcreator/falloutwastelands/network/UpgradeBaseTierButtonMessage.java",
-          "src/main/java/net/mcreator/falloutwastelands/client/gui/UpgradeBaseTierScreen.java"
-        ]
-      },
-      "path": "~/B.A.S.E"
-    },
-    {
-      "name": "UpgradeToTier2",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "upgrade_to_tier_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/procedures/UpgradeToTier2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/B.A.S.E"
-    },
-    {
       "name": "BASEcoreBlockIsPlacedBy",
       "type": "procedure",
       "compiles": true,
@@ -18659,6 +18605,70 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "UpgradeBaseTierButton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_base_tier_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/UpgradeBaseTierButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "UpgradeBaseTierThisGUIIsOpened",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_base_tier_this_gui_is_opened",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/UpgradeBaseTierThisGUIIsOpenedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "BASEUpgradeGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_upgrade_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/BASEUpgradeGUIMenu.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/BASEUpgradeGUIScreen.java"
         ]
       },
       "path": "~/B.A.S.E"
@@ -20129,7 +20139,7 @@
       "block.fallout_wastelands_.yielroadsign": "Yield Roadsign",
       "block.fallout_wastelands_.single_scaffold_block": "Scaffold Block",
       "item.fallout_wastelands_.army_repairman_suit_chestplate": "Army Repairman Jacket",
-      "item.fallout_wastelands_.defense_icon": "Population Icon",
+      "item.fallout_wastelands_.defense_icon": "Defense",
       "item.fallout_wastelands_.industrialhammer": "Sledgehammer",
       "item.fallout_wastelands_.handyman_suit_chestplate": "Handyman Jacket",
       "entity.fallout_wastelands_.spiderfloater": "Spiderfloater",
@@ -20179,7 +20189,7 @@
       "item.fallout_wastelands_.raiderblastmaster_helmet": "Raider Blastmaster Helmet",
       "item.fallout_wastelands_.blastmaster_raider_spawn_egg": "Raider Blastmaster Spawn Egg",
       "block.fallout_wastelands_.adobe_stairs": "Adobe Block Stairs",
-      "item.fallout_wastelands_.population_icon": "Population Icon",
+      "item.fallout_wastelands_.population_icon": "Population",
       "block.fallout_wastelands_.laboratoryfloor_tile": "Laboratory Floor Tile",
       "item.fallout_wastelands_.road_leather_boots": "Road Leather Boots",
       "block.fallout_wastelands_.military_plating_walkway": "Military Plating Walkway",
@@ -20386,7 +20396,7 @@
       "block.fallout_wastelands_.scaffolding_walkways_block": "Scaffolding Walkway Block",
       "item.fallout_wastelands_.tenmmammo": "10mm Rounds",
       "item.fallout_wastelands_.vault_security_suit_boots": "Vault Security Boots",
-      "item.fallout_wastelands_.base_tier_icon": "Population Icon",
+      "item.fallout_wastelands_.base_tier_icon": "Tier",
       "item.fallout_wastelands_.stimpack": "Stimpack",
       "item.fallout_wastelands_.base_cap_bundle": "Cap Bundle",
       "block.fallout_wastelands_.wall_wasteland_cobblestone": "Wasteland Cobblestone Wall",
@@ -20549,7 +20559,7 @@
       "item.fallout_wastelands_.raiderblastmaster_chestplate": "Raider Blastmaster Chestplate",
       "item.fallout_wastelands_.super_sledge": "Super Sledge",
       "block.fallout_wastelands_.blue_industrial_alloy_top_rivet_slab": "Blue Industrial Alloy Slab (upper rivet)",
-      "gui.fallout_wastelands_.upgrade_base_tier.button_tier_2": "Tier 2",
+      "gui.fallout_wastelands_.upgrade_base_tier.button_tier_2": "Upgrade BASE Tier",
       "item_group.fallout_wastelands_.wasteland_naturals": "Wasteland Natural Blocks",
       "block.fallout_wastelands_.military_metal_hazard": "Military Plating (hazard)",
       "item.fallout_wastelands_.brotherhood_hull": "Brotherhood Plating",

@@ -287,9 +287,9 @@
           },
           "id": 199,
           "disablePickup": {
-            "fixedValue": false
+            "fixedValue": true
           },
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "x": 7,
           "y": 16
         }
@@ -314,7 +314,7 @@
           },
           "id": 198,
           "disablePickup": {
-            "fixedValue": false
+            "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
           "x": 10,
@@ -361,9 +361,9 @@
           },
           "id": 197,
           "disablePickup": {
-            "fixedValue": false
+            "fixedValue": true
           },
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "x": 14,
           "y": 109
         }
@@ -392,11 +392,11 @@
           },
           "id": 196,
           "disablePickup": {
-            "fixedValue": false
+            "fixedValue": true
           },
-          "dropItemsWhenNotBound": true,
-          "x": 13,
-          "y": 157
+          "dropItemsWhenNotBound": false,
+          "x": 352,
+          "y": 135
         }
       }
     ],
