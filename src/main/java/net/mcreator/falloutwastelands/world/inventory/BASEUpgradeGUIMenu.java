@@ -4,6 +4,9 @@ package net.mcreator.falloutwastelands.world.inventory;
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -19,13 +22,15 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.falloutwastelands.procedures.UpgradeBaseTierThisGUIIsOpenedProcedure;
+import net.mcreator.falloutwastelands.procedures.BASEUpgradeGUIWhileThisGUIIsOpenTickProcedure;
+import net.mcreator.falloutwastelands.procedures.BASEUpgradeGUIThisGUIIsClosedProcedure;
 import net.mcreator.falloutwastelands.init.FalloutWastelandsModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+@Mod.EventBusSubscriber
 public class BASEUpgradeGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -78,7 +83,7 @@ public class BASEUpgradeGUIMenu extends AbstractContainerMenu implements Supplie
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, -5, 65) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 24, 62) {
 			private final int slot = 0;
 
 			@Override
@@ -91,7 +96,7 @@ public class BASEUpgradeGUIMenu extends AbstractContainerMenu implements Supplie
 				return false;
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 56, 64) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 60, 62) {
 			private final int slot = 1;
 
 			@Override
@@ -104,7 +109,7 @@ public class BASEUpgradeGUIMenu extends AbstractContainerMenu implements Supplie
 				return false;
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 105, 78) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 96, 62) {
 			private final int slot = 2;
 
 			@Override
@@ -117,7 +122,7 @@ public class BASEUpgradeGUIMenu extends AbstractContainerMenu implements Supplie
 				return false;
 			}
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 150, 82) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 132, 62) {
 			private final int slot = 3;
 
 			@Override
@@ -132,10 +137,9 @@ public class BASEUpgradeGUIMenu extends AbstractContainerMenu implements Supplie
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -30 + 8 + sj * 18, 0 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -1 + 8 + sj * 18, 18 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, -30 + 8 + si * 18, 0 + 142));
-		UpgradeBaseTierThisGUIIsOpenedProcedure.execute(entity);
+			this.addSlot(new Slot(inv, si, -1 + 8 + si * 18, 18 + 142));
 	}
 
 	@Override
@@ -262,6 +266,7 @@ public class BASEUpgradeGUIMenu extends AbstractContainerMenu implements Supplie
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
+		BASEUpgradeGUIThisGUIIsClosedProcedure.execute(entity);
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
@@ -293,5 +298,17 @@ public class BASEUpgradeGUIMenu extends AbstractContainerMenu implements Supplie
 
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof BASEUpgradeGUIMenu) {
+			Level world = entity.level();
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+			BASEUpgradeGUIWhileThisGUIIsOpenTickProcedure.execute(entity);
+		}
 	}
 }

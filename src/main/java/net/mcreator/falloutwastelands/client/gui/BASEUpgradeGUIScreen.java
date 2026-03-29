@@ -3,11 +3,16 @@ package net.mcreator.falloutwastelands.client.gui;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.falloutwastelands.world.inventory.BASEUpgradeGUIMenu;
+import net.mcreator.falloutwastelands.procedures.UpgradeDisplayTierProcedure;
+import net.mcreator.falloutwastelands.network.BASEUpgradeGUIButtonMessage;
+import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
 import java.util.HashMap;
 
@@ -18,6 +23,7 @@ public class BASEUpgradeGUIScreen extends AbstractContainerScreen<BASEUpgradeGUI
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	Button button_upgrade_tier;
 
 	public BASEUpgradeGUIScreen(BASEUpgradeGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -26,9 +32,11 @@ public class BASEUpgradeGUIScreen extends AbstractContainerScreen<BASEUpgradeGUI
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 176;
-		this.imageHeight = 166;
+		this.imageWidth = 173;
+		this.imageHeight = 202;
 	}
+
+	private static final ResourceLocation texture = new ResourceLocation("fallout_wastelands_:textures/screens/base_upgrade_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -42,6 +50,7 @@ public class BASEUpgradeGUIScreen extends AbstractContainerScreen<BASEUpgradeGUI
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 		RenderSystem.disableBlend();
 	}
 
@@ -56,10 +65,22 @@ public class BASEUpgradeGUIScreen extends AbstractContainerScreen<BASEUpgradeGUI
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.fallout_wastelands_.base_upgrade_gui.label_cost"), 77, 43, -16711936, false);
+		guiGraphics.drawString(this.font,
+
+				UpgradeDisplayTierProcedure.execute(world, x, y, z), 50, 7, -16711936, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
+		button_upgrade_tier = Button.builder(Component.translatable("gui.fallout_wastelands_.base_upgrade_gui.button_upgrade_tier"), e -> {
+			if (true) {
+				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new BASEUpgradeGUIButtonMessage(0, x, y, z));
+				BASEUpgradeGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}).bounds(this.leftPos + 41, this.topPos + 16, 87, 20).build();
+		guistate.put("button:button_upgrade_tier", button_upgrade_tier);
+		this.addRenderableWidget(button_upgrade_tier);
 	}
 }

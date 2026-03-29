@@ -252,6 +252,21 @@
           "x": 241,
           "y": 94
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_scrapper",
+          "text": "Scrapper",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SetScrapper"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 60,
+          "y": 154
+        }
       }
     ],
     "gridSettings": {

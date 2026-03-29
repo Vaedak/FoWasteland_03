@@ -26,6 +26,7 @@ public class SettlerControllerScreen extends AbstractContainerScreen<SettlerCont
 	Button button_recruit;
 	Button button_defense;
 	Button button_farmer;
+	Button button_scrapper;
 
 	public SettlerControllerScreen(SettlerControllerMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -103,5 +104,13 @@ public class SettlerControllerScreen extends AbstractContainerScreen<SettlerCont
 		}).bounds(this.leftPos + 9, this.topPos + 98, 56, 20).build();
 		guistate.put("button:button_farmer", button_farmer);
 		this.addRenderableWidget(button_farmer);
+		button_scrapper = Button.builder(Component.translatable("gui.fallout_wastelands_.settler_controller.button_scrapper"), e -> {
+			if (true) {
+				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new SettlerControllerButtonMessage(3, x, y, z));
+				SettlerControllerButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + 4, this.topPos + 151, 67, 20).build();
+		guistate.put("button:button_scrapper", button_scrapper);
+		this.addRenderableWidget(button_scrapper);
 	}
 }
