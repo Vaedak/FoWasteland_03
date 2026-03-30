@@ -10,9 +10,11 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionHand;
 
@@ -62,6 +64,15 @@ public class ScrapperAIProcedure {
 									}
 								}.getItemStack(0, entity)).getItem() == Blocks.AIR.asItem()) {
 									{
+										Entity _entity = entity;
+										if (_entity instanceof Player _player) {
+											_player.getInventory().armor.set(3, foundEntityItem);
+											_player.getInventory().setChanged();
+										} else if (_entity instanceof LivingEntity _living) {
+											_living.setItemSlot(EquipmentSlot.HEAD, foundEntityItem);
+										}
+									}
+									{
 										final int _slotid = 0;
 										final ItemStack _setstack = foundEntityItem.copy();
 										_setstack.setCount(1);
@@ -84,6 +95,15 @@ public class ScrapperAIProcedure {
 										return _retval.get();
 									}
 								}.getItemStack(1, entity)).getItem() == Blocks.AIR.asItem()) {
+									{
+										Entity _entity = entity;
+										if (_entity instanceof Player _player) {
+											_player.getInventory().armor.set(2, foundEntityItem);
+											_player.getInventory().setChanged();
+										} else if (_entity instanceof LivingEntity _living) {
+											_living.setItemSlot(EquipmentSlot.CHEST, foundEntityItem);
+										}
+									}
 									{
 										final int _slotid = 1;
 										final ItemStack _setstack = foundEntityItem.copy();
@@ -108,6 +128,15 @@ public class ScrapperAIProcedure {
 									}
 								}.getItemStack(2, entity)).getItem() == Blocks.AIR.asItem()) {
 									{
+										Entity _entity = entity;
+										if (_entity instanceof Player _player) {
+											_player.getInventory().armor.set(1, foundEntityItem);
+											_player.getInventory().setChanged();
+										} else if (_entity instanceof LivingEntity _living) {
+											_living.setItemSlot(EquipmentSlot.LEGS, foundEntityItem);
+										}
+									}
+									{
 										final int _slotid = 2;
 										final ItemStack _setstack = foundEntityItem.copy();
 										_setstack.setCount(1);
@@ -130,6 +159,15 @@ public class ScrapperAIProcedure {
 										return _retval.get();
 									}
 								}.getItemStack(3, entity)).getItem() == Blocks.AIR.asItem()) {
+									{
+										Entity _entity = entity;
+										if (_entity instanceof Player _player) {
+											_player.getInventory().armor.set(0, foundEntityItem);
+											_player.getInventory().setChanged();
+										} else if (_entity instanceof LivingEntity _living) {
+											_living.setItemSlot(EquipmentSlot.FEET, foundEntityItem);
+										}
+									}
 									{
 										final int _slotid = 3;
 										final ItemStack _setstack = foundEntityItem.copy();

@@ -67,6 +67,10 @@ public class FalloutWastelandsModVariables {
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.currentDimension = original.currentDimension;
+			clone.baseX = original.baseX;
+			clone.baseY = original.baseY;
+			clone.baseZ = original.baseZ;
+			clone.currentBase = original.currentBase;
 			if (!event.isWasDeath()) {
 				clone.paFrameXcord = original.paFrameXcord;
 				clone.paFrameYcord = original.paFrameYcord;
@@ -114,6 +118,10 @@ public class FalloutWastelandsModVariables {
 		public boolean inPowerArmor = false;
 		public double fusionCorePower = 0;
 		public String currentDimension = "\"\"";
+		public double baseX = 0;
+		public double baseY = 0;
+		public double baseZ = 0;
+		public String currentBase = "\"\"";
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -128,6 +136,10 @@ public class FalloutWastelandsModVariables {
 			nbt.putBoolean("inPowerArmor", inPowerArmor);
 			nbt.putDouble("fusionCorePower", fusionCorePower);
 			nbt.putString("currentDimension", currentDimension);
+			nbt.putDouble("baseX", baseX);
+			nbt.putDouble("baseY", baseY);
+			nbt.putDouble("baseZ", baseZ);
+			nbt.putString("currentBase", currentBase);
 			return nbt;
 		}
 
@@ -139,6 +151,10 @@ public class FalloutWastelandsModVariables {
 			inPowerArmor = nbt.getBoolean("inPowerArmor");
 			fusionCorePower = nbt.getDouble("fusionCorePower");
 			currentDimension = nbt.getString("currentDimension");
+			baseX = nbt.getDouble("baseX");
+			baseY = nbt.getDouble("baseY");
+			baseZ = nbt.getDouble("baseZ");
+			currentBase = nbt.getString("currentBase");
 		}
 	}
 
@@ -169,6 +185,10 @@ public class FalloutWastelandsModVariables {
 					variables.inPowerArmor = message.data.inPowerArmor;
 					variables.fusionCorePower = message.data.fusionCorePower;
 					variables.currentDimension = message.data.currentDimension;
+					variables.baseX = message.data.baseX;
+					variables.baseY = message.data.baseY;
+					variables.baseZ = message.data.baseZ;
+					variables.currentBase = message.data.currentBase;
 				}
 			});
 			context.setPacketHandled(true);

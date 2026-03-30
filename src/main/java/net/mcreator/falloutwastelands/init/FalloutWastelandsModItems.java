@@ -754,7 +754,6 @@ public class FalloutWastelandsModItems {
 			() -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.POWER_ARMORED_RAIDER, -8423335, -9939410, new Item.Properties()));
 	public static final RegistryObject<Item> VERTIBIRD_SPAWN_EGG = REGISTRY.register("vertibird_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.VERTIBIRD, -11446215, -12962027, new Item.Properties()));
 	public static final RegistryObject<Item> ENCLAVE_BUNKDER_BLOCK_STAIRS = block(FalloutWastelandsModBlocks.ENCLAVE_BUNKDER_BLOCK_STAIRS);
-	public static final RegistryObject<Item> BASENPC_SPAWN_EGG = REGISTRY.register("basenpc_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.BASENPC, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> POPULATION_ICON = REGISTRY.register("population_icon", () -> new PopulationIconItem());
 	public static final RegistryObject<Item> DEFENSE_ICON = REGISTRY.register("defense_icon", () -> new DefenseIconItem());
 	public static final RegistryObject<Item> FRIENDLY_MK_1_TURRET_SPAWN_EGG = REGISTRY.register("friendly_mk_1_turret_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.FRIENDLY_MK_1_TURRET, -1, -1, new Item.Properties()));

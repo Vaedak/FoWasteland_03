@@ -34,6 +34,7 @@ import net.mcreator.falloutwastelands.entity.PADisplayEntityEntity;
 import net.mcreator.falloutwastelands.entity.LobotomiteWalkerEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.GeckoEntity;
+import net.mcreator.falloutwastelands.entity.FriendlyTurretBulletEntity;
 import net.mcreator.falloutwastelands.entity.FriendlyMK1TurretEntity;
 import net.mcreator.falloutwastelands.entity.FloaterEntity;
 import net.mcreator.falloutwastelands.entity.FeralGhoulEntity;
@@ -45,7 +46,6 @@ import net.mcreator.falloutwastelands.entity.BrahminEntity;
 import net.mcreator.falloutwastelands.entity.BlastmasterRaiderEntity;
 import net.mcreator.falloutwastelands.entity.BaseGunItemProjectileEntity;
 import net.mcreator.falloutwastelands.entity.BabyBrahminEntity;
-import net.mcreator.falloutwastelands.entity.BASENPCEntity;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -142,10 +142,6 @@ public class FalloutWastelandsModEntities {
 					.sized(2.5f, 2f));
 	public static final RegistryObject<EntityType<VertibirdEntityProjectile>> VERTIBIRD_PROJECTILE = register("projectile_vertibird", EntityType.Builder.<VertibirdEntityProjectile>of(VertibirdEntityProjectile::new, MobCategory.MISC)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(VertibirdEntityProjectile::new).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<BASENPCEntity>> BASENPC = register("basenpc",
-			EntityType.Builder.<BASENPCEntity>of(BASENPCEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BASENPCEntity::new)
-
-					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<FriendlyMK1TurretEntity>> FRIENDLY_MK_1_TURRET = register("friendly_mk_1_turret",
 			EntityType.Builder.<FriendlyMK1TurretEntity>of(FriendlyMK1TurretEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FriendlyMK1TurretEntity::new)
 
@@ -154,6 +150,8 @@ public class FalloutWastelandsModEntities {
 			EntityType.Builder.<SettlerEntity>of(SettlerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SettlerEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FriendlyTurretBulletEntity>> FRIENDLY_TURRET_BULLET = register("friendly_turret_bullet", EntityType.Builder.<FriendlyTurretBulletEntity>of(FriendlyTurretBulletEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(FriendlyTurretBulletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.1f, 0.1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -182,7 +180,6 @@ public class FalloutWastelandsModEntities {
 			BabyBrahminEntity.init();
 			PowerArmoredRaiderEntity.init();
 			VertibirdEntity.init();
-			BASENPCEntity.init();
 			FriendlyMK1TurretEntity.init();
 			SettlerEntity.init();
 		});
@@ -210,7 +207,6 @@ public class FalloutWastelandsModEntities {
 		event.put(BABY_BRAHMIN.get(), BabyBrahminEntity.createAttributes().build());
 		event.put(POWER_ARMORED_RAIDER.get(), PowerArmoredRaiderEntity.createAttributes().build());
 		event.put(VERTIBIRD.get(), VertibirdEntity.createAttributes().build());
-		event.put(BASENPC.get(), BASENPCEntity.createAttributes().build());
 		event.put(FRIENDLY_MK_1_TURRET.get(), FriendlyMK1TurretEntity.createAttributes().build());
 		event.put(SETTLER.get(), SettlerEntity.createAttributes().build());
 	}

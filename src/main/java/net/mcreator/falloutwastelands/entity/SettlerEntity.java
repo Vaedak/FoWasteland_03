@@ -123,7 +123,7 @@ public class SettlerEntity extends PathfinderMob {
 		return retval;
 	}
 
-	private final ItemStackHandler inventory = new ItemStackHandler(16) {
+	private final ItemStackHandler inventory = new ItemStackHandler(33) {
 		@Override
 		public int getSlotLimit(int slot) {
 			return 64;
@@ -170,7 +170,7 @@ public class SettlerEntity extends PathfinderMob {
 			NetworkHooks.openScreen(serverPlayer, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("derp");
+					return Component.literal("Settler");
 				}
 
 				@Override

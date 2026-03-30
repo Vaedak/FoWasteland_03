@@ -17737,22 +17737,6 @@
       "path": "~/B.A.S.E"
     },
     {
-      "name": "BASENPC",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "basenpc",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/basenpc_biome_modifier.json",
-          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BASENPCRenderer.java",
-          "src/main/java/net/mcreator/falloutwastelands/entity/BASENPCEntity.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/basenpc_spawn_egg.json"
-        ]
-      },
-      "path": "~/B.A.S.E"
-    },
-    {
       "name": "BASENPCOnEntityTickUpdate",
       "type": "procedure",
       "compiles": true,
@@ -18191,24 +18175,7 @@
         "files": [
           "src/main/java/net/mcreator/falloutwastelands/procedures/DisplayRecruitButtonProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/B.A.S.E"
     },
@@ -18391,29 +18358,6 @@
           {
             "name": "z",
             "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/B.A.S.E"
-    },
-    {
-      "name": "Testing",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testing",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/falloutwastelands/procedures/TestingProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
           },
           {
             "name": "world",
@@ -18829,6 +18773,136 @@
         ]
       },
       "path": "~/B.A.S.E"
+    },
+    {
+      "name": "DisplayJobButtons",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_job_buttons",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DisplayJobButtonsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "FriendlyTurretBullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendly_turret_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/FriendlyTurretBulletRenderer.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/FriendlyTurretBulletEntity.java"
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseMobs"
+    },
+    {
+      "name": "FriendlyMK1TurretOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendly_mk_1_turret_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/FriendlyMK1TurretOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseMobs"
+    },
+    {
+      "name": "FriendlyTurretBulletWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendly_turret_bullet_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/FriendlyTurretBulletWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseMobs"
+    },
+    {
+      "name": "FriendlyTurretBulletProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendly_turret_bullet_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/FriendlyTurretBulletProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseMobs"
+    },
+    {
+      "name": "DecrimentDefense",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decriment_defense",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DecrimentDefenseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
     }
   ],
   "variable_elements": [
@@ -18864,6 +18938,30 @@
     },
     {
       "name": "currentDimension",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "baseX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "baseY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "baseZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "currentBase",
       "type": "string",
       "scope": "player_persistent",
       "value": "\"\""
@@ -18971,6 +19069,13 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs",
+      "CUSTOM:APA1.legs",
+      "CUSTOM:RaiderPa.legs"
+    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:FEVgoo",
       "~CUSTOM:WastelandDriedGrass",
@@ -18979,16 +19084,6 @@
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
-    ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs",
-      "CUSTOM:APA1.legs",
-      "CUSTOM:RaiderPa.legs"
-    ],
-    "BLOCKS:minecraft:sand": [
-      "CUSTOM:WasteSand"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -19000,6 +19095,9 @@
       "CUSTOM:Nailgun",
       "CUSTOM:Chinesepistol",
       "CUSTOM:Fivemmminigun"
+    ],
+    "BLOCKS:minecraft:sand": [
+      "CUSTOM:WasteSand"
     ],
     "ITEMS:minecraft:wooden_stairs": [
       "CUSTOM:Molder_WoodStairs"
@@ -19382,8 +19480,14 @@
       "~CUSTOM:Industrialhammer",
       "~CUSTOM:Industrialshovel"
     ],
+    "ENTITIES:mod:base_entities": [
+      "CUSTOM:Settler"
+    ],
     "ITEMS:minecraft:wooden_pressure_plates": [
       "CUSTOM:Molder_WoodPressurePlate"
+    ],
+    "ENTITIES:mod:base_turrets": [
+      "CUSTOM:FriendlyMK1Turret"
     ],
     "ITEMS:forge:molder_wood_log": [
       "CUSTOM:Molder_WoodWood",
@@ -20230,27 +20334,27 @@
       "block.fallout_wastelands_.bo_s_tile": "Bos Tile",
       "block.fallout_wastelands_.linedconcrete": "Concrete",
       "item.fallout_wastelands_.brahim_meat": "Brahim Meat",
-      "item.fallout_wastelands_.dynamite_item": "Dynamite",
       "block.fallout_wastelands_.metal_shelf": "Metal Shelf",
+      "item.fallout_wastelands_.dynamite_item": "Dynamite",
       "subtitles.ninemmshot": "",
       "key.fallout_wastelands_.player_presses_esc": "Player Closes Inventory",
       "item.fallout_wastelands_.baby_brahmin_spawn_egg": "Baby Brahmin Spawn Egg",
-      "item.fallout_wastelands_.copperwires": "Copper Wires",
       "block.fallout_wastelands_.heavydecoratedpressureplate": "Heavy Decorated Pressure Plate",
+      "item.fallout_wastelands_.copperwires": "Copper Wires",
       "block.fallout_wastelands_.facility_grid_stairs": "Facility Grid Stairs",
       "biome.fallout_wastelands_.wasteland_sea": "Wasteland Sea",
       "entity.fallout_wastelands_.lobotomite_walker": "Lobotomite Walker",
       "block.fallout_wastelands_.double_scaffold_block": "Double Scaffold Block",
       "block.fallout_wastelands_.facilitypillar": "Facility Pillar",
       "item.fallout_wastelands_.deathclawhand": "Deathclaw Hand",
-      "block.fallout_wastelands_.wasteland_brick": "Wasteland Bricks",
       "block.fallout_wastelands_.enclave_wood_plated_block": "Enclave Bunker Wood Plates",
+      "block.fallout_wastelands_.wasteland_brick": "Wasteland Bricks",
       "item.fallout_wastelands_.grey_paint_can": "Grey Paint Can",
       "block.fallout_wastelands_.tire_stack": "Tire Stack",
       "gui.fallout_wastelands_.base_menu_ui.label_inventory": "Inventory",
       "block.fallout_wastelands_.facility_tile_2": "Facility Tile",
-      "entity.fallout_wastelands_.raiderscavanger": "Raider Scavanger",
       "block.fallout_wastelands_.facility_tile_1": "Facility Tile",
+      "entity.fallout_wastelands_.raiderscavanger": "Raider Scavanger",
       "block.fallout_wastelands_.facility_tile_4": "Facility Tile",
       "block.fallout_wastelands_.facility_tile_3": "Facility Tile",
       "block.fallout_wastelands_.facility_tile_6": "Facility Tile",
@@ -20259,10 +20363,10 @@
       "block.fallout_wastelands_.vault_tile_5": "Vault Tile",
       "block.fallout_wastelands_.laboratory_bar_left": "Laboratory Bar ",
       "block.fallout_wastelands_.vault_tile_2": "Vault Tile",
-      "item.fallout_wastelands_.enclaveofficier_suit_chestplate": "Enclave Vest",
       "block.fallout_wastelands_.vault_tile_3": "Vault Tile",
-      "item.fallout_wastelands_.wrench": "Wrench",
+      "item.fallout_wastelands_.enclaveofficier_suit_chestplate": "Enclave Vest",
       "block.fallout_wastelands_.wastelandshortburntgrass": "Wasteland Short Burnt Grass",
+      "item.fallout_wastelands_.wrench": "Wrench",
       "block.fallout_wastelands_.vault_tile_6": "Vault Tile",
       "block.fallout_wastelands_.wasteland_goldore": "Wasteland Gold Ore",
       "item.fallout_wastelands_.laserrifle": "Laser Rifle",
@@ -20445,7 +20549,6 @@
       "block.fallout_wastelands_.military_plating_walkway_slab": "Military Plating Walkway Slab",
       "block.fallout_wastelands_.fe_vgoo": "FEV Goo",
       "block.fallout_wastelands_.blasted_glass": "Blasted Window",
-      "item.fallout_wastelands_.basenpc_spawn_egg": "\"\" Spawn Egg",
       "block.fallout_wastelands_.oxidized_metal_stair": "Smeared Stairs",
       "item.fallout_wastelands_.taloncombatarmor_helmet": "Talon Combat Armor Helmet",
       "block.fallout_wastelands_.facility_wall": "Facility Wall",
@@ -20734,7 +20837,7 @@
       "block.fallout_wastelands_.adobe_block": "Adobe Block",
       "block.fallout_wastelands_.wasteland_concrete_wall": "Concrete Wall",
       "gui.fallout_wastelands_.dumpster.label_locker": "Dumpster",
-      "item.fallout_wastelands_.settler_spawn_egg": "derp Spawn Egg",
+      "item.fallout_wastelands_.settler_spawn_egg": "Settler Spawn Egg",
       "block.fallout_wastelands_.cracked_wasteland_concrete_slabs": "Cracked Concrete Slab",
       "item.fallout_wastelands_.raiderduster_boots": "Raider Duster Boots",
       "item.fallout_wastelands_.fusion_core": "Fusion Core",
@@ -20811,7 +20914,7 @@
       "block.fallout_wastelands_.molten_boxite": "Molten Bauxite Block",
       "block.fallout_wastelands_.metal_chair": "Metal Chair",
       "gui.fallout_wastelands_.box.label_locker": "Box",
-      "entity.fallout_wastelands_.settler": "derp",
+      "entity.fallout_wastelands_.settler": "Settler",
       "block.fallout_wastelands_.vault_bar_left": "Vault Bar Left",
       "block.fallout_wastelands_.sheetmetalblock": "Sheet Metal Block",
       "block.fallout_wastelands_.industrial_walkway": "Red Industrial Alloy Walkway",
@@ -20822,7 +20925,6 @@
       "block.fallout_wastelands_.lead_ore": "Lead Ore",
       "block.fallout_wastelands_.molder_wood_stairs": "Rotten Wood Stairs",
       "item.fallout_wastelands_.feral_ghoul_spawn_egg": "Feral Ghoul Spawn Egg",
-      "entity.fallout_wastelands_.basenpc": "\"\"",
       "item.fallout_wastelands_.apa_1_chestplate": "APA1 Chestplate",
       "item.fallout_wastelands_.raiderduster_chestplate": "Raider Duster Chestpads",
       "item.fallout_wastelands_.thirtytwoammo": ".32 Rounds",

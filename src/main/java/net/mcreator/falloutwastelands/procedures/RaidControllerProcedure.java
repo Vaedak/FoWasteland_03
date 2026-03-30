@@ -29,6 +29,7 @@ public class RaidControllerProcedure {
 		double enemyType = 0;
 		double i = 0;
 		double spawnOffset = 0;
+		double spawnOffsetZ = 0;
 		if (new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -59,7 +60,7 @@ public class RaidControllerProcedure {
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
-					_blockEntity.getPersistentData().putDouble("raidCounter", 100);
+					_blockEntity.getPersistentData().putDouble("raidCounter", 500);
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
@@ -91,26 +92,41 @@ public class RaidControllerProcedure {
 							return blockEntity.getPersistentData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, BlockPos.containing(x, y, z), "zoneSize");
+				}.getValue(world, BlockPos.containing(x, y, z), "zoneSize") + Mth.nextInt(RandomSource.create(), -5, 5);
+				spawnOffsetZ = Mth.nextInt(RandomSource.create(), (int) ((new Object() {
+					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+						BlockEntity blockEntity = world.getBlockEntity(pos);
+						if (blockEntity != null)
+							return blockEntity.getPersistentData().getDouble(tag);
+						return -1;
+					}
+				}.getValue(world, BlockPos.containing(x, y, z), "zoneSize")) * (-1)), (int) (new Object() {
+					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+						BlockEntity blockEntity = world.getBlockEntity(pos);
+						if (blockEntity != null)
+							return blockEntity.getPersistentData().getDouble(tag);
+						return -1;
+					}
+				}.getValue(world, BlockPos.containing(x, y, z), "zoneSize")));
 				i = 0;
 				if (enemyType == 1) {
 					while (i < enemyCount) {
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.CANNIBAL_00.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.CANNIBAL_00.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
 						}
 						i = i + 1;
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.CANNIBAL_01.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.CANNIBAL_01.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
 						}
 						i = i + 1;
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.CANNIBAL_02.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.CANNIBAL_02.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
@@ -121,28 +137,28 @@ public class RaidControllerProcedure {
 				if (enemyType == 2) {
 					while (i < enemyCount) {
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.BLASTMASTER_RAIDER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.BLASTMASTER_RAIDER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
 						}
 						i = i + 1;
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.RAIDER_DUSTWALKER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.RAIDER_DUSTWALKER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
 						}
 						i = i + 1;
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.RAIDERSCAVANGER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.RAIDERSCAVANGER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
 						}
 						i = i + 1;
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.POWER_ARMORED_RAIDER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.POWER_ARMORED_RAIDER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
@@ -153,21 +169,21 @@ public class RaidControllerProcedure {
 				if (enemyType == 3) {
 					while (i < enemyCount) {
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.FLOATER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.FLOATER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
 						}
 						i = i + 1;
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.FERAL_GHOUL.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.FERAL_GHOUL.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
 						}
 						i = i + 1;
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.SPIDERFLOATER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.SPIDERFLOATER.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
@@ -178,21 +194,21 @@ public class RaidControllerProcedure {
 				if (enemyType == 4) {
 					while (i < enemyCount) {
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.RADROACH.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.RADROACH.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
 						}
 						i = i + 1;
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.RADROACH.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.RADROACH.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}
 						}
 						i = i + 1;
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = FalloutWastelandsModEntities.RADROACH.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z), MobSpawnType.MOB_SUMMONED);
+							Entity entityToSpawn = FalloutWastelandsModEntities.RADROACH.get().spawn(_level, BlockPos.containing(x + spawnOffset, y, z + spawnOffsetZ), MobSpawnType.MOB_SUMMONED);
 							if (entityToSpawn != null) {
 								entityToSpawn.setDeltaMovement(0, 0, 0);
 							}

@@ -283,7 +283,7 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": true
           },
           "id": 199,
           "disablePickup": {
@@ -310,7 +310,7 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": true
           },
           "id": 198,
           "disablePickup": {
@@ -357,7 +357,7 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": true
           },
           "id": 197,
           "disablePickup": {
@@ -388,7 +388,7 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": true
           },
           "id": 196,
           "disablePickup": {

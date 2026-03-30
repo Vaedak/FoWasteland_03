@@ -25,6 +25,7 @@ import net.mcreator.falloutwastelands.client.renderer.PADisplayEntityRenderer;
 import net.mcreator.falloutwastelands.client.renderer.LobotomiteWalkerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.LaserBeamRenderer;
 import net.mcreator.falloutwastelands.client.renderer.GeckoRenderer;
+import net.mcreator.falloutwastelands.client.renderer.FriendlyTurretBulletRenderer;
 import net.mcreator.falloutwastelands.client.renderer.FriendlyMK1TurretRenderer;
 import net.mcreator.falloutwastelands.client.renderer.FloaterRenderer;
 import net.mcreator.falloutwastelands.client.renderer.FeralGhoulRenderer;
@@ -36,7 +37,6 @@ import net.mcreator.falloutwastelands.client.renderer.BrahminRenderer;
 import net.mcreator.falloutwastelands.client.renderer.BlastmasterRaiderRenderer;
 import net.mcreator.falloutwastelands.client.renderer.BaseGunItemProjectileRenderer;
 import net.mcreator.falloutwastelands.client.renderer.BabyBrahminRenderer;
-import net.mcreator.falloutwastelands.client.renderer.BASENPCRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class FalloutWastelandsModEntityRenderers {
@@ -69,8 +69,8 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD_BULLET.get(), VertibirdBulletRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD.get(), VertibirdRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.VERTIBIRD_PROJECTILE.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(FalloutWastelandsModEntities.BASENPC.get(), BASENPCRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.FRIENDLY_MK_1_TURRET.get(), FriendlyMK1TurretRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.SETTLER.get(), SettlerRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.FRIENDLY_TURRET_BULLET.get(), FriendlyTurretBulletRenderer::new);
 	}
 }

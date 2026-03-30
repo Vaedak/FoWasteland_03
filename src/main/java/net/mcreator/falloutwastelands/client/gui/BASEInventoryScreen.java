@@ -68,8 +68,6 @@ public class BASEInventoryScreen extends AbstractContainerScreen<BASEInventoryMe
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.fallout_wastelands_.base_inventory.label_inventory"), -80, -57, -16711936, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.fallout_wastelands_.base_inventory.label_note_to_make_the_white_ui_disap"), -154, 105, -16777216, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.fallout_wastelands_.base_inventory.label_a"), -154, 121, -16777216, false);
 	}
 
 	@Override

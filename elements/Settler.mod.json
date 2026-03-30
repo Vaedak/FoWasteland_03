@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "livingentity",
   "definition": {
-    "mobName": "derp",
+    "mobName": "Settler",
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "male_base_lobotomite.png",
@@ -82,7 +82,7 @@
     },
     "flyingMob": false,
     "guiBoundTo": "SettlerController",
-    "inventorySize": 16,
+    "inventorySize": 33,
     "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,

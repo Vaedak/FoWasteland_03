@@ -110,12 +110,22 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 			public boolean mayPickup(Player entity) {
 				return false;
 			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return false;
+			}
 		}));
 		this.customSlots.put(198, this.addSlot(new SlotItemHandler(internal, 198, -115, 19) {
 			private final int slot = 198;
 
 			@Override
 			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
 				return false;
 			}
 		}));
@@ -126,12 +136,22 @@ public class BASEMenuUIMenu extends AbstractContainerMenu implements Supplier<Ma
 			public boolean mayPickup(Player entity) {
 				return false;
 			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return false;
+			}
 		}));
 		this.customSlots.put(196, this.addSlot(new SlotItemHandler(internal, 196, 227, 99) {
 			private final int slot = 196;
 
 			@Override
 			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
 				return false;
 			}
 		}));
