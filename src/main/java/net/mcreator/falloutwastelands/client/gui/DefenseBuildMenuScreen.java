@@ -42,7 +42,7 @@ public class DefenseBuildMenuScreen extends AbstractContainerScreen<DefenseBuild
 		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		if (DisplayMK1TurretProcedure.execute(world) instanceof LivingEntity livingEntity) {
-			InventoryScreen.renderEntityInInventoryFollowsAngle(guiGraphics, this.leftPos + 44, this.topPos + 64, 30, 0f + (float) Math.atan((this.leftPos + 44 - mouseX) / 40.0), (float) Math.atan((this.topPos + 15 - mouseY) / 40.0), livingEntity);
+			InventoryScreen.renderEntityInInventoryFollowsAngle(guiGraphics, this.leftPos + 41, this.topPos + 54, 30, 0f + (float) Math.atan((this.leftPos + 41 - mouseX) / 40.0), (float) Math.atan((this.topPos + 5 - mouseY) / 40.0), livingEntity);
 		}
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
@@ -76,7 +76,7 @@ public class DefenseBuildMenuScreen extends AbstractContainerScreen<DefenseBuild
 				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new DefenseBuildMenuButtonMessage(0, x, y, z));
 				DefenseBuildMenuButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 21, this.topPos + 86, 51, 20).build();
+		}).bounds(this.leftPos + 17, this.topPos + 70, 51, 20).build();
 		guistate.put("button:button_build", button_build);
 		this.addRenderableWidget(button_build);
 	}

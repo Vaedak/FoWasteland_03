@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "gui",
   "definition": {
-    "type": 0,
+    "type": 1,
     "width": 421,
     "height": 217,
     "inventoryOffsetX": 0,
@@ -19,8 +19,8 @@
           "scale": 30,
           "rotationX": 0,
           "followMouseMovement": true,
-          "x": 37,
-          "y": 56
+          "x": 34,
+          "y": 46
         }
       },
       {
@@ -34,8 +34,44 @@
           },
           "width": 51,
           "height": 20,
-          "x": 24,
-          "y": 98
+          "x": 20,
+          "y": 82
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 21,
+          "y": 107
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 48,
+          "y": 107
         }
       }
     ],
