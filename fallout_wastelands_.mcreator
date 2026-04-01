@@ -18903,6 +18903,44 @@
         ]
       },
       "path": "~/B.A.S.E"
+    },
+    {
+      "name": "DefenseBuildMenuWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defense_build_menu_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DefenseBuildMenuWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "DefenseBuildMenuThisGUIIsClosed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defense_build_menu_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DefenseBuildMenuThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
     }
   ],
   "variable_elements": [

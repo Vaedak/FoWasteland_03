@@ -75,6 +75,12 @@
         }
       }
     ],
+    "onTick": {
+      "name": "DefenseBuildMenuWhileThisGUIIsOpenTick"
+    },
+    "onClosed": {
+      "name": "DefenseBuildMenuThisGUIIsClosed"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
