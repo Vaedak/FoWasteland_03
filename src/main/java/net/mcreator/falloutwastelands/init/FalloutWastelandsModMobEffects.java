@@ -10,10 +10,14 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.falloutwastelands.potion.WaitingForSetHomeMobEffect;
+import net.mcreator.falloutwastelands.potion.InBASEMobEffect;
 import net.mcreator.falloutwastelands.potion.DeleteArmorStandIfNotRidingMobEffect;
 import net.mcreator.falloutwastelands.FalloutWastelandsMod;
 
 public class FalloutWastelandsModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, FalloutWastelandsMod.MODID);
 	public static final RegistryObject<MobEffect> DELETE_ARMOR_STAND_IF_NOT_RIDING = REGISTRY.register("delete_armor_stand_if_not_riding", () -> new DeleteArmorStandIfNotRidingMobEffect());
+	public static final RegistryObject<MobEffect> IN_BASE = REGISTRY.register("in_base", () -> new InBASEMobEffect());
+	public static final RegistryObject<MobEffect> WAITING_FOR_SET_HOME = REGISTRY.register("waiting_for_set_home", () -> new WaitingForSetHomeMobEffect());
 }

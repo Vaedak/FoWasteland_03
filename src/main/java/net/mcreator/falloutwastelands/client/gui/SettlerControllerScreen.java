@@ -1,0 +1,125 @@
+package net.mcreator.falloutwastelands.client.gui;
+
+public class SettlerControllerScreen extends AbstractContainerScreen<SettlerControllerMenu> {
+
+	private final static HashMap<String, Object> guistate = SettlerControllerMenu.guistate;
+
+	private final Level world;
+	private final int x, y, z;
+	private final Player entity;
+
+	Button button_recruit;
+	Button button_defense;
+	Button button_farmer;
+	Button button_scrapper;
+
+	public SettlerControllerScreen(SettlerControllerMenu container, Inventory inventory, Component text) {
+		super(container, inventory, text);
+		this.world = container.world;
+		this.x = container.x;
+		this.y = container.y;
+		this.z = container.z;
+		this.entity = container.entity;
+		this.imageWidth = 315;
+		this.imageHeight = 235;
+	}
+
+	private static final ResourceLocation texture = new ResourceLocation("fallout_wastelands_:textures/screens/settler_controller.png");
+
+	@Override
+	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
+
+		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
+
+	}
+
+	@Override
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int gx, int gy) {
+		RenderSystem.setShaderColor(1, 1, 1, 1);
+		RenderSystem.enableBlend();
+		RenderSystem.defaultBlendFunc();
+
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.disableBlend();
+	}
+
+	@Override
+	public boolean keyPressed(int key, int b, int c) {
+		if (key == 256) {
+			this.minecraft.player.closeContainer();
+			return true;
+		}
+
+		return super.keyPressed(key, b, c);
+	}
+
+	@Override
+	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.fallout_wastelands_.settler_controller.label_assign"), 4, 77, -16724992, false);
+	}
+
+	@Override
+	public void init() {
+		super.init();
+
+		button_recruit = Button.builder(Component.translatable("gui.fallout_wastelands_.settler_controller.button_recruit"), e -> {
+			if (
+
+			DisplayRecruitButtonProcedure.execute()
+
+			) {
+				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new SettlerControllerButtonMessage(0, x, y, z));
+				SettlerControllerButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}).bounds(this.leftPos + 5, this.topPos + 6, 61, 20).build(builder -> new Button(builder) {
+			@Override
+			public void renderWidget(GuiGraphics guiGraphics, int gx, int gy, float ticks) {
+				this.visible =
+
+						DisplayRecruitButtonProcedure.execute()
+
+				;
+				super.renderWidget(guiGraphics, gx, gy, ticks);
+			}
+		});
+
+		guistate.put("button:button_recruit", button_recruit);
+		this.addRenderableWidget(button_recruit);
+
+		button_defense = Button.builder(Component.translatable("gui.fallout_wastelands_.settler_controller.button_defense"), e -> {
+			if (true) {
+				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new SettlerControllerButtonMessage(1, x, y, z));
+				SettlerControllerButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
+		}).bounds(this.leftPos + 4, this.topPos + 122, 61, 20).build();
+
+		guistate.put("button:button_defense", button_defense);
+		this.addRenderableWidget(button_defense);
+
+		button_farmer = Button.builder(Component.translatable("gui.fallout_wastelands_.settler_controller.button_farmer"), e -> {
+			if (true) {
+				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new SettlerControllerButtonMessage(2, x, y, z));
+				SettlerControllerButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		}).bounds(this.leftPos + 4, this.topPos + 95, 56, 20).build();
+
+		guistate.put("button:button_farmer", button_farmer);
+		this.addRenderableWidget(button_farmer);
+
+		button_scrapper = Button.builder(Component.translatable("gui.fallout_wastelands_.settler_controller.button_scrapper"), e -> {
+			if (true) {
+				FalloutWastelandsMod.PACKET_HANDLER.sendToServer(new SettlerControllerButtonMessage(3, x, y, z));
+				SettlerControllerButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + 4, this.topPos + 149, 67, 20).build();
+
+		guistate.put("button:button_scrapper", button_scrapper);
+		this.addRenderableWidget(button_scrapper);
+
+	}
+
+}

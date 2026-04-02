@@ -1,11 +1,6 @@
 
 package net.mcreator.falloutwastelands.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Item;
-
 public class DeathclawGauntletItem extends SwordItem {
 	public DeathclawGauntletItem() {
 		super(new Tier() {

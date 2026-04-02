@@ -48,8 +48,8 @@
       "registry_name": "wasteland_dryland",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/wasteland_dryland_tree.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/wasteland_dryland_tree.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/wasteland_dryland_tree.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/biome/wasteland_dryland.json"
         ]
       },
@@ -1648,8 +1648,8 @@
       "registry_name": "antiradclothing",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/antiradclothing.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/AntiradclothingItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/AntiradclothingItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/antiradclothing.json"
         ]
       },
       "path": "~/Items"
@@ -2350,8 +2350,8 @@
       "registry_name": "lead_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/LeadIngotItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/lead_ingot.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/lead_ingot.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/LeadIngotItem.java"
         ]
       },
       "path": "~/Items"
@@ -2434,8 +2434,8 @@
       "registry_name": "ninemmpistol",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/ninemmpistol.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/NinemmpistolItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/NinemmpistolItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/ninemmpistol.json"
         ]
       },
       "path": "~/Weapons/Guns/9mmPistol"
@@ -2462,8 +2462,8 @@
       "registry_name": "neutronade_cap",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/neutronade_cap.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/NeutronadeCapItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/NeutronadeCapItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/neutronade_cap.json"
         ]
       },
       "path": "~/Items"
@@ -2476,8 +2476,8 @@
       "registry_name": "empty_neutronade_bottle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/empty_neutronade_bottle.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/EmptyNeutronadeBottleItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/EmptyNeutronadeBottleItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/empty_neutronade_bottle.json"
         ]
       },
       "path": "~/Items"
@@ -2941,8 +2941,8 @@
       "registry_name": "base_cap_bundle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/BASECapBundleItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/base_cap_bundle.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/base_cap_bundle.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/BASECapBundleItem.java"
         ]
       },
       "path": "~/B.A.S.E"
@@ -2978,8 +2978,8 @@
       "registry_name": "base_name_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/BASENameItemItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/base_name_item.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/base_name_item.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/BASENameItemItem.java"
         ]
       },
       "path": "~/B.A.S.E"
@@ -3091,8 +3091,8 @@
       "registry_name": "scrapmetal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/scrapmetal.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/ScrapmetalItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/ScrapmetalItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/scrapmetal.json"
         ]
       },
       "path": "~/Items"
@@ -3837,8 +3837,8 @@
       "registry_name": "tenmmpistol",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/TenmmpistolItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/tenmmpistol.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/tenmmpistol.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/TenmmpistolItem.java"
         ]
       },
       "path": "~/Weapons/Guns/10mmPistol"
@@ -3893,8 +3893,8 @@
       "registry_name": "fivemm_ammo",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/FivemmAmmoItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/fivemm_ammo.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/fivemm_ammo.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/FivemmAmmoItem.java"
         ]
       },
       "path": "~/Items"
@@ -4331,8 +4331,8 @@
       "registry_name": "wrench",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/wrench.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/WrenchItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/WrenchItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/wrench.json"
         ]
       },
       "path": "~/Items"
@@ -4373,8 +4373,8 @@
       "registry_name": "nailed_wrench",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/nailed_wrench.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/NailedWrenchItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/NailedWrenchItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/nailed_wrench.json"
         ]
       },
       "path": "~/Items"
@@ -4457,8 +4457,8 @@
       "registry_name": "hachet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/hachet.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/HachetItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/HachetItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/hachet.json"
         ]
       },
       "path": "~/Items"
@@ -4499,8 +4499,8 @@
       "registry_name": "industrialhammer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/industrialhammer.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/IndustrialhammerItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/IndustrialhammerItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/industrialhammer.json"
         ]
       },
       "path": "~/Items"
@@ -4548,8 +4548,8 @@
       "registry_name": "energy_cell",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/EnergyCellItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/energy_cell.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/energy_cell.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/EnergyCellItem.java"
         ]
       },
       "path": "~/Items"
@@ -6542,10 +6542,10 @@
       "registry_name": "metal_barrel",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/metal_barrel.json",
-          "src/main/resources/assets/fallout_wastelands_/blockstates/metal_barrel.json",
           "src/main/java/net/mcreator/falloutwastelands/block/MetalBarrelBlock.java",
+          "src/main/resources/data/fallout_wastelands_/loot_tables/blocks/metal_barrel.json",
           "src/main/resources/assets/fallout_wastelands_/models/item/metal_barrel.json",
+          "src/main/resources/assets/fallout_wastelands_/blockstates/metal_barrel.json",
           "src/main/resources/assets/fallout_wastelands_/models/block/metal_barrel.json"
         ]
       },
@@ -7557,8 +7557,8 @@
       "registry_name": "lead_nugget",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/LeadNuggetItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/lead_nugget.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/lead_nugget.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/LeadNuggetItem.java"
         ]
       },
       "path": "~/Items"
@@ -7639,8 +7639,8 @@
       "registry_name": "base_gun_item_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/entity/BaseGunItemProjectileEntity.java",
-          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BaseGunItemProjectileRenderer.java"
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/BaseGunItemProjectileRenderer.java",
+          "src/main/java/net/mcreator/falloutwastelands/entity/BaseGunItemProjectileEntity.java"
         ]
       },
       "path": "~/Weapons/Guns"
@@ -7680,8 +7680,8 @@
       "registry_name": "ripper_projectile",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/ripper_projectile.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/RipperProjectileItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/RipperProjectileItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/ripper_projectile.json"
         ]
       },
       "path": "~/Weapons/Ripper"
@@ -7694,8 +7694,8 @@
       "registry_name": "laser_beam",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/client/renderer/LaserBeamRenderer.java",
-          "src/main/java/net/mcreator/falloutwastelands/entity/LaserBeamEntity.java"
+          "src/main/java/net/mcreator/falloutwastelands/entity/LaserBeamEntity.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/LaserBeamRenderer.java"
         ]
       },
       "path": "~/Weapons/Guns/LaserRifle"
@@ -7859,8 +7859,8 @@
       "registry_name": "plasma_particle_splash",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/particles/plasma_particle_splash.json",
-          "src/main/java/net/mcreator/falloutwastelands/client/particle/PlasmaParticleSplashParticle.java"
+          "src/main/java/net/mcreator/falloutwastelands/client/particle/PlasmaParticleSplashParticle.java",
+          "src/main/resources/assets/fallout_wastelands_/particles/plasma_particle_splash.json"
         ]
       },
       "path": "~/Weapons/Guns/PlasmaRifle"
@@ -8182,8 +8182,8 @@
       "registry_name": "fertilizer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/fertilizer.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/FertilizerItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/FertilizerItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/fertilizer.json"
         ]
       },
       "path": "~/Items"
@@ -8285,8 +8285,8 @@
       "registry_name": "motherboard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/motherboard.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/MotherboardItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/MotherboardItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/motherboard.json"
         ]
       },
       "path": "~/Items"
@@ -8313,8 +8313,8 @@
       "registry_name": "brotherhood_hull",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/brotherhood_hull.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/BrotherhoodHullItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/BrotherhoodHullItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/brotherhood_hull.json"
         ]
       },
       "path": "~/Items"
@@ -8327,8 +8327,8 @@
       "registry_name": "enclave_hull",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/EnclaveHullItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_hull.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/enclave_hull.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/EnclaveHullItem.java"
         ]
       },
       "path": "~/Items"
@@ -8395,8 +8395,8 @@
       "registry_name": "heavycalibercasing",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/HeavycalibercasingItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/heavycalibercasing.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/heavycalibercasing.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/HeavycalibercasingItem.java"
         ]
       },
       "path": "~/Items"
@@ -8423,8 +8423,8 @@
       "registry_name": "canned_beef",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/canned_beef.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/CannedBeefItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/CannedBeefItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/canned_beef.json"
         ]
       },
       "path": "~/Items"
@@ -8493,8 +8493,8 @@
       "registry_name": "chicago_omelette",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/chicago_omelette.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/ChicagoOmeletteItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/ChicagoOmeletteItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/chicago_omelette.json"
         ]
       },
       "path": "~/Items"
@@ -8535,8 +8535,8 @@
       "registry_name": "human_brain",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/human_brain.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/HumanBrainItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/HumanBrainItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/human_brain.json"
         ]
       },
       "path": "~/Items"
@@ -8577,8 +8577,8 @@
       "registry_name": "advanced_motherboard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/advanced_motherboard.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/AdvancedMotherboardItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/AdvancedMotherboardItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/advanced_motherboard.json"
         ]
       },
       "path": "~/Items"
@@ -9018,8 +9018,8 @@
       "registry_name": "radiactive_waste",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/RadiactiveWasteItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/radiactive_waste.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/radiactive_waste.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/RadiactiveWasteItem.java"
         ]
       },
       "path": "~/Items"
@@ -9058,8 +9058,8 @@
       "registry_name": "motor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/MotorItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/motor.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/motor.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/MotorItem.java"
         ]
       },
       "path": "~/Items"
@@ -9151,8 +9151,8 @@
       "registry_name": "military_hull",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/military_hull.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/MilitaryHullItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/MilitaryHullItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/military_hull.json"
         ]
       },
       "path": "~/Items"
@@ -9400,8 +9400,8 @@
       "registry_name": "advanced_motor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/advanced_motor.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/AdvancedMotorItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/AdvancedMotorItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/advanced_motor.json"
         ]
       },
       "path": "~/Items"
@@ -9492,8 +9492,8 @@
       "registry_name": "beer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/beer.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/BeerItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/BeerItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/beer.json"
         ]
       },
       "path": "~/Items"
@@ -11155,8 +11155,8 @@
       "registry_name": "abraxo_cleaner",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/abraxo_cleaner.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/AbraxoCleanerItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/AbraxoCleanerItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/abraxo_cleaner.json"
         ]
       },
       "path": "~/Items"
@@ -11740,8 +11740,8 @@
       "registry_name": "noodles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/noodles.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/NoodlesItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/NoodlesItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/noodles.json"
         ]
       },
       "path": "~/Items"
@@ -11812,8 +11812,8 @@
       "registry_name": "vault_hull",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/vault_hull.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/VaultHullItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/VaultHullItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/vault_hull.json"
         ]
       },
       "path": "~/Items"
@@ -11968,8 +11968,8 @@
       "registry_name": "vaccum_tube",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/VaccumTubeItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/vaccum_tube.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/vaccum_tube.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/VaccumTubeItem.java"
         ]
       },
       "path": "~/Items"
@@ -12292,8 +12292,8 @@
       "registry_name": "scotch",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/scotch.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/ScotchItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/ScotchItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/scotch.json"
         ]
       },
       "path": "~/Items"
@@ -13613,8 +13613,8 @@
       "registry_name": "dynamite_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/item/DynamiteItemItem.java",
-          "src/main/resources/assets/fallout_wastelands_/models/item/dynamite_item.json"
+          "src/main/resources/assets/fallout_wastelands_/models/item/dynamite_item.json",
+          "src/main/java/net/mcreator/falloutwastelands/item/DynamiteItemItem.java"
         ]
       },
       "path": "~/Weapons/Dynamite"
@@ -13640,8 +13640,8 @@
       "registry_name": "medicalbox_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/world/inventory/MedicalboxGUIMenu.java",
-          "src/main/java/net/mcreator/falloutwastelands/client/gui/MedicalboxGUIScreen.java"
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/MedicalboxGUIScreen.java",
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/MedicalboxGUIMenu.java"
         ]
       },
       "path": "~/GUI"
@@ -14530,8 +14530,8 @@
       "registry_name": "rock_01",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/rock_01_biome_modifier.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/rock_01.json",
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/rock_01_biome_modifier.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/rock_01.json"
         ],
         "has_nbt_structure": true
@@ -14605,8 +14605,8 @@
       "registry_name": "wasteland_sea",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/wasteland_sea_tree.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/biome/wasteland_sea.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/wasteland_sea_tree.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/wasteland_sea_tree.json"
         ]
       },
@@ -14858,9 +14858,9 @@
       "registry_name": "burnedtree",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/burnedtree_biome_modifier.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/burnedtree.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/burnedtree.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/burnedtree.json"
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/burnedtree_biome_modifier.json"
         ],
         "has_nbt_structure": true
       },
@@ -15288,9 +15288,9 @@
       "registry_name": "scavangerhouse_06",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/scavangerhouse_06.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/structure/scavangerhouse_06.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/scavangerhouse_06.json"
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/scavangerhouse_06.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/scavangerhouse_06.json"
         ]
       },
       "path": "~/Structures"
@@ -15303,9 +15303,9 @@
       "registry_name": "ghoulfarm_01",
       "metadata": {
         "files": [
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/ghoulfarm_01.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/structure/ghoulfarm_01.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/ghoulfarm_01.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/ghoulfarm_01.json"
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/ghoulfarm_01.json"
         ]
       },
       "path": "~/Structures"
@@ -15379,9 +15379,9 @@
       "metadata": {
         "has_nbt_structure": true,
         "files": [
-          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/cityscraps_biome_modifier.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/configured_feature/cityscraps.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/cityscraps.json"
+          "src/main/resources/data/fallout_wastelands_/worldgen/placed_feature/cityscraps.json",
+          "src/main/resources/data/fallout_wastelands_/forge/biome_modifier/cityscraps_biome_modifier.json"
         ]
       },
       "path": "~/Structures"
@@ -15631,8 +15631,8 @@
       "registry_name": "radiotower_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/structure/radiotower_1.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/radiotower_1.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure/radiotower_1.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/radiotower_1.json"
         ]
       },
@@ -15707,9 +15707,9 @@
       "registry_name": "minimart",
       "metadata": {
         "files": [
-          "src/main/resources/data/fallout_wastelands_/worldgen/structure/minimart.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/minimart.json",
           "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/minimart.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/minimart.json"
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure/minimart.json"
         ]
       },
       "path": "~/Structures"
@@ -15723,8 +15723,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/fallout_wastelands_/worldgen/structure/bosbunker.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/bosbunker.json",
-          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/bosbunker.json"
+          "src/main/resources/data/fallout_wastelands_/worldgen/template_pool/bosbunker.json",
+          "src/main/resources/data/fallout_wastelands_/worldgen/structure_set/bosbunker.json"
         ]
       },
       "path": "~/Structures"
@@ -16181,8 +16181,8 @@
       "registry_name": "white_paint_can",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fallout_wastelands_/models/item/white_paint_can.json",
-          "src/main/java/net/mcreator/falloutwastelands/item/WhitePaintCanItem.java"
+          "src/main/java/net/mcreator/falloutwastelands/item/WhitePaintCanItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/white_paint_can.json"
         ]
       },
       "path": "~/Items"
@@ -17195,8 +17195,8 @@
       "registry_name": "power_armored_raider",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/falloutwastelands/entity/PowerArmoredRaiderEntity.java",
           "src/main/resources/assets/fallout_wastelands_/models/item/power_armored_raider_spawn_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/entity/PowerArmoredRaiderEntity.java",
           "src/main/java/net/mcreator/falloutwastelands/client/renderer/PowerArmoredRaiderRenderer.java"
         ]
       },
@@ -17668,6 +17668,1306 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "StructureDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "structure_display",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/StructureDisplayProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "PipboyGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipboy_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/PipboyGUIMenu.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/PipboyGUIScreen.java",
+          "src/main/java/net/mcreator/falloutwastelands/network/PipboyGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Items/Pipboy"
+    },
+    {
+      "name": "DefenseBuildMenuWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defense_build_menu_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DefenseBuildMenuWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "FriendlyMK1TurretOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendly_mk_1_turret_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/FriendlyMK1TurretOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseMobs"
+    },
+    {
+      "name": "BASENPCEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basenpc_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BASENPCEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "WeaponTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "DefenseIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defense_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/DefenseIconItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/defense_icon.json"
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "FriendlyMK1TurretOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendly_mk_1_turret_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/FriendlyMK1TurretOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseMobs"
+    },
+    {
+      "name": "PipboySetBASETP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipboy_set_basetp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PipboySetBASETPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Pipboy"
+    },
+    {
+      "name": "TPToBASE",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_to_base",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/TPToBASEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Pipboy"
+    },
+    {
+      "name": "DefenseAI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defense_ai",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DefenseAIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "SetFarmer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_farmer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/SetFarmerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "BuildMK1Turret",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_mk_1_turret",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BuildMK1TurretProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "ShouldDisplayTPButton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "should_display_tp_button",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/ShouldDisplayTPButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Pipboy"
+    },
+    {
+      "name": "UpgradeDisplayTier",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_display_tier",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/UpgradeDisplayTierProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "DisplayRecruitButton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_recruit_button",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DisplayRecruitButtonProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "InBASE",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "in_base",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/potion/InBASEMobEffect.java"
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "DecrimentDefense",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decriment_defense",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DecrimentDefenseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "FriendlyTurretBulletProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendly_turret_bullet_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/FriendlyTurretBulletProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseMobs"
+    },
+    {
+      "name": "UpgradeBaseTierButton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_base_tier_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/UpgradeBaseTierButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "Display1BlockParticle",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_1_block_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/Display1BlockParticleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseObjectsDisplays"
+    },
+    {
+      "name": "ScrapperAI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrapper_ai",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/ScrapperAIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "FriendlyMK2Turret",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendly_mk_2_turret",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/FriendlyMK2TurretRenderer.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/friendly_mk_2_turret_spawn_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/entity/FriendlyMK2TurretEntity.java"
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseMobs"
+    },
+    {
+      "name": "AssignRandomName",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assign_random_name",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/AssignRandomNameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "PressRecruitSettler",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "press_recruit_settler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PressRecruitSettlerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "DisplayJobButtons",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_job_buttons",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DisplayJobButtonsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "FriendlyTurretBullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendly_turret_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/entity/FriendlyTurretBulletEntity.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/FriendlyTurretBulletRenderer.java"
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseMobs"
+    },
+    {
+      "name": "SetDefense",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_defense",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/SetDefenseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "OutlineParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outline_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/particles/outline_particle.json",
+          "src/main/java/net/mcreator/falloutwastelands/client/particle/OutlineParticleParticle.java"
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "InBASEActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "in_base_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/InBASEActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "BASEcoreBlockIsPlacedBy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bas_ecore_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BASEcoreBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "OpenBuildDefenseGUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_build_defense_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/OpenBuildDefenseGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "PickupCrops",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickup_crops",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/PickupCropsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "SetScrapper",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_scrapper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/SetScrapperProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "RaidController",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raid_controller",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/RaidControllerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "DefenseBuildMenuThisGUIIsClosed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defense_build_menu_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DefenseBuildMenuThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "FriendlyTurretBulletWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendly_turret_bullet_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/FriendlyTurretBulletWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseMobs"
+    },
+    {
+      "name": "PopulationIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "population_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/PopulationIconItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/population_icon.json"
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "FriendlyMK1Turret",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendly_mk_1_turret",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/entity/FriendlyMK1TurretEntity.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/friendly_mk_1_turret_spawn_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/FriendlyMK1TurretRenderer.java"
+        ]
+      },
+      "path": "~/B.A.S.E/DefenseMobs"
+    },
+    {
+      "name": "DisplayMK1Turret",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_mk_1_turret",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DisplayMK1TurretProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "BASETierIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_tier_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/item/BASETierIconItem.java",
+          "src/main/resources/assets/fallout_wastelands_/models/item/base_tier_icon.json"
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "RightClickPlaceObject",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_click_place_object",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/RightClickPlaceObjectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "DisplayBASETier",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_base_tier",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/DisplayBASETierProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "OpenUpgradeTier",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_upgrade_tier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/OpenUpgradeTierProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "BASEUpgradeGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_upgrade_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/BASEUpgradeGUIScreen.java",
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/BASEUpgradeGUIMenu.java",
+          "src/main/java/net/mcreator/falloutwastelands/network/BASEUpgradeGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "UpgradeBASETier",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_base_tier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/UpgradeBASETierProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "BASENPCOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basenpc_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BASENPCOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "SettlerController",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "settler_controller",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/SettlerControllerMenu.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/SettlerControllerScreen.java",
+          "src/main/java/net/mcreator/falloutwastelands/network/SettlerControllerButtonMessage.java"
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "FarmerAI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmer_ai",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/FarmerAIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "BASEUpgradeGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_upgrade_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BASEUpgradeGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "Settler",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "settler",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fallout_wastelands_/models/item/settler_spawn_egg.json",
+          "src/main/java/net/mcreator/falloutwastelands/entity/SettlerEntity.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/renderer/SettlerRenderer.java"
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "BASEUpgradeGUIThisGUIIsClosed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_upgrade_gui_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BASEUpgradeGUIThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "BASENPCOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basenpc_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/procedures/BASENPCOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "DefenseBuildMenu",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defense_build_menu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/network/DefenseBuildMenuButtonMessage.java",
+          "src/main/java/net/mcreator/falloutwastelands/client/gui/DefenseBuildMenuScreen.java",
+          "src/main/java/net/mcreator/falloutwastelands/world/inventory/DefenseBuildMenuMenu.java"
+        ]
+      },
+      "path": "~/B.A.S.E"
+    },
+    {
+      "name": "WaitingForSetHome",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waiting_for_set_home",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/falloutwastelands/potion/WaitingForSetHomeMobEffect.java"
+        ]
+      },
+      "path": "~/B.A.S.E"
     }
   ],
   "variable_elements": [
@@ -17706,6 +19006,30 @@
       "type": "string",
       "scope": "player_persistent",
       "value": "\"\""
+    },
+    {
+      "name": "baseX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "currentBase",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "baseY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "baseZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -17810,13 +19134,6 @@
     "ITEMS:minecraft:iron_sword": [
       "CUSTOM:Ripper"
     ],
-    "ITEMS:mod:pa_leggings": [
-      "CUSTOM:T45PA.legs",
-      "CUSTOM:PowerArmorFrameArmor.legs",
-      "CUSTOM:T51bPA.legs",
-      "CUSTOM:APA1.legs",
-      "CUSTOM:RaiderPa.legs"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:FEVgoo",
       "~CUSTOM:WastelandDriedGrass",
@@ -17825,6 +19142,13 @@
       "~CUSTOM:Wastelandshortburntgrass",
       "~CUSTOM:Wastelandburntgrass",
       "~CUSTOM:Wastelandgrassbush"
+    ],
+    "ITEMS:mod:pa_leggings": [
+      "CUSTOM:T45PA.legs",
+      "CUSTOM:PowerArmorFrameArmor.legs",
+      "CUSTOM:T51bPA.legs",
+      "CUSTOM:APA1.legs",
+      "CUSTOM:RaiderPa.legs"
     ],
     "ITEMS:mod:gun": [
       "CUSTOM:Revolver32",
@@ -18484,6 +19808,7 @@
       "~CUSTOM:WastelandStone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:TireStack",
       "~CUSTOM:Curtain",
       "~CUSTOM:DriedPlanksWall",
       "~CUSTOM:DriedPlanks",
@@ -18496,7 +19821,6 @@
       "~CUSTOM:JoshuaTreeWoodplanks",
       "~CUSTOM:JoshuaLog",
       "~CUSTOM:RedPaintedPlanks",
-      "~CUSTOM:TireStack",
       "~CUSTOM:CharredMolderFence",
       "~CUSTOM:CharredMolderSlab",
       "~CUSTOM:CharredMolderStairs",
@@ -18897,7 +20221,8 @@
       "FacilityGridStairs",
       "FacilityGridSlab",
       "Laboratorycomputerblock",
-      "EnclaveBunkderBlockStairs"
+      "EnclaveBunkderBlockStairs",
+      "BASEcore"
     ],
     "CUSTOM:Wastelandcombat": [
       "Raiderduster",
@@ -18952,8 +20277,7 @@
       "DeathclawGauntlet",
       "SecurityBaton",
       "SuperSledge",
-      "Knife",
-      "PAFrameItem"
+      "Knife"
     ],
     "CUSTOM:Wastelanditems": [
       "Cloth",
@@ -18998,6 +20322,7 @@
       "Steelnugget",
       "Tinnugget",
       "UraniumNugget",
+      "PAFrameItem",
       "BrahimMeat",
       "Fertilizer",
       "DentedCan",
@@ -19743,7 +21068,16 @@
       },
       {
         "name": "B.A.S.E",
-        "children": []
+        "children": [
+          {
+            "name": "DefenseMobs",
+            "children": []
+          },
+          {
+            "name": "DefenseObjectsDisplays",
+            "children": []
+          }
+        ]
       },
       {
         "name": "GUI",
@@ -19830,7 +21164,12 @@
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "Pipboy",
+            "children": []
+          }
+        ]
       },
       {
         "name": "PowerArmor",

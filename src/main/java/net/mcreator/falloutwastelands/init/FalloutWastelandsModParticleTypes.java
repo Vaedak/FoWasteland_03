@@ -18,4 +18,5 @@ public class FalloutWastelandsModParticleTypes {
 	public static final RegistryObject<SimpleParticleType> ZONE_PARTICLE = REGISTRY.register("zone_particle", () -> new SimpleParticleType(true));
 	public static final RegistryObject<SimpleParticleType> PLASMA_PARTICLE = REGISTRY.register("plasma_particle", () -> new SimpleParticleType(true));
 	public static final RegistryObject<SimpleParticleType> PLASMA_PARTICLE_SPLASH = REGISTRY.register("plasma_particle_splash", () -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> OUTLINE_PARTICLE = REGISTRY.register("outline_particle", () -> new SimpleParticleType(false));
 }

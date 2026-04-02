@@ -277,12 +277,126 @@
         }
       },
       {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 199,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 7,
+          "y": 16
+        }
+      },
+      {
         "type": "image",
         "data": {
           "image": "base_main_menu.png",
           "use1Xscale": false,
           "x": 42,
           "y": 0
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 198,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 10,
+          "y": 55
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonplaceholdertexture3",
+          "image": "buttonplaceholdertexture.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "OpenBuildDefenseGUI"
+          },
+          "x": 11,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_display_base_tier",
+          "text": {
+            "fixedValue": "",
+            "name": "DisplayBASETier"
+          },
+          "color": {
+            "value": -16738048,
+            "falpha": 0.0
+          },
+          "x": 181,
+          "y": 28
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 197,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 14,
+          "y": 109
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonplaceholdertexture4",
+          "image": "buttonplaceholdertexture.png",
+          "hoveredImage": "buttonplaceholdertexture.png",
+          "onClick": {
+            "name": "OpenUpgradeTier"
+          },
+          "x": 13,
+          "y": 124
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": true
+          },
+          "id": 196,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 352,
+          "y": 135
         }
       }
     ],

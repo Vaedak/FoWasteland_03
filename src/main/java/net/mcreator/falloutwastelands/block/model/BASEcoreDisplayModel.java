@@ -1,11 +1,5 @@
 package net.mcreator.falloutwastelands.block.model;
 
-import software.bernie.geckolib.model.GeoModel;
-
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.falloutwastelands.block.display.BASEcoreDisplayItem;
-
 public class BASEcoreDisplayModel extends GeoModel<BASEcoreDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(BASEcoreDisplayItem animatable) {
@@ -19,6 +13,6 @@ public class BASEcoreDisplayModel extends GeoModel<BASEcoreDisplayItem> {
 
 	@Override
 	public ResourceLocation getTextureResource(BASEcoreDisplayItem entity) {
-		return new ResourceLocation("fallout_wastelands_", "textures/block/walkwaytop.png");
+		return new ResourceLocation("fallout_wastelands_", "textures/block/terminal.png");
 	}
 }

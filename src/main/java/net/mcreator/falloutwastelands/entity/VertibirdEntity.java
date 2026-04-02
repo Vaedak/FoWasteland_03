@@ -1,63 +1,11 @@
 
 package net.mcreator.falloutwastelands.entity;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.network.NetworkHooks;
-
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.levelgen.Heightmap;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.ServerLevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.npc.Villager;
-import net.minecraft.world.entity.monster.RangedAttackMob;
-import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.animal.IronGolem;
-import net.minecraft.world.entity.ai.navigation.PathNavigation;
-import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
-import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
-import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
-import net.minecraft.world.entity.ai.goal.RangedAttackGoal;
-import net.minecraft.world.entity.ai.goal.Goal;
-import net.minecraft.world.entity.ai.control.FlyingMoveControl;
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.SpawnGroupData;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.world.DifficultyInstance;
-import net.minecraft.world.Difficulty;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.syncher.SynchedEntityData;
-import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.nbt.Tag;
 import net.minecraft.network.syncher.EntityDataAccessor;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
-import net.minecraft.network.protocol.Packet;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.falloutwastelands.procedures.VertibirdOnInitialEntitySpawnProcedure;
-import net.mcreator.falloutwastelands.procedures.VertibirdOnEntityTickUpdateProcedure;
-import net.mcreator.falloutwastelands.procedures.VertibirdEntityDiesProcedure;
-import net.mcreator.falloutwastelands.init.FalloutWastelandsModEntities;
-
-import javax.annotation.Nullable;
-
-import java.util.EnumSet;
 
 public class VertibirdEntity extends Monster implements RangedAttackMob {
+
 	public static final EntityDataAccessor<Boolean> DATA_patrolling = SynchedEntityData.defineId(VertibirdEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<Boolean> DATA_setDriver = SynchedEntityData.defineId(VertibirdEntity.class, EntityDataSerializers.BOOLEAN);
 
@@ -70,7 +18,9 @@ public class VertibirdEntity extends Monster implements RangedAttackMob {
 		setMaxUpStep(0.6f);
 		xpReward = 100;
 		setNoAi(false);
+
 		this.moveControl = new FlyingMoveControl(this, 10, true);
+
 	}
 
 	@Override
@@ -93,6 +43,7 @@ public class VertibirdEntity extends Monster implements RangedAttackMob {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
+
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Cannibal00Entity.class, false, false));
 		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Player.class, false, false));
 		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Villager.class, false, false));
@@ -147,6 +98,7 @@ public class VertibirdEntity extends Monster implements RangedAttackMob {
 			}
 		});
 		this.targetSelector.addGoal(16, new HurtByTargetGoal(this).setAlertOthers());
+
 		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 1000, 70f) {
 			@Override
 			public boolean canContinueToUse() {
@@ -172,6 +124,7 @@ public class VertibirdEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public boolean causeFallDamage(float l, float d, DamageSource source) {
+
 		return false;
 	}
 
@@ -208,8 +161,11 @@ public class VertibirdEntity extends Monster implements RangedAttackMob {
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.sidedSuccess(this.level().isClientSide());
+
 		super.mobInteract(sourceentity, hand);
+
 		sourceentity.startRiding(this);
+
 		return retval;
 	}
 
@@ -239,12 +195,17 @@ public class VertibirdEntity extends Monster implements RangedAttackMob {
 			this.setRot(this.getYRot(), this.getXRot());
 			this.yBodyRot = entity.getYRot();
 			this.yHeadRot = entity.getYRot();
+
 			if (entity instanceof LivingEntity passenger) {
 				this.setSpeed((float) this.getAttributeValue(Attributes.MOVEMENT_SPEED));
+
 				float forward = passenger.zza;
+
 				float strafe = 0;
+
 				super.travel(new Vec3(strafe, 0, forward));
 			}
+
 			double d1 = this.getX() - this.xo;
 			double d0 = this.getZ() - this.zo;
 			float f1 = (float) Math.sqrt(d1 * d1 + d0 * d0) * 4;
@@ -255,6 +216,7 @@ public class VertibirdEntity extends Monster implements RangedAttackMob {
 			this.calculateEntityAnimation(true);
 			return;
 		}
+
 		super.travel(dir);
 	}
 
@@ -269,12 +231,14 @@ public class VertibirdEntity extends Monster implements RangedAttackMob {
 
 	public void aiStep() {
 		super.aiStep();
+
 		this.setNoGravity(true);
 	}
 
 	public static void init() {
 		SpawnPlacements.register(FalloutWastelandsModEntities.VERTIBIRD.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
+
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -284,8 +248,12 @@ public class VertibirdEntity extends Monster implements RangedAttackMob {
 		builder = builder.add(Attributes.ARMOR, 0.8);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 10);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 35);
+
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.3);
+
 		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
+
 		return builder;
 	}
+
 }

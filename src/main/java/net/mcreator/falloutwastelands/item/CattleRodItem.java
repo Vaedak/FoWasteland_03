@@ -1,17 +1,6 @@
 
 package net.mcreator.falloutwastelands.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.LivingEntity;
-
-import net.mcreator.falloutwastelands.procedures.CattleRodLivingEntityIsHitWithToolProcedure;
-import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
-
 public class CattleRodItem extends SwordItem {
 	public CattleRodItem() {
 		super(new Tier() {

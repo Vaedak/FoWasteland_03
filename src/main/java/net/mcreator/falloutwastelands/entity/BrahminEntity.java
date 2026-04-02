@@ -1,66 +1,27 @@
 
 package net.mcreator.falloutwastelands.entity;
 
-import software.bernie.geckolib.util.GeckoLibUtil;
-import software.bernie.geckolib.core.object.PlayState;
-import software.bernie.geckolib.core.animation.RawAnimation;
-import software.bernie.geckolib.core.animation.AnimationState;
-import software.bernie.geckolib.core.animation.AnimationController;
-import software.bernie.geckolib.core.animation.AnimatableManager;
-import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
-import software.bernie.geckolib.animatable.GeoEntity;
-
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.network.NetworkHooks;
-
-import net.minecraft.world.level.levelgen.Heightmap;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.animal.Cow;
-import net.minecraft.world.entity.ai.goal.TemptGoal;
-import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
-import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.PanicGoal;
-import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
-import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.Pose;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.EntityDimensions;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.world.InteractionHand;
+import net.minecraft.nbt.Tag;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.syncher.SynchedEntityData;
-import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
-import net.minecraft.network.protocol.Packet;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.core.BlockPos;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.SynchedEntityData;
 
-import net.mcreator.falloutwastelands.procedures.BrahminRightClickedOnEntityProcedure;
-import net.mcreator.falloutwastelands.procedures.BrahminOnEntityTickUpdateProcedure;
-import net.mcreator.falloutwastelands.procedures.BrahminNaturalEntitySpawningConditionProcedure;
-import net.mcreator.falloutwastelands.init.FalloutWastelandsModItems;
-import net.mcreator.falloutwastelands.init.FalloutWastelandsModEntities;
+import javax.annotation.Nullable;
+
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.core.animation.AnimationState;
 
 public class BrahminEntity extends Cow implements GeoEntity {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(BrahminEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(BrahminEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(BrahminEntity.class, EntityDataSerializers.STRING);
+
 	public static final EntityDataAccessor<Boolean> DATA_breedingActive = SynchedEntityData.defineId(BrahminEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<Integer> DATA_breedCooldown = SynchedEntityData.defineId(BrahminEntity.class, EntityDataSerializers.INT);
+
 	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
 	private boolean swinging;
 	private boolean lastloop;
@@ -76,6 +37,7 @@ public class BrahminEntity extends Cow implements GeoEntity {
 		xpReward = 2;
 		setNoAi(false);
 		setMaxUpStep(0.6f);
+
 	}
 
 	@Override
@@ -104,12 +66,14 @@ public class BrahminEntity extends Cow implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
+
 		this.goalSelector.addGoal(1, new TemptGoal(this, 0.5, Ingredient.of(FalloutWastelandsModItems.CORN.get()), false));
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.5));
 		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(4, new FloatGoal(this));
 		this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, (float) 0.5));
 		this.goalSelector.addGoal(6, new PanicGoal(this, 0.8));
+
 	}
 
 	@Override
@@ -165,7 +129,9 @@ public class BrahminEntity extends Cow implements GeoEntity {
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
 		InteractionResult retval = InteractionResult.sidedSuccess(this.level().isClientSide());
+
 		super.mobInteract(sourceentity, hand);
+
 		double x = this.getX();
 		double y = this.getY();
 		double z = this.getZ();
@@ -199,8 +165,13 @@ public class BrahminEntity extends Cow implements GeoEntity {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			return BrahminNaturalEntitySpawningConditionProcedure.execute(world, x, y, z);
+			return
+
+			BrahminNaturalEntitySpawningConditionProcedure.execute(world, x, y, z)
+
+			;
 		});
+
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -210,6 +181,7 @@ public class BrahminEntity extends Cow implements GeoEntity {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+
 		return builder;
 	}
 
@@ -250,6 +222,7 @@ public class BrahminEntity extends Cow implements GeoEntity {
 		if (this.deathTime == 20) {
 			this.remove(BrahminEntity.RemovalReason.KILLED);
 			this.dropExperience();
+
 		}
 	}
 
@@ -271,4 +244,5 @@ public class BrahminEntity extends Cow implements GeoEntity {
 	public AnimatableInstanceCache getAnimatableInstanceCache() {
 		return this.cache;
 	}
+
 }

@@ -356,6 +356,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModBlocks.FACILITY_GRID_SLAB.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.LABORATORYCOMPUTERBLOCK.get().asItem());
 				tabData.accept(FalloutWastelandsModBlocks.ENCLAVE_BUNKDER_BLOCK_STAIRS.get().asItem());
+				tabData.accept(FalloutWastelandsModBlocks.BAS_ECORE.get().asItem());
 			})
 
 					.build());
@@ -471,7 +472,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.SECURITY_BATON.get());
 				tabData.accept(FalloutWastelandsModItems.SUPER_SLEDGE.get());
 				tabData.accept(FalloutWastelandsModItems.KNIFE.get());
-				tabData.accept(FalloutWastelandsModItems.PA_FRAME_ITEM.get());
 			})
 
 					.build());
@@ -519,6 +519,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.STEELNUGGET.get());
 				tabData.accept(FalloutWastelandsModItems.TINNUGGET.get());
 				tabData.accept(FalloutWastelandsModItems.URANIUM_NUGGET.get());
+				tabData.accept(FalloutWastelandsModItems.PA_FRAME_ITEM.get());
 				tabData.accept(FalloutWastelandsModItems.BRAHMIN_MEAT.get());
 				tabData.accept(FalloutWastelandsModItems.FERTILIZER.get());
 				tabData.accept(FalloutWastelandsModItems.DENTED_CAN.get());
@@ -598,6 +599,9 @@ public class FalloutWastelandsModTabs {
 			tabData.accept(FalloutWastelandsModItems.FERAL_GHOUL_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.POWER_ARMORED_RAIDER_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.VERTIBIRD_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.FRIENDLY_MK_2_TURRET_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.FRIENDLY_MK_1_TURRET_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.SETTLER_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

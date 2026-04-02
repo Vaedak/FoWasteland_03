@@ -1,0 +1,131 @@
+
+package net.mcreator.falloutwastelands.entity;
+
+import net.minecraft.nbt.Tag;
+import net.minecraft.network.syncher.EntityDataAccessor;
+
+public class FriendlyMK1TurretEntity extends PathfinderMob {
+
+	public FriendlyMK1TurretEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(FalloutWastelandsModEntities.FRIENDLY_MK_1_TURRET.get(), world);
+	}
+
+	public FriendlyMK1TurretEntity(EntityType<FriendlyMK1TurretEntity> type, Level world) {
+		super(type, world);
+		setMaxUpStep(0.6f);
+		xpReward = 0;
+		setNoAi(false);
+
+		setPersistenceRequired();
+
+	}
+
+	@Override
+	public Packet<ClientGamePacketListener> getAddEntityPacket() {
+		return NetworkHooks.getEntitySpawningPacket(this);
+	}
+
+	@Override
+	protected void registerGoals() {
+		super.registerGoals();
+
+		this.targetSelector.addGoal(1, new HurtByTargetGoal(this).setAlertOthers());
+		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Monster.class, false, false));
+
+	}
+
+	@Override
+	public MobType getMobType() {
+		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
+	}
+
+	@Override
+	public double getMyRidingOffset() {
+		return -0.35D;
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		DecrimentDefenseProcedure.execute(this.level(), this);
+	}
+
+	@Override
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
+		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
+		FriendlyMK1TurretOnInitialEntitySpawnProcedure.execute(world, this);
+		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		FriendlyMK1TurretOnEntityTickUpdateProcedure.execute(this);
+	}
+
+	@Override
+	public boolean canBreatheUnderwater() {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		Entity entity = this;
+		return true;
+	}
+
+	@Override
+	public boolean isPushedByFluid() {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		Entity entity = this;
+		return false;
+	}
+
+	@Override
+	public boolean isPushable() {
+		return false;
+	}
+
+	@Override
+	protected void doPush(Entity entityIn) {
+	}
+
+	@Override
+	protected void pushEntities() {
+	}
+
+	@Override
+	public boolean canCollideWith(Entity entity) {
+		return true;
+	}
+
+	@Override
+	public boolean canBeCollidedWith() {
+		return true;
+	}
+
+	public static void init() {
+
+	}
+
+	public static AttributeSupplier.Builder createAttributes() {
+		AttributeSupplier.Builder builder = Mob.createMobAttributes();
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0);
+		builder = builder.add(Attributes.MAX_HEALTH, 10);
+		builder = builder.add(Attributes.ARMOR, 0);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 3);
+
+		return builder;
+	}
+
+}

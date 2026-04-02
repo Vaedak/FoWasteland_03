@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "animatedblock",
   "definition": {
-    "texture": "walkwaytop",
+    "texture": "terminal",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -41,7 +41,11 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": true,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Wastelandblockstab"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -126,6 +130,9 @@
     },
     "onTickUpdate": {
       "name": "BASEcoreUpdateTick"
+    },
+    "onBlockPlayedBy": {
+      "name": "BASEcoreBlockIsPlacedBy"
     },
     "restrictionBiomes": [],
     "blocksToReplace": [],
