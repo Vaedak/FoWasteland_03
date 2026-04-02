@@ -11,7 +11,7 @@
     "rarity": "UNCOMMON",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Wastelanditems"
+        "value": "CUSTOM:Wastelandcombat"
       }
     ],
     "stackSize": 1,

@@ -471,6 +471,7 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.SECURITY_BATON.get());
 				tabData.accept(FalloutWastelandsModItems.SUPER_SLEDGE.get());
 				tabData.accept(FalloutWastelandsModItems.KNIFE.get());
+				tabData.accept(FalloutWastelandsModItems.PA_FRAME_ITEM.get());
 			})
 
 					.build());
@@ -518,7 +519,6 @@ public class FalloutWastelandsModTabs {
 				tabData.accept(FalloutWastelandsModItems.STEELNUGGET.get());
 				tabData.accept(FalloutWastelandsModItems.TINNUGGET.get());
 				tabData.accept(FalloutWastelandsModItems.URANIUM_NUGGET.get());
-				tabData.accept(FalloutWastelandsModItems.PA_FRAME_ITEM.get());
 				tabData.accept(FalloutWastelandsModItems.BRAHMIN_MEAT.get());
 				tabData.accept(FalloutWastelandsModItems.FERTILIZER.get());
 				tabData.accept(FalloutWastelandsModItems.DENTED_CAN.get());

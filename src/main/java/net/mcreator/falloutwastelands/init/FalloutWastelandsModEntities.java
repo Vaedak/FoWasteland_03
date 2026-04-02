@@ -118,7 +118,7 @@ public class FalloutWastelandsModEntities {
 	public static final RegistryObject<EntityType<RadscorpionEntity>> RADSCORPION = register("radscorpion",
 			EntityType.Builder.<RadscorpionEntity>of(RadscorpionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RadscorpionEntity::new)
 
-					.sized(1f, 1f));
+					.sized(1.8f, 1f));
 	public static final RegistryObject<EntityType<FeralGhoulEntity>> FERAL_GHOUL = register("feral_ghoul",
 			EntityType.Builder.<FeralGhoulEntity>of(FeralGhoulEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FeralGhoulEntity::new)
 

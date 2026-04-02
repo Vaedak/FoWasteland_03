@@ -5,10 +5,10 @@
     "type": "Chest",
     "pools": [
       {
-        "minrolls": 1,
-        "maxrolls": 6,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 6,
+        "minrolls": 8,
+        "maxrolls": 18,
+        "minbonusrolls": 2,
+        "maxbonusrolls": 8,
         "hasbonusrolls": true,
         "entries": [
           {
