@@ -601,6 +601,7 @@ public class FalloutWastelandsModTabs {
 			tabData.accept(FalloutWastelandsModItems.VERTIBIRD_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.FRIENDLY_MK_1_TURRET_SPAWN_EGG.get());
 			tabData.accept(FalloutWastelandsModItems.SETTLER_SPAWN_EGG.get());
+			tabData.accept(FalloutWastelandsModItems.FRIENDLY_MK_2_TURRET_SPAWN_EGG.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 

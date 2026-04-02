@@ -26,6 +26,7 @@ import net.mcreator.falloutwastelands.client.renderer.LobotomiteWalkerRenderer;
 import net.mcreator.falloutwastelands.client.renderer.LaserBeamRenderer;
 import net.mcreator.falloutwastelands.client.renderer.GeckoRenderer;
 import net.mcreator.falloutwastelands.client.renderer.FriendlyTurretBulletRenderer;
+import net.mcreator.falloutwastelands.client.renderer.FriendlyMK2TurretRenderer;
 import net.mcreator.falloutwastelands.client.renderer.FriendlyMK1TurretRenderer;
 import net.mcreator.falloutwastelands.client.renderer.FloaterRenderer;
 import net.mcreator.falloutwastelands.client.renderer.FeralGhoulRenderer;
@@ -72,5 +73,6 @@ public class FalloutWastelandsModEntityRenderers {
 		event.registerEntityRenderer(FalloutWastelandsModEntities.FRIENDLY_MK_1_TURRET.get(), FriendlyMK1TurretRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.SETTLER.get(), SettlerRenderer::new);
 		event.registerEntityRenderer(FalloutWastelandsModEntities.FRIENDLY_TURRET_BULLET.get(), FriendlyTurretBulletRenderer::new);
+		event.registerEntityRenderer(FalloutWastelandsModEntities.FRIENDLY_MK_2_TURRET.get(), FriendlyMK2TurretRenderer::new);
 	}
 }

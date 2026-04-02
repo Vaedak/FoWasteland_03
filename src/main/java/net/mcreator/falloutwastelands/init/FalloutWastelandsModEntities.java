@@ -35,6 +35,7 @@ import net.mcreator.falloutwastelands.entity.LobotomiteWalkerEntity;
 import net.mcreator.falloutwastelands.entity.LaserBeamEntity;
 import net.mcreator.falloutwastelands.entity.GeckoEntity;
 import net.mcreator.falloutwastelands.entity.FriendlyTurretBulletEntity;
+import net.mcreator.falloutwastelands.entity.FriendlyMK2TurretEntity;
 import net.mcreator.falloutwastelands.entity.FriendlyMK1TurretEntity;
 import net.mcreator.falloutwastelands.entity.FloaterEntity;
 import net.mcreator.falloutwastelands.entity.FeralGhoulEntity;
@@ -152,6 +153,10 @@ public class FalloutWastelandsModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<FriendlyTurretBulletEntity>> FRIENDLY_TURRET_BULLET = register("friendly_turret_bullet", EntityType.Builder.<FriendlyTurretBulletEntity>of(FriendlyTurretBulletEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(FriendlyTurretBulletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.1f, 0.1f));
+	public static final RegistryObject<EntityType<FriendlyMK2TurretEntity>> FRIENDLY_MK_2_TURRET = register("friendly_mk_2_turret",
+			EntityType.Builder.<FriendlyMK2TurretEntity>of(FriendlyMK2TurretEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FriendlyMK2TurretEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -182,6 +187,7 @@ public class FalloutWastelandsModEntities {
 			VertibirdEntity.init();
 			FriendlyMK1TurretEntity.init();
 			SettlerEntity.init();
+			FriendlyMK2TurretEntity.init();
 		});
 	}
 
@@ -209,5 +215,6 @@ public class FalloutWastelandsModEntities {
 		event.put(VERTIBIRD.get(), VertibirdEntity.createAttributes().build());
 		event.put(FRIENDLY_MK_1_TURRET.get(), FriendlyMK1TurretEntity.createAttributes().build());
 		event.put(SETTLER.get(), SettlerEntity.createAttributes().build());
+		event.put(FRIENDLY_MK_2_TURRET.get(), FriendlyMK2TurretEntity.createAttributes().build());
 	}
 }

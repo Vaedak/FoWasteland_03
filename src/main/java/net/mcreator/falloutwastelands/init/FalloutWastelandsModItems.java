@@ -759,6 +759,7 @@ public class FalloutWastelandsModItems {
 	public static final RegistryObject<Item> FRIENDLY_MK_1_TURRET_SPAWN_EGG = REGISTRY.register("friendly_mk_1_turret_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.FRIENDLY_MK_1_TURRET, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> SETTLER_SPAWN_EGG = REGISTRY.register("settler_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.SETTLER, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> BASE_TIER_ICON = REGISTRY.register("base_tier_icon", () -> new BASETierIconItem());
+	public static final RegistryObject<Item> FRIENDLY_MK_2_TURRET_SPAWN_EGG = REGISTRY.register("friendly_mk_2_turret_spawn_egg", () -> new ForgeSpawnEggItem(FalloutWastelandsModEntities.FRIENDLY_MK_2_TURRET, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
